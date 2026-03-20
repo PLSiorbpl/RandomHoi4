@@ -1,4 +1,4 @@
-name="RandomHoi4"
+name="Coolpack"
 picture="thumbnail.png"
 version="v1"
 user_dir="RandomHoi4"
