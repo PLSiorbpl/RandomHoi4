@@ -419,7 +419,15 @@ if = {
 	}
 	set_naval_oob = "BEJ_1936_naval_mtg"
 }
-
+	create_country_leader = {
+		name = "Bully Boy"
+		desc = ""
+		picture = "gfx/leaders/BEJ/Portrait_Czech_Jaroslav_Krejci.dds"
+		ideology = nazism
+		traits = {
+			#
+		}	
+	}
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
