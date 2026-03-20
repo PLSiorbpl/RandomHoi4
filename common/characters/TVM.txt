@@ -1,0 +1,880 @@
+characters = {
+	TVM_Kari_Adraw={
+		name="Kari Adraw"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TVM_Aziane_Tizi={
+		name="Aziane Tizi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Aziane_Tizi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TVM_Mokrannissa_Takhmi={
+		name="Mokrannissa Takhmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Mokrannissa_Takhmi
+				traits = {	humble 	}
+		}
+
+	}
+	TVM_Mokran_Ayurt={
+		name="Mokran Ayurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Mokran_Ayurt
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TVM_Mokrannissa_Tamsal={
+		name="Mokrannissa Tamsal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Mokrannissa_Tamsal
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TVM_Massinissini_Tamsal={
+		name="Massinissini Tamsal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Massinissini_Tamsal
+				traits = {	headstrong 	}
+		}
+
+	}
+	TVM_Saidi_Tamsal={
+		name="Saidi Tamsal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Saidi_Tamsal
+				traits = {	humble 	}
+		}
+
+	}
+	TVM_Ziriq_Tamday={
+		name="Ziriq Tamday"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Ziriq_Tamday
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TVM_Tahariq_Tislit={
+		name="Tahariq Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Tahariq_Tislit
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TVM_Amad_Tazwarwart={
+		name="Amad Tazwarwart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Amad_Tazwarwart
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TVM_Aselmar_Ayurt={
+		name="Aselmar Ayurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Aselmar_Ayurt
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TVM_Saidi_Tizi={
+		name="Saidi Tizi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Saidi_Tizi
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TVM_Tahar_Adraw={
+		name="Tahar Adraw"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Tahar_Adraw
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TVM_Iskaren_Ayurt={
+		name="Iskaren Ayurt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Iskaren_Ayurt
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TVM_Yannissinis_Tamsal={
+		name="Yannissinis Tamsal"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Yannissinis_Tamsal
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TVM_Mokrannissa_Tizi={
+		name="Mokrannissa Tizi"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Mokrannissa_Tizi
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TVM_Iskarim_Amdan={
+		name="Iskarim Amdan"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Iskarim_Amdan
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TVM_Mokrane_Tamday={
+		name="Mokrane Tamday"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Mokrane_Tamday
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	TVM_Tahariq_Ayurt={
+		name="Tahariq Ayurt"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Tahariq_Ayurt
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	TVM_Lyes_Adraw={
+		name="Lyes Adraw"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Lyes_Adraw
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TVM_Amokrane_Tazwarwart={
+		name="Amokrane Tazwarwart"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amokrane_Tazwarwart
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	TVM_Iderfan_Ayurt={
+		name="Iderfan Ayurt"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TVM_Tahar_Tazwarwart={
+		name="Tahar Tazwarwart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Tahar_Tazwarwart
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TVM_Tahar_Tislit={
+		name="Tahar Tislit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Tahar_Tislit
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TVM_Iderfan_Amdan={
+		name="Iderfan Amdan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Iderfan_Amdan
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TVM_Amokrane_Tamsal={
+		name="Amokrane Tamsal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Amokrane_Tamsal
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TVM_Ziri_Adraw={
+		name="Ziri Adraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Ziri_Adraw
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	TVM_Massinissini_Tizi={
+		name="Massinissini Tizi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Massinissini_Tizi
+				traits = {	infirm 	}
+		}
+
+	}
+	TVM_Massinissini_Adraw={
+		name="Massinissini Adraw"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Massinissini_Adraw
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TVM_Iderfan_Tazwarwart={
+		name="Iderfan Tazwarwart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Iderfan_Tazwarwart
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TVM_Ziriq_Takhmi={
+		name="Ziriq Takhmi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Ziriq_Takhmi
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TVM_Karimoun_Tazwarwart={
+		name="Karimoun Tazwarwart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Karimoun_Tazwarwart
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TVM_Meziane_Tazwarwart={
+		name="Meziane Tazwarwart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Meziane_Tazwarwart
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TVM_Aselmari_Tamday={
+		name="Aselmari Tamday"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Aselmari_Tamday
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TVM_Lyes_Tizi={
+		name="Lyes Tizi"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Lyes_Tizi
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TVM_Iskar_Tazwarwart={
+		name="Iskar Tazwarwart"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Iskar_Tazwarwart
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TVM_Amoun_Adraw={
+		name="Amoun Adraw"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amoun_Adraw
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	TVM_Karimoun_Ayurt={
+		name="Karimoun Ayurt"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Karimoun_Ayurt
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TVM_Iskar_Takhmi={
+		name="Iskar Takhmi"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Iskar_Takhmi
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	TVM_Iskaren_Tamsal={
+		name="Iskaren Tamsal"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Iskaren_Tamsal
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TVM_Amoun_Takhmi={
+		name="Amoun Takhmi"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amoun_Takhmi
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TVM_Amokrane_Amdan={
+		name="Amokrane Amdan"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amokrane_Amdan
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TVM_Massinis_Takhmi={
+		name="Massinis Takhmi"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TVM_Meziane_Tislit={
+		name="Meziane Tislit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Meziane_Tislit
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TVM_Mimokran_Takhmi={
+		name="Mimokran Takhmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Mimokran_Takhmi
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TVM_Azian_Amerwin={
+		name="Azian Amerwin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Azian_Amerwin
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TVM_Mimoun_Adraw={
+		name="Mimoun Adraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Mimoun_Adraw
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TVM_Yannissinis_Amdan={
+		name="Yannissinis Amdan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Yannissinis_Amdan
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TVM_Zirim_Tislit={
+		name="Zirim Tislit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Zirim_Tislit
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TVM_Aselmari_Takhmi={
+		name="Aselmari Takhmi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Aselmari_Takhmi
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TVM_Aselmari_Ayurt={
+		name="Aselmari Ayurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Aselmari_Ayurt
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TVM_Lyes_Ayurt={
+		name="Lyes Ayurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Lyes_Ayurt
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TVM_Karimoun_Tamsal={
+		name="Karimoun Tamsal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Karimoun_Tamsal
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TVM_Massa_Tamsal={
+		name="Massa Tamsal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Massa_Tamsal
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TVM_Yannissinis_Tamday={
+		name="Yannissinis Tamday"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Yannissinis_Tamday
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TVM_Ziriq_Amerwin={
+		name="Ziriq Amerwin"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Ziriq_Amerwin
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TVM_Amokrannis_Adraw={
+		name="Amokrannis Adraw"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Amokrannis_Adraw
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TVM_Amar_Tislit={
+		name="Amar Tislit"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amar_Tislit
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	TVM_Amokrannis_Tizi={
+		name="Amokrannis Tizi"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amokrannis_Tizi
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	TVM_Mokran_Adraw={
+		name="Mokran Adraw"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Mokran_Adraw
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TVM_Amar_Tamday={
+		name="Amar Tamday"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amar_Tamday
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TVM_Amar_Tizi={
+		name="Amar Tizi"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amar_Tizi
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	TVM_Saidi_Tazwarwart={
+		name="Saidi Tazwarwart"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Saidi_Tazwarwart
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TVM_Ziriq_Ayurt={
+		name="Ziriq Ayurt"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TVM_Iskarim_Tamday={
+		name="Iskarim Tamday"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Iskarim_Tamday
+				traits = {	rearmer 	}
+		}
+
+	}
+	TVM_Massinissini_Ayurt={
+		name="Massinissini Ayurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Massinissini_Ayurt
+				traits = {	rearmer 	}
+		}
+
+	}
+	TVM_Mokran_Amerwin={
+		name="Mokran Amerwin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Mokran_Amerwin
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TVM_Amad_Ayurt={
+		name="Amad Ayurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Amad_Ayurt
+				traits = {	infirm 	}
+		}
+
+	}
+	TVM_Karimoun_Amdan={
+		name="Karimoun Amdan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Karimoun_Amdan
+				traits = {	the_banker 	}
+		}
+
+	}
+	TVM_Ziriq_Tamsal={
+		name="Ziriq Tamsal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TVM_Ziriq_Tamsal
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TVM_Kari_Amdan={
+		name="Kari Amdan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Kari_Amdan
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TVM_Taharimokran_Tislit={
+		name="Taharimokran Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Taharimokran_Tislit
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TVM_Tarimokrane_Tizi={
+		name="Tarimokrane Tizi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Tarimokrane_Tizi
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TVM_Mimoun_Tamsal={
+		name="Mimoun Tamsal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TVM_Mimoun_Tamsal
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TVM_Aziz_Tislit={
+		name="Aziz Tislit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Aziz_Tislit
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TVM_Yannissinis_Tislit={
+		name="Yannissinis Tislit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TVM_Yannissinis_Tislit
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TVM_Aziane_Takhmi={
+		name="Aziane Takhmi"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Aziane_Takhmi
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TVM_Amokrannis_Tislit={
+		name="Amokrannis Tislit"
+
+		advisor={
+			slot = air_chief
+			idea_token = TVM_Amokrannis_Tislit
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TVM_Iskarim_Ayurt={
+		name="Iskarim Ayurt"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Iskarim_Ayurt
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TVM_Amokrane_Takhmi={
+		name="Amokrane Takhmi"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amokrane_Takhmi
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	TVM_Amar_Amerwin={
+		name="Amar Amerwin"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Amar_Amerwin
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TVM_Mimoun_Amdan={
+		name="Mimoun Amdan"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Mimoun_Amdan
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TVM_Mokran_Tazwarwart={
+		name="Mokran Tazwarwart"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Mokran_Tazwarwart
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	TVM_Taharen_Ayurt={
+		name="Taharen Ayurt"
+
+		advisor={
+			slot = high_command
+			idea_token = TVM_Taharen_Ayurt
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TVM_Taharimokran_Amerwin={
+		name="Taharimokran Amerwin"
+
+		advisor={
+			slot = theorist
+			idea_token = TVM_Taharimokran_Amerwin
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TVM_Taharimokran_Tamday={
+		name="Taharimokran Tamday"
+
+		advisor={
+			slot = theorist
+			idea_token = TVM_Taharimokran_Tamday
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TVM_Tahar_Ayurt={
+		name="Tahar Ayurt"
+
+		advisor={
+			slot = theorist
+			idea_token = TVM_Tahar_Ayurt
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

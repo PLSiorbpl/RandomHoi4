@@ -1,0 +1,40 @@
+
+state={
+	id=301
+	name="STATE_301"
+	manpower = 1651105
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4456 6}
+		victory_points = { 4461 6}
+		victory_points = { 4476 3}
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		4451 4452 4453 4454 4455 4456 4457 4458 4459 4460 4461 4462 4463 4464 4465 4466 4467 4468 4469 4470 4471 4472 4473 4474 4475 4476 4477 4478 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=485
+	name="STATE_485"
+	manpower = 1137805
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6887 4}
+		victory_points = { 6893 4}
+		victory_points = { 6897 1}
+		
+		owner = JRE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			6891 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JRE
+	}
+
+	provinces={
+		6882 6883 6884 6885 6886 6887 6888 6889 6890 6891 6892 6893 6894 6895 6896 6897 6898 6899 6900 6901 6902 
+	}
+	local_supplies=0.0 
+}

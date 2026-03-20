@@ -1,0 +1,41 @@
+
+state={
+	id=155
+	name="STATE_155"
+	manpower = 799588
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 2442 2}
+		victory_points = { 2445 2}
+		victory_points = { 2448 1}
+		victory_points = { 2451 2}
+		
+		owner = TYH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TYH
+	}
+
+	provinces={
+		2442 2443 2444 2445 2446 2447 2448 2449 2450 2451 2452 2453 2454 
+	}
+	local_supplies=0.0 
+}

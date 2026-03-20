@@ -1,0 +1,42 @@
+
+state={
+	id=995
+	name="STATE_995"
+	manpower = 1311731
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13717 1}
+		victory_points = { 13723 3}
+		victory_points = { 13725 3}
+		victory_points = { 13727 1}
+		victory_points = { 13730 3}
+		
+		owner = EOI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = EOI
+	}
+
+	provinces={
+		13716 13717 13718 13719 13720 13721 13722 13723 13724 13725 13726 13727 13728 13729 13730 13731 13732 13733 13734 13735 13736 13737 13738 
+	}
+	local_supplies=0.0 
+}

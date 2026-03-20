@@ -1,0 +1,48 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Bois Fleet"			
+		naval_base = 17075
+		task_force = {
+			name = "Bois Fleet"
+			location = 17075
+			
+						ship = { name = "Breite" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = EOI version_name = "Breancha Class" } }	}
+			ship = { name = "Boglachailin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Uisleann" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Breancha" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EOI version_name = "Breite Class" } }	}
+			ship = { name = "Breite 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EOI version_name = "Breite Class" } }	}
+			ship = { name = "Cilina" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = EOI version_name = "Boglachailin Class" } }	}
+			ship = { name = "Cilina 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = EOI version_name = "Boglachailin Class" } }	}
+			ship = { name = "Breite 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Breite 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Breite 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EOI version_name = "Breite Class" } }	}
+			ship = { name = "Boglachailin 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Cilina 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Breancha 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EOI version_name = "Breite Class" } }	}
+			ship = { name = "Cilina 4" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = EOI version_name = "Boglachailin Class" } }	}
+			ship = { name = "Cais" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Uisleann 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = EOI version_name = "Boglachailin Class" } }	}
+			ship = { name = "Uisleann 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = EOI version_name = "Boglachailin Class" } }	}
+			ship = { name = "Breite 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Boglachailin 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = EOI version_name = "Boglachailin Class" } }	}
+			ship = { name = "Breite 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Breite 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = EOI version_name = "Cais Class" } }	}
+			ship = { name = "Breite 9" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = EOI version_name = "Boglachailin Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

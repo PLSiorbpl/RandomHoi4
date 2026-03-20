@@ -1,0 +1,880 @@
+characters = {
+	TYH_Heif_Feuester={
+		name="Heif Feuester"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYH_Berenritz_Gerg={
+		name="Berenritz Gerg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Berenritz_Gerg
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TYH_Rich_Bruer={
+		name="Rich Bruer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Rich_Bruer
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TYH_Wilhelmut_Schiffnunder={
+		name="Wilhelmut Schiffnunder"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Wilhelmut_Schiffnunder
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TYH_Niels_Golkelle={
+		name="Niels Golkelle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Niels_Golkelle
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TYH_Sten_Feuester={
+		name="Sten Feuester"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Sten_Feuester
+				traits = {	headstrong 	}
+		}
+
+	}
+	TYH_Kaspar_Schiffnunder={
+		name="Kaspar Schiffnunder"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Kaspar_Schiffnunder
+				traits = {	headstrong 	}
+		}
+
+	}
+	TYH_Joharan_Ster={
+		name="Joharan Ster"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Joharan_Ster
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TYH_Sigurd_Feuester={
+		name="Sigurd Feuester"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Sigurd_Feuester
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TYH_Sigurd_Golkelle={
+		name="Sigurd Golkelle"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Sigurd_Golkelle
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TYH_Hann_Ster={
+		name="Hann Ster"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Hann_Ster
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TYH_Svend_Torieg={
+		name="Svend Torieg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Svend_Torieg
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TYH_Franz_Prichwester={
+		name="Franz Prichwester"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Franz_Prichwester
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TYH_Emillem_Prichwester={
+		name="Emillem Prichwester"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Emillem_Prichwester
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TYH_Leinrik_Golkelle={
+		name="Leinrik Golkelle"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Leinrik_Golkelle
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TYH_Rolkermans_Bruer={
+		name="Rolkermans Bruer"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Rolkermans_Bruer
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TYH_Frans_Schiffnunder={
+		name="Frans Schiffnunder"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Frans_Schiffnunder
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	TYH_Sven_Dung={
+		name="Sven Dung"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Sven_Dung
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TYH_Arne_Schiffnunder={
+		name="Arne Schiffnunder"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Arne_Schiffnunder
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TYH_Sorne_Dung={
+		name="Sorne Dung"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Sorne_Dung
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	TYH_Willem_Gerg={
+		name="Willem Gerg"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Willem_Gerg
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TYH_Emilhelm_Feuester={
+		name="Emilhelm Feuester"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYH_Svend_Prichwester={
+		name="Svend Prichwester"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Svend_Prichwester
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TYH_Wilhels_Golkelle={
+		name="Wilhels Golkelle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Wilhels_Golkelle
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TYH_Janz_Golkelle={
+		name="Janz Golkelle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Janz_Golkelle
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TYH_Emillem_Torieg={
+		name="Emillem Torieg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Emillem_Torieg
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TYH_Ulrik_Schiffnunder={
+		name="Ulrik Schiffnunder"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Ulrik_Schiffnunder
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TYH_Volkers_Prichwester={
+		name="Volkers Prichwester"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Volkers_Prichwester
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	TYH_Sten_Ster={
+		name="Sten Ster"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Sten_Ster
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TYH_Janz_Prichwester={
+		name="Janz Prichwester"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Janz_Prichwester
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TYH_Wilhelmut_Feuester={
+		name="Wilhelmut Feuester"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Wilhelmut_Feuester
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TYH_Joharan_Schiffnunder={
+		name="Joharan Schiffnunder"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Joharan_Schiffnunder
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TYH_Hakon_Gerg={
+		name="Hakon Gerg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Hakon_Gerg
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TYH_Georenrik_Prichwester={
+		name="Georenrik Prichwester"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Georenrik_Prichwester
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TYH_Ericharald_Feuester={
+		name="Ericharald Feuester"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Ericharald_Feuester
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TYH_Heif_Schiffnunder={
+		name="Heif Schiffnunder"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Heif_Schiffnunder
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TYH_Rolkermansel_Feuester={
+		name="Rolkermansel Feuester"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Rolkermansel_Feuester
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TYH_Sten_Dung={
+		name="Sten Dung"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Sten_Dung
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TYH_Sven_Schiffnunder={
+		name="Sven Schiffnunder"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Sven_Schiffnunder
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TYH_Wilhelmut_Prichwester={
+		name="Wilhelmut Prichwester"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Wilhelmut_Prichwester
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TYH_Vold_Schiffnunder={
+		name="Vold Schiffnunder"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Vold_Schiffnunder
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TYH_Kaspars_Golkelle={
+		name="Kaspars Golkelle"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Kaspars_Golkelle
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	TYH_Arne_Prichwester={
+		name="Arne Prichwester"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYH_Vold_Ster={
+		name="Vold Ster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Vold_Ster
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TYH_Otto_Gerg={
+		name="Otto Gerg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Otto_Gerg
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TYH_Fran_Dung={
+		name="Fran Dung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Fran_Dung
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TYH_Rudold_Feuester={
+		name="Rudold Feuester"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Rudold_Feuester
+				traits = {	infirm 	}
+		}
+
+	}
+	TYH_Rich_Golkelle={
+		name="Rich Golkelle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Rich_Golkelle
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TYH_Jansels_Ster={
+		name="Jansels Ster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Jansels_Ster
+				traits = {	infirm 	}
+		}
+
+	}
+	TYH_Wilhelmut_Volke={
+		name="Wilhelmut Volke"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Wilhelmut_Volke
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TYH_Ulrik_Dung={
+		name="Ulrik Dung"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Ulrik_Dung
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TYH_Heinhold_Schiffnunder={
+		name="Heinhold Schiffnunder"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Heinhold_Schiffnunder
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TYH_Bjorg_Golkelle={
+		name="Bjorg Golkelle"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Bjorg_Golkelle
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TYH_Hakon_Prichwester={
+		name="Hakon Prichwester"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Hakon_Prichwester
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TYH_Emilhelm_Torieg={
+		name="Emilhelm Torieg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Emilhelm_Torieg
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TYH_Frichar_Dung={
+		name="Frichar Dung"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Frichar_Dung
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TYH_Volkers_Volke={
+		name="Volkers Volke"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Volkers_Volke
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TYH_Sven_Prichwester={
+		name="Sven Prichwester"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Sven_Prichwester
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	TYH_Svenrik_Golkelle={
+		name="Svenrik Golkelle"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Svenrik_Golkelle
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	TYH_Kaspard_Ster={
+		name="Kaspard Ster"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Kaspard_Ster
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	TYH_Eirk_Ster={
+		name="Eirk Ster"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Eirk_Ster
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TYH_Joharan_Torieg={
+		name="Joharan Torieg"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Joharan_Torieg
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	TYH_Rolkermans_Prichwester={
+		name="Rolkermans Prichwester"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Rolkermans_Prichwester
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TYH_Magnus_Gerg={
+		name="Magnus Gerg"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYH_Vold_Torieg={
+		name="Vold Torieg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Vold_Torieg
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TYH_Niels_Volke={
+		name="Niels Volke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Niels_Volke
+				traits = {	infirm 	}
+		}
+
+	}
+	TYH_Sven_Ster={
+		name="Sven Ster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Sven_Ster
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TYH_Leinrik_Dung={
+		name="Leinrik Dung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Leinrik_Dung
+				traits = {	first_lady 	}
+		}
+
+	}
+	TYH_Hann_Volke={
+		name="Hann Volke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Hann_Volke
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TYH_Volfrend_Schiffnunder={
+		name="Volfrend Schiffnunder"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TYH_Volfrend_Schiffnunder
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TYH_Georenrik_Volke={
+		name="Georenrik Volke"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Georenrik_Volke
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TYH_Sorne_Gerg={
+		name="Sorne Gerg"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Sorne_Gerg
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TYH_Matthijs_Schiffnunder={
+		name="Matthijs Schiffnunder"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Matthijs_Schiffnunder
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TYH_Heif_Torieg={
+		name="Heif Torieg"
+
+		advisor={
+			slot = army_chief
+			idea_token = TYH_Heif_Torieg
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TYH_Rolkermansel_Golkelle={
+		name="Rolkermansel Golkelle"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Rolkermansel_Golkelle
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TYH_Rolkermans_Ster={
+		name="Rolkermans Ster"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TYH_Rolkermans_Ster
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TYH_Svenritz_Feuester={
+		name="Svenritz Feuester"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Svenritz_Feuester
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TYH_Sten_Gerg={
+		name="Sten Gerg"
+
+		advisor={
+			slot = air_chief
+			idea_token = TYH_Sten_Gerg
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TYH_Berens_Gerg={
+		name="Berens Gerg"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Berens_Gerg
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	TYH_Heinrich_Bruer={
+		name="Heinrich Bruer"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Heinrich_Bruer
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	TYH_Niels_Torieg={
+		name="Niels Torieg"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Niels_Torieg
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	TYH_Emilhelm_Schiffnunder={
+		name="Emilhelm Schiffnunder"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Emilhelm_Schiffnunder
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TYH_Leinrik_Bruer={
+		name="Leinrik Bruer"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Leinrik_Bruer
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	TYH_Wilhels_Schiffnunder={
+		name="Wilhels Schiffnunder"
+
+		advisor={
+			slot = high_command
+			idea_token = TYH_Wilhels_Schiffnunder
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TYH_Berenritz_Dung={
+		name="Berenritz Dung"
+
+		advisor={
+			slot = theorist
+			idea_token = TYH_Berenritz_Dung
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TYH_Ericharald_Prichwester={
+		name="Ericharald Prichwester"
+
+		advisor={
+			slot = theorist
+			idea_token = TYH_Ericharald_Prichwester
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TYH_Rudolf_Volke={
+		name="Rudolf Volke"
+
+		advisor={
+			slot = theorist
+			idea_token = TYH_Rudolf_Volke
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

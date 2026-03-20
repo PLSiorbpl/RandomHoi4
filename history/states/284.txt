@@ -1,0 +1,41 @@
+
+state={
+	id=284
+	name="STATE_284"
+	manpower = 399878
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4221 2}
+		
+		owner = SIJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4224 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SIJ
+	}
+
+	provinces={
+		4221 4222 4223 4224 4225 4226 
+	}
+	local_supplies=0.0 
+}

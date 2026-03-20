@@ -1,0 +1,40 @@
+
+state={
+	id=1134
+	name="STATE_1134"
+	manpower = 7352
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = QRR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			15780 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QRR
+	}
+
+	provinces={
+		15769 15770 15771 15772 15773 15774 15775 15776 15777 15778 15779 15780 15781 15782 15783 15784 15785 15786 15787 15788 15789 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kanneerai Fleet"			
+		naval_base = 14371
+		task_force = {
+			name = "Kanneerai Fleet"
+			location = 14371
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

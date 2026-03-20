@@ -1,0 +1,880 @@
+characters = {
+	RDE_Rami_Reej={
+		name="Rami Reej"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RDE_Yahmariq_Tarra={
+		name="Yahmariq Tarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Yahmariq_Tarra
+				traits = {	headstrong 	}
+		}
+
+	}
+	RDE_Omal_Maka={
+		name="Omal Maka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Omal_Maka
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	RDE_Samad_Imah={
+		name="Samad Imah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Samad_Imah
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	RDE_Karid_Zahjar={
+		name="Karid Zahjar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Karid_Zahjar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RDE_Bilal_Hilm={
+		name="Bilal Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Bilal_Hilm
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RDE_Jami_Maka={
+		name="Jami Maka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Jami_Maka
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RDE_Zaisal_Imah={
+		name="Zaisal Imah"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Zaisal_Imah
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	RDE_Zaisal_Hilm={
+		name="Zaisal Hilm"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Zaisal_Hilm
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	RDE_Mohami_Maka={
+		name="Mohami Maka"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Mohami_Maka
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	RDE_Karim_Hilm={
+		name="Karim Hilm"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Karim_Hilm
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RDE_Hammed_Zahjar={
+		name="Hammed Zahjar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Hammed_Zahjar
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	RDE_Tarim_Diwatashfa={
+		name="Tarim Diwatashfa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Tarim_Diwatashfa
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	RDE_Khammed_Hilm={
+		name="Khammed Hilm"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Khammed_Hilm
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	RDE_Omar_Tarra={
+		name="Omar Tarra"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Omar_Tarra
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	RDE_Khal_Imah={
+		name="Khal Imah"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Khal_Imah
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	RDE_Ramza_Reej={
+		name="Ramza Reej"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Ramza_Reej
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	RDE_Sami_Diwatashfa={
+		name="Sami Diwatashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Sami_Diwatashfa
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	RDE_Tariq_Imah={
+		name="Tariq Imah"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Tariq_Imah
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	RDE_Omarid_Tarra={
+		name="Omarid Tarra"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Omarid_Tarra
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	RDE_Jamir_Reej={
+		name="Jamir Reej"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Jamir_Reej
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	RDE_Sami_Wasra={
+		name="Sami Wasra"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RDE_Samza_Maka={
+		name="Samza Maka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Samza_Maka
+				traits = {	autokrator 	}
+		}
+
+	}
+	RDE_Faisan_Tarra={
+		name="Faisan Tarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Faisan_Tarra
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	RDE_Faid_Wasra={
+		name="Faid Wasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Faid_Wasra
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	RDE_Mohamir_Sabr={
+		name="Mohamir Sabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Mohamir_Sabr
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	RDE_Mahmoud_Sabr={
+		name="Mahmoud Sabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Mahmoud_Sabr
+				traits = {	warmonger 	}
+		}
+
+	}
+	RDE_Rammed_Hilm={
+		name="Rammed Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Rammed_Hilm
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RDE_Ibrahmoud_Zahjar={
+		name="Ibrahmoud Zahjar"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Ibrahmoud_Zahjar
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	RDE_Zaid_Tarra={
+		name="Zaid Tarra"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Zaid_Tarra
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	RDE_Majid_Reej={
+		name="Majid Reej"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Majid_Reej
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	RDE_Samariq_Tarra={
+		name="Samariq Tarra"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Samariq_Tarra
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RDE_Ramarid_Maka={
+		name="Ramarid Maka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Ramarid_Maka
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	RDE_Samir_Maka={
+		name="Samir Maka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Samir_Maka
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	RDE_Zaisal_Tarra={
+		name="Zaisal Tarra"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Zaisal_Tarra
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	RDE_Zaid_Sabr={
+		name="Zaid Sabr"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Zaid_Sabr
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	RDE_Ahmad_Diwatashfa={
+		name="Ahmad Diwatashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Ahmad_Diwatashfa
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	RDE_Rami_Sabr={
+		name="Rami Sabr"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Rami_Sabr
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	RDE_Tarid_Maka={
+		name="Tarid Maka"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Tarid_Maka
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	RDE_Bilal_Imah={
+		name="Bilal Imah"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Bilal_Imah
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	RDE_Yahmad_Zahjar={
+		name="Yahmad Zahjar"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Yahmad_Zahjar
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	RDE_Rami_Tarra={
+		name="Rami Tarra"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Rami_Tarra
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	RDE_Rammed_Maka={
+		name="Rammed Maka"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RDE_Samariq_Wasra={
+		name="Samariq Wasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Samariq_Wasra
+				traits = {	infirm 	}
+		}
+
+	}
+	RDE_Tarid_Hilm={
+		name="Tarid Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Tarid_Hilm
+				traits = {	polemarch 	}
+		}
+
+	}
+	RDE_Mohami_Diwatashfa={
+		name="Mohami Diwatashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Mohami_Diwatashfa
+				traits = {	polemarch 	}
+		}
+
+	}
+	RDE_Hammed_Reej={
+		name="Hammed Reej"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Hammed_Reej
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	RDE_Saad_Reej={
+		name="Saad Reej"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Saad_Reej
+				traits = {	political_dancer 	}
+		}
+
+	}
+	RDE_Ibran_Diwatashfa={
+		name="Ibran Diwatashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Ibran_Diwatashfa
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	RDE_Rami_Imah={
+		name="Rami Imah"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Rami_Imah
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	RDE_Bilal_Sabr={
+		name="Bilal Sabr"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Bilal_Sabr
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	RDE_Nabil_Zahjar={
+		name="Nabil Zahjar"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Nabil_Zahjar
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	RDE_Khamir_Sabr={
+		name="Khamir Sabr"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Khamir_Sabr
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	RDE_Mohami_Zahjar={
+		name="Mohami Zahjar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Mohami_Zahjar
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	RDE_Nabil_Wasra={
+		name="Nabil Wasra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Nabil_Wasra
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	RDE_Mahya_Wasra={
+		name="Mahya Wasra"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Mahya_Wasra
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	RDE_Yahmad_Imah={
+		name="Yahmad Imah"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Yahmad_Imah
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	RDE_Zaid_Reej={
+		name="Zaid Reej"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Zaid_Reej
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	RDE_Majid_Hilm={
+		name="Majid Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Majid_Hilm
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	RDE_Adnan_Tarra={
+		name="Adnan Tarra"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Adnan_Tarra
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	RDE_Hamza_Reej={
+		name="Hamza Reej"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Hamza_Reej
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	RDE_Tarim_Reej={
+		name="Tarim Reej"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Tarim_Reej
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	RDE_Bilal_Tarra={
+		name="Bilal Tarra"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Bilal_Tarra
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	RDE_Samad_Diwatashfa={
+		name="Samad Diwatashfa"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RDE_Majid_Diwatashfa={
+		name="Majid Diwatashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Majid_Diwatashfa
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	RDE_Alid_Tarra={
+		name="Alid Tarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Alid_Tarra
+				traits = {	first_lady 	}
+		}
+
+	}
+	RDE_Jamza_Imah={
+		name="Jamza Imah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Jamza_Imah
+				traits = {	first_lady 	}
+		}
+
+	}
+	RDE_Jamza_Sabr={
+		name="Jamza Sabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Jamza_Sabr
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	RDE_Hamza_Wasra={
+		name="Hamza Wasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Hamza_Wasra
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	RDE_Samad_Maka={
+		name="Samad Maka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RDE_Samad_Maka
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	RDE_Samad_Zahjar={
+		name="Samad Zahjar"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Samad_Zahjar
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	RDE_Majid_Wasra={
+		name="Majid Wasra"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Majid_Wasra
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	RDE_Zaisan_Reej={
+		name="Zaisan Reej"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Zaisan_Reej
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	RDE_Hamza_Diwatashfa={
+		name="Hamza Diwatashfa"
+
+		advisor={
+			slot = army_chief
+			idea_token = RDE_Hamza_Diwatashfa
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	RDE_Khammed_Sabr={
+		name="Khammed Sabr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Khammed_Sabr
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	RDE_Yusuf_Tarra={
+		name="Yusuf Tarra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RDE_Yusuf_Tarra
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	RDE_Zaisan_Hilm={
+		name="Zaisan Hilm"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Zaisan_Hilm
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	RDE_Ibrahmoud_Sabr={
+		name="Ibrahmoud Sabr"
+
+		advisor={
+			slot = air_chief
+			idea_token = RDE_Ibrahmoud_Sabr
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	RDE_Jami_Diwatashfa={
+		name="Jami Diwatashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Jami_Diwatashfa
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	RDE_Abdullali_Imah={
+		name="Abdullali Imah"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Abdullali_Imah
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	RDE_Ibran_Zahjar={
+		name="Ibran Zahjar"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Ibran_Zahjar
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	RDE_Hammed_Imah={
+		name="Hammed Imah"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Hammed_Imah
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	RDE_Omal_Zahjar={
+		name="Omal Zahjar"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Omal_Zahjar
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	RDE_Imran_Zahjar={
+		name="Imran Zahjar"
+
+		advisor={
+			slot = high_command
+			idea_token = RDE_Imran_Zahjar
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	RDE_Hamza_Hilm={
+		name="Hamza Hilm"
+
+		advisor={
+			slot = theorist
+			idea_token = RDE_Hamza_Hilm
+				traits = {	military_theorist 	}
+		}
+
+	}
+	RDE_Nabil_Sabr={
+		name="Nabil Sabr"
+
+		advisor={
+			slot = theorist
+			idea_token = RDE_Nabil_Sabr
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	RDE_Ramir_Diwatashfa={
+		name="Ramir Diwatashfa"
+
+		advisor={
+			slot = theorist
+			idea_token = RDE_Ramir_Diwatashfa
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

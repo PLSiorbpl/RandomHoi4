@@ -1,0 +1,38 @@
+
+state={
+	id=772
+	name="STATE_772"
+	manpower = 802487
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10884 6}
+		
+		owner = CNR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CNR
+	}
+
+	provinces={
+		10884 10885 10886 10887 10888 10889 10890 10891 10892 10893 10894 10895 10896 
+	}
+	local_supplies=0.0 
+}

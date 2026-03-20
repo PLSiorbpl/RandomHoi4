@@ -1,0 +1,43 @@
+
+state={
+	id=1065
+	name="STATE_1065"
+	manpower = 617879
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=10
+	}
+
+	history={
+		victory_points = { 14795 1}
+		victory_points = { 14797 1}
+		victory_points = { 14798 2}
+		
+		owner = HSK
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			14792 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HSK
+	}
+
+	provinces={
+		14792 14793 14794 14795 14796 14797 14798 14799 14800 14801 
+	}
+	local_supplies=0.0 
+}

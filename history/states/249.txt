@@ -1,0 +1,38 @@
+
+state={
+	id=249
+	name="STATE_249"
+	manpower = 736551
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3801 5}
+		
+		owner = BAP
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAP
+	}
+
+	provinces={
+		3798 3799 3800 3801 3802 3803 3804 3805 3806 3807 3808 3809 
+	}
+	local_supplies=0.0 
+}

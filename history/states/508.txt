@@ -1,0 +1,38 @@
+
+state={
+	id=508
+	name="STATE_508"
+	manpower = 890730
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7309 8}
+		
+		owner = JMI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = JMI
+	}
+
+	provinces={
+		7307 7308 7309 7310 7311 7312 7313 7314 7315 7316 7317 7318 7319 7320 7321 
+	}
+	local_supplies=0.0 
+}

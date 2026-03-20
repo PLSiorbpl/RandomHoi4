@@ -1,0 +1,38 @@
+
+state={
+	id=122
+	name="STATE_122"
+	manpower = 850696
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1946 6}
+		
+		owner = QIW
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = QIW
+	}
+
+	provinces={
+		1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=1265
+	name="STATE_1265"
+	manpower = 450566
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17350 1}
+		victory_points = { 17351 1}
+		victory_points = { 17352 1}
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17350 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		17349 17350 17351 17352 17353 17354 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=451
+	name="STATE_451"
+	manpower = 717805
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6361 6}
+		
+		owner = UEM
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UEM
+	}
+
+	provinces={
+		6359 6360 6361 6362 6363 6364 6365 6366 6367 6368 6369 6370 
+	}
+	local_supplies=0.0 
+}

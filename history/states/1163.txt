@@ -1,0 +1,42 @@
+
+state={
+	id=1163
+	name="STATE_1163"
+	manpower = 1111058
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16177 7}
+		victory_points = { 16182 2}
+		
+		owner = AAI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			16184 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AAI
+	}
+
+	provinces={
+		16176 16177 16178 16179 16180 16181 16182 16183 16184 16185 16186 16187 16188 16189 16190 16191 16192 16193 16194 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,880 @@
+characters = {
+	UEM_Herenrik_Grucht={
+		name="Herenrik Grucht"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UEM_Oskaran_Insbrinze={
+		name="Oskaran Insbrinze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Oskaran_Insbrinze
+				traits = {	headstrong 	}
+		}
+
+	}
+	UEM_Kasparl_Burg={
+		name="Kasparl Burg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Kasparl_Burg
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	UEM_Willem_Martrafenerd={
+		name="Willem Martrafenerd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Willem_Martrafenerd
+				traits = {	humble 	}
+		}
+
+	}
+	UEM_Heinholf_Liede={
+		name="Heinholf Liede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Heinholf_Liede
+				traits = {	headstrong 	}
+		}
+
+	}
+	UEM_Georen_Straeunent={
+		name="Georen Straeunent"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Georen_Straeunent
+				traits = {	headstrong 	}
+		}
+
+	}
+	UEM_Nielm_Tempf={
+		name="Nielm Tempf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Nielm_Tempf
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	UEM_Lard_Grucht={
+		name="Lard Grucht"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Lard_Grucht
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	UEM_Sorn_Burg={
+		name="Sorn Burg"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Sorn_Burg
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	UEM_Haran_Frost={
+		name="Haran Frost"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Haran_Frost
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	UEM_Heinholf_Martrafenerd={
+		name="Heinholf Martrafenerd"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Heinholf_Martrafenerd
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	UEM_Thias_Luft={
+		name="Thias Luft"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Thias_Luft
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	UEM_Rich_Kirch={
+		name="Rich Kirch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Rich_Kirch
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	UEM_Henders_Tempf={
+		name="Henders Tempf"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Henders_Tempf
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	UEM_Sorg_Insbrinze={
+		name="Sorg Insbrinze"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Sorg_Insbrinze
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	UEM_Lard_Tempf={
+		name="Lard Tempf"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Lard_Tempf
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	UEM_Rudold_Straeunent={
+		name="Rudold Straeunent"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Rudold_Straeunent
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	UEM_Niels_Frost={
+		name="Niels Frost"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Niels_Frost
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	UEM_Heif_Straeunent={
+		name="Heif Straeunent"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Heif_Straeunent
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	UEM_Haran_Martrafenerd={
+		name="Haran Martrafenerd"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Haran_Martrafenerd
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	UEM_Niels_Kirch={
+		name="Niels Kirch"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Niels_Kirch
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	UEM_Kasparl_Liede={
+		name="Kasparl Liede"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UEM_Rudolkers_Grucht={
+		name="Rudolkers Grucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Rudolkers_Grucht
+				traits = {	autokrator 	}
+		}
+
+	}
+	UEM_Alfrenselm_Tempf={
+		name="Alfrenselm Tempf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Alfrenselm_Tempf
+				traits = {	generallissimo 	}
+		}
+
+	}
+	UEM_Oskarl_Tempf={
+		name="Oskarl Tempf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Oskarl_Tempf
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	UEM_Rudold_Frost={
+		name="Rudold Frost"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Rudold_Frost
+				traits = {	autokrator 	}
+		}
+
+	}
+	UEM_Svenrichan_Luft={
+		name="Svenrichan Luft"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Svenrichan_Luft
+				traits = {	autokrator 	}
+		}
+
+	}
+	UEM_Richans_Straeunent={
+		name="Richans Straeunent"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Richans_Straeunent
+				traits = {	autokrator 	}
+		}
+
+	}
+	UEM_Berens_Martrafenerd={
+		name="Berens Martrafenerd"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Berens_Martrafenerd
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	UEM_Oskar_Burg={
+		name="Oskar Burg"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Oskar_Burg
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	UEM_Ulrik_Frost={
+		name="Ulrik Frost"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Ulrik_Frost
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	UEM_Arne_Burg={
+		name="Arne Burg"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Arne_Burg
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	UEM_Otthiaspar_Straeunent={
+		name="Otthiaspar Straeunent"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Otthiaspar_Straeunent
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	UEM_Thiasparl_Burg={
+		name="Thiasparl Burg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Thiasparl_Burg
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	UEM_Hermann_Frost={
+		name="Hermann Frost"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Hermann_Frost
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	UEM_Knus_Straeunent={
+		name="Knus Straeunent"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Knus_Straeunent
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	UEM_Rudolf_Burg={
+		name="Rudolf Burg"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Rudolf_Burg
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	UEM_Reinrich_Luft={
+		name="Reinrich Luft"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Reinrich_Luft
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	UEM_Willem_Straeunent={
+		name="Willem Straeunent"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Willem_Straeunent
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	UEM_Fritz_Liede={
+		name="Fritz Liede"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Fritz_Liede
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	UEM_Harald_Grucht={
+		name="Harald Grucht"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Harald_Grucht
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	UEM_Hermann_Liede={
+		name="Hermann Liede"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Hermann_Liede
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	UEM_Svenrichan_Grucht={
+		name="Svenrichan Grucht"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UEM_Dirk_Burg={
+		name="Dirk Burg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Dirk_Burg
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	UEM_Leinrik_Kirch={
+		name="Leinrik Kirch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Leinrik_Kirch
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	UEM_Knus_Kirch={
+		name="Knus Kirch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Knus_Kirch
+				traits = {	polemarch 	}
+		}
+
+	}
+	UEM_Oskar_Liede={
+		name="Oskar Liede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Oskar_Liede
+				traits = {	political_dancer 	}
+		}
+
+	}
+	UEM_Emillem_Liede={
+		name="Emillem Liede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Emillem_Liede
+				traits = {	polemarch 	}
+		}
+
+	}
+	UEM_Sigurd_Martrafenerd={
+		name="Sigurd Martrafenerd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Sigurd_Martrafenerd
+				traits = {	polemarch 	}
+		}
+
+	}
+	UEM_Rich_Luft={
+		name="Rich Luft"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Rich_Luft
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	UEM_Sorg_Grucht={
+		name="Sorg Grucht"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Sorg_Grucht
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	UEM_Otthiaspar_Burg={
+		name="Otthiaspar Burg"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Otthiaspar_Burg
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	UEM_Svenrichan_Frost={
+		name="Svenrichan Frost"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Svenrichan_Frost
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	UEM_Niels_Luft={
+		name="Niels Luft"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Niels_Luft
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	UEM_Janz_Grucht={
+		name="Janz Grucht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Janz_Grucht
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	UEM_Oskarl_Liede={
+		name="Oskarl Liede"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Oskarl_Liede
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	UEM_Emillem_Kirch={
+		name="Emillem Kirch"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Emillem_Kirch
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	UEM_Janz_Martrafenerd={
+		name="Janz Martrafenerd"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Janz_Martrafenerd
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	UEM_Sigurd_Insbrinze={
+		name="Sigurd Insbrinze"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Sigurd_Insbrinze
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	UEM_Eirik_Insbrinze={
+		name="Eirik Insbrinze"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Eirik_Insbrinze
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	UEM_Thiasparl_Frost={
+		name="Thiasparl Frost"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Thiasparl_Frost
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	UEM_Nielm_Kirch={
+		name="Nielm Kirch"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Nielm_Kirch
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	UEM_Dirk_Liede={
+		name="Dirk Liede"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Dirk_Liede
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	UEM_Thias_Insbrinze={
+		name="Thias Insbrinze"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UEM_Otto_Straeunent={
+		name="Otto Straeunent"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Otto_Straeunent
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	UEM_Helm_Frost={
+		name="Helm Frost"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Helm_Frost
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	UEM_Otto_Kirch={
+		name="Otto Kirch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Otto_Kirch
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	UEM_Knus_Luft={
+		name="Knus Luft"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Knus_Luft
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	UEM_Volf_Martrafenerd={
+		name="Volf Martrafenerd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Volf_Martrafenerd
+				traits = {	the_banker 	}
+		}
+
+	}
+	UEM_Helm_Burg={
+		name="Helm Burg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UEM_Helm_Burg
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	UEM_Olaf_Tempf={
+		name="Olaf Tempf"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Olaf_Tempf
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	UEM_Heinholf_Kirch={
+		name="Heinholf Kirch"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Heinholf_Kirch
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	UEM_Harald_Frost={
+		name="Harald Frost"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Harald_Frost
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	UEM_Sten_Martrafenerd={
+		name="Sten Martrafenerd"
+
+		advisor={
+			slot = army_chief
+			idea_token = UEM_Sten_Martrafenerd
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	UEM_Rudold_Luft={
+		name="Rudold Luft"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Rudold_Luft
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	UEM_Georen_Burg={
+		name="Georen Burg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UEM_Georen_Burg
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	UEM_Sorg_Liede={
+		name="Sorg Liede"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Sorg_Liede
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	UEM_Frans_Frost={
+		name="Frans Frost"
+
+		advisor={
+			slot = air_chief
+			idea_token = UEM_Frans_Frost
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	UEM_Willem_Liede={
+		name="Willem Liede"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Willem_Liede
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	UEM_Niels_Straeunent={
+		name="Niels Straeunent"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Niels_Straeunent
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	UEM_Oskar_Luft={
+		name="Oskar Luft"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Oskar_Luft
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	UEM_Alfrenselm_Kirch={
+		name="Alfrenselm Kirch"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Alfrenselm_Kirch
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	UEM_Georen_Insbrinze={
+		name="Georen Insbrinze"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Georen_Insbrinze
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	UEM_Oskar_Frost={
+		name="Oskar Frost"
+
+		advisor={
+			slot = high_command
+			idea_token = UEM_Oskar_Frost
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	UEM_Helm_Tempf={
+		name="Helm Tempf"
+
+		advisor={
+			slot = theorist
+			idea_token = UEM_Helm_Tempf
+				traits = {	military_theorist 	}
+		}
+
+	}
+	UEM_Rich_Grucht={
+		name="Rich Grucht"
+
+		advisor={
+			slot = theorist
+			idea_token = UEM_Rich_Grucht
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	UEM_Fritz_Luft={
+		name="Fritz Luft"
+
+		advisor={
+			slot = theorist
+			idea_token = UEM_Fritz_Luft
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

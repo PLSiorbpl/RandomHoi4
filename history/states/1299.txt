@@ -1,0 +1,42 @@
+
+state={
+	id=1299
+	name="STATE_1299"
+	manpower = 387791
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17666 1}
+		victory_points = { 17668 1}
+		
+		owner = MYN
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17667 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MYN
+	}
+
+	provinces={
+		17663 17664 17665 17666 17667 17668 
+	}
+	local_supplies=0.0 
+}

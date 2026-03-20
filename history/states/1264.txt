@@ -1,0 +1,42 @@
+
+state={
+	id=1264
+	name="STATE_1264"
+	manpower = 539820
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17342 3}
+		victory_points = { 17345 1}
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17347 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		17341 17342 17343 17344 17345 17346 17347 17348 
+	}
+	local_supplies=0.0 
+}

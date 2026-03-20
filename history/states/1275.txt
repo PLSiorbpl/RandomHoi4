@@ -1,0 +1,42 @@
+
+state={
+	id=1275
+	name="STATE_1275"
+	manpower = 350909
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17461 1}
+		victory_points = { 17463 1}
+		
+		owner = CCH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17462 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CCH
+	}
+
+	provinces={
+		17460 17461 17462 17463 17464 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=434
+	name="STATE_434"
+	manpower = 658921
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=5
+		tungsten=0
+		coal=7
+	}
+
+	history={
+		victory_points = { 6133 4}
+		victory_points = { 6138 1}
+		
+		owner = VRU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VRU
+	}
+
+	provinces={
+		6129 6130 6131 6132 6133 6134 6135 6136 6137 6138 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=754
+	name="STATE_754"
+	manpower = 340841
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10710 2}
+		
+		owner = CJR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CJR
+	}
+
+	provinces={
+		10708 10709 10710 10711 10712 
+	}
+	local_supplies=0.0 
+}

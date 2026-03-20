@@ -1,0 +1,41 @@
+
+state={
+	id=1122
+	name="STATE_1122"
+	manpower = 564558
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15598 2}
+		
+		owner = MJR
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			15598 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MJR
+	}
+
+	provinces={
+		15596 15597 15598 15599 15600 15601 15602 15603 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=1010
+	name="STATE_1010"
+	manpower = 686678
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13921 2}
+		victory_points = { 13922 2}
+		
+		owner = EOI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = EOI
+	}
+
+	provinces={
+		13920 13921 13922 13923 13924 13925 13926 13927 13928 13929 13930 
+	}
+	local_supplies=0.0 
+}

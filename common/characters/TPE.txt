@@ -1,0 +1,880 @@
+characters = {
+	TPE_Vinod_Ooruli={
+		name="Vinod Ooruli"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TPE_Arun_Thunam={
+		name="Arun Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Arun_Thunam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TPE_Deenthil_Sugam={
+		name="Deenthil Sugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Deenthil_Sugam
+				traits = {	humble 	}
+		}
+
+	}
+	TPE_Deepakash_Thunam={
+		name="Deepakash Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Deepakash_Thunam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TPE_Ajay_Katrunavu={
+		name="Ajay Katrunavu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Ajay_Katrunavu
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TPE_Manoj_Then={
+		name="Manoj Then"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Manoj_Then
+				traits = {	headstrong 	}
+		}
+
+	}
+	TPE_Dinod_Mozhchakku={
+		name="Dinod Mozhchakku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Dinod_Mozhchakku
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TPE_Deepakash_Vazhchar={
+		name="Deepakash Vazhchar"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Deepakash_Vazhchar
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TPE_Prakashna_Ooruli={
+		name="Prakashna Ooruli"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Prakashna_Ooruli
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TPE_Surem_Nadam={
+		name="Surem Nadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Surem_Nadam
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TPE_Prem_Sugam={
+		name="Prem Sugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Prem_Sugam
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TPE_Ragadeeshna_Then={
+		name="Ragadeeshna Then"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Ragadeeshna_Then
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TPE_Ragadeesh_Thunam={
+		name="Ragadeesh Thunam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Ragadeesh_Thunam
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TPE_Satish_Ooruli={
+		name="Satish Ooruli"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Satish_Ooruli
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TPE_Surem_Thunam={
+		name="Surem Thunam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Surem_Thunam
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TPE_Mohanoj_Vazhchar={
+		name="Mohanoj Vazhchar"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Mohanoj_Vazhchar
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	TPE_Karthil_Nakkirangu={
+		name="Karthil Nakkirangu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Karthil_Nakkirangu
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TPE_Pran_Nakkirangu={
+		name="Pran Nakkirangu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Pran_Nakkirangu
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TPE_Ravi_Nattu={
+		name="Ravi Nattu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Ravi_Nattu
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TPE_Naveepak_Vazhchar={
+		name="Naveepak Vazhchar"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Naveepak_Vazhchar
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TPE_Harth_Nadam={
+		name="Harth Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Harth_Nadam
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	TPE_Vinod_Then={
+		name="Vinod Then"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TPE_Vinoj_Nattu={
+		name="Vinoj Nattu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Vinoj_Nattu
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TPE_Vijay_Nadam={
+		name="Vijay Nadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Vijay_Nadam
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	TPE_Pranoj_Thunam={
+		name="Pranoj Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Pranoj_Thunam
+				traits = {	autokrator 	}
+		}
+
+	}
+	TPE_Harth_Ooruli={
+		name="Harth Ooruli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Harth_Ooruli
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TPE_Prem_Then={
+		name="Prem Then"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Prem_Then
+				traits = {	warmonger 	}
+		}
+
+	}
+	TPE_Deen_Ooruli={
+		name="Deen Ooruli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Deen_Ooruli
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TPE_Chav_Then={
+		name="Chav Then"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Chav_Then
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TPE_Satishna_Nakkirangu={
+		name="Satishna Nakkirangu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Satishna_Nakkirangu
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TPE_Karthil_Mozhchakku={
+		name="Karthil Mozhchakku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Karthil_Mozhchakku
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TPE_Vijay_Katrunavu={
+		name="Vijay Katrunavu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Vijay_Katrunavu
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TPE_Naveepak_Katrunavu={
+		name="Naveepak Katrunavu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Naveepak_Katrunavu
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TPE_Vijay_Sugam={
+		name="Vijay Sugam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Vijay_Sugam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TPE_Kirakash_Nattu={
+		name="Kirakash Nattu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Kirakash_Nattu
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TPE_Karthik_Vazhchar={
+		name="Karthik Vazhchar"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Karthik_Vazhchar
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TPE_Karun_Thunam={
+		name="Karun Thunam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Karun_Thunam
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TPE_Ragadeepak_Ooruli={
+		name="Ragadeepak Ooruli"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Ragadeepak_Ooruli
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TPE_Vinesh_Nakkirangu={
+		name="Vinesh Nakkirangu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Vinesh_Nakkirangu
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TPE_Pranoj_Katrunavu={
+		name="Pranoj Katrunavu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Pranoj_Katrunavu
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	TPE_Vinoj_Nadam={
+		name="Vinoj Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Vinoj_Nadam
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TPE_Chan_Thunam={
+		name="Chan Thunam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Chan_Thunam
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	TPE_Kumari_Nadam={
+		name="Kumari Nadam"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TPE_Rajesh_Vazhchar={
+		name="Rajesh Vazhchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Rajesh_Vazhchar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TPE_Satishna_Mozhchakku={
+		name="Satishna Mozhchakku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Satishna_Mozhchakku
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TPE_Ragadeepak_Vazhchar={
+		name="Ragadeepak Vazhchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Ragadeepak_Vazhchar
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TPE_Kumarun_Nakkirangu={
+		name="Kumarun Nakkirangu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Kumarun_Nakkirangu
+				traits = {	polemarch 	}
+		}
+
+	}
+	TPE_Chav_Vazhchar={
+		name="Chav Vazhchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Chav_Vazhchar
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TPE_Ragadeenth_Thunam={
+		name="Ragadeenth Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Ragadeenth_Thunam
+				traits = {	infirm 	}
+		}
+
+	}
+	TPE_Deepak_Mozhchakku={
+		name="Deepak Mozhchakku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Deepak_Mozhchakku
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TPE_Harthil_Sugam={
+		name="Harthil Sugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Harthil_Sugam
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TPE_Anil_Thunam={
+		name="Anil Thunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Anil_Thunam
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TPE_Ragadeesh_Nattu={
+		name="Ragadeesh Nattu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Ragadeesh_Nattu
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TPE_Navi_Thunam={
+		name="Navi Thunam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Navi_Thunam
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TPE_Jagadeepak_Sugam={
+		name="Jagadeepak Sugam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Jagadeepak_Sugam
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TPE_Manoj_Nattu={
+		name="Manoj Nattu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Manoj_Nattu
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TPE_Deesh_Mozhchakku={
+		name="Deesh Mozhchakku"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Deesh_Mozhchakku
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TPE_Kumarun_Nattu={
+		name="Kumarun Nattu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Kumarun_Nattu
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	TPE_Jaghavi_Sugam={
+		name="Jaghavi Sugam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Jaghavi_Sugam
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	TPE_Ganesh_Vazhchar={
+		name="Ganesh Vazhchar"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Ganesh_Vazhchar
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TPE_Rajesh_Nattu={
+		name="Rajesh Nattu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Rajesh_Nattu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TPE_Kari_Katrunavu={
+		name="Kari Katrunavu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Kari_Katrunavu
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TPE_Rajiv_Nadam={
+		name="Rajiv Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Rajiv_Nadam
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TPE_Jagharth_Thunam={
+		name="Jagharth Thunam"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TPE_Jagharth_Nattu={
+		name="Jagharth Nattu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Jagharth_Nattu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TPE_Mohan_Katrunavu={
+		name="Mohan Katrunavu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Mohan_Katrunavu
+				traits = {	first_lady 	}
+		}
+
+	}
+	TPE_Siddhav_Vazhchar={
+		name="Siddhav Vazhchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Siddhav_Vazhchar
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TPE_Rajiv_Vazhchar={
+		name="Rajiv Vazhchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Rajiv_Vazhchar
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TPE_Satishna_Nattu={
+		name="Satishna Nattu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Satishna_Nattu
+				traits = {	rearmer 	}
+		}
+
+	}
+	TPE_Deen_Vazhchar={
+		name="Deen Vazhchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TPE_Deen_Vazhchar
+				traits = {	infirm 	}
+		}
+
+	}
+	TPE_Naveepak_Thunam={
+		name="Naveepak Thunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Naveepak_Thunam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TPE_Deen_Nattu={
+		name="Deen Nattu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Deen_Nattu
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TPE_Rajesh_Sugam={
+		name="Rajesh Sugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Rajesh_Sugam
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TPE_Manoj_Sugam={
+		name="Manoj Sugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TPE_Manoj_Sugam
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TPE_Vinesh_Ooruli={
+		name="Vinesh Ooruli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Vinesh_Ooruli
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TPE_Kirakash_Nakkirangu={
+		name="Kirakash Nakkirangu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TPE_Kirakash_Nakkirangu
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TPE_Jaghanod_Thunam={
+		name="Jaghanod Thunam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Jaghanod_Thunam
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TPE_Deepak_Then={
+		name="Deepak Then"
+
+		advisor={
+			slot = air_chief
+			idea_token = TPE_Deepak_Then
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TPE_Kari_Vazhchar={
+		name="Kari Vazhchar"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Kari_Vazhchar
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TPE_Kumarun_Sugam={
+		name="Kumarun Sugam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Kumarun_Sugam
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TPE_Chan_Mozhchakku={
+		name="Chan Mozhchakku"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Chan_Mozhchakku
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TPE_Ragadeenth_Katrunavu={
+		name="Ragadeenth Katrunavu"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Ragadeenth_Katrunavu
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	TPE_Pranoj_Nadam={
+		name="Pranoj Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Pranoj_Nadam
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	TPE_Navi_Ooruli={
+		name="Navi Ooruli"
+
+		advisor={
+			slot = high_command
+			idea_token = TPE_Navi_Ooruli
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	TPE_Manesh_Nattu={
+		name="Manesh Nattu"
+
+		advisor={
+			slot = theorist
+			idea_token = TPE_Manesh_Nattu
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TPE_Kirakash_Katrunavu={
+		name="Kirakash Katrunavu"
+
+		advisor={
+			slot = theorist
+			idea_token = TPE_Kirakash_Katrunavu
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TPE_Ragadeenth_Nadam={
+		name="Ragadeenth Nadam"
+
+		advisor={
+			slot = theorist
+			idea_token = TPE_Ragadeenth_Nadam
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

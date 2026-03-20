@@ -1,0 +1,42 @@
+
+state={
+	id=195
+	name="STATE_195"
+	manpower = 667128
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=17
+		coal=0
+	}
+
+	history={
+		victory_points = { 2995 1}
+		victory_points = { 2998 3}
+		
+		owner = TYH
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2996 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TYH
+	}
+
+	provinces={
+		2994 2995 2996 2997 2998 2999 3000 3001 3002 3003 
+	}
+	local_supplies=0.0 
+}

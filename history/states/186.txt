@@ -1,0 +1,39 @@
+
+state={
+	id=186
+	name="STATE_186"
+	manpower = 1088711
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=33
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2890 4}
+		victory_points = { 2895 6}
+		
+		owner = NKK
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NKK
+	}
+
+	provinces={
+		2888 2889 2890 2891 2892 2893 2894 2895 2896 2897 2898 2899 2900 2901 2902 2903 2904 2905 2906 
+	}
+	local_supplies=0.0 
+}

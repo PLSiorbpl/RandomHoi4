@@ -1,0 +1,43 @@
+
+state={
+	id=1266
+	name="STATE_1266"
+	manpower = 1030153
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17364 3}
+		victory_points = { 17368 3}
+		victory_points = { 17369 2}
+		
+		owner = AGS
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17361 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGS
+	}
+
+	provinces={
+		17355 17356 17357 17358 17359 17360 17361 17362 17363 17364 17365 17366 17367 17368 17369 17370 17371 17372 
+	}
+	local_supplies=0.0 
+}

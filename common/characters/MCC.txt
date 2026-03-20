@@ -1,0 +1,880 @@
+characters = {
+	MCC_Johann_Wolke={
+		name="Johann Wolke"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCC_Sten_Kriede={
+		name="Sten Kriede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Sten_Kriede
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MCC_Volkermansel_Lebe={
+		name="Volkermansel Lebe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Volkermansel_Lebe
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MCC_Sven_Sonne={
+		name="Sven Sonne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Sven_Sonne
+				traits = {	humble 	}
+		}
+
+	}
+	MCC_Dirik_Sontelheil={
+		name="Dirik Sontelheil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Dirik_Sontelheil
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MCC_Sven_Furm={
+		name="Sven Furm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Sven_Furm
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MCC_Hels_Segel={
+		name="Hels Segel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Hels_Segel
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	MCC_Eirik_Glaum={
+		name="Eirik Glaum"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Eirik_Glaum
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCC_Stendermanz_Machterieber={
+		name="Stendermanz Machterieber"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Stendermanz_Machterieber
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MCC_Arne_Sonne={
+		name="Arne Sonne"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Arne_Sonne
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MCC_Stendermanz_Wolke={
+		name="Stendermanz Wolke"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Stendermanz_Wolke
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MCC_Sigurd_Lebe={
+		name="Sigurd Lebe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Sigurd_Lebe
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MCC_Ulrik_Glaum={
+		name="Ulrik Glaum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Ulrik_Glaum
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MCC_Bermans_Kriede={
+		name="Bermans Kriede"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Bermans_Kriede
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	MCC_Nielmut_Sontelheil={
+		name="Nielmut Sontelheil"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Nielmut_Sontelheil
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	MCC_Sten_Sonne={
+		name="Sten Sonne"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Sten_Sonne
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	MCC_Ulrich_Kriede={
+		name="Ulrich Kriede"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Ulrich_Kriede
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	MCC_Frichann_Glaum={
+		name="Frichann Glaum"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Frichann_Glaum
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	MCC_Thiaspard_Glaum={
+		name="Thiaspard Glaum"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Thiaspard_Glaum
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	MCC_Lars_Wolke={
+		name="Lars Wolke"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Lars_Wolke
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	MCC_Nielmut_Stamilbe={
+		name="Nielmut Stamilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Nielmut_Stamilbe
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	MCC_Volfren_Machterieber={
+		name="Volfren Machterieber"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCC_Hanselmut_Sonne={
+		name="Hanselmut Sonne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Hanselmut_Sonne
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MCC_Ulrich_Glaum={
+		name="Ulrich Glaum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Ulrich_Glaum
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	MCC_Dirik_Machterieber={
+		name="Dirik Machterieber"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Dirik_Machterieber
+				traits = {	autokrator 	}
+		}
+
+	}
+	MCC_Heinrich_Stamilbe={
+		name="Heinrich Stamilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Heinrich_Stamilbe
+				traits = {	infirm 	}
+		}
+
+	}
+	MCC_Sigurd_Furm={
+		name="Sigurd Furm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Sigurd_Furm
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	MCC_Olaf_Furm={
+		name="Olaf Furm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Olaf_Furm
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MCC_Vold_Wolke={
+		name="Vold Wolke"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Vold_Wolke
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MCC_Rudolker_Sonne={
+		name="Rudolker Sonne"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Rudolker_Sonne
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCC_Bjoren_Furm={
+		name="Bjoren Furm"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Bjoren_Furm
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCC_Sten_Glaum={
+		name="Sten Glaum"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Sten_Glaum
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MCC_Nielmut_Kriede={
+		name="Nielmut Kriede"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Nielmut_Kriede
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	MCC_Kasparl_Kriede={
+		name="Kasparl Kriede"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Kasparl_Kriede
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MCC_Rolker_Sonne={
+		name="Rolker Sonne"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Rolker_Sonne
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	MCC_Leinrichans_Sonne={
+		name="Leinrichans Sonne"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Leinrichans_Sonne
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	MCC_Jann_Machterieber={
+		name="Jann Machterieber"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Jann_Machterieber
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	MCC_Sven_Segel={
+		name="Sven Segel"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Sven_Segel
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	MCC_Stender_Furm={
+		name="Stender Furm"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Stender_Furm
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	MCC_Heinrik_Stamilbe={
+		name="Heinrik Stamilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Heinrik_Stamilbe
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	MCC_Ander_Sontelheil={
+		name="Ander Sontelheil"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Ander_Sontelheil
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	MCC_Thiaspard_Segel={
+		name="Thiaspard Segel"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Thiaspard_Segel
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MCC_Ulrik_Sontelheil={
+		name="Ulrik Sontelheil"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCC_Matthijs_Stamilbe={
+		name="Matthijs Stamilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Matthijs_Stamilbe
+				traits = {	infirm 	}
+		}
+
+	}
+	MCC_Hakon_Furm={
+		name="Hakon Furm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Hakon_Furm
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MCC_Hans_Furm={
+		name="Hans Furm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Hans_Furm
+				traits = {	infirm 	}
+		}
+
+	}
+	MCC_Heinholfred_Stamilbe={
+		name="Heinholfred Stamilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Heinholfred_Stamilbe
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MCC_Wilhels_Sonne={
+		name="Wilhels Sonne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Wilhels_Sonne
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MCC_Jans_Kriede={
+		name="Jans Kriede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Jans_Kriede
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MCC_Oskarl_Furm={
+		name="Oskarl Furm"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Oskarl_Furm
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MCC_Hars_Sontelheil={
+		name="Hars Sontelheil"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Hars_Sontelheil
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCC_Heinholfred_Kriede={
+		name="Heinholfred Kriede"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Heinholfred_Kriede
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MCC_Ulrik_Sonne={
+		name="Ulrik Sonne"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Ulrik_Sonne
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MCC_Oskarl_Lebe={
+		name="Oskarl Lebe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Oskarl_Lebe
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	MCC_Emil_Segel={
+		name="Emil Segel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Emil_Segel
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MCC_Georn_Sonne={
+		name="Georn Sonne"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Georn_Sonne
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MCC_Matthias_Segel={
+		name="Matthias Segel"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Matthias_Segel
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MCC_Sten_Stamilbe={
+		name="Sten Stamilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Sten_Stamilbe
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	MCC_Emil_Stamilbe={
+		name="Emil Stamilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Emil_Stamilbe
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	MCC_Rudolker_Kriede={
+		name="Rudolker Kriede"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Rudolker_Kriede
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	MCC_Thiaspard_Wolke={
+		name="Thiaspard Wolke"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Thiaspard_Wolke
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	MCC_Matthias_Lebe={
+		name="Matthias Lebe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Matthias_Lebe
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	MCC_Magnus_Sonne={
+		name="Magnus Sonne"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Magnus_Sonne
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	MCC_Matthijs_Segel={
+		name="Matthijs Segel"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCC_Olaf_Wolke={
+		name="Olaf Wolke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Olaf_Wolke
+				traits = {	rearmer 	}
+		}
+
+	}
+	MCC_Rich_Sontelheil={
+		name="Rich Sontelheil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Rich_Sontelheil
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MCC_Georn_Stamilbe={
+		name="Georn Stamilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Georn_Stamilbe
+				traits = {	rearmer 	}
+		}
+
+	}
+	MCC_Matthias_Stamilbe={
+		name="Matthias Stamilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Matthias_Stamilbe
+				traits = {	the_banker 	}
+		}
+
+	}
+	MCC_Wilhels_Lebe={
+		name="Wilhels Lebe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Wilhels_Lebe
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MCC_Frichann_Lebe={
+		name="Frichann Lebe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCC_Frichann_Lebe
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MCC_Lars_Glaum={
+		name="Lars Glaum"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Lars_Glaum
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MCC_Jans_Sonne={
+		name="Jans Sonne"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Jans_Sonne
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCC_Helm_Kriede={
+		name="Helm Kriede"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Helm_Kriede
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MCC_Franz_Stamilbe={
+		name="Franz Stamilbe"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCC_Franz_Stamilbe
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MCC_Hann_Segel={
+		name="Hann Segel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Hann_Segel
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MCC_Rolker_Glaum={
+		name="Rolker Glaum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCC_Rolker_Glaum
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MCC_Matthijs_Sontelheil={
+		name="Matthijs Sontelheil"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Matthijs_Sontelheil
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	MCC_Heinrich_Wolke={
+		name="Heinrich Wolke"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCC_Heinrich_Wolke
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MCC_Otto_Furm={
+		name="Otto Furm"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Otto_Furm
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	MCC_Jann_Wolke={
+		name="Jann Wolke"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Jann_Wolke
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	MCC_Ander_Segel={
+		name="Ander Segel"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Ander_Segel
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	MCC_Franz_Kriede={
+		name="Franz Kriede"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Franz_Kriede
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	MCC_Rudolker_Lebe={
+		name="Rudolker Lebe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Rudolker_Lebe
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	MCC_Rolker_Segel={
+		name="Rolker Segel"
+
+		advisor={
+			slot = high_command
+			idea_token = MCC_Rolker_Segel
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MCC_Magnus_Segel={
+		name="Magnus Segel"
+
+		advisor={
+			slot = theorist
+			idea_token = MCC_Magnus_Segel
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MCC_Volfren_Lebe={
+		name="Volfren Lebe"
+
+		advisor={
+			slot = theorist
+			idea_token = MCC_Volfren_Lebe
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MCC_Stendermanz_Segel={
+		name="Stendermanz Segel"
+
+		advisor={
+			slot = theorist
+			idea_token = MCC_Stendermanz_Segel
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

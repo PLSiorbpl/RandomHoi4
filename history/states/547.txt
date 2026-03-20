@@ -1,0 +1,39 @@
+
+state={
+	id=547
+	name="STATE_547"
+	manpower = 491581
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7912 2}
+		victory_points = { 7917 1}
+		
+		owner = MWR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MWR
+	}
+
+	provinces={
+		7911 7912 7913 7914 7915 7916 7917 7918 
+	}
+	local_supplies=0.0 
+}

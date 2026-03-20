@@ -1,0 +1,37 @@
+
+state={
+	id=627
+	name="STATE_627"
+	manpower = 248439
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HNJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HNJ
+	}
+
+	provinces={
+		9076 9077 9078 9079 9080 9081 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=556
+	name="STATE_556"
+	manpower = 473272
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8034 1}
+		victory_points = { 8038 2}
+		
+		owner = CEN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CEN
+	}
+
+	provinces={
+		8034 8035 8036 8037 8038 8039 8040 
+	}
+	local_supplies=0.0 
+}

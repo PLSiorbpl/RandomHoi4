@@ -1,0 +1,880 @@
+characters = {
+	HNJ_Hami_Shar={
+		name="Hami Shar"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HNJ_Abdullah_Najr={
+		name="Abdullah Najr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Abdullah_Najr
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HNJ_Ibrahya_Shar={
+		name="Ibrahya Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Ibrahya_Shar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HNJ_Imrahmad_Suwaria={
+		name="Imrahmad Suwaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Imrahmad_Suwaria
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HNJ_Anwarid_Hikh={
+		name="Anwarid Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Anwarid_Hikh
+				traits = {	humble 	}
+		}
+
+	}
+	HNJ_Abdullahmoud_Dohaqa={
+		name="Abdullahmoud Dohaqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Abdullahmoud_Dohaqa
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HNJ_Ramir_Kharra={
+		name="Ramir Kharra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Ramir_Kharra
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	HNJ_Samarid_Imar={
+		name="Samarid Imar"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Samarid_Imar
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	HNJ_Khal_Najr={
+		name="Khal Najr"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Khal_Najr
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HNJ_Faisan_Nashfa={
+		name="Faisan Nashfa"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Faisan_Nashfa
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HNJ_Ahmad_Suwaria={
+		name="Ahmad Suwaria"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Ahmad_Suwaria
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	HNJ_Ahmalid_Shar={
+		name="Ahmalid Shar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Ahmalid_Shar
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	HNJ_Imrahya_Najr={
+		name="Imrahya Najr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Imrahya_Najr
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	HNJ_Ibrah_Hikh={
+		name="Ibrah Hikh"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Ibrah_Hikh
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HNJ_Omarim_Suwaria={
+		name="Omarim Suwaria"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Omarim_Suwaria
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	HNJ_Yahmoud_Hikh={
+		name="Yahmoud Hikh"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Yahmoud_Hikh
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	HNJ_Mohami_Nashfa={
+		name="Mohami Nashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Mohami_Nashfa
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	HNJ_Zaisalid_Najr={
+		name="Zaisalid Najr"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Zaisalid_Najr
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	HNJ_Majid_Imar={
+		name="Majid Imar"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Majid_Imar
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	HNJ_Rami_Nashfa={
+		name="Rami Nashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Rami_Nashfa
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	HNJ_Yahmoud_Kharra={
+		name="Yahmoud Kharra"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Yahmoud_Kharra
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	HNJ_Samza_Nashfa={
+		name="Samza Nashfa"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HNJ_Faid_Najr={
+		name="Faid Najr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Faid_Najr
+				traits = {	warmonger 	}
+		}
+
+	}
+	HNJ_Ahmalid_Kharra={
+		name="Ahmalid Kharra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Ahmalid_Kharra
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HNJ_Hammed_Shar={
+		name="Hammed Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Hammed_Shar
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	HNJ_Khammed_Najr={
+		name="Khammed Najr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Khammed_Najr
+				traits = {	warmonger 	}
+		}
+
+	}
+	HNJ_Mohami_Saba={
+		name="Mohami Saba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Mohami_Saba
+				traits = {	basileus 	}
+		}
+
+	}
+	HNJ_Zaid_Najr={
+		name="Zaid Najr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Zaid_Najr
+				traits = {	generallissimo 	}
+		}
+
+	}
+	HNJ_Samarid_Shar={
+		name="Samarid Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Samarid_Shar
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	HNJ_Tarim_Dohaqa={
+		name="Tarim Dohaqa"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Tarim_Dohaqa
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HNJ_Khamir_Shar={
+		name="Khamir Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Khamir_Shar
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	HNJ_Omad_Saba={
+		name="Omad Saba"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Omad_Saba
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HNJ_Samir_Najr={
+		name="Samir Najr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Samir_Najr
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	HNJ_Saad_Kharra={
+		name="Saad Kharra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Saad_Kharra
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HNJ_Zaisan_Kanams={
+		name="Zaisan Kanams"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Zaisan_Kanams
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	HNJ_Imrah_Nashfa={
+		name="Imrah Nashfa"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Imrah_Nashfa
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	HNJ_Nabilali_Kharra={
+		name="Nabilali Kharra"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Nabilali_Kharra
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	HNJ_Samir_Saba={
+		name="Samir Saba"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Samir_Saba
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	HNJ_Ibran_Imar={
+		name="Ibran Imar"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Ibran_Imar
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	HNJ_Ramza_Suwaria={
+		name="Ramza Suwaria"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Ramza_Suwaria
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	HNJ_Samali_Saba={
+		name="Samali Saba"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Samali_Saba
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	HNJ_Rami_Imar={
+		name="Rami Imar"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Rami_Imar
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	HNJ_Ahmad_Najr={
+		name="Ahmad Najr"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HNJ_Abdullahmoud_Shar={
+		name="Abdullahmoud Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Abdullahmoud_Shar
+				traits = {	infirm 	}
+		}
+
+	}
+	HNJ_Nabil_Nashfa={
+		name="Nabil Nashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Nabil_Nashfa
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	HNJ_Ahmoud_Dohaqa={
+		name="Ahmoud Dohaqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Ahmoud_Dohaqa
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HNJ_Samali_Suwaria={
+		name="Samali Suwaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Samali_Suwaria
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	HNJ_Kariq_Kanams={
+		name="Kariq Kanams"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Kariq_Kanams
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HNJ_Khal_Hikh={
+		name="Khal Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Khal_Hikh
+				traits = {	infirm 	}
+		}
+
+	}
+	HNJ_Rami_Hikh={
+		name="Rami Hikh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Rami_Hikh
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	HNJ_Saad_Kanams={
+		name="Saad Kanams"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Saad_Kanams
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HNJ_Farim_Imar={
+		name="Farim Imar"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Farim_Imar
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HNJ_Imrah_Hikh={
+		name="Imrah Hikh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Imrah_Hikh
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HNJ_Hassan_Suwaria={
+		name="Hassan Suwaria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Hassan_Suwaria
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	HNJ_Anwariq_Shar={
+		name="Anwariq Shar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Anwariq_Shar
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HNJ_Tarim_Kharra={
+		name="Tarim Kharra"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Tarim_Kharra
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	HNJ_Zaisan_Kharra={
+		name="Zaisan Kharra"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Zaisan_Kharra
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	HNJ_Hassal_Dohaqa={
+		name="Hassal Dohaqa"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Hassal_Dohaqa
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	HNJ_Hassan_Dohaqa={
+		name="Hassan Dohaqa"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Hassan_Dohaqa
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	HNJ_Farid_Nashfa={
+		name="Farid Nashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Farid_Nashfa
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	HNJ_Imrahya_Dohaqa={
+		name="Imrahya Dohaqa"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Imrahya_Dohaqa
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	HNJ_Ramal_Imar={
+		name="Ramal Imar"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Ramal_Imar
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	HNJ_Farim_Suwaria={
+		name="Farim Suwaria"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Farim_Suwaria
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	HNJ_Mahya_Kharra={
+		name="Mahya Kharra"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HNJ_Zaisali_Hikh={
+		name="Zaisali Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Zaisali_Hikh
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	HNJ_Samarim_Shar={
+		name="Samarim Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Samarim_Shar
+				traits = {	rearmer 	}
+		}
+
+	}
+	HNJ_Anwariq_Dohaqa={
+		name="Anwariq Dohaqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Anwariq_Dohaqa
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HNJ_Khal_Kharra={
+		name="Khal Kharra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Khal_Kharra
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	HNJ_Mahya_Dohaqa={
+		name="Mahya Dohaqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Mahya_Dohaqa
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HNJ_Ibrahya_Saba={
+		name="Ibrahya Saba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HNJ_Ibrahya_Saba
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HNJ_Yusuf_Najr={
+		name="Yusuf Najr"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Yusuf_Najr
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HNJ_Khamal_Hikh={
+		name="Khamal Hikh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Khamal_Hikh
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HNJ_Ramal_Hikh={
+		name="Ramal Hikh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Ramal_Hikh
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	HNJ_Samarid_Kharra={
+		name="Samarid Kharra"
+
+		advisor={
+			slot = army_chief
+			idea_token = HNJ_Samarid_Kharra
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	HNJ_Abdullal_Nashfa={
+		name="Abdullal Nashfa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Abdullal_Nashfa
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	HNJ_Jami_Suwaria={
+		name="Jami Suwaria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HNJ_Jami_Suwaria
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HNJ_Anwariq_Kanams={
+		name="Anwariq Kanams"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Anwariq_Kanams
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	HNJ_Abdullal_Imar={
+		name="Abdullal Imar"
+
+		advisor={
+			slot = air_chief
+			idea_token = HNJ_Abdullal_Imar
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	HNJ_Ahmad_Saba={
+		name="Ahmad Saba"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Ahmad_Saba
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	HNJ_Zaisalid_Kanams={
+		name="Zaisalid Kanams"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Zaisalid_Kanams
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	HNJ_Khal_Shar={
+		name="Khal Shar"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Khal_Shar
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	HNJ_Bilahmoud_Nashfa={
+		name="Bilahmoud Nashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Bilahmoud_Nashfa
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	HNJ_Khalid_Kharra={
+		name="Khalid Kharra"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Khalid_Kharra
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	HNJ_Ahmoud_Shar={
+		name="Ahmoud Shar"
+
+		advisor={
+			slot = high_command
+			idea_token = HNJ_Ahmoud_Shar
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	HNJ_Khalid_Hikh={
+		name="Khalid Hikh"
+
+		advisor={
+			slot = theorist
+			idea_token = HNJ_Khalid_Hikh
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HNJ_Samali_Najr={
+		name="Samali Najr"
+
+		advisor={
+			slot = theorist
+			idea_token = HNJ_Samali_Najr
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HNJ_Yusuf_Shar={
+		name="Yusuf Shar"
+
+		advisor={
+			slot = theorist
+			idea_token = HNJ_Yusuf_Shar
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

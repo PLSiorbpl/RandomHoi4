@@ -1,0 +1,40 @@
+
+state={
+	id=304
+	name="STATE_304"
+	manpower = 879624
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4514 1}
+		victory_points = { 4515 3}
+		victory_points = { 4517 2}
+		
+		owner = FQR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FQR
+	}
+
+	provinces={
+		4509 4510 4511 4512 4513 4514 4515 4516 4517 4518 4519 4520 4521 4522 4523 4524 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,880 @@
+characters = {
+	JQU_Nonginustus_Modex={
+		name="Nonginustus Modex"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JQU_Nonginustus_Milictortia={
+		name="Nonginustus Milictortia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Nonginustus_Milictortia
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	JQU_Viberutus_Forpus={
+		name="Viberutus Forpus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Viberutus_Forpus
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	JQU_Decimus_Milictortia={
+		name="Decimus Milictortia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Decimus_Milictortia
+				traits = {	headstrong 	}
+		}
+
+	}
+	JQU_Viberius_Aqua={
+		name="Viberius Aqua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Viberius_Aqua
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JQU_Dominus_Litastribes={
+		name="Dominus Litastribes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Dominus_Litastribes
+				traits = {	humble 	}
+		}
+
+	}
+	JQU_Clavius_Insumen={
+		name="Clavius Insumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Clavius_Insumen
+				traits = {	headstrong 	}
+		}
+
+	}
+	JQU_Quintonginus_Modex={
+		name="Quintonginus Modex"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Quintonginus_Modex
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JQU_Augulus_Auctus={
+		name="Augulus Auctus"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Augulus_Auctus
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	JQU_Remus_Insumen={
+		name="Remus Insumen"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Remus_Insumen
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	JQU_Dominus_Aqua={
+		name="Dominus Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Dominus_Aqua
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JQU_Faus_Forpus={
+		name="Faus Forpus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Faus_Forpus
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	JQU_Nerius_Forpus={
+		name="Nerius Forpus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Nerius_Forpus
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	JQU_Decimus_Spestia={
+		name="Decimus Spestia"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Decimus_Spestia
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	JQU_Marro_Forpus={
+		name="Marro Forpus"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Marro_Forpus
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	JQU_Silvanus_Modes={
+		name="Silvanus Modes"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Silvanus_Modes
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	JQU_Spuriscus_Forpus={
+		name="Spuriscus Forpus"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Spuriscus_Forpus
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	JQU_Lucius_Modex={
+		name="Lucius Modex"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Lucius_Modex
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	JQU_Aulus_Forpus={
+		name="Aulus Forpus"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Aulus_Forpus
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	JQU_Titus_Modex={
+		name="Titus Modex"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Titus_Modex
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	JQU_Quintonginus_Spestia={
+		name="Quintonginus Spestia"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Quintonginus_Spestia
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	JQU_Tiberus_Malatus={
+		name="Tiberus Malatus"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JQU_Aulus_Modes={
+		name="Aulus Modes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Aulus_Modes
+				traits = {	basileus 	}
+		}
+
+	}
+	JQU_Antonginus_Modex={
+		name="Antonginus Modex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Antonginus_Modex
+				traits = {	generallissimo 	}
+		}
+
+	}
+	JQU_Vibius_Forpus={
+		name="Vibius Forpus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Vibius_Forpus
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JQU_Longinus_Spestia={
+		name="Longinus Spestia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Longinus_Spestia
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JQU_Caianlianus_Malatus={
+		name="Caianlianus Malatus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Caianlianus_Malatus
+				traits = {	basileus 	}
+		}
+
+	}
+	JQU_Viberius_Litastribes={
+		name="Viberius Litastribes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Viberius_Litastribes
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JQU_Viberutus_Malatus={
+		name="Viberutus Malatus"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Viberutus_Malatus
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	JQU_Flaulus_Aqua={
+		name="Flaulus Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Flaulus_Aqua
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	JQU_Servius_Modes={
+		name="Servius Modes"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Servius_Modes
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	JQU_Servius_Auctus={
+		name="Servius Auctus"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Servius_Auctus
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JQU_Decimus_Modex={
+		name="Decimus Modex"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Decimus_Modex
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	JQU_Drus_Forpus={
+		name="Drus Forpus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Drus_Forpus
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	JQU_Julius_Malatus={
+		name="Julius Malatus"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Julius_Malatus
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	JQU_Spurius_Insumen={
+		name="Spurius Insumen"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Spurius_Insumen
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	JQU_Vibius_Milictortia={
+		name="Vibius Milictortia"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Vibius_Milictortia
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	JQU_Nonginustus_Aqua={
+		name="Nonginustus Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Nonginustus_Aqua
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	JQU_Lucimus_Milictortia={
+		name="Lucimus Milictortia"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Lucimus_Milictortia
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	JQU_Brutus_Aqua={
+		name="Brutus Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Brutus_Aqua
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	JQU_Attius_Malatus={
+		name="Attius Malatus"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Attius_Malatus
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	JQU_Varcellius_Milictortia={
+		name="Varcellius Milictortia"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Varcellius_Milictortia
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	JQU_Scaevolavius_Auctus={
+		name="Scaevolavius Auctus"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JQU_Scaevervius_Malatus={
+		name="Scaevervius Malatus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Scaevervius_Malatus
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	JQU_Varcellius_Spestia={
+		name="Varcellius Spestia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Varcellius_Spestia
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JQU_Quinus_Modes={
+		name="Quinus Modes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Quinus_Modes
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JQU_Faulus_Modex={
+		name="Faulus Modex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Faulus_Modex
+				traits = {	political_dancer 	}
+		}
+
+	}
+	JQU_Julus_Milictortia={
+		name="Julus Milictortia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Julus_Milictortia
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	JQU_Sextus_Modex={
+		name="Sextus Modex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Sextus_Modex
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JQU_Scaevervius_Aqua={
+		name="Scaevervius Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Scaevervius_Aqua
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JQU_Nonginustus_Malatus={
+		name="Nonginustus Malatus"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Nonginustus_Malatus
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	JQU_Julus_Litastribes={
+		name="Julus Litastribes"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Julus_Litastribes
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JQU_Tracchus_Modex={
+		name="Tracchus Modex"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Tracchus_Modex
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JQU_Varcellius_Insumen={
+		name="Varcellius Insumen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Varcellius_Insumen
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	JQU_Varcus_Malatus={
+		name="Varcus Malatus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Varcus_Malatus
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	JQU_Regulianus_Milictortia={
+		name="Regulianus Milictortia"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Regulianus_Milictortia
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	JQU_Clavius_Litastribes={
+		name="Clavius Litastribes"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Clavius_Litastribes
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	JQU_Gemitius_Aqua={
+		name="Gemitius Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Gemitius_Aqua
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	JQU_Spurius_Aqua={
+		name="Spurius Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Spurius_Aqua
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	JQU_Dominus_Insumen={
+		name="Dominus Insumen"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Dominus_Insumen
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	JQU_Antonius_Modes={
+		name="Antonius Modes"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Antonius_Modes
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	JQU_Titellianliu_Milictortia={
+		name="Titellianliu Milictortia"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Titellianliu_Milictortia
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	JQU_Julius_Auctus={
+		name="Julius Auctus"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Julius_Auctus
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	JQU_Caianlianus_Insumen={
+		name="Caianlianus Insumen"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JQU_Graius_Modex={
+		name="Graius Modex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Graius_Modex
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	JQU_Marro_Litastribes={
+		name="Marro Litastribes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Marro_Litastribes
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JQU_Nongintonius_Forpus={
+		name="Nongintonius Forpus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Nongintonius_Forpus
+				traits = {	infirm 	}
+		}
+
+	}
+	JQU_Faus_Insumen={
+		name="Faus Insumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Faus_Insumen
+				traits = {	rearmer 	}
+		}
+
+	}
+	JQU_Marcellius_Milictortia={
+		name="Marcellius Milictortia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Marcellius_Milictortia
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JQU_Manus_Auctus={
+		name="Manus Auctus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JQU_Manus_Auctus
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JQU_Quintonginus_Aqua={
+		name="Quintonginus Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Quintonginus_Aqua
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	JQU_Urbanlius_Forpus={
+		name="Urbanlius Forpus"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Urbanlius_Forpus
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	JQU_Graticus_Litastribes={
+		name="Graticus Litastribes"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Graticus_Litastribes
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JQU_Remus_Modex={
+		name="Remus Modex"
+
+		advisor={
+			slot = army_chief
+			idea_token = JQU_Remus_Modex
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JQU_Gemus_Litastribes={
+		name="Gemus Litastribes"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Gemus_Litastribes
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	JQU_Marcus_Milictortia={
+		name="Marcus Milictortia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JQU_Marcus_Milictortia
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	JQU_Nero_Milictortia={
+		name="Nero Milictortia"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Nero_Milictortia
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	JQU_Spuriscus_Modes={
+		name="Spuriscus Modes"
+
+		advisor={
+			slot = air_chief
+			idea_token = JQU_Spuriscus_Modes
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	JQU_Clavius_Aqua={
+		name="Clavius Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Clavius_Aqua
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	JQU_Viberius_Spestia={
+		name="Viberius Spestia"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Viberius_Spestia
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	JQU_Titus_Litastribes={
+		name="Titus Litastribes"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Titus_Litastribes
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	JQU_Gaius_Insumen={
+		name="Gaius Insumen"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Gaius_Insumen
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	JQU_Nonius_Modes={
+		name="Nonius Modes"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Nonius_Modes
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	JQU_Drutus_Auctus={
+		name="Drutus Auctus"
+
+		advisor={
+			slot = high_command
+			idea_token = JQU_Drutus_Auctus
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	JQU_Gemitius_Modes={
+		name="Gemitius Modes"
+
+		advisor={
+			slot = theorist
+			idea_token = JQU_Gemitius_Modes
+				traits = {	military_theorist 	}
+		}
+
+	}
+	JQU_Flaudius_Insumen={
+		name="Flaudius Insumen"
+
+		advisor={
+			slot = theorist
+			idea_token = JQU_Flaudius_Insumen
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	JQU_Varcus_Auctus={
+		name="Varcus Auctus"
+
+		advisor={
+			slot = theorist
+			idea_token = JQU_Varcus_Auctus
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=24
+	name="STATE_24"
+	manpower = 482163
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 437 1}
+		victory_points = { 438 2}
+		
+		owner = NOJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NOJ
+	}
+
+	provinces={
+		437 438 439 440 441 442 443 
+	}
+	local_supplies=0.0 
+}

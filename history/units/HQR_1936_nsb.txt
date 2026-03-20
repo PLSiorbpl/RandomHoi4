@@ -1,0 +1,189 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Turhaleej' Militia Division"
+		location = 15760
+		division_template = "Militia Division"
+		start_experience_factor = 0.771734
+		start_equipment_factor = 0.898639
+	}
+	division= {
+		name = "1nd 'Tifl' Militia Division"
+		location = 17710
+		division_template = "Militia Division"
+		start_experience_factor = 0.721336
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Turhaleej' Militia Division"
+		location = 15802
+		division_template = "Militia Division"
+		start_experience_factor = 0.405559
+		start_equipment_factor = 0.935862
+	}
+	division= {
+		name = "3th 'Saadina' Militia Division"
+		location = 15808
+		division_template = "Militia Division"
+		start_experience_factor = 0.924219
+		start_equipment_factor = 0.875760
+	}
+	division= {
+		name = "4th 'Hikmamaadin' Militia Division"
+		location = 17724
+		division_template = "Militia Division"
+		start_experience_factor = 0.214425
+		start_equipment_factor = 0.943305
+	}
+	division= {
+		name = "5th 'Kaladinamust' Militia Division"
+		location = 17729
+		division_template = "Militia Division"
+		start_experience_factor = 0.001269
+		start_equipment_factor = 0.992040
+	}
+	division= {
+		name = "6th 'Qarasjid' Militia Division"
+		location = 15496
+		division_template = "Militia Division"
+		start_experience_factor = 0.185046
+		start_equipment_factor = 0.960368
+	}
+	division= {
+		name = "7th 'Thajlim' Militia Division"
+		location = 17875
+		division_template = "Militia Division"
+		start_experience_factor = 0.175087
+		start_equipment_factor = 0.984027
+	}
+	division= {
+		name = "0st 'Nadina' Infantry Division"
+		location = 17869
+		division_template = "Infantry Division"
+		start_experience_factor = 0.457820
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Than' Infantry Division"
+		location = 17709
+		division_template = "Infantry Division"
+		start_experience_factor = 0.128365
+		start_equipment_factor = 0.947863
+	}
+	division= {
+		name = "2rd 'Than' Infantry Division"
+		location = 17709
+		division_template = "Infantry Division"
+		start_experience_factor = 0.412191
+		start_equipment_factor = 0.913307
+	}
+	division= {
+		name = "3th 'Tifl' Infantry Division"
+		location = 17706
+		division_template = "Infantry Division"
+		start_experience_factor = 0.414368
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Imanzim' Infantry Division"
+		location = 15713
+		division_template = "Infantry Division"
+		start_experience_factor = 0.726978
+		start_equipment_factor = 0.916629
+	}
+	division= {
+		name = "0st 'Turhaleej' Cavalry Division"
+		location = 15566
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.792547
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Thajlim' Cavalry Division"
+		location = 17876
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.681701
+		start_equipment_factor = 0.867270
+	}
+	division= {
+		name = "2rd 'Hikmamaadin' Cavalry Division"
+		location = 17719
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.408642
+		start_equipment_factor = 1.000000
+	}
+
+}

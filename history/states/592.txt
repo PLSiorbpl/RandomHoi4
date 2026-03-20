@@ -1,0 +1,40 @@
+
+state={
+	id=592
+	name="STATE_592"
+	manpower = 788342
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=4
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8636 3}
+		victory_points = { 8637 2}
+		victory_points = { 8646 2}
+		
+		owner = XQA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XQA
+	}
+
+	provinces={
+		8636 8637 8638 8639 8640 8641 8642 8643 8644 8645 8646 8647 8648 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=516
+	name="STATE_516"
+	manpower = 477114
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7437 1}
+		victory_points = { 7440 1}
+		
+		owner = TGM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7444 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TGM
+	}
+
+	provinces={
+		7435 7436 7437 7438 7439 7440 7441 7442 7443 7444 
+	}
+	local_supplies=0.0 
+}

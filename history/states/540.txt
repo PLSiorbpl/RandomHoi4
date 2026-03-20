@@ -1,0 +1,42 @@
+
+state={
+	id=540
+	name="STATE_540"
+	manpower = 2368414
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=3
+	}
+
+	history={
+		victory_points = { 7796 12}
+		victory_points = { 7806 12}
+		
+		owner = JMI
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 1
+			7812 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JMI
+	}
+
+	provinces={
+		7790 7791 7792 7793 7794 7795 7796 7797 7798 7799 7800 7801 7802 7803 7804 7805 7806 7807 7808 7809 7810 7811 7812 7813 7814 7815 7816 7817 7818 7819 7820 7821 7822 7823 7824 7825 7826 7827 7828 7829 7830 
+	}
+	local_supplies=0.0 
+}

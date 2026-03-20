@@ -1,0 +1,44 @@
+
+state={
+	id=1183
+	name="STATE_1183"
+	manpower = 775935
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 16440 1}
+		victory_points = { 16443 1}
+		victory_points = { 16445 2}
+		victory_points = { 16452 1}
+		
+		owner = QGA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			16445 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QGA
+	}
+
+	provinces={
+		16438 16439 16440 16441 16442 16443 16444 16445 16446 16447 16448 16449 16450 16451 16452 16453 16454 16455 16456 
+	}
+	local_supplies=0.0 
+}

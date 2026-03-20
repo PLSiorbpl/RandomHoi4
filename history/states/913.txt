@@ -1,0 +1,39 @@
+
+state={
+	id=913
+	name="STATE_913"
+	manpower = 490038
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12565 1}
+		victory_points = { 12570 1}
+		
+		owner = XUA
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XUA
+	}
+
+	provinces={
+		12565 12566 12567 12568 12569 12570 12571 12572 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=700
+	name="STATE_700"
+	manpower = 783873
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9912 2}
+		victory_points = { 9917 2}
+		victory_points = { 9922 1}
+		
+		owner = CNR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CNR
+	}
+
+	provinces={
+		9912 9913 9914 9915 9916 9917 9918 9919 9920 9921 9922 9923 9924 9925 9926 
+	}
+	local_supplies=0.0 
+}

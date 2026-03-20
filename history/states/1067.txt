@@ -1,0 +1,43 @@
+
+state={
+	id=1067
+	name="STATE_1067"
+	manpower = 775215
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		victory_points = { 14808 2}
+		victory_points = { 14811 2}
+		victory_points = { 14818 2}
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			14818 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		14808 14809 14810 14811 14812 14813 14814 14815 14816 14817 14818 14819 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=430
+	name="STATE_430"
+	manpower = 931107
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=1
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6070 3}
+		victory_points = { 6075 4}
+		
+		owner = VRU
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VRU
+	}
+
+	provinces={
+		6063 6064 6065 6066 6067 6068 6069 6070 6071 6072 6073 6074 6075 6076 6077 6078 
+	}
+	local_supplies=0.0 
+}

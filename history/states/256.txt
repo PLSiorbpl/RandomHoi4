@@ -1,0 +1,42 @@
+
+state={
+	id=256
+	name="STATE_256"
+	manpower = 554644
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3859 3}
+		victory_points = { 3861 1}
+		
+		owner = GQA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3858 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GQA
+	}
+
+	provinces={
+		3857 3858 3859 3860 3861 3862 3863 3864 
+	}
+	local_supplies=0.0 
+}

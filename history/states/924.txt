@@ -1,0 +1,39 @@
+
+state={
+	id=924
+	name="STATE_924"
+	manpower = 509530
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12717 1}
+		victory_points = { 12721 2}
+		
+		owner = UEO
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = UEO
+	}
+
+	provinces={
+		12717 12718 12719 12720 12721 12722 12723 12724 
+	}
+	local_supplies=0.0 
+}

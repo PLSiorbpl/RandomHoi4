@@ -1,0 +1,41 @@
+
+state={
+	id=775
+	name="STATE_775"
+	manpower = 710083
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10939 1}
+		victory_points = { 10946 1}
+		victory_points = { 10949 1}
+		victory_points = { 10953 1}
+		
+		owner = TGM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TGM
+	}
+
+	provinces={
+		10939 10940 10941 10942 10943 10944 10945 10946 10947 10948 10949 10950 10951 10952 10953 10954 
+	}
+	local_supplies=0.0 
+}

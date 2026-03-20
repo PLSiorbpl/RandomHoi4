@@ -1,0 +1,40 @@
+
+state={
+	id=626
+	name="STATE_626"
+	manpower = 511283
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9068 1}
+		victory_points = { 9069 1}
+		victory_points = { 9070 2}
+		
+		owner = CBS
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CBS
+	}
+
+	provinces={
+		9068 9069 9070 9071 9072 9073 9074 9075 
+	}
+	local_supplies=0.0 
+}

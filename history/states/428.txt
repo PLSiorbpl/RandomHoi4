@@ -1,0 +1,42 @@
+
+state={
+	id=428
+	name="STATE_428"
+	manpower = 802518
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6025 4}
+		victory_points = { 6034 3}
+		
+		owner = JRE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			6026 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JRE
+	}
+
+	provinces={
+		6024 6025 6026 6027 6028 6029 6030 6031 6032 6033 6034 6035 6036 
+	}
+	local_supplies=0.0 
+}

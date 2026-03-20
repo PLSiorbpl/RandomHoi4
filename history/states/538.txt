@@ -1,0 +1,38 @@
+
+state={
+	id=538
+	name="STATE_538"
+	manpower = 846307
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7774 6}
+		
+		owner = ZTA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ZTA
+	}
+
+	provinces={
+		7770 7771 7772 7773 7774 7775 7776 7777 7778 7779 7780 7781 7782 7783 
+	}
+	local_supplies=0.0 
+}

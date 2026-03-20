@@ -1,0 +1,40 @@
+
+state={
+	id=774
+	name="STATE_774"
+	manpower = 1039547
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10924 3}
+		victory_points = { 10927 3}
+		victory_points = { 10931 2}
+		
+		owner = BRH
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BRH
+	}
+
+	provinces={
+		10920 10921 10922 10923 10924 10925 10926 10927 10928 10929 10930 10931 10932 10933 10934 10935 10936 10937 10938 
+	}
+	local_supplies=0.0 
+}

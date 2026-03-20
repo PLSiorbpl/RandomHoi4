@@ -1,0 +1,39 @@
+
+state={
+	id=133
+	name="STATE_133"
+	manpower = 562645
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2078 2}
+		victory_points = { 2082 1}
+		
+		owner = ZTR
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ZTR
+	}
+
+	provinces={
+		2075 2076 2077 2078 2079 2080 2081 2082 2083 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=108
+	name="STATE_108"
+	manpower = 284046
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1759 1}
+		
+		owner = HHL
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1757 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HHL
+	}
+
+	provinces={
+		1756 1757 1758 1759 
+	}
+	local_supplies=0.0 
+}

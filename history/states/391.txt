@@ -1,0 +1,39 @@
+
+state={
+	id=391
+	name="STATE_391"
+	manpower = 441187
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 5537 1}
+		victory_points = { 5538 1}
+		
+		owner = HPI
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HPI
+	}
+
+	provinces={
+		5536 5537 5538 5539 5540 5541 
+	}
+	local_supplies=0.0 
+}

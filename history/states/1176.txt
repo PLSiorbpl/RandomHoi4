@@ -1,0 +1,42 @@
+
+state={
+	id=1176
+	name="STATE_1176"
+	manpower = 890704
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16347 6}
+		victory_points = { 16353 2}
+		
+		owner = NFT
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			16347 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NFT
+	}
+
+	provinces={
+		16340 16341 16342 16343 16344 16345 16346 16347 16348 16349 16350 16351 16352 16353 16354 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=456
+	name="STATE_456"
+	manpower = 433048
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6403 2}
+		victory_points = { 6404 1}
+		
+		owner = XHR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XHR
+	}
+
+	provinces={
+		6400 6401 6402 6403 6404 6405 
+	}
+	local_supplies=0.0 
+}

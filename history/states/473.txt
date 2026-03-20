@@ -1,0 +1,38 @@
+
+state={
+	id=473
+	name="STATE_473"
+	manpower = 396970
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6709 1}
+		
+		owner = GQT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GQT
+	}
+
+	provinces={
+		6705 6706 6707 6708 6709 6710 
+	}
+	local_supplies=0.0 
+}

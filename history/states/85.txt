@@ -1,0 +1,43 @@
+
+state={
+	id=85
+	name="STATE_85"
+	manpower = 691124
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1325 1}
+		victory_points = { 1327 1}
+		victory_points = { 1329 3}
+		
+		owner = MCK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			1327 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MCK
+	}
+
+	provinces={
+		1324 1325 1326 1327 1328 1329 1330 1331 1332 1333 1334 
+	}
+	local_supplies=0.0 
+}

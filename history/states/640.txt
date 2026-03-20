@@ -1,0 +1,39 @@
+
+state={
+	id=640
+	name="STATE_640"
+	manpower = 811169
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9206 4}
+		victory_points = { 9213 2}
+		
+		owner = POI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = POI
+	}
+
+	provinces={
+		9205 9206 9207 9208 9209 9210 9211 9212 9213 9214 9215 9216 9217 
+	}
+	local_supplies=0.0 
+}

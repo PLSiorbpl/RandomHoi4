@@ -1,0 +1,43 @@
+
+state={
+	id=1181
+	name="STATE_1181"
+	manpower = 1129369
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16411 3}
+		victory_points = { 16423 4}
+		victory_points = { 16427 2}
+		
+		owner = NFT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			16418 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NFT
+	}
+
+	provinces={
+		16405 16406 16407 16408 16409 16410 16411 16412 16413 16414 16415 16416 16417 16418 16419 16420 16421 16422 16423 16424 16425 16426 16427 16428 16429 
+	}
+	local_supplies=0.0 
+}

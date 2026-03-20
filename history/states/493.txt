@@ -1,0 +1,40 @@
+
+state={
+	id=493
+	name="STATE_493"
+	manpower = 1323828
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=15
+	}
+
+	history={
+		victory_points = { 7001 6}
+		victory_points = { 7004 6}
+		victory_points = { 7017 1}
+		
+		owner = CCH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = CCH
+	}
+
+	provinces={
+		7000 7001 7002 7003 7004 7005 7006 7007 7008 7009 7010 7011 7012 7013 7014 7015 7016 7017 7018 7019 7020 7021 7022 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=644
+	name="STATE_644"
+	manpower = 374251
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9253 2}
+		
+		owner = HUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9253 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HUA
+	}
+
+	provinces={
+		9250 9251 9252 9253 9254 9255 
+	}
+	local_supplies=0.0 
+}

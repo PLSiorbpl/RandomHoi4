@@ -1,0 +1,42 @@
+
+state={
+	id=1101
+	name="STATE_1101"
+	manpower = 901215
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15300 5}
+		victory_points = { 15301 3}
+		
+		owner = NMT
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			15307 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NMT
+	}
+
+	provinces={
+		15300 15301 15302 15303 15304 15305 15306 15307 15308 15309 15310 15311 15312 15313 15314 
+	}
+	local_supplies=0.0 
+}

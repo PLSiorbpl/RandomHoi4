@@ -1,0 +1,39 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 792034
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 953 2}
+		victory_points = { 962 4}
+		
+		owner = KZU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KZU
+	}
+
+	provinces={
+		952 953 954 955 956 957 958 959 960 961 962 963 964 965 966 967 
+	}
+	local_supplies=0.0 
+}

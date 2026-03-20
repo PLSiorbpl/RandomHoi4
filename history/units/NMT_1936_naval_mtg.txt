@@ -1,0 +1,52 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Natpu Fleet"			
+		naval_base = 15451
+		task_force = {
+			name = "Natpu Fleet"
+			location = 15451
+			
+						ship = { name = "Siranai" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = NMT version_name = "Nadam Class" } }	}
+			ship = { name = "Nadam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadanneerku" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Siranai 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Kizharam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadanneerku 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+			ship = { name = "Nadanneerku 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Siranai 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+			ship = { name = "Nadam 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+			ship = { name = "Nadam 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+			ship = { name = "Nadanneerku 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadam 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadanneerku 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadanneerku 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadam 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadam 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Kizharam 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadam 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+			ship = { name = "Nadam 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadanneerku 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Kizharam 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+			ship = { name = "Siranai 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Kizharam 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Nadam 9" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+			ship = { name = "Nadam 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NMT version_name = "Kizharam Class" } }	}
+			ship = { name = "Siranai 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NMT version_name = "Nadanneerku Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

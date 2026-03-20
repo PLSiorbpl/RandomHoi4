@@ -1,0 +1,39 @@
+
+state={
+	id=474
+	name="STATE_474"
+	manpower = 888063
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6714 4}
+		victory_points = { 6722 4}
+		
+		owner = JRE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = JRE
+	}
+
+	provinces={
+		6711 6712 6713 6714 6715 6716 6717 6718 6719 6720 6721 6722 6723 6724 6725 
+	}
+	local_supplies=0.0 
+}

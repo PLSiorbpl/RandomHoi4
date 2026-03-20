@@ -1,0 +1,41 @@
+
+state={
+	id=36
+	name="STATE_36"
+	manpower = 533399
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=3
+	}
+
+	history={
+		victory_points = { 647 4}
+		
+		owner = NOJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			647 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOJ
+	}
+
+	provinces={
+		645 646 647 648 649 650 651 652 
+	}
+	local_supplies=0.0 
+}

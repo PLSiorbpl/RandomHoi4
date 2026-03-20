@@ -1,0 +1,43 @@
+
+state={
+	id=442
+	name="STATE_442"
+	manpower = 748557
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6226 2}
+		victory_points = { 6228 2}
+		victory_points = { 6231 2}
+		
+		owner = JRE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6233 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JRE
+	}
+
+	provinces={
+		6226 6227 6228 6229 6230 6231 6232 6233 6234 6235 6236 6237 
+	}
+	local_supplies=0.0 
+}

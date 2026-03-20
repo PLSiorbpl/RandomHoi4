@@ -1,0 +1,880 @@
+characters = {
+	YAS_Vinod_Nilal={
+		name="Vinod Nilal"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAS_Gandranesh_Vizhchaadil={
+		name="Gandranesh Vizhchaadil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Gandranesh_Vizhchaadil
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YAS_Dinesh_Thilai={
+		name="Dinesh Thilai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Dinesh_Thilai
+				traits = {	humble 	}
+		}
+
+	}
+	YAS_Vinod_Karai={
+		name="Vinod Karai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Vinod_Karai
+				traits = {	humble 	}
+		}
+
+	}
+	YAS_Rajesh_Oorunambu={
+		name="Rajesh Oorunambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Rajesh_Oorunambu
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YAS_Jaghan_Thai={
+		name="Jaghan Thai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Jaghan_Thai
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	YAS_Satishna_Karai={
+		name="Satishna Karai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Satishna_Karai
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YAS_Varun_Vizhchaadil={
+		name="Varun Vizhchaadil"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Varun_Vizhchaadil
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	YAS_Bala_Aasirai={
+		name="Bala Aasirai"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Bala_Aasirai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	YAS_Jaghan_Mozhi={
+		name="Jaghan Mozhi"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Jaghan_Mozhi
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	YAS_Harish_Thai={
+		name="Harish Thai"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Harish_Thai
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YAS_Raghanesh_Nadakkir={
+		name="Raghanesh Nadakkir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Raghanesh_Nadakkir
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	YAS_Harthil_Oorunambu={
+		name="Harthil Oorunambu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Harthil_Oorunambu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YAS_Satish_Oorunambu={
+		name="Satish Oorunambu"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Satish_Oorunambu
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	YAS_Naveepakash_Nilal={
+		name="Naveepakash Nilal"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Naveepakash_Nilal
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	YAS_Dinesh_Udakkam={
+		name="Dinesh Udakkam"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Dinesh_Udakkam
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	YAS_Harun_Mozhi={
+		name="Harun Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Harun_Mozhi
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	YAS_Surem_Mozhi={
+		name="Surem Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Surem_Mozhi
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	YAS_Mohaveepak_Mozhi={
+		name="Mohaveepak Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Mohaveepak_Mozhi
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	YAS_Mohandran_Vizhchaadil={
+		name="Mohandran Vizhchaadil"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Mohandran_Vizhchaadil
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	YAS_Kirak_Aasirai={
+		name="Kirak Aasirai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Kirak_Aasirai
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	YAS_Deepakash_Udakkam={
+		name="Deepakash Udakkam"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAS_Kiran_Vizhchaadil={
+		name="Kiran Vizhchaadil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Kiran_Vizhchaadil
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	YAS_Kumarun_Thai={
+		name="Kumarun Thai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Kumarun_Thai
+				traits = {	basileus 	}
+		}
+
+	}
+	YAS_Deenthik_Nilal={
+		name="Deenthik Nilal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Deenthik_Nilal
+				traits = {	warmonger 	}
+		}
+
+	}
+	YAS_Kiranoj_Nilal={
+		name="Kiranoj Nilal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Kiranoj_Nilal
+				traits = {	polemarch 	}
+		}
+
+	}
+	YAS_Deesh_Nilal={
+		name="Deesh Nilal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Deesh_Nilal
+				traits = {	warmonger 	}
+		}
+
+	}
+	YAS_Arun_Vizhchaadil={
+		name="Arun Vizhchaadil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Arun_Vizhchaadil
+				traits = {	infirm 	}
+		}
+
+	}
+	YAS_Senthil_Karai={
+		name="Senthil Karai"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Senthil_Karai
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	YAS_Varthil_Vizhchaadil={
+		name="Varthil Vizhchaadil"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Varthil_Vizhchaadil
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YAS_Gandranesh_Oorunambu={
+		name="Gandranesh Oorunambu"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Gandranesh_Oorunambu
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YAS_Kirak_Mozhi={
+		name="Kirak Mozhi"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Kirak_Mozhi
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	YAS_Senthil_Thilai={
+		name="Senthil Thilai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Senthil_Thilai
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YAS_Kumarthik_Mozhi={
+		name="Kumarthik Mozhi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Kumarthik_Mozhi
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	YAS_Satishna_Udakkam={
+		name="Satishna Udakkam"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Satishna_Udakkam
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YAS_Vinod_Mozhi={
+		name="Vinod Mozhi"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Vinod_Mozhi
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	YAS_Chavi_Nilal={
+		name="Chavi Nilal"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Chavi_Nilal
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	YAS_Surem_Nadakkir={
+		name="Surem Nadakkir"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Surem_Nadakkir
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	YAS_Karthil_Mozhi={
+		name="Karthil Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Karthil_Mozhi
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	YAS_Siddhan_Thai={
+		name="Siddhan Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Siddhan_Thai
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	YAS_Vijay_Nilal={
+		name="Vijay Nilal"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Vijay_Nilal
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	YAS_Krish_Thilai={
+		name="Krish Thilai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Krish_Thilai
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YAS_Chavi_Karai={
+		name="Chavi Karai"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAS_Naveepakash_Aasirai={
+		name="Naveepakash Aasirai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Naveepakash_Aasirai
+				traits = {	political_dancer 	}
+		}
+
+	}
+	YAS_Kiranoj_Thilai={
+		name="Kiranoj Thilai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Kiranoj_Thilai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAS_Jagadeesh_Aasirai={
+		name="Jagadeesh Aasirai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Jagadeesh_Aasirai
+				traits = {	polemarch 	}
+		}
+
+	}
+	YAS_Varthil_Thai={
+		name="Varthil Thai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Varthil_Thai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAS_Kiranoj_Vizhchaadil={
+		name="Kiranoj Vizhchaadil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Kiranoj_Vizhchaadil
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YAS_Karth_Nilal={
+		name="Karth Nilal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Karth_Nilal
+				traits = {	infirm 	}
+		}
+
+	}
+	YAS_Deenthik_Mozhi={
+		name="Deenthik Mozhi"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Deenthik_Mozhi
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YAS_Kirandrakash_Oorunambu={
+		name="Kirandrakash Oorunambu"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Kirandrakash_Oorunambu
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	YAS_Kiranod_Udakkam={
+		name="Kiranod Udakkam"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Kiranod_Udakkam
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YAS_Ragadeenthik_Mozhi={
+		name="Ragadeenthik Mozhi"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Ragadeenthik_Mozhi
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YAS_Ajay_Mozhi={
+		name="Ajay Mozhi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Ajay_Mozhi
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	YAS_Deesh_Nadakkir={
+		name="Deesh Nadakkir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Deesh_Nadakkir
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YAS_Kirandrakash_Udakkam={
+		name="Kirandrakash Udakkam"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Kirandrakash_Udakkam
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YAS_Karthil_Nadakkir={
+		name="Karthil Nadakkir"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Karthil_Nadakkir
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	YAS_Harish_Vizhchaadil={
+		name="Harish Vizhchaadil"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Harish_Vizhchaadil
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	YAS_Dinesh_Karai={
+		name="Dinesh Karai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Dinesh_Karai
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	YAS_Gandranesh_Mozhi={
+		name="Gandranesh Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Gandranesh_Mozhi
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	YAS_Mohandran_Mozhi={
+		name="Mohandran Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Mohandran_Mozhi
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	YAS_Varthil_Thilai={
+		name="Varthil Thilai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Varthil_Thilai
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	YAS_Vijay_Oorunambu={
+		name="Vijay Oorunambu"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Vijay_Oorunambu
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	YAS_Mandrak_Vizhchaadil={
+		name="Mandrak Vizhchaadil"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAS_Harthik_Nilal={
+		name="Harthik Nilal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Harthik_Nilal
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	YAS_Vinoj_Nadakkir={
+		name="Vinoj Nadakkir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Vinoj_Nadakkir
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	YAS_Ravi_Oorunambu={
+		name="Ravi Oorunambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Ravi_Oorunambu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YAS_Anil_Nadakkir={
+		name="Anil Nadakkir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Anil_Nadakkir
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YAS_Arun_Oorunambu={
+		name="Arun Oorunambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Arun_Oorunambu
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	YAS_Gandranesh_Udakkam={
+		name="Gandranesh Udakkam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAS_Gandranesh_Udakkam
+				traits = {	the_banker 	}
+		}
+
+	}
+	YAS_Gandranesh_Nilal={
+		name="Gandranesh Nilal"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Gandranesh_Nilal
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YAS_Kiran_Mozhi={
+		name="Kiran Mozhi"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Kiran_Mozhi
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	YAS_Vinoj_Karai={
+		name="Vinoj Karai"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Vinoj_Karai
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YAS_Satishna_Oorunambu={
+		name="Satishna Oorunambu"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAS_Satishna_Oorunambu
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YAS_Raghanesh_Vizhchaadil={
+		name="Raghanesh Vizhchaadil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Raghanesh_Vizhchaadil
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	YAS_Bala_Oorunambu={
+		name="Bala Oorunambu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAS_Bala_Oorunambu
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	YAS_Kiranod_Thai={
+		name="Kiranod Thai"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Kiranod_Thai
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	YAS_Satishna_Vizhchaadil={
+		name="Satishna Vizhchaadil"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAS_Satishna_Vizhchaadil
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	YAS_Harish_Mozhi={
+		name="Harish Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Harish_Mozhi
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	YAS_Mohanesh_Aasirai={
+		name="Mohanesh Aasirai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Mohanesh_Aasirai
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	YAS_Anil_Udakkam={
+		name="Anil Udakkam"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Anil_Udakkam
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YAS_Karth_Vizhchaadil={
+		name="Karth Vizhchaadil"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Karth_Vizhchaadil
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	YAS_Rajeshna_Thai={
+		name="Rajeshna Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Rajeshna_Thai
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	YAS_Jagadeesh_Thai={
+		name="Jagadeesh Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = YAS_Jagadeesh_Thai
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	YAS_Kumarthik_Nadakkir={
+		name="Kumarthik Nadakkir"
+
+		advisor={
+			slot = theorist
+			idea_token = YAS_Kumarthik_Nadakkir
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YAS_Karth_Thilai={
+		name="Karth Thilai"
+
+		advisor={
+			slot = theorist
+			idea_token = YAS_Karth_Thilai
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YAS_Varun_Mozhi={
+		name="Varun Mozhi"
+
+		advisor={
+			slot = theorist
+			idea_token = YAS_Varun_Mozhi
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=830
+	name="STATE_830"
+	manpower = 738617
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11616 3}
+		victory_points = { 11621 1}
+		victory_points = { 11623 1}
+		
+		owner = CCH
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			11619 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CCH
+	}
+
+	provinces={
+		11613 11614 11615 11616 11617 11618 11619 11620 11621 11622 11623 11624 
+	}
+	local_supplies=0.0 
+}

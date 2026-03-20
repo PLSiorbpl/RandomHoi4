@@ -1,0 +1,43 @@
+
+state={
+	id=933
+	name="STATE_933"
+	manpower = 1791957
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12800 7}
+		victory_points = { 12813 3}
+		victory_points = { 12818 7}
+		
+		owner = UEO
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			12804 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UEO
+	}
+
+	provinces={
+		12794 12795 12796 12797 12798 12799 12800 12801 12802 12803 12804 12805 12806 12807 12808 12809 12810 12811 12812 12813 12814 12815 12816 12817 12818 12819 12820 12821 12822 12823 12824 
+	}
+	local_supplies=0.0 
+}

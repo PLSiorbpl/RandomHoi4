@@ -1,0 +1,38 @@
+
+state={
+	id=1106
+	name="STATE_1106"
+	manpower = 337174
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15371 2}
+		
+		owner = NMT
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NMT
+	}
+
+	provinces={
+		15370 15371 15372 15373 15374 
+	}
+	local_supplies=0.0 
+}

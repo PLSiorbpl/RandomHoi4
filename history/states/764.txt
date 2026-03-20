@@ -1,0 +1,40 @@
+
+state={
+	id=764
+	name="STATE_764"
+	manpower = 860570
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=11
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10815 2}
+		victory_points = { 10819 2}
+		victory_points = { 10826 3}
+		
+		owner = AGH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGH
+	}
+
+	provinces={
+		10813 10814 10815 10816 10817 10818 10819 10820 10821 10822 10823 10824 10825 10826 
+	}
+	local_supplies=0.0 
+}

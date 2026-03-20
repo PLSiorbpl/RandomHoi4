@@ -1,0 +1,40 @@
+
+state={
+	id=798
+	name="STATE_798"
+	manpower = 1155252
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11305 4}
+		victory_points = { 11310 1}
+		victory_points = { 11315 4}
+		
+		owner = MWR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MWR
+	}
+
+	provinces={
+		11304 11305 11306 11307 11308 11309 11310 11311 11312 11313 11314 11315 11316 11317 11318 11319 11320 11321 11322 
+	}
+	local_supplies=0.0 
+}

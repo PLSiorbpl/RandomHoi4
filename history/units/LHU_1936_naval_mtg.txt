@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Thurai Fleet"			
+		naval_base = 16224
+		task_force = {
+			name = "Thurai Fleet"
+			location = 16224
+			
+						ship = { name = "Thogu" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LHU version_name = "Tham Class" } }	}
+			ship = { name = "Thunporul" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LHU version_name = "Nadam Class" } }	}
+			ship = { name = "Thakku" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LHU version_name = "Nadam Class" } }	}
+			ship = { name = "Thogu 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LHU version_name = "Nadam Class" } }	}
+			ship = { name = "Thakku 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LHU version_name = "Nadam Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,38 @@
+
+state={
+	id=905
+	name="STATE_905"
+	manpower = 576281
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12502 4}
+		
+		owner = KNP
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KNP
+	}
+
+	provinces={
+		12502 12503 12504 12505 12506 12507 12508 12509 12510 
+	}
+	local_supplies=0.0 
+}

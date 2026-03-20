@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Gruer Fleet"			
+		naval_base = 5153
+		task_force = {
+			name = "Gruer Fleet"
+			location = 5153
+			
+						ship = { name = "Namild" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GPU version_name = "Feuesang Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

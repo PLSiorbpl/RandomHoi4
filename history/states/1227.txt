@@ -1,0 +1,42 @@
+
+state={
+	id=1227
+	name="STATE_1227"
+	manpower = 449114
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17022 1}
+		victory_points = { 17023 1}
+		
+		owner = EOI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			17021 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = EOI
+	}
+
+	provinces={
+		17019 17020 17021 17022 17023 17024 17025 17026 
+	}
+	local_supplies=0.0 
+}

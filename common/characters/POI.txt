@@ -1,0 +1,880 @@
+characters = {
+	POI_Tiberutus_Ordo={
+		name="Tiberutus Ordo"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POI_Tiberius_Nomus={
+		name="Tiberius Nomus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Tiberius_Nomus
+				traits = {	humble 	}
+		}
+
+	}
+	POI_Viticus_Scaes={
+		name="Viticus Scaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Viticus_Scaes
+				traits = {	headstrong 	}
+		}
+
+	}
+	POI_Scaevervius_Libum={
+		name="Scaevervius Libum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Scaevervius_Libum
+				traits = {	headstrong 	}
+		}
+
+	}
+	POI_Hornellius_Libum={
+		name="Hornellius Libum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Hornellius_Libum
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	POI_Attius_Plera={
+		name="Attius Plera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Attius_Plera
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	POI_Scaeverius_Ordo={
+		name="Scaeverius Ordo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Scaeverius_Ordo
+				traits = {	headstrong 	}
+		}
+
+	}
+	POI_Caius_Plera={
+		name="Caius Plera"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Caius_Plera
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	POI_Hornellius_Opus={
+		name="Hornellius Opus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Hornellius_Opus
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	POI_Longintus_Opus={
+		name="Longintus Opus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Longintus_Opus
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	POI_Tiberutus_Pormala={
+		name="Tiberutus Pormala"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Tiberutus_Pormala
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	POI_Gratius_Scaes={
+		name="Gratius Scaes"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Gratius_Scaes
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	POI_Gratius_Opus={
+		name="Gratius Opus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Gratius_Opus
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	POI_Brus_Libum={
+		name="Brus Libum"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Brus_Libum
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	POI_Attius_Scaes={
+		name="Attius Scaes"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Attius_Scaes
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	POI_Serus_Scaes={
+		name="Serus Scaes"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Serus_Scaes
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	POI_Remintonginu_Pormala={
+		name="Remintonginu Pormala"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Remintonginu_Pormala
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	POI_Scaeverius_Libum={
+		name="Scaeverius Libum"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Scaeverius_Libum
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	POI_Viticus_Pormala={
+		name="Viticus Pormala"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Viticus_Pormala
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	POI_Clavius_Plebs={
+		name="Clavius Plebs"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Clavius_Plebs
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	POI_Faus_Pormala={
+		name="Faus Pormala"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Faus_Pormala
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	POI_Otho_Ordo={
+		name="Otho Ordo"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POI_Paulianustus_Pormala={
+		name="Paulianustus Pormala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Paulianustus_Pormala
+				traits = {	basileus 	}
+		}
+
+	}
+	POI_Augus_Scaes={
+		name="Augus Scaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Augus_Scaes
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	POI_Nerus_Plebs={
+		name="Nerus Plebs"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Nerus_Plebs
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	POI_Gratius_Libum={
+		name="Gratius Libum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Gratius_Libum
+				traits = {	basileus 	}
+		}
+
+	}
+	POI_Priusus_Scaes={
+		name="Priusus Scaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Priusus_Scaes
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	POI_Cornellianus_Nomus={
+		name="Cornellianus Nomus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Cornellianus_Nomus
+				traits = {	infirm 	}
+		}
+
+	}
+	POI_Longinus_Phina={
+		name="Longinus Phina"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Longinus_Phina
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	POI_Spurius_Argenebs={
+		name="Spurius Argenebs"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Spurius_Argenebs
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	POI_Silvanlius_Opus={
+		name="Silvanlius Opus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Silvanlius_Opus
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	POI_Silvanlius_Argenebs={
+		name="Silvanlius Argenebs"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Silvanlius_Argenebs
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	POI_Valeriscus_Ordo={
+		name="Valeriscus Ordo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Valeriscus_Ordo
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	POI_Gratius_Pormala={
+		name="Gratius Pormala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Gratius_Pormala
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	POI_Maximus_Libum={
+		name="Maximus Libum"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Maximus_Libum
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	POI_Valerus_Libum={
+		name="Valerus Libum"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Valerus_Libum
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	POI_Scaevolaudiu_Phina={
+		name="Scaevolaudiu Phina"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Scaevolaudiu_Phina
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	POI_Prius_Scaes={
+		name="Prius Scaes"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Prius_Scaes
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	POI_Nongintus_Opus={
+		name="Nongintus Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Nongintus_Opus
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	POI_Valeriscus_Plera={
+		name="Valeriscus Plera"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Valeriscus_Plera
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	POI_Severo_Ordo={
+		name="Severo Ordo"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Severo_Ordo
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	POI_Severo_Scaes={
+		name="Severo Scaes"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Severo_Scaes
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	POI_Scaeverius_Nomus={
+		name="Scaeverius Nomus"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POI_Serius_Argenebs={
+		name="Serius Argenebs"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Serius_Argenebs
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	POI_Valerus_Phina={
+		name="Valerus Phina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Valerus_Phina
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	POI_Brus_Ordo={
+		name="Brus Ordo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Brus_Ordo
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	POI_Horaticus_Plebs={
+		name="Horaticus Plebs"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Horaticus_Plebs
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	POI_Varcus_Opus={
+		name="Varcus Opus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Varcus_Opus
+				traits = {	infirm 	}
+		}
+
+	}
+	POI_Sextus_Plera={
+		name="Sextus Plera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Sextus_Plera
+				traits = {	political_dancer 	}
+		}
+
+	}
+	POI_Prius_Ordo={
+		name="Prius Ordo"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Prius_Ordo
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	POI_Priscus_Nomus={
+		name="Priscus Nomus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Priscus_Nomus
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	POI_Publiustustu_Plera={
+		name="Publiustustu Plera"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Publiustustu_Plera
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	POI_Otho_Pormala={
+		name="Otho Pormala"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Otho_Pormala
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	POI_Longinus_Pormala={
+		name="Longinus Pormala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Longinus_Pormala
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	POI_Varcelliustu_Plera={
+		name="Varcelliustu Plera"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Varcelliustu_Plera
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	POI_Remintonginu_Plera={
+		name="Remintonginu Plera"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Remintonginu_Plera
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	POI_Lonius_Opus={
+		name="Lonius Opus"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Lonius_Opus
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	POI_Cornellianus_Libum={
+		name="Cornellianus Libum"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Cornellianus_Libum
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	POI_Severo_Phina={
+		name="Severo Phina"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Severo_Phina
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	POI_Caius_Pormala={
+		name="Caius Pormala"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Caius_Pormala
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	POI_Brus_Opus={
+		name="Brus Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Brus_Opus
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	POI_Tratius_Nomus={
+		name="Tratius Nomus"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Tratius_Nomus
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	POI_Quinus_Ordo={
+		name="Quinus Ordo"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Quinus_Ordo
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	POI_Valeriscus_Nomus={
+		name="Valeriscus Nomus"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POI_Remintonginu_Plebs={
+		name="Remintonginu Plebs"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Remintonginu_Plebs
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	POI_Cassius_Phina={
+		name="Cassius Phina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Cassius_Phina
+				traits = {	first_lady 	}
+		}
+
+	}
+	POI_Manus_Nomus={
+		name="Manus Nomus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Manus_Nomus
+				traits = {	the_banker 	}
+		}
+
+	}
+	POI_Marro_Plera={
+		name="Marro Plera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Marro_Plera
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	POI_Augulius_Opus={
+		name="Augulius Opus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Augulius_Opus
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	POI_Atticus_Scaes={
+		name="Atticus Scaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POI_Atticus_Scaes
+				traits = {	the_banker 	}
+		}
+
+	}
+	POI_Clavius_Scaes={
+		name="Clavius Scaes"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Clavius_Scaes
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	POI_Hornellius_Argenebs={
+		name="Hornellius Argenebs"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Hornellius_Argenebs
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	POI_Brutus_Nomus={
+		name="Brutus Nomus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Brutus_Nomus
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	POI_Silvanus_Ordo={
+		name="Silvanus Ordo"
+
+		advisor={
+			slot = army_chief
+			idea_token = POI_Silvanus_Ordo
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	POI_Longintus_Plebs={
+		name="Longintus Plebs"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Longintus_Plebs
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	POI_Publiustustu_Pormala={
+		name="Publiustustu Pormala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POI_Publiustustu_Pormala
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	POI_Scaeverius_Phina={
+		name="Scaeverius Phina"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Scaeverius_Phina
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	POI_Varcus_Ordo={
+		name="Varcus Ordo"
+
+		advisor={
+			slot = air_chief
+			idea_token = POI_Varcus_Ordo
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	POI_Clavius_Libum={
+		name="Clavius Libum"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Clavius_Libum
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	POI_Quinus_Plera={
+		name="Quinus Plera"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Quinus_Plera
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	POI_Publiustustu_Libum={
+		name="Publiustustu Libum"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Publiustustu_Libum
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	POI_Silvanus_Plera={
+		name="Silvanus Plera"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Silvanus_Plera
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	POI_Nongintus_Argenebs={
+		name="Nongintus Argenebs"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Nongintus_Argenebs
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	POI_Silvanlius_Libum={
+		name="Silvanlius Libum"
+
+		advisor={
+			slot = high_command
+			idea_token = POI_Silvanlius_Libum
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	POI_Cassius_Plebs={
+		name="Cassius Plebs"
+
+		advisor={
+			slot = theorist
+			idea_token = POI_Cassius_Plebs
+				traits = {	military_theorist 	}
+		}
+
+	}
+	POI_Maximus_Plera={
+		name="Maximus Plera"
+
+		advisor={
+			slot = theorist
+			idea_token = POI_Maximus_Plera
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	POI_Otho_Plera={
+		name="Otho Plera"
+
+		advisor={
+			slot = theorist
+			idea_token = POI_Otho_Plera
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

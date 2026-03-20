@@ -1,0 +1,40 @@
+
+state={
+	id=1002
+	name="STATE_1002"
+	manpower = 180048
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=3
+	}
+
+	history={
+		
+		owner = WOA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			13820 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = WOA
+	}
+
+	provinces={
+		13820 13821 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,880 @@
+characters = {
+	TQI_Declan_Teinn={
+		name="Declan Teinn"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TQI_Liam_Seach={
+		name="Liam Seach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Liam_Seach
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TQI_Ulrich_Cnoc={
+		name="Ulrich Cnoc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Ulrich_Cnoc
+				traits = {	headstrong 	}
+		}
+
+	}
+	TQI_Quin_Maich={
+		name="Quin Maich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Quin_Maich
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TQI_Tareth_Beim={
+		name="Tareth Beim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Tareth_Beim
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TQI_Ciareth_Maich={
+		name="Ciareth Maich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Ciareth_Maich
+				traits = {	headstrong 	}
+		}
+
+	}
+	TQI_Keiraig_Teinn={
+		name="Keiraig Teinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Keiraig_Teinn
+				traits = {	headstrong 	}
+		}
+
+	}
+	TQI_Iwan_Fuas={
+		name="Iwan Fuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Iwan_Fuas
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TQI_Ciam_Gearg={
+		name="Ciam Gearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Ciam_Gearg
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TQI_Garaig_Cnoc={
+		name="Garaig Cnoc"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Garaig_Cnoc
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TQI_Ulrich_Teinn={
+		name="Ulrich Teinn"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Ulrich_Teinn
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TQI_Aidan_Buachar={
+		name="Aidan Buachar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Aidan_Buachar
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TQI_Cialcolm_Maich={
+		name="Cialcolm Maich"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Cialcolm_Maich
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TQI_Quinn_Maich={
+		name="Quinn Maich"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Quinn_Maich
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TQI_Iwan_Maich={
+		name="Iwan Maich"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Iwan_Maich
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TQI_Seam_Teinn={
+		name="Seam Teinn"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Seam_Teinn
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TQI_Taraig_Seach={
+		name="Taraig Seach"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Taraig_Seach
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TQI_Rhys_Gearg={
+		name="Rhys Gearg"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Rhys_Gearg
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	TQI_Keiran_Seach={
+		name="Keiran Seach"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Keiran_Seach
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TQI_Ciam_Maich={
+		name="Ciam Maich"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Ciam_Maich
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TQI_Gareth_Fuas={
+		name="Gareth Fuas"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Gareth_Fuas
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	TQI_Padran_Beim={
+		name="Padran Beim"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TQI_Bran_Gearg={
+		name="Bran Gearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Bran_Gearg
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	TQI_Mall_Beim={
+		name="Mall Beim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Mall_Beim
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TQI_Cialcolm_Aitha={
+		name="Cialcolm Aitha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Cialcolm_Aitha
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	TQI_Garan_Teinn={
+		name="Garan Teinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Garan_Teinn
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TQI_Bran_Teinn={
+		name="Bran Teinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Bran_Teinn
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	TQI_Taran_Seach={
+		name="Taran Seach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Taran_Seach
+				traits = {	polemarch 	}
+		}
+
+	}
+	TQI_Liaraig_Fuas={
+		name="Liaraig Fuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Liaraig_Fuas
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TQI_Fergus_Cnoc={
+		name="Fergus Cnoc"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Fergus_Cnoc
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TQI_Liaraig_Beim={
+		name="Liaraig Beim"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Liaraig_Beim
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TQI_Padraig_Buachar={
+		name="Padraig Buachar"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Padraig_Buachar
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TQI_Declan_Aitha={
+		name="Declan Aitha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Declan_Aitha
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TQI_Iwan_Gearg={
+		name="Iwan Gearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Iwan_Gearg
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TQI_Padraig_Fuas={
+		name="Padraig Fuas"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Padraig_Fuas
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TQI_Taraig_Maich={
+		name="Taraig Maich"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Taraig_Maich
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TQI_Padraig_Maich={
+		name="Padraig Maich"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Padraig_Maich
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TQI_Ciareth_Aitha={
+		name="Ciareth Aitha"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Ciareth_Aitha
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	TQI_Seamus_Buachar={
+		name="Seamus Buachar"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Seamus_Buachar
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	TQI_Aidan_Cnoc={
+		name="Aidan Cnoc"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Aidan_Cnoc
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	TQI_Ulrich_Fuas={
+		name="Ulrich Fuas"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Ulrich_Fuas
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	TQI_Keiraig_Aitha={
+		name="Keiraig Aitha"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Keiraig_Aitha
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TQI_Taran_Fuas={
+		name="Taran Fuas"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TQI_Hugh_Fuas={
+		name="Hugh Fuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Hugh_Fuas
+				traits = {	polemarch 	}
+		}
+
+	}
+	TQI_Ciareth_Beim={
+		name="Ciareth Beim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Ciareth_Beim
+				traits = {	polemarch 	}
+		}
+
+	}
+	TQI_Mall_Gearg={
+		name="Mall Gearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Mall_Gearg
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TQI_Fergus_Beim={
+		name="Fergus Beim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Fergus_Beim
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TQI_Padran_Maich={
+		name="Padran Maich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Padran_Maich
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TQI_Niamus_Buachar={
+		name="Niamus Buachar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Niamus_Buachar
+				traits = {	infirm 	}
+		}
+
+	}
+	TQI_Gareth_Beim={
+		name="Gareth Beim"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Gareth_Beim
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TQI_Tareth_Fuas={
+		name="Tareth Fuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Tareth_Fuas
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TQI_Rhys_Aitha={
+		name="Rhys Aitha"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Rhys_Aitha
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TQI_Padraig_Cnuach={
+		name="Padraig Cnuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Padraig_Cnuach
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TQI_Niall_Teinn={
+		name="Niall Teinn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Niall_Teinn
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TQI_Taran_Cnoc={
+		name="Taran Cnoc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Taran_Cnoc
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TQI_Rhys_Buachar={
+		name="Rhys Buachar"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Rhys_Buachar
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TQI_Braig_Cnoc={
+		name="Braig Cnoc"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Braig_Cnoc
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TQI_Gareth_Teinn={
+		name="Gareth Teinn"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Gareth_Teinn
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	TQI_Ulrich_Aitha={
+		name="Ulrich Aitha"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Ulrich_Aitha
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TQI_Eoinn_Teinn={
+		name="Eoinn Teinn"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Eoinn_Teinn
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	TQI_Braig_Teinn={
+		name="Braig Teinn"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Braig_Teinn
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	TQI_Bran_Maich={
+		name="Bran Maich"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Bran_Maich
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TQI_Rhys_Teinn={
+		name="Rhys Teinn"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Rhys_Teinn
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TQI_Ciareth_Fuas={
+		name="Ciareth Fuas"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TQI_Liaraig_Buachar={
+		name="Liaraig Buachar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Liaraig_Buachar
+				traits = {	infirm 	}
+		}
+
+	}
+	TQI_Quin_Teinn={
+		name="Quin Teinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Quin_Teinn
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TQI_Taraig_Aitha={
+		name="Taraig Aitha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Taraig_Aitha
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TQI_Liaraig_Maich={
+		name="Liaraig Maich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Liaraig_Maich
+				traits = {	the_banker 	}
+		}
+
+	}
+	TQI_Iwan_Seach={
+		name="Iwan Seach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Iwan_Seach
+				traits = {	the_banker 	}
+		}
+
+	}
+	TQI_Seamus_Cnoc={
+		name="Seamus Cnoc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TQI_Seamus_Cnoc
+				traits = {	rearmer 	}
+		}
+
+	}
+	TQI_Padran_Teinn={
+		name="Padran Teinn"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Padran_Teinn
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TQI_Mall_Buachar={
+		name="Mall Buachar"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Mall_Buachar
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TQI_Taraig_Fuas={
+		name="Taraig Fuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Taraig_Fuas
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TQI_Eoinn_Cnoc={
+		name="Eoinn Cnoc"
+
+		advisor={
+			slot = army_chief
+			idea_token = TQI_Eoinn_Cnoc
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TQI_Quinn_Cnuach={
+		name="Quinn Cnuach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Quinn_Cnuach
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TQI_Fergus_Gearg={
+		name="Fergus Gearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TQI_Fergus_Gearg
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TQI_Liam_Beim={
+		name="Liam Beim"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Liam_Beim
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TQI_Niall_Beim={
+		name="Niall Beim"
+
+		advisor={
+			slot = air_chief
+			idea_token = TQI_Niall_Beim
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TQI_Seamus_Beim={
+		name="Seamus Beim"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Seamus_Beim
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TQI_Quin_Fuas={
+		name="Quin Fuas"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Quin_Fuas
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TQI_Seam_Cnuach={
+		name="Seam Cnuach"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Seam_Cnuach
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	TQI_Nialcolm_Cnoc={
+		name="Nialcolm Cnoc"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Nialcolm_Cnoc
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	TQI_Iwan_Aitha={
+		name="Iwan Aitha"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Iwan_Aitha
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TQI_Taran_Buachar={
+		name="Taran Buachar"
+
+		advisor={
+			slot = high_command
+			idea_token = TQI_Taran_Buachar
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TQI_Eoinn_Beim={
+		name="Eoinn Beim"
+
+		advisor={
+			slot = theorist
+			idea_token = TQI_Eoinn_Beim
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TQI_Cialcolm_Buachar={
+		name="Cialcolm Buachar"
+
+		advisor={
+			slot = theorist
+			idea_token = TQI_Cialcolm_Buachar
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TQI_Ciam_Teinn={
+		name="Ciam Teinn"
+
+		advisor={
+			slot = theorist
+			idea_token = TQI_Ciam_Teinn
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

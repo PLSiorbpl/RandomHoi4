@@ -1,0 +1,880 @@
+characters = {
+	KIM_Rizal_Mulan={
+		name="Rizal Mulan"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIM_Putra_Anahat={
+		name="Putra Anahat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Putra_Anahat
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KIM_Suryang_Kama={
+		name="Suryang Kama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Suryang_Kama
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KIM_Sakti_Ritu={
+		name="Sakti Ritu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Sakti_Ritu
+				traits = {	headstrong 	}
+		}
+
+	}
+	KIM_Budi_Kulintangang={
+		name="Budi Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Budi_Kulintangang
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KIM_Ketutfi_Kulintangang={
+		name="Ketutfi Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Ketutfi_Kulintangang
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KIM_Suryan_Terjagu={
+		name="Suryan Terjagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Suryan_Terjagu
+				traits = {	headstrong 	}
+		}
+
+	}
+	KIM_Mario_Kulintangang={
+		name="Mario Kulintangang"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Mario_Kulintangang
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KIM_Lutfi_Terjagu={
+		name="Lutfi Terjagu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Lutfi_Terjagu
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KIM_Agus_Ritu={
+		name="Agus Ritu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Agus_Ritu
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KIM_Joko_Dewan={
+		name="Joko Dewan"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Joko_Dewan
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KIM_Dewa_Dewan={
+		name="Dewa Dewan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Dewa_Dewan
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	KIM_Surya_Kulintangang={
+		name="Surya Kulintangang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Surya_Kulintangang
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KIM_Suryan_Bencak={
+		name="Suryan Bencak"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Suryan_Bencak
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KIM_Fajari_Kama={
+		name="Fajari Kama"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Fajari_Kama
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	KIM_Wayan_Mulan={
+		name="Wayan Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Wayan_Mulan
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KIM_Waya_Terjagu={
+		name="Waya Terjagu"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Waya_Terjagu
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	KIM_Putfi_Ritu={
+		name="Putfi Ritu"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Putfi_Ritu
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KIM_Rambang_Kulintangang={
+		name="Rambang Kulintangang"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Rambang_Kulintangang
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	KIM_Waya_Bencak={
+		name="Waya Bencak"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Waya_Bencak
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	KIM_Ramban_Kama={
+		name="Ramban Kama"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Ramban_Kama
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	KIM_Lutfi_Kama={
+		name="Lutfi Kama"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIM_Joko_Terjagu={
+		name="Joko Terjagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Joko_Terjagu
+				traits = {	basileus 	}
+		}
+
+	}
+	KIM_Lutra_Mulan={
+		name="Lutra Mulan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Lutra_Mulan
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	KIM_Waya_Kulintangang={
+		name="Waya Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Waya_Kulintangang
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KIM_Dewa_Kulintangang={
+		name="Dewa Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Dewa_Kulintangang
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KIM_Putfi_Terakitu={
+		name="Putfi Terakitu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Putfi_Terakitu
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	KIM_Dewa_Ritu={
+		name="Dewa Ritu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Dewa_Ritu
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	KIM_Ketut_Kama={
+		name="Ketut Kama"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Ketut_Kama
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KIM_Ramban_Tara={
+		name="Ramban Tara"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Ramban_Tara
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KIM_Mario_Kama={
+		name="Mario Kama"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Mario_Kama
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KIM_Agus_Bencak={
+		name="Agus Bencak"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Agus_Bencak
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KIM_Wayang_Mulan={
+		name="Wayang Mulan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Wayang_Mulan
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	KIM_Bama_Kulintangang={
+		name="Bama Kulintangang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Bama_Kulintangang
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KIM_Mario_Anahat={
+		name="Mario Anahat"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Mario_Anahat
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KIM_Arjuna_Terjagu={
+		name="Arjuna Terjagu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Arjuna_Terjagu
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KIM_Putfi_Tara={
+		name="Putfi Tara"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Putfi_Tara
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	KIM_Agus_Kama={
+		name="Agus Kama"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Agus_Kama
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KIM_Bambang_Dewan={
+		name="Bambang Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Bambang_Dewan
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	KIM_Ketutfi_Dewan={
+		name="Ketutfi Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Ketutfi_Dewan
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KIM_Fajario_Dewan={
+		name="Fajario Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Fajario_Dewan
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	KIM_Andi_Dewan={
+		name="Andi Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Andi_Dewan
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	KIM_Lutra_Bencak={
+		name="Lutra Bencak"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIM_Suryang_Terakitu={
+		name="Suryang Terakitu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Suryang_Terakitu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KIM_Lutra_Kama={
+		name="Lutra Kama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Lutra_Kama
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KIM_Rama_Kama={
+		name="Rama Kama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Rama_Kama
+				traits = {	polemarch 	}
+		}
+
+	}
+	KIM_Rambang_Anahat={
+		name="Rambang Anahat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Rambang_Anahat
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KIM_Rama_Bencak={
+		name="Rama Bencak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Rama_Bencak
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KIM_Hario_Kama={
+		name="Hario Kama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Hario_Kama
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KIM_Budi_Tara={
+		name="Budi Tara"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Budi_Tara
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	KIM_Waya_Tara={
+		name="Waya Tara"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Waya_Tara
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KIM_Ketutfi_Mulan={
+		name="Ketutfi Mulan"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Ketutfi_Mulan
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KIM_Rambang_Bencak={
+		name="Rambang Bencak"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Rambang_Bencak
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	KIM_Wayang_Kama={
+		name="Wayang Kama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Wayang_Kama
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	KIM_Dewa_Anahat={
+		name="Dewa Anahat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Dewa_Anahat
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KIM_Lutra_Ritu={
+		name="Lutra Ritu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Lutra_Ritu
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KIM_Lutra_Terjagu={
+		name="Lutra Terjagu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Lutra_Terjagu
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	KIM_Ramban_Kulintangang={
+		name="Ramban Kulintangang"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Ramban_Kulintangang
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	KIM_Ketut_Ritu={
+		name="Ketut Ritu"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Ketut_Ritu
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	KIM_Sakti_Dewan={
+		name="Sakti Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Sakti_Dewan
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	KIM_Joko_Terakitu={
+		name="Joko Terakitu"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Joko_Terakitu
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	KIM_Andi_Terakitu={
+		name="Andi Terakitu"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Andi_Terakitu
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	KIM_Andi_Kulintangang={
+		name="Andi Kulintangang"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Andi_Kulintangang
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	KIM_Surya_Anahat={
+		name="Surya Anahat"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIM_Rama_Anahat={
+		name="Rama Anahat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Rama_Anahat
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	KIM_Mari_Tara={
+		name="Mari Tara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Mari_Tara
+				traits = {	infirm 	}
+		}
+
+	}
+	KIM_Wayang_Terjagu={
+		name="Wayang Terjagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Wayang_Terjagu
+				traits = {	first_lady 	}
+		}
+
+	}
+	KIM_Suryan_Kulintangang={
+		name="Suryan Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Suryan_Kulintangang
+				traits = {	first_lady 	}
+		}
+
+	}
+	KIM_Arjuna_Kulintangang={
+		name="Arjuna Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Arjuna_Kulintangang
+				traits = {	the_banker 	}
+		}
+
+	}
+	KIM_Lutfi_Dewan={
+		name="Lutfi Dewan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIM_Lutfi_Dewan
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KIM_Wayan_Terjagu={
+		name="Wayan Terjagu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Wayan_Terjagu
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KIM_Wayang_Kulintangang={
+		name="Wayang Kulintangang"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Wayang_Kulintangang
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KIM_Arjuna_Dewan={
+		name="Arjuna Dewan"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Arjuna_Dewan
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KIM_Budi_Terakitu={
+		name="Budi Terakitu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIM_Budi_Terakitu
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KIM_Bama_Tara={
+		name="Bama Tara"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Bama_Tara
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	KIM_Rama_Terjagu={
+		name="Rama Terjagu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIM_Rama_Terjagu
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KIM_Lutfi_Tara={
+		name="Lutfi Tara"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Lutfi_Tara
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	KIM_Ramban_Dewan={
+		name="Ramban Dewan"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIM_Ramban_Dewan
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	KIM_Rizal_Kulintangang={
+		name="Rizal Kulintangang"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Rizal_Kulintangang
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KIM_Sakti_Tara={
+		name="Sakti Tara"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Sakti_Tara
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KIM_Hario_Dewan={
+		name="Hario Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Hario_Dewan
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KIM_Mari_Kama={
+		name="Mari Kama"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Mari_Kama
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	KIM_Fajari_Dewan={
+		name="Fajari Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Fajari_Dewan
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	KIM_Rizal_Kama={
+		name="Rizal Kama"
+
+		advisor={
+			slot = high_command
+			idea_token = KIM_Rizal_Kama
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KIM_Andi_Kama={
+		name="Andi Kama"
+
+		advisor={
+			slot = theorist
+			idea_token = KIM_Andi_Kama
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KIM_Ketut_Terakitu={
+		name="Ketut Terakitu"
+
+		advisor={
+			slot = theorist
+			idea_token = KIM_Ketut_Terakitu
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KIM_Budi_Terjagu={
+		name="Budi Terjagu"
+
+		advisor={
+			slot = theorist
+			idea_token = KIM_Budi_Terjagu
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

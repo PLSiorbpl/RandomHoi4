@@ -1,0 +1,39 @@
+
+state={
+	id=868
+	name="STATE_868"
+	manpower = 577013
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12094 1}
+		victory_points = { 12096 2}
+		
+		owner = XQA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XQA
+	}
+
+	provinces={
+		12092 12093 12094 12095 12096 12097 12098 12099 12100 
+	}
+	local_supplies=0.0 
+}

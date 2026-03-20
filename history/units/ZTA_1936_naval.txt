@@ -1,0 +1,29 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Stadterderde Fleet"			
+		naval_base = 8593
+		task_force = {
+			name = "Stadterderde Fleet"
+			location = 8593
+			
+						ship = { name = "Furm" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ZTA version_name = "Volk Class" } }	}
+			ship = { name = "Verden" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ZTA version_name = "Turm Class" } }	}
+			ship = { name = "Wiegend" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZTA version_name = "Turm Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

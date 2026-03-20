@@ -1,0 +1,39 @@
+
+state={
+	id=217
+	name="STATE_217"
+	manpower = 473418
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3323 2}
+		victory_points = { 3327 1}
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		3322 3323 3324 3325 3326 3327 3328 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,144 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Castizionto' Artillery Division"
+		location = 7615
+		division_template = "Artillery Division"
+		start_experience_factor = 0.708972
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Cando' Artillery Division"
+		location = 9963
+		division_template = "Artillery Division"
+		start_experience_factor = 0.837820
+		start_equipment_factor = 0.878371
+	}
+	division= {
+		name = "2rd 'Stella' Artillery Division"
+		location = 10047
+		division_template = "Artillery Division"
+		start_experience_factor = 0.889883
+		start_equipment_factor = 0.964114
+	}
+	division= {
+		name = "3th 'Camo' Artillery Division"
+		location = 10032
+		division_template = "Artillery Division"
+		start_experience_factor = 0.387297
+		start_equipment_factor = 0.933476
+	}
+	division= {
+		name = "4th 'Stella' Artillery Division"
+		location = 9977
+		division_template = "Artillery Division"
+		start_experience_factor = 0.818145
+		start_equipment_factor = 0.968022
+	}
+	division= {
+		name = "5th 'Pontezza' Artillery Division"
+		location = 10012
+		division_template = "Artillery Division"
+		start_experience_factor = 0.501376
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Castizionto' Artillery Division"
+		location = 9001
+		division_template = "Artillery Division"
+		start_experience_factor = 0.281597
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Maggio' Artillery Division"
+		location = 12377
+		division_template = "Artillery Division"
+		start_experience_factor = 0.295604
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "8th 'Amoriaccatta' Artillery Division"
+		location = 12373
+		division_template = "Artillery Division"
+		start_experience_factor = 0.449934
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Baturo' Artillery Division"
+		location = 12391
+		division_template = "Artillery Division"
+		start_experience_factor = 0.983378
+		start_equipment_factor = 0.932807
+	}
+
+}

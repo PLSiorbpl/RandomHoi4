@@ -1,0 +1,880 @@
+characters = {
+	YAJ_Abdullahya_Basjid={
+		name="Abdullahya Basjid"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAJ_Ibran_Dohajr={
+		name="Ibran Dohajr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Ibran_Dohajr
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YAJ_Alid_Samlada={
+		name="Alid Samlada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Alid_Samlada
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YAJ_Sammed_Masat={
+		name="Sammed Masat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Sammed_Masat
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YAJ_Jamir_Haja={
+		name="Jamir Haja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Jamir_Haja
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YAJ_Hassal_Haja={
+		name="Hassal Haja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Hassal_Haja
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	YAJ_Abdullahim_Hijarra={
+		name="Abdullahim Hijarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Abdullahim_Hijarra
+				traits = {	headstrong 	}
+		}
+
+	}
+	YAJ_Bilal_Basjid={
+		name="Bilal Basjid"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Bilal_Basjid
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YAJ_Faid_Gharq={
+		name="Faid Gharq"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Faid_Gharq
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YAJ_Sammed_Dohajr={
+		name="Sammed Dohajr"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Sammed_Dohajr
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YAJ_Ibrahya_Samlada={
+		name="Ibrahya Samlada"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Ibrahya_Samlada
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	YAJ_Abdullal_Hijar={
+		name="Abdullal Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Abdullal_Hijar
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	YAJ_Abdullahim_Hijar={
+		name="Abdullahim Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Abdullahim_Hijar
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	YAJ_Abdullahya_Haja={
+		name="Abdullahya Haja"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Abdullahya_Haja
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	YAJ_Alid_Haja={
+		name="Alid Haja"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Alid_Haja
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	YAJ_Yusuf_Shabibl={
+		name="Yusuf Shabibl"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Yusuf_Shabibl
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	YAJ_Abdullahim_Haja={
+		name="Abdullahim Haja"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Abdullahim_Haja
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	YAJ_Omar_Samlada={
+		name="Omar Samlada"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Omar_Samlada
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	YAJ_Samad_Ramanis={
+		name="Samad Ramanis"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Samad_Ramanis
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	YAJ_Ibran_Gharq={
+		name="Ibran Gharq"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Ibran_Gharq
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	YAJ_Ibrah_Ramanis={
+		name="Ibrah Ramanis"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Ibrah_Ramanis
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	YAJ_Samad_Masat={
+		name="Samad Masat"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAJ_Adnan_Hijarra={
+		name="Adnan Hijarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Adnan_Hijarra
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YAJ_Ibrahya_Masat={
+		name="Ibrahya Masat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Ibrahya_Masat
+				traits = {	basileus 	}
+		}
+
+	}
+	YAJ_Samalid_Dohajr={
+		name="Samalid Dohajr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Samalid_Dohajr
+				traits = {	polemarch 	}
+		}
+
+	}
+	YAJ_Hamad_Basjid={
+		name="Hamad Basjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Hamad_Basjid
+				traits = {	basileus 	}
+		}
+
+	}
+	YAJ_Alid_Hijarra={
+		name="Alid Hijarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Alid_Hijarra
+				traits = {	infirm 	}
+		}
+
+	}
+	YAJ_Abdullahim_Masat={
+		name="Abdullahim Masat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Abdullahim_Masat
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	YAJ_Abdullal_Samlada={
+		name="Abdullal Samlada"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Abdullal_Samlada
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	YAJ_Zaid_Samlada={
+		name="Zaid Samlada"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Zaid_Samlada
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YAJ_Sammed_Gharq={
+		name="Sammed Gharq"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Sammed_Gharq
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	YAJ_Ibran_Samlada={
+		name="Ibran Samlada"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Ibran_Samlada
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	YAJ_Anwar_Basjid={
+		name="Anwar Basjid"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Anwar_Basjid
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	YAJ_Yusuf_Haja={
+		name="Yusuf Haja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Yusuf_Haja
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YAJ_Anwar_Ramanis={
+		name="Anwar Ramanis"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Anwar_Ramanis
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YAJ_Hassal_Ramanis={
+		name="Hassal Ramanis"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Hassal_Ramanis
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	YAJ_Yahmoud_Hijar={
+		name="Yahmoud Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Yahmoud_Hijar
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	YAJ_Fariq_Ramanis={
+		name="Fariq Ramanis"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Fariq_Ramanis
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	YAJ_Abdullahya_Hijarra={
+		name="Abdullahya Hijarra"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Abdullahya_Hijarra
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YAJ_Abdullal_Masat={
+		name="Abdullal Masat"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Abdullal_Masat
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	YAJ_Faid_Masat={
+		name="Faid Masat"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Faid_Masat
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	YAJ_Zaid_Gharq={
+		name="Zaid Gharq"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Zaid_Gharq
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	YAJ_Saad_Hijarra={
+		name="Saad Hijarra"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAJ_Hami_Masat={
+		name="Hami Masat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Hami_Masat
+				traits = {	political_dancer 	}
+		}
+
+	}
+	YAJ_Hamza_Hijarra={
+		name="Hamza Hijarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Hamza_Hijarra
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAJ_Hammed_Hijar={
+		name="Hammed Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Hammed_Hijar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YAJ_Jamir_Shabibl={
+		name="Jamir Shabibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Jamir_Shabibl
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAJ_Faid_Hijar={
+		name="Faid Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Faid_Hijar
+				traits = {	political_dancer 	}
+		}
+
+	}
+	YAJ_Ibrahim_Haja={
+		name="Ibrahim Haja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Ibrahim_Haja
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAJ_Ibrahya_Hijar={
+		name="Ibrahya Hijar"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Ibrahya_Hijar
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YAJ_Bilah_Masat={
+		name="Bilah Masat"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Bilah_Masat
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YAJ_Saad_Gharq={
+		name="Saad Gharq"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Saad_Gharq
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	YAJ_Faid_Basjid={
+		name="Faid Basjid"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Faid_Basjid
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YAJ_Alid_Shabibl={
+		name="Alid Shabibl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Alid_Shabibl
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YAJ_Kariq_Hijar={
+		name="Kariq Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Kariq_Hijar
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	YAJ_Anwar_Haja={
+		name="Anwar Haja"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Anwar_Haja
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	YAJ_Ibrahim_Gharq={
+		name="Ibrahim Gharq"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Ibrahim_Gharq
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	YAJ_Imrah_Haja={
+		name="Imrah Haja"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Imrah_Haja
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	YAJ_Samza_Hijar={
+		name="Samza Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Samza_Hijar
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YAJ_Zaid_Ramanis={
+		name="Zaid Ramanis"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Zaid_Ramanis
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	YAJ_Samalid_Shabibl={
+		name="Samalid Shabibl"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Samalid_Shabibl
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	YAJ_Omar_Masat={
+		name="Omar Masat"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Omar_Masat
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	YAJ_Kariq_Basjid={
+		name="Kariq Basjid"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Kariq_Basjid
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	YAJ_Omar_Dohajr={
+		name="Omar Dohajr"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAJ_Zaid_Hijar={
+		name="Zaid Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Zaid_Hijar
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YAJ_Sami_Ramanis={
+		name="Sami Ramanis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Sami_Ramanis
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YAJ_Anwar_Hijarra={
+		name="Anwar Hijarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Anwar_Hijarra
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YAJ_Omar_Haja={
+		name="Omar Haja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Omar_Haja
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	YAJ_Ahmal_Hijarra={
+		name="Ahmal Hijarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Ahmal_Hijarra
+				traits = {	rearmer 	}
+		}
+
+	}
+	YAJ_Hammed_Samlada={
+		name="Hammed Samlada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAJ_Hammed_Samlada
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YAJ_Abdullahya_Dohajr={
+		name="Abdullahya Dohajr"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Abdullahya_Dohajr
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	YAJ_Nabil_Gharq={
+		name="Nabil Gharq"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Nabil_Gharq
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YAJ_Hassal_Hijarra={
+		name="Hassal Hijarra"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Hassal_Hijarra
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YAJ_Anwar_Shabibl={
+		name="Anwar Shabibl"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAJ_Anwar_Shabibl
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	YAJ_Zaisan_Haja={
+		name="Zaisan Haja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Zaisan_Haja
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	YAJ_Bilal_Dohajr={
+		name="Bilal Dohajr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAJ_Bilal_Dohajr
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YAJ_Sami_Shabibl={
+		name="Sami Shabibl"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Sami_Shabibl
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	YAJ_Hami_Dohajr={
+		name="Hami Dohajr"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAJ_Hami_Dohajr
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YAJ_Zaid_Hijarra={
+		name="Zaid Hijarra"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Zaid_Hijarra
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	YAJ_Imran_Samlada={
+		name="Imran Samlada"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Imran_Samlada
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	YAJ_Majid_Dohajr={
+		name="Majid Dohajr"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Majid_Dohajr
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	YAJ_Imrah_Shabibl={
+		name="Imrah Shabibl"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Imrah_Shabibl
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	YAJ_Samza_Hijarra={
+		name="Samza Hijarra"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Samza_Hijarra
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	YAJ_Imran_Masat={
+		name="Imran Masat"
+
+		advisor={
+			slot = high_command
+			idea_token = YAJ_Imran_Masat
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	YAJ_Fariq_Dohajr={
+		name="Fariq Dohajr"
+
+		advisor={
+			slot = theorist
+			idea_token = YAJ_Fariq_Dohajr
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YAJ_Samalid_Basjid={
+		name="Samalid Basjid"
+
+		advisor={
+			slot = theorist
+			idea_token = YAJ_Samalid_Basjid
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YAJ_Jamir_Masat={
+		name="Jamir Masat"
+
+		advisor={
+			slot = theorist
+			idea_token = YAJ_Jamir_Masat
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

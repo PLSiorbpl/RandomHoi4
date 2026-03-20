@@ -1,0 +1,40 @@
+
+state={
+	id=219
+	name="STATE_219"
+	manpower = 1315861
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 3347 2}
+		victory_points = { 3354 2}
+		victory_points = { 3355 7}
+		
+		owner = ZTR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ZTR
+	}
+
+	provinces={
+		3337 3338 3339 3340 3341 3342 3343 3344 3345 3346 3347 3348 3349 3350 3351 3352 3353 3354 3355 3356 3357 3358 
+	}
+	local_supplies=0.0 
+}

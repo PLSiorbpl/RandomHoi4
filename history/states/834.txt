@@ -1,0 +1,40 @@
+
+state={
+	id=834
+	name="STATE_834"
+	manpower = 772725
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11652 2}
+		victory_points = { 11655 1}
+		victory_points = { 11660 2}
+		
+		owner = PWR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PWR
+	}
+
+	provinces={
+		11650 11651 11652 11653 11654 11655 11656 11657 11658 11659 11660 11661 
+	}
+	local_supplies=0.0 
+}

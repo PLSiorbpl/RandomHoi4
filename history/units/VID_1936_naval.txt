@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Vidilai Fleet"			
+		naval_base = 16920
+		task_force = {
+			name = "Vidilai Fleet"
+			location = 16920
+			
+						ship = { name = "Bainn" definition = battleship equipment = { battleship_1 = { amount = 1 owner = VID version_name = "Laiche Class" } }	}
+			ship = { name = "Broch" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VID version_name = "Uamh Class" } }	}
+			ship = { name = "Uamh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VID version_name = "Laiche Class" } }	}
+			ship = { name = "Uamh 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VID version_name = "Uamh Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,40 @@
+
+state={
+	id=791
+	name="STATE_791"
+	manpower = 599331
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11223 2}
+		victory_points = { 11224 1}
+		victory_points = { 11226 2}
+		
+		owner = TQI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TQI
+	}
+
+	provinces={
+		11223 11224 11225 11226 11227 11228 11229 11230 11231 11232 
+	}
+	local_supplies=0.0 
+}

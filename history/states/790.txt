@@ -1,0 +1,40 @@
+
+state={
+	id=790
+	name="STATE_790"
+	manpower = 911159
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11220 1}
+		victory_points = { 11221 3}
+		victory_points = { 11222 1}
+		
+		owner = XQA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XQA
+	}
+
+	provinces={
+		11206 11207 11208 11209 11210 11211 11212 11213 11214 11215 11216 11217 11218 11219 11220 11221 11222 
+	}
+	local_supplies=0.0 
+}

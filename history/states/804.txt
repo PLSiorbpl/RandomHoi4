@@ -1,0 +1,38 @@
+
+state={
+	id=804
+	name="STATE_804"
+	manpower = 457453
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11379 3}
+		
+		owner = ACI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ACI
+	}
+
+	provinces={
+		11377 11378 11379 11380 11381 11382 11383 
+	}
+	local_supplies=0.0 
+}

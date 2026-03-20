@@ -1,0 +1,43 @@
+
+state={
+	id=1223
+	name="STATE_1223"
+	manpower = 721932
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16991 3}
+		victory_points = { 16993 1}
+		victory_points = { 16996 1}
+		
+		owner = EOI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			16995 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = EOI
+	}
+
+	provinces={
+		16988 16989 16990 16991 16992 16993 16994 16995 16996 16997 16998 16999 
+	}
+	local_supplies=0.0 
+}

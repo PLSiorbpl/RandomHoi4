@@ -1,0 +1,38 @@
+
+state={
+	id=318
+	name="STATE_318"
+	manpower = 391433
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4689 2}
+		
+		owner = MCC
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MCC
+	}
+
+	provinces={
+		4688 4689 4690 4691 4692 4693 
+	}
+	local_supplies=0.0 
+}

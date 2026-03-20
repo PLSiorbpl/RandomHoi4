@@ -1,0 +1,880 @@
+characters = {
+	TRE_Senthil_Thanneer={
+		name="Senthil Thanneer"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRE_Surem_Vilanadam={
+		name="Surem Vilanadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Surem_Vilanadam
+				traits = {	humble 	}
+		}
+
+	}
+	TRE_Ganesh_Then={
+		name="Ganesh Then"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Ganesh_Then
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TRE_Karun_Arippu={
+		name="Karun Arippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Karun_Arippu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TRE_Anil_Arai={
+		name="Anil Arai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Anil_Arai
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TRE_Karth_Thaiyal={
+		name="Karth Thaiyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Karth_Thaiyal
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TRE_Deepakash_Thippu={
+		name="Deepakash Thippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Deepakash_Thippu
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TRE_Kirak_Katru={
+		name="Kirak Katru"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Kirak_Katru
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TRE_Kiranesh_Thaiyal={
+		name="Kiranesh Thaiyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Kiranesh_Thaiyal
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TRE_Jaghan_Sirippu={
+		name="Jaghan Sirippu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Jaghan_Sirippu
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TRE_Rajiv_Thai={
+		name="Rajiv Thai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Rajiv_Thai
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TRE_Jagadeepak_Katru={
+		name="Jagadeepak Katru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Jagadeepak_Katru
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TRE_Dinoj_Vilanadam={
+		name="Dinoj Vilanadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Dinoj_Vilanadam
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TRE_Varth_Vilanadam={
+		name="Varth Vilanadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Varth_Vilanadam
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TRE_Rajiv_Thanneer={
+		name="Rajiv Thanneer"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Rajiv_Thanneer
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TRE_Rajesh_Arai={
+		name="Rajesh Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Rajesh_Arai
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TRE_Siddhan_Vilanadam={
+		name="Siddhan Vilanadam"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Siddhan_Vilanadam
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TRE_Ravi_Thanneer={
+		name="Ravi Thanneer"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Ravi_Thanneer
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TRE_Raghavi_Katru={
+		name="Raghavi Katru"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Raghavi_Katru
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	TRE_Dinoj_Thai={
+		name="Dinoj Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Dinoj_Thai
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	TRE_Rajesh_Then={
+		name="Rajesh Then"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Rajesh_Then
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	TRE_Kiran_Thai={
+		name="Kiran Thai"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRE_Dinesh_Katru={
+		name="Dinesh Katru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Dinesh_Katru
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TRE_Manoj_Arippu={
+		name="Manoj Arippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Manoj_Arippu
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TRE_Bala_Sirippu={
+		name="Bala Sirippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Bala_Sirippu
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TRE_Vinesh_Thanneer={
+		name="Vinesh Thanneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Vinesh_Thanneer
+				traits = {	polemarch 	}
+		}
+
+	}
+	TRE_Siddhan_Thanneer={
+		name="Siddhan Thanneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Siddhan_Thanneer
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	TRE_Siddharish_Arai={
+		name="Siddharish Arai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Siddharish_Arai
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TRE_Senthil_Arippu={
+		name="Senthil Arippu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Senthil_Arippu
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TRE_Rajiv_Arippu={
+		name="Rajiv Arippu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Rajiv_Arippu
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TRE_Vinesh_Thaiyal={
+		name="Vinesh Thaiyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Vinesh_Thaiyal
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TRE_Presh_Vilanadam={
+		name="Presh Vilanadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Presh_Vilanadam
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TRE_Mohandranoj_Thaiyal={
+		name="Mohandranoj Thaiyal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Mohandranoj_Thaiyal
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TRE_Prem_Thippu={
+		name="Prem Thippu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Prem_Thippu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TRE_Raghavi_Arai={
+		name="Raghavi Arai"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Raghavi_Arai
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TRE_Chandran_Then={
+		name="Chandran Then"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Chandran_Then
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TRE_Karun_Then={
+		name="Karun Then"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Karun_Then
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TRE_Kirak_Arippu={
+		name="Kirak Arippu"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Kirak_Arippu
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TRE_Charth_Arai={
+		name="Charth Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Charth_Arai
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TRE_Deesh_Katru={
+		name="Deesh Katru"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Deesh_Katru
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TRE_Siddhan_Then={
+		name="Siddhan Then"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Siddhan_Then
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TRE_Raghavi_Vilanadam={
+		name="Raghavi Vilanadam"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Raghavi_Vilanadam
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	TRE_Deepakash_Sirippu={
+		name="Deepakash Sirippu"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRE_Manod_Sirippu={
+		name="Manod Sirippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Manod_Sirippu
+				traits = {	infirm 	}
+		}
+
+	}
+	TRE_Raghavi_Sirippu={
+		name="Raghavi Sirippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Raghavi_Sirippu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TRE_Vinesh_Vilanadam={
+		name="Vinesh Vilanadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Vinesh_Vilanadam
+				traits = {	polemarch 	}
+		}
+
+	}
+	TRE_Ravi_Thaiyal={
+		name="Ravi Thaiyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Ravi_Thaiyal
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TRE_Karthik_Thanneer={
+		name="Karthik Thanneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Karthik_Thanneer
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TRE_Varun_Arai={
+		name="Varun Arai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Varun_Arai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TRE_Chandran_Thaiyal={
+		name="Chandran Thaiyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Chandran_Thaiyal
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TRE_Charth_Thanneer={
+		name="Charth Thanneer"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Charth_Thanneer
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TRE_Kumarthil_Thaiyal={
+		name="Kumarthil Thaiyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Kumarthil_Thaiyal
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TRE_Manod_Vilanadam={
+		name="Manod Vilanadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Manod_Vilanadam
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TRE_Chandran_Thai={
+		name="Chandran Thai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Chandran_Thai
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TRE_Prakash_Vilanadam={
+		name="Prakash Vilanadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Prakash_Vilanadam
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TRE_Siddhanod_Katru={
+		name="Siddhanod Katru"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Siddhanod_Katru
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TRE_Satish_Thai={
+		name="Satish Thai"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Satish_Thai
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TRE_Bala_Arai={
+		name="Bala Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Bala_Arai
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	TRE_Vineshna_Arippu={
+		name="Vineshna Arippu"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Vineshna_Arippu
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	TRE_Surem_Sirippu={
+		name="Surem Sirippu"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Surem_Sirippu
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TRE_Chandran_Thippu={
+		name="Chandran Thippu"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Chandran_Thippu
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TRE_Prem_Thaiyal={
+		name="Prem Thaiyal"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Prem_Thaiyal
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TRE_Mohandranoj_Arai={
+		name="Mohandranoj Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Mohandranoj_Arai
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TRE_Harun_Thai={
+		name="Harun Thai"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRE_Prandranoj_Katru={
+		name="Prandranoj Katru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Prandranoj_Katru
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TRE_Kirak_Vilanadam={
+		name="Kirak Vilanadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Kirak_Vilanadam
+				traits = {	rearmer 	}
+		}
+
+	}
+	TRE_Jaghan_Thaiyal={
+		name="Jaghan Thaiyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Jaghan_Thaiyal
+				traits = {	first_lady 	}
+		}
+
+	}
+	TRE_Arun_Then={
+		name="Arun Then"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Arun_Then
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TRE_Karth_Arippu={
+		name="Karth Arippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Karth_Arippu
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TRE_Mohandranoj_Then={
+		name="Mohandranoj Then"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRE_Mohandranoj_Then
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TRE_Jagadeepak_Arai={
+		name="Jagadeepak Arai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Jagadeepak_Arai
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TRE_Satish_Arai={
+		name="Satish Arai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Satish_Arai
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TRE_Kiranesh_Thai={
+		name="Kiranesh Thai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Kiranesh_Thai
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TRE_Siddharish_Katru={
+		name="Siddharish Katru"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRE_Siddharish_Katru
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TRE_Mohari_Arai={
+		name="Mohari Arai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Mohari_Arai
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TRE_Satish_Arippu={
+		name="Satish Arippu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRE_Satish_Arippu
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TRE_Anil_Thanneer={
+		name="Anil Thanneer"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Anil_Thanneer
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TRE_Kirak_Arai={
+		name="Kirak Arai"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRE_Kirak_Arai
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TRE_Senthik_Arai={
+		name="Senthik Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Senthik_Arai
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TRE_Dinesh_Arai={
+		name="Dinesh Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Dinesh_Arai
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TRE_Karth_Sirippu={
+		name="Karth Sirippu"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Karth_Sirippu
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	TRE_Deepakash_Thaiyal={
+		name="Deepakash Thaiyal"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Deepakash_Thaiyal
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TRE_Mohandranoj_Arippu={
+		name="Mohandranoj Arippu"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Mohandranoj_Arippu
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TRE_Deepakash_Thai={
+		name="Deepakash Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = TRE_Deepakash_Thai
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TRE_Vinesh_Arai={
+		name="Vinesh Arai"
+
+		advisor={
+			slot = theorist
+			idea_token = TRE_Vinesh_Arai
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TRE_Deepakash_Vilanadam={
+		name="Deepakash Vilanadam"
+
+		advisor={
+			slot = theorist
+			idea_token = TRE_Deepakash_Vilanadam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TRE_Mohandranoj_Sirippu={
+		name="Mohandranoj Sirippu"
+
+		advisor={
+			slot = theorist
+			idea_token = TRE_Mohandranoj_Sirippu
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

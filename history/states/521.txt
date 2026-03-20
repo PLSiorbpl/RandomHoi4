@@ -1,0 +1,40 @@
+
+state={
+	id=521
+	name="STATE_521"
+	manpower = 824107
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7495 1}
+		victory_points = { 7498 2}
+		victory_points = { 7507 3}
+		
+		owner = COZ
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = COZ
+	}
+
+	provinces={
+		7494 7495 7496 7497 7498 7499 7500 7501 7502 7503 7504 7505 7506 7507 
+	}
+	local_supplies=0.0 
+}

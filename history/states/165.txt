@@ -1,0 +1,41 @@
+
+state={
+	id=165
+	name="STATE_165"
+	manpower = 240637
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2595 1}
+		
+		owner = HPI
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			2595 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HPI
+	}
+
+	provinces={
+		2595 2596 2597 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 831528
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=15
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1055 2}
+		victory_points = { 1058 2}
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 
+	}
+	local_supplies=0.0 
+}

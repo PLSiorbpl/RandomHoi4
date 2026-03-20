@@ -1,0 +1,39 @@
+
+state={
+	id=623
+	name="STATE_623"
+	manpower = 866781
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9007 4}
+		victory_points = { 9018 3}
+		
+		owner = ATC
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ATC
+	}
+
+	provinces={
+		9006 9007 9008 9009 9010 9011 9012 9013 9014 9015 9016 9017 9018 9019 
+	}
+	local_supplies=0.0 
+}

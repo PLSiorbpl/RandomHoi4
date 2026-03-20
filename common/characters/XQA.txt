@@ -1,0 +1,880 @@
+characters = {
+	XQA_Balam_Chilah={
+		name="Balam Chilah"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XQA_Nacom_Ajpu={
+		name="Nacom Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Nacom_Ajpu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	XQA_Chakal_Coba={
+		name="Chakal Coba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Chakal_Coba
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	XQA_Pakalam_Tzol={
+		name="Pakalam Tzol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Pakalam_Tzol
+				traits = {	headstrong 	}
+		}
+
+	}
+	XQA_Oxib_Bahunil={
+		name="Oxib Bahunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Oxib_Bahunil
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	XQA_Tohichen_Bahunil={
+		name="Tohichen Bahunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Tohichen_Bahunil
+				traits = {	humble 	}
+		}
+
+	}
+	XQA_Chakal_Ajpu={
+		name="Chakal Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Chakal_Ajpu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	XQA_Kukulkalam_Kanai={
+		name="Kukulkalam Kanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Kukulkalam_Kanai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	XQA_Acab_Bahunil={
+		name="Acab Bahunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Acab_Bahunil
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	XQA_Chakal_Bakchil={
+		name="Chakal Bakchil"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Chakal_Bakchil
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	XQA_Ekchua_Kanai={
+		name="Ekchua Kanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Ekchua_Kanai
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	XQA_Bacom_Ajpu={
+		name="Bacom Ajpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Bacom_Ajpu
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	XQA_Kukulkan_Chilah={
+		name="Kukulkan Chilah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Kukulkan_Chilah
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	XQA_Bacom_Bahunil={
+		name="Bacom Bahunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Bacom_Bahunil
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	XQA_Moctez_Itzal={
+		name="Moctez Itzal"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Moctez_Itzal
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	XQA_Itzam_Kanai={
+		name="Itzam Kanai"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Itzam_Kanai
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	XQA_Bacatl_Kancue={
+		name="Bacatl Kancue"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Bacatl_Kancue
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	XQA_Kukulkan_Coba={
+		name="Kukulkan Coba"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Kukulkan_Coba
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	XQA_Tohichen_Bakchil={
+		name="Tohichen Bakchil"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Tohichen_Bakchil
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	XQA_Chichen_Chilah={
+		name="Chichen Chilah"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Chichen_Chilah
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	XQA_Bacab_Chilah={
+		name="Bacab Chilah"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Bacab_Chilah
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	XQA_Acab_Chilah={
+		name="Acab Chilah"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XQA_Pakal_Bahunil={
+		name="Pakal Bahunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Pakal_Bahunil
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	XQA_Ekchua_Bakchil={
+		name="Ekchua Bakchil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Ekchua_Bakchil
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	XQA_Nacom_Bahunil={
+		name="Nacom Bahunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Nacom_Bahunil
+				traits = {	infirm 	}
+		}
+
+	}
+	XQA_Kanek_Chilah={
+		name="Kanek Chilah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Kanek_Chilah
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	XQA_Kukulkalam_Coba={
+		name="Kukulkalam Coba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Kukulkalam_Coba
+				traits = {	basileus 	}
+		}
+
+	}
+	XQA_Popo_Chilah={
+		name="Popo Chilah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Popo_Chilah
+				traits = {	generallissimo 	}
+		}
+
+	}
+	XQA_Bacatl_Kanai={
+		name="Bacatl Kanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Bacatl_Kanai
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	XQA_Kukulkanek_Kanai={
+		name="Kukulkanek Kanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Kukulkanek_Kanai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	XQA_Acab_Kancue={
+		name="Acab Kancue"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Acab_Kancue
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	XQA_Yaxkin_Ajpu={
+		name="Yaxkin Ajpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Yaxkin_Ajpu
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	XQA_Itzam_Chilah={
+		name="Itzam Chilah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Itzam_Chilah
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	XQA_Itzam_Itzal={
+		name="Itzam Itzal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Itzam_Itzal
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	XQA_Kukulkanek_Ajpu={
+		name="Kukulkanek Ajpu"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Kukulkanek_Ajpu
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	XQA_Bacom_Tzam={
+		name="Bacom Tzam"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Bacom_Tzam
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	XQA_Tecun_Bahunil={
+		name="Tecun Bahunil"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Tecun_Bahunil
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	XQA_Chua_Tzol={
+		name="Chua Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Chua_Tzol
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	XQA_Nacatl_Tzol={
+		name="Nacatl Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Nacatl_Tzol
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	XQA_Ekchichen_Tzol={
+		name="Ekchichen Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Ekchichen_Tzol
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	XQA_Ekchichen_Chilah={
+		name="Ekchichen Chilah"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Ekchichen_Chilah
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	XQA_Balam_Tzol={
+		name="Balam Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Balam_Tzol
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	XQA_Pakal_Coba={
+		name="Pakal Coba"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XQA_Ahkin_Bahunil={
+		name="Ahkin Bahunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Ahkin_Bahunil
+				traits = {	polemarch 	}
+		}
+
+	}
+	XQA_Pakal_Kanai={
+		name="Pakal Kanai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Pakal_Kanai
+				traits = {	infirm 	}
+		}
+
+	}
+	XQA_Nacom_Itzal={
+		name="Nacom Itzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Nacom_Itzal
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	XQA_Kanek_Ajpu={
+		name="Kanek Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Kanek_Ajpu
+				traits = {	polemarch 	}
+		}
+
+	}
+	XQA_Moctez_Tzam={
+		name="Moctez Tzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Moctez_Tzam
+				traits = {	polemarch 	}
+		}
+
+	}
+	XQA_Balam_Coba={
+		name="Balam Coba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Balam_Coba
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	XQA_Ekchichen_Tzam={
+		name="Ekchichen Tzam"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Ekchichen_Tzam
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	XQA_Moctez_Bahunil={
+		name="Moctez Bahunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Moctez_Bahunil
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	XQA_Acatl_Kancue={
+		name="Acatl Kancue"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Acatl_Kancue
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	XQA_Pakalam_Kanai={
+		name="Pakalam Kanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Pakalam_Kanai
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	XQA_Tohil_Tzam={
+		name="Tohil Tzam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Tohil_Tzam
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	XQA_Bacom_Coba={
+		name="Bacom Coba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Bacom_Coba
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	XQA_Kanek_Coba={
+		name="Kanek Coba"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Kanek_Coba
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	XQA_Tohil_Bahunil={
+		name="Tohil Bahunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Tohil_Bahunil
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	XQA_Itzam_Coba={
+		name="Itzam Coba"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Itzam_Coba
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	XQA_Kukulkalam_Bahunil={
+		name="Kukulkalam Bahunil"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Kukulkalam_Bahunil
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	XQA_Kukulkalam_Kancue={
+		name="Kukulkalam Kancue"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Kukulkalam_Kancue
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	XQA_Bacab_Tzam={
+		name="Bacab Tzam"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Bacab_Tzam
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	XQA_Chak_Kanai={
+		name="Chak Kanai"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Chak_Kanai
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	XQA_Pakalam_Itzal={
+		name="Pakalam Itzal"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Pakalam_Itzal
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	XQA_Balam_Kanai={
+		name="Balam Kanai"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XQA_Chakalam_Chilah={
+		name="Chakalam Chilah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Chakalam_Chilah
+				traits = {	the_banker 	}
+		}
+
+	}
+	XQA_Popo_Tzol={
+		name="Popo Tzol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Popo_Tzol
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	XQA_Ahkin_Ajpu={
+		name="Ahkin Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Ahkin_Ajpu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	XQA_Kanek_Itzal={
+		name="Kanek Itzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Kanek_Itzal
+				traits = {	the_banker 	}
+		}
+
+	}
+	XQA_Pakal_Tzam={
+		name="Pakal Tzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Pakal_Tzam
+				traits = {	infirm 	}
+		}
+
+	}
+	XQA_Bacab_Ajpu={
+		name="Bacab Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XQA_Bacab_Ajpu
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	XQA_Itzam_Bahunil={
+		name="Itzam Bahunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Itzam_Bahunil
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	XQA_Ekchua_Coba={
+		name="Ekchua Coba"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Ekchua_Coba
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	XQA_Kukulkalam_Tzam={
+		name="Kukulkalam Tzam"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Kukulkalam_Tzam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	XQA_Ahkin_Bakchil={
+		name="Ahkin Bakchil"
+
+		advisor={
+			slot = army_chief
+			idea_token = XQA_Ahkin_Bakchil
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	XQA_Tecun_Kancue={
+		name="Tecun Kancue"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Tecun_Kancue
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	XQA_Ekchua_Itzal={
+		name="Ekchua Itzal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XQA_Ekchua_Itzal
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	XQA_Acab_Coba={
+		name="Acab Coba"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Acab_Coba
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	XQA_Oxib_Chilah={
+		name="Oxib Chilah"
+
+		advisor={
+			slot = air_chief
+			idea_token = XQA_Oxib_Chilah
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	XQA_Ekchichen_Coba={
+		name="Ekchichen Coba"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Ekchichen_Coba
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	XQA_Nacatl_Bahunil={
+		name="Nacatl Bahunil"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Nacatl_Bahunil
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	XQA_Pakal_Kancue={
+		name="Pakal Kancue"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Pakal_Kancue
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	XQA_Kanek_Tzol={
+		name="Kanek Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Kanek_Tzol
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	XQA_Balam_Kancue={
+		name="Balam Kancue"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Balam_Kancue
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	XQA_Chichen_Tzol={
+		name="Chichen Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = XQA_Chichen_Tzol
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	XQA_Kukulkalam_Chilah={
+		name="Kukulkalam Chilah"
+
+		advisor={
+			slot = theorist
+			idea_token = XQA_Kukulkalam_Chilah
+				traits = {	military_theorist 	}
+		}
+
+	}
+	XQA_Balam_Tzam={
+		name="Balam Tzam"
+
+		advisor={
+			slot = theorist
+			idea_token = XQA_Balam_Tzam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	XQA_Bacab_Coba={
+		name="Bacab Coba"
+
+		advisor={
+			slot = theorist
+			idea_token = XQA_Bacab_Coba
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=601
+	name="STATE_601"
+	manpower = 768837
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8777 5}
+		victory_points = { 8782 1}
+		
+		owner = KNP
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KNP
+	}
+
+	provinces={
+		8772 8773 8774 8775 8776 8777 8778 8779 8780 8781 8782 8783 
+	}
+	local_supplies=0.0 
+}

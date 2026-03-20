@@ -1,0 +1,37 @@
+
+state={
+	id=274
+	name="STATE_274"
+	manpower = 286841
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NKK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NKK
+	}
+
+	provinces={
+		4105 4106 4107 4108 
+	}
+	local_supplies=0.0 
+}

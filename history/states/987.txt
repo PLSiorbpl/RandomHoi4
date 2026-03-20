@@ -1,0 +1,38 @@
+
+state={
+	id=987
+	name="STATE_987"
+	manpower = 416420
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13578 1}
+		
+		owner = WOA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = WOA
+	}
+
+	provinces={
+		13574 13575 13576 13577 13578 13579 13580 13581 13582 13583 
+	}
+	local_supplies=0.0 
+}

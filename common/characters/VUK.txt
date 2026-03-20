@@ -1,0 +1,880 @@
+characters = {
+	VUK_Ketutra_Pohabatanaki={
+		name="Ketutra Pohabatanaki"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUK_Dewa_Muluaram={
+		name="Dewa Muluaram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Dewa_Muluaram
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	VUK_Agus_Senjagu={
+		name="Agus Senjagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Agus_Senjagu
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	VUK_Dewa_Bukaka={
+		name="Dewa Bukaka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Dewa_Bukaka
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	VUK_Rama_Tetahata={
+		name="Rama Tetahata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Rama_Tetahata
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	VUK_Lutra_Buaran={
+		name="Lutra Buaran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Lutra_Buaran
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	VUK_Joko_Padis={
+		name="Joko Padis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Joko_Padis
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	VUK_Rambang_Dani={
+		name="Rambang Dani"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Rambang_Dani
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VUK_Andi_Buaran={
+		name="Andi Buaran"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Andi_Buaran
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	VUK_Fajario_Senjagu={
+		name="Fajario Senjagu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Fajario_Senjagu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VUK_Lutfi_Tetahata={
+		name="Lutfi Tetahata"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Lutfi_Tetahata
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	VUK_Ramban_Pohabatanaki={
+		name="Ramban Pohabatanaki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Ramban_Pohabatanaki
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	VUK_Fajari_Buaran={
+		name="Fajari Buaran"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Fajari_Buaran
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	VUK_Fajar_Bukaka={
+		name="Fajar Bukaka"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Fajar_Bukaka
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	VUK_Suryan_Menjagang={
+		name="Suryan Menjagang"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Suryan_Menjagang
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	VUK_Budi_Bukaka={
+		name="Budi Bukaka"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Budi_Bukaka
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	VUK_Dewa_Menjagang={
+		name="Dewa Menjagang"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Dewa_Menjagang
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	VUK_Putfi_Pohabatanaki={
+		name="Putfi Pohabatanaki"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Putfi_Pohabatanaki
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	VUK_Arjuna_Senjagu={
+		name="Arjuna Senjagu"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Arjuna_Senjagu
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	VUK_Ketutra_Bukaka={
+		name="Ketutra Bukaka"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Ketutra_Bukaka
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	VUK_Hari_Bukaka={
+		name="Hari Bukaka"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Hari_Bukaka
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	VUK_Ketut_Padis={
+		name="Ketut Padis"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUK_Suryan_Rohonkebintu={
+		name="Suryan Rohonkebintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Suryan_Rohonkebintu
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	VUK_Putfi_Buaran={
+		name="Putfi Buaran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Putfi_Buaran
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	VUK_Bambang_Padis={
+		name="Bambang Padis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Bambang_Padis
+				traits = {	basileus 	}
+		}
+
+	}
+	VUK_Ketut_Bukaka={
+		name="Ketut Bukaka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Ketut_Bukaka
+				traits = {	infirm 	}
+		}
+
+	}
+	VUK_Mari_Muluaram={
+		name="Mari Muluaram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Mari_Muluaram
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	VUK_Arjuna_Buaran={
+		name="Arjuna Buaran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Arjuna_Buaran
+				traits = {	generallissimo 	}
+		}
+
+	}
+	VUK_Suryan_Bukaka={
+		name="Suryan Bukaka"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Suryan_Bukaka
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VUK_Putfi_Bukaka={
+		name="Putfi Bukaka"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Putfi_Bukaka
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	VUK_Bamban_Rohonkebintu={
+		name="Bamban Rohonkebintu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Bamban_Rohonkebintu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	VUK_Waya_Tetahata={
+		name="Waya Tetahata"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Waya_Tetahata
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	VUK_Agus_Dani={
+		name="Agus Dani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Agus_Dani
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	VUK_Dewa_Buaran={
+		name="Dewa Buaran"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Dewa_Buaran
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	VUK_Ketutra_Menjagang={
+		name="Ketutra Menjagang"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Ketutra_Menjagang
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	VUK_Mario_Pohabatanaki={
+		name="Mario Pohabatanaki"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Mario_Pohabatanaki
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	VUK_Ketutra_Muluaram={
+		name="Ketutra Muluaram"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Ketutra_Muluaram
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	VUK_Lutfi_Muluaram={
+		name="Lutfi Muluaram"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Lutfi_Muluaram
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	VUK_Ramban_Buaran={
+		name="Ramban Buaran"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Ramban_Buaran
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	VUK_Lutfi_Padis={
+		name="Lutfi Padis"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Lutfi_Padis
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	VUK_Hario_Dani={
+		name="Hario Dani"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Hario_Dani
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	VUK_Putfi_Muluaram={
+		name="Putfi Muluaram"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Putfi_Muluaram
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	VUK_Bambang_Dani={
+		name="Bambang Dani"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUK_Suryang_Buaran={
+		name="Suryang Buaran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Suryang_Buaran
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	VUK_Mari_Rohonkebintu={
+		name="Mari Rohonkebintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Mari_Rohonkebintu
+				traits = {	polemarch 	}
+		}
+
+	}
+	VUK_Ketut_Dani={
+		name="Ketut Dani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Ketut_Dani
+				traits = {	polemarch 	}
+		}
+
+	}
+	VUK_Lutfi_Rohonkebintu={
+		name="Lutfi Rohonkebintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Lutfi_Rohonkebintu
+				traits = {	infirm 	}
+		}
+
+	}
+	VUK_Mario_Padis={
+		name="Mario Padis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Mario_Padis
+				traits = {	political_dancer 	}
+		}
+
+	}
+	VUK_Bamban_Muluaram={
+		name="Bamban Muluaram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Bamban_Muluaram
+				traits = {	political_dancer 	}
+		}
+
+	}
+	VUK_Joko_Dani={
+		name="Joko Dani"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Joko_Dani
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	VUK_Rizal_Buaran={
+		name="Rizal Buaran"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Rizal_Buaran
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	VUK_Rambang_Tetahata={
+		name="Rambang Tetahata"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Rambang_Tetahata
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	VUK_Agus_Bukaka={
+		name="Agus Bukaka"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Agus_Bukaka
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VUK_Fajario_Padis={
+		name="Fajario Padis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Fajario_Padis
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	VUK_Andi_Rohonkebintu={
+		name="Andi Rohonkebintu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Andi_Rohonkebintu
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	VUK_Ketutfi_Pohabatanaki={
+		name="Ketutfi Pohabatanaki"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Ketutfi_Pohabatanaki
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	VUK_Fajar_Tetahata={
+		name="Fajar Tetahata"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Fajar_Tetahata
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	VUK_Agus_Pohabatanaki={
+		name="Agus Pohabatanaki"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Agus_Pohabatanaki
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	VUK_Rama_Bukaka={
+		name="Rama Bukaka"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Rama_Bukaka
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	VUK_Arjuna_Muluaram={
+		name="Arjuna Muluaram"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Arjuna_Muluaram
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	VUK_Wayang_Menjagang={
+		name="Wayang Menjagang"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Wayang_Menjagang
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	VUK_Lutra_Dani={
+		name="Lutra Dani"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Lutra_Dani
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	VUK_Hari_Muluaram={
+		name="Hari Muluaram"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Hari_Muluaram
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	VUK_Hari_Pohabatanaki={
+		name="Hari Pohabatanaki"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUK_Fajari_Pohabatanaki={
+		name="Fajari Pohabatanaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Fajari_Pohabatanaki
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	VUK_Ketut_Menjagang={
+		name="Ketut Menjagang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Ketut_Menjagang
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	VUK_Lutra_Bukaka={
+		name="Lutra Bukaka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Lutra_Bukaka
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	VUK_Joko_Rohonkebintu={
+		name="Joko Rohonkebintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Joko_Rohonkebintu
+				traits = {	first_lady 	}
+		}
+
+	}
+	VUK_Joko_Senjagu={
+		name="Joko Senjagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Joko_Senjagu
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	VUK_Arjuna_Tetahata={
+		name="Arjuna Tetahata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUK_Arjuna_Tetahata
+				traits = {	first_lady 	}
+		}
+
+	}
+	VUK_Hari_Dani={
+		name="Hari Dani"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Hari_Dani
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	VUK_Ketutfi_Dani={
+		name="Ketutfi Dani"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Ketutfi_Dani
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	VUK_Lutra_Rohonkebintu={
+		name="Lutra Rohonkebintu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Lutra_Rohonkebintu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	VUK_Lutfi_Pohabatanaki={
+		name="Lutfi Pohabatanaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUK_Lutfi_Pohabatanaki
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VUK_Lutra_Padis={
+		name="Lutra Padis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Lutra_Padis
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	VUK_Ketutra_Rohonkebintu={
+		name="Ketutra Rohonkebintu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUK_Ketutra_Rohonkebintu
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	VUK_Fajario_Muluaram={
+		name="Fajario Muluaram"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Fajario_Muluaram
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	VUK_Suryang_Rohonkebintu={
+		name="Suryang Rohonkebintu"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUK_Suryang_Rohonkebintu
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	VUK_Ketutfi_Muluaram={
+		name="Ketutfi Muluaram"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Ketutfi_Muluaram
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	VUK_Andi_Tetahata={
+		name="Andi Tetahata"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Andi_Tetahata
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	VUK_Hario_Tetahata={
+		name="Hario Tetahata"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Hario_Tetahata
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	VUK_Suryang_Muluaram={
+		name="Suryang Muluaram"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Suryang_Muluaram
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	VUK_Budi_Buaran={
+		name="Budi Buaran"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Budi_Buaran
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	VUK_Sakti_Padis={
+		name="Sakti Padis"
+
+		advisor={
+			slot = high_command
+			idea_token = VUK_Sakti_Padis
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	VUK_Bama_Rohonkebintu={
+		name="Bama Rohonkebintu"
+
+		advisor={
+			slot = theorist
+			idea_token = VUK_Bama_Rohonkebintu
+				traits = {	military_theorist 	}
+		}
+
+	}
+	VUK_Hario_Buaran={
+		name="Hario Buaran"
+
+		advisor={
+			slot = theorist
+			idea_token = VUK_Hario_Buaran
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	VUK_Ketutfi_Rohonkebintu={
+		name="Ketutfi Rohonkebintu"
+
+		advisor={
+			slot = theorist
+			idea_token = VUK_Ketutfi_Rohonkebintu
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

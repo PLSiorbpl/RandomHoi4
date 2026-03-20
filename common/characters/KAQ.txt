@@ -1,0 +1,880 @@
+characters = {
+	KAQ_Krish_Thiram={
+		name="Krish Thiram"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAQ_Deenth_Thiram={
+		name="Deenth Thiram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Deenth_Thiram
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KAQ_Karth_Thunam={
+		name="Karth Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Karth_Thunam
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KAQ_Moharthik_Nadiyarangu={
+		name="Moharthik Nadiyarangu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Moharthik_Nadiyarangu
+				traits = {	humble 	}
+		}
+
+	}
+	KAQ_Satish_Thiram={
+		name="Satish Thiram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Satish_Thiram
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KAQ_Vari_Idakkalalai={
+		name="Vari Idakkalalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Vari_Idakkalalai
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAQ_Suresh_Idakkalalai={
+		name="Suresh Idakkalalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Suresh_Idakkalalai
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KAQ_Jagadeen_Thiram={
+		name="Jagadeen Thiram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Jagadeen_Thiram
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAQ_Hari_Paalam={
+		name="Hari Paalam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Hari_Paalam
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KAQ_Kirandran_Idakkalalai={
+		name="Kirandran Idakkalalai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Kirandran_Idakkalalai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	KAQ_Prandrandrak_Thunam={
+		name="Prandrandrak Thunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Prandrandrak_Thunam
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KAQ_Vari_Nenjil={
+		name="Vari Nenjil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Vari_Nenjil
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	KAQ_Satish_Kanneerai={
+		name="Satish Kanneerai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Satish_Kanneerai
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KAQ_Moharthik_Idakkalalai={
+		name="Moharthik Idakkalalai"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Moharthik_Idakkalalai
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	KAQ_Satish_Thunam={
+		name="Satish Thunam"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Satish_Thunam
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	KAQ_Mohanod_Thunam={
+		name="Mohanod Thunam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Mohanod_Thunam
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	KAQ_Moharth_Paalam={
+		name="Moharth Paalam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Moharth_Paalam
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KAQ_Prakash_Idakkalalai={
+		name="Prakash Idakkalalai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Prakash_Idakkalalai
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KAQ_Manesh_Kanneerai={
+		name="Manesh Kanneerai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Manesh_Kanneerai
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KAQ_Hari_Nadiyarangu={
+		name="Hari Nadiyarangu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Hari_Nadiyarangu
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KAQ_Prandrak_Kanneerai={
+		name="Prandrak Kanneerai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Prandrak_Kanneerai
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	KAQ_Suresh_Nenjil={
+		name="Suresh Nenjil"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAQ_Senthil_Thunam={
+		name="Senthil Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Senthil_Thunam
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	KAQ_Vinesh_Thunam={
+		name="Vinesh Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Vinesh_Thunam
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	KAQ_Arun_Kanneerai={
+		name="Arun Kanneerai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Arun_Kanneerai
+				traits = {	warmonger 	}
+		}
+
+	}
+	KAQ_Vinesh_Nenjil={
+		name="Vinesh Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Vinesh_Nenjil
+				traits = {	infirm 	}
+		}
+
+	}
+	KAQ_Mandrak_Kaadhanai={
+		name="Mandrak Kaadhanai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Mandrak_Kaadhanai
+				traits = {	warmonger 	}
+		}
+
+	}
+	KAQ_Anil_Kudithinambu={
+		name="Anil Kudithinambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Anil_Kudithinambu
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	KAQ_Manoj_Thiram={
+		name="Manoj Thiram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Manoj_Thiram
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KAQ_Manesh_Kaadhanai={
+		name="Manesh Kaadhanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Manesh_Kaadhanai
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAQ_Moharth_Kudithinambu={
+		name="Moharth Kudithinambu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Moharth_Kudithinambu
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KAQ_Raghanod_Thiram={
+		name="Raghanod Thiram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Raghanod_Thiram
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KAQ_Manesh_Paalam={
+		name="Manesh Paalam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Manesh_Paalam
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	KAQ_Navi_Oorul={
+		name="Navi Oorul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Navi_Oorul
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KAQ_Kiran_Kaadhanai={
+		name="Kiran Kaadhanai"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Kiran_Kaadhanai
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KAQ_Krish_Paalam={
+		name="Krish Paalam"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Krish_Paalam
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KAQ_Navi_Nenjil={
+		name="Navi Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Navi_Nenjil
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KAQ_Vinesh_Kanneerai={
+		name="Vinesh Kanneerai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Vinesh_Kanneerai
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KAQ_Presh_Kaadhanai={
+		name="Presh Kaadhanai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Presh_Kaadhanai
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KAQ_Ragadeepakas_Thiram={
+		name="Ragadeepakas Thiram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Ragadeepakas_Thiram
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	KAQ_Presh_Nadiyarangu={
+		name="Presh Nadiyarangu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Presh_Nadiyarangu
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KAQ_Raghan_Kudithinambu={
+		name="Raghan Kudithinambu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Raghan_Kudithinambu
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	KAQ_Jagadeen_Kudithinambu={
+		name="Jagadeen Kudithinambu"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAQ_Chanesh_Kudithinambu={
+		name="Chanesh Kudithinambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Chanesh_Kudithinambu
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAQ_Rajiv_Thunam={
+		name="Rajiv Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Rajiv_Thunam
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KAQ_Ganoj_Oorul={
+		name="Ganoj Oorul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Ganoj_Oorul
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAQ_Pranod_Paalam={
+		name="Pranod Paalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Pranod_Paalam
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KAQ_Kirandran_Oorul={
+		name="Kirandran Oorul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Kirandran_Oorul
+				traits = {	infirm 	}
+		}
+
+	}
+	KAQ_Chanesh_Idakkalalai={
+		name="Chanesh Idakkalalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Chanesh_Idakkalalai
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KAQ_Surem_Nenjil={
+		name="Surem Nenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Surem_Nenjil
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KAQ_Mandrak_Thiram={
+		name="Mandrak Thiram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Mandrak_Thiram
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KAQ_Varthil_Thunam={
+		name="Varthil Thunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Varthil_Thunam
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	KAQ_Chan_Kaadhanai={
+		name="Chan Kaadhanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Chan_Kaadhanai
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KAQ_Ganoj_Kaadhanai={
+		name="Ganoj Kaadhanai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Ganoj_Kaadhanai
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KAQ_Satish_Nadiyarangu={
+		name="Satish Nadiyarangu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Satish_Nadiyarangu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	KAQ_Mandrak_Thunam={
+		name="Mandrak Thunam"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Mandrak_Thunam
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KAQ_Ganesh_Kaadhanai={
+		name="Ganesh Kaadhanai"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Ganesh_Kaadhanai
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KAQ_Ragadeepakas_Thunam={
+		name="Ragadeepakas Thunam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Ragadeepakas_Thunam
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KAQ_Hari_Oorul={
+		name="Hari Oorul"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Hari_Oorul
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	KAQ_Ganesh_Nadiyarangu={
+		name="Ganesh Nadiyarangu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Ganesh_Nadiyarangu
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	KAQ_Senthik_Paalam={
+		name="Senthik Paalam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Senthik_Paalam
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	KAQ_Mohanod_Nenjil={
+		name="Mohanod Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Mohanod_Nenjil
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	KAQ_Raveepak_Kaadhanai={
+		name="Raveepak Kaadhanai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Raveepak_Kaadhanai
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	KAQ_Ravi_Kudithinambu={
+		name="Ravi Kudithinambu"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAQ_Raghari_Kanneerai={
+		name="Raghari Kanneerai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Raghari_Kanneerai
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KAQ_Dinod_Paalam={
+		name="Dinod Paalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Dinod_Paalam
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	KAQ_Ragadeepakas_Kanneerai={
+		name="Ragadeepakas Kanneerai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Ragadeepakas_Kanneerai
+				traits = {	infirm 	}
+		}
+
+	}
+	KAQ_Kiran_Thiram={
+		name="Kiran Thiram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Kiran_Thiram
+				traits = {	first_lady 	}
+		}
+
+	}
+	KAQ_Varthil_Kudithinambu={
+		name="Varthil Kudithinambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Varthil_Kudithinambu
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KAQ_Dinod_Kaadhanai={
+		name="Dinod Kaadhanai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAQ_Dinod_Kaadhanai
+				traits = {	first_lady 	}
+		}
+
+	}
+	KAQ_Mohanod_Thiram={
+		name="Mohanod Thiram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Mohanod_Thiram
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KAQ_Kumarth_Thiram={
+		name="Kumarth Thiram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Kumarth_Thiram
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KAQ_Kumarth_Oorul={
+		name="Kumarth Oorul"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Kumarth_Oorul
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KAQ_Ajay_Nenjil={
+		name="Ajay Nenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAQ_Ajay_Nenjil
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KAQ_Raveepak_Paalam={
+		name="Raveepak Paalam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Raveepak_Paalam
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KAQ_Senthik_Kanneerai={
+		name="Senthik Kanneerai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAQ_Senthik_Kanneerai
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KAQ_Satish_Oorul={
+		name="Satish Oorul"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Satish_Oorul
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	KAQ_Surem_Kudithinambu={
+		name="Surem Kudithinambu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAQ_Surem_Kudithinambu
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	KAQ_Ragadeepak_Kanneerai={
+		name="Ragadeepak Kanneerai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Ragadeepak_Kanneerai
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	KAQ_Surem_Nadiyarangu={
+		name="Surem Nadiyarangu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Surem_Nadiyarangu
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	KAQ_Prem_Thiram={
+		name="Prem Thiram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Prem_Thiram
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	KAQ_Ganesh_Idakkalalai={
+		name="Ganesh Idakkalalai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Ganesh_Idakkalalai
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	KAQ_Krish_Nadiyarangu={
+		name="Krish Nadiyarangu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Krish_Nadiyarangu
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	KAQ_Varthik_Thunam={
+		name="Varthik Thunam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAQ_Varthik_Thunam
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KAQ_Bala_Oorul={
+		name="Bala Oorul"
+
+		advisor={
+			slot = theorist
+			idea_token = KAQ_Bala_Oorul
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KAQ_Varthil_Thiram={
+		name="Varthil Thiram"
+
+		advisor={
+			slot = theorist
+			idea_token = KAQ_Varthil_Thiram
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KAQ_Ragadeepakas_Idakkalalai={
+		name="Ragadeepakas Idakkalalai"
+
+		advisor={
+			slot = theorist
+			idea_token = KAQ_Ragadeepakas_Idakkalalai
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Lampaktun Fleet"			
+		naval_base = 7751
+		task_force = {
+			name = "Lampaktun Fleet"
+			location = 7751
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

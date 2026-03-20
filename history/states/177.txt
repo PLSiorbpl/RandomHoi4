@@ -1,0 +1,40 @@
+
+state={
+	id=177
+	name="STATE_177"
+	manpower = 677574
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2775 1}
+		victory_points = { 2777 1}
+		victory_points = { 2783 1}
+		
+		owner = ZRU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ZRU
+	}
+
+	provinces={
+		2775 2776 2777 2778 2779 2780 2781 2782 2783 2784 2785 
+	}
+	local_supplies=0.0 
+}

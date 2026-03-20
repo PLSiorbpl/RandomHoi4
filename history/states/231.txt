@@ -1,0 +1,39 @@
+
+state={
+	id=231
+	name="STATE_231"
+	manpower = 454682
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=7
+		coal=0
+	}
+
+	history={
+		victory_points = { 3561 2}
+		victory_points = { 3562 1}
+		
+		owner = TYH
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TYH
+	}
+
+	provinces={
+		3561 3562 3563 3564 3565 3566 3567 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=974
+	name="STATE_974"
+	manpower = 1131542
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13368 5}
+		victory_points = { 13372 2}
+		victory_points = { 13377 1}
+		victory_points = { 13386 1}
+		
+		owner = EOI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			13377 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = EOI
+	}
+
+	provinces={
+		13368 13369 13370 13371 13372 13373 13374 13375 13376 13377 13378 13379 13380 13381 13382 13383 13384 13385 13386 
+	}
+	local_supplies=0.0 
+}

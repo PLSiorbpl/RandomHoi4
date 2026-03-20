@@ -1,0 +1,40 @@
+
+state={
+	id=536
+	name="STATE_536"
+	manpower = 338079
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MCD
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7727 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MCD
+	}
+
+	provinces={
+		7721 7722 7723 7724 7725 7726 7727 7728 7729 7730 
+	}
+	local_supplies=0.0 
+}

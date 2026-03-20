@@ -1,0 +1,42 @@
+
+state={
+	id=156
+	name="STATE_156"
+	manpower = 689663
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2457 2}
+		victory_points = { 2466 4}
+		
+		owner = NOJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2457 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOJ
+	}
+
+	provinces={
+		2455 2456 2457 2458 2459 2460 2461 2462 2463 2464 2465 2466 
+	}
+	local_supplies=0.0 
+}

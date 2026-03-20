@@ -1,0 +1,39 @@
+
+state={
+	id=425
+	name="STATE_425"
+	manpower = 590391
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5961 2}
+		victory_points = { 5964 1}
+		
+		owner = JRE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JRE
+	}
+
+	provinces={
+		5957 5958 5959 5960 5961 5962 5963 5964 5965 
+	}
+	local_supplies=0.0 
+}

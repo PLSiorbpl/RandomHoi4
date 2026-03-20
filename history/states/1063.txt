@@ -1,0 +1,40 @@
+
+state={
+	id=1063
+	name="STATE_1063"
+	manpower = 1134409
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14766 4}
+		victory_points = { 14769 4}
+		victory_points = { 14770 1}
+		
+		owner = KIJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KIJ
+	}
+
+	provinces={
+		14766 14767 14768 14769 14770 14771 14772 14773 14774 14775 14776 14777 14778 14779 14780 14781 14782 14783 14784 14785 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=901
+	name="STATE_901"
+	manpower = 970336
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12470 2}
+		victory_points = { 12477 4}
+		victory_points = { 12486 2}
+		
+		owner = POI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = POI
+	}
+
+	provinces={
+		12470 12471 12472 12473 12474 12475 12476 12477 12478 12479 12480 12481 12482 12483 12484 12485 12486 
+	}
+	local_supplies=0.0 
+}

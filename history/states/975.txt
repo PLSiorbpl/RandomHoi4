@@ -1,0 +1,39 @@
+
+state={
+	id=975
+	name="STATE_975"
+	manpower = 1126947
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13391 6}
+		victory_points = { 13405 3}
+		
+		owner = GFI
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = GFI
+	}
+
+	provinces={
+		13387 13388 13389 13390 13391 13392 13393 13394 13395 13396 13397 13398 13399 13400 13401 13402 13403 13404 13405 
+	}
+	local_supplies=0.0 
+}

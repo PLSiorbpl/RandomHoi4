@@ -1,0 +1,43 @@
+
+state={
+	id=1250
+	name="STATE_1250"
+	manpower = 936184
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17213 1}
+		victory_points = { 17219 1}
+		victory_points = { 17222 5}
+		
+		owner = NFK
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17219 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NFK
+	}
+
+	provinces={
+		17212 17213 17214 17215 17216 17217 17218 17219 17220 17221 17222 17223 17224 17225 17226 
+	}
+	local_supplies=0.0 
+}

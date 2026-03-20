@@ -1,0 +1,41 @@
+
+state={
+	id=66
+	name="STATE_66"
+	manpower = 485747
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=4
+		steel=0
+		tungsten=14
+		coal=0
+	}
+
+	history={
+		victory_points = { 1045 1}
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1044 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 
+	}
+	local_supplies=0.0 
+}

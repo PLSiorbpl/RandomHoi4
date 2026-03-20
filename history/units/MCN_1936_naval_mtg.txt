@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Mannolalai Fleet"			
+		naval_base = 17179
+		task_force = {
+			name = "Mannolalai Fleet"
+			location = 17179
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

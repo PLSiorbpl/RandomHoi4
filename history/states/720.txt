@@ -1,0 +1,41 @@
+
+state={
+	id=720
+	name="STATE_720"
+	manpower = 1098635
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=0
+	}
+
+	history={
+		victory_points = { 10294 2}
+		victory_points = { 10304 2}
+		victory_points = { 10305 2}
+		victory_points = { 10307 2}
+		
+		owner = CJR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CJR
+	}
+
+	provinces={
+		10289 10290 10291 10292 10293 10294 10295 10296 10297 10298 10299 10300 10301 10302 10303 10304 10305 10306 10307 
+	}
+	local_supplies=0.0 
+}

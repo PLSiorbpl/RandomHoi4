@@ -1,0 +1,38 @@
+
+state={
+	id=880
+	name="STATE_880"
+	manpower = 533301
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12259 1}
+		
+		owner = VUK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VUK
+	}
+
+	provinces={
+		12258 12259 12260 12261 12262 12263 12264 12265 12266 12267 12268 
+	}
+	local_supplies=0.0 
+}

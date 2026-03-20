@@ -1,0 +1,42 @@
+
+state={
+	id=279
+	name="STATE_279"
+	manpower = 379833
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4160 1}
+		victory_points = { 4164 1}
+		
+		owner = GQA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4161 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GQA
+	}
+
+	provinces={
+		4160 4161 4162 4163 4164 4165 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=662
+	name="STATE_662"
+	manpower = 460475
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9424 2}
+		victory_points = { 9426 1}
+		
+		owner = CJR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CJR
+	}
+
+	provinces={
+		9423 9424 9425 9426 9427 9428 9429 
+	}
+	local_supplies=0.0 
+}

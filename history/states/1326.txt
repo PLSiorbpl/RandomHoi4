@@ -1,0 +1,41 @@
+
+state={
+	id=1326
+	name="STATE_1326"
+	manpower = 361809
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17832 1}
+		
+		owner = RAQ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17834 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RAQ
+	}
+
+	provinces={
+		17831 17832 17833 17834 17835 
+	}
+	local_supplies=0.0 
+}

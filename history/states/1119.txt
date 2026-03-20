@@ -1,0 +1,38 @@
+
+state={
+	id=1119
+	name="STATE_1119"
+	manpower = 874459
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15572 8}
+		
+		owner = HQR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HQR
+	}
+
+	provinces={
+		15564 15565 15566 15567 15568 15569 15570 15571 15572 15573 15574 15575 15576 15577 15578 
+	}
+	local_supplies=0.0 
+}

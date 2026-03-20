@@ -1,0 +1,42 @@
+
+state={
+	id=768
+	name="STATE_768"
+	manpower = 426761
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10854 2}
+		victory_points = { 10858 1}
+		
+		owner = ATC
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			10856 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ATC
+	}
+
+	provinces={
+		10853 10854 10855 10856 10857 10858 
+	}
+	local_supplies=0.0 
+}

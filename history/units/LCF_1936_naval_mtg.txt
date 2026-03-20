@@ -1,0 +1,28 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Luft Fleet"			
+		naval_base = 6794
+		task_force = {
+			name = "Luft Fleet"
+			location = 6794
+			
+						ship = { name = "Kartraube" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = LCF version_name = "Spruer Class" } }	}
+			ship = { name = "Prift" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LCF version_name = "Stenter Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

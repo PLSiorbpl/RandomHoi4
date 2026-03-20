@@ -1,0 +1,39 @@
+
+state={
+	id=138
+	name="STATE_138"
+	manpower = 967027
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2153 3}
+		victory_points = { 2162 4}
+		
+		owner = VUD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VUD
+	}
+
+	provinces={
+		2151 2152 2153 2154 2155 2156 2157 2158 2159 2160 2161 2162 2163 2164 2165 2166 
+	}
+	local_supplies=0.0 
+}

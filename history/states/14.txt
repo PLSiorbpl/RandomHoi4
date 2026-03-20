@@ -1,0 +1,44 @@
+
+state={
+	id=14
+	name="STATE_14"
+	manpower = 597503
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 254 1}
+		victory_points = { 259 1}
+		victory_points = { 260 1}
+		victory_points = { 262 1}
+		
+		owner = ZTA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			261 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ZTA
+	}
+
+	provinces={
+		251 252 253 254 255 256 257 258 259 260 261 262 263 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=224
+	name="STATE_224"
+	manpower = 510048
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3390 2}
+		victory_points = { 3392 2}
+		
+		owner = SIJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SIJ
+	}
+
+	provinces={
+		3388 3389 3390 3391 3392 3393 3394 3395 
+	}
+	local_supplies=0.0 
+}

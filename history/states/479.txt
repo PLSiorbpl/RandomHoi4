@@ -1,0 +1,42 @@
+
+state={
+	id=479
+	name="STATE_479"
+	manpower = 463359
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6792 2}
+		victory_points = { 6794 1}
+		
+		owner = LCF
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			6794 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LCF
+	}
+
+	provinces={
+		6792 6793 6794 6795 6796 6797 6798 
+	}
+	local_supplies=0.0 
+}

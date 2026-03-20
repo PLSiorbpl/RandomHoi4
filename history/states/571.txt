@@ -1,0 +1,40 @@
+
+state={
+	id=571
+	name="STATE_571"
+	manpower = 374389
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KNP
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			8272 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KNP
+	}
+
+	provinces={
+		8268 8269 8270 8271 8272 8273 8274 8275 8276 8277 8278 
+	}
+	local_supplies=0.0 
+}

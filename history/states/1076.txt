@@ -1,0 +1,38 @@
+
+state={
+	id=1076
+	name="STATE_1076"
+	manpower = 761461
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14923 6}
+		
+		owner = NMT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NMT
+	}
+
+	provinces={
+		14912 14913 14914 14915 14916 14917 14918 14919 14920 14921 14922 14923 
+	}
+	local_supplies=0.0 
+}

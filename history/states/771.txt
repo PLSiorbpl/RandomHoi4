@@ -1,0 +1,38 @@
+
+state={
+	id=771
+	name="STATE_771"
+	manpower = 478681
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10878 2}
+		
+		owner = POI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = POI
+	}
+
+	provinces={
+		10877 10878 10879 10880 10881 10882 10883 
+	}
+	local_supplies=0.0 
+}

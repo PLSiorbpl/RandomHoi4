@@ -1,0 +1,43 @@
+
+state={
+	id=1311
+	name="STATE_1311"
+	manpower = 442760
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17749 1}
+		victory_points = { 17750 1}
+		victory_points = { 17751 1}
+		
+		owner = NFT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17752 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NFT
+	}
+
+	provinces={
+		17748 17749 17750 17751 17752 17753 
+	}
+	local_supplies=0.0 
+}

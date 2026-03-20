@@ -1,0 +1,40 @@
+
+state={
+	id=44
+	name="STATE_44"
+	manpower = 1052253
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 746 3}
+		victory_points = { 756 4}
+		victory_points = { 761 2}
+		
+		owner = KZU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KZU
+	}
+
+	provinces={
+		745 746 747 748 749 750 751 752 753 754 755 756 757 758 759 760 761 
+	}
+	local_supplies=0.0 
+}

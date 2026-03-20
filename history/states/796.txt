@@ -1,0 +1,39 @@
+
+state={
+	id=796
+	name="STATE_796"
+	manpower = 1081457
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11285 6}
+		victory_points = { 11286 3}
+		
+		owner = JQU
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JQU
+	}
+
+	provinces={
+		11276 11277 11278 11279 11280 11281 11282 11283 11284 11285 11286 11287 11288 11289 11290 11291 11292 11293 
+	}
+	local_supplies=0.0 
+}

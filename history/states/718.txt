@@ -1,0 +1,39 @@
+
+state={
+	id=718
+	name="STATE_718"
+	manpower = 859532
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10260 3}
+		victory_points = { 10266 3}
+		
+		owner = AGH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGH
+	}
+
+	provinces={
+		10252 10253 10254 10255 10256 10257 10258 10259 10260 10261 10262 10263 10264 10265 10266 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=900
+	name="STATE_900"
+	manpower = 821429
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=39
+	}
+
+	history={
+		victory_points = { 12457 2}
+		victory_points = { 12462 3}
+		victory_points = { 12464 2}
+		
+		owner = TVM
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			12465 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TVM
+	}
+
+	provinces={
+		12457 12458 12459 12460 12461 12462 12463 12464 12465 12466 12467 12468 12469 
+	}
+	local_supplies=0.0 
+}

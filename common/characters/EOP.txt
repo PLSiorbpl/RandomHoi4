@@ -1,0 +1,880 @@
+characters = {
+	EOP_Nabil_Amahel={
+		name="Nabil Amahel"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOP_Ibran_Hijar={
+		name="Ibran Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Ibran_Hijar
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EOP_Yusuf_Sabalb={
+		name="Yusuf Sabalb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Yusuf_Sabalb
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	EOP_Mohal_Amahel={
+		name="Mohal Amahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Mohal_Amahel
+				traits = {	humble 	}
+		}
+
+	}
+	EOP_Rammed_Dawjarikma={
+		name="Rammed Dawjarikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Rammed_Dawjarikma
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EOP_Bilahmarid_Rihl={
+		name="Bilahmarid Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Bilahmarid_Rihl
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EOP_Zaisalid_Shar={
+		name="Zaisalid Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Zaisalid_Shar
+				traits = {	humble 	}
+		}
+
+	}
+	EOP_Anwarid_Dawjarikma={
+		name="Anwarid Dawjarikma"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Anwarid_Dawjarikma
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	EOP_Ibrah_Najartour={
+		name="Ibrah Najartour"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Ibrah_Najartour
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	EOP_Omad_Rawa={
+		name="Omad Rawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Omad_Rawa
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	EOP_Tarim_Rawa={
+		name="Tarim Rawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Tarim_Rawa
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	EOP_Hamir_Rihl={
+		name="Hamir Rihl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Hamir_Rihl
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	EOP_Anwar_Dawjarikma={
+		name="Anwar Dawjarikma"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Anwar_Dawjarikma
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	EOP_Bilahya_Dawjarikma={
+		name="Bilahya Dawjarikma"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Bilahya_Dawjarikma
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	EOP_Jami_Dawjarikma={
+		name="Jami Dawjarikma"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Jami_Dawjarikma
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	EOP_Yahmal_Hijar={
+		name="Yahmal Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Yahmal_Hijar
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	EOP_Yusuf_Qaleej={
+		name="Yusuf Qaleej"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Yusuf_Qaleej
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	EOP_Mohami_Hilm={
+		name="Mohami Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Mohami_Hilm
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	EOP_Hami_Hijar={
+		name="Hami Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Hami_Hijar
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	EOP_Ahmoud_Rihl={
+		name="Ahmoud Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Ahmoud_Rihl
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	EOP_Saad_Hilm={
+		name="Saad Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Saad_Hilm
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	EOP_Fariq_Rihl={
+		name="Fariq Rihl"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOP_Hassal_Amahel={
+		name="Hassal Amahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Hassal_Amahel
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	EOP_Mahim_Dawjarikma={
+		name="Mahim Dawjarikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Mahim_Dawjarikma
+				traits = {	autokrator 	}
+		}
+
+	}
+	EOP_Faisan_Dawjarikma={
+		name="Faisan Dawjarikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Faisan_Dawjarikma
+				traits = {	infirm 	}
+		}
+
+	}
+	EOP_Jamza_Shar={
+		name="Jamza Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Jamza_Shar
+				traits = {	autokrator 	}
+		}
+
+	}
+	EOP_Alid_Hilm={
+		name="Alid Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Alid_Hilm
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EOP_Majid_Shar={
+		name="Majid Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Majid_Shar
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	EOP_Khali_Rawa={
+		name="Khali Rawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Khali_Rawa
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EOP_Ibrahmoud_Rawa={
+		name="Ibrahmoud Rawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Ibrahmoud_Rawa
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	EOP_Ibrahmoud_Amahel={
+		name="Ibrahmoud Amahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Ibrahmoud_Amahel
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	EOP_Faisal_Sabalb={
+		name="Faisal Sabalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Faisal_Sabalb
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	EOP_Ahmoud_Najartour={
+		name="Ahmoud Najartour"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Ahmoud_Najartour
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	EOP_Imrahmoud_Rihl={
+		name="Imrahmoud Rihl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Imrahmoud_Rihl
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	EOP_Yahmad_Hijar={
+		name="Yahmad Hijar"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Yahmad_Hijar
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	EOP_Faisal_Qaleej={
+		name="Faisal Qaleej"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Faisal_Qaleej
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	EOP_Ibran_Hilm={
+		name="Ibran Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Ibran_Hilm
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	EOP_Adnan_Rihl={
+		name="Adnan Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Adnan_Rihl
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	EOP_Ahmarid_Shar={
+		name="Ahmarid Shar"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Ahmarid_Shar
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	EOP_Rami_Amahel={
+		name="Rami Amahel"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Rami_Amahel
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	EOP_Omarim_Rawa={
+		name="Omarim Rawa"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Omarim_Rawa
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	EOP_Omad_Hilm={
+		name="Omad Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Omad_Hilm
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	EOP_Sami_Najartour={
+		name="Sami Najartour"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOP_Faid_Rihl={
+		name="Faid Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Faid_Rihl
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	EOP_Anwarid_Amahel={
+		name="Anwarid Amahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Anwarid_Amahel
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EOP_Imran_Qaleej={
+		name="Imran Qaleej"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Imran_Qaleej
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	EOP_Anwar_Hijar={
+		name="Anwar Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Anwar_Hijar
+				traits = {	political_dancer 	}
+		}
+
+	}
+	EOP_Nabil_Najartour={
+		name="Nabil Najartour"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Nabil_Najartour
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	EOP_Jamza_Hilm={
+		name="Jamza Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Jamza_Hilm
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EOP_Jamad_Najartour={
+		name="Jamad Najartour"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Jamad_Najartour
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	EOP_Hassal_Rawa={
+		name="Hassal Rawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Hassal_Rawa
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EOP_Mohami_Najartour={
+		name="Mohami Najartour"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Mohami_Najartour
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	EOP_Tarim_Sabalb={
+		name="Tarim Sabalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Tarim_Sabalb
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	EOP_Mohami_Shar={
+		name="Mohami Shar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Mohami_Shar
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	EOP_Bilahya_Hijar={
+		name="Bilahya Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Bilahya_Hijar
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	EOP_Adnan_Qaleej={
+		name="Adnan Qaleej"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Adnan_Qaleej
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	EOP_Fariq_Shar={
+		name="Fariq Shar"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Fariq_Shar
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	EOP_Jamar_Hijar={
+		name="Jamar Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Jamar_Hijar
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	EOP_Alid_Amahel={
+		name="Alid Amahel"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Alid_Amahel
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	EOP_Sammed_Dawjarikma={
+		name="Sammed Dawjarikma"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Sammed_Dawjarikma
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	EOP_Rammed_Qaleej={
+		name="Rammed Qaleej"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Rammed_Qaleej
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	EOP_Abdullahmoud_Najartour={
+		name="Abdullahmoud Najartour"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Abdullahmoud_Najartour
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	EOP_Mahmoud_Amahel={
+		name="Mahmoud Amahel"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Mahmoud_Amahel
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	EOP_Abdullahmari_Amahel={
+		name="Abdullahmari Amahel"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOP_Faid_Hijar={
+		name="Faid Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Faid_Hijar
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	EOP_Rami_Rihl={
+		name="Rami Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Rami_Rihl
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	EOP_Yahya_Shar={
+		name="Yahya Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Yahya_Shar
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	EOP_Rami_Qaleej={
+		name="Rami Qaleej"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Rami_Qaleej
+				traits = {	rearmer 	}
+		}
+
+	}
+	EOP_Imran_Rawa={
+		name="Imran Rawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Imran_Rawa
+				traits = {	infirm 	}
+		}
+
+	}
+	EOP_Mahmoud_Shar={
+		name="Mahmoud Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOP_Mahmoud_Shar
+				traits = {	the_banker 	}
+		}
+
+	}
+	EOP_Fariq_Sabalb={
+		name="Fariq Sabalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Fariq_Sabalb
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	EOP_Imrahmoud_Shar={
+		name="Imrahmoud Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Imrahmoud_Shar
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	EOP_Faisal_Hilm={
+		name="Faisal Hilm"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Faisal_Hilm
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	EOP_Jamad_Rihl={
+		name="Jamad Rihl"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOP_Jamad_Rihl
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	EOP_Anwar_Amahel={
+		name="Anwar Amahel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Anwar_Amahel
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	EOP_Yusuf_Shar={
+		name="Yusuf Shar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOP_Yusuf_Shar
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	EOP_Rami_Hilm={
+		name="Rami Hilm"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Rami_Hilm
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	EOP_Yahya_Amahel={
+		name="Yahya Amahel"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOP_Yahya_Amahel
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	EOP_Abdullahmari_Rawa={
+		name="Abdullahmari Rawa"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Abdullahmari_Rawa
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	EOP_Omad_Sabalb={
+		name="Omad Sabalb"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Omad_Sabalb
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	EOP_Sami_Sabalb={
+		name="Sami Sabalb"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Sami_Sabalb
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	EOP_Fariq_Hilm={
+		name="Fariq Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Fariq_Hilm
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	EOP_Khal_Rawa={
+		name="Khal Rawa"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Khal_Rawa
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	EOP_Saad_Rawa={
+		name="Saad Rawa"
+
+		advisor={
+			slot = high_command
+			idea_token = EOP_Saad_Rawa
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	EOP_Sami_Rawa={
+		name="Sami Rawa"
+
+		advisor={
+			slot = theorist
+			idea_token = EOP_Sami_Rawa
+				traits = {	military_theorist 	}
+		}
+
+	}
+	EOP_Jami_Qaleej={
+		name="Jami Qaleej"
+
+		advisor={
+			slot = theorist
+			idea_token = EOP_Jami_Qaleej
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	EOP_Imran_Najartour={
+		name="Imran Najartour"
+
+		advisor={
+			slot = theorist
+			idea_token = EOP_Imran_Najartour
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

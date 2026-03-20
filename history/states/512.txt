@@ -1,0 +1,41 @@
+
+state={
+	id=512
+	name="STATE_512"
+	manpower = 1289444
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7383 2}
+		victory_points = { 7389 4}
+		victory_points = { 7395 2}
+		victory_points = { 7398 4}
+		
+		owner = JQU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JQU
+	}
+
+	provinces={
+		7383 7384 7385 7386 7387 7388 7389 7390 7391 7392 7393 7394 7395 7396 7397 7398 7399 7400 7401 7402 7403 7404 
+	}
+	local_supplies=0.0 
+}

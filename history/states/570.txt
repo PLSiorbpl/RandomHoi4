@@ -1,0 +1,42 @@
+
+state={
+	id=570
+	name="STATE_570"
+	manpower = 415118
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8258 1}
+		victory_points = { 8264 1}
+		
+		owner = CEN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8259 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CEN
+	}
+
+	provinces={
+		8258 8259 8260 8261 8262 8263 8264 8265 8266 8267 
+	}
+	local_supplies=0.0 
+}

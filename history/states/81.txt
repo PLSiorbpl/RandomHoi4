@@ -1,0 +1,43 @@
+
+state={
+	id=81
+	name="STATE_81"
+	manpower = 1184881
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=10
+		coal=0
+	}
+
+	history={
+		victory_points = { 1242 3}
+		victory_points = { 1245 2}
+		victory_points = { 1259 6}
+		
+		owner = NKK
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1256 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NKK
+	}
+
+	provinces={
+		1240 1241 1242 1243 1244 1245 1246 1247 1248 1249 1250 1251 1252 1253 1254 1255 1256 1257 1258 1259 
+	}
+	local_supplies=0.0 
+}

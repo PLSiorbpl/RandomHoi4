@@ -1,0 +1,42 @@
+
+state={
+	id=1215
+	name="STATE_1215"
+	manpower = 2585499
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=26
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16854 21}
+		victory_points = { 16869 3}
+		
+		owner = VID
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			16852 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = VID
+	}
+
+	provinces={
+		16843 16844 16845 16846 16847 16848 16849 16850 16851 16852 16853 16854 16855 16856 16857 16858 16859 16860 16861 16862 16863 16864 16865 16866 16867 16868 16869 16870 16871 16872 16873 16874 16875 16876 16877 16878 16879 16880 16881 16882 16883 16884 16885 16886 16887 16888 16889 
+	}
+	local_supplies=0.0 
+}

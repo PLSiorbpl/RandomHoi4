@@ -1,0 +1,264 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			artillery = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			artillery = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Kate' Militia Division"
+		location = 10353
+		division_template = "Militia Division"
+		start_experience_factor = 0.832755
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Bahpu' Militia Division"
+		location = 10565
+		division_template = "Militia Division"
+		start_experience_factor = 0.351216
+		start_equipment_factor = 0.877690
+	}
+	division= {
+		name = "2rd 'Oxib' Militia Division"
+		location = 7311
+		division_template = "Militia Division"
+		start_experience_factor = 0.914849
+		start_equipment_factor = 0.955432
+	}
+	division= {
+		name = "3th 'Voce' Militia Division"
+		location = 9783
+		division_template = "Militia Division"
+		start_experience_factor = 0.850385
+		start_equipment_factor = 0.986961
+	}
+	division= {
+		name = "4th 'Kaalampak' Militia Division"
+		location = 11343
+		division_template = "Militia Division"
+		start_experience_factor = 0.741514
+		start_equipment_factor = 0.949584
+	}
+	division= {
+		name = "5th 'Chel' Militia Division"
+		location = 9727
+		division_template = "Militia Division"
+		start_experience_factor = 0.172609
+		start_equipment_factor = 0.876354
+	}
+	division= {
+		name = "6th 'Kaalampak' Militia Division"
+		location = 7826
+		division_template = "Militia Division"
+		start_experience_factor = 0.000044
+		start_equipment_factor = 0.895930
+	}
+	division= {
+		name = "7th 'Kate' Militia Division"
+		location = 10353
+		division_template = "Militia Division"
+		start_experience_factor = 0.236012
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "8th 'Bona' Militia Division"
+		location = 7341
+		division_template = "Militia Division"
+		start_experience_factor = 0.429198
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Kaalampak' Militia Division"
+		location = 9723
+		division_template = "Militia Division"
+		start_experience_factor = 0.313852
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "10st 'Bahpu' Militia Division"
+		location = 9706
+		division_template = "Militia Division"
+		start_experience_factor = 0.978198
+		start_equipment_factor = 0.918461
+	}
+	division= {
+		name = "0st 'Chenque' Infantry Division"
+		location = 7337
+		division_template = "Infantry Division"
+		start_experience_factor = 0.854356
+		start_equipment_factor = 0.963076
+	}
+	division= {
+		name = "1nd 'Kaalampak' Infantry Division"
+		location = 7826
+		division_template = "Infantry Division"
+		start_experience_factor = 0.964582
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Chel' Infantry Division"
+		location = 7342
+		division_template = "Infantry Division"
+		start_experience_factor = 0.511433
+		start_equipment_factor = 0.932333
+	}
+	division= {
+		name = "3th 'Chel' Infantry Division"
+		location = 9715
+		division_template = "Infantry Division"
+		start_experience_factor = 0.746212
+		start_equipment_factor = 0.957761
+	}
+	division= {
+		name = "4th 'Ahau' Infantry Division"
+		location = 11342
+		division_template = "Infantry Division"
+		start_experience_factor = 0.965819
+		start_equipment_factor = 0.893766
+	}
+	division= {
+		name = "5th 'Bahpu' Infantry Division"
+		location = 9287
+		division_template = "Infantry Division"
+		start_experience_factor = 0.446877
+		start_equipment_factor = 0.868631
+	}
+	division= {
+		name = "6th 'Kaalampak' Infantry Division"
+		location = 7347
+		division_template = "Infantry Division"
+		start_experience_factor = 0.917688
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Kate' Cavalry Division"
+		location = 12000
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.528844
+		start_equipment_factor = 0.894071
+	}
+	division= {
+		name = "1nd 'Kaalampak' Cavalry Division"
+		location = 11339
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.928765
+		start_equipment_factor = 0.877901
+	}
+	division= {
+		name = "2rd 'Katun' Cavalry Division"
+		location = 10223
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.980385
+		start_equipment_factor = 0.929717
+	}
+	division= {
+		name = "3th 'Ahcanaaxun' Cavalry Division"
+		location = 10227
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.598345
+		start_equipment_factor = 0.943966
+	}
+	division= {
+		name = "4th 'Ahau' Cavalry Division"
+		location = 7828
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.941527
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Chel' Cavalry Division"
+		location = 10228
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.833717
+		start_equipment_factor = 1.000000
+	}
+
+}

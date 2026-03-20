@@ -1,0 +1,38 @@
+
+state={
+	id=405
+	name="STATE_405"
+	manpower = 519862
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5650 1}
+		
+		owner = FQR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FQR
+	}
+
+	provinces={
+		5648 5649 5650 5651 5652 5653 5654 5655 
+	}
+	local_supplies=0.0 
+}

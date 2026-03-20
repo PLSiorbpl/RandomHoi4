@@ -1,0 +1,41 @@
+
+state={
+	id=628
+	name="STATE_628"
+	manpower = 607398
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9086 5}
+		
+		owner = CEN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			9091 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CEN
+	}
+
+	provinces={
+		9082 9083 9084 9085 9086 9087 9088 9089 9090 9091 
+	}
+	local_supplies=0.0 
+}

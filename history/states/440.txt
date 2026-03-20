@@ -1,0 +1,38 @@
+
+state={
+	id=440
+	name="STATE_440"
+	manpower = 572963
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6205 4}
+		
+		owner = UEM
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = UEM
+	}
+
+	provinces={
+		6203 6204 6205 6206 6207 6208 6209 6210 6211 
+	}
+	local_supplies=0.0 
+}

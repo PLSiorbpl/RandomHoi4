@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Amerwin Fleet"			
+		naval_base = 9910
+		task_force = {
+			name = "Amerwin Fleet"
+			location = 9910
+			
+						ship = { name = "Takhmim" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JME version_name = "Tigmmirt Class" } }	}
+			ship = { name = "Tigmmirt" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = JME version_name = "Takhmim Class" } }	}
+			ship = { name = "Tigmmirt 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = JME version_name = "Takhmim Class" } }	}
+			ship = { name = "Tigmmirt 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = JME version_name = "Takhmim Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

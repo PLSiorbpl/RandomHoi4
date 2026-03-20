@@ -1,0 +1,40 @@
+
+state={
+	id=114
+	name="STATE_114"
+	manpower = 782925
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1825 1}
+		victory_points = { 1831 2}
+		victory_points = { 1832 2}
+		
+		owner = EOP
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = EOP
+	}
+
+	provinces={
+		1821 1822 1823 1824 1825 1826 1827 1828 1829 1830 1831 1832 
+	}
+	local_supplies=0.0 
+}

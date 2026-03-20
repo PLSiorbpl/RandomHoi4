@@ -1,0 +1,880 @@
+characters = {
+	NMT_Kumarthik_Nadam={
+		name="Kumarthik Nadam"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NMT_Mohari_Nadanneerku={
+		name="Mohari Nadanneerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Mohari_Nadanneerku
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	NMT_Mohan_Siranai={
+		name="Mohan Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Mohan_Siranai
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	NMT_Ganod_Nenjil={
+		name="Ganod Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Ganod_Nenjil
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	NMT_Chan_Saatrugam={
+		name="Chan Saatrugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Chan_Saatrugam
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	NMT_Kumarthik_Saatrugam={
+		name="Kumarthik Saatrugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Kumarthik_Saatrugam
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	NMT_Karthik_Nadam={
+		name="Karthik Nadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Karthik_Nadam
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	NMT_Praneshna_Siranai={
+		name="Praneshna Siranai"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Praneshna_Siranai
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	NMT_Ganesh_Nadanneerku={
+		name="Ganesh Nadanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Ganesh_Nadanneerku
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	NMT_Deepakash_Nenjil={
+		name="Deepakash Nenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Deepakash_Nenjil
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	NMT_Jagadeepak_Saatrugam={
+		name="Jagadeepak Saatrugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Jagadeepak_Saatrugam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	NMT_Karth_Pudrai={
+		name="Karth Pudrai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Karth_Pudrai
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	NMT_Vijay_Saatrugam={
+		name="Vijay Saatrugam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Vijay_Saatrugam
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	NMT_Prak_Nadam={
+		name="Prak Nadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Prak_Nadam
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	NMT_Kumarth_Nadam={
+		name="Kumarth Nadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Kumarth_Nadam
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	NMT_Mohaveesh_Nadam={
+		name="Mohaveesh Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Mohaveesh_Nadam
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	NMT_Kumar_Natpu={
+		name="Kumar Natpu"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Kumar_Natpu
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	NMT_Vinod_Siranai={
+		name="Vinod Siranai"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Vinod_Siranai
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	NMT_Praneshna_Kizharam={
+		name="Praneshna Kizharam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Praneshna_Kizharam
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	NMT_Siddharthik_Nadam={
+		name="Siddharthik Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Siddharthik_Nadam
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	NMT_Suresh_Kizharam={
+		name="Suresh Kizharam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Suresh_Kizharam
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	NMT_Ajay_Nadanneerku={
+		name="Ajay Nadanneerku"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NMT_Chaveenthik_Siranai={
+		name="Chaveenthik Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Chaveenthik_Siranai
+				traits = {	polemarch 	}
+		}
+
+	}
+	NMT_Kumarthik_Siranai={
+		name="Kumarthik Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Kumarthik_Siranai
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	NMT_Kiran_Pudrai={
+		name="Kiran Pudrai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Kiran_Pudrai
+				traits = {	generallissimo 	}
+		}
+
+	}
+	NMT_Ragadeenth_Siranai={
+		name="Ragadeenth Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Ragadeenth_Siranai
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	NMT_Chaveenthik_Nadanneerku={
+		name="Chaveenthik Nadanneerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Chaveenthik_Nadanneerku
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	NMT_Senthik_Siranai={
+		name="Senthik Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Senthik_Siranai
+				traits = {	warmonger 	}
+		}
+
+	}
+	NMT_Jagharthil_Kizharam={
+		name="Jagharthil Kizharam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Jagharthil_Kizharam
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	NMT_Satish_Nadanneerku={
+		name="Satish Nadanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Satish_Nadanneerku
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	NMT_Ragharthik_Saatrugam={
+		name="Ragharthik Saatrugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Ragharthik_Saatrugam
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	NMT_Char_Thudi={
+		name="Char Thudi"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Char_Thudi
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	NMT_Jagadeepak_Nadam={
+		name="Jagadeepak Nadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Jagadeepak_Nadam
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	NMT_Satish_Nadam={
+		name="Satish Nadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Satish_Nadam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	NMT_Prakash_Nenjil={
+		name="Prakash Nenjil"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Prakash_Nenjil
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	NMT_Harthik_Pudrai={
+		name="Harthik Pudrai"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Harthik_Pudrai
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	NMT_Kumar_Kizharam={
+		name="Kumar Kizharam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Kumar_Kizharam
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	NMT_Kumarthik_Aaram={
+		name="Kumarthik Aaram"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Kumarthik_Aaram
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	NMT_Surem_Kizharam={
+		name="Surem Kizharam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Surem_Kizharam
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	NMT_Jagadeepakas_Nadanneerku={
+		name="Jagadeepakas Nadanneerku"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Jagadeepakas_Nadanneerku
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	NMT_Krish_Natpu={
+		name="Krish Natpu"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Krish_Natpu
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	NMT_Preshna_Kizharam={
+		name="Preshna Kizharam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Preshna_Kizharam
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	NMT_Chandrandran_Kizharam={
+		name="Chandrandran Kizharam"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NMT_Kirakash_Aaram={
+		name="Kirakash Aaram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Kirakash_Aaram
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	NMT_Satish_Siranai={
+		name="Satish Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Satish_Siranai
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	NMT_Dinoj_Natpu={
+		name="Dinoj Natpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Dinoj_Natpu
+				traits = {	infirm 	}
+		}
+
+	}
+	NMT_Varthil_Kizharam={
+		name="Varthil Kizharam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Varthil_Kizharam
+				traits = {	political_dancer 	}
+		}
+
+	}
+	NMT_Jagharthil_Nenjil={
+		name="Jagharthil Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Jagharthil_Nenjil
+				traits = {	infirm 	}
+		}
+
+	}
+	NMT_Ganod_Nadanneerku={
+		name="Ganod Nadanneerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Ganod_Nadanneerku
+				traits = {	political_dancer 	}
+		}
+
+	}
+	NMT_Deepakash_Nadanneerku={
+		name="Deepakash Nadanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Deepakash_Nadanneerku
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	NMT_Jagharthil_Pudrai={
+		name="Jagharthil Pudrai"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Jagharthil_Pudrai
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	NMT_Charthil_Nenjil={
+		name="Charthil Nenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Charthil_Nenjil
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	NMT_Harun_Natpu={
+		name="Harun Natpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Harun_Natpu
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	NMT_Varthil_Nenjil={
+		name="Varthil Nenjil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Varthil_Nenjil
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	NMT_Harthik_Aaram={
+		name="Harthik Aaram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Harthik_Aaram
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	NMT_Charthil_Kizharam={
+		name="Charthil Kizharam"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Charthil_Kizharam
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	NMT_Varish_Saatrugam={
+		name="Varish Saatrugam"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Varish_Saatrugam
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	NMT_Vinod_Natpu={
+		name="Vinod Natpu"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Vinod_Natpu
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	NMT_Jagadeepakas_Nadam={
+		name="Jagadeepakas Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Jagadeepakas_Nadam
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	NMT_Rajeshna_Siranai={
+		name="Rajeshna Siranai"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Rajeshna_Siranai
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	NMT_Siddhav_Nadanneerku={
+		name="Siddhav Nadanneerku"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Siddhav_Nadanneerku
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	NMT_Pran_Thudi={
+		name="Pran Thudi"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Pran_Thudi
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	NMT_Ganesh_Nenjil={
+		name="Ganesh Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Ganesh_Nenjil
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	NMT_Suresh_Thudi={
+		name="Suresh Thudi"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NMT_Ragharthik_Siranai={
+		name="Ragharthik Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Ragharthik_Siranai
+				traits = {	rearmer 	}
+		}
+
+	}
+	NMT_Krish_Siranai={
+		name="Krish Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Krish_Siranai
+				traits = {	infirm 	}
+		}
+
+	}
+	NMT_Mohaveesh_Aaram={
+		name="Mohaveesh Aaram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Mohaveesh_Aaram
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	NMT_Dinod_Thudi={
+		name="Dinod Thudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Dinod_Thudi
+				traits = {	rearmer 	}
+		}
+
+	}
+	NMT_Prem_Siranai={
+		name="Prem Siranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Prem_Siranai
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	NMT_Kumarth_Nenjil={
+		name="Kumarth Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NMT_Kumarth_Nenjil
+				traits = {	infirm 	}
+		}
+
+	}
+	NMT_Ragadeenth_Aaram={
+		name="Ragadeenth Aaram"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Ragadeenth_Aaram
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	NMT_Presh_Pudrai={
+		name="Presh Pudrai"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Presh_Pudrai
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	NMT_Jagadeepakas_Saatrugam={
+		name="Jagadeepakas Saatrugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Jagadeepakas_Saatrugam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	NMT_Ragadeenth_Saatrugam={
+		name="Ragadeenth Saatrugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NMT_Ragadeenth_Saatrugam
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	NMT_Mohavi_Nadanneerku={
+		name="Mohavi Nadanneerku"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Mohavi_Nadanneerku
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	NMT_Deepakash_Pudrai={
+		name="Deepakash Pudrai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NMT_Deepakash_Pudrai
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	NMT_Ragadeenth_Thudi={
+		name="Ragadeenth Thudi"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Ragadeenth_Thudi
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	NMT_Jaghari_Pudrai={
+		name="Jaghari Pudrai"
+
+		advisor={
+			slot = air_chief
+			idea_token = NMT_Jaghari_Pudrai
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	NMT_Charthik_Aaram={
+		name="Charthik Aaram"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Charthik_Aaram
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	NMT_Jagadeepakas_Siranai={
+		name="Jagadeepakas Siranai"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Jagadeepakas_Siranai
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	NMT_Prak_Aaram={
+		name="Prak Aaram"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Prak_Aaram
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	NMT_Ganesh_Nadam={
+		name="Ganesh Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Ganesh_Nadam
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	NMT_Dinod_Saatrugam={
+		name="Dinod Saatrugam"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Dinod_Saatrugam
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	NMT_Suresh_Aaram={
+		name="Suresh Aaram"
+
+		advisor={
+			slot = high_command
+			idea_token = NMT_Suresh_Aaram
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	NMT_Mohan_Nenjil={
+		name="Mohan Nenjil"
+
+		advisor={
+			slot = theorist
+			idea_token = NMT_Mohan_Nenjil
+				traits = {	military_theorist 	}
+		}
+
+	}
+	NMT_Mohavi_Siranai={
+		name="Mohavi Siranai"
+
+		advisor={
+			slot = theorist
+			idea_token = NMT_Mohavi_Siranai
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	NMT_Preshna_Saatrugam={
+		name="Preshna Saatrugam"
+
+		advisor={
+			slot = theorist
+			idea_token = NMT_Preshna_Saatrugam
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

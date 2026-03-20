@@ -1,0 +1,880 @@
+characters = {
+	RAQ_Deenthil_Kaalal={
+		name="Deenthil Kaalal"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAQ_Siddharthil_Poru={
+		name="Siddharthil Poru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Siddharthil_Poru
+				traits = {	humble 	}
+		}
+
+	}
+	RAQ_Kirandran_Aaruganavu={
+		name="Kirandran Aaruganavu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Kirandran_Aaruganavu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	RAQ_Varun_Mool={
+		name="Varun Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Varun_Mool
+				traits = {	humble 	}
+		}
+
+	}
+	RAQ_Karun_Pangugam={
+		name="Karun Pangugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Karun_Pangugam
+				traits = {	headstrong 	}
+		}
+
+	}
+	RAQ_Naveesh_Paatpu={
+		name="Naveesh Paatpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Naveesh_Paatpu
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	RAQ_Rajesh_Megam={
+		name="Rajesh Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Rajesh_Megam
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	RAQ_Kiranesh_Arivu={
+		name="Kiranesh Arivu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Kiranesh_Arivu
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	RAQ_Kiranesh_Pangugam={
+		name="Kiranesh Pangugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Kiranesh_Pangugam
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	RAQ_Prem_Poru={
+		name="Prem Poru"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Prem_Poru
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	RAQ_Vinesh_Thoppu={
+		name="Vinesh Thoppu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Vinesh_Thoppu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RAQ_Kirandran_Arivu={
+		name="Kirandran Arivu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Kirandran_Arivu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	RAQ_Chan_Arivu={
+		name="Chan Arivu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Chan_Arivu
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	RAQ_Rajesh_Poru={
+		name="Rajesh Poru"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Rajesh_Poru
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	RAQ_Siddhaveesh_Kaalal={
+		name="Siddhaveesh Kaalal"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Siddhaveesh_Kaalal
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	RAQ_Prakash_Aaruganavu={
+		name="Prakash Aaruganavu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Prakash_Aaruganavu
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	RAQ_Karthik_Megam={
+		name="Karthik Megam"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Karthik_Megam
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	RAQ_Vijay_Poru={
+		name="Vijay Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Vijay_Poru
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	RAQ_Raghavi_Mool={
+		name="Raghavi Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Raghavi_Mool
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	RAQ_Varish_Mool={
+		name="Varish Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Varish_Mool
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	RAQ_Ajay_Poru={
+		name="Ajay Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Ajay_Poru
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	RAQ_Prakash_Poru={
+		name="Prakash Poru"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAQ_Varun_Arivu={
+		name="Varun Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Varun_Arivu
+				traits = {	basileus 	}
+		}
+
+	}
+	RAQ_Varun_Kaalal={
+		name="Varun Kaalal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Varun_Kaalal
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	RAQ_Harth_Aaruganavu={
+		name="Harth Aaruganavu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Harth_Aaruganavu
+				traits = {	autokrator 	}
+		}
+
+	}
+	RAQ_Kiranesh_Moolanthi={
+		name="Kiranesh Moolanthi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Kiranesh_Moolanthi
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	RAQ_Anil_Poru={
+		name="Anil Poru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Anil_Poru
+				traits = {	infirm 	}
+		}
+
+	}
+	RAQ_Kirandran_Megam={
+		name="Kirandran Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Kirandran_Megam
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	RAQ_Satish_Moolanthi={
+		name="Satish Moolanthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Satish_Moolanthi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	RAQ_Moharthil_Aaruganavu={
+		name="Moharthil Aaruganavu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Moharthil_Aaruganavu
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	RAQ_Siddhavi_Moolanthi={
+		name="Siddhavi Moolanthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Siddhavi_Moolanthi
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	RAQ_Prem_Thoppu={
+		name="Prem Thoppu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Prem_Thoppu
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	RAQ_Suresh_Aaruganavu={
+		name="Suresh Aaruganavu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Suresh_Aaruganavu
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	RAQ_Chavi_Aaruganavu={
+		name="Chavi Aaruganavu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Chavi_Aaruganavu
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	RAQ_Senthil_Megam={
+		name="Senthil Megam"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Senthil_Megam
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	RAQ_Varish_Poru={
+		name="Varish Poru"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Varish_Poru
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	RAQ_Deenthil_Paatpu={
+		name="Deenthil Paatpu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Deenthil_Paatpu
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	RAQ_Prak_Pangugam={
+		name="Prak Pangugam"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Prak_Pangugam
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	RAQ_Harth_Mool={
+		name="Harth Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Harth_Mool
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	RAQ_Prakash_Moolanthi={
+		name="Prakash Moolanthi"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Prakash_Moolanthi
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	RAQ_Siddhaveepak_Arivu={
+		name="Siddhaveepak Arivu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Siddhaveepak_Arivu
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	RAQ_Vijay_Mool={
+		name="Vijay Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Vijay_Mool
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	RAQ_Prak_Aaruganavu={
+		name="Prak Aaruganavu"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAQ_Vinoj_Paatpu={
+		name="Vinoj Paatpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Vinoj_Paatpu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	RAQ_Mohanesh_Arivu={
+		name="Mohanesh Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Mohanesh_Arivu
+				traits = {	polemarch 	}
+		}
+
+	}
+	RAQ_Naveesh_Megam={
+		name="Naveesh Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Naveesh_Megam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RAQ_Sureshna_Kaalal={
+		name="Sureshna Kaalal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Sureshna_Kaalal
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RAQ_Kiran_Aaruganavu={
+		name="Kiran Aaruganavu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Kiran_Aaruganavu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	RAQ_Vijay_Thoppu={
+		name="Vijay Thoppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Vijay_Thoppu
+				traits = {	infirm 	}
+		}
+
+	}
+	RAQ_Mohanesh_Paatpu={
+		name="Mohanesh Paatpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Mohanesh_Paatpu
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RAQ_Kumarish_Arivu={
+		name="Kumarish Arivu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Kumarish_Arivu
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RAQ_Varish_Paatpu={
+		name="Varish Paatpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Varish_Paatpu
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	RAQ_Satish_Megam={
+		name="Satish Megam"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Satish_Megam
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RAQ_Arun_Thoppu={
+		name="Arun Thoppu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Arun_Thoppu
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	RAQ_Deenthil_Megam={
+		name="Deenthil Megam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Deenthil_Megam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	RAQ_Bala_Arivu={
+		name="Bala Arivu"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Bala_Arivu
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	RAQ_Naveen_Poru={
+		name="Naveen Poru"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Naveen_Poru
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	RAQ_Siddhan_Pangugam={
+		name="Siddhan Pangugam"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Siddhan_Pangugam
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	RAQ_Siddhaveenth_Paatpu={
+		name="Siddhaveenth Paatpu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Siddhaveenth_Paatpu
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	RAQ_Deenthik_Thoppu={
+		name="Deenthik Thoppu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Deenthik_Thoppu
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	RAQ_Satish_Thoppu={
+		name="Satish Thoppu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Satish_Thoppu
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	RAQ_Vinesh_Mool={
+		name="Vinesh Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Vinesh_Mool
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	RAQ_Ganoj_Poru={
+		name="Ganoj Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Ganoj_Poru
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	RAQ_Vinoj_Thoppu={
+		name="Vinoj Thoppu"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAQ_Varth_Thoppu={
+		name="Varth Thoppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Varth_Thoppu
+				traits = {	the_banker 	}
+		}
+
+	}
+	RAQ_Siddhaveepak_Moolanthi={
+		name="Siddhaveepak Moolanthi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Siddhaveepak_Moolanthi
+				traits = {	rearmer 	}
+		}
+
+	}
+	RAQ_Sureshna_Paatpu={
+		name="Sureshna Paatpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Sureshna_Paatpu
+				traits = {	infirm 	}
+		}
+
+	}
+	RAQ_Chan_Megam={
+		name="Chan Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Chan_Megam
+				traits = {	infirm 	}
+		}
+
+	}
+	RAQ_Naveen_Megam={
+		name="Naveen Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Naveen_Megam
+				traits = {	infirm 	}
+		}
+
+	}
+	RAQ_Satish_Poru={
+		name="Satish Poru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAQ_Satish_Poru
+				traits = {	the_banker 	}
+		}
+
+	}
+	RAQ_Moharthil_Megam={
+		name="Moharthil Megam"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Moharthil_Megam
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	RAQ_Siddhaveesh_Megam={
+		name="Siddhaveesh Megam"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Siddhaveesh_Megam
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	RAQ_Siddhaveenth_Mool={
+		name="Siddhaveenth Mool"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Siddhaveenth_Mool
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	RAQ_Varish_Megam={
+		name="Varish Megam"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAQ_Varish_Megam
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	RAQ_Dinesh_Pangugam={
+		name="Dinesh Pangugam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Dinesh_Pangugam
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	RAQ_Kumarun_Pangugam={
+		name="Kumarun Pangugam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAQ_Kumarun_Pangugam
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	RAQ_Siddhavi_Megam={
+		name="Siddhavi Megam"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Siddhavi_Megam
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	RAQ_Varth_Moolanthi={
+		name="Varth Moolanthi"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAQ_Varth_Moolanthi
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	RAQ_Krish_Arivu={
+		name="Krish Arivu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Krish_Arivu
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	RAQ_Dinoj_Pangugam={
+		name="Dinoj Pangugam"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Dinoj_Pangugam
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	RAQ_Deenthik_Pangugam={
+		name="Deenthik Pangugam"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Deenthik_Pangugam
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	RAQ_Sureshna_Aaruganavu={
+		name="Sureshna Aaruganavu"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Sureshna_Aaruganavu
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	RAQ_Kiranesh_Kaalal={
+		name="Kiranesh Kaalal"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Kiranesh_Kaalal
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	RAQ_Krish_Poru={
+		name="Krish Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = RAQ_Krish_Poru
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	RAQ_Harth_Moolanthi={
+		name="Harth Moolanthi"
+
+		advisor={
+			slot = theorist
+			idea_token = RAQ_Harth_Moolanthi
+				traits = {	military_theorist 	}
+		}
+
+	}
+	RAQ_Vari_Megam={
+		name="Vari Megam"
+
+		advisor={
+			slot = theorist
+			idea_token = RAQ_Vari_Megam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	RAQ_Anil_Kaalal={
+		name="Anil Kaalal"
+
+		advisor={
+			slot = theorist
+			idea_token = RAQ_Anil_Kaalal
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

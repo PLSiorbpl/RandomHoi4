@@ -1,0 +1,38 @@
+
+state={
+	id=646
+	name="STATE_646"
+	manpower = 368495
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9263 2}
+		
+		owner = MWR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MWR
+	}
+
+	provinces={
+		9262 9263 9264 9265 9266 
+	}
+	local_supplies=0.0 
+}

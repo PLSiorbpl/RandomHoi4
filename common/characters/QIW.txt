@@ -1,0 +1,880 @@
+characters = {
+	QIW_Frald_Furg={
+		name="Frald Furg"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QIW_Knus_Buchafe={
+		name="Knus Buchafe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Knus_Buchafe
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	QIW_Diritz_Heit={
+		name="Diritz Heit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Diritz_Heit
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	QIW_Bjorenrik_Buchafe={
+		name="Bjorenrik Buchafe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Bjorenrik_Buchafe
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	QIW_Rolf_Furg={
+		name="Rolf Furg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Rolf_Furg
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	QIW_Otthiasparl_Heit={
+		name="Otthiasparl Heit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Otthiasparl_Heit
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	QIW_Georne_Kras={
+		name="Georne Kras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Georne_Kras
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	QIW_Matthiasparl_Grenze={
+		name="Matthiasparl Grenze"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Matthiasparl_Grenze
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	QIW_Eritz_Lien={
+		name="Eritz Lien"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Eritz_Lien
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	QIW_Matthiasparl_Geimm={
+		name="Matthiasparl Geimm"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Matthiasparl_Geimm
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	QIW_Eirichars_Wilfensbried={
+		name="Eirichars Wilfensbried"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Eirichars_Wilfensbried
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	QIW_Helmut_Heit={
+		name="Helmut Heit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Helmut_Heit
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	QIW_Heif_Buchafe={
+		name="Heif Buchafe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Heif_Buchafe
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	QIW_Oskaran_Heit={
+		name="Oskaran Heit"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Oskaran_Heit
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	QIW_Jenderen_Rate={
+		name="Jenderen Rate"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Jenderen_Rate
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	QIW_Eirichars_Kras={
+		name="Eirichars Kras"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Eirichars_Kras
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	QIW_Vold_Luft={
+		name="Vold Luft"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Vold_Luft
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	QIW_Anderen_Heit={
+		name="Anderen Heit"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Anderen_Heit
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	QIW_Volf_Luft={
+		name="Volf Luft"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Volf_Luft
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	QIW_Bjorn_Geimm={
+		name="Bjorn Geimm"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Bjorn_Geimm
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	QIW_Heif_Lien={
+		name="Heif Lien"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Heif_Lien
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	QIW_Rolkeren_Lien={
+		name="Rolkeren Lien"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QIW_Heren_Luft={
+		name="Heren Luft"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Heren_Luft
+				traits = {	polemarch 	}
+		}
+
+	}
+	QIW_Rolkeren_Rate={
+		name="Rolkeren Rate"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Rolkeren_Rate
+				traits = {	basileus 	}
+		}
+
+	}
+	QIW_Eirichars_Furg={
+		name="Eirichars Furg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Eirichars_Furg
+				traits = {	autokrator 	}
+		}
+
+	}
+	QIW_Rich_Kras={
+		name="Rich Kras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Rich_Kras
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	QIW_Hels_Grenze={
+		name="Hels Grenze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Hels_Grenze
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	QIW_Sigurd_Geimm={
+		name="Sigurd Geimm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Sigurd_Geimm
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	QIW_Oskard_Geimm={
+		name="Oskard Geimm"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Oskard_Geimm
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	QIW_Jenderen_Heit={
+		name="Jenderen Heit"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Jenderen_Heit
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	QIW_Rich_Rate={
+		name="Rich Rate"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Rich_Rate
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	QIW_Georne_Heit={
+		name="Georne Heit"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Georne_Heit
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	QIW_Sten_Rate={
+		name="Sten Rate"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Sten_Rate
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	QIW_Knut_Buchafe={
+		name="Knut Buchafe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Knut_Buchafe
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	QIW_Bjorenrik_Furg={
+		name="Bjorenrik Furg"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Bjorenrik_Furg
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	QIW_Rudolf_Furg={
+		name="Rudolf Furg"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Rudolf_Furg
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	QIW_Ander_Wilfensbried={
+		name="Ander Wilfensbried"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Ander_Wilfensbried
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	QIW_Georg_Kras={
+		name="Georg Kras"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Georg_Kras
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	QIW_Nielm_Grenze={
+		name="Nielm Grenze"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Nielm_Grenze
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	QIW_Richarald_Lien={
+		name="Richarald Lien"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Richarald_Lien
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	QIW_Matthiasparl_Lien={
+		name="Matthiasparl Lien"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Matthiasparl_Lien
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	QIW_Otthiasparl_Buchafe={
+		name="Otthiasparl Buchafe"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Otthiasparl_Buchafe
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	QIW_Fran_Wilfensbried={
+		name="Fran Wilfensbried"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QIW_Niels_Kras={
+		name="Niels Kras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Niels_Kras
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	QIW_Bjorg_Grenze={
+		name="Bjorg Grenze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Bjorg_Grenze
+				traits = {	infirm 	}
+		}
+
+	}
+	QIW_Leif_Kras={
+		name="Leif Kras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Leif_Kras
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	QIW_Magnus_Heit={
+		name="Magnus Heit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Magnus_Heit
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	QIW_Lard_Heit={
+		name="Lard Heit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Lard_Heit
+				traits = {	political_dancer 	}
+		}
+
+	}
+	QIW_Sorens_Luft={
+		name="Sorens Luft"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Sorens_Luft
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	QIW_Dirk_Heit={
+		name="Dirk Heit"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Dirk_Heit
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	QIW_Dirik_Geimm={
+		name="Dirik Geimm"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Dirik_Geimm
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	QIW_Svenrich_Lien={
+		name="Svenrich Lien"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Svenrich_Lien
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	QIW_Sored_Grenze={
+		name="Sored Grenze"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Sored_Grenze
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	QIW_Rolkeren_Furg={
+		name="Rolkeren Furg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Rolkeren_Furg
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	QIW_Helmut_Grenze={
+		name="Helmut Grenze"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Helmut_Grenze
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	QIW_Bjorg_Lien={
+		name="Bjorg Lien"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Bjorg_Lien
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	QIW_Sigurd_Wilfensbried={
+		name="Sigurd Wilfensbried"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Sigurd_Wilfensbried
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	QIW_Thiaspard_Luft={
+		name="Thiaspard Luft"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Thiaspard_Luft
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	QIW_Karald_Heit={
+		name="Karald Heit"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Karald_Heit
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	QIW_Alfred_Grenze={
+		name="Alfred Grenze"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Alfred_Grenze
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	QIW_Nielm_Kras={
+		name="Nielm Kras"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Nielm_Kras
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	QIW_Vold_Wilfensbried={
+		name="Vold Wilfensbried"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Vold_Wilfensbried
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	QIW_Volf_Wilfensbried={
+		name="Volf Wilfensbried"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Volf_Wilfensbried
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	QIW_Diritz_Luft={
+		name="Diritz Luft"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QIW_Joharl_Geimm={
+		name="Joharl Geimm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Joharl_Geimm
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	QIW_Frann_Furg={
+		name="Frann Furg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Frann_Furg
+				traits = {	first_lady 	}
+		}
+
+	}
+	QIW_Magnus_Furg={
+		name="Magnus Furg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Magnus_Furg
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	QIW_Dirik_Luft={
+		name="Dirik Luft"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Dirik_Luft
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	QIW_Knus_Grenze={
+		name="Knus Grenze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Knus_Grenze
+				traits = {	infirm 	}
+		}
+
+	}
+	QIW_Thias_Rate={
+		name="Thias Rate"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QIW_Thias_Rate
+				traits = {	the_banker 	}
+		}
+
+	}
+	QIW_Jend_Heit={
+		name="Jend Heit"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Jend_Heit
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	QIW_Sorend_Kras={
+		name="Sorend Kras"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Sorend_Kras
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	QIW_Matthijs_Rate={
+		name="Matthijs Rate"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Matthijs_Rate
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	QIW_Arne_Kras={
+		name="Arne Kras"
+
+		advisor={
+			slot = army_chief
+			idea_token = QIW_Arne_Kras
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	QIW_Anderen_Luft={
+		name="Anderen Luft"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Anderen_Luft
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	QIW_Karald_Furg={
+		name="Karald Furg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QIW_Karald_Furg
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	QIW_Matthijs_Lien={
+		name="Matthijs Lien"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Matthijs_Lien
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	QIW_Knut_Rate={
+		name="Knut Rate"
+
+		advisor={
+			slot = air_chief
+			idea_token = QIW_Knut_Rate
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	QIW_Richarald_Rate={
+		name="Richarald Rate"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Richarald_Rate
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	QIW_Emilhelmut_Lien={
+		name="Emilhelmut Lien"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Emilhelmut_Lien
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	QIW_Kars_Kras={
+		name="Kars Kras"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Kars_Kras
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	QIW_Georend_Lien={
+		name="Georend Lien"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Georend_Lien
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	QIW_Anders_Wilfensbried={
+		name="Anders Wilfensbried"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Anders_Wilfensbried
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	QIW_Hers_Buchafe={
+		name="Hers Buchafe"
+
+		advisor={
+			slot = high_command
+			idea_token = QIW_Hers_Buchafe
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	QIW_Rudold_Furg={
+		name="Rudold Furg"
+
+		advisor={
+			slot = theorist
+			idea_token = QIW_Rudold_Furg
+				traits = {	military_theorist 	}
+		}
+
+	}
+	QIW_Eirichars_Grenze={
+		name="Eirichars Grenze"
+
+		advisor={
+			slot = theorist
+			idea_token = QIW_Eirichars_Grenze
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	QIW_Thiaspard_Kras={
+		name="Thiaspard Kras"
+
+		advisor={
+			slot = theorist
+			idea_token = QIW_Thiaspard_Kras
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

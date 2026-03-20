@@ -1,0 +1,43 @@
+
+state={
+	id=907
+	name="STATE_907"
+	manpower = 689935
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12520 1}
+		victory_points = { 12521 1}
+		victory_points = { 12522 4}
+		
+		owner = CCH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			12522 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CCH
+	}
+
+	provinces={
+		12520 12521 12522 12523 12524 12525 12526 12527 12528 12529 12530 
+	}
+	local_supplies=0.0 
+}

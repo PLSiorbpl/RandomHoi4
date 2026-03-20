@@ -1,0 +1,43 @@
+
+state={
+	id=1066
+	name="STATE_1066"
+	manpower = 427719
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14802 1}
+		victory_points = { 14804 1}
+		victory_points = { 14806 1}
+		
+		owner = HSK
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14804 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HSK
+	}
+
+	provinces={
+		14802 14803 14804 14805 14806 14807 
+	}
+	local_supplies=0.0 
+}

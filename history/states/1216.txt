@@ -1,0 +1,42 @@
+
+state={
+	id=1216
+	name="STATE_1216"
+	manpower = 702384
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=0
+	}
+
+	history={
+		victory_points = { 16896 2}
+		victory_points = { 16898 3}
+		
+		owner = VID
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			16893 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = VID
+	}
+
+	provinces={
+		16890 16891 16892 16893 16894 16895 16896 16897 16898 16899 16900 16901 
+	}
+	local_supplies=0.0 
+}

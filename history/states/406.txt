@@ -1,0 +1,39 @@
+
+state={
+	id=406
+	name="STATE_406"
+	manpower = 880446
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5664 3}
+		victory_points = { 5669 3}
+		
+		owner = MCK
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MCK
+	}
+
+	provinces={
+		5656 5657 5658 5659 5660 5661 5662 5663 5664 5665 5666 5667 5668 5669 5670 
+	}
+	local_supplies=0.0 
+}

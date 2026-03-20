@@ -1,0 +1,39 @@
+
+state={
+	id=305
+	name="STATE_305"
+	manpower = 715524
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4525 1}
+		victory_points = { 4530 4}
+		
+		owner = FQR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FQR
+	}
+
+	provinces={
+		4525 4526 4527 4528 4529 4530 4531 4532 4533 4534 4535 4536 
+	}
+	local_supplies=0.0 
+}

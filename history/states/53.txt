@@ -1,0 +1,43 @@
+
+state={
+	id=53
+	name="STATE_53"
+	manpower = 1432795
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=15
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 845 3}
+		victory_points = { 856 6}
+		victory_points = { 868 3}
+		
+		owner = ZTA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			841 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ZTA
+	}
+
+	provinces={
+		841 842 843 844 845 846 847 848 849 850 851 852 853 854 855 856 857 858 859 860 861 862 863 864 865 866 867 868 869 870 
+	}
+	local_supplies=0.0 
+}

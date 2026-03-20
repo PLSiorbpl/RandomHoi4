@@ -1,0 +1,40 @@
+
+state={
+	id=333
+	name="STATE_333"
+	manpower = 804727
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4853 2}
+		victory_points = { 4855 3}
+		victory_points = { 4861 1}
+		
+		owner = MCH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MCH
+	}
+
+	provinces={
+		4848 4849 4850 4851 4852 4853 4854 4855 4856 4857 4858 4859 4860 4861 4862 
+	}
+	local_supplies=0.0 
+}

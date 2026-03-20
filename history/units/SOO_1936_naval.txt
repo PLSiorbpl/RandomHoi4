@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Saab Fleet"			
+		naval_base = 8800
+		task_force = {
+			name = "Saab Fleet"
+			location = 8800
+			
+						ship = { name = "Imalak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOO version_name = "Saab Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

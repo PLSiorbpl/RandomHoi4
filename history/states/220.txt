@@ -1,0 +1,38 @@
+
+state={
+	id=220
+	name="STATE_220"
+	manpower = 371230
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3361 2}
+		
+		owner = MCH
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MCH
+	}
+
+	provinces={
+		3359 3360 3361 3362 3363 
+	}
+	local_supplies=0.0 
+}

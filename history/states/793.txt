@@ -1,0 +1,40 @@
+
+state={
+	id=793
+	name="STATE_793"
+	manpower = 938545
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=29
+	}
+
+	history={
+		victory_points = { 11244 1}
+		victory_points = { 11262 2}
+		victory_points = { 11263 3}
+		
+		owner = PBN
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PBN
+	}
+
+	provinces={
+		11242 11243 11244 11245 11246 11247 11248 11249 11250 11251 11252 11253 11254 11255 11256 11257 11258 11259 11260 11261 11262 11263 
+	}
+	local_supplies=0.0 
+}

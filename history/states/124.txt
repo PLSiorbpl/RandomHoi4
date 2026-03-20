@@ -1,0 +1,40 @@
+
+state={
+	id=124
+	name="STATE_124"
+	manpower = 497045
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1958 1}
+		victory_points = { 1960 1}
+		victory_points = { 1963 1}
+		
+		owner = BAP
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAP
+	}
+
+	provinces={
+		1956 1957 1958 1959 1960 1961 1962 1963 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Reej Fleet"			
+		naval_base = 2122
+		task_force = {
+			name = "Reej Fleet"
+			location = 2122
+			
+						ship = { name = "Reej" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = RDE version_name = "Imah Class" } }	}
+			ship = { name = "Zahjar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RDE version_name = "Zahjar Class" } }	}
+			ship = { name = "Imah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Imah 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Reej 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Reej 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RDE version_name = "Zahjar Class" } }	}
+			ship = { name = "Hilm" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Reej 4" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RDE version_name = "Zahjar Class" } }	}
+			ship = { name = "Imah 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Imah 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = RDE version_name = "Zahjar Class" } }	}
+			ship = { name = "Sabr" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RDE version_name = "Zahjar Class" } }	}
+			ship = { name = "Sabr 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Reej 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Imah 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+			ship = { name = "Zahjar 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RDE version_name = "Zahjar Class" } }	}
+			ship = { name = "Sabr 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDE version_name = "Reej Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,39 @@
+
+state={
+	id=670
+	name="STATE_670"
+	manpower = 1214626
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=20
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9529 5}
+		victory_points = { 9548 5}
+		
+		owner = XQA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XQA
+	}
+
+	provinces={
+		9529 9530 9531 9532 9533 9534 9535 9536 9537 9538 9539 9540 9541 9542 9543 9544 9545 9546 9547 9548 9549 9550 
+	}
+	local_supplies=0.0 
+}

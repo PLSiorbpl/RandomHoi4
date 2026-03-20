@@ -1,0 +1,39 @@
+
+state={
+	id=1069
+	name="STATE_1069"
+	manpower = 417354
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=9
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14833 2}
+		victory_points = { 14834 1}
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		14833 14834 14835 14836 14837 14838 
+	}
+	local_supplies=0.0 
+}

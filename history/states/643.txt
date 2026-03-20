@@ -1,0 +1,38 @@
+
+state={
+	id=643
+	name="STATE_643"
+	manpower = 278110
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9246 1}
+		
+		owner = POI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = POI
+	}
+
+	provinces={
+		9246 9247 9248 9249 
+	}
+	local_supplies=0.0 
+}

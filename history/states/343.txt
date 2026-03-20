@@ -1,0 +1,39 @@
+
+state={
+	id=343
+	name="STATE_343"
+	manpower = 632778
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=11
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4918 1}
+		victory_points = { 4920 3}
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		4913 4914 4915 4916 4917 4918 4919 4920 4921 4922 
+	}
+	local_supplies=0.0 
+}

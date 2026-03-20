@@ -1,0 +1,45 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+	manpower = 1554308
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14531 4}
+		victory_points = { 14536 1}
+		victory_points = { 14539 4}
+		victory_points = { 14543 4}
+		victory_points = { 14550 1}
+		
+		owner = MYN
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			14552 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MYN
+	}
+
+	provinces={
+		14530 14531 14532 14533 14534 14535 14536 14537 14538 14539 14540 14541 14542 14543 14544 14545 14546 14547 14548 14549 14550 14551 14552 14553 14554 14555 14556 
+	}
+	local_supplies=0.0 
+}

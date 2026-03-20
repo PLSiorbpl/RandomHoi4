@@ -1,0 +1,41 @@
+
+state={
+	id=1308
+	name="STATE_1308"
+	manpower = 399578
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17732 2}
+		
+		owner = HQR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17732 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HQR
+	}
+
+	provinces={
+		17731 17732 17733 17734 17735 17736 
+	}
+	local_supplies=0.0 
+}

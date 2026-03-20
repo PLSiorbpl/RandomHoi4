@@ -1,0 +1,880 @@
+characters = {
+	HUA_Wayan_Taranaki={
+		name="Wayan Taranaki"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HUA_Bama_Terjah={
+		name="Bama Terjah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Bama_Terjah
+				traits = {	humble 	}
+		}
+
+	}
+	HUA_Lutra_Pangai={
+		name="Lutra Pangai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Lutra_Pangai
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HUA_Hario_Purnaung={
+		name="Hario Purnaung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Hario_Purnaung
+				traits = {	headstrong 	}
+		}
+
+	}
+	HUA_Bamban_Suarnaman={
+		name="Bamban Suarnaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Bamban_Suarnaman
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HUA_Suryan_Taranaki={
+		name="Suryan Taranaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Suryan_Taranaki
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HUA_Hari_Belan={
+		name="Hari Belan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Hari_Belan
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HUA_Hario_Taranaki={
+		name="Hario Taranaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Hario_Taranaki
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HUA_Lutfi_Belan={
+		name="Lutfi Belan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Lutfi_Belan
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	HUA_Fajar_Pangai={
+		name="Fajar Pangai"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Fajar_Pangai
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HUA_Putfi_Tanau={
+		name="Putfi Tanau"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Putfi_Tanau
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HUA_Bamban_Sehayi={
+		name="Bamban Sehayi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Bamban_Sehayi
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HUA_Sakti_Taranaki={
+		name="Sakti Taranaki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Sakti_Taranaki
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	HUA_Lutfi_Pertasuci={
+		name="Lutfi Pertasuci"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Lutfi_Pertasuci
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	HUA_Wayang_Terjah={
+		name="Wayang Terjah"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Wayang_Terjah
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	HUA_Agus_Pangai={
+		name="Agus Pangai"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Agus_Pangai
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	HUA_Mario_Sehayi={
+		name="Mario Sehayi"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Mario_Sehayi
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	HUA_Mari_Taranaki={
+		name="Mari Taranaki"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Mari_Taranaki
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	HUA_Arjuna_Tanau={
+		name="Arjuna Tanau"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Arjuna_Tanau
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	HUA_Rama_Pangai={
+		name="Rama Pangai"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Rama_Pangai
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	HUA_Bama_Purnaung={
+		name="Bama Purnaung"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Bama_Purnaung
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	HUA_Fajar_Tanau={
+		name="Fajar Tanau"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HUA_Budi_Sehayi={
+		name="Budi Sehayi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Budi_Sehayi
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	HUA_Mari_Purnaung={
+		name="Mari Purnaung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Mari_Purnaung
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	HUA_Lutra_Huku={
+		name="Lutra Huku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Lutra_Huku
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	HUA_Joko_Taranaki={
+		name="Joko Taranaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Joko_Taranaki
+				traits = {	polemarch 	}
+		}
+
+	}
+	HUA_Joko_Sehayi={
+		name="Joko Sehayi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Joko_Sehayi
+				traits = {	polemarch 	}
+		}
+
+	}
+	HUA_Rama_Belan={
+		name="Rama Belan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Rama_Belan
+				traits = {	warmonger 	}
+		}
+
+	}
+	HUA_Bambang_Suarnaman={
+		name="Bambang Suarnaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Bambang_Suarnaman
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HUA_Bamban_Belan={
+		name="Bamban Belan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Bamban_Belan
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	HUA_Rama_Suarnaman={
+		name="Rama Suarnaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Rama_Suarnaman
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HUA_Hario_Suarnaman={
+		name="Hario Suarnaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Hario_Suarnaman
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	HUA_Waya_Terjah={
+		name="Waya Terjah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Waya_Terjah
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HUA_Fajar_Sehayi={
+		name="Fajar Sehayi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Fajar_Sehayi
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	HUA_Arjuna_Huku={
+		name="Arjuna Huku"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Arjuna_Huku
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	HUA_Ramban_Purnaung={
+		name="Ramban Purnaung"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Ramban_Purnaung
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	HUA_Andi_Purnaung={
+		name="Andi Purnaung"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Andi_Purnaung
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	HUA_Bamban_Pertasuci={
+		name="Bamban Pertasuci"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Bamban_Pertasuci
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HUA_Arjuna_Pangai={
+		name="Arjuna Pangai"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Arjuna_Pangai
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	HUA_Wayan_Terjah={
+		name="Wayan Terjah"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Wayan_Terjah
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HUA_Suryang_Huku={
+		name="Suryang Huku"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Suryang_Huku
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	HUA_Putra_Pertasuci={
+		name="Putra Pertasuci"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Putra_Pertasuci
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	HUA_Arjuna_Terjah={
+		name="Arjuna Terjah"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HUA_Hario_Sehayi={
+		name="Hario Sehayi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Hario_Sehayi
+				traits = {	polemarch 	}
+		}
+
+	}
+	HUA_Suryan_Huku={
+		name="Suryan Huku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Suryan_Huku
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HUA_Rambang_Purnaung={
+		name="Rambang Purnaung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Rambang_Purnaung
+				traits = {	polemarch 	}
+		}
+
+	}
+	HUA_Rizal_Pertasuci={
+		name="Rizal Pertasuci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Rizal_Pertasuci
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	HUA_Hari_Pertasuci={
+		name="Hari Pertasuci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Hari_Pertasuci
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HUA_Rambang_Pertasuci={
+		name="Rambang Pertasuci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Rambang_Pertasuci
+				traits = {	polemarch 	}
+		}
+
+	}
+	HUA_Bambang_Purnaung={
+		name="Bambang Purnaung"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Bambang_Purnaung
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HUA_Sakti_Terjah={
+		name="Sakti Terjah"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Sakti_Terjah
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HUA_Fajari_Terjah={
+		name="Fajari Terjah"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Fajari_Terjah
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HUA_Mari_Sehayi={
+		name="Mari Sehayi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Mari_Sehayi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HUA_Fajari_Pangai={
+		name="Fajari Pangai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Fajari_Pangai
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	HUA_Suryang_Sehayi={
+		name="Suryang Sehayi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Suryang_Sehayi
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	HUA_Arjuna_Suarnaman={
+		name="Arjuna Suarnaman"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Arjuna_Suarnaman
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HUA_Bambang_Taranaki={
+		name="Bambang Taranaki"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Bambang_Taranaki
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	HUA_Suryang_Pangai={
+		name="Suryang Pangai"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Suryang_Pangai
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	HUA_Putfi_Sehayi={
+		name="Putfi Sehayi"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Putfi_Sehayi
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	HUA_Agus_Terjah={
+		name="Agus Terjah"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Agus_Terjah
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	HUA_Bama_Pangai={
+		name="Bama Pangai"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Bama_Pangai
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	HUA_Ramban_Terjah={
+		name="Ramban Terjah"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Ramban_Terjah
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	HUA_Lutra_Sehayi={
+		name="Lutra Sehayi"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Lutra_Sehayi
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	HUA_Dewa_Suarnaman={
+		name="Dewa Suarnaman"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HUA_Hario_Tanau={
+		name="Hario Tanau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Hario_Tanau
+				traits = {	rearmer 	}
+		}
+
+	}
+	HUA_Lutra_Tanau={
+		name="Lutra Tanau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Lutra_Tanau
+				traits = {	the_banker 	}
+		}
+
+	}
+	HUA_Hari_Tanau={
+		name="Hari Tanau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Hari_Tanau
+				traits = {	rearmer 	}
+		}
+
+	}
+	HUA_Sakti_Sehayi={
+		name="Sakti Sehayi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Sakti_Sehayi
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HUA_Andi_Suarnaman={
+		name="Andi Suarnaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Andi_Suarnaman
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HUA_Suryang_Pertasuci={
+		name="Suryang Pertasuci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HUA_Suryang_Pertasuci
+				traits = {	rearmer 	}
+		}
+
+	}
+	HUA_Putfi_Taranaki={
+		name="Putfi Taranaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Putfi_Taranaki
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HUA_Surya_Huku={
+		name="Surya Huku"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Surya_Huku
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HUA_Putfi_Pangai={
+		name="Putfi Pangai"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Putfi_Pangai
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HUA_Wayang_Belan={
+		name="Wayang Belan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HUA_Wayang_Belan
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	HUA_Wayan_Pertasuci={
+		name="Wayan Pertasuci"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Wayan_Pertasuci
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HUA_Wayan_Suarnaman={
+		name="Wayan Suarnaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HUA_Wayan_Suarnaman
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	HUA_Agus_Taranaki={
+		name="Agus Taranaki"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Agus_Taranaki
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	HUA_Suryang_Taranaki={
+		name="Suryang Taranaki"
+
+		advisor={
+			slot = air_chief
+			idea_token = HUA_Suryang_Taranaki
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	HUA_Rambang_Belan={
+		name="Rambang Belan"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Rambang_Belan
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	HUA_Budi_Suarnaman={
+		name="Budi Suarnaman"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Budi_Suarnaman
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	HUA_Putra_Belan={
+		name="Putra Belan"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Putra_Belan
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	HUA_Putfi_Terjah={
+		name="Putfi Terjah"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Putfi_Terjah
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	HUA_Bamban_Huku={
+		name="Bamban Huku"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Bamban_Huku
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	HUA_Putfi_Pertasuci={
+		name="Putfi Pertasuci"
+
+		advisor={
+			slot = high_command
+			idea_token = HUA_Putfi_Pertasuci
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	HUA_Suryan_Terjah={
+		name="Suryan Terjah"
+
+		advisor={
+			slot = theorist
+			idea_token = HUA_Suryan_Terjah
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HUA_Fajar_Belan={
+		name="Fajar Belan"
+
+		advisor={
+			slot = theorist
+			idea_token = HUA_Fajar_Belan
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HUA_Fajari_Sehayi={
+		name="Fajari Sehayi"
+
+		advisor={
+			slot = theorist
+			idea_token = HUA_Fajari_Sehayi
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

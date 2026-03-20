@@ -1,0 +1,42 @@
+
+state={
+	id=453
+	name="STATE_453"
+	manpower = 590289
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=7
+	}
+
+	history={
+		victory_points = { 6377 2}
+		victory_points = { 6380 2}
+		
+		owner = WHE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6381 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = WHE
+	}
+
+	provinces={
+		6375 6376 6377 6378 6379 6380 6381 6382 6383 
+	}
+	local_supplies=0.0 
+}

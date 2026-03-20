@@ -1,0 +1,880 @@
+characters = {
+	MCD_Suryang_Ritu={
+		name="Suryang Ritu"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCD_Dewa_Bencak={
+		name="Dewa Bencak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Dewa_Bencak
+				traits = {	headstrong 	}
+		}
+
+	}
+	MCD_Mario_Anahat={
+		name="Mario Anahat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Mario_Anahat
+				traits = {	humble 	}
+		}
+
+	}
+	MCD_Bama_Tara={
+		name="Bama Tara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Bama_Tara
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MCD_Budi_Anahat={
+		name="Budi Anahat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Budi_Anahat
+				traits = {	headstrong 	}
+		}
+
+	}
+	MCD_Ramban_Ritu={
+		name="Ramban Ritu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Ramban_Ritu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCD_Ketutfi_Dewan={
+		name="Ketutfi Dewan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Ketutfi_Dewan
+				traits = {	humble 	}
+		}
+
+	}
+	MCD_Rambang_Terjagu={
+		name="Rambang Terjagu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Rambang_Terjagu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCD_Bama_Bencak={
+		name="Bama Bencak"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Bama_Bencak
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MCD_Surya_Kulintangang={
+		name="Surya Kulintangang"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Surya_Kulintangang
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MCD_Joko_Terjagu={
+		name="Joko Terjagu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Joko_Terjagu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCD_Suryang_Mulan={
+		name="Suryang Mulan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Suryang_Mulan
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	MCD_Hario_Anahat={
+		name="Hario Anahat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Hario_Anahat
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	MCD_Andi_Tara={
+		name="Andi Tara"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Andi_Tara
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MCD_Bambang_Bencak={
+		name="Bambang Bencak"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Bambang_Bencak
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MCD_Ketutfi_Mulan={
+		name="Ketutfi Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Ketutfi_Mulan
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	MCD_Rizal_Dewan={
+		name="Rizal Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Rizal_Dewan
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	MCD_Rama_Dewan={
+		name="Rama Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Rama_Dewan
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	MCD_Lutfi_Dewan={
+		name="Lutfi Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Lutfi_Dewan
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	MCD_Ketutfi_Terakitu={
+		name="Ketutfi Terakitu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Ketutfi_Terakitu
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	MCD_Ramban_Tara={
+		name="Ramban Tara"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Ramban_Tara
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	MCD_Bambang_Anahat={
+		name="Bambang Anahat"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCD_Dewa_Ritu={
+		name="Dewa Ritu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Dewa_Ritu
+				traits = {	polemarch 	}
+		}
+
+	}
+	MCD_Ketutfi_Terjagu={
+		name="Ketutfi Terjagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Ketutfi_Terjagu
+				traits = {	warmonger 	}
+		}
+
+	}
+	MCD_Fajari_Kulintangang={
+		name="Fajari Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Fajari_Kulintangang
+				traits = {	infirm 	}
+		}
+
+	}
+	MCD_Suryan_Mulan={
+		name="Suryan Mulan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Suryan_Mulan
+				traits = {	polemarch 	}
+		}
+
+	}
+	MCD_Putra_Terjagu={
+		name="Putra Terjagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Putra_Terjagu
+				traits = {	polemarch 	}
+		}
+
+	}
+	MCD_Andi_Kama={
+		name="Andi Kama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Andi_Kama
+				traits = {	autokrator 	}
+		}
+
+	}
+	MCD_Arjuna_Kama={
+		name="Arjuna Kama"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Arjuna_Kama
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MCD_Mari_Tara={
+		name="Mari Tara"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Mari_Tara
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MCD_Surya_Anahat={
+		name="Surya Anahat"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Surya_Anahat
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	MCD_Lutra_Dewan={
+		name="Lutra Dewan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Lutra_Dewan
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MCD_Putra_Anahat={
+		name="Putra Anahat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Putra_Anahat
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MCD_Lutra_Ritu={
+		name="Lutra Ritu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Lutra_Ritu
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	MCD_Rama_Bencak={
+		name="Rama Bencak"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Rama_Bencak
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	MCD_Agus_Anahat={
+		name="Agus Anahat"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Agus_Anahat
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MCD_Wayang_Mulan={
+		name="Wayang Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Wayang_Mulan
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MCD_Wayan_Dewan={
+		name="Wayan Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Wayan_Dewan
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	MCD_Putfi_Anahat={
+		name="Putfi Anahat"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Putfi_Anahat
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MCD_Fajari_Dewan={
+		name="Fajari Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Fajari_Dewan
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	MCD_Waya_Dewan={
+		name="Waya Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Waya_Dewan
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	MCD_Suryang_Kulintangang={
+		name="Suryang Kulintangang"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Suryang_Kulintangang
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	MCD_Mari_Dewan={
+		name="Mari Dewan"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCD_Wayan_Bencak={
+		name="Wayan Bencak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Wayan_Bencak
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MCD_Fajari_Mulan={
+		name="Fajari Mulan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Fajari_Mulan
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MCD_Suryan_Tara={
+		name="Suryan Tara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Suryan_Tara
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MCD_Ketutfi_Bencak={
+		name="Ketutfi Bencak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Ketutfi_Bencak
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MCD_Suryan_Ritu={
+		name="Suryan Ritu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Suryan_Ritu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MCD_Surya_Terakitu={
+		name="Surya Terakitu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Surya_Terakitu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MCD_Hario_Bencak={
+		name="Hario Bencak"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Hario_Bencak
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MCD_Arjuna_Terakitu={
+		name="Arjuna Terakitu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Arjuna_Terakitu
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MCD_Andi_Ritu={
+		name="Andi Ritu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Andi_Ritu
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MCD_Rizal_Ritu={
+		name="Rizal Ritu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Rizal_Ritu
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MCD_Surya_Dewan={
+		name="Surya Dewan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Surya_Dewan
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MCD_Wayan_Mulan={
+		name="Wayan Mulan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Wayan_Mulan
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MCD_Bambang_Mulan={
+		name="Bambang Mulan"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Bambang_Mulan
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MCD_Putra_Tara={
+		name="Putra Tara"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Putra_Tara
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MCD_Wayang_Ritu={
+		name="Wayang Ritu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Wayang_Ritu
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	MCD_Surya_Terjagu={
+		name="Surya Terjagu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Surya_Terjagu
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	MCD_Joko_Mulan={
+		name="Joko Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Joko_Mulan
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	MCD_Surya_Ritu={
+		name="Surya Ritu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Surya_Ritu
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	MCD_Mario_Bencak={
+		name="Mario Bencak"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Mario_Bencak
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	MCD_Wayang_Tara={
+		name="Wayang Tara"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Wayang_Tara
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	MCD_Lutfi_Anahat={
+		name="Lutfi Anahat"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCD_Putfi_Kulintangang={
+		name="Putfi Kulintangang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Putfi_Kulintangang
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MCD_Rambang_Anahat={
+		name="Rambang Anahat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Rambang_Anahat
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MCD_Putra_Dewan={
+		name="Putra Dewan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Putra_Dewan
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCD_Arjuna_Anahat={
+		name="Arjuna Anahat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Arjuna_Anahat
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MCD_Andi_Dewan={
+		name="Andi Dewan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Andi_Dewan
+				traits = {	the_banker 	}
+		}
+
+	}
+	MCD_Sakti_Terakitu={
+		name="Sakti Terakitu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCD_Sakti_Terakitu
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MCD_Putfi_Terakitu={
+		name="Putfi Terakitu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Putfi_Terakitu
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MCD_Mario_Terjagu={
+		name="Mario Terjagu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Mario_Terjagu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MCD_Mario_Ritu={
+		name="Mario Ritu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Mario_Ritu
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MCD_Ramban_Mulan={
+		name="Ramban Mulan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCD_Ramban_Mulan
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MCD_Budi_Terjagu={
+		name="Budi Terjagu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Budi_Terjagu
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MCD_Mari_Kulintangang={
+		name="Mari Kulintangang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCD_Mari_Kulintangang
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MCD_Fajario_Bencak={
+		name="Fajario Bencak"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Fajario_Bencak
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MCD_Hario_Kama={
+		name="Hario Kama"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCD_Hario_Kama
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCD_Lutfi_Tara={
+		name="Lutfi Tara"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Lutfi_Tara
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MCD_Arjuna_Kulintangang={
+		name="Arjuna Kulintangang"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Arjuna_Kulintangang
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	MCD_Sakti_Terjagu={
+		name="Sakti Terjagu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Sakti_Terjagu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MCD_Lutfi_Mulan={
+		name="Lutfi Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Lutfi_Mulan
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	MCD_Bambang_Dewan={
+		name="Bambang Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Bambang_Dewan
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MCD_Rambang_Dewan={
+		name="Rambang Dewan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCD_Rambang_Dewan
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	MCD_Fajario_Anahat={
+		name="Fajario Anahat"
+
+		advisor={
+			slot = theorist
+			idea_token = MCD_Fajario_Anahat
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MCD_Putra_Kulintangang={
+		name="Putra Kulintangang"
+
+		advisor={
+			slot = theorist
+			idea_token = MCD_Putra_Kulintangang
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MCD_Agus_Tara={
+		name="Agus Tara"
+
+		advisor={
+			slot = theorist
+			idea_token = MCD_Agus_Tara
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

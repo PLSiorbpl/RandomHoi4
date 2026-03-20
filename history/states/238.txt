@@ -1,0 +1,39 @@
+
+state={
+	id=238
+	name="STATE_238"
+	manpower = 524084
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3662 2}
+		victory_points = { 3664 2}
+		
+		owner = MCH
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MCH
+	}
+
+	provinces={
+		3659 3660 3661 3662 3663 3664 3665 3666 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Castrum Fleet"			
+		naval_base = 10686
+		task_force = {
+			name = "Castrum Fleet"
+			location = 10686
+			
+						ship = { name = "Orbor" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CBS version_name = "Bellum Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

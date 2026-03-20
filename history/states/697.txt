@@ -1,0 +1,42 @@
+
+state={
+	id=697
+	name="STATE_697"
+	manpower = 510814
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=4
+	}
+
+	history={
+		victory_points = { 9860 1}
+		victory_points = { 9865 1}
+		
+		owner = AGS
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9859 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGS
+	}
+
+	provinces={
+		9858 9859 9860 9861 9862 9863 9864 9865 9866 
+	}
+	local_supplies=0.0 
+}

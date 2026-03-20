@@ -1,0 +1,880 @@
+characters = {
+	CEN_Suryang_Wargagelang={
+		name="Suryang Wargagelang"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEN_Mario_Terah={
+		name="Mario Terah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Mario_Terah
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CEN_Joko_Terah={
+		name="Joko Terah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Joko_Terah
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CEN_Wayan_Tang={
+		name="Wayan Tang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Wayan_Tang
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	CEN_Andi_Tetanaki={
+		name="Andi Tetanaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Andi_Tetanaki
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CEN_Surya_Wargagelang={
+		name="Surya Wargagelang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Surya_Wargagelang
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CEN_Ketut_Bulintah={
+		name="Ketut Bulintah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Ketut_Bulintah
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CEN_Suryang_Ramatah={
+		name="Suryang Ramatah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Suryang_Ramatah
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CEN_Dewa_Terah={
+		name="Dewa Terah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Dewa_Terah
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	CEN_Hari_Penakut={
+		name="Hari Penakut"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Hari_Penakut
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CEN_Rama_Wargagelang={
+		name="Rama Wargagelang"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Rama_Wargagelang
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CEN_Ketut_Penakut={
+		name="Ketut Penakut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Ketut_Penakut
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CEN_Surya_Bulintah={
+		name="Surya Bulintah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Surya_Bulintah
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CEN_Lutra_Penakut={
+		name="Lutra Penakut"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Lutra_Penakut
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CEN_Andi_Wargagelang={
+		name="Andi Wargagelang"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Andi_Wargagelang
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	CEN_Arjuna_Senyaremata={
+		name="Arjuna Senyaremata"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Arjuna_Senyaremata
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	CEN_Sakti_Tang={
+		name="Sakti Tang"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Sakti_Tang
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	CEN_Surya_Penakut={
+		name="Surya Penakut"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Surya_Penakut
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	CEN_Bamban_Gelak={
+		name="Bamban Gelak"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Bamban_Gelak
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	CEN_Putfi_Wargagelang={
+		name="Putfi Wargagelang"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Putfi_Wargagelang
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	CEN_Lutra_Tang={
+		name="Lutra Tang"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Lutra_Tang
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	CEN_Hario_Wargagelang={
+		name="Hario Wargagelang"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEN_Dewa_Gelak={
+		name="Dewa Gelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Dewa_Gelak
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	CEN_Agus_Wargagelang={
+		name="Agus Wargagelang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Agus_Wargagelang
+				traits = {	autokrator 	}
+		}
+
+	}
+	CEN_Rizal_Ramatah={
+		name="Rizal Ramatah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Rizal_Ramatah
+				traits = {	warmonger 	}
+		}
+
+	}
+	CEN_Lutra_Bukuat={
+		name="Lutra Bukuat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Lutra_Bukuat
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	CEN_Lutra_Terah={
+		name="Lutra Terah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Lutra_Terah
+				traits = {	autokrator 	}
+		}
+
+	}
+	CEN_Ketut_Bukuat={
+		name="Ketut Bukuat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Ketut_Bukuat
+				traits = {	autokrator 	}
+		}
+
+	}
+	CEN_Ketutra_Tetanaki={
+		name="Ketutra Tetanaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Ketutra_Tetanaki
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CEN_Budi_Penakut={
+		name="Budi Penakut"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Budi_Penakut
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	CEN_Rizal_Tetanaki={
+		name="Rizal Tetanaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Rizal_Tetanaki
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	CEN_Lutfi_Terah={
+		name="Lutfi Terah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Lutfi_Terah
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CEN_Bamban_Wargagelang={
+		name="Bamban Wargagelang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Bamban_Wargagelang
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CEN_Mari_Wargagelang={
+		name="Mari Wargagelang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Mari_Wargagelang
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	CEN_Putfi_Gelak={
+		name="Putfi Gelak"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Putfi_Gelak
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	CEN_Mari_Bukuat={
+		name="Mari Bukuat"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Mari_Bukuat
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CEN_Bama_Terah={
+		name="Bama Terah"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Bama_Terah
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	CEN_Bama_Bulintah={
+		name="Bama Bulintah"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Bama_Bulintah
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	CEN_Fajari_Senyaremata={
+		name="Fajari Senyaremata"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Fajari_Senyaremata
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CEN_Suryan_Tang={
+		name="Suryan Tang"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Suryan_Tang
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	CEN_Waya_Bukuat={
+		name="Waya Bukuat"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Waya_Bukuat
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	CEN_Bamban_Ramatah={
+		name="Bamban Ramatah"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Bamban_Ramatah
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	CEN_Rizal_Penakut={
+		name="Rizal Penakut"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEN_Lutra_Ramatah={
+		name="Lutra Ramatah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Lutra_Ramatah
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CEN_Putra_Ramatah={
+		name="Putra Ramatah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Putra_Ramatah
+				traits = {	political_dancer 	}
+		}
+
+	}
+	CEN_Putfi_Tang={
+		name="Putfi Tang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Putfi_Tang
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CEN_Rama_Terah={
+		name="Rama Terah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Rama_Terah
+				traits = {	infirm 	}
+		}
+
+	}
+	CEN_Rama_Tetanaki={
+		name="Rama Tetanaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Rama_Tetanaki
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CEN_Hari_Ramatah={
+		name="Hari Ramatah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Hari_Ramatah
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CEN_Fajari_Penakut={
+		name="Fajari Penakut"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Fajari_Penakut
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CEN_Ketutra_Ramatah={
+		name="Ketutra Ramatah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Ketutra_Ramatah
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CEN_Rambang_Terah={
+		name="Rambang Terah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Rambang_Terah
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CEN_Rizal_Tang={
+		name="Rizal Tang"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Rizal_Tang
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	CEN_Hari_Terah={
+		name="Hari Terah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Hari_Terah
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	CEN_Joko_Senyaremata={
+		name="Joko Senyaremata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Joko_Senyaremata
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CEN_Bama_Wargagelang={
+		name="Bama Wargagelang"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Bama_Wargagelang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	CEN_Ketutra_Penakut={
+		name="Ketutra Penakut"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Ketutra_Penakut
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CEN_Putra_Tetanaki={
+		name="Putra Tetanaki"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Putra_Tetanaki
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	CEN_Bambang_Gelak={
+		name="Bambang Gelak"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Bambang_Gelak
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	CEN_Hario_Bulintah={
+		name="Hario Bulintah"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Hario_Bulintah
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	CEN_Mari_Senyaremata={
+		name="Mari Senyaremata"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Mari_Senyaremata
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	CEN_Agus_Penakut={
+		name="Agus Penakut"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Agus_Penakut
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	CEN_Suryang_Tetanaki={
+		name="Suryang Tetanaki"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Suryang_Tetanaki
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	CEN_Arjuna_Penakut={
+		name="Arjuna Penakut"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEN_Ketutra_Gelak={
+		name="Ketutra Gelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Ketutra_Gelak
+				traits = {	infirm 	}
+		}
+
+	}
+	CEN_Sakti_Wargagelang={
+		name="Sakti Wargagelang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Sakti_Wargagelang
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	CEN_Agus_Senyaremata={
+		name="Agus Senyaremata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Agus_Senyaremata
+				traits = {	the_banker 	}
+		}
+
+	}
+	CEN_Bamban_Tetanaki={
+		name="Bamban Tetanaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Bamban_Tetanaki
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	CEN_Waya_Gelak={
+		name="Waya Gelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Waya_Gelak
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	CEN_Suryan_Wargagelang={
+		name="Suryan Wargagelang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEN_Suryan_Wargagelang
+				traits = {	rearmer 	}
+		}
+
+	}
+	CEN_Sakti_Gelak={
+		name="Sakti Gelak"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Sakti_Gelak
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CEN_Andi_Gelak={
+		name="Andi Gelak"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Andi_Gelak
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CEN_Hari_Tetanaki={
+		name="Hari Tetanaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Hari_Tetanaki
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CEN_Putfi_Terah={
+		name="Putfi Terah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEN_Putfi_Terah
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	CEN_Surya_Senyaremata={
+		name="Surya Senyaremata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Surya_Senyaremata
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	CEN_Joko_Tang={
+		name="Joko Tang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEN_Joko_Tang
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CEN_Fajari_Tang={
+		name="Fajari Tang"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Fajari_Tang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	CEN_Agus_Bulintah={
+		name="Agus Bulintah"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEN_Agus_Bulintah
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	CEN_Suryan_Senyaremata={
+		name="Suryan Senyaremata"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Suryan_Senyaremata
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	CEN_Waya_Senyaremata={
+		name="Waya Senyaremata"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Waya_Senyaremata
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	CEN_Dewa_Tetanaki={
+		name="Dewa Tetanaki"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Dewa_Tetanaki
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	CEN_Bamban_Penakut={
+		name="Bamban Penakut"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Bamban_Penakut
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	CEN_Dewa_Ramatah={
+		name="Dewa Ramatah"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Dewa_Ramatah
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	CEN_Fajar_Ramatah={
+		name="Fajar Ramatah"
+
+		advisor={
+			slot = high_command
+			idea_token = CEN_Fajar_Ramatah
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	CEN_Andi_Ramatah={
+		name="Andi Ramatah"
+
+		advisor={
+			slot = theorist
+			idea_token = CEN_Andi_Ramatah
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CEN_Wayan_Gelak={
+		name="Wayan Gelak"
+
+		advisor={
+			slot = theorist
+			idea_token = CEN_Wayan_Gelak
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CEN_Putra_Bulintah={
+		name="Putra Bulintah"
+
+		advisor={
+			slot = theorist
+			idea_token = CEN_Putra_Bulintah
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

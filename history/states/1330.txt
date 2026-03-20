@@ -1,0 +1,41 @@
+
+state={
+	id=1330
+	name="STATE_1330"
+	manpower = 302939
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17863 1}
+		
+		owner = BPR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			17862 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BPR
+	}
+
+	provinces={
+		17862 17863 17864 17865 
+	}
+	local_supplies=0.0 
+}

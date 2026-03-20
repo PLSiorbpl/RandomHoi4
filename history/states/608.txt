@@ -1,0 +1,39 @@
+
+state={
+	id=608
+	name="STATE_608"
+	manpower = 428094
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8862 1}
+		victory_points = { 8867 2}
+		
+		owner = AGH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AGH
+	}
+
+	provinces={
+		8862 8863 8864 8865 8866 8867 
+	}
+	local_supplies=0.0 
+}

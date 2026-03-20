@@ -1,0 +1,38 @@
+
+state={
+	id=316
+	name="STATE_316"
+	manpower = 701306
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4670 6}
+		
+		owner = MCH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MCH
+	}
+
+	provinces={
+		4668 4669 4670 4671 4672 4673 4674 4675 4676 4677 4678 
+	}
+	local_supplies=0.0 
+}

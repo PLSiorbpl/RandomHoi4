@@ -1,0 +1,880 @@
+characters = {
+	HMR_Hassan_Munisn={
+		name="Hassan Munisn"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HMR_Omariq_Amaa={
+		name="Omariq Amaa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Omariq_Amaa
+				traits = {	humble 	}
+		}
+
+	}
+	HMR_Sammed_Nahel={
+		name="Sammed Nahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Sammed_Nahel
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	HMR_Khammed_Nasjid={
+		name="Khammed Nasjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Khammed_Nasjid
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	HMR_Hamir_Shan={
+		name="Hamir Shan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Hamir_Shan
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HMR_Omariq_Nahel={
+		name="Omariq Nahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Omariq_Nahel
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HMR_Adnan_Nasjid={
+		name="Adnan Nasjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Adnan_Nasjid
+				traits = {	headstrong 	}
+		}
+
+	}
+	HMR_Anwar_Haria={
+		name="Anwar Haria"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Anwar_Haria
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HMR_Omal_Nasr={
+		name="Omal Nasr"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Omal_Nasr
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HMR_Mohal_Haria={
+		name="Mohal Haria"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Mohal_Haria
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HMR_Anwarid_Nasjid={
+		name="Anwarid Nasjid"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Anwarid_Nasjid
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	HMR_Anwar_Amaa={
+		name="Anwar Amaa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Anwar_Amaa
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HMR_Samza_Shan={
+		name="Samza Shan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Samza_Shan
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HMR_Omal_Haria={
+		name="Omal Haria"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Omal_Haria
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	HMR_Hammed_Haria={
+		name="Hammed Haria"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Hammed_Haria
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	HMR_Omarim_Amara={
+		name="Omarim Amara"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Omarim_Amara
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	HMR_Hami_Nasjid={
+		name="Hami Nasjid"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hami_Nasjid
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	HMR_Mahim_Amara={
+		name="Mahim Amara"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Mahim_Amara
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	HMR_Saad_Shan={
+		name="Saad Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Saad_Shan
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	HMR_Hamza_Haria={
+		name="Hamza Haria"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hamza_Haria
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HMR_Nabilal_Nasjid={
+		name="Nabilal Nasjid"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Nabilal_Nasjid
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	HMR_Majid_Shan={
+		name="Majid Shan"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HMR_Anwarid_Amaa={
+		name="Anwarid Amaa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Anwarid_Amaa
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	HMR_Ibrahim_Nahel={
+		name="Ibrahim Nahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Ibrahim_Nahel
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	HMR_Nabilahya_Nasr={
+		name="Nabilahya Nasr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Nabilahya_Nasr
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	HMR_Ibrahim_Munisn={
+		name="Ibrahim Munisn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Ibrahim_Munisn
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	HMR_Mohammed_Tura={
+		name="Mohammed Tura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Mohammed_Tura
+				traits = {	polemarch 	}
+		}
+
+	}
+	HMR_Khami_Munisn={
+		name="Khami Munisn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Khami_Munisn
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	HMR_Tarim_Haria={
+		name="Tarim Haria"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Tarim_Haria
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	HMR_Kariq_Tura={
+		name="Kariq Tura"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Kariq_Tura
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HMR_Nabilah_Shan={
+		name="Nabilah Shan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Nabilah_Shan
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HMR_Omal_Nahel={
+		name="Omal Nahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Omal_Nahel
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HMR_Imran_Amara={
+		name="Imran Amara"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Imran_Amara
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HMR_Abdullali_Nasr={
+		name="Abdullali Nasr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Abdullali_Nasr
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HMR_Faid_Amara={
+		name="Faid Amara"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Faid_Amara
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	HMR_Ahmad_Munisn={
+		name="Ahmad Munisn"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Ahmad_Munisn
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	HMR_Hammed_Amaa={
+		name="Hammed Amaa"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hammed_Amaa
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HMR_Hassal_Tura={
+		name="Hassal Tura"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hassal_Tura
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	HMR_Adnan_Amaa={
+		name="Adnan Amaa"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Adnan_Amaa
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HMR_Abdullali_Khab={
+		name="Abdullali Khab"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Abdullali_Khab
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	HMR_Nabilah_Nahel={
+		name="Nabilah Nahel"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Nabilah_Nahel
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	HMR_Mohammed_Nasr={
+		name="Mohammed Nasr"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Mohammed_Nasr
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	HMR_Yahya_Tura={
+		name="Yahya Tura"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HMR_Mahya_Shan={
+		name="Mahya Shan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Mahya_Shan
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HMR_Nabilah_Amara={
+		name="Nabilah Amara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Nabilah_Amara
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HMR_Karim_Amaa={
+		name="Karim Amaa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Karim_Amaa
+				traits = {	infirm 	}
+		}
+
+	}
+	HMR_Zaisan_Nasjid={
+		name="Zaisan Nasjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Zaisan_Nasjid
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HMR_Hassan_Khab={
+		name="Hassan Khab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Hassan_Khab
+				traits = {	polemarch 	}
+		}
+
+	}
+	HMR_Abdullalid_Khab={
+		name="Abdullalid Khab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Abdullalid_Khab
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	HMR_Mohamir_Tura={
+		name="Mohamir Tura"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Mohamir_Tura
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	HMR_Tarim_Nasr={
+		name="Tarim Nasr"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Tarim_Nasr
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HMR_Khal_Amaa={
+		name="Khal Amaa"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Khal_Amaa
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	HMR_Bilahmad_Haria={
+		name="Bilahmad Haria"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Bilahmad_Haria
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HMR_Khal_Tura={
+		name="Khal Tura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Khal_Tura
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	HMR_Hassan_Nasr={
+		name="Hassan Nasr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Hassan_Nasr
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HMR_Farid_Munisn={
+		name="Farid Munisn"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Farid_Munisn
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	HMR_Ahmalid_Tura={
+		name="Ahmalid Tura"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Ahmalid_Tura
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HMR_Hammed_Munisn={
+		name="Hammed Munisn"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hammed_Munisn
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	HMR_Faisal_Amaa={
+		name="Faisal Amaa"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Faisal_Amaa
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	HMR_Imrahim_Nasjid={
+		name="Imrahim Nasjid"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Imrahim_Nasjid
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	HMR_Hassal_Amara={
+		name="Hassal Amara"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hassal_Amara
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	HMR_Kariq_Haria={
+		name="Kariq Haria"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Kariq_Haria
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	HMR_Omad_Nahel={
+		name="Omad Nahel"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Omad_Nahel
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	HMR_Hami_Tura={
+		name="Hami Tura"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HMR_Omad_Tura={
+		name="Omad Tura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Omad_Tura
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	HMR_Mohamir_Amara={
+		name="Mohamir Amara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Mohamir_Amara
+				traits = {	the_banker 	}
+		}
+
+	}
+	HMR_Ahmoud_Munisn={
+		name="Ahmoud Munisn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Ahmoud_Munisn
+				traits = {	rearmer 	}
+		}
+
+	}
+	HMR_Hamir_Nasjid={
+		name="Hamir Nasjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Hamir_Nasjid
+				traits = {	the_banker 	}
+		}
+
+	}
+	HMR_Sammed_Tura={
+		name="Sammed Tura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Sammed_Tura
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HMR_Ahmalid_Haria={
+		name="Ahmalid Haria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HMR_Ahmalid_Haria
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HMR_Khammed_Haria={
+		name="Khammed Haria"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Khammed_Haria
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	HMR_Abdullal_Shan={
+		name="Abdullal Shan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Abdullal_Shan
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	HMR_Omariq_Amara={
+		name="Omariq Amara"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Omariq_Amara
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	HMR_Nabilahya_Shan={
+		name="Nabilahya Shan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HMR_Nabilahya_Shan
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HMR_Samar_Nasr={
+		name="Samar Nasr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Samar_Nasr
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HMR_Omariq_Tura={
+		name="Omariq Tura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HMR_Omariq_Tura
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	HMR_Faid_Nahel={
+		name="Faid Nahel"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Faid_Nahel
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	HMR_Imran_Amaa={
+		name="Imran Amaa"
+
+		advisor={
+			slot = air_chief
+			idea_token = HMR_Imran_Amaa
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	HMR_Ibrahim_Shan={
+		name="Ibrahim Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Ibrahim_Shan
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	HMR_Ahmad_Amaa={
+		name="Ahmad Amaa"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Ahmad_Amaa
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HMR_Hassali_Nahel={
+		name="Hassali Nahel"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hassali_Nahel
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	HMR_Omad_Amara={
+		name="Omad Amara"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Omad_Amara
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	HMR_Hammed_Nasr={
+		name="Hammed Nasr"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Hammed_Nasr
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	HMR_Nabilah_Nasjid={
+		name="Nabilah Nasjid"
+
+		advisor={
+			slot = high_command
+			idea_token = HMR_Nabilah_Nasjid
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HMR_Ibran_Nasr={
+		name="Ibran Nasr"
+
+		advisor={
+			slot = theorist
+			idea_token = HMR_Ibran_Nasr
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HMR_Saad_Munisn={
+		name="Saad Munisn"
+
+		advisor={
+			slot = theorist
+			idea_token = HMR_Saad_Munisn
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HMR_Hamza_Tura={
+		name="Hamza Tura"
+
+		advisor={
+			slot = theorist
+			idea_token = HMR_Hamza_Tura
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

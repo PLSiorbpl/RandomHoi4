@@ -1,0 +1,40 @@
+
+state={
+	id=1295
+	name="STATE_1295"
+	manpower = 187667
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17615 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = XUA
+	}
+
+	provinces={
+		17615 17616 
+	}
+	local_supplies=0.0 
+}

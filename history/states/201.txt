@@ -1,0 +1,39 @@
+
+state={
+	id=201
+	name="STATE_201"
+	manpower = 1130567
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3065 5}
+		victory_points = { 3070 5}
+		
+		owner = QIW
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = QIW
+	}
+
+	provinces={
+		3064 3065 3066 3067 3068 3069 3070 3071 3072 3073 3074 3075 3076 3077 3078 3079 3080 3081 3082 
+	}
+	local_supplies=0.0 
+}

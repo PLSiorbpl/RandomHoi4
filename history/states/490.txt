@@ -1,0 +1,43 @@
+
+state={
+	id=490
+	name="STATE_490"
+	manpower = 1086466
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6973 2}
+		victory_points = { 6974 1}
+		victory_points = { 6983 7}
+		
+		owner = XHR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			6969 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = XHR
+	}
+
+	provinces={
+		6966 6967 6968 6969 6970 6971 6972 6973 6974 6975 6976 6977 6978 6979 6980 6981 6982 6983 
+	}
+	local_supplies=0.0 
+}

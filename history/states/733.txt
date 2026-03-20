@@ -1,0 +1,43 @@
+
+state={
+	id=733
+	name="STATE_733"
+	manpower = 613939
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10427 2}
+		victory_points = { 10428 1}
+		victory_points = { 10434 2}
+		
+		owner = WET
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			10429 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = WET
+	}
+
+	provinces={
+		10427 10428 10429 10430 10431 10432 10433 10434 10435 10436 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=881
+	name="STATE_881"
+	manpower = 549767
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12272 4}
+		
+		owner = EKZ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = EKZ
+	}
+
+	provinces={
+		12269 12270 12271 12272 12273 12274 12275 12276 
+	}
+	local_supplies=0.0 
+}

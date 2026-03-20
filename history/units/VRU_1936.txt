@@ -1,0 +1,174 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Stame' Supported Infantry Division"
+		location = 6309
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.358667
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Ehreunkehrif' Supported Infantry Division"
+		location = 6579
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.388842
+		start_equipment_factor = 0.917877
+	}
+	division= {
+		name = "0st 'Stame' Motorized Division"
+		location = 6326
+		division_template = "Motorized Division"
+		start_experience_factor = 0.186189
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Klaubenzese' Supported Motorized Division"
+		location = 6586
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.680671
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Kamiligsheis' Supported Motorized Division"
+		location = 6097
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.026102
+		start_equipment_factor = 0.978621
+	}
+	division= {
+		name = "2rd 'Seel' Supported Motorized Division"
+		location = 6135
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.857082
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Burchlacht' Supported Motorized Division"
+		location = 6834
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.077479
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Ehreunkehrif' Supported Motorized Division"
+		location = 6843
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.886293
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Segerderz' Supported Motorized Division"
+		location = 6568
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.799126
+		start_equipment_factor = 0.895188
+	}
+
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=667
+	name="STATE_667"
+	manpower = 1254670
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9497 4}
+		victory_points = { 9498 4}
+		victory_points = { 9511 4}
+		
+		owner = HNJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = HNJ
+	}
+
+	provinces={
+		9496 9497 9498 9499 9500 9501 9502 9503 9504 9505 9506 9507 9508 9509 9510 9511 9512 9513 9514 9515 9516 9517 
+	}
+	local_supplies=0.0 
+}

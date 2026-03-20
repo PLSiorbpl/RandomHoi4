@@ -1,0 +1,40 @@
+
+state={
+	id=989
+	name="STATE_989"
+	manpower = 1315327
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13607 5}
+		victory_points = { 13615 4}
+		victory_points = { 13621 2}
+		
+		owner = GFI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GFI
+	}
+
+	provinces={
+		13606 13607 13608 13609 13610 13611 13612 13613 13614 13615 13616 13617 13618 13619 13620 13621 13622 13623 13624 13625 13626 13627 
+	}
+	local_supplies=0.0 
+}

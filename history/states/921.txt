@@ -1,0 +1,43 @@
+
+state={
+	id=921
+	name="STATE_921"
+	manpower = 862156
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12679 3}
+		victory_points = { 12690 3}
+		victory_points = { 12691 1}
+		
+		owner = UEO
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			12683 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UEO
+	}
+
+	provinces={
+		12679 12680 12681 12682 12683 12684 12685 12686 12687 12688 12689 12690 12691 12692 
+	}
+	local_supplies=0.0 
+}

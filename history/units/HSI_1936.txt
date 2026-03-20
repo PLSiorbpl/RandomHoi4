@@ -1,0 +1,216 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Helle' Militia Division"
+		location = 6023
+		division_template = "Militia Division"
+		start_experience_factor = 0.701133
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Eishe' Militia Division"
+		location = 6008
+		division_template = "Militia Division"
+		start_experience_factor = 0.562651
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Schiff' Militia Division"
+		location = 5980
+		division_template = "Militia Division"
+		start_experience_factor = 0.570912
+		start_equipment_factor = 0.871932
+	}
+	division= {
+		name = "3th 'Reinz' Militia Division"
+		location = 5872
+		division_template = "Militia Division"
+		start_experience_factor = 0.040744
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Feuerieberg' Militia Division"
+		location = 6145
+		division_template = "Militia Division"
+		start_experience_factor = 0.659289
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Gold' Militia Division"
+		location = 6439
+		division_template = "Militia Division"
+		start_experience_factor = 0.421266
+		start_equipment_factor = 0.932119
+	}
+	division= {
+		name = "6th 'Sonne' Militia Division"
+		location = 6636
+		division_template = "Militia Division"
+		start_experience_factor = 0.247474
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Helle' Infantry Division"
+		location = 5971
+		division_template = "Infantry Division"
+		start_experience_factor = 0.100985
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Klach' Infantry Division"
+		location = 6190
+		division_template = "Infantry Division"
+		start_experience_factor = 0.498876
+		start_equipment_factor = 0.888942
+	}
+	division= {
+		name = "2rd 'Stamilbe' Infantry Division"
+		location = 6760
+		division_template = "Infantry Division"
+		start_experience_factor = 0.637555
+		start_equipment_factor = 0.978223
+	}
+	division= {
+		name = "3th 'Strasserz' Infantry Division"
+		location = 5869
+		division_template = "Infantry Division"
+		start_experience_factor = 0.728949
+		start_equipment_factor = 0.957177
+	}
+	division= {
+		name = "4th 'Felle' Infantry Division"
+		location = 5983
+		division_template = "Infantry Division"
+		start_experience_factor = 0.484462
+		start_equipment_factor = 0.919574
+	}
+	division= {
+		name = "0st 'Strasserz' Cavalry Division"
+		location = 6740
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.751097
+		start_equipment_factor = 0.935881
+	}
+	division= {
+		name = "1nd 'Feuerieberg' Cavalry Division"
+		location = 6614
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.742123
+		start_equipment_factor = 0.989191
+	}
+	division= {
+		name = "2rd 'Seel' Cavalry Division"
+		location = 6143
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.938020
+		start_equipment_factor = 0.874803
+	}
+	division= {
+		name = "3th 'Luft' Cavalry Division"
+		location = 6753
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.859078
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Felle' Cavalry Division"
+		location = 5967
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.320064
+		start_equipment_factor = 1.000000
+	}
+
+}

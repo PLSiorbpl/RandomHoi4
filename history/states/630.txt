@@ -1,0 +1,40 @@
+
+state={
+	id=630
+	name="STATE_630"
+	manpower = 1107784
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9103 3}
+		victory_points = { 9104 3}
+		victory_points = { 9115 3}
+		
+		owner = MCD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MCD
+	}
+
+	provinces={
+		9101 9102 9103 9104 9105 9106 9107 9108 9109 9110 9111 9112 9113 9114 9115 9116 9117 9118 9119 
+	}
+	local_supplies=0.0 
+}

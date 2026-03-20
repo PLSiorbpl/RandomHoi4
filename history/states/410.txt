@@ -1,0 +1,41 @@
+
+state={
+	id=410
+	name="STATE_410"
+	manpower = 2146808
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=6
+		oil=5
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5731 3}
+		victory_points = { 5746 8}
+		victory_points = { 5754 8}
+		victory_points = { 5756 2}
+		
+		owner = XHR
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = XHR
+	}
+
+	provinces={
+		5727 5728 5729 5730 5731 5732 5733 5734 5735 5736 5737 5738 5739 5740 5741 5742 5743 5744 5745 5746 5747 5748 5749 5750 5751 5752 5753 5754 5755 5756 5757 5758 5759 5760 5761 5762 5763 5764 
+	}
+	local_supplies=0.0 
+}

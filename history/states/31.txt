@@ -1,0 +1,40 @@
+
+state={
+	id=31
+	name="STATE_31"
+	manpower = 148098
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=8
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NFO
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			554 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NFO
+	}
+
+	provinces={
+		552 553 554 555 556 557 558 559 
+	}
+	local_supplies=0.0 
+}

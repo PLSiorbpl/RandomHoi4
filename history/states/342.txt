@@ -1,0 +1,39 @@
+
+state={
+	id=342
+	name="STATE_342"
+	manpower = 385570
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4908 1}
+		victory_points = { 4911 1}
+		
+		owner = ZRU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ZRU
+	}
+
+	provinces={
+		4907 4908 4909 4910 4911 4912 
+	}
+	local_supplies=0.0 
+}

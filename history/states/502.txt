@@ -1,0 +1,39 @@
+
+state={
+	id=502
+	name="STATE_502"
+	manpower = 884622
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 7200 3}
+		victory_points = { 7207 5}
+		
+		owner = CJR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CJR
+	}
+
+	provinces={
+		7200 7201 7202 7203 7204 7205 7206 7207 7208 7209 7210 7211 7212 7213 7214 
+	}
+	local_supplies=0.0 
+}

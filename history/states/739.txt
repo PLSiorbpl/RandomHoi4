@@ -1,0 +1,43 @@
+
+state={
+	id=739
+	name="STATE_739"
+	manpower = 808015
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=9
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10513 1}
+		victory_points = { 10517 1}
+		victory_points = { 10530 2}
+		
+		owner = MCD
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			10520 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MCD
+	}
+
+	provinces={
+		10510 10511 10512 10513 10514 10515 10516 10517 10518 10519 10520 10521 10522 10523 10524 10525 10526 10527 10528 10529 10530 
+	}
+	local_supplies=0.0 
+}

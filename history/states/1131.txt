@@ -1,0 +1,38 @@
+
+state={
+	id=1131
+	name="STATE_1131"
+	manpower = 336827
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15743 1}
+		
+		owner = KBN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KBN
+	}
+
+	provinces={
+		15743 15744 15745 15746 
+	}
+	local_supplies=0.0 
+}

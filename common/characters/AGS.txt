@@ -1,0 +1,880 @@
+characters = {
+	AGS_Iskar_Tanimsa={
+		name="Iskar Tanimsa"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGS_Yane_Adrawint={
+		name="Yane Adrawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Yane_Adrawint
+				traits = {	humble 	}
+		}
+
+	}
+	AGS_Iderfane_Tiwizi={
+		name="Iderfane Tiwizi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Iderfane_Tiwizi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	AGS_Kari_Tamdin={
+		name="Kari Tamdin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Kari_Tamdin
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	AGS_Kari_Adrawint={
+		name="Kari Adrawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Kari_Adrawint
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	AGS_Massa_Asirt={
+		name="Massa Asirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Massa_Asirt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	AGS_Yuba_Tafart={
+		name="Yuba Tafart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Yuba_Tafart
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	AGS_Kari_Tafart={
+		name="Kari Tafart"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Kari_Tafart
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	AGS_Aselmad_Asirt={
+		name="Aselmad Asirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Aselmad_Asirt
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	AGS_Kari_Tanimsa={
+		name="Kari Tanimsa"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Kari_Tanimsa
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	AGS_Mokran_Tamdin={
+		name="Mokran Tamdin"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Mokran_Tamdin
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	AGS_Aselmarim_Tiwizi={
+		name="Aselmarim Tiwizi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Aselmarim_Tiwizi
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	AGS_Massa_Tafart={
+		name="Massa Tafart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Massa_Tafart
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	AGS_Aselmar_Tanimsa={
+		name="Aselmar Tanimsa"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Aselmar_Tanimsa
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	AGS_Aziz_Tafart={
+		name="Aziz Tafart"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Aziz_Tafart
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	AGS_Saidi_Tazrou={
+		name="Saidi Tazrou"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Saidi_Tazrou
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	AGS_Mokrane_Takfas={
+		name="Mokrane Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Mokrane_Takfas
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	AGS_Meziane_Tamdin={
+		name="Meziane Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Meziane_Tamdin
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	AGS_Amoun_Tiwizi={
+		name="Amoun Tiwizi"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Amoun_Tiwizi
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	AGS_Mokrane_Tifaska={
+		name="Mokrane Tifaska"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Mokrane_Tifaska
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	AGS_Ziriq_Asirt={
+		name="Ziriq Asirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Ziriq_Asirt
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	AGS_Massinissini_Takfas={
+		name="Massinissini Takfas"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGS_Aziane_Tafart={
+		name="Aziane Tafart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Aziane_Tafart
+				traits = {	autokrator 	}
+		}
+
+	}
+	AGS_Yuba_Takfas={
+		name="Yuba Takfas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Yuba_Takfas
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	AGS_Aselmarim_Tanimsa={
+		name="Aselmarim Tanimsa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Aselmarim_Tanimsa
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	AGS_Ziriq_Adrawint={
+		name="Ziriq Adrawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Ziriq_Adrawint
+				traits = {	infirm 	}
+		}
+
+	}
+	AGS_Saidi_Takfas={
+		name="Saidi Takfas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Saidi_Takfas
+				traits = {	polemarch 	}
+		}
+
+	}
+	AGS_Taharen_Adrawint={
+		name="Taharen Adrawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Taharen_Adrawint
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	AGS_Zirimokrane_Tazrou={
+		name="Zirimokrane Tazrou"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Zirimokrane_Tazrou
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	AGS_Sifan_Tamdin={
+		name="Sifan Tamdin"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Sifan_Tamdin
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	AGS_Aselmar_Tiwizi={
+		name="Aselmar Tiwizi"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Aselmar_Tiwizi
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	AGS_Mokran_Tiwizi={
+		name="Mokran Tiwizi"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Mokran_Tiwizi
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	AGS_Meziane_Tazrou={
+		name="Meziane Tazrou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Meziane_Tazrou
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	AGS_Aselmaren_Tifaska={
+		name="Aselmaren Tifaska"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Aselmaren_Tifaska
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	AGS_Iskar_Tazrou={
+		name="Iskar Tazrou"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Iskar_Tazrou
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	AGS_Yane_Tafart={
+		name="Yane Tafart"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Yane_Tafart
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	AGS_Zirimoun_Takfas={
+		name="Zirimoun Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Zirimoun_Takfas
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	AGS_Azian_Tazrou={
+		name="Azian Tazrou"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Azian_Tazrou
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	AGS_Karen_Tazrou={
+		name="Karen Tazrou"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Karen_Tazrou
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	AGS_Mokrannissa_Tanimsa={
+		name="Mokrannissa Tanimsa"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Mokrannissa_Tanimsa
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	AGS_Sifax_Takfas={
+		name="Sifax Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Sifax_Takfas
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	AGS_Aziane_Tiwizi={
+		name="Aziane Tiwizi"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Aziane_Tiwizi
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	AGS_Amad_Tanimsa={
+		name="Amad Tanimsa"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGS_Meziz_Tamdin={
+		name="Meziz Tamdin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Meziz_Tamdin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	AGS_Zirimoun_Tafart={
+		name="Zirimoun Tafart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Zirimoun_Tafart
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	AGS_Mokrannis_Takfas={
+		name="Mokrannis Takfas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Mokrannis_Takfas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	AGS_Saidi_Asirt={
+		name="Saidi Asirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Saidi_Asirt
+				traits = {	infirm 	}
+		}
+
+	}
+	AGS_Aselmarim_Adrawint={
+		name="Aselmarim Adrawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Aselmarim_Adrawint
+				traits = {	infirm 	}
+		}
+
+	}
+	AGS_Zirimokrane_Tifaska={
+		name="Zirimokrane Tifaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Zirimokrane_Tifaska
+				traits = {	political_dancer 	}
+		}
+
+	}
+	AGS_Meziz_Adrawint={
+		name="Meziz Adrawint"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Meziz_Adrawint
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	AGS_Mokrannissa_Takfas={
+		name="Mokrannissa Takfas"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Mokrannissa_Takfas
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	AGS_Aselmaren_Asirt={
+		name="Aselmaren Asirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Aselmaren_Asirt
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	AGS_Amar_Tamdin={
+		name="Amar Tamdin"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Amar_Tamdin
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	AGS_Aziane_Takfas={
+		name="Aziane Takfas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Aziane_Takfas
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	AGS_Taharen_Tazdakhmi={
+		name="Taharen Tazdakhmi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Taharen_Tazdakhmi
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	AGS_Amar_Adrawint={
+		name="Amar Adrawint"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Amar_Adrawint
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	AGS_Mokrannissa_Tiwizi={
+		name="Mokrannissa Tiwizi"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Mokrannissa_Tiwizi
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	AGS_Taharen_Tifaska={
+		name="Taharen Tifaska"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Taharen_Tifaska
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	AGS_Yannissinis_Takfas={
+		name="Yannissinis Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Yannissinis_Takfas
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	AGS_Aselmad_Tamdin={
+		name="Aselmad Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Aselmad_Tamdin
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	AGS_Yuba_Tamdin={
+		name="Yuba Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Yuba_Tamdin
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	AGS_Meziane_Takfas={
+		name="Meziane Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Meziane_Takfas
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	AGS_Yane_Tamdin={
+		name="Yane Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Yane_Tamdin
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	AGS_Aselmari_Tifaska={
+		name="Aselmari Tifaska"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGS_Tafsut_Tazdakhmi={
+		name="Tafsut Tazdakhmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Tafsut_Tazdakhmi
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	AGS_Aziane_Adrawint={
+		name="Aziane Adrawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Aziane_Adrawint
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	AGS_Iskar_Tafart={
+		name="Iskar Tafart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Iskar_Tafart
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	AGS_Amoun_Takfas={
+		name="Amoun Takfas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Amoun_Takfas
+				traits = {	the_banker 	}
+		}
+
+	}
+	AGS_Iderfane_Tafart={
+		name="Iderfane Tafart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Iderfane_Tafart
+				traits = {	infirm 	}
+		}
+
+	}
+	AGS_Amari_Tifaska={
+		name="Amari Tifaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGS_Amari_Tifaska
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	AGS_Zirimoun_Tanimsa={
+		name="Zirimoun Tanimsa"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Zirimoun_Tanimsa
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	AGS_Yannissinis_Asirt={
+		name="Yannissinis Asirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Yannissinis_Asirt
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	AGS_Iderfane_Tifaska={
+		name="Iderfane Tifaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Iderfane_Tifaska
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	AGS_Aziane_Tamdin={
+		name="Aziane Tamdin"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGS_Aziane_Tamdin
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	AGS_Karen_Tiwizi={
+		name="Karen Tiwizi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Karen_Tiwizi
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	AGS_Meziz_Tanimsa={
+		name="Meziz Tanimsa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGS_Meziz_Tanimsa
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	AGS_Meziane_Tafart={
+		name="Meziane Tafart"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Meziane_Tafart
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	AGS_Sifax_Asirt={
+		name="Sifax Asirt"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGS_Sifax_Asirt
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	AGS_Amar_Asirt={
+		name="Amar Asirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Amar_Asirt
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	AGS_Kari_Takfas={
+		name="Kari Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Kari_Takfas
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	AGS_Iskaren_Asirt={
+		name="Iskaren Asirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Iskaren_Asirt
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	AGS_Aziz_Takfas={
+		name="Aziz Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Aziz_Takfas
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	AGS_Massinissa_Takfas={
+		name="Massinissa Takfas"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Massinissa_Takfas
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	AGS_Ziri_Tanimsa={
+		name="Ziri Tanimsa"
+
+		advisor={
+			slot = high_command
+			idea_token = AGS_Ziri_Tanimsa
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	AGS_Massinissini_Tazdakhmi={
+		name="Massinissini Tazdakhmi"
+
+		advisor={
+			slot = theorist
+			idea_token = AGS_Massinissini_Tazdakhmi
+				traits = {	military_theorist 	}
+		}
+
+	}
+	AGS_Aselmari_Tamdin={
+		name="Aselmari Tamdin"
+
+		advisor={
+			slot = theorist
+			idea_token = AGS_Aselmari_Tamdin
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	AGS_Iderfane_Takfas={
+		name="Iderfane Takfas"
+
+		advisor={
+			slot = theorist
+			idea_token = AGS_Iderfane_Takfas
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

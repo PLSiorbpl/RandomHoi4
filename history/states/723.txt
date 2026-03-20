@@ -1,0 +1,42 @@
+
+state={
+	id=723
+	name="STATE_723"
+	manpower = 683795
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=8
+	}
+
+	history={
+		victory_points = { 10340 3}
+		victory_points = { 10341 3}
+		
+		owner = KZU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			10343 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KZU
+	}
+
+	provinces={
+		10337 10338 10339 10340 10341 10342 10343 10344 10345 10346 10347 
+	}
+	local_supplies=0.0 
+}

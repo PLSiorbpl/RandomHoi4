@@ -1,0 +1,41 @@
+
+state={
+	id=486
+	name="STATE_486"
+	manpower = 725586
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6911 5}
+		
+		owner = WHE
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6910 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = WHE
+	}
+
+	provinces={
+		6903 6904 6905 6906 6907 6908 6909 6910 6911 6912 6913 6914 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=1242
+	name="STATE_1242"
+	manpower = 186853
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=22
+		oil=0
+		rubber=10
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MPJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17144 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MPJ
+	}
+
+	provinces={
+		17138 17139 17140 17141 17142 17143 17144 17145 17146 17147 17148 
+	}
+	local_supplies=0.0 
+}

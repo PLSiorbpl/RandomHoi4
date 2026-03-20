@@ -1,0 +1,35 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Agadda Fleet"			
+		naval_base = 17814
+		task_force = {
+			name = "Agadda Fleet"
+			location = 17814
+			
+						ship = { name = "Amdirt" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QGA version_name = "Agadda Class" } }	}
+			ship = { name = "Tazerwala" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = QGA version_name = "Tazerwala Class" } }	}
+			ship = { name = "Agadda" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = QGA version_name = "Tazerwala Class" } }	}
+			ship = { name = "Amdirt 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QGA version_name = "Amdirt Class" } }	}
+			ship = { name = "Timsit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QGA version_name = "Amdirt Class" } }	}
+			ship = { name = "Timsit 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QGA version_name = "Amdirt Class" } }	}
+			ship = { name = "Tigherwizrar" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = QGA version_name = "Tazerwala Class" } }	}
+			ship = { name = "Tazerwala 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QGA version_name = "Tazerwala Class" } }	}
+			ship = { name = "Agadda 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QGA version_name = "Tazerwala Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

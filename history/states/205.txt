@@ -1,0 +1,43 @@
+
+state={
+	id=205
+	name="STATE_205"
+	manpower = 991481
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=11
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3141 6}
+		victory_points = { 3153 1}
+		victory_points = { 3155 1}
+		
+		owner = MCK
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3140 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MCK
+	}
+
+	provinces={
+		3140 3141 3142 3143 3144 3145 3146 3147 3148 3149 3150 3151 3152 3153 3154 3155 3156 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=497
+	name="STATE_497"
+	manpower = 187747
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CEN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7081 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CEN
+	}
+
+	provinces={
+		7078 7079 7080 7081 
+	}
+	local_supplies=0.0 
+}

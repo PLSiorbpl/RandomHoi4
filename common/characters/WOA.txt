@@ -1,0 +1,880 @@
+characters = {
+	WOA_Owen_Buaigh={
+		name="Owen Buaigh"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WOA_Garaig_Toradh={
+		name="Garaig Toradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Garaig_Toradh
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	WOA_Cialcolm_Sruth={
+		name="Cialcolm Sruth"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Cialcolm_Sruth
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	WOA_Fergus_Dorcheann={
+		name="Fergus Dorcheann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Fergus_Dorcheann
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	WOA_Lialcolm_Tort={
+		name="Lialcolm Tort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Lialcolm_Tort
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	WOA_Padran_Criabh={
+		name="Padran Criabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Padran_Criabh
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	WOA_Niaran_Buaigh={
+		name="Niaran Buaigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Niaran_Buaigh
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	WOA_Owen_Tort={
+		name="Owen Tort"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Owen_Tort
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	WOA_Quin_Cluair={
+		name="Quin Cluair"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Quin_Cluair
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	WOA_Liareth_Buaigh={
+		name="Liareth Buaigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Liareth_Buaigh
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	WOA_Seamus_Buaigh={
+		name="Seamus Buaigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Seamus_Buaigh
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	WOA_Cialcolm_Buaigh={
+		name="Cialcolm Buaigh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Cialcolm_Buaigh
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	WOA_Cialcolm_Bailte={
+		name="Cialcolm Bailte"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Cialcolm_Bailte
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	WOA_Padraig_Cluair={
+		name="Padraig Cluair"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Padraig_Cluair
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	WOA_Declan_Dorm={
+		name="Declan Dorm"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Declan_Dorm
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	WOA_Eoin_Toradh={
+		name="Eoin Toradh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Eoin_Toradh
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	WOA_Owen_Sruth={
+		name="Owen Sruth"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Owen_Sruth
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	WOA_Liamus_Dorcheann={
+		name="Liamus Dorcheann"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Liamus_Dorcheann
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	WOA_Niareth_Sruth={
+		name="Niareth Sruth"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Niareth_Sruth
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	WOA_Liam_Criabh={
+		name="Liam Criabh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Liam_Criabh
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	WOA_Liam_Bailte={
+		name="Liam Bailte"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Liam_Bailte
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	WOA_Ulrich_Cluair={
+		name="Ulrich Cluair"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WOA_Mall_Dorcheann={
+		name="Mall Dorcheann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Mall_Dorcheann
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	WOA_Liamus_Bailte={
+		name="Liamus Bailte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Liamus_Bailte
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	WOA_Keiraig_Seathan={
+		name="Keiraig Seathan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Keiraig_Seathan
+				traits = {	polemarch 	}
+		}
+
+	}
+	WOA_Eoinn_Seathan={
+		name="Eoinn Seathan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Eoinn_Seathan
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	WOA_Aidan_Criabh={
+		name="Aidan Criabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Aidan_Criabh
+				traits = {	generallissimo 	}
+		}
+
+	}
+	WOA_Bran_Dorcheann={
+		name="Bran Dorcheann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Bran_Dorcheann
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	WOA_Aidan_Toradh={
+		name="Aidan Toradh"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Aidan_Toradh
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	WOA_Niamus_Sruth={
+		name="Niamus Sruth"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Niamus_Sruth
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	WOA_Lialcolm_Dorm={
+		name="Lialcolm Dorm"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Lialcolm_Dorm
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	WOA_Garan_Dorm={
+		name="Garan Dorm"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Garan_Dorm
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	WOA_Garan_Cluair={
+		name="Garan Cluair"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Garan_Cluair
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	WOA_Seam_Tort={
+		name="Seam Tort"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Seam_Tort
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	WOA_Fergus_Dorm={
+		name="Fergus Dorm"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Fergus_Dorm
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	WOA_Niall_Cluair={
+		name="Niall Cluair"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Niall_Cluair
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	WOA_Eoinn_Tort={
+		name="Eoinn Tort"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Eoinn_Tort
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	WOA_Taraig_Tort={
+		name="Taraig Tort"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Taraig_Tort
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	WOA_Niaran_Bailte={
+		name="Niaran Bailte"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Niaran_Bailte
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	WOA_Liall_Dorcheann={
+		name="Liall Dorcheann"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Liall_Dorcheann
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	WOA_Garan_Criabh={
+		name="Garan Criabh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Garan_Criabh
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	WOA_Quin_Seathan={
+		name="Quin Seathan"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Quin_Seathan
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	WOA_Gareth_Dorm={
+		name="Gareth Dorm"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WOA_Liam_Dorm={
+		name="Liam Dorm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Liam_Dorm
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	WOA_Ulrich_Tort={
+		name="Ulrich Tort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Ulrich_Tort
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	WOA_Seamus_Cluair={
+		name="Seamus Cluair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Seamus_Cluair
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	WOA_Liamus_Sruth={
+		name="Liamus Sruth"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Liamus_Sruth
+				traits = {	polemarch 	}
+		}
+
+	}
+	WOA_Liall_Criabh={
+		name="Liall Criabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Liall_Criabh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	WOA_Keiraig_Sruth={
+		name="Keiraig Sruth"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Keiraig_Sruth
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	WOA_Gareth_Cluair={
+		name="Gareth Cluair"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Gareth_Cluair
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	WOA_Liareth_Sruth={
+		name="Liareth Sruth"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Liareth_Sruth
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	WOA_Gareth_Seathan={
+		name="Gareth Seathan"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Gareth_Seathan
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	WOA_Bran_Bailte={
+		name="Bran Bailte"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Bran_Bailte
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	WOA_Niall_Buaigh={
+		name="Niall Buaigh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Niall_Buaigh
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	WOA_Nialcolm_Buaigh={
+		name="Nialcolm Buaigh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Nialcolm_Buaigh
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	WOA_Quinn_Bailte={
+		name="Quinn Bailte"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Quinn_Bailte
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	WOA_Liamus_Cluair={
+		name="Liamus Cluair"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Liamus_Cluair
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	WOA_Padran_Toradh={
+		name="Padran Toradh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Padran_Toradh
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	WOA_Quinn_Sruth={
+		name="Quinn Sruth"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Quinn_Sruth
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	WOA_Quin_Dorcheann={
+		name="Quin Dorcheann"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Quin_Dorcheann
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	WOA_Niareth_Buaigh={
+		name="Niareth Buaigh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Niareth_Buaigh
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	WOA_Liamus_Buaigh={
+		name="Liamus Buaigh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Liamus_Buaigh
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	WOA_Padraig_Dorcheann={
+		name="Padraig Dorcheann"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Padraig_Dorcheann
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	WOA_Taraig_Toradh={
+		name="Taraig Toradh"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WOA_Declan_Bailte={
+		name="Declan Bailte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Declan_Bailte
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	WOA_Aidan_Seathan={
+		name="Aidan Seathan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Aidan_Seathan
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	WOA_Niall_Criabh={
+		name="Niall Criabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Niall_Criabh
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	WOA_Niaran_Dorm={
+		name="Niaran Dorm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Niaran_Dorm
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	WOA_Cialcolm_Toradh={
+		name="Cialcolm Toradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Cialcolm_Toradh
+				traits = {	first_lady 	}
+		}
+
+	}
+	WOA_Liamus_Tort={
+		name="Liamus Tort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WOA_Liamus_Tort
+				traits = {	the_banker 	}
+		}
+
+	}
+	WOA_Niaran_Sruth={
+		name="Niaran Sruth"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Niaran_Sruth
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	WOA_Taran_Toradh={
+		name="Taran Toradh"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Taran_Toradh
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	WOA_Mall_Seathan={
+		name="Mall Seathan"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Mall_Seathan
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	WOA_Keiran_Sruth={
+		name="Keiran Sruth"
+
+		advisor={
+			slot = army_chief
+			idea_token = WOA_Keiran_Sruth
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	WOA_Niaran_Criabh={
+		name="Niaran Criabh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Niaran_Criabh
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	WOA_Ciaran_Tort={
+		name="Ciaran Tort"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WOA_Ciaran_Tort
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	WOA_Braig_Bailte={
+		name="Braig Bailte"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Braig_Bailte
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	WOA_Niall_Seathan={
+		name="Niall Seathan"
+
+		advisor={
+			slot = air_chief
+			idea_token = WOA_Niall_Seathan
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	WOA_Ciaran_Seathan={
+		name="Ciaran Seathan"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Ciaran_Seathan
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	WOA_Nialcolm_Toradh={
+		name="Nialcolm Toradh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Nialcolm_Toradh
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	WOA_Mall_Toradh={
+		name="Mall Toradh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Mall_Toradh
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	WOA_Garaig_Tort={
+		name="Garaig Tort"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Garaig_Tort
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	WOA_Bran_Seathan={
+		name="Bran Seathan"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Bran_Seathan
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	WOA_Rhys_Criabh={
+		name="Rhys Criabh"
+
+		advisor={
+			slot = high_command
+			idea_token = WOA_Rhys_Criabh
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	WOA_Declan_Toradh={
+		name="Declan Toradh"
+
+		advisor={
+			slot = theorist
+			idea_token = WOA_Declan_Toradh
+				traits = {	military_theorist 	}
+		}
+
+	}
+	WOA_Taraig_Dorcheann={
+		name="Taraig Dorcheann"
+
+		advisor={
+			slot = theorist
+			idea_token = WOA_Taraig_Dorcheann
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	WOA_Declan_Tort={
+		name="Declan Tort"
+
+		advisor={
+			slot = theorist
+			idea_token = WOA_Declan_Tort
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

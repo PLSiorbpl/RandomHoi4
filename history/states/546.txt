@@ -1,0 +1,39 @@
+
+state={
+	id=546
+	name="STATE_546"
+	manpower = 1314120
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7891 8}
+		victory_points = { 7897 3}
+		
+		owner = EKZ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = EKZ
+	}
+
+	provinces={
+		7888 7889 7890 7891 7892 7893 7894 7895 7896 7897 7898 7899 7900 7901 7902 7903 7904 7905 7906 7907 7908 7909 7910 
+	}
+	local_supplies=0.0 
+}

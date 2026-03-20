@@ -1,0 +1,39 @@
+
+state={
+	id=1090
+	name="STATE_1090"
+	manpower = 1961963
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=24
+	}
+
+	history={
+		victory_points = { 15167 1}
+		victory_points = { 15180 18}
+		
+		owner = NMR
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NMR
+	}
+
+	provinces={
+		15152 15153 15154 15155 15156 15157 15158 15159 15160 15161 15162 15163 15164 15165 15166 15167 15168 15169 15170 15171 15172 15173 15174 15175 15176 15177 15178 15179 15180 15181 15182 15183 15184 15185 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=699
+	name="STATE_699"
+	manpower = 928681
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=19
+		coal=0
+	}
+
+	history={
+		victory_points = { 9892 1}
+		victory_points = { 9896 1}
+		victory_points = { 9900 1}
+		victory_points = { 9905 2}
+		
+		owner = JME
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			9910 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JME
+	}
+
+	provinces={
+		9892 9893 9894 9895 9896 9897 9898 9899 9900 9901 9902 9903 9904 9905 9906 9907 9908 9909 9910 9911 
+	}
+	local_supplies=0.0 
+}

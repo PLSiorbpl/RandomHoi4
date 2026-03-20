@@ -1,0 +1,41 @@
+
+state={
+	id=176
+	name="STATE_176"
+	manpower = 509877
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2771 1}
+		
+		owner = HMR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			2771 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HMR
+	}
+
+	provinces={
+		2767 2768 2769 2770 2771 2772 2773 2774 
+	}
+	local_supplies=0.0 
+}

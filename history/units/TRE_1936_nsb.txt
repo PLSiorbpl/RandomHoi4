@@ -1,0 +1,489 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 0 y = 3 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			motorized = {  x = 1 y = 3 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			motorized = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+			artillery = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			mot_artillery_brigade = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Katru' Militia Division"
+		location = 16090
+		division_template = "Militia Division"
+		start_experience_factor = 0.544083
+		start_equipment_factor = 0.992994
+	}
+	division= {
+		name = "1nd 'Thai' Militia Division"
+		location = 16087
+		division_template = "Militia Division"
+		start_experience_factor = 0.863887
+		start_equipment_factor = 0.902737
+	}
+	division= {
+		name = "2rd 'Sirippu' Militia Division"
+		location = 16006
+		division_template = "Militia Division"
+		start_experience_factor = 0.959458
+		start_equipment_factor = 0.926157
+	}
+	division= {
+		name = "3th 'Thaiyal' Militia Division"
+		location = 16001
+		division_template = "Militia Division"
+		start_experience_factor = 0.270695
+		start_equipment_factor = 0.988531
+	}
+	division= {
+		name = "4th 'Thaiyal' Militia Division"
+		location = 16001
+		division_template = "Militia Division"
+		start_experience_factor = 0.203451
+		start_equipment_factor = 0.885778
+	}
+	division= {
+		name = "5th 'Arai' Militia Division"
+		location = 16004
+		division_template = "Militia Division"
+		start_experience_factor = 0.932828
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Arippu' Militia Division"
+		location = 16089
+		division_template = "Militia Division"
+		start_experience_factor = 0.003706
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Then' Militia Division"
+		location = 15999
+		division_template = "Militia Division"
+		start_experience_factor = 0.072472
+		start_equipment_factor = 0.957716
+	}
+	division= {
+		name = "8th 'Then' Militia Division"
+		location = 16088
+		division_template = "Militia Division"
+		start_experience_factor = 0.992977
+		start_equipment_factor = 0.878814
+	}
+	division= {
+		name = "9th 'Katru' Militia Division"
+		location = 16091
+		division_template = "Militia Division"
+		start_experience_factor = 0.169846
+		start_equipment_factor = 0.980714
+	}
+	division= {
+		name = "10st 'Vilanadam' Militia Division"
+		location = 16096
+		division_template = "Militia Division"
+		start_experience_factor = 0.429544
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "11nd 'Thanneer' Militia Division"
+		location = 16055
+		division_template = "Militia Division"
+		start_experience_factor = 0.937394
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "12rd 'Then' Militia Division"
+		location = 16058
+		division_template = "Militia Division"
+		start_experience_factor = 0.986157
+		start_equipment_factor = 0.886622
+	}
+	division= {
+		name = "13th 'Thanneer' Militia Division"
+		location = 15998
+		division_template = "Militia Division"
+		start_experience_factor = 0.483347
+		start_equipment_factor = 0.949258
+	}
+	division= {
+		name = "14th 'Thippu' Militia Division"
+		location = 16050
+		division_template = "Militia Division"
+		start_experience_factor = 0.155933
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "15th 'Thippu' Militia Division"
+		location = 16002
+		division_template = "Militia Division"
+		start_experience_factor = 0.310973
+		start_equipment_factor = 0.926272
+	}
+	division= {
+		name = "16th 'Katru' Militia Division"
+		location = 16090
+		division_template = "Militia Division"
+		start_experience_factor = 0.997309
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "17th 'Thanneer' Militia Division"
+		location = 16055
+		division_template = "Militia Division"
+		start_experience_factor = 0.909209
+		start_equipment_factor = 0.985948
+	}
+	division= {
+		name = "0st 'Then' Infantry Division"
+		location = 16058
+		division_template = "Infantry Division"
+		start_experience_factor = 0.693642
+		start_equipment_factor = 0.885469
+	}
+	division= {
+		name = "1nd 'Thanneer' Infantry Division"
+		location = 16059
+		division_template = "Infantry Division"
+		start_experience_factor = 0.812646
+		start_equipment_factor = 0.918519
+	}
+	division= {
+		name = "2rd 'Thippu' Infantry Division"
+		location = 16050
+		division_template = "Infantry Division"
+		start_experience_factor = 0.941633
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Thippu' Infantry Division"
+		location = 16050
+		division_template = "Infantry Division"
+		start_experience_factor = 0.589651
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Thaiyal' Infantry Division"
+		location = 16001
+		division_template = "Infantry Division"
+		start_experience_factor = 0.854002
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Thanneer' Infantry Division"
+		location = 16007
+		division_template = "Infantry Division"
+		start_experience_factor = 0.090349
+		start_equipment_factor = 0.951833
+	}
+	division= {
+		name = "6th 'Then' Infantry Division"
+		location = 16057
+		division_template = "Infantry Division"
+		start_experience_factor = 0.252935
+		start_equipment_factor = 0.995445
+	}
+	division= {
+		name = "7th 'Arippu' Infantry Division"
+		location = 16053
+		division_template = "Infantry Division"
+		start_experience_factor = 0.324334
+		start_equipment_factor = 0.967478
+	}
+	division= {
+		name = "8th 'Arai' Infantry Division"
+		location = 16093
+		division_template = "Infantry Division"
+		start_experience_factor = 0.719747
+		start_equipment_factor = 0.919955
+	}
+	division= {
+		name = "9th 'Thippu' Infantry Division"
+		location = 16002
+		division_template = "Infantry Division"
+		start_experience_factor = 0.091084
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "10st 'Then' Infantry Division"
+		location = 16057
+		division_template = "Infantry Division"
+		start_experience_factor = 0.755466
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "11nd 'Vilanadam' Infantry Division"
+		location = 16094
+		division_template = "Infantry Division"
+		start_experience_factor = 0.996500
+		start_equipment_factor = 0.895297
+	}
+	division= {
+		name = "12rd 'Thai' Infantry Division"
+		location = 16087
+		division_template = "Infantry Division"
+		start_experience_factor = 0.472922
+		start_equipment_factor = 0.972993
+	}
+	division= {
+		name = "13th 'Vilanadam' Infantry Division"
+		location = 16094
+		division_template = "Infantry Division"
+		start_experience_factor = 0.866447
+		start_equipment_factor = 0.944569
+	}
+	division= {
+		name = "14th 'Thippu' Infantry Division"
+		location = 16002
+		division_template = "Infantry Division"
+		start_experience_factor = 0.820612
+		start_equipment_factor = 0.982856
+	}
+	division= {
+		name = "15th 'Thaiyal' Infantry Division"
+		location = 16001
+		division_template = "Infantry Division"
+		start_experience_factor = 0.781889
+		start_equipment_factor = 0.976141
+	}
+	division= {
+		name = "16th 'Thippu' Infantry Division"
+		location = 16050
+		division_template = "Infantry Division"
+		start_experience_factor = 0.013474
+		start_equipment_factor = 0.889145
+	}
+	division= {
+		name = "17th 'Then' Infantry Division"
+		location = 16061
+		division_template = "Infantry Division"
+		start_experience_factor = 0.133385
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Arippu' Cavalry Division"
+		location = 16095
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.941892
+		start_equipment_factor = 0.895840
+	}
+	division= {
+		name = "1nd 'Thippu' Cavalry Division"
+		location = 16002
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.335511
+		start_equipment_factor = 0.981487
+	}
+	division= {
+		name = "2rd 'Arai' Cavalry Division"
+		location = 16004
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.715521
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Thanneer' Cavalry Division"
+		location = 16007
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.956845
+		start_equipment_factor = 0.978469
+	}
+	division= {
+		name = "4th 'Then' Cavalry Division"
+		location = 16003
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.901488
+		start_equipment_factor = 0.966002
+	}
+	division= {
+		name = "5th 'Arai' Cavalry Division"
+		location = 16093
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.647805
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Thanneer' Cavalry Division"
+		location = 16055
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.918781
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Katru' Cavalry Division"
+		location = 16060
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.501146
+		start_equipment_factor = 0.923576
+	}
+	division= {
+		name = "8th 'Arippu' Cavalry Division"
+		location = 16089
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.721647
+		start_equipment_factor = 0.903077
+	}
+	division= {
+		name = "9th 'Then' Cavalry Division"
+		location = 16088
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.710467
+		start_equipment_factor = 0.924979
+	}
+	division= {
+		name = "10st 'Vilanadam' Cavalry Division"
+		location = 16096
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.761579
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "11nd 'Thippu' Cavalry Division"
+		location = 16002
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.120501
+		start_equipment_factor = 0.976290
+	}
+
+}

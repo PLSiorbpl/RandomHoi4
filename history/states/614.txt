@@ -1,0 +1,38 @@
+
+state={
+	id=614
+	name="STATE_614"
+	manpower = 850998
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=1
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 8919 7}
+		
+		owner = CNR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CNR
+	}
+
+	provinces={
+		8911 8912 8913 8914 8915 8916 8917 8918 8919 8920 8921 8922 8923 8924 
+	}
+	local_supplies=0.0 
+}

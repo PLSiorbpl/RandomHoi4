@@ -1,0 +1,29 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Nenjila Fleet"			
+		naval_base = 15402
+		task_force = {
+			name = "Nenjila Fleet"
+			location = 15402
+			
+						ship = { name = "Kurai" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NON version_name = "Natrangam Class" } }	}
+			ship = { name = "Siraiaranthi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NON version_name = "Thumai Class" } }	}
+			ship = { name = "Thumai" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NON version_name = "Thumai Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

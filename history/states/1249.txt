@@ -1,0 +1,41 @@
+
+state={
+	id=1249
+	name="STATE_1249"
+	manpower = 264409
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=2
+	}
+
+	history={
+		victory_points = { 17210 1}
+		
+		owner = MCN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17211 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MCN
+	}
+
+	provinces={
+		17209 17210 17211 
+	}
+	local_supplies=0.0 
+}

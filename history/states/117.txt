@@ -1,0 +1,43 @@
+
+state={
+	id=117
+	name="STATE_117"
+	manpower = 1026712
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1842 3}
+		victory_points = { 1854 3}
+		victory_points = { 1856 1}
+		
+		owner = CHV
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			1845 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CHV
+	}
+
+	provinces={
+		1841 1842 1843 1844 1845 1846 1847 1848 1849 1850 1851 1852 1853 1854 1855 1856 1857 
+	}
+	local_supplies=0.0 
+}

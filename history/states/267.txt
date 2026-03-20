@@ -1,0 +1,39 @@
+
+state={
+	id=267
+	name="STATE_267"
+	manpower = 537948
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4006 2}
+		victory_points = { 4008 2}
+		
+		owner = VUD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VUD
+	}
+
+	provinces={
+		4003 4004 4005 4006 4007 4008 4009 4010 
+	}
+	local_supplies=0.0 
+}

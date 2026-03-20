@@ -1,0 +1,40 @@
+
+state={
+	id=463
+	name="STATE_463"
+	manpower = 766069
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6534 3}
+		victory_points = { 6537 1}
+		victory_points = { 6547 1}
+		
+		owner = GPU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GPU
+	}
+
+	provinces={
+		6532 6533 6534 6535 6536 6537 6538 6539 6540 6541 6542 6543 6544 6545 6546 6547 6548 6549 
+	}
+	local_supplies=0.0 
+}

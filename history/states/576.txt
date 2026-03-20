@@ -1,0 +1,40 @@
+
+state={
+	id=576
+	name="STATE_576"
+	manpower = 7195
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=17
+		oil=11
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HNJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			8383 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HNJ
+	}
+
+	provinces={
+		8379 8380 8381 8382 8383 8384 8385 8386 8387 8388 8389 8390 8391 8392 8393 8394 8395 8396 8397 8398 8399 8400 8401 8402 8403 8404 8405 8406 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=367
+	name="STATE_367"
+	manpower = 681573
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=0
+		oil=0
+		rubber=0
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5237 2}
+		victory_points = { 5241 1}
+		victory_points = { 5246 1}
+		
+		owner = HPI
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HPI
+	}
+
+	provinces={
+		5236 5237 5238 5239 5240 5241 5242 5243 5244 5245 5246 
+	}
+	local_supplies=0.0 
+}

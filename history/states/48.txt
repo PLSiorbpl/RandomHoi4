@@ -1,0 +1,40 @@
+
+state={
+	id=48
+	name="STATE_48"
+	manpower = 120095
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=1
+		steel=0
+		tungsten=8
+		coal=0
+	}
+
+	history={
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			810 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		809 810 
+	}
+	local_supplies=0.0 
+}

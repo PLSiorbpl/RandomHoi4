@@ -1,0 +1,38 @@
+
+state={
+	id=591
+	name="STATE_591"
+	manpower = 585284
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8628 4}
+		
+		owner = AGH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AGH
+	}
+
+	provinces={
+		8627 8628 8629 8630 8631 8632 8633 8634 8635 
+	}
+	local_supplies=0.0 
+}

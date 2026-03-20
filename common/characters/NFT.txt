@@ -1,0 +1,880 @@
+characters = {
+	NFT_Taharen_Imghbal={
+		name="Taharen Imghbal"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NFT_Amarimokran_Tazenzawizir={
+		name="Amarimokran Tazenzawizir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Amarimokran_Tazenzawizir
+				traits = {	humble 	}
+		}
+
+	}
+	NFT_Amaren_Agadinim={
+		name="Amaren Agadinim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Amaren_Agadinim
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	NFT_Iskar_Agadinim={
+		name="Iskar Agadinim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Iskar_Agadinim
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	NFT_Ziriq_Tazenzawizir={
+		name="Ziriq Tazenzawizir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Ziriq_Tazenzawizir
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	NFT_Massa_Imghbal={
+		name="Massa Imghbal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Massa_Imghbal
+				traits = {	humble 	}
+		}
+
+	}
+	NFT_Mokrannis_Tazi={
+		name="Mokrannis Tazi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Mokrannis_Tazi
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	NFT_Mokrane_Tagmanemt={
+		name="Mokrane Tagmanemt"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Mokrane_Tagmanemt
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	NFT_Taren_Agadinim={
+		name="Taren Agadinim"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Taren_Agadinim
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	NFT_Mimoun_Imaska={
+		name="Mimoun Imaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Mimoun_Imaska
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	NFT_Iskariq_Imaska={
+		name="Iskariq Imaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Iskariq_Imaska
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	NFT_Zirimoun_Imghbal={
+		name="Zirimoun Imghbal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Zirimoun_Imghbal
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	NFT_Taharen_Tazi={
+		name="Taharen Tazi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Taharen_Tazi
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	NFT_Massinissini_Tiwin={
+		name="Massinissini Tiwin"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Massinissini_Tiwin
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	NFT_Zirimokran_Agadinim={
+		name="Zirimokran Agadinim"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Zirimokran_Agadinim
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	NFT_Aziane_Tazi={
+		name="Aziane Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Aziane_Tazi
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	NFT_Mokrane_Tislit={
+		name="Mokrane Tislit"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Mokrane_Tislit
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	NFT_Meziane_Tazi={
+		name="Meziane Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Meziane_Tazi
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	NFT_Massinissini_Imghbal={
+		name="Massinissini Imghbal"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Massinissini_Imghbal
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	NFT_Iderfannis_Taghisli={
+		name="Iderfannis Taghisli"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Iderfannis_Taghisli
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	NFT_Mimoun_Agadinim={
+		name="Mimoun Agadinim"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Mimoun_Agadinim
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	NFT_Zirimoun_Agadinim={
+		name="Zirimoun Agadinim"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NFT_Amaren_Tislit={
+		name="Amaren Tislit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Amaren_Tislit
+				traits = {	generallissimo 	}
+		}
+
+	}
+	NFT_Tafsut_Tagmanemt={
+		name="Tafsut Tagmanemt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Tafsut_Tagmanemt
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	NFT_Iskariq_Taghisli={
+		name="Iskariq Taghisli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Iskariq_Taghisli
+				traits = {	generallissimo 	}
+		}
+
+	}
+	NFT_Mimoun_Tagmanemt={
+		name="Mimoun Tagmanemt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Mimoun_Tagmanemt
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	NFT_Amaren_Tazi={
+		name="Amaren Tazi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Amaren_Tazi
+				traits = {	infirm 	}
+		}
+
+	}
+	NFT_Amokran_Tazenzawizir={
+		name="Amokran Tazenzawizir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Amokran_Tazenzawizir
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	NFT_Amar_Tagmanemt={
+		name="Amar Tagmanemt"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Amar_Tagmanemt
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	NFT_Iderfax_Tiwin={
+		name="Iderfax Tiwin"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Iderfax_Tiwin
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	NFT_Aselmari_Tislit={
+		name="Aselmari Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Aselmari_Tislit
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	NFT_Lyes_Imghbal={
+		name="Lyes Imghbal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Lyes_Imghbal
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	NFT_Iderfax_Tislit={
+		name="Iderfax Tislit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Iderfax_Tislit
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	NFT_Karim_Tazwurt={
+		name="Karim Tazwurt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Karim_Tazwurt
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	NFT_Zirimoun_Tazi={
+		name="Zirimoun Tazi"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Zirimoun_Tazi
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	NFT_Iderfax_Taghisli={
+		name="Iderfax Taghisli"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Iderfax_Taghisli
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	NFT_Amar_Imghbal={
+		name="Amar Imghbal"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Amar_Imghbal
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	NFT_Lyes_Agadinim={
+		name="Lyes Agadinim"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Lyes_Agadinim
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	NFT_Aselmad_Tazenzawizir={
+		name="Aselmad Tazenzawizir"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Aselmad_Tazenzawizir
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	NFT_Amaren_Tagmanemt={
+		name="Amaren Tagmanemt"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Amaren_Tagmanemt
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	NFT_Iderfannis_Imghbal={
+		name="Iderfannis Imghbal"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Iderfannis_Imghbal
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	NFT_Meziane_Taghisli={
+		name="Meziane Taghisli"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Meziane_Taghisli
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	NFT_Iskar_Tazwurt={
+		name="Iskar Tazwurt"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NFT_Tahar_Taghisli={
+		name="Tahar Taghisli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Tahar_Taghisli
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	NFT_Iderfax_Tazenzawizir={
+		name="Iderfax Tazenzawizir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Iderfax_Tazenzawizir
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	NFT_Yannis_Tazi={
+		name="Yannis Tazi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Yannis_Tazi
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	NFT_Iderfane_Tazenzawizir={
+		name="Iderfane Tazenzawizir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Iderfane_Tazenzawizir
+				traits = {	polemarch 	}
+		}
+
+	}
+	NFT_Saidi_Imghbal={
+		name="Saidi Imghbal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Saidi_Imghbal
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	NFT_Mokrane_Tazi={
+		name="Mokrane Tazi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Mokrane_Tazi
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	NFT_Massinissini_Tazenzawizir={
+		name="Massinissini Tazenzawizir"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Massinissini_Tazenzawizir
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	NFT_Amad_Tislit={
+		name="Amad Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Amad_Tislit
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	NFT_Sifax_Agadinim={
+		name="Sifax Agadinim"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Sifax_Agadinim
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	NFT_Iderfane_Tazwurt={
+		name="Iderfane Tazwurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Iderfane_Tazwurt
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	NFT_Mimoun_Tiwin={
+		name="Mimoun Tiwin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Mimoun_Tiwin
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	NFT_Amoun_Imghbal={
+		name="Amoun Imghbal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Amoun_Imghbal
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	NFT_Saidi_Imaska={
+		name="Saidi Imaska"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Saidi_Imaska
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	NFT_Iderfane_Imaska={
+		name="Iderfane Imaska"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Iderfane_Imaska
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	NFT_Ziriq_Tazwurt={
+		name="Ziriq Tazwurt"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Ziriq_Tazwurt
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	NFT_Amoun_Tagmanemt={
+		name="Amoun Tagmanemt"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Amoun_Tagmanemt
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	NFT_Aselmad_Tagmanemt={
+		name="Aselmad Tagmanemt"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Aselmad_Tagmanemt
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	NFT_Amad_Tagmanemt={
+		name="Amad Tagmanemt"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Amad_Tagmanemt
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	NFT_Amar_Imaska={
+		name="Amar Imaska"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Amar_Imaska
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	NFT_Aselmari_Imghbal={
+		name="Aselmari Imghbal"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Aselmari_Imghbal
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	NFT_Sifane_Tazenzawizir={
+		name="Sifane Tazenzawizir"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NFT_Tahar_Tislit={
+		name="Tahar Tislit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Tahar_Tislit
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	NFT_Aziz_Imghbal={
+		name="Aziz Imghbal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Aziz_Imghbal
+				traits = {	first_lady 	}
+		}
+
+	}
+	NFT_Taren_Imghbal={
+		name="Taren Imghbal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Taren_Imghbal
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	NFT_Iskar_Tagmanemt={
+		name="Iskar Tagmanemt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Iskar_Tagmanemt
+				traits = {	first_lady 	}
+		}
+
+	}
+	NFT_Saidi_Agadinim={
+		name="Saidi Agadinim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Saidi_Agadinim
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	NFT_Ziriq_Imghbal={
+		name="Ziriq Imghbal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NFT_Ziriq_Imghbal
+				traits = {	infirm 	}
+		}
+
+	}
+	NFT_Aziz_Taghisli={
+		name="Aziz Taghisli"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Aziz_Taghisli
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	NFT_Sifane_Tagmanemt={
+		name="Sifane Tagmanemt"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Sifane_Tagmanemt
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	NFT_Sifannissini_Taghisli={
+		name="Sifannissini Taghisli"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Sifannissini_Taghisli
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	NFT_Lyes_Tislit={
+		name="Lyes Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = NFT_Lyes_Tislit
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	NFT_Mokran_Tislit={
+		name="Mokran Tislit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Mokran_Tislit
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	NFT_Kariq_Tiwin={
+		name="Kariq Tiwin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NFT_Kariq_Tiwin
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	NFT_Mokran_Tazwurt={
+		name="Mokran Tazwurt"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Mokran_Tazwurt
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	NFT_Karim_Tazenzawizir={
+		name="Karim Tazenzawizir"
+
+		advisor={
+			slot = air_chief
+			idea_token = NFT_Karim_Tazenzawizir
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	NFT_Yuba_Tislit={
+		name="Yuba Tislit"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Yuba_Tislit
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	NFT_Lyes_Tiwin={
+		name="Lyes Tiwin"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Lyes_Tiwin
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	NFT_Sifannis_Tazi={
+		name="Sifannis Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Sifannis_Tazi
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	NFT_Lyes_Tazi={
+		name="Lyes Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Lyes_Tazi
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	NFT_Mokrane_Tazenzawizir={
+		name="Mokrane Tazenzawizir"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Mokrane_Tazenzawizir
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	NFT_Aselmad_Tislit={
+		name="Aselmad Tislit"
+
+		advisor={
+			slot = high_command
+			idea_token = NFT_Aselmad_Tislit
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	NFT_Meziz_Agadinim={
+		name="Meziz Agadinim"
+
+		advisor={
+			slot = theorist
+			idea_token = NFT_Meziz_Agadinim
+				traits = {	military_theorist 	}
+		}
+
+	}
+	NFT_Zirimoun_Tagmanemt={
+		name="Zirimoun Tagmanemt"
+
+		advisor={
+			slot = theorist
+			idea_token = NFT_Zirimoun_Tagmanemt
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	NFT_Iskari_Tislit={
+		name="Iskari Tislit"
+
+		advisor={
+			slot = theorist
+			idea_token = NFT_Iskari_Tislit
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

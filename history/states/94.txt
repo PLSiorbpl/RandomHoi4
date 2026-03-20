@@ -1,0 +1,40 @@
+
+state={
+	id=94
+	name="STATE_94"
+	manpower = 890882
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=0
+	}
+
+	history={
+		victory_points = { 1499 3}
+		victory_points = { 1503 1}
+		victory_points = { 1507 2}
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		1497 1498 1499 1500 1501 1502 1503 1504 1505 1506 1507 1508 1509 1510 1511 1512 1513 
+	}
+	local_supplies=0.0 
+}

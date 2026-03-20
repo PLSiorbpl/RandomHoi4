@@ -1,0 +1,880 @@
+characters = {
+	TTU_Pranesh_Kurugamudi={
+		name="Pranesh Kurugamudi"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TTU_Kirak_Magam={
+		name="Kirak Magam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Kirak_Magam
+				traits = {	headstrong 	}
+		}
+
+	}
+	TTU_Prak_Thenjil={
+		name="Prak Thenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Prak_Thenjil
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TTU_Arun_Kazhanganbam={
+		name="Arun Kazhanganbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Arun_Kazhanganbam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TTU_Raghandranes_Thudhunam={
+		name="Raghandranes Thudhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Raghandranes_Thudhunam
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TTU_Vijay_Magam={
+		name="Vijay Magam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Vijay_Magam
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TTU_Deepakashna_Magambu={
+		name="Deepakashna Magambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Deepakashna_Magambu
+				traits = {	headstrong 	}
+		}
+
+	}
+	TTU_Naveenthik_Ariyal={
+		name="Naveenthik Ariyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Naveenthik_Ariyal
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TTU_Kiranoj_Kazhanganbam={
+		name="Kiranoj Kazhanganbam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Kiranoj_Kazhanganbam
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TTU_Gandran_Kurugamudi={
+		name="Gandran Kurugamudi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Gandran_Kurugamudi
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TTU_Kumarun_Thudhunam={
+		name="Kumarun Thudhunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Kumarun_Thudhunam
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TTU_Sureshna_Thenjil={
+		name="Sureshna Thenjil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Sureshna_Thenjil
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TTU_Chan_Thenjil={
+		name="Chan Thenjil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Chan_Thenjil
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TTU_Gandranesh_Ariyal={
+		name="Gandranesh Ariyal"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Gandranesh_Ariyal
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	TTU_Kiranesh_Makku={
+		name="Kiranesh Makku"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Kiranesh_Makku
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TTU_Manesh_Pesu={
+		name="Manesh Pesu"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Manesh_Pesu
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TTU_Gandran_Kazhanganbam={
+		name="Gandran Kazhanganbam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Gandran_Kazhanganbam
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	TTU_Gandranesh_Vidilai={
+		name="Gandranesh Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Gandranesh_Vidilai
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TTU_Kiranesh_Magambu={
+		name="Kiranesh Magambu"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Kiranesh_Magambu
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TTU_Kari_Makku={
+		name="Kari Makku"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Kari_Makku
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	TTU_Prem_Kurugamudi={
+		name="Prem Kurugamudi"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Prem_Kurugamudi
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	TTU_Ganod_Pesu={
+		name="Ganod Pesu"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TTU_Preshna_Kazhanganbam={
+		name="Preshna Kazhanganbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Preshna_Kazhanganbam
+				traits = {	polemarch 	}
+		}
+
+	}
+	TTU_Bala_Kurugamudi={
+		name="Bala Kurugamudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Bala_Kurugamudi
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TTU_Prem_Vidilai={
+		name="Prem Vidilai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Prem_Vidilai
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TTU_Ragadeen_Magam={
+		name="Ragadeen Magam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Ragadeen_Magam
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TTU_Ganod_Kazhanganbam={
+		name="Ganod Kazhanganbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Ganod_Kazhanganbam
+				traits = {	polemarch 	}
+		}
+
+	}
+	TTU_Ajay_Ariyal={
+		name="Ajay Ariyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Ajay_Ariyal
+				traits = {	basileus 	}
+		}
+
+	}
+	TTU_Jaghavi_Magambu={
+		name="Jaghavi Magambu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Jaghavi_Magambu
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TTU_Kari_Kurugamudi={
+		name="Kari Kurugamudi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Kari_Kurugamudi
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TTU_Preshna_Thenjil={
+		name="Preshna Thenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Preshna_Thenjil
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TTU_Satish_Makku={
+		name="Satish Makku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Satish_Makku
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TTU_Gandran_Ariyal={
+		name="Gandran Ariyal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Gandran_Ariyal
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TTU_Jaghavi_Thudhunam={
+		name="Jaghavi Thudhunam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Jaghavi_Thudhunam
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TTU_Surem_Vidilai={
+		name="Surem Vidilai"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Surem_Vidilai
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	TTU_Vijay_Kazhanganbam={
+		name="Vijay Kazhanganbam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Vijay_Kazhanganbam
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TTU_Hari_Vidilai={
+		name="Hari Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Hari_Vidilai
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TTU_Dinoj_Makku={
+		name="Dinoj Makku"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Dinoj_Makku
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	TTU_Kirak_Vidilai={
+		name="Kirak Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Kirak_Vidilai
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	TTU_Chavi_Vidilai={
+		name="Chavi Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Chavi_Vidilai
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	TTU_Prem_Thudhunam={
+		name="Prem Thudhunam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Prem_Thudhunam
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TTU_Kiranesh_Vidilai={
+		name="Kiranesh Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Kiranesh_Vidilai
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	TTU_Manesh_Vidilai={
+		name="Manesh Vidilai"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TTU_Kirakash_Pesu={
+		name="Kirakash Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Kirakash_Pesu
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TTU_Bala_Thudhunam={
+		name="Bala Thudhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Bala_Thudhunam
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TTU_Ragadeen_Magambu={
+		name="Ragadeen Magambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Ragadeen_Magambu
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TTU_Jaghaneshna_Magam={
+		name="Jaghaneshna Magam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Jaghaneshna_Magam
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TTU_Harun_Thudhunam={
+		name="Harun Thudhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Harun_Thudhunam
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TTU_Kari_Magam={
+		name="Kari Magam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Kari_Magam
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TTU_Rajesh_Magam={
+		name="Rajesh Magam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Rajesh_Magam
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TTU_Krish_Magambu={
+		name="Krish Magambu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Krish_Magambu
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TTU_Bala_Makku={
+		name="Bala Makku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Bala_Makku
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TTU_Jaghavi_Kurugamudi={
+		name="Jaghavi Kurugamudi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Jaghavi_Kurugamudi
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TTU_Vineshna_Ariyal={
+		name="Vineshna Ariyal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Vineshna_Ariyal
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TTU_Pranesh_Vidilai={
+		name="Pranesh Vidilai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Pranesh_Vidilai
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TTU_Dinoj_Magam={
+		name="Dinoj Magam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Dinoj_Magam
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TTU_Naveenthik_Pesu={
+		name="Naveenthik Pesu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Naveenthik_Pesu
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TTU_Jaghavi_Vidilai={
+		name="Jaghavi Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Jaghavi_Vidilai
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	TTU_Charthik_Kazhanganbam={
+		name="Charthik Kazhanganbam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Charthik_Kazhanganbam
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TTU_Kirakash_Vidilai={
+		name="Kirakash Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Kirakash_Vidilai
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	TTU_Charthik_Magam={
+		name="Charthik Magam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Charthik_Magam
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	TTU_Mohanoj_Makku={
+		name="Mohanoj Makku"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Mohanoj_Makku
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	TTU_Harthil_Kazhanganbam={
+		name="Harthil Kazhanganbam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Harthil_Kazhanganbam
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TTU_Kiranesh_Kurugamudi={
+		name="Kiranesh Kurugamudi"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TTU_Surem_Kurugamudi={
+		name="Surem Kurugamudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Surem_Kurugamudi
+				traits = {	rearmer 	}
+		}
+
+	}
+	TTU_Jaghavi_Thenjil={
+		name="Jaghavi Thenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Jaghavi_Thenjil
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TTU_Arun_Magambu={
+		name="Arun Magambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Arun_Magambu
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TTU_Chan_Thudhunam={
+		name="Chan Thudhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Chan_Thudhunam
+				traits = {	the_banker 	}
+		}
+
+	}
+	TTU_Arun_Pesu={
+		name="Arun Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Arun_Pesu
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TTU_Vinesh_Thenjil={
+		name="Vinesh Thenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TTU_Vinesh_Thenjil
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TTU_Kirakashna_Kurugamudi={
+		name="Kirakashna Kurugamudi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Kirakashna_Kurugamudi
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TTU_Ravi_Ariyal={
+		name="Ravi Ariyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Ravi_Ariyal
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TTU_Chavi_Thenjil={
+		name="Chavi Thenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Chavi_Thenjil
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TTU_Kari_Pesu={
+		name="Kari Pesu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TTU_Kari_Pesu
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TTU_Jaghavi_Pesu={
+		name="Jaghavi Pesu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Jaghavi_Pesu
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TTU_Dinoj_Kazhanganbam={
+		name="Dinoj Kazhanganbam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TTU_Dinoj_Kazhanganbam
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TTU_Jaghaneshna_Magambu={
+		name="Jaghaneshna Magambu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Jaghaneshna_Magambu
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TTU_Harun_Makku={
+		name="Harun Makku"
+
+		advisor={
+			slot = air_chief
+			idea_token = TTU_Harun_Makku
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TTU_Surem_Magam={
+		name="Surem Magam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Surem_Magam
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TTU_Ajay_Magam={
+		name="Ajay Magam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Ajay_Magam
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	TTU_Kiran_Thudhunam={
+		name="Kiran Thudhunam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Kiran_Thudhunam
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TTU_Varun_Vidilai={
+		name="Varun Vidilai"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Varun_Vidilai
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	TTU_Chaveepakash_Magam={
+		name="Chaveepakash Magam"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Chaveepakash_Magam
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	TTU_Kirakashna_Thenjil={
+		name="Kirakashna Thenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = TTU_Kirakashna_Thenjil
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TTU_Varun_Pesu={
+		name="Varun Pesu"
+
+		advisor={
+			slot = theorist
+			idea_token = TTU_Varun_Pesu
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TTU_Vinesh_Ariyal={
+		name="Vinesh Ariyal"
+
+		advisor={
+			slot = theorist
+			idea_token = TTU_Vinesh_Ariyal
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TTU_Ganod_Thudhunam={
+		name="Ganod Thudhunam"
+
+		advisor={
+			slot = theorist
+			idea_token = TTU_Ganod_Thudhunam
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

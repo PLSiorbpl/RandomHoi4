@@ -1,0 +1,40 @@
+
+state={
+	id=1086
+	name="STATE_1086"
+	manpower = 791036
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=38
+		steel=0
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 15062 1}
+		victory_points = { 15070 1}
+		victory_points = { 15088 1}
+		
+		owner = NMT
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NMT
+	}
+
+	provinces={
+		15058 15059 15060 15061 15062 15063 15064 15065 15066 15067 15068 15069 15070 15071 15072 15073 15074 15075 15076 15077 15078 15079 15080 15081 15082 15083 15084 15085 15086 15087 15088 15089 15090 15091 15092 15093 15094 15095 15096 15097 15098 15099 15100 15101 15102 15103 15104 
+	}
+	local_supplies=0.0 
+}

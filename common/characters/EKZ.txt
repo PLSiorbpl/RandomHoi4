@@ -1,0 +1,880 @@
+characters = {
+	EKZ_Sven_Fest={
+		name="Sven Fest"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKZ_Bjored_Wacht={
+		name="Bjored Wacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Bjored_Wacht
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EKZ_Alfrens_Krafe={
+		name="Alfrens Krafe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Alfrens_Krafe
+				traits = {	headstrong 	}
+		}
+
+	}
+	EKZ_Sten_Steit={
+		name="Sten Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Sten_Steit
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	EKZ_Heinrich_Feser={
+		name="Heinrich Feser"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Heinrich_Feser
+				traits = {	headstrong 	}
+		}
+
+	}
+	EKZ_Sorg_Steit={
+		name="Sorg Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Sorg_Steit
+				traits = {	humble 	}
+		}
+
+	}
+	EKZ_Fran_Koenzestadt={
+		name="Fran Koenzestadt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Fran_Koenzestadt
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	EKZ_Oskar_Fest={
+		name="Oskar Fest"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Oskar_Fest
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	EKZ_Franz_Krafe={
+		name="Franz Krafe"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Franz_Krafe
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	EKZ_Ulrik_Krafe={
+		name="Ulrik Krafe"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Ulrik_Krafe
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	EKZ_Jenselmut_Grager={
+		name="Jenselmut Grager"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Jenselmut_Grager
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	EKZ_Hermanz_Wacht={
+		name="Hermanz Wacht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Hermanz_Wacht
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	EKZ_Reif_Krafe={
+		name="Reif Krafe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Reif_Krafe
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	EKZ_Ulrik_Reise={
+		name="Ulrik Reise"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Ulrik_Reise
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	EKZ_Bers_Fest={
+		name="Bers Fest"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Bers_Fest
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	EKZ_Bjorens_Fest={
+		name="Bjorens Fest"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Bjorens_Fest
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	EKZ_Kasparan_Kuesetz={
+		name="Kasparan Kuesetz"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Kasparan_Kuesetz
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	EKZ_Berenders_Kuesetz={
+		name="Berenders Kuesetz"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Berenders_Kuesetz
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	EKZ_Franz_Wacht={
+		name="Franz Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Franz_Wacht
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	EKZ_Bjored_Fest={
+		name="Bjored Fest"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Bjored_Fest
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	EKZ_Matto_Steit={
+		name="Matto Steit"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Matto_Steit
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	EKZ_Otthias_Grager={
+		name="Otthias Grager"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKZ_Alfrens_Steit={
+		name="Alfrens Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Alfrens_Steit
+				traits = {	infirm 	}
+		}
+
+	}
+	EKZ_Johans_Steit={
+		name="Johans Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Johans_Steit
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	EKZ_Frann_Grager={
+		name="Frann Grager"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Frann_Grager
+				traits = {	generallissimo 	}
+		}
+
+	}
+	EKZ_Hansels_Steit={
+		name="Hansels Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Hansels_Steit
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	EKZ_Dirk_Baum={
+		name="Dirk Baum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Dirk_Baum
+				traits = {	generallissimo 	}
+		}
+
+	}
+	EKZ_Jenrik_Grager={
+		name="Jenrik Grager"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Jenrik_Grager
+				traits = {	polemarch 	}
+		}
+
+	}
+	EKZ_Jendermann_Wacht={
+		name="Jendermann Wacht"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Jendermann_Wacht
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	EKZ_Anselm_Kuesetz={
+		name="Anselm Kuesetz"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Anselm_Kuesetz
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	EKZ_Rolfren_Feser={
+		name="Rolfren Feser"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Rolfren_Feser
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	EKZ_Heinrich_Wacht={
+		name="Heinrich Wacht"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Heinrich_Wacht
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	EKZ_Otto_Wacht={
+		name="Otto Wacht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Otto_Wacht
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	EKZ_Matto_Krafe={
+		name="Matto Krafe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Matto_Krafe
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	EKZ_Herman_Koenzestadt={
+		name="Herman Koenzestadt"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Herman_Koenzestadt
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	EKZ_Leinrik_Grager={
+		name="Leinrik Grager"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Leinrik_Grager
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	EKZ_Bers_Reise={
+		name="Bers Reise"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Bers_Reise
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	EKZ_Bjorg_Fest={
+		name="Bjorg Fest"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Bjorg_Fest
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	EKZ_Frann_Fest={
+		name="Frann Fest"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Frann_Fest
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	EKZ_Frik_Koenzestadt={
+		name="Frik Koenzestadt"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Frik_Koenzestadt
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	EKZ_Leinrik_Reise={
+		name="Leinrik Reise"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Leinrik_Reise
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	EKZ_Rudold_Koenzestadt={
+		name="Rudold Koenzestadt"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Rudold_Koenzestadt
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	EKZ_Emil_Koenzestadt={
+		name="Emil Koenzestadt"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKZ_Nielmut_Krafe={
+		name="Nielmut Krafe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Nielmut_Krafe
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	EKZ_Thijs_Wacht={
+		name="Thijs Wacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Thijs_Wacht
+				traits = {	infirm 	}
+		}
+
+	}
+	EKZ_Jendermann_Baum={
+		name="Jendermann Baum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Jendermann_Baum
+				traits = {	infirm 	}
+		}
+
+	}
+	EKZ_Sorg_Reise={
+		name="Sorg Reise"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Sorg_Reise
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EKZ_Thijs_Steit={
+		name="Thijs Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Thijs_Steit
+				traits = {	infirm 	}
+		}
+
+	}
+	EKZ_Hakon_Reise={
+		name="Hakon Reise"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Hakon_Reise
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	EKZ_Heinrich_Fest={
+		name="Heinrich Fest"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Heinrich_Fest
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EKZ_Otthias_Fest={
+		name="Otthias Fest"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Otthias_Fest
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	EKZ_Stenrik_Baum={
+		name="Stenrik Baum"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Stenrik_Baum
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	EKZ_Frik_Steit={
+		name="Frik Steit"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Frik_Steit
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	EKZ_Heinrich_Grager={
+		name="Heinrich Grager"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Heinrich_Grager
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	EKZ_Frichar_Wacht={
+		name="Frichar Wacht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Frichar_Wacht
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	EKZ_Bjoren_Fest={
+		name="Bjoren Fest"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Bjoren_Fest
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	EKZ_Bers_Grager={
+		name="Bers Grager"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Bers_Grager
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	EKZ_Sten_Feser={
+		name="Sten Feser"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Sten_Feser
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	EKZ_Kars_Feser={
+		name="Kars Feser"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Kars_Feser
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	EKZ_Wilhels_Koenzestadt={
+		name="Wilhels Koenzestadt"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Wilhels_Koenzestadt
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	EKZ_Berenders_Steit={
+		name="Berenders Steit"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Berenders_Steit
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	EKZ_Emil_Fest={
+		name="Emil Fest"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Emil_Fest
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	EKZ_Herman_Wacht={
+		name="Herman Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Herman_Wacht
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	EKZ_Frann_Baum={
+		name="Frann Baum"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKZ_Volker_Steit={
+		name="Volker Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Volker_Steit
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	EKZ_Erik_Baum={
+		name="Erik Baum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Erik_Baum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	EKZ_Larald_Kuesetz={
+		name="Larald Kuesetz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Larald_Kuesetz
+				traits = {	the_banker 	}
+		}
+
+	}
+	EKZ_Heinrich_Reise={
+		name="Heinrich Reise"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Heinrich_Reise
+				traits = {	infirm 	}
+		}
+
+	}
+	EKZ_Jans_Steit={
+		name="Jans Steit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Jans_Steit
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	EKZ_Jenselmut_Wacht={
+		name="Jenselmut Wacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKZ_Jenselmut_Wacht
+				traits = {	first_lady 	}
+		}
+
+	}
+	EKZ_Erik_Koenzestadt={
+		name="Erik Koenzestadt"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Erik_Koenzestadt
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EKZ_Otto_Fest={
+		name="Otto Fest"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Otto_Fest
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	EKZ_Stenrik_Steit={
+		name="Stenrik Steit"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Stenrik_Steit
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	EKZ_Kars_Krafe={
+		name="Kars Krafe"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKZ_Kars_Krafe
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	EKZ_Kars_Baum={
+		name="Kars Baum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Kars_Baum
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	EKZ_Thiaspar_Baum={
+		name="Thiaspar Baum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKZ_Thiaspar_Baum
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	EKZ_Anselm_Baum={
+		name="Anselm Baum"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Anselm_Baum
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	EKZ_Jans_Feser={
+		name="Jans Feser"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKZ_Jans_Feser
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	EKZ_Otthias_Krafe={
+		name="Otthias Krafe"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Otthias_Krafe
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	EKZ_Jenrik_Wacht={
+		name="Jenrik Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Jenrik_Wacht
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	EKZ_Sigurd_Steit={
+		name="Sigurd Steit"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Sigurd_Steit
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	EKZ_Bermans_Koenzestadt={
+		name="Bermans Koenzestadt"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Bermans_Koenzestadt
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	EKZ_Sorg_Grager={
+		name="Sorg Grager"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Sorg_Grager
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	EKZ_Helmut_Reise={
+		name="Helmut Reise"
+
+		advisor={
+			slot = high_command
+			idea_token = EKZ_Helmut_Reise
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	EKZ_Leinrik_Feser={
+		name="Leinrik Feser"
+
+		advisor={
+			slot = theorist
+			idea_token = EKZ_Leinrik_Feser
+				traits = {	military_theorist 	}
+		}
+
+	}
+	EKZ_Jans_Baum={
+		name="Jans Baum"
+
+		advisor={
+			slot = theorist
+			idea_token = EKZ_Jans_Baum
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	EKZ_Rudolfred_Koenzestadt={
+		name="Rudolfred Koenzestadt"
+
+		advisor={
+			slot = theorist
+			idea_token = EKZ_Rudolfred_Koenzestadt
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=1218
+	name="STATE_1218"
+	manpower = 1285543
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=29
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16910 3}
+		victory_points = { 16911 3}
+		victory_points = { 16915 6}
+		
+		owner = VID
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			16920 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = VID
+	}
+
+	provinces={
+		16909 16910 16911 16912 16913 16914 16915 16916 16917 16918 16919 16920 16921 16922 16923 16924 16925 16926 16927 16928 16929 
+	}
+	local_supplies=0.0 
+}

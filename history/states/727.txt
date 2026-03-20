@@ -1,0 +1,39 @@
+
+state={
+	id=727
+	name="STATE_727"
+	manpower = 575978
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=8
+	}
+
+	history={
+		victory_points = { 10384 1}
+		victory_points = { 10387 3}
+		
+		owner = CCH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CCH
+	}
+
+	provinces={
+		10384 10385 10386 10387 10388 10389 10390 10391 10392 
+	}
+	local_supplies=0.0 
+}

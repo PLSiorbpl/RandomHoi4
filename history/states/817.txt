@@ -1,0 +1,39 @@
+
+state={
+	id=817
+	name="STATE_817"
+	manpower = 439462
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=8
+		coal=0
+	}
+
+	history={
+		victory_points = { 11521 1}
+		victory_points = { 11524 2}
+		
+		owner = HUA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HUA
+	}
+
+	provinces={
+		11520 11521 11522 11523 11524 11525 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=682
+	name="STATE_682"
+	manpower = 444997
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9700 1}
+		victory_points = { 9701 1}
+		
+		owner = MCD
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9705 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MCD
+	}
+
+	provinces={
+		9698 9699 9700 9701 9702 9703 9704 9705 
+	}
+	local_supplies=0.0 
+}

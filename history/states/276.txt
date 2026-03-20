@@ -1,0 +1,41 @@
+
+state={
+	id=276
+	name="STATE_276"
+	manpower = 1145482
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4121 3}
+		victory_points = { 4125 1}
+		victory_points = { 4126 3}
+		victory_points = { 4131 3}
+		
+		owner = MCK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MCK
+	}
+
+	provinces={
+		4117 4118 4119 4120 4121 4122 4123 4124 4125 4126 4127 4128 4129 4130 4131 4132 4133 4134 4135 
+	}
+	local_supplies=0.0 
+}

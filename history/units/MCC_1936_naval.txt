@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Machterieber Fleet"			
+		naval_base = 6455
+		task_force = {
+			name = "Machterieber Fleet"
+			location = 6455
+			
+						ship = { name = "Kriede" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MCC version_name = "Furm Class" } }	}
+			ship = { name = "Kriede 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCC version_name = "Stamilbe Class" } }	}
+			ship = { name = "Stamilbe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MCC version_name = "Kriede Class" } }	}
+			ship = { name = "Furm" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCC version_name = "Stamilbe Class" } }	}
+			ship = { name = "Kriede 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCC version_name = "Stamilbe Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

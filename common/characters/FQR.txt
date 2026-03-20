@@ -1,0 +1,880 @@
+characters = {
+	FQR_Abdullal_Shurub={
+		name="Abdullal Shurub"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FQR_Ahmarid_Noum={
+		name="Ahmarid Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Ahmarid_Noum
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	FQR_Adnan_Hijra={
+		name="Adnan Hijra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Adnan_Hijra
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	FQR_Hamza_Bahria={
+		name="Hamza Bahria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Hamza_Bahria
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	FQR_Hassal_Qams={
+		name="Hassal Qams"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Hassal_Qams
+				traits = {	headstrong 	}
+		}
+
+	}
+	FQR_Abdullahya_Farq={
+		name="Abdullahya Farq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Abdullahya_Farq
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	FQR_Khamad_Qams={
+		name="Khamad Qams"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Khamad_Qams
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	FQR_Sammed_Nashfa={
+		name="Sammed Nashfa"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Sammed_Nashfa
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	FQR_Ibrahya_Farq={
+		name="Ibrahya Farq"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Ibrahya_Farq
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	FQR_Imran_Nashfa={
+		name="Imran Nashfa"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Imran_Nashfa
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	FQR_Hassan_Farq={
+		name="Hassan Farq"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Hassan_Farq
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	FQR_Hami_Hijra={
+		name="Hami Hijra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Hami_Hijra
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	FQR_Abdullal_Rawan={
+		name="Abdullal Rawan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Abdullal_Rawan
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	FQR_Khamad_Hijra={
+		name="Khamad Hijra"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Khamad_Hijra
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	FQR_Rammed_Mawaryah={
+		name="Rammed Mawaryah"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Rammed_Mawaryah
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	FQR_Ahmali_Qams={
+		name="Ahmali Qams"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Ahmali_Qams
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	FQR_Zaid_Mawaryah={
+		name="Zaid Mawaryah"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Zaid_Mawaryah
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	FQR_Bilal_Farq={
+		name="Bilal Farq"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Bilal_Farq
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	FQR_Abdullal_Nashfa={
+		name="Abdullal Nashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Abdullal_Nashfa
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	FQR_Samza_Shurub={
+		name="Samza Shurub"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Samza_Shurub
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	FQR_Hassal_Mawaryah={
+		name="Hassal Mawaryah"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Hassal_Mawaryah
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	FQR_Mahim_Shurub={
+		name="Mahim Shurub"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FQR_Bilahya_Rawan={
+		name="Bilahya Rawan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Bilahya_Rawan
+				traits = {	autokrator 	}
+		}
+
+	}
+	FQR_Alid_Rawan={
+		name="Alid Rawan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Alid_Rawan
+				traits = {	generallissimo 	}
+		}
+
+	}
+	FQR_Khamir_Mawaryah={
+		name="Khamir Mawaryah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Khamir_Mawaryah
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	FQR_Mohal_Farq={
+		name="Mohal Farq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Mohal_Farq
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	FQR_Nabilahmoud_Durub={
+		name="Nabilahmoud Durub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Nabilahmoud_Durub
+				traits = {	generallissimo 	}
+		}
+
+	}
+	FQR_Mohamza_Hijra={
+		name="Mohamza Hijra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Mohamza_Hijra
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	FQR_Khami_Farq={
+		name="Khami Farq"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Khami_Farq
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	FQR_Ramza_Durub={
+		name="Ramza Durub"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Ramza_Durub
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	FQR_Imrahmal_Mawaryah={
+		name="Imrahmal Mawaryah"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Imrahmal_Mawaryah
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	FQR_Mahya_Qams={
+		name="Mahya Qams"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Mahya_Qams
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	FQR_Hamza_Durub={
+		name="Hamza Durub"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Hamza_Durub
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	FQR_Zaid_Rawan={
+		name="Zaid Rawan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Zaid_Rawan
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	FQR_Mohamza_Noum={
+		name="Mohamza Noum"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Mohamza_Noum
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	FQR_Hami_Shurub={
+		name="Hami Shurub"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Hami_Shurub
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	FQR_Zaid_Bahria={
+		name="Zaid Bahria"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Zaid_Bahria
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	FQR_Ahmoud_Bahria={
+		name="Ahmoud Bahria"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Ahmoud_Bahria
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	FQR_Nabilahim_Nashfa={
+		name="Nabilahim Nashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Nabilahim_Nashfa
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	FQR_Tarim_Hijra={
+		name="Tarim Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Tarim_Hijra
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	FQR_Nabilal_Mawaryah={
+		name="Nabilal Mawaryah"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Nabilal_Mawaryah
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	FQR_Khalid_Hijra={
+		name="Khalid Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Khalid_Hijra
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	FQR_Bilahya_Nashfa={
+		name="Bilahya Nashfa"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FQR_Nabilahmoud_Noum={
+		name="Nabilahmoud Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Nabilahmoud_Noum
+				traits = {	polemarch 	}
+		}
+
+	}
+	FQR_Bilal_Shurub={
+		name="Bilal Shurub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Bilal_Shurub
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	FQR_Karid_Nashfa={
+		name="Karid Nashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Karid_Nashfa
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	FQR_Yusuf_Durub={
+		name="Yusuf Durub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Yusuf_Durub
+				traits = {	political_dancer 	}
+		}
+
+	}
+	FQR_Faisan_Bahria={
+		name="Faisan Bahria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Faisan_Bahria
+				traits = {	polemarch 	}
+		}
+
+	}
+	FQR_Ahmad_Farq={
+		name="Ahmad Farq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Ahmad_Farq
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	FQR_Ibrahya_Rawan={
+		name="Ibrahya Rawan"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Ibrahya_Rawan
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	FQR_Hassalid_Bahria={
+		name="Hassalid Bahria"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Hassalid_Bahria
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	FQR_Ibrahya_Durub={
+		name="Ibrahya Durub"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Ibrahya_Durub
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	FQR_Abdullal_Noum={
+		name="Abdullal Noum"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Abdullal_Noum
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	FQR_Mahim_Nashfa={
+		name="Mahim Nashfa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Mahim_Nashfa
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	FQR_Hamir_Mawaryah={
+		name="Hamir Mawaryah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Hamir_Mawaryah
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	FQR_Hassan_Bahria={
+		name="Hassan Bahria"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Hassan_Bahria
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	FQR_Khammed_Noum={
+		name="Khammed Noum"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Khammed_Noum
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	FQR_Hamir_Hijra={
+		name="Hamir Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Hamir_Hijra
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	FQR_Ramir_Qams={
+		name="Ramir Qams"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Ramir_Qams
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	FQR_Majid_Hijra={
+		name="Majid Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Majid_Hijra
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	FQR_Hami_Rawan={
+		name="Hami Rawan"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Hami_Rawan
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	FQR_Hassal_Nashfa={
+		name="Hassal Nashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Hassal_Nashfa
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	FQR_Jamir_Hijra={
+		name="Jamir Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Jamir_Hijra
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	FQR_Yahim_Noum={
+		name="Yahim Noum"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FQR_Karid_Farq={
+		name="Karid Farq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Karid_Farq
+				traits = {	infirm 	}
+		}
+
+	}
+	FQR_Mohali_Nashfa={
+		name="Mohali Nashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Mohali_Nashfa
+				traits = {	first_lady 	}
+		}
+
+	}
+	FQR_Ahmali_Farq={
+		name="Ahmali Farq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Ahmali_Farq
+				traits = {	infirm 	}
+		}
+
+	}
+	FQR_Khal_Rawan={
+		name="Khal Rawan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Khal_Rawan
+				traits = {	the_banker 	}
+		}
+
+	}
+	FQR_Faid_Farq={
+		name="Faid Farq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Faid_Farq
+				traits = {	the_banker 	}
+		}
+
+	}
+	FQR_Farid_Nashfa={
+		name="Farid Nashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FQR_Farid_Nashfa
+				traits = {	the_banker 	}
+		}
+
+	}
+	FQR_Alid_Durub={
+		name="Alid Durub"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Alid_Durub
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	FQR_Sammed_Rawan={
+		name="Sammed Rawan"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Sammed_Rawan
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	FQR_Adnan_Bahria={
+		name="Adnan Bahria"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Adnan_Bahria
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	FQR_Ahmoud_Mawaryah={
+		name="Ahmoud Mawaryah"
+
+		advisor={
+			slot = army_chief
+			idea_token = FQR_Ahmoud_Mawaryah
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	FQR_Mohamza_Bahria={
+		name="Mohamza Bahria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Mohamza_Bahria
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	FQR_Adnan_Shurub={
+		name="Adnan Shurub"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FQR_Adnan_Shurub
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	FQR_Mohal_Qams={
+		name="Mohal Qams"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Mohal_Qams
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	FQR_Kariq_Farq={
+		name="Kariq Farq"
+
+		advisor={
+			slot = air_chief
+			idea_token = FQR_Kariq_Farq
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	FQR_Saad_Durub={
+		name="Saad Durub"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Saad_Durub
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	FQR_Yahim_Hijra={
+		name="Yahim Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Yahim_Hijra
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	FQR_Anwarid_Rawan={
+		name="Anwarid Rawan"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Anwarid_Rawan
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	FQR_Khami_Shurub={
+		name="Khami Shurub"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Khami_Shurub
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	FQR_Imrahmar_Noum={
+		name="Imrahmar Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Imrahmar_Noum
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	FQR_Yusuf_Bahria={
+		name="Yusuf Bahria"
+
+		advisor={
+			slot = high_command
+			idea_token = FQR_Yusuf_Bahria
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	FQR_Saad_Farq={
+		name="Saad Farq"
+
+		advisor={
+			slot = theorist
+			idea_token = FQR_Saad_Farq
+				traits = {	military_theorist 	}
+		}
+
+	}
+	FQR_Khal_Bahria={
+		name="Khal Bahria"
+
+		advisor={
+			slot = theorist
+			idea_token = FQR_Khal_Bahria
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	FQR_Ahmad_Noum={
+		name="Ahmad Noum"
+
+		advisor={
+			slot = theorist
+			idea_token = FQR_Ahmad_Noum
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=355
+	name="STATE_355"
+	manpower = 987560
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 5107 4}
+		victory_points = { 5116 4}
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		5103 5104 5105 5106 5107 5108 5109 5110 5111 5112 5113 5114 5115 5116 5117 5118 5119 
+	}
+	local_supplies=0.0 
+}

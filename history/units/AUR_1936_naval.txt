@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Turg Fleet"			
+		naval_base = 5675
+		task_force = {
+			name = "Turg Fleet"
+			location = 5675
+			
+						ship = { name = "Monnerdenigs" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = AUR version_name = "Felt Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

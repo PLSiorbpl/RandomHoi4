@@ -1,0 +1,42 @@
+
+state={
+	id=696
+	name="STATE_696"
+	manpower = 631807
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=14
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9848 4}
+		victory_points = { 9852 1}
+		
+		owner = CNR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			9855 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CNR
+	}
+
+	provinces={
+		9848 9849 9850 9851 9852 9853 9854 9855 9856 9857 
+	}
+	local_supplies=0.0 
+}

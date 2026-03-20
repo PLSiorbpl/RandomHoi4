@@ -1,0 +1,38 @@
+
+state={
+	id=873
+	name="STATE_873"
+	manpower = 466868
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12178 3}
+		
+		owner = JME
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = JME
+	}
+
+	provinces={
+		12172 12173 12174 12175 12176 12177 12178 
+	}
+	local_supplies=0.0 
+}

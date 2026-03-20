@@ -1,0 +1,880 @@
+characters = {
+	EOI_Keiran_Spioc={
+		name="Keiran Spioc"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOI_Lialcolm_Cais={
+		name="Lialcolm Cais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Lialcolm_Cais
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	EOI_Liaran_Cilina={
+		name="Liaran Cilina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Liaran_Cilina
+				traits = {	humble 	}
+		}
+
+	}
+	EOI_Seam_Croch={
+		name="Seam Croch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Seam_Croch
+				traits = {	headstrong 	}
+		}
+
+	}
+	EOI_Nialcolm_Uisleann={
+		name="Nialcolm Uisleann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Nialcolm_Uisleann
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	EOI_Taran_Boglachailin={
+		name="Taran Boglachailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Taran_Boglachailin
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	EOI_Padraig_Cais={
+		name="Padraig Cais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Padraig_Cais
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	EOI_Rhys_Cais={
+		name="Rhys Cais"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Rhys_Cais
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	EOI_Fergus_Cilina={
+		name="Fergus Cilina"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Fergus_Cilina
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	EOI_Garan_Cais={
+		name="Garan Cais"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Garan_Cais
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	EOI_Eoinn_Breite={
+		name="Eoinn Breite"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Eoinn_Breite
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	EOI_Mall_Breite={
+		name="Mall Breite"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Mall_Breite
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	EOI_Ciareth_Breite={
+		name="Ciareth Breite"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Ciareth_Breite
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	EOI_Ciaran_Boglachailin={
+		name="Ciaran Boglachailin"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Ciaran_Boglachailin
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	EOI_Garan_Uisleann={
+		name="Garan Uisleann"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Garan_Uisleann
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	EOI_Iwan_Cilina={
+		name="Iwan Cilina"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Iwan_Cilina
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	EOI_Eoin_Uisleann={
+		name="Eoin Uisleann"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Eoin_Uisleann
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	EOI_Fergus_Breancha={
+		name="Fergus Breancha"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Fergus_Breancha
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	EOI_Ciam_Fair={
+		name="Ciam Fair"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Ciam_Fair
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	EOI_Declan_Boglachailin={
+		name="Declan Boglachailin"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Declan_Boglachailin
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	EOI_Liam_Fair={
+		name="Liam Fair"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Liam_Fair
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	EOI_Ciam_Cilina={
+		name="Ciam Cilina"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOI_Garan_Croch={
+		name="Garan Croch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Garan_Croch
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EOI_Niaran_Cais={
+		name="Niaran Cais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Niaran_Cais
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	EOI_Eoin_Croch={
+		name="Eoin Croch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Eoin_Croch
+				traits = {	basileus 	}
+		}
+
+	}
+	EOI_Declan_Fair={
+		name="Declan Fair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Declan_Fair
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EOI_Quinn_Cais={
+		name="Quinn Cais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Quinn_Cais
+				traits = {	warmonger 	}
+		}
+
+	}
+	EOI_Padran_Bradaidir={
+		name="Padran Bradaidir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Padran_Bradaidir
+				traits = {	autokrator 	}
+		}
+
+	}
+	EOI_Ciareth_Cais={
+		name="Ciareth Cais"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Ciareth_Cais
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	EOI_Ciamus_Cilina={
+		name="Ciamus Cilina"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Ciamus_Cilina
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	EOI_Gareth_Boglachailin={
+		name="Gareth Boglachailin"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Gareth_Boglachailin
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	EOI_Fergus_Fair={
+		name="Fergus Fair"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Fergus_Fair
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	EOI_Liaran_Uisleann={
+		name="Liaran Uisleann"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Liaran_Uisleann
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	EOI_Aidan_Cais={
+		name="Aidan Cais"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Aidan_Cais
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	EOI_Malcolm_Boglachailin={
+		name="Malcolm Boglachailin"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Malcolm_Boglachailin
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	EOI_Ciam_Croch={
+		name="Ciam Croch"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Ciam_Croch
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	EOI_Padraig_Uisleann={
+		name="Padraig Uisleann"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Padraig_Uisleann
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	EOI_Rhys_Croch={
+		name="Rhys Croch"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Rhys_Croch
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	EOI_Ulrich_Uisleann={
+		name="Ulrich Uisleann"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Ulrich_Uisleann
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	EOI_Quin_Croch={
+		name="Quin Croch"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Quin_Croch
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	EOI_Fergus_Breite={
+		name="Fergus Breite"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Fergus_Breite
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	EOI_Niam_Cais={
+		name="Niam Cais"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Niam_Cais
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	EOI_Taraig_Bradaidir={
+		name="Taraig Bradaidir"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOI_Gareth_Spioc={
+		name="Gareth Spioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Gareth_Spioc
+				traits = {	political_dancer 	}
+		}
+
+	}
+	EOI_Cialcolm_Cilina={
+		name="Cialcolm Cilina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Cialcolm_Cilina
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EOI_Liam_Boglachailin={
+		name="Liam Boglachailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Liam_Boglachailin
+				traits = {	polemarch 	}
+		}
+
+	}
+	EOI_Tareth_Boglachailin={
+		name="Tareth Boglachailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Tareth_Boglachailin
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EOI_Eoin_Bradaidir={
+		name="Eoin Bradaidir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Eoin_Bradaidir
+				traits = {	infirm 	}
+		}
+
+	}
+	EOI_Niam_Uisleann={
+		name="Niam Uisleann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Niam_Uisleann
+				traits = {	political_dancer 	}
+		}
+
+	}
+	EOI_Hugh_Breancha={
+		name="Hugh Breancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Hugh_Breancha
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	EOI_Fergus_Bradaidir={
+		name="Fergus Bradaidir"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Fergus_Bradaidir
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	EOI_Owen_Boglachailin={
+		name="Owen Boglachailin"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Owen_Boglachailin
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	EOI_Quinn_Spioc={
+		name="Quinn Spioc"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Quinn_Spioc
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	EOI_Liall_Fair={
+		name="Liall Fair"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Liall_Fair
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	EOI_Garaig_Boglachailin={
+		name="Garaig Boglachailin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Garaig_Boglachailin
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	EOI_Seam_Breancha={
+		name="Seam Breancha"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Seam_Breancha
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	EOI_Iwan_Breancha={
+		name="Iwan Breancha"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Iwan_Breancha
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	EOI_Liall_Uisleann={
+		name="Liall Uisleann"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Liall_Uisleann
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	EOI_Quin_Spioc={
+		name="Quin Spioc"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Quin_Spioc
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	EOI_Ciaran_Croch={
+		name="Ciaran Croch"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Ciaran_Croch
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	EOI_Ulrich_Breancha={
+		name="Ulrich Breancha"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Ulrich_Breancha
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	EOI_Nialcolm_Bradaidir={
+		name="Nialcolm Bradaidir"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Nialcolm_Bradaidir
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	EOI_Taraig_Breite={
+		name="Taraig Breite"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Taraig_Breite
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	EOI_Taraig_Boglachailin={
+		name="Taraig Boglachailin"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EOI_Ciamus_Uisleann={
+		name="Ciamus Uisleann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Ciamus_Uisleann
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EOI_Ciaran_Cilina={
+		name="Ciaran Cilina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Ciaran_Cilina
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	EOI_Niam_Croch={
+		name="Niam Croch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Niam_Croch
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	EOI_Padraig_Fair={
+		name="Padraig Fair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Padraig_Fair
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	EOI_Garaig_Breancha={
+		name="Garaig Breancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Garaig_Breancha
+				traits = {	infirm 	}
+		}
+
+	}
+	EOI_Garaig_Cais={
+		name="Garaig Cais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EOI_Garaig_Cais
+				traits = {	rearmer 	}
+		}
+
+	}
+	EOI_Rhys_Breancha={
+		name="Rhys Breancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Rhys_Breancha
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EOI_Aidan_Fair={
+		name="Aidan Fair"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Aidan_Fair
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	EOI_Ulrich_Boglachailin={
+		name="Ulrich Boglachailin"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Ulrich_Boglachailin
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EOI_Eoinn_Cilina={
+		name="Eoinn Cilina"
+
+		advisor={
+			slot = army_chief
+			idea_token = EOI_Eoinn_Cilina
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	EOI_Bran_Bradaidir={
+		name="Bran Bradaidir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Bran_Bradaidir
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	EOI_Taran_Cilina={
+		name="Taran Cilina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EOI_Taran_Cilina
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	EOI_Quinn_Breancha={
+		name="Quinn Breancha"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Quinn_Breancha
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	EOI_Nialcolm_Spioc={
+		name="Nialcolm Spioc"
+
+		advisor={
+			slot = air_chief
+			idea_token = EOI_Nialcolm_Spioc
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	EOI_Aidan_Breite={
+		name="Aidan Breite"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Aidan_Breite
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	EOI_Eoinn_Croch={
+		name="Eoinn Croch"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Eoinn_Croch
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	EOI_Padraig_Breancha={
+		name="Padraig Breancha"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Padraig_Breancha
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	EOI_Malcolm_Cais={
+		name="Malcolm Cais"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Malcolm_Cais
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	EOI_Garan_Breancha={
+		name="Garan Breancha"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Garan_Breancha
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	EOI_Niaran_Cilina={
+		name="Niaran Cilina"
+
+		advisor={
+			slot = high_command
+			idea_token = EOI_Niaran_Cilina
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	EOI_Garaig_Croch={
+		name="Garaig Croch"
+
+		advisor={
+			slot = theorist
+			idea_token = EOI_Garaig_Croch
+				traits = {	military_theorist 	}
+		}
+
+	}
+	EOI_Keiran_Cais={
+		name="Keiran Cais"
+
+		advisor={
+			slot = theorist
+			idea_token = EOI_Keiran_Cais
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	EOI_Ciareth_Croch={
+		name="Ciareth Croch"
+
+		advisor={
+			slot = theorist
+			idea_token = EOI_Ciareth_Croch
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

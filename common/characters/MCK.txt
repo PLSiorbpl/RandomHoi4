@@ -1,0 +1,880 @@
+characters = {
+	MCK_Arun_Vinam={
+		name="Arun Vinam"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCK_Varish_Thavarugal={
+		name="Varish Thavarugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Varish_Thavarugal
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MCK_Vijay_Thavarugal={
+		name="Vijay Thavarugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Vijay_Thavarugal
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCK_Ragadeenthik_Kaadam={
+		name="Ragadeenthik Kaadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Ragadeenthik_Kaadam
+				traits = {	humble 	}
+		}
+
+	}
+	MCK_Satish_Oosai={
+		name="Satish Oosai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Satish_Oosai
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MCK_Deenth_Nool={
+		name="Deenth Nool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Deenth_Nool
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCK_Navi_Ariyangugam={
+		name="Navi Ariyangugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Navi_Ariyangugam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MCK_Ajay_Velimayam={
+		name="Ajay Velimayam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Ajay_Velimayam
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MCK_Krish_Velimayam={
+		name="Krish Velimayam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Krish_Velimayam
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCK_Ganesh_Kaadam={
+		name="Ganesh Kaadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Ganesh_Kaadam
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCK_Satish_Vanam={
+		name="Satish Vanam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Satish_Vanam
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MCK_Harun_Nool={
+		name="Harun Nool"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Harun_Nool
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MCK_Prak_Vanam={
+		name="Prak Vanam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Prak_Vanam
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MCK_Harun_Velimayam={
+		name="Harun Velimayam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Harun_Velimayam
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MCK_Rajesh_Kaadam={
+		name="Rajesh Kaadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Rajesh_Kaadam
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MCK_Raveepakash_Vinam={
+		name="Raveepakash Vinam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Raveepakash_Vinam
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MCK_Naveepak_Nool={
+		name="Naveepak Nool"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Naveepak_Nool
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MCK_Varish_Panguppu={
+		name="Varish Panguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Varish_Panguppu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MCK_Prem_Velimayam={
+		name="Prem Velimayam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Prem_Velimayam
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	MCK_Senth_Panguppu={
+		name="Senth Panguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Senth_Panguppu
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	MCK_Harthik_Pudhunporul={
+		name="Harthik Pudhunporul"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Harthik_Pudhunporul
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MCK_Harthik_Vinam={
+		name="Harthik Vinam"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCK_Vinod_Ariyangugam={
+		name="Vinod Ariyangugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Vinod_Ariyangugam
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MCK_Karun_Panguppu={
+		name="Karun Panguppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Karun_Panguppu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	MCK_Gandran_Velimayam={
+		name="Gandran Velimayam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Gandran_Velimayam
+				traits = {	warmonger 	}
+		}
+
+	}
+	MCK_Karthil_Pudhunporul={
+		name="Karthil Pudhunporul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Karthil_Pudhunporul
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MCK_Senth_Ariyangugam={
+		name="Senth Ariyangugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Senth_Ariyangugam
+				traits = {	generallissimo 	}
+		}
+
+	}
+	MCK_Deen_Pudhunporul={
+		name="Deen Pudhunporul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Deen_Pudhunporul
+				traits = {	warmonger 	}
+		}
+
+	}
+	MCK_Kirak_Nool={
+		name="Kirak Nool"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Kirak_Nool
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MCK_Vijay_Velimayam={
+		name="Vijay Velimayam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Vijay_Velimayam
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MCK_Satish_Kaadam={
+		name="Satish Kaadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Satish_Kaadam
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MCK_Prak_Vinam={
+		name="Prak Vinam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Prak_Vinam
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MCK_Varish_Velimayam={
+		name="Varish Velimayam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Varish_Velimayam
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	MCK_Krishna_Vinam={
+		name="Krishna Vinam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Krishna_Vinam
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MCK_Ragadeenthik_Ariyangugam={
+		name="Ragadeenthik Ariyangugam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Ragadeenthik_Ariyangugam
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MCK_Arun_Vanam={
+		name="Arun Vanam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Arun_Vanam
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MCK_Jagadeepak_Kaadam={
+		name="Jagadeepak Kaadam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Jagadeepak_Kaadam
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MCK_Prem_Thavarugal={
+		name="Prem Thavarugal"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Prem_Thavarugal
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	MCK_Rajesh_Oosai={
+		name="Rajesh Oosai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Rajesh_Oosai
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	MCK_Presh_Vanam={
+		name="Presh Vanam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Presh_Vanam
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	MCK_Prak_Panguppu={
+		name="Prak Panguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Prak_Panguppu
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	MCK_Varish_Kaadam={
+		name="Varish Kaadam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Varish_Kaadam
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	MCK_Vijay_Ariyangugam={
+		name="Vijay Ariyangugam"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCK_Manesh_Kaadam={
+		name="Manesh Kaadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Manesh_Kaadam
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MCK_Jagadeepak_Vinam={
+		name="Jagadeepak Vinam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Jagadeepak_Vinam
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MCK_Navi_Oosai={
+		name="Navi Oosai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Navi_Oosai
+				traits = {	infirm 	}
+		}
+
+	}
+	MCK_Prak_Kaadam={
+		name="Prak Kaadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Prak_Kaadam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MCK_Varun_Kaadam={
+		name="Varun Kaadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Varun_Kaadam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MCK_Varun_Pudhunporul={
+		name="Varun Pudhunporul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Varun_Pudhunporul
+				traits = {	infirm 	}
+		}
+
+	}
+	MCK_Bala_Ariyangugam={
+		name="Bala Ariyangugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Bala_Ariyangugam
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MCK_Vinesh_Kaadam={
+		name="Vinesh Kaadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Vinesh_Kaadam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MCK_Prem_Vinam={
+		name="Prem Vinam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Prem_Vinam
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MCK_Senth_Oosai={
+		name="Senth Oosai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Senth_Oosai
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MCK_Rajesh_Pudhunporul={
+		name="Rajesh Pudhunporul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Rajesh_Pudhunporul
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MCK_Kumar_Thavarugal={
+		name="Kumar Thavarugal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Kumar_Thavarugal
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MCK_Ganesh_Velimayam={
+		name="Ganesh Velimayam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Ganesh_Velimayam
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	MCK_Vari_Kaadam={
+		name="Vari Kaadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Vari_Kaadam
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCK_Chanod_Pudhunporul={
+		name="Chanod Pudhunporul"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Chanod_Pudhunporul
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	MCK_Karth_Nool={
+		name="Karth Nool"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Karth_Nool
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	MCK_Jagadeenthil_Thavarugal={
+		name="Jagadeenthil Thavarugal"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Jagadeenthil_Thavarugal
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	MCK_Moharun_Oosai={
+		name="Moharun Oosai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Moharun_Oosai
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	MCK_Harthik_Nool={
+		name="Harthik Nool"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Harthik_Nool
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MCK_Kirak_Oosai={
+		name="Kirak Oosai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Kirak_Oosai
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	MCK_Vari_Thavarugal={
+		name="Vari Thavarugal"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCK_Jagadeepakas_Thavarugal={
+		name="Jagadeepakas Thavarugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Jagadeepakas_Thavarugal
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MCK_Ganesh_Vinam={
+		name="Ganesh Vinam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Ganesh_Vinam
+				traits = {	first_lady 	}
+		}
+
+	}
+	MCK_Krish_Panguppu={
+		name="Krish Panguppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Krish_Panguppu
+				traits = {	infirm 	}
+		}
+
+	}
+	MCK_Vineshna_Thavarugal={
+		name="Vineshna Thavarugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Vineshna_Thavarugal
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MCK_Deesh_Nool={
+		name="Deesh Nool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Deesh_Nool
+				traits = {	first_lady 	}
+		}
+
+	}
+	MCK_Kumar_Kaadam={
+		name="Kumar Kaadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_Kumar_Kaadam
+				traits = {	rearmer 	}
+		}
+
+	}
+	MCK_Prem_Pudhunporul={
+		name="Prem Pudhunporul"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Prem_Pudhunporul
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MCK_Manesh_Nool={
+		name="Manesh Nool"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Manesh_Nool
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MCK_Siddhan_Oosai={
+		name="Siddhan Oosai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Siddhan_Oosai
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MCK_Kirak_Kaadam={
+		name="Kirak Kaadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCK_Kirak_Kaadam
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MCK_Jagadeepak_Pudhunporul={
+		name="Jagadeepak Pudhunporul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Jagadeepak_Pudhunporul
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MCK_Senth_Vanam={
+		name="Senth Vanam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCK_Senth_Vanam
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	MCK_Bala_Thavarugal={
+		name="Bala Thavarugal"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Bala_Thavarugal
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	MCK_Bala_Vanam={
+		name="Bala Vanam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCK_Bala_Vanam
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	MCK_Naveepak_Velimayam={
+		name="Naveepak Velimayam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Naveepak_Velimayam
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	MCK_Gandran_Panguppu={
+		name="Gandran Panguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Gandran_Panguppu
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	MCK_Jagadeepak_Vanam={
+		name="Jagadeepak Vanam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Jagadeepak_Vanam
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	MCK_Ganod_Vanam={
+		name="Ganod Vanam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Ganod_Vanam
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	MCK_Vari_Vinam={
+		name="Vari Vinam"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Vari_Vinam
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	MCK_Jagadeepakas_Oosai={
+		name="Jagadeepakas Oosai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCK_Jagadeepakas_Oosai
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	MCK_Jagadeenthil_Vanam={
+		name="Jagadeenthil Vanam"
+
+		advisor={
+			slot = theorist
+			idea_token = MCK_Jagadeenthil_Vanam
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MCK_Jagadeepak_Thavarugal={
+		name="Jagadeepak Thavarugal"
+
+		advisor={
+			slot = theorist
+			idea_token = MCK_Jagadeepak_Thavarugal
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MCK_Ravi_Ariyangugam={
+		name="Ravi Ariyangugam"
+
+		advisor={
+			slot = theorist
+			idea_token = MCK_Ravi_Ariyangugam
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

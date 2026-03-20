@@ -1,0 +1,41 @@
+
+state={
+	id=501
+	name="STATE_501"
+	manpower = 1617493
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7172 3}
+		victory_points = { 7173 5}
+		victory_points = { 7174 5}
+		victory_points = { 7188 2}
+		
+		owner = BBR
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BBR
+	}
+
+	provinces={
+		7172 7173 7174 7175 7176 7177 7178 7179 7180 7181 7182 7183 7184 7185 7186 7187 7188 7189 7190 7191 7192 7193 7194 7195 7196 7197 7198 7199 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=433
+	name="STATE_433"
+	manpower = 1264416
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6108 6}
+		victory_points = { 6116 5}
+		
+		owner = GQT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6128 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GQT
+	}
+
+	provinces={
+		6106 6107 6108 6109 6110 6111 6112 6113 6114 6115 6116 6117 6118 6119 6120 6121 6122 6123 6124 6125 6126 6127 6128 
+	}
+	local_supplies=0.0 
+}

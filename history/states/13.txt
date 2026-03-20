@@ -1,0 +1,40 @@
+
+state={
+	id=13
+	name="STATE_13"
+	manpower = 1688682
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 222 8}
+		victory_points = { 224 4}
+		victory_points = { 234 4}
+		
+		owner = NFO
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NFO
+	}
+
+	provinces={
+		221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 
+	}
+	local_supplies=0.0 
+}

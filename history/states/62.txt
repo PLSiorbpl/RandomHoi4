@@ -1,0 +1,43 @@
+
+state={
+	id=62
+	name="STATE_62"
+	manpower = 1077662
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 974 1}
+		victory_points = { 980 5}
+		victory_points = { 989 4}
+		
+		owner = NOJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			989 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOJ
+	}
+
+	provinces={
+		973 974 975 976 977 978 979 980 981 982 983 984 985 986 987 988 989 990 
+	}
+	local_supplies=0.0 
+}

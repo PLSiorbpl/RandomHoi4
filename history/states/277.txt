@@ -1,0 +1,40 @@
+
+state={
+	id=277
+	name="STATE_277"
+	manpower = 923678
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4137 3}
+		victory_points = { 4139 3}
+		victory_points = { 4144 1}
+		
+		owner = FQR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FQR
+	}
+
+	provinces={
+		4136 4137 4138 4139 4140 4141 4142 4143 4144 4145 4146 4147 4148 4149 4150 4151 
+	}
+	local_supplies=0.0 
+}

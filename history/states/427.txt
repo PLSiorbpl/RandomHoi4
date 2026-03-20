@@ -1,0 +1,41 @@
+
+state={
+	id=427
+	name="STATE_427"
+	manpower = 1607354
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=6
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5997 4}
+		victory_points = { 5998 3}
+		victory_points = { 6001 2}
+		victory_points = { 6012 4}
+		
+		owner = HSI
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HSI
+	}
+
+	provinces={
+		5994 5995 5996 5997 5998 5999 6000 6001 6002 6003 6004 6005 6006 6007 6008 6009 6010 6011 6012 6013 6014 6015 6016 6017 6018 6019 6020 6021 6022 6023 
+	}
+	local_supplies=0.0 
+}

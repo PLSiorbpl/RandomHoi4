@@ -1,0 +1,40 @@
+
+state={
+	id=742
+	name="STATE_742"
+	manpower = 1079532
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10567 3}
+		victory_points = { 10576 3}
+		victory_points = { 10579 3}
+		
+		owner = JMI
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = JMI
+	}
+
+	provinces={
+		10563 10564 10565 10566 10567 10568 10569 10570 10571 10572 10573 10574 10575 10576 10577 10578 10579 10580 
+	}
+	local_supplies=0.0 
+}

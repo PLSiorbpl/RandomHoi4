@@ -1,0 +1,40 @@
+
+state={
+	id=1035
+	name="STATE_1035"
+	manpower = 681582
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14419 2}
+		victory_points = { 14420 1}
+		victory_points = { 14427 1}
+		
+		owner = KAQ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KAQ
+	}
+
+	provinces={
+		14417 14418 14419 14420 14421 14422 14423 14424 14425 14426 14427 
+	}
+	local_supplies=0.0 
+}

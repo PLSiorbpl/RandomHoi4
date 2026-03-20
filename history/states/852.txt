@@ -1,0 +1,39 @@
+
+state={
+	id=852
+	name="STATE_852"
+	manpower = 429489
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 11883 1}
+		victory_points = { 11884 1}
+		
+		owner = PWR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PWR
+	}
+
+	provinces={
+		11883 11884 11885 11886 11887 11888 
+	}
+	local_supplies=0.0 
+}

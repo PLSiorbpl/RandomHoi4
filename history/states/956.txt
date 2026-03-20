@@ -1,0 +1,38 @@
+
+state={
+	id=956
+	name="STATE_956"
+	manpower = 318394
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13109 1}
+		
+		owner = UEO
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UEO
+	}
+
+	provinces={
+		13109 13110 13111 13112 
+	}
+	local_supplies=0.0 
+}

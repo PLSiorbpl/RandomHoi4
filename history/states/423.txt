@@ -1,0 +1,42 @@
+
+state={
+	id=423
+	name="STATE_423"
+	manpower = 339548
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5939 1}
+		victory_points = { 5940 1}
+		
+		owner = WHE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5938 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = WHE
+	}
+
+	provinces={
+		5938 5939 5940 5941 
+	}
+	local_supplies=0.0 
+}

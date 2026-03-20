@@ -1,0 +1,40 @@
+
+state={
+	id=441
+	name="STATE_441"
+	manpower = 869663
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6212 4}
+		victory_points = { 6214 2}
+		victory_points = { 6221 2}
+		
+		owner = LCF
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = LCF
+	}
+
+	provinces={
+		6212 6213 6214 6215 6216 6217 6218 6219 6220 6221 6222 6223 6224 6225 
+	}
+	local_supplies=0.0 
+}

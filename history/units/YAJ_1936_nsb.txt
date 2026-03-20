@@ -1,0 +1,366 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			anti_air = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 0 y = 3 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			mot_artillery_brigade = {  x = 3 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Dohajr' Militia Division"
+		location = 16693
+		division_template = "Militia Division"
+		start_experience_factor = 0.537708
+		start_equipment_factor = 0.882380
+	}
+	division= {
+		name = "1nd 'Ghanisn' Militia Division"
+		location = 16754
+		division_template = "Militia Division"
+		start_experience_factor = 0.949493
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Haranzil' Militia Division"
+		location = 16751
+		division_template = "Militia Division"
+		start_experience_factor = 0.333848
+		start_equipment_factor = 0.892893
+	}
+	division= {
+		name = "3th 'Haranzil' Militia Division"
+		location = 16750
+		division_template = "Militia Division"
+		start_experience_factor = 0.534560
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Basjid' Militia Division"
+		location = 16694
+		division_template = "Militia Division"
+		start_experience_factor = 0.483735
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Basjid' Militia Division"
+		location = 16833
+		division_template = "Militia Division"
+		start_experience_factor = 0.510503
+		start_equipment_factor = 0.924858
+	}
+	division= {
+		name = "6th 'Madinaml' Militia Division"
+		location = 16748
+		division_template = "Militia Division"
+		start_experience_factor = 0.066221
+		start_equipment_factor = 0.940033
+	}
+	division= {
+		name = "7th 'Taykh' Militia Division"
+		location = 16753
+		division_template = "Militia Division"
+		start_experience_factor = 0.758955
+		start_equipment_factor = 0.949021
+	}
+	division= {
+		name = "8th 'Ramanis' Militia Division"
+		location = 16837
+		division_template = "Militia Division"
+		start_experience_factor = 0.798584
+		start_equipment_factor = 0.941171
+	}
+	division= {
+		name = "9th 'Haranzil' Militia Division"
+		location = 16751
+		division_template = "Militia Division"
+		start_experience_factor = 0.500798
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "10st 'Haja' Militia Division"
+		location = 16690
+		division_template = "Militia Division"
+		start_experience_factor = 0.774714
+		start_equipment_factor = 0.982928
+	}
+	division= {
+		name = "11nd 'Haja' Militia Division"
+		location = 16831
+		division_template = "Militia Division"
+		start_experience_factor = 0.521518
+		start_equipment_factor = 0.977197
+	}
+	division= {
+		name = "12rd 'Madinaml' Militia Division"
+		location = 16748
+		division_template = "Militia Division"
+		start_experience_factor = 0.550530
+		start_equipment_factor = 0.950699
+	}
+	division= {
+		name = "13th 'Samlada' Militia Division"
+		location = 16832
+		division_template = "Militia Division"
+		start_experience_factor = 0.570330
+		start_equipment_factor = 0.974874
+	}
+	division= {
+		name = "14th 'Haja' Militia Division"
+		location = 16839
+		division_template = "Militia Division"
+		start_experience_factor = 0.964827
+		start_equipment_factor = 0.884541
+	}
+	division= {
+		name = "0st 'Hijar' Infantry Division"
+		location = 16689
+		division_template = "Infantry Division"
+		start_experience_factor = 0.614291
+		start_equipment_factor = 0.928456
+	}
+	division= {
+		name = "1nd 'Hijarra' Infantry Division"
+		location = 16692
+		division_template = "Infantry Division"
+		start_experience_factor = 0.344435
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Hijar' Infantry Division"
+		location = 16689
+		division_template = "Infantry Division"
+		start_experience_factor = 0.745825
+		start_equipment_factor = 0.937845
+	}
+	division= {
+		name = "3th 'Madinaml' Infantry Division"
+		location = 16748
+		division_template = "Infantry Division"
+		start_experience_factor = 0.339551
+		start_equipment_factor = 0.890573
+	}
+	division= {
+		name = "4th 'Dawkaba' Infantry Division"
+		location = 16747
+		division_template = "Infantry Division"
+		start_experience_factor = 0.127096
+		start_equipment_factor = 0.976903
+	}
+	division= {
+		name = "5th 'Ghanisn' Infantry Division"
+		location = 16754
+		division_template = "Infantry Division"
+		start_experience_factor = 0.141113
+		start_equipment_factor = 0.993331
+	}
+	division= {
+		name = "0st 'Ramanis' Cavalry Division"
+		location = 16688
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.368585
+		start_equipment_factor = 0.962840
+	}
+	division= {
+		name = "1nd 'Haja' Cavalry Division"
+		location = 16839
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.704194
+		start_equipment_factor = 0.948755
+	}
+	division= {
+		name = "2rd 'Ramanis' Cavalry Division"
+		location = 16688
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.885092
+		start_equipment_factor = 0.991927
+	}
+	division= {
+		name = "3th 'Dohajr' Cavalry Division"
+		location = 16693
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.381883
+		start_equipment_factor = 0.887732
+	}
+	division= {
+		name = "4th 'Haja' Cavalry Division"
+		location = 16690
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.113404
+		start_equipment_factor = 0.899271
+	}
+	division= {
+		name = "5th 'Madinaml' Cavalry Division"
+		location = 16749
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.158095
+		start_equipment_factor = 0.990390
+	}
+	division= {
+		name = "6th 'Basjid' Cavalry Division"
+		location = 16694
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.841247
+		start_equipment_factor = 0.997702
+	}
+	division= {
+		name = "7th 'Hijar' Cavalry Division"
+		location = 16689
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.520063
+		start_equipment_factor = 0.885760
+	}
+	division= {
+		name = "8th 'Haja' Cavalry Division"
+		location = 16690
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.954816
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Ramanis' Cavalry Division"
+		location = 16688
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.372579
+		start_equipment_factor = 0.929860
+	}
+	division= {
+		name = "10st 'Basjid' Cavalry Division"
+		location = 16694
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.595162
+		start_equipment_factor = 0.883053
+	}
+	division= {
+		name = "11nd 'Samlada' Cavalry Division"
+		location = 16835
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.824904
+		start_equipment_factor = 1.000000
+	}
+
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=579
+	name="STATE_579"
+	manpower = 1235892
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8437 1}
+		victory_points = { 8439 3}
+		victory_points = { 8445 1}
+		victory_points = { 8446 5}
+		
+		owner = BRH
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BRH
+	}
+
+	provinces={
+		8435 8436 8437 8438 8439 8440 8441 8442 8443 8444 8445 8446 8447 8448 8449 8450 8451 8452 8453 8454 8455 8456 
+	}
+	local_supplies=0.0 
+}

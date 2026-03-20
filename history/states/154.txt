@@ -1,0 +1,43 @@
+
+state={
+	id=154
+	name="STATE_154"
+	manpower = 788002
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2432 2}
+		victory_points = { 2436 1}
+		victory_points = { 2439 2}
+		
+		owner = HMR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2427 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HMR
+	}
+
+	provinces={
+		2427 2428 2429 2430 2431 2432 2433 2434 2435 2436 2437 2438 2439 2440 2441 
+	}
+	local_supplies=0.0 
+}

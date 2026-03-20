@@ -1,0 +1,39 @@
+
+state={
+	id=1138
+	name="STATE_1138"
+	manpower = 464990
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15834 2}
+		victory_points = { 15838 1}
+		
+		owner = QRR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = QRR
+	}
+
+	provinces={
+		15833 15834 15835 15836 15837 15838 15839 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=717
+	name="STATE_717"
+	manpower = 578524
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10243 1}
+		victory_points = { 10244 1}
+		victory_points = { 10251 1}
+		
+		owner = KNP
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KNP
+	}
+
+	provinces={
+		10243 10244 10245 10246 10247 10248 10249 10250 10251 
+	}
+	local_supplies=0.0 
+}

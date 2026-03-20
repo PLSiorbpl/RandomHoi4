@@ -1,0 +1,39 @@
+
+state={
+	id=230
+	name="STATE_230"
+	manpower = 337141
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3557 1}
+		victory_points = { 3560 1}
+		
+		owner = BAP
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAP
+	}
+
+	provinces={
+		3556 3557 3558 3559 3560 
+	}
+	local_supplies=0.0 
+}

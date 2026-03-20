@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Majaz Fleet"			
+		naval_base = 17157
+		task_force = {
+			name = "Majaz Fleet"
+			location = 17157
+			
+						ship = { name = "Jabib" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = MPJ version_name = "Kawar Class" } }	}
+			ship = { name = "Kawar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MPJ version_name = "Sabil Class" } }	}
+			ship = { name = "Sabil" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MPJ version_name = "Majaz Class" } }	}
+			ship = { name = "Majaz" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MPJ version_name = "Sabil Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

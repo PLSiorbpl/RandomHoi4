@@ -1,0 +1,880 @@
+characters = {
+	MCN_Jagadeen_Thani={
+		name="Jagadeen Thani"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCN_Vijay_Thonmai={
+		name="Vijay Thonmai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Vijay_Thonmai
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCN_Mohanesh_Aram={
+		name="Mohanesh Aram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Mohanesh_Aram
+				traits = {	headstrong 	}
+		}
+
+	}
+	MCN_Rajeshna_Thogugal={
+		name="Rajeshna Thogugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Rajeshna_Thogugal
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MCN_Jagadeen_Nadangugal={
+		name="Jagadeen Nadangugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Jagadeen_Nadangugal
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCN_Varthik_Kizhan={
+		name="Varthik Kizhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Varthik_Kizhan
+				traits = {	headstrong 	}
+		}
+
+	}
+	MCN_Moharthik_Nakku={
+		name="Moharthik Nakku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Moharthik_Nakku
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MCN_Varun_Nadangugal={
+		name="Varun Nadangugal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Varun_Nadangugal
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MCN_Varish_Aram={
+		name="Varish Aram"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Varish_Aram
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCN_Mohanesh_Mannolalai={
+		name="Mohanesh Mannolalai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Mohanesh_Mannolalai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCN_Krish_Mannolalai={
+		name="Krish Mannolalai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Krish_Mannolalai
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MCN_Jagharun_Mannolalai={
+		name="Jagharun Mannolalai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Jagharun_Mannolalai
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MCN_Krish_Nakku={
+		name="Krish Nakku"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Krish_Nakku
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MCN_Pranoj_Thani={
+		name="Pranoj Thani"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Pranoj_Thani
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MCN_Navi_Thonmai={
+		name="Navi Thonmai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Navi_Thonmai
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCN_Siddhan_Kizhan={
+		name="Siddhan Kizhan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Siddhan_Kizhan
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	MCN_Deepakash_Mannolalai={
+		name="Deepakash Mannolalai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Deepakash_Mannolalai
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	MCN_Rajiv_Aram={
+		name="Rajiv Aram"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Rajiv_Aram
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	MCN_Krish_Nenjil={
+		name="Krish Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Krish_Nenjil
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	MCN_Dinesh_Aram={
+		name="Dinesh Aram"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Dinesh_Aram
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MCN_Jagadeesh_Thonmai={
+		name="Jagadeesh Thonmai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Jagadeesh_Thonmai
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	MCN_Anil_Pudha={
+		name="Anil Pudha"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCN_Ragadeesh_Thonmai={
+		name="Ragadeesh Thonmai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Ragadeesh_Thonmai
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MCN_Anil_Nenjil={
+		name="Anil Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Anil_Nenjil
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	MCN_Siddhandran_Nenjil={
+		name="Siddhandran Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Siddhandran_Nenjil
+				traits = {	warmonger 	}
+		}
+
+	}
+	MCN_Navi_Nenjil={
+		name="Navi Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Navi_Nenjil
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MCN_Siddhandran_Pudha={
+		name="Siddhandran Pudha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Siddhandran_Pudha
+				traits = {	infirm 	}
+		}
+
+	}
+	MCN_Ajay_Aram={
+		name="Ajay Aram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Ajay_Aram
+				traits = {	autokrator 	}
+		}
+
+	}
+	MCN_Jaghan_Kizhan={
+		name="Jaghan Kizhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Jaghan_Kizhan
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MCN_Jagharthil_Aram={
+		name="Jagharthil Aram"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Jagharthil_Aram
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MCN_Surem_Kizhan={
+		name="Surem Kizhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Surem_Kizhan
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MCN_Siddharth_Thogugal={
+		name="Siddharth Thogugal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Siddharth_Thogugal
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MCN_Raghavi_Thani={
+		name="Raghavi Thani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Raghavi_Thani
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MCN_Kiranesh_Kizhan={
+		name="Kiranesh Kizhan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Kiranesh_Kizhan
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	MCN_Ravi_Thani={
+		name="Ravi Thani"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Ravi_Thani
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	MCN_Vijay_Nenjil={
+		name="Vijay Nenjil"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Vijay_Nenjil
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	MCN_Vijay_Aram={
+		name="Vijay Aram"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Vijay_Aram
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	MCN_Karth_Thogugal={
+		name="Karth Thogugal"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Karth_Thogugal
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	MCN_Manesh_Nenjil={
+		name="Manesh Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Manesh_Nenjil
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	MCN_Surem_Nadangugal={
+		name="Surem Nadangugal"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Surem_Nadangugal
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MCN_Karth_Mannolalai={
+		name="Karth Mannolalai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Karth_Mannolalai
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	MCN_Bala_Nakku={
+		name="Bala Nakku"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Bala_Nakku
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	MCN_Jagadeen_Aram={
+		name="Jagadeen Aram"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCN_Kumar_Mannolalai={
+		name="Kumar Mannolalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Kumar_Mannolalai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MCN_Kiranod_Nakku={
+		name="Kiranod Nakku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Kiranod_Nakku
+				traits = {	infirm 	}
+		}
+
+	}
+	MCN_Charish_Kizhan={
+		name="Charish Kizhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Charish_Kizhan
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MCN_Krish_Pudha={
+		name="Krish Pudha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Krish_Pudha
+				traits = {	infirm 	}
+		}
+
+	}
+	MCN_Deepak_Aram={
+		name="Deepak Aram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Deepak_Aram
+				traits = {	polemarch 	}
+		}
+
+	}
+	MCN_Jagadeesh_Mannolalai={
+		name="Jagadeesh Mannolalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Jagadeesh_Mannolalai
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MCN_Mohan_Pudha={
+		name="Mohan Pudha"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Mohan_Pudha
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MCN_Siddharthil_Nenjil={
+		name="Siddharthil Nenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Siddharthil_Nenjil
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MCN_Dinod_Nadangugal={
+		name="Dinod Nadangugal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Dinod_Nadangugal
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCN_Mohav_Pudha={
+		name="Mohav Pudha"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Mohav_Pudha
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MCN_Kumarun_Thogugal={
+		name="Kumarun Thogugal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Kumarun_Thogugal
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MCN_Kumarun_Pudha={
+		name="Kumarun Pudha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Kumarun_Pudha
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MCN_Hari_Thani={
+		name="Hari Thani"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Hari_Thani
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCN_Rajeshna_Nenjil={
+		name="Rajeshna Nenjil"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Rajeshna_Nenjil
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCN_Kiranesh_Pudha={
+		name="Kiranesh Pudha"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Kiranesh_Pudha
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MCN_Ravi_Kizhan={
+		name="Ravi Kizhan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Ravi_Kizhan
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	MCN_Jaghan_Nakku={
+		name="Jaghan Nakku"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Jaghan_Nakku
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MCN_Kumarthil_Thonmai={
+		name="Kumarthil Thonmai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Kumarthil_Thonmai
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	MCN_Rajeshna_Thani={
+		name="Rajeshna Thani"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Rajeshna_Thani
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	MCN_Vijay_Mannolalai={
+		name="Vijay Mannolalai"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Vijay_Mannolalai
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	MCN_Charish_Nadangugal={
+		name="Charish Nadangugal"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCN_Jagadeesh_Pudha={
+		name="Jagadeesh Pudha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Jagadeesh_Pudha
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MCN_Presh_Thogugal={
+		name="Presh Thogugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Presh_Thogugal
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MCN_Ajay_Mannolalai={
+		name="Ajay Mannolalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Ajay_Mannolalai
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCN_Ragadeepak_Nakku={
+		name="Ragadeepak Nakku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Ragadeepak_Nakku
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCN_Kumarun_Kizhan={
+		name="Kumarun Kizhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Kumarun_Kizhan
+				traits = {	rearmer 	}
+		}
+
+	}
+	MCN_Deepakash_Thogugal={
+		name="Deepakash Thogugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCN_Deepakash_Thogugal
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MCN_Kiranod_Aram={
+		name="Kiranod Aram"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Kiranod_Aram
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCN_Ravi_Nenjil={
+		name="Ravi Nenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Ravi_Nenjil
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCN_Ganesh_Kizhan={
+		name="Ganesh Kizhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Ganesh_Kizhan
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCN_Ajay_Kizhan={
+		name="Ajay Kizhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCN_Ajay_Kizhan
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MCN_Kumarun_Thonmai={
+		name="Kumarun Thonmai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Kumarun_Thonmai
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MCN_Anil_Thogugal={
+		name="Anil Thogugal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCN_Anil_Thogugal
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MCN_Siddharth_Thonmai={
+		name="Siddharth Thonmai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Siddharth_Thonmai
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCN_Arun_Kizhan={
+		name="Arun Kizhan"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCN_Arun_Kizhan
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	MCN_Jagadeesh_Kizhan={
+		name="Jagadeesh Kizhan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Jagadeesh_Kizhan
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	MCN_Krish_Thogugal={
+		name="Krish Thogugal"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Krish_Thogugal
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	MCN_Jagharun_Nenjil={
+		name="Jagharun Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Jagharun_Nenjil
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	MCN_Moharthik_Thani={
+		name="Moharthik Thani"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Moharthik_Thani
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	MCN_Ragadeepakas_Kizhan={
+		name="Ragadeepakas Kizhan"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Ragadeepakas_Kizhan
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	MCN_Jagadeepakas_Nenjil={
+		name="Jagadeepakas Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = MCN_Jagadeepakas_Nenjil
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	MCN_Kumar_Nenjil={
+		name="Kumar Nenjil"
+
+		advisor={
+			slot = theorist
+			idea_token = MCN_Kumar_Nenjil
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MCN_Hari_Mannolalai={
+		name="Hari Mannolalai"
+
+		advisor={
+			slot = theorist
+			idea_token = MCN_Hari_Mannolalai
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MCN_Ganesh_Thani={
+		name="Ganesh Thani"
+
+		advisor={
+			slot = theorist
+			idea_token = MCN_Ganesh_Thani
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

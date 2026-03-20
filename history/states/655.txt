@@ -1,0 +1,40 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 6687
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		
+		owner = CCH
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9341 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CCH
+	}
+
+	provinces={
+		9336 9337 9338 9339 9340 9341 9342 9343 9344 9345 9346 9347 9348 9349 
+	}
+	local_supplies=0.0 
+}

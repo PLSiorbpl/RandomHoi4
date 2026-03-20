@@ -1,0 +1,40 @@
+
+state={
+	id=174
+	name="STATE_174"
+	manpower = 1110211
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=14
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2728 2}
+		victory_points = { 2739 2}
+		victory_points = { 2743 5}
+		
+		owner = SIJ
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SIJ
+	}
+
+	provinces={
+		2725 2726 2727 2728 2729 2730 2731 2732 2733 2734 2735 2736 2737 2738 2739 2740 2741 2742 2743 
+	}
+	local_supplies=0.0 
+}

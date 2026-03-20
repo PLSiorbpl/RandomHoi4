@@ -1,0 +1,39 @@
+
+state={
+	id=400
+	name="STATE_400"
+	manpower = 433101
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5603 1}
+		victory_points = { 5607 1}
+		
+		owner = SIJ
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SIJ
+	}
+
+	provinces={
+		5602 5603 5604 5605 5606 5607 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,880 @@
+characters = {
+	HSK_Kiranesh_Poru={
+		name="Kiranesh Poru"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HSK_Chan_Pangugam={
+		name="Chan Pangugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Chan_Pangugam
+				traits = {	headstrong 	}
+		}
+
+	}
+	HSK_Vijay_Aaruganavu={
+		name="Vijay Aaruganavu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Vijay_Aaruganavu
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HSK_Kiran_Moolanthi={
+		name="Kiran Moolanthi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Kiran_Moolanthi
+				traits = {	humble 	}
+		}
+
+	}
+	HSK_Krish_Megam={
+		name="Krish Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Krish_Megam
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HSK_Sureshna_Arivu={
+		name="Sureshna Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Sureshna_Arivu
+				traits = {	humble 	}
+		}
+
+	}
+	HSK_Moharthil_Arivu={
+		name="Moharthil Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Moharthil_Arivu
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	HSK_Vinesh_Pangugam={
+		name="Vinesh Pangugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Vinesh_Pangugam
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HSK_Arun_Poru={
+		name="Arun Poru"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Arun_Poru
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HSK_Surem_Poru={
+		name="Surem Poru"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Surem_Poru
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HSK_Sureshna_Pangugam={
+		name="Sureshna Pangugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Sureshna_Pangugam
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HSK_Ajay_Mool={
+		name="Ajay Mool"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Ajay_Mool
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HSK_Siddhaveepak_Megam={
+		name="Siddhaveepak Megam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Siddhaveepak_Megam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HSK_Deenthil_Kaalal={
+		name="Deenthil Kaalal"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Deenthil_Kaalal
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	HSK_Deenthil_Aaruganavu={
+		name="Deenthil Aaruganavu"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Deenthil_Aaruganavu
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	HSK_Siddhaveesh_Moolanthi={
+		name="Siddhaveesh Moolanthi"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Siddhaveesh_Moolanthi
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	HSK_Rajiv_Kaalal={
+		name="Rajiv Kaalal"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Rajiv_Kaalal
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	HSK_Ganesh_Paatpu={
+		name="Ganesh Paatpu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Ganesh_Paatpu
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	HSK_Deepak_Paatpu={
+		name="Deepak Paatpu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Deepak_Paatpu
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	HSK_Rajesh_Poru={
+		name="Rajesh Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Rajesh_Poru
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	HSK_Karthik_Moolanthi={
+		name="Karthik Moolanthi"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Karthik_Moolanthi
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	HSK_Varth_Moolanthi={
+		name="Varth Moolanthi"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HSK_Varun_Paatpu={
+		name="Varun Paatpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Varun_Paatpu
+				traits = {	warmonger 	}
+		}
+
+	}
+	HSK_Varish_Poru={
+		name="Varish Poru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Varish_Poru
+				traits = {	basileus 	}
+		}
+
+	}
+	HSK_Varish_Thoppu={
+		name="Varish Thoppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Varish_Thoppu
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	HSK_Deenthik_Arivu={
+		name="Deenthik Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Deenthik_Arivu
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	HSK_Naveesh_Thoppu={
+		name="Naveesh Thoppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Naveesh_Thoppu
+				traits = {	infirm 	}
+		}
+
+	}
+	HSK_Vijay_Arivu={
+		name="Vijay Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Vijay_Arivu
+				traits = {	warmonger 	}
+		}
+
+	}
+	HSK_Kirandran_Paatpu={
+		name="Kirandran Paatpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Kirandran_Paatpu
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	HSK_Raghavi_Poru={
+		name="Raghavi Poru"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Raghavi_Poru
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	HSK_Deenthik_Mool={
+		name="Deenthik Mool"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Deenthik_Mool
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	HSK_Ajay_Aaruganavu={
+		name="Ajay Aaruganavu"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Ajay_Aaruganavu
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	HSK_Vijay_Paatpu={
+		name="Vijay Paatpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Vijay_Paatpu
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	HSK_Satish_Poru={
+		name="Satish Poru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Satish_Poru
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	HSK_Kiran_Pangugam={
+		name="Kiran Pangugam"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Kiran_Pangugam
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	HSK_Varun_Poru={
+		name="Varun Poru"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Varun_Poru
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	HSK_Dinoj_Kaalal={
+		name="Dinoj Kaalal"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Dinoj_Kaalal
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	HSK_Prak_Arivu={
+		name="Prak Arivu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Prak_Arivu
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HSK_Siddhaveepak_Arivu={
+		name="Siddhaveepak Arivu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Siddhaveepak_Arivu
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	HSK_Chavi_Kaalal={
+		name="Chavi Kaalal"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Chavi_Kaalal
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	HSK_Moharthil_Pangugam={
+		name="Moharthil Pangugam"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Moharthil_Pangugam
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	HSK_Kirandran_Mool={
+		name="Kirandran Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Kirandran_Mool
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	HSK_Dinoj_Moolanthi={
+		name="Dinoj Moolanthi"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HSK_Surem_Kaalal={
+		name="Surem Kaalal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Surem_Kaalal
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	HSK_Jagadeenthil_Thoppu={
+		name="Jagadeenthil Thoppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Jagadeenthil_Thoppu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	HSK_Siddharthil_Megam={
+		name="Siddharthil Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Siddharthil_Megam
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HSK_Suresh_Moolanthi={
+		name="Suresh Moolanthi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Suresh_Moolanthi
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	HSK_Dinoj_Thoppu={
+		name="Dinoj Thoppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Dinoj_Thoppu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	HSK_Dinesh_Megam={
+		name="Dinesh Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Dinesh_Megam
+				traits = {	polemarch 	}
+		}
+
+	}
+	HSK_Siddhan_Megam={
+		name="Siddhan Megam"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Siddhan_Megam
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	HSK_Siddhavi_Moolanthi={
+		name="Siddhavi Moolanthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Siddhavi_Moolanthi
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HSK_Dinoj_Mool={
+		name="Dinoj Mool"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Dinoj_Mool
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HSK_Dinoj_Megam={
+		name="Dinoj Megam"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Dinoj_Megam
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HSK_Dinesh_Arivu={
+		name="Dinesh Arivu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Dinesh_Arivu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	HSK_Dinesh_Mool={
+		name="Dinesh Mool"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Dinesh_Mool
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	HSK_Suresh_Poru={
+		name="Suresh Poru"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Suresh_Poru
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	HSK_Anil_Poru={
+		name="Anil Poru"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Anil_Poru
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	HSK_Senthil_Moolanthi={
+		name="Senthil Moolanthi"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Senthil_Moolanthi
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	HSK_Siddhaveesh_Thoppu={
+		name="Siddhaveesh Thoppu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Siddhaveesh_Thoppu
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	HSK_Prakash_Moolanthi={
+		name="Prakash Moolanthi"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Prakash_Moolanthi
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	HSK_Arun_Paatpu={
+		name="Arun Paatpu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Arun_Paatpu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	HSK_Dinesh_Poru={
+		name="Dinesh Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Dinesh_Poru
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	HSK_Rajiv_Poru={
+		name="Rajiv Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Rajiv_Poru
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	HSK_Vinoj_Pangugam={
+		name="Vinoj Pangugam"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HSK_Siddhan_Paatpu={
+		name="Siddhan Paatpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Siddhan_Paatpu
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HSK_Vari_Arivu={
+		name="Vari Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Vari_Arivu
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	HSK_Vari_Mool={
+		name="Vari Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Vari_Mool
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HSK_Varun_Mool={
+		name="Varun Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Varun_Mool
+				traits = {	rearmer 	}
+		}
+
+	}
+	HSK_Siddhaveesh_Kaalal={
+		name="Siddhaveesh Kaalal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Siddhaveesh_Kaalal
+				traits = {	infirm 	}
+		}
+
+	}
+	HSK_Deenthik_Megam={
+		name="Deenthik Megam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HSK_Deenthik_Megam
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	HSK_Moharthil_Kaalal={
+		name="Moharthil Kaalal"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Moharthil_Kaalal
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HSK_Deepak_Moolanthi={
+		name="Deepak Moolanthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Deepak_Moolanthi
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HSK_Kumarish_Moolanthi={
+		name="Kumarish Moolanthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Kumarish_Moolanthi
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HSK_Satish_Mool={
+		name="Satish Mool"
+
+		advisor={
+			slot = army_chief
+			idea_token = HSK_Satish_Mool
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HSK_Prak_Megam={
+		name="Prak Megam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Prak_Megam
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HSK_Kumarthik_Moolanthi={
+		name="Kumarthik Moolanthi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HSK_Kumarthik_Moolanthi
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	HSK_Mohavi_Paatpu={
+		name="Mohavi Paatpu"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Mohavi_Paatpu
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	HSK_Raghavi_Moolanthi={
+		name="Raghavi Moolanthi"
+
+		advisor={
+			slot = air_chief
+			idea_token = HSK_Raghavi_Moolanthi
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	HSK_Suresh_Megam={
+		name="Suresh Megam"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Suresh_Megam
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	HSK_Prak_Mool={
+		name="Prak Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Prak_Mool
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	HSK_Kumarthik_Aaruganavu={
+		name="Kumarthik Aaruganavu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Kumarthik_Aaruganavu
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HSK_Arun_Arivu={
+		name="Arun Arivu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Arun_Arivu
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	HSK_Siddhavi_Megam={
+		name="Siddhavi Megam"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Siddhavi_Megam
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	HSK_Presh_Paatpu={
+		name="Presh Paatpu"
+
+		advisor={
+			slot = high_command
+			idea_token = HSK_Presh_Paatpu
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	HSK_Vari_Pangugam={
+		name="Vari Pangugam"
+
+		advisor={
+			slot = theorist
+			idea_token = HSK_Vari_Pangugam
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HSK_Kumarun_Moolanthi={
+		name="Kumarun Moolanthi"
+
+		advisor={
+			slot = theorist
+			idea_token = HSK_Kumarun_Moolanthi
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HSK_Chan_Paatpu={
+		name="Chan Paatpu"
+
+		advisor={
+			slot = theorist
+			idea_token = HSK_Chan_Paatpu
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=1157
+	name="STATE_1157"
+	manpower = 393848
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=1
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16081 2}
+		
+		owner = LHU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = LHU
+	}
+
+	provinces={
+		16080 16081 16082 16083 16084 16085 
+	}
+	local_supplies=0.0 
+}

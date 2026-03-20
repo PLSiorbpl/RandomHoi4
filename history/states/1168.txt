@@ -1,0 +1,41 @@
+
+state={
+	id=1168
+	name="STATE_1168"
+	manpower = 256240
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16249 1}
+		
+		owner = OIS
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			16251 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = OIS
+	}
+
+	provinces={
+		16249 16250 16251 
+	}
+	local_supplies=0.0 
+}

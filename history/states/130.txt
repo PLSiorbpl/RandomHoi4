@@ -1,0 +1,39 @@
+
+state={
+	id=130
+	name="STATE_130"
+	manpower = 853974
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=25
+		coal=0
+	}
+
+	history={
+		victory_points = { 2037 1}
+		victory_points = { 2040 6}
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 
+	}
+	local_supplies=0.0 
+}

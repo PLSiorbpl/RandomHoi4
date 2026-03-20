@@ -1,0 +1,44 @@
+
+state={
+	id=1197
+	name="STATE_1197"
+	manpower = 998051
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16642 2}
+		victory_points = { 16644 2}
+		victory_points = { 16652 2}
+		victory_points = { 16656 2}
+		
+		owner = JAX
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			16645 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JAX
+	}
+
+	provinces={
+		16640 16641 16642 16643 16644 16645 16646 16647 16648 16649 16650 16651 16652 16653 16654 16655 16656 
+	}
+	local_supplies=0.0 
+}

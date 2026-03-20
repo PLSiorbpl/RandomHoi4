@@ -1,0 +1,40 @@
+
+state={
+	id=96
+	name="STATE_96"
+	manpower = 1015893
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=26
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1529 2}
+		victory_points = { 1544 1}
+		victory_points = { 1547 2}
+		
+		owner = KZR
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KZR
+	}
+
+	provinces={
+		1527 1528 1529 1530 1531 1532 1533 1534 1535 1536 1537 1538 1539 1540 1541 1542 1543 1544 1545 1546 1547 1548 1549 1550 1551 1552 1553 1554 1555 1556 1557 1558 1559 1560 1561 1562 1563 1564 1565 1566 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=664
+	name="STATE_664"
+	manpower = 1054510
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9449 4}
+		victory_points = { 9458 1}
+		victory_points = { 9459 2}
+		
+		owner = PBN
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PBN
+	}
+
+	provinces={
+		9447 9448 9449 9450 9451 9452 9453 9454 9455 9456 9457 9458 9459 9460 9461 9462 9463 9464 9465 
+	}
+	local_supplies=0.0 
+}

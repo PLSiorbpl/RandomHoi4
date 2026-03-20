@@ -1,0 +1,37 @@
+
+state={
+	id=909
+	name="STATE_909"
+	manpower = 294431
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CJR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CJR
+	}
+
+	provinces={
+		12546 12547 12548 12549 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=278
+	name="STATE_278"
+	manpower = 505201
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4152 1}
+		victory_points = { 4153 1}
+		victory_points = { 4158 1}
+		
+		owner = CHV
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4155 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CHV
+	}
+
+	provinces={
+		4152 4153 4154 4155 4156 4157 4158 4159 
+	}
+	local_supplies=0.0 
+}

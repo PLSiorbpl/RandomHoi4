@@ -1,0 +1,39 @@
+
+state={
+	id=1148
+	name="STATE_1148"
+	manpower = 676252
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15930 3}
+		victory_points = { 15935 2}
+		
+		owner = LHU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = LHU
+	}
+
+	provinces={
+		15929 15930 15931 15932 15933 15934 15935 15936 15937 15938 15939 
+	}
+	local_supplies=0.0 
+}

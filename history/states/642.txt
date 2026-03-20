@@ -1,0 +1,40 @@
+
+state={
+	id=642
+	name="STATE_642"
+	manpower = 1394326
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=17
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9223 4}
+		victory_points = { 9236 4}
+		victory_points = { 9242 4}
+		
+		owner = COZ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = COZ
+	}
+
+	provinces={
+		9221 9222 9223 9224 9225 9226 9227 9228 9229 9230 9231 9232 9233 9234 9235 9236 9237 9238 9239 9240 9241 9242 9243 9244 9245 
+	}
+	local_supplies=0.0 
+}

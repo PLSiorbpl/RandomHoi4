@@ -1,0 +1,880 @@
+characters = {
+	SOO_Hamir_Madi={
+		name="Hamir Madi"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Ahmal_Nizaml={
+		name="Ahmal Nizaml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ahmal_Nizaml
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SOO_Tariq_Saab={
+		name="Tariq Saab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Tariq_Saab
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SOO_Majid_Ghaq={
+		name="Majid Ghaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Majid_Ghaq
+				traits = {	humble 	}
+		}
+
+	}
+	SOO_Mohami_Majr={
+		name="Mohami Majr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Mohami_Majr
+				traits = {	humble 	}
+		}
+
+	}
+	SOO_Khamal_Rawar={
+		name="Khamal Rawar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Khamal_Rawar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SOO_Karim_Qaryalb={
+		name="Karim Qaryalb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Karim_Qaryalb
+				traits = {	humble 	}
+		}
+
+	}
+	SOO_Nabilahya_Taykh={
+		name="Nabilahya Taykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Nabilahya_Taykh
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SOO_Mohami_Rawar={
+		name="Mohami Rawar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Mohami_Rawar
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SOO_Imran_Majr={
+		name="Imran Majr"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Imran_Majr
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SOO_Hassan_Madi={
+		name="Hassan Madi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Hassan_Madi
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SOO_Imrahya_Madi={
+		name="Imrahya Madi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Imrahya_Madi
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SOO_Abdullal_Nizaml={
+		name="Abdullal Nizaml"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Abdullal_Nizaml
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SOO_Yusuf_Ghaq={
+		name="Yusuf Ghaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Yusuf_Ghaq
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SOO_Sammed_Wasrahel={
+		name="Sammed Wasrahel"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Sammed_Wasrahel
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SOO_Anwar_Madi={
+		name="Anwar Madi"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Anwar_Madi
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SOO_Ibrahmoud_Wasrahel={
+		name="Ibrahmoud Wasrahel"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Ibrahmoud_Wasrahel
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	SOO_Ahmal_Imalak={
+		name="Ahmal Imalak"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Ahmal_Imalak
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SOO_Hammed_Ghaq={
+		name="Hammed Ghaq"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Hammed_Ghaq
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	SOO_Jammed_Nizaml={
+		name="Jammed Nizaml"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Jammed_Nizaml
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SOO_Sami_Saab={
+		name="Sami Saab"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Sami_Saab
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	SOO_Sami_Taykh={
+		name="Sami Taykh"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Bilal_Taykh={
+		name="Bilal Taykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Bilal_Taykh
+				traits = {	generallissimo 	}
+		}
+
+	}
+	SOO_Ahmoud_Imalak={
+		name="Ahmoud Imalak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ahmoud_Imalak
+				traits = {	infirm 	}
+		}
+
+	}
+	SOO_Ibrah_Nizaml={
+		name="Ibrah Nizaml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ibrah_Nizaml
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SOO_Ibran_Nizaml={
+		name="Ibran Nizaml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ibran_Nizaml
+				traits = {	warmonger 	}
+		}
+
+	}
+	SOO_Zaid_Ghaq={
+		name="Zaid Ghaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Zaid_Ghaq
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SOO_Ahmad_Nizaml={
+		name="Ahmad Nizaml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ahmad_Nizaml
+				traits = {	polemarch 	}
+		}
+
+	}
+	SOO_Omal_Taykh={
+		name="Omal Taykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Omal_Taykh
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SOO_Jammed_Ghaq={
+		name="Jammed Ghaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Jammed_Ghaq
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SOO_Ramad_Nizaml={
+		name="Ramad Nizaml"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Ramad_Nizaml
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SOO_Nabilalid_Wasrahel={
+		name="Nabilalid Wasrahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Nabilalid_Wasrahel
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SOO_Jami_Madi={
+		name="Jami Madi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Jami_Madi
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SOO_Sami_Ghaq={
+		name="Sami Ghaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Sami_Ghaq
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	SOO_Anwar_Taykh={
+		name="Anwar Taykh"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Anwar_Taykh
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SOO_Mahya_Ghaq={
+		name="Mahya Ghaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Mahya_Ghaq
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SOO_Anwariq_Qaryalb={
+		name="Anwariq Qaryalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Anwariq_Qaryalb
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	SOO_Imrahya_Ghaq={
+		name="Imrahya Ghaq"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Imrahya_Ghaq
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	SOO_Ahmal_Ghaq={
+		name="Ahmal Ghaq"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Ahmal_Ghaq
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	SOO_Karim_Rawar={
+		name="Karim Rawar"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Karim_Rawar
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	SOO_Ahmoud_Saab={
+		name="Ahmoud Saab"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Ahmoud_Saab
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	SOO_Karim_Ghaq={
+		name="Karim Ghaq"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Karim_Ghaq
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SOO_Faid_Wasrahel={
+		name="Faid Wasrahel"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Rammed_Rawar={
+		name="Rammed Rawar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Rammed_Rawar
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SOO_Abdullal_Taykh={
+		name="Abdullal Taykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Abdullal_Taykh
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SOO_Ibrah_Qaryalb={
+		name="Ibrah Qaryalb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ibrah_Qaryalb
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SOO_Hamza_Madi={
+		name="Hamza Madi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Hamza_Madi
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SOO_Farid_Nizaml={
+		name="Farid Nizaml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Farid_Nizaml
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SOO_Zaisali_Majr={
+		name="Zaisali Majr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Zaisali_Majr
+				traits = {	polemarch 	}
+		}
+
+	}
+	SOO_Hamza_Saab={
+		name="Hamza Saab"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Hamza_Saab
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SOO_Yusuf_Wasrahel={
+		name="Yusuf Wasrahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Yusuf_Wasrahel
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SOO_Imran_Taykh={
+		name="Imran Taykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Imran_Taykh
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SOO_Sami_Madi={
+		name="Sami Madi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Sami_Madi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SOO_Hassan_Wasrahel={
+		name="Hassan Wasrahel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Hassan_Wasrahel
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SOO_Nabilalid_Ghaq={
+		name="Nabilalid Ghaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Nabilalid_Ghaq
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SOO_Mahmar_Qaryalb={
+		name="Mahmar Qaryalb"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Mahmar_Qaryalb
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SOO_Mahya_Qaryalb={
+		name="Mahya Qaryalb"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Mahya_Qaryalb
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SOO_Hamza_Taykh={
+		name="Hamza Taykh"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Hamza_Taykh
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SOO_Bilal_Saab={
+		name="Bilal Saab"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Bilal_Saab
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SOO_Nabilahya_Qaryalb={
+		name="Nabilahya Qaryalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Nabilahya_Qaryalb
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SOO_Ramza_Majr={
+		name="Ramza Majr"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Ramza_Majr
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	SOO_Sammed_Nizaml={
+		name="Sammed Nizaml"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Sammed_Nizaml
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SOO_Samza_Rawar={
+		name="Samza Rawar"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Samza_Rawar
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SOO_Jami_Rawar={
+		name="Jami Rawar"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Abdullah_Madi={
+		name="Abdullah Madi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Abdullah_Madi
+				traits = {	rearmer 	}
+		}
+
+	}
+	SOO_Hassalid_Imalak={
+		name="Hassalid Imalak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Hassalid_Imalak
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SOO_Mahya_Taykh={
+		name="Mahya Taykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Mahya_Taykh
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SOO_Ahmal_Majr={
+		name="Ahmal Majr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ahmal_Majr
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SOO_Hamza_Imalak={
+		name="Hamza Imalak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Hamza_Imalak
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SOO_Hammed_Majr={
+		name="Hammed Majr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Hammed_Majr
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SOO_Bilal_Majr={
+		name="Bilal Majr"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Bilal_Majr
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SOO_Anwariq_Rawar={
+		name="Anwariq Rawar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Anwariq_Rawar
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SOO_Zaisali_Imalak={
+		name="Zaisali Imalak"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Zaisali_Imalak
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SOO_Adnan_Taykh={
+		name="Adnan Taykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Adnan_Taykh
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SOO_Abdullah_Ghaq={
+		name="Abdullah Ghaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Abdullah_Ghaq
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SOO_Omad_Rawar={
+		name="Omad Rawar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Omad_Rawar
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SOO_Anwar_Imalak={
+		name="Anwar Imalak"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Anwar_Imalak
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SOO_Tarim_Nizaml={
+		name="Tarim Nizaml"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Tarim_Nizaml
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SOO_Jamza_Ghaq={
+		name="Jamza Ghaq"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Jamza_Ghaq
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SOO_Hamariq_Nizaml={
+		name="Hamariq Nizaml"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Hamariq_Nizaml
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SOO_Ramza_Wasrahel={
+		name="Ramza Wasrahel"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Ramza_Wasrahel
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	SOO_Anwarim_Ghaq={
+		name="Anwarim Ghaq"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Anwarim_Ghaq
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	SOO_Ibran_Wasrahel={
+		name="Ibran Wasrahel"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Ibran_Wasrahel
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	SOO_Mahmar_Majr={
+		name="Mahmar Majr"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Mahmar_Majr
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SOO_Sammed_Madi={
+		name="Sammed Madi"
+
+		advisor={
+			slot = theorist
+			idea_token = SOO_Sammed_Madi
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SOO_Khamal_Nizaml={
+		name="Khamal Nizaml"
+
+		advisor={
+			slot = theorist
+			idea_token = SOO_Khamal_Nizaml
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SOO_Abdullal_Wasrahel={
+		name="Abdullal Wasrahel"
+
+		advisor={
+			slot = theorist
+			idea_token = SOO_Abdullal_Wasrahel
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=585
+	name="STATE_585"
+	manpower = 791293
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=4
+	}
+
+	history={
+		victory_points = { 8546 1}
+		victory_points = { 8549 2}
+		victory_points = { 8552 2}
+		
+		owner = CBS
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8548 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CBS
+	}
+
+	provinces={
+		8541 8542 8543 8544 8545 8546 8547 8548 8549 8550 8551 8552 
+	}
+	local_supplies=0.0 
+}

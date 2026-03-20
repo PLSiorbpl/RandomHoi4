@@ -1,0 +1,42 @@
+
+state={
+	id=1128
+	name="STATE_1128"
+	manpower = 1842828
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=11
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15679 13}
+		victory_points = { 15683 5}
+		
+		owner = QRR
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			
+			15677 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QRR
+	}
+
+	provinces={
+		15670 15671 15672 15673 15674 15675 15676 15677 15678 15679 15680 15681 15682 15683 15684 15685 15686 15687 15688 15689 15690 15691 15692 15693 15694 15695 15696 15697 15698 15699 15700 15701 
+	}
+	local_supplies=0.0 
+}

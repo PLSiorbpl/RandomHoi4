@@ -1,0 +1,41 @@
+
+state={
+	id=555
+	name="STATE_555"
+	manpower = 733602
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8022 1}
+		victory_points = { 8023 1}
+		victory_points = { 8026 1}
+		victory_points = { 8032 1}
+		
+		owner = JQU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JQU
+	}
+
+	provinces={
+		8022 8023 8024 8025 8026 8027 8028 8029 8030 8031 8032 8033 
+	}
+	local_supplies=0.0 
+}

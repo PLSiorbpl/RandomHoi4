@@ -1,0 +1,43 @@
+
+state={
+	id=254
+	name="STATE_254"
+	manpower = 401096
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3839 1}
+		victory_points = { 3841 1}
+		victory_points = { 3843 1}
+		
+		owner = TPE
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3839 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TPE
+	}
+
+	provinces={
+		3838 3839 3840 3841 3842 3843 
+	}
+	local_supplies=0.0 
+}

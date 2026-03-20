@@ -1,0 +1,174 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			engineer = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Grim' Militia Division"
+		location = 14177
+		division_template = "Militia Division"
+		start_experience_factor = 0.727124
+		start_equipment_factor = 0.932858
+	}
+	division= {
+		name = "1nd 'Cilte' Militia Division"
+		location = 13552
+		division_template = "Militia Division"
+		start_experience_factor = 0.584884
+		start_equipment_factor = 0.871862
+	}
+	division= {
+		name = "2rd 'Cill' Militia Division"
+		location = 13607
+		division_template = "Militia Division"
+		start_experience_factor = 0.371564
+		start_equipment_factor = 0.974485
+	}
+	division= {
+		name = "3th 'Caill' Militia Division"
+		location = 17622
+		division_template = "Militia Division"
+		start_experience_factor = 0.587565
+		start_equipment_factor = 0.889918
+	}
+	division= {
+		name = "4th 'Sonn' Militia Division"
+		location = 13643
+		division_template = "Militia Division"
+		start_experience_factor = 0.059549
+		start_equipment_factor = 0.946840
+	}
+	division= {
+		name = "5th 'Ceileamh' Militia Division"
+		location = 13933
+		division_template = "Militia Division"
+		start_experience_factor = 0.972809
+		start_equipment_factor = 0.978538
+	}
+	division= {
+		name = "0st 'Fonn' Infantry Division"
+		location = 13558
+		division_template = "Infantry Division"
+		start_experience_factor = 0.614442
+		start_equipment_factor = 0.881378
+	}
+	division= {
+		name = "1nd 'Aigh' Infantry Division"
+		location = 13399
+		division_template = "Infantry Division"
+		start_experience_factor = 0.253910
+		start_equipment_factor = 0.989564
+	}
+	division= {
+		name = "2rd 'Failteachas' Infantry Division"
+		location = 13837
+		division_template = "Infantry Division"
+		start_experience_factor = 0.203670
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Cluas' Infantry Division"
+		location = 13610
+		division_template = "Infantry Division"
+		start_experience_factor = 0.462781
+		start_equipment_factor = 0.909450
+	}
+	division= {
+		name = "4th 'Cuim' Infantry Division"
+		location = 13855
+		division_template = "Infantry Division"
+		start_experience_factor = 0.861124
+		start_equipment_factor = 0.876347
+	}
+	division= {
+		name = "0st 'Lorm' Cavalry Division"
+		location = 13545
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.901024
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Aigh' Cavalry Division"
+		location = 13832
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.076133
+		start_equipment_factor = 0.954660
+	}
+
+}

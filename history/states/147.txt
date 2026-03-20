@@ -1,0 +1,40 @@
+
+state={
+	id=147
+	name="STATE_147"
+	manpower = 696526
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2300 1}
+		victory_points = { 2302 1}
+		victory_points = { 2309 3}
+		
+		owner = TPE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TPE
+	}
+
+	provinces={
+		2299 2300 2301 2302 2303 2304 2305 2306 2307 2308 2309 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=860
+	name="STATE_860"
+	manpower = 733013
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11982 1}
+		victory_points = { 11983 2}
+		victory_points = { 11987 1}
+		victory_points = { 11991 2}
+		
+		owner = WET
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = WET
+	}
+
+	provinces={
+		11980 11981 11982 11983 11984 11985 11986 11987 11988 11989 11990 11991 
+	}
+	local_supplies=0.0 
+}

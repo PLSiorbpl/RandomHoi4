@@ -1,0 +1,41 @@
+
+state={
+	id=1260
+	name="STATE_1260"
+	manpower = 330572
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=2
+	}
+
+	history={
+		victory_points = { 17322 1}
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17321 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		17318 17319 17320 17321 17322 17323 
+	}
+	local_supplies=0.0 
+}

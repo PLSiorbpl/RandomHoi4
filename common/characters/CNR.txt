@@ -1,0 +1,880 @@
+characters = {
+	CNR_Hari_Pintusang={
+		name="Hari Pintusang"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CNR_Mario_Tulaman={
+		name="Mario Tulaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Mario_Tulaman
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CNR_Fajar_Laut={
+		name="Fajar Laut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Fajar_Laut
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CNR_Lutfi_Tulaman={
+		name="Lutfi Tulaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Lutfi_Tulaman
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CNR_Agus_Perahayahgun={
+		name="Agus Perahayahgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Agus_Perahayahgun
+				traits = {	headstrong 	}
+		}
+
+	}
+	CNR_Agus_Senah={
+		name="Agus Senah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Agus_Senah
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CNR_Joko_Laut={
+		name="Joko Laut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Joko_Laut
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CNR_Bamban_Teta={
+		name="Bamban Teta"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Bamban_Teta
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CNR_Rama_Darnan={
+		name="Rama Darnan"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Rama_Darnan
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CNR_Hario_Adati={
+		name="Hario Adati"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Hario_Adati
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CNR_Ketut_Adati={
+		name="Ketut Adati"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Ketut_Adati
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CNR_Arjuna_Purum={
+		name="Arjuna Purum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Arjuna_Purum
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	CNR_Wayan_Laut={
+		name="Wayan Laut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Wayan_Laut
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	CNR_Hario_Laut={
+		name="Hario Laut"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Hario_Laut
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CNR_Rama_Adati={
+		name="Rama Adati"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Rama_Adati
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CNR_Putra_Tulaman={
+		name="Putra Tulaman"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Putra_Tulaman
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	CNR_Putra_Darnan={
+		name="Putra Darnan"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Putra_Darnan
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	CNR_Suryan_Pintusang={
+		name="Suryan Pintusang"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Suryan_Pintusang
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	CNR_Bamban_Purum={
+		name="Bamban Purum"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Bamban_Purum
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	CNR_Ketut_Tulaman={
+		name="Ketut Tulaman"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Ketut_Tulaman
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	CNR_Arjuna_Teta={
+		name="Arjuna Teta"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Arjuna_Teta
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	CNR_Fajari_Senah={
+		name="Fajari Senah"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CNR_Suryang_Teta={
+		name="Suryang Teta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Suryang_Teta
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CNR_Rama_Laut={
+		name="Rama Laut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Rama_Laut
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	CNR_Lutfi_Laut={
+		name="Lutfi Laut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Lutfi_Laut
+				traits = {	basileus 	}
+		}
+
+	}
+	CNR_Ketutfi_Adati={
+		name="Ketutfi Adati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Ketutfi_Adati
+				traits = {	generallissimo 	}
+		}
+
+	}
+	CNR_Fajar_Tulaman={
+		name="Fajar Tulaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Fajar_Tulaman
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	CNR_Wayan_Purum={
+		name="Wayan Purum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Wayan_Purum
+				traits = {	autokrator 	}
+		}
+
+	}
+	CNR_Mari_Laut={
+		name="Mari Laut"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Mari_Laut
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CNR_Hari_Tulaman={
+		name="Hari Tulaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Hari_Tulaman
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CNR_Dewa_Pintusang={
+		name="Dewa Pintusang"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Dewa_Pintusang
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CNR_Hari_Adati={
+		name="Hari Adati"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Hari_Adati
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CNR_Hari_Tanam={
+		name="Hari Tanam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Hari_Tanam
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CNR_Fajario_Senah={
+		name="Fajario Senah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Fajario_Senah
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	CNR_Ketutfi_Perahayahgun={
+		name="Ketutfi Perahayahgun"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Ketutfi_Perahayahgun
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	CNR_Budi_Laut={
+		name="Budi Laut"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Budi_Laut
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	CNR_Joko_Teta={
+		name="Joko Teta"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Joko_Teta
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	CNR_Ketutfi_Tanam={
+		name="Ketutfi Tanam"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Ketutfi_Tanam
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	CNR_Hari_Teta={
+		name="Hari Teta"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Hari_Teta
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	CNR_Lutra_Teta={
+		name="Lutra Teta"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Lutra_Teta
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	CNR_Lutra_Perahayahgun={
+		name="Lutra Perahayahgun"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Lutra_Perahayahgun
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	CNR_Budi_Teta={
+		name="Budi Teta"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Budi_Teta
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	CNR_Andi_Perahayahgun={
+		name="Andi Perahayahgun"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CNR_Andi_Laut={
+		name="Andi Laut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Andi_Laut
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CNR_Bama_Tulaman={
+		name="Bama Tulaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Bama_Tulaman
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CNR_Budi_Adati={
+		name="Budi Adati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Budi_Adati
+				traits = {	polemarch 	}
+		}
+
+	}
+	CNR_Arjuna_Senah={
+		name="Arjuna Senah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Arjuna_Senah
+				traits = {	political_dancer 	}
+		}
+
+	}
+	CNR_Budi_Tulaman={
+		name="Budi Tulaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Budi_Tulaman
+				traits = {	polemarch 	}
+		}
+
+	}
+	CNR_Sakti_Tanam={
+		name="Sakti Tanam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Sakti_Tanam
+				traits = {	political_dancer 	}
+		}
+
+	}
+	CNR_Bamban_Adati={
+		name="Bamban Adati"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Bamban_Adati
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CNR_Bama_Purum={
+		name="Bama Purum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Bama_Purum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CNR_Sakti_Adati={
+		name="Sakti Adati"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Sakti_Adati
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	CNR_Putfi_Tulaman={
+		name="Putfi Tulaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Putfi_Tulaman
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	CNR_Ketutra_Purum={
+		name="Ketutra Purum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Ketutra_Purum
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CNR_Hario_Tulaman={
+		name="Hario Tulaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Hario_Tulaman
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CNR_Rama_Pintusang={
+		name="Rama Pintusang"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Rama_Pintusang
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	CNR_Fajar_Pintusang={
+		name="Fajar Pintusang"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Fajar_Pintusang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	CNR_Ketutra_Tanam={
+		name="Ketutra Tanam"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Ketutra_Tanam
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	CNR_Mari_Pintusang={
+		name="Mari Pintusang"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Mari_Pintusang
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	CNR_Mari_Darnan={
+		name="Mari Darnan"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Mari_Darnan
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	CNR_Fajario_Adati={
+		name="Fajario Adati"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Fajario_Adati
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	CNR_Waya_Pintusang={
+		name="Waya Pintusang"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Waya_Pintusang
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	CNR_Ketut_Perahayahgun={
+		name="Ketut Perahayahgun"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Ketut_Perahayahgun
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	CNR_Lutfi_Perahayahgun={
+		name="Lutfi Perahayahgun"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CNR_Surya_Pintusang={
+		name="Surya Pintusang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Surya_Pintusang
+				traits = {	infirm 	}
+		}
+
+	}
+	CNR_Andi_Tulaman={
+		name="Andi Tulaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Andi_Tulaman
+				traits = {	the_banker 	}
+		}
+
+	}
+	CNR_Agus_Tulaman={
+		name="Agus Tulaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Agus_Tulaman
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	CNR_Budi_Purum={
+		name="Budi Purum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Budi_Purum
+				traits = {	infirm 	}
+		}
+
+	}
+	CNR_Wayang_Adati={
+		name="Wayang Adati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Wayang_Adati
+				traits = {	rearmer 	}
+		}
+
+	}
+	CNR_Rizal_Adati={
+		name="Rizal Adati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CNR_Rizal_Adati
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CNR_Wayang_Teta={
+		name="Wayang Teta"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Wayang_Teta
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	CNR_Lutfi_Adati={
+		name="Lutfi Adati"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Lutfi_Adati
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	CNR_Lutfi_Tanam={
+		name="Lutfi Tanam"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Lutfi_Tanam
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CNR_Bamban_Tanam={
+		name="Bamban Tanam"
+
+		advisor={
+			slot = army_chief
+			idea_token = CNR_Bamban_Tanam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	CNR_Sakti_Laut={
+		name="Sakti Laut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Sakti_Laut
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	CNR_Suryan_Purum={
+		name="Suryan Purum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CNR_Suryan_Purum
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	CNR_Andi_Tanam={
+		name="Andi Tanam"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Andi_Tanam
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CNR_Surya_Perahayahgun={
+		name="Surya Perahayahgun"
+
+		advisor={
+			slot = air_chief
+			idea_token = CNR_Surya_Perahayahgun
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	CNR_Ketut_Teta={
+		name="Ketut Teta"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Ketut_Teta
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	CNR_Budi_Darnan={
+		name="Budi Darnan"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Budi_Darnan
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	CNR_Budi_Senah={
+		name="Budi Senah"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Budi_Senah
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	CNR_Rama_Perahayahgun={
+		name="Rama Perahayahgun"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Rama_Perahayahgun
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	CNR_Lutra_Tanam={
+		name="Lutra Tanam"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Lutra_Tanam
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	CNR_Hario_Pintusang={
+		name="Hario Pintusang"
+
+		advisor={
+			slot = high_command
+			idea_token = CNR_Hario_Pintusang
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	CNR_Suryan_Perahayahgun={
+		name="Suryan Perahayahgun"
+
+		advisor={
+			slot = theorist
+			idea_token = CNR_Suryan_Perahayahgun
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CNR_Ketutra_Pintusang={
+		name="Ketutra Pintusang"
+
+		advisor={
+			slot = theorist
+			idea_token = CNR_Ketutra_Pintusang
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CNR_Ketutra_Senah={
+		name="Ketutra Senah"
+
+		advisor={
+			slot = theorist
+			idea_token = CNR_Ketutra_Senah
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

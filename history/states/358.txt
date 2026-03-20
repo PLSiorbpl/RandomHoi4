@@ -1,0 +1,40 @@
+
+state={
+	id=358
+	name="STATE_358"
+	manpower = 561234
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=10
+	}
+
+	history={
+		victory_points = { 5163 1}
+		victory_points = { 5169 2}
+		victory_points = { 5170 1}
+		
+		owner = PCR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PCR
+	}
+
+	provinces={
+		5162 5163 5164 5165 5166 5167 5168 5169 5170 5171 
+	}
+	local_supplies=0.0 
+}

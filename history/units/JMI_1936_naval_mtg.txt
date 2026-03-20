@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Imix Fleet"			
+		naval_base = 12002
+		task_force = {
+			name = "Imix Fleet"
+			location = 12002
+			
+						ship = { name = "Imix" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = JMI version_name = "Chel Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

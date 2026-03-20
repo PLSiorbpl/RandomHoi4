@@ -1,0 +1,880 @@
+characters = {
+	VUD_Prem_Natrul={
+		name="Prem Natrul"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUD_Ganesh_Oosaiyar={
+		name="Ganesh Oosaiyar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Ganesh_Oosaiyar
+				traits = {	humble 	}
+		}
+
+	}
+	VUD_Raghan_Thozhinai={
+		name="Raghan Thozhinai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Raghan_Thozhinai
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	VUD_Arun_Manthinai={
+		name="Arun Manthinai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Arun_Manthinai
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	VUD_Deesh_Oosaiyar={
+		name="Deesh Oosaiyar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Deesh_Oosaiyar
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	VUD_Satishna_Manam={
+		name="Satishna Manam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Satishna_Manam
+				traits = {	headstrong 	}
+		}
+
+	}
+	VUD_Manoj_Pasi={
+		name="Manoj Pasi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Manoj_Pasi
+				traits = {	humble 	}
+		}
+
+	}
+	VUD_Navi_Thozhinai={
+		name="Navi Thozhinai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Navi_Thozhinai
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	VUD_Satishna_Natrul={
+		name="Satishna Natrul"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Satishna_Natrul
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	VUD_Arun_Mangu={
+		name="Arun Mangu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Arun_Mangu
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VUD_Moharthil_Manthinai={
+		name="Moharthil Manthinai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Moharthil_Manthinai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VUD_Manoj_Mool={
+		name="Manoj Mool"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Manoj_Mool
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	VUD_Kirandrandra_Kaam={
+		name="Kirandrandra Kaam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Kirandrandra_Kaam
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	VUD_Kiran_Malalai={
+		name="Kiran Malalai"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Kiran_Malalai
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	VUD_Dinoj_Mangu={
+		name="Dinoj Mangu"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Dinoj_Mangu
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	VUD_Jagharthik_Manthinai={
+		name="Jagharthik Manthinai"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Jagharthik_Manthinai
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	VUD_Rajeshna_Oosaiyar={
+		name="Rajeshna Oosaiyar"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Rajeshna_Oosaiyar
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	VUD_Ajay_Natrul={
+		name="Ajay Natrul"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Ajay_Natrul
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	VUD_Raghanesh_Malalai={
+		name="Raghanesh Malalai"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Raghanesh_Malalai
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	VUD_Karthik_Natrul={
+		name="Karthik Natrul"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Karthik_Natrul
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	VUD_Bala_Pasi={
+		name="Bala Pasi"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Bala_Pasi
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	VUD_Arun_Manam={
+		name="Arun Manam"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUD_Siddhanod_Mangu={
+		name="Siddhanod Mangu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Siddhanod_Mangu
+				traits = {	autokrator 	}
+		}
+
+	}
+	VUD_Krish_Malalai={
+		name="Krish Malalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Krish_Malalai
+				traits = {	basileus 	}
+		}
+
+	}
+	VUD_Varun_Manam={
+		name="Varun Manam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Varun_Manam
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	VUD_Gandrakash_Mool={
+		name="Gandrakash Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Gandrakash_Mool
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	VUD_Ganesh_Malalai={
+		name="Ganesh Malalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Ganesh_Malalai
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	VUD_Sureshna_Thozhinai={
+		name="Sureshna Thozhinai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Sureshna_Thozhinai
+				traits = {	generallissimo 	}
+		}
+
+	}
+	VUD_Sureshna_Oosaiyar={
+		name="Sureshna Oosaiyar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Sureshna_Oosaiyar
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	VUD_Varun_Oosaiyar={
+		name="Varun Oosaiyar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Varun_Oosaiyar
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VUD_Moharthil_Mool={
+		name="Moharthil Mool"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Moharthil_Mool
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	VUD_Siddharun_Oosaiyar={
+		name="Siddharun Oosaiyar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Siddharun_Oosaiyar
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	VUD_Anil_Oosaiyar={
+		name="Anil Oosaiyar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Anil_Oosaiyar
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	VUD_Dinesh_Pasi={
+		name="Dinesh Pasi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Dinesh_Pasi
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	VUD_Siddharun_Mangu={
+		name="Siddharun Mangu"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Siddharun_Mangu
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	VUD_Bala_Mool={
+		name="Bala Mool"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Bala_Mool
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	VUD_Suresh_Thozhinai={
+		name="Suresh Thozhinai"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Suresh_Thozhinai
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	VUD_Kumar_Pasi={
+		name="Kumar Pasi"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Kumar_Pasi
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	VUD_Manesh_Pasi={
+		name="Manesh Pasi"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Manesh_Pasi
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	VUD_Preshna_Mool={
+		name="Preshna Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Preshna_Mool
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	VUD_Jaghanesh_Oosaiyar={
+		name="Jaghanesh Oosaiyar"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Jaghanesh_Oosaiyar
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	VUD_Pranod_Manthinai={
+		name="Pranod Manthinai"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Pranod_Manthinai
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	VUD_Ganesh_Pasi={
+		name="Ganesh Pasi"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUD_Varun_Malalai={
+		name="Varun Malalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Varun_Malalai
+				traits = {	polemarch 	}
+		}
+
+	}
+	VUD_Prem_Mool={
+		name="Prem Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Prem_Mool
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	VUD_Anil_Mool={
+		name="Anil Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Anil_Mool
+				traits = {	infirm 	}
+		}
+
+	}
+	VUD_Karun_Oosaiyar={
+		name="Karun Oosaiyar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Karun_Oosaiyar
+				traits = {	polemarch 	}
+		}
+
+	}
+	VUD_Pran_Manthinai={
+		name="Pran Manthinai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Pran_Manthinai
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	VUD_Rajiv_Kaam={
+		name="Rajiv Kaam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Rajiv_Kaam
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	VUD_Surem_Manam={
+		name="Surem Manam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Surem_Manam
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VUD_Anil_Malalai={
+		name="Anil Malalai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Anil_Malalai
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	VUD_Sureshna_Mool={
+		name="Sureshna Mool"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Sureshna_Mool
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	VUD_Surem_Kaam={
+		name="Surem Kaam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Surem_Kaam
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	VUD_Deesh_Manthinai={
+		name="Deesh Manthinai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Deesh_Manthinai
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	VUD_Ganesh_Mool={
+		name="Ganesh Mool"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Ganesh_Mool
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	VUD_Siddharun_Malalai={
+		name="Siddharun Malalai"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Siddharun_Malalai
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	VUD_Senthil_Oosaiyar={
+		name="Senthil Oosaiyar"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Senthil_Oosaiyar
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	VUD_Raghanesh_Natrul={
+		name="Raghanesh Natrul"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Raghanesh_Natrul
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	VUD_Chanod_Mool={
+		name="Chanod Mool"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Chanod_Mool
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	VUD_Siddharun_Manam={
+		name="Siddharun Manam"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Siddharun_Manam
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	VUD_Sureshna_Mangu={
+		name="Sureshna Mangu"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Sureshna_Mangu
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	VUD_Chanod_Thozhinai={
+		name="Chanod Thozhinai"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Chanod_Thozhinai
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	VUD_Chanod_Pasi={
+		name="Chanod Pasi"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Chanod_Pasi
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	VUD_Gandrakash_Manam={
+		name="Gandrakash Manam"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VUD_Manoj_Malalai={
+		name="Manoj Malalai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Manoj_Malalai
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	VUD_Krish_Oosaiyar={
+		name="Krish Oosaiyar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Krish_Oosaiyar
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	VUD_Karth_Pasi={
+		name="Karth Pasi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Karth_Pasi
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	VUD_Dineshna_Mool={
+		name="Dineshna Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Dineshna_Mool
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	VUD_Dinoj_Manam={
+		name="Dinoj Manam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Dinoj_Manam
+				traits = {	infirm 	}
+		}
+
+	}
+	VUD_Kirandrandra_Mool={
+		name="Kirandrandra Mool"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VUD_Kirandrandra_Mool
+				traits = {	the_banker 	}
+		}
+
+	}
+	VUD_Kumarun_Natrul={
+		name="Kumarun Natrul"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Kumarun_Natrul
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	VUD_Jaghan_Mool={
+		name="Jaghan Mool"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Jaghan_Mool
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	VUD_Dinoj_Malalai={
+		name="Dinoj Malalai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Dinoj_Malalai
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	VUD_Manoj_Manam={
+		name="Manoj Manam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VUD_Manoj_Manam
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	VUD_Kumar_Natrul={
+		name="Kumar Natrul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Kumar_Natrul
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	VUD_Raghanesh_Mangu={
+		name="Raghanesh Mangu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VUD_Raghanesh_Mangu
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	VUD_Raveen_Manthinai={
+		name="Raveen Manthinai"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Raveen_Manthinai
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	VUD_Arun_Thozhinai={
+		name="Arun Thozhinai"
+
+		advisor={
+			slot = air_chief
+			idea_token = VUD_Arun_Thozhinai
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	VUD_Varth_Kaam={
+		name="Varth Kaam"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Varth_Kaam
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	VUD_Vineshna_Mangu={
+		name="Vineshna Mangu"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Vineshna_Mangu
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	VUD_Satish_Pasi={
+		name="Satish Pasi"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Satish_Pasi
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	VUD_Deenth_Kaam={
+		name="Deenth Kaam"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Deenth_Kaam
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	VUD_Dineshna_Mangu={
+		name="Dineshna Mangu"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Dineshna_Mangu
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	VUD_Rajeshna_Malalai={
+		name="Rajeshna Malalai"
+
+		advisor={
+			slot = high_command
+			idea_token = VUD_Rajeshna_Malalai
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	VUD_Vineshna_Pasi={
+		name="Vineshna Pasi"
+
+		advisor={
+			slot = theorist
+			idea_token = VUD_Vineshna_Pasi
+				traits = {	military_theorist 	}
+		}
+
+	}
+	VUD_Dineshna_Pasi={
+		name="Dineshna Pasi"
+
+		advisor={
+			slot = theorist
+			idea_token = VUD_Dineshna_Pasi
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	VUD_Kumarth_Oosaiyar={
+		name="Kumarth Oosaiyar"
+
+		advisor={
+			slot = theorist
+			idea_token = VUD_Kumarth_Oosaiyar
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

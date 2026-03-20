@@ -1,0 +1,880 @@
+characters = {
+	PWR_Hari_Nyahayi={
+		name="Hari Nyahayi"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PWR_Sakti_Mimpintah={
+		name="Sakti Mimpintah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Sakti_Mimpintah
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	PWR_Wayang_Kepung={
+		name="Wayang Kepung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Wayang_Kepung
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PWR_Wayan_Mimpintah={
+		name="Wayan Mimpintah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Wayan_Mimpintah
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PWR_Agus_Takum={
+		name="Agus Takum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Agus_Takum
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PWR_Ketutfi_Alaung={
+		name="Ketutfi Alaung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Ketutfi_Alaung
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PWR_Ketutra_Mulan={
+		name="Ketutra Mulan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Ketutra_Mulan
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	PWR_Suryan_Nyahayi={
+		name="Suryan Nyahayi"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Suryan_Nyahayi
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PWR_Ramban_Kepung={
+		name="Ramban Kepung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Ramban_Kepung
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PWR_Agus_Nyahayi={
+		name="Agus Nyahayi"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Agus_Nyahayi
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	PWR_Andi_Nyahayi={
+		name="Andi Nyahayi"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Andi_Nyahayi
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	PWR_Dewa_Alaung={
+		name="Dewa Alaung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Dewa_Alaung
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	PWR_Wayang_Mimpintah={
+		name="Wayang Mimpintah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Wayang_Mimpintah
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	PWR_Rambang_Alaung={
+		name="Rambang Alaung"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Rambang_Alaung
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	PWR_Ramban_Nyahayi={
+		name="Ramban Nyahayi"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Ramban_Nyahayi
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	PWR_Waya_Mendan={
+		name="Waya Mendan"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Waya_Mendan
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PWR_Fajari_Nyahayi={
+		name="Fajari Nyahayi"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Fajari_Nyahayi
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PWR_Suryan_Alaung={
+		name="Suryan Alaung"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Suryan_Alaung
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	PWR_Andi_Takum={
+		name="Andi Takum"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Andi_Takum
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	PWR_Arjuna_Mulan={
+		name="Arjuna Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Arjuna_Mulan
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	PWR_Putfi_Seni={
+		name="Putfi Seni"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Putfi_Seni
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	PWR_Dewa_Mimpintah={
+		name="Dewa Mimpintah"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PWR_Sakti_Mendan={
+		name="Sakti Mendan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Sakti_Mendan
+				traits = {	generallissimo 	}
+		}
+
+	}
+	PWR_Andi_Alaung={
+		name="Andi Alaung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Andi_Alaung
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	PWR_Bambang_Sedih={
+		name="Bambang Sedih"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Bambang_Sedih
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	PWR_Lutra_Takum={
+		name="Lutra Takum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Lutra_Takum
+				traits = {	infirm 	}
+		}
+
+	}
+	PWR_Wayan_Alaung={
+		name="Wayan Alaung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Wayan_Alaung
+				traits = {	polemarch 	}
+		}
+
+	}
+	PWR_Joko_Mimpintah={
+		name="Joko Mimpintah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Joko_Mimpintah
+				traits = {	polemarch 	}
+		}
+
+	}
+	PWR_Surya_Sedih={
+		name="Surya Sedih"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Surya_Sedih
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PWR_Wayan_Nyahayi={
+		name="Wayan Nyahayi"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Wayan_Nyahayi
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	PWR_Ketutfi_Sedih={
+		name="Ketutfi Sedih"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Ketutfi_Sedih
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PWR_Ketut_Mendan={
+		name="Ketut Mendan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Ketut_Mendan
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	PWR_Bama_Nyahayi={
+		name="Bama Nyahayi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Bama_Nyahayi
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PWR_Rizal_Seni={
+		name="Rizal Seni"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Rizal_Seni
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	PWR_Bambang_Seni={
+		name="Bambang Seni"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Bambang_Seni
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PWR_Wayan_Sedih={
+		name="Wayan Sedih"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Wayan_Sedih
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PWR_Rama_Seni={
+		name="Rama Seni"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Rama_Seni
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	PWR_Hari_Sedih={
+		name="Hari Sedih"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Hari_Sedih
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	PWR_Putfi_Nyahayi={
+		name="Putfi Nyahayi"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Putfi_Nyahayi
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	PWR_Surya_Mendan={
+		name="Surya Mendan"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Surya_Mendan
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	PWR_Joko_Mulan={
+		name="Joko Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Joko_Mulan
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	PWR_Joko_Nyahayi={
+		name="Joko Nyahayi"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Joko_Nyahayi
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	PWR_Putra_Kepung={
+		name="Putra Kepung"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PWR_Surya_Nyahayi={
+		name="Surya Nyahayi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Surya_Nyahayi
+				traits = {	infirm 	}
+		}
+
+	}
+	PWR_Putra_Mimpintah={
+		name="Putra Mimpintah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Putra_Mimpintah
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PWR_Ketutra_Kepung={
+		name="Ketutra Kepung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Ketutra_Kepung
+				traits = {	polemarch 	}
+		}
+
+	}
+	PWR_Arjuna_Takum={
+		name="Arjuna Takum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Arjuna_Takum
+				traits = {	polemarch 	}
+		}
+
+	}
+	PWR_Surya_Mimpintah={
+		name="Surya Mimpintah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Surya_Mimpintah
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PWR_Ketutra_Sedih={
+		name="Ketutra Sedih"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Ketutra_Sedih
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PWR_Rambang_Mendan={
+		name="Rambang Mendan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Rambang_Mendan
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PWR_Rama_Kepung={
+		name="Rama Kepung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Rama_Kepung
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	PWR_Lutra_Mulan={
+		name="Lutra Mulan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Lutra_Mulan
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	PWR_Agus_Sedih={
+		name="Agus Sedih"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Agus_Sedih
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PWR_Rizal_Mendan={
+		name="Rizal Mendan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Rizal_Mendan
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	PWR_Joko_Alaung={
+		name="Joko Alaung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Joko_Alaung
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	PWR_Putra_Takum={
+		name="Putra Takum"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Putra_Takum
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	PWR_Arjuna_Mendan={
+		name="Arjuna Mendan"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Arjuna_Mendan
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PWR_Dewa_Sedih={
+		name="Dewa Sedih"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Dewa_Sedih
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	PWR_Bamban_Mendan={
+		name="Bamban Mendan"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Bamban_Mendan
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	PWR_Rizal_Alaung={
+		name="Rizal Alaung"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Rizal_Alaung
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	PWR_Joko_Mendan={
+		name="Joko Mendan"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Joko_Mendan
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	PWR_Ramban_Mimpintah={
+		name="Ramban Mimpintah"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Ramban_Mimpintah
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	PWR_Fajari_Mendan={
+		name="Fajari Mendan"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Fajari_Mendan
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PWR_Suryang_Alaung={
+		name="Suryang Alaung"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PWR_Agus_Seni={
+		name="Agus Seni"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Agus_Seni
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PWR_Joko_Sedih={
+		name="Joko Sedih"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Joko_Sedih
+				traits = {	first_lady 	}
+		}
+
+	}
+	PWR_Bambang_Alaung={
+		name="Bambang Alaung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Bambang_Alaung
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PWR_Suryang_Mimpintah={
+		name="Suryang Mimpintah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Suryang_Mimpintah
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PWR_Hario_Kepung={
+		name="Hario Kepung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Hario_Kepung
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	PWR_Dewa_Mulan={
+		name="Dewa Mulan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PWR_Dewa_Mulan
+				traits = {	infirm 	}
+		}
+
+	}
+	PWR_Fajari_Kepung={
+		name="Fajari Kepung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Fajari_Kepung
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PWR_Budi_Nyahayi={
+		name="Budi Nyahayi"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Budi_Nyahayi
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PWR_Waya_Seni={
+		name="Waya Seni"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Waya_Seni
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PWR_Bamban_Mimpintah={
+		name="Bamban Mimpintah"
+
+		advisor={
+			slot = army_chief
+			idea_token = PWR_Bamban_Mimpintah
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PWR_Suryan_Kepung={
+		name="Suryan Kepung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Suryan_Kepung
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	PWR_Waya_Nyahayi={
+		name="Waya Nyahayi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PWR_Waya_Nyahayi
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	PWR_Waya_Mimpintah={
+		name="Waya Mimpintah"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Waya_Mimpintah
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	PWR_Rambang_Mulan={
+		name="Rambang Mulan"
+
+		advisor={
+			slot = air_chief
+			idea_token = PWR_Rambang_Mulan
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PWR_Joko_Seni={
+		name="Joko Seni"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Joko_Seni
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	PWR_Rama_Mimpintah={
+		name="Rama Mimpintah"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Rama_Mimpintah
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	PWR_Suryan_Sedih={
+		name="Suryan Sedih"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Suryan_Sedih
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PWR_Waya_Kepung={
+		name="Waya Kepung"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Waya_Kepung
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PWR_Lutra_Nyahayi={
+		name="Lutra Nyahayi"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Lutra_Nyahayi
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	PWR_Hario_Alaung={
+		name="Hario Alaung"
+
+		advisor={
+			slot = high_command
+			idea_token = PWR_Hario_Alaung
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	PWR_Rambang_Takum={
+		name="Rambang Takum"
+
+		advisor={
+			slot = theorist
+			idea_token = PWR_Rambang_Takum
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PWR_Hario_Mimpintah={
+		name="Hario Mimpintah"
+
+		advisor={
+			slot = theorist
+			idea_token = PWR_Hario_Mimpintah
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PWR_Waya_Alaung={
+		name="Waya Alaung"
+
+		advisor={
+			slot = theorist
+			idea_token = PWR_Waya_Alaung
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 355991
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4282 1}
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			4286 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		4281 4282 4283 4284 4285 4286 4287 4288 
+	}
+	local_supplies=0.0 
+}

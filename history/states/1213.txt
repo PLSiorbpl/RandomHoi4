@@ -1,0 +1,42 @@
+
+state={
+	id=1213
+	name="STATE_1213"
+	manpower = 604436
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16835 2}
+		victory_points = { 16838 2}
+		
+		owner = YAJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			16838 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAJ
+	}
+
+	provinces={
+		16831 16832 16833 16834 16835 16836 16837 16838 16839 
+	}
+	local_supplies=0.0 
+}

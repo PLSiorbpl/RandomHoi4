@@ -1,0 +1,38 @@
+
+state={
+	id=766
+	name="STATE_766"
+	manpower = 245561
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10838 2}
+		
+		owner = CJR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CJR
+	}
+
+	provinces={
+		10838 10839 10840 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=7
+	name="STATE_7"
+	manpower = 279547
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 119 1}
+		
+		owner = NOJ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NOJ
+	}
+
+	provinces={
+		118 119 120 121 
+	}
+	local_supplies=0.0 
+}

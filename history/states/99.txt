@@ -1,0 +1,39 @@
+
+state={
+	id=99
+	name="STATE_99"
+	manpower = 1533069
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=6
+		coal=0
+	}
+
+	history={
+		victory_points = { 1624 13}
+		victory_points = { 1627 1}
+		
+		owner = EOP
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = EOP
+	}
+
+	provinces={
+		1615 1616 1617 1618 1619 1620 1621 1622 1623 1624 1625 1626 1627 1628 1629 1630 1631 1632 1633 1634 1635 1636 1637 1638 1639 1640 
+	}
+	local_supplies=0.0 
+}

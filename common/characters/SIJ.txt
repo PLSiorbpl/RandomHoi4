@@ -1,0 +1,880 @@
+characters = {
+	SIJ_Sammed_Hijar={
+		name="Sammed Hijar"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIJ_Abdullal_Hilm={
+		name="Abdullal Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Abdullal_Hilm
+				traits = {	humble 	}
+		}
+
+	}
+	SIJ_Karid_Rawa={
+		name="Karid Rawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Karid_Rawa
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SIJ_Jamza_Sabalb={
+		name="Jamza Sabalb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Jamza_Sabalb
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	SIJ_Rammed_Hilm={
+		name="Rammed Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Rammed_Hilm
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SIJ_Bilahya_Qaleej={
+		name="Bilahya Qaleej"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Bilahya_Qaleej
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SIJ_Hassal_Rihl={
+		name="Hassal Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Hassal_Rihl
+				traits = {	humble 	}
+		}
+
+	}
+	SIJ_Mohami_Amahel={
+		name="Mohami Amahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Mohami_Amahel
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SIJ_Majid_Sabalb={
+		name="Majid Sabalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Majid_Sabalb
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SIJ_Majid_Dawjarikma={
+		name="Majid Dawjarikma"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Majid_Dawjarikma
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SIJ_Imrahmoud_Hijar={
+		name="Imrahmoud Hijar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Imrahmoud_Hijar
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SIJ_Ibran_Hilm={
+		name="Ibran Hilm"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Ibran_Hilm
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SIJ_Hammed_Hijar={
+		name="Hammed Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Hammed_Hijar
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SIJ_Faisal_Najartour={
+		name="Faisal Najartour"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Faisal_Najartour
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SIJ_Faisan_Qaleej={
+		name="Faisan Qaleej"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Faisan_Qaleej
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SIJ_Faisal_Rihl={
+		name="Faisal Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Faisal_Rihl
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	SIJ_Khali_Amahel={
+		name="Khali Amahel"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Khali_Amahel
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SIJ_Mahim_Hilm={
+		name="Mahim Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Mahim_Hilm
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	SIJ_Yahmoud_Hilm={
+		name="Yahmoud Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Yahmoud_Hilm
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SIJ_Bilahmarid_Qaleej={
+		name="Bilahmarid Qaleej"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Bilahmarid_Qaleej
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SIJ_Ibrah_Najartour={
+		name="Ibrah Najartour"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Ibrah_Najartour
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	SIJ_Ibrah_Shar={
+		name="Ibrah Shar"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIJ_Omarim_Hilm={
+		name="Omarim Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Omarim_Hilm
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SIJ_Ibrahmoud_Hilm={
+		name="Ibrahmoud Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Ibrahmoud_Hilm
+				traits = {	polemarch 	}
+		}
+
+	}
+	SIJ_Jamad_Dawjarikma={
+		name="Jamad Dawjarikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Jamad_Dawjarikma
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SIJ_Zaisalid_Shar={
+		name="Zaisalid Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Zaisalid_Shar
+				traits = {	polemarch 	}
+		}
+
+	}
+	SIJ_Sami_Qaleej={
+		name="Sami Qaleej"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Sami_Qaleej
+				traits = {	infirm 	}
+		}
+
+	}
+	SIJ_Hammed_Shar={
+		name="Hammed Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Hammed_Shar
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SIJ_Bilahya_Shar={
+		name="Bilahya Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Bilahya_Shar
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SIJ_Jami_Sabalb={
+		name="Jami Sabalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Jami_Sabalb
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SIJ_Imrahmoud_Qaleej={
+		name="Imrahmoud Qaleej"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Imrahmoud_Qaleej
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SIJ_Sami_Rihl={
+		name="Sami Rihl"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Sami_Rihl
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SIJ_Mohal_Shar={
+		name="Mohal Shar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Mohal_Shar
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SIJ_Omarim_Sabalb={
+		name="Omarim Sabalb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Omarim_Sabalb
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	SIJ_Mahya_Najartour={
+		name="Mahya Najartour"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Mahya_Najartour
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SIJ_Saad_Hijar={
+		name="Saad Hijar"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Saad_Hijar
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SIJ_Jami_Hijar={
+		name="Jami Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Jami_Hijar
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	SIJ_Hamir_Rihl={
+		name="Hamir Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Hamir_Rihl
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	SIJ_Bilahya_Hijar={
+		name="Bilahya Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Bilahya_Hijar
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	SIJ_Sami_Amahel={
+		name="Sami Amahel"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Sami_Amahel
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SIJ_Faisan_Dawjarikma={
+		name="Faisan Dawjarikma"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Faisan_Dawjarikma
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SIJ_Nabil_Dawjarikma={
+		name="Nabil Dawjarikma"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Nabil_Dawjarikma
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SIJ_Jami_Qaleej={
+		name="Jami Qaleej"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIJ_Ibrahmoud_Amahel={
+		name="Ibrahmoud Amahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Ibrahmoud_Amahel
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SIJ_Anwarid_Qaleej={
+		name="Anwarid Qaleej"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Anwarid_Qaleej
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SIJ_Majid_Hijar={
+		name="Majid Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Majid_Hijar
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SIJ_Jamar_Rawa={
+		name="Jamar Rawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Jamar_Rawa
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SIJ_Abdullahmari_Najartour={
+		name="Abdullahmari Najartour"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Abdullahmari_Najartour
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SIJ_Zaisalid_Rihl={
+		name="Zaisalid Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Zaisalid_Rihl
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SIJ_Abdullahmoud_Amahel={
+		name="Abdullahmoud Amahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Abdullahmoud_Amahel
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SIJ_Abdullahmari_Amahel={
+		name="Abdullahmari Amahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Abdullahmari_Amahel
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SIJ_Imrahim_Najartour={
+		name="Imrahim Najartour"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Imrahim_Najartour
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SIJ_Anwarid_Hilm={
+		name="Anwarid Hilm"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Anwarid_Hilm
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SIJ_Jamza_Najartour={
+		name="Jamza Najartour"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Jamza_Najartour
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SIJ_Faisal_Hijar={
+		name="Faisal Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Faisal_Hijar
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SIJ_Hamir_Qaleej={
+		name="Hamir Qaleej"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Hamir_Qaleej
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SIJ_Ibrah_Dawjarikma={
+		name="Ibrah Dawjarikma"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Ibrah_Dawjarikma
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SIJ_Tarid_Sabalb={
+		name="Tarid Sabalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Tarid_Sabalb
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	SIJ_Yusuf_Qaleej={
+		name="Yusuf Qaleej"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Yusuf_Qaleej
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	SIJ_Abdullahmoud_Rihl={
+		name="Abdullahmoud Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Abdullahmoud_Rihl
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SIJ_Hami_Amahel={
+		name="Hami Amahel"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Hami_Amahel
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SIJ_Mohami_Hijar={
+		name="Mohami Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Mohami_Hijar
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SIJ_Sami_Rawa={
+		name="Sami Rawa"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Sami_Rawa
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SIJ_Mahmoud_Shar={
+		name="Mahmoud Shar"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIJ_Saad_Shar={
+		name="Saad Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Saad_Shar
+				traits = {	infirm 	}
+		}
+
+	}
+	SIJ_Sammed_Rawa={
+		name="Sammed Rawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Sammed_Rawa
+				traits = {	the_banker 	}
+		}
+
+	}
+	SIJ_Khal_Sabalb={
+		name="Khal Sabalb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Khal_Sabalb
+				traits = {	rearmer 	}
+		}
+
+	}
+	SIJ_Imrahmoud_Rawa={
+		name="Imrahmoud Rawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Imrahmoud_Rawa
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	SIJ_Jamza_Dawjarikma={
+		name="Jamza Dawjarikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Jamza_Dawjarikma
+				traits = {	infirm 	}
+		}
+
+	}
+	SIJ_Hassal_Amahel={
+		name="Hassal Amahel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIJ_Hassal_Amahel
+				traits = {	rearmer 	}
+		}
+
+	}
+	SIJ_Hassan_Dawjarikma={
+		name="Hassan Dawjarikma"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Hassan_Dawjarikma
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SIJ_Saad_Qaleej={
+		name="Saad Qaleej"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Saad_Qaleej
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SIJ_Mahim_Shar={
+		name="Mahim Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Mahim_Shar
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SIJ_Rami_Rawa={
+		name="Rami Rawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIJ_Rami_Rawa
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SIJ_Adnan_Amahel={
+		name="Adnan Amahel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Adnan_Amahel
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	SIJ_Ibran_Shar={
+		name="Ibran Shar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIJ_Ibran_Shar
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SIJ_Bilahya_Sabalb={
+		name="Bilahya Sabalb"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Bilahya_Sabalb
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SIJ_Yusuf_Sabalb={
+		name="Yusuf Sabalb"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIJ_Yusuf_Sabalb
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SIJ_Jamad_Shar={
+		name="Jamad Shar"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Jamad_Shar
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	SIJ_Faid_Hijar={
+		name="Faid Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Faid_Hijar
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SIJ_Anwarid_Sabalb={
+		name="Anwarid Sabalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Anwarid_Sabalb
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SIJ_Bilahya_Najartour={
+		name="Bilahya Najartour"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Bilahya_Najartour
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SIJ_Yahmad_Rawa={
+		name="Yahmad Rawa"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Yahmad_Rawa
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	SIJ_Bilahmarid_Sabalb={
+		name="Bilahmarid Sabalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SIJ_Bilahmarid_Sabalb
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	SIJ_Majid_Rihl={
+		name="Majid Rihl"
+
+		advisor={
+			slot = theorist
+			idea_token = SIJ_Majid_Rihl
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SIJ_Ibrahmoud_Najartour={
+		name="Ibrahmoud Najartour"
+
+		advisor={
+			slot = theorist
+			idea_token = SIJ_Ibrahmoud_Najartour
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SIJ_Hami_Qaleej={
+		name="Hami Qaleej"
+
+		advisor={
+			slot = theorist
+			idea_token = SIJ_Hami_Qaleej
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

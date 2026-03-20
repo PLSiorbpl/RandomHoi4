@@ -1,0 +1,40 @@
+
+state={
+	id=938
+	name="STATE_938"
+	manpower = 466437
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=25
+		steel=0
+		tungsten=24
+		coal=57
+	}
+
+	history={
+		
+		owner = UEO
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			12901 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UEO
+	}
+
+	provinces={
+		12888 12889 12890 12891 12892 12893 12894 12895 12896 12897 12898 12899 12900 12901 12902 12903 12904 12905 12906 12907 12908 12909 12910 12911 12912 12913 12914 12915 12916 12917 
+	}
+	local_supplies=0.0 
+}

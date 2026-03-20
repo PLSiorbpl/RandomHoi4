@@ -1,0 +1,43 @@
+
+state={
+	id=1327
+	name="STATE_1327"
+	manpower = 624987
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17836 2}
+		victory_points = { 17840 1}
+		victory_points = { 17843 1}
+		
+		owner = RAQ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			17844 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RAQ
+	}
+
+	provinces={
+		17836 17837 17838 17839 17840 17841 17842 17843 17844 17845 
+	}
+	local_supplies=0.0 
+}

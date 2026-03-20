@@ -1,0 +1,40 @@
+
+state={
+	id=1161
+	name="STATE_1161"
+	manpower = 200872
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LHU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			16161 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LHU
+	}
+
+	provinces={
+		16161 16162 16163 16164 16165 16166 16167 
+	}
+	local_supplies=0.0 
+}

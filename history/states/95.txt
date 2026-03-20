@@ -1,0 +1,39 @@
+
+state={
+	id=95
+	name="STATE_95"
+	manpower = 814515
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1515 4}
+		victory_points = { 1522 3}
+		
+		owner = ZRU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ZRU
+	}
+
+	provinces={
+		1514 1515 1516 1517 1518 1519 1520 1521 1522 1523 1524 1525 1526 
+	}
+	local_supplies=0.0 
+}

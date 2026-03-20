@@ -1,0 +1,40 @@
+
+state={
+	id=545
+	name="STATE_545"
+	manpower = 454984
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7881 1}
+		victory_points = { 7884 1}
+		victory_points = { 7887 1}
+		
+		owner = TQI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TQI
+	}
+
+	provinces={
+		7881 7882 7883 7884 7885 7886 7887 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=1238
+	name="STATE_1238"
+	manpower = 760792
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=7
+	}
+
+	history={
+		victory_points = { 17105 2}
+		victory_points = { 17106 4}
+		
+		owner = JAB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			17113 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JAB
+	}
+
+	provinces={
+		17103 17104 17105 17106 17107 17108 17109 17110 17111 17112 17113 17114 
+	}
+	local_supplies=0.0 
+}

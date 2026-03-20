@@ -1,0 +1,37 @@
+
+state={
+	id=76
+	name="STATE_76"
+	manpower = 112369
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		1195 1196 1197 1198 1199 1200 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=1273
+	name="STATE_1273"
+	manpower = 551944
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17447 1}
+		victory_points = { 17449 2}
+		victory_points = { 17450 1}
+		
+		owner = CEN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			17449 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CEN
+	}
+
+	provinces={
+		17446 17447 17448 17449 17450 17451 17452 17453 
+	}
+	local_supplies=0.0 
+}

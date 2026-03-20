@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tarakan Fleet"			
+		naval_base = 16736
+		task_force = {
+			name = "Tarakan Fleet"
+			location = 16736
+			
+						ship = { name = "Burub" definition = battle_cruiser equipment = { battle_cruiser_2 = { amount = 1 owner = JAX version_name = "Haritaritab Class" } }	}
+			ship = { name = "Tarakan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = JAX version_name = "Burub Class" } }	}
+			ship = { name = "Haritaritab" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAX version_name = "Tarakan Class" } }	}
+			ship = { name = "Fajlifl" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = JAX version_name = "Burub Class" } }	}
+			ship = { name = "Tarakan 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAX version_name = "Tarakan Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

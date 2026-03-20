@@ -1,0 +1,40 @@
+
+state={
+	id=480
+	name="STATE_480"
+	manpower = 774141
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=10
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6799 2}
+		victory_points = { 6808 3}
+		victory_points = { 6809 1}
+		
+		owner = XHR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XHR
+	}
+
+	provinces={
+		6799 6800 6801 6802 6803 6804 6805 6806 6807 6808 6809 6810 
+	}
+	local_supplies=0.0 
+}

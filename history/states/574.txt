@@ -1,0 +1,40 @@
+
+state={
+	id=574
+	name="STATE_574"
+	manpower = 1743590
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=11
+		coal=0
+	}
+
+	history={
+		victory_points = { 8344 1}
+		victory_points = { 8346 15}
+		victory_points = { 8356 1}
+		
+		owner = CJR
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = CJR
+	}
+
+	provinces={
+		8334 8335 8336 8337 8338 8339 8340 8341 8342 8343 8344 8345 8346 8347 8348 8349 8350 8351 8352 8353 8354 8355 8356 8357 8358 8359 8360 8361 8362 8363 
+	}
+	local_supplies=0.0 
+}

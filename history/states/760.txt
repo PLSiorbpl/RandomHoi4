@@ -1,0 +1,39 @@
+
+state={
+	id=760
+	name="STATE_760"
+	manpower = 795940
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10753 3}
+		victory_points = { 10760 3}
+		
+		owner = MWR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MWR
+	}
+
+	provinces={
+		10751 10752 10753 10754 10755 10756 10757 10758 10759 10760 10761 10762 10763 
+	}
+	local_supplies=0.0 
+}

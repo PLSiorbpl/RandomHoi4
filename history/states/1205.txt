@@ -1,0 +1,42 @@
+
+state={
+	id=1205
+	name="STATE_1205"
+	manpower = 493728
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16748 2}
+		victory_points = { 16749 1}
+		
+		owner = YAJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			16748 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAJ
+	}
+
+	provinces={
+		16747 16748 16749 16750 16751 16752 16753 16754 
+	}
+	local_supplies=0.0 
+}

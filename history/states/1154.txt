@@ -1,0 +1,43 @@
+
+state={
+	id=1154
+	name="STATE_1154"
+	manpower = 702238
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=9
+		oil=13
+		rubber=34
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16015 1}
+		victory_points = { 16031 1}
+		victory_points = { 16035 1}
+		
+		owner = LHU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			16023 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LHU
+	}
+
+	provinces={
+		16008 16009 16010 16011 16012 16013 16014 16015 16016 16017 16018 16019 16020 16021 16022 16023 16024 16025 16026 16027 16028 16029 16030 16031 16032 16033 16034 16035 16036 16037 16038 16039 16040 16041 16042 16043 16044 16045 16046 16047 16048 16049 
+	}
+	local_supplies=0.0 
+}

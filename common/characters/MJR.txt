@@ -1,0 +1,880 @@
+characters = {
+	MJR_Dinod_Kaadalam={
+		name="Dinod Kaadalam"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MJR_Naveesh_Vizhai={
+		name="Naveesh Vizhai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Naveesh_Vizhai
+				traits = {	humble 	}
+		}
+
+	}
+	MJR_Chan_Vinam={
+		name="Chan Vinam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Chan_Vinam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MJR_Deen_Kudham={
+		name="Deen Kudham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Deen_Kudham
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MJR_Siddhari_Kudham={
+		name="Siddhari Kudham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Siddhari_Kudham
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MJR_Dinesh_Karam={
+		name="Dinesh Karam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Dinesh_Karam
+				traits = {	headstrong 	}
+		}
+
+	}
+	MJR_Manod_Kanguppu={
+		name="Manod Kanguppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Manod_Kanguppu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MJR_Varthik_Sirani={
+		name="Varthik Sirani"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Varthik_Sirani
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MJR_Prem_Kudham={
+		name="Prem Kudham"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Prem_Kudham
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MJR_Satish_Karam={
+		name="Satish Karam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Satish_Karam
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MJR_Kirandranoj_Kaadalam={
+		name="Kirandranoj Kaadalam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Kirandranoj_Kaadalam
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MJR_Anil_Valali={
+		name="Anil Valali"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Anil_Valali
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MJR_Dinod_Paadiyam={
+		name="Dinod Paadiyam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Dinod_Paadiyam
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MJR_Dinesh_Sirani={
+		name="Dinesh Sirani"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Dinesh_Sirani
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MJR_Raveesh_Vizhai={
+		name="Raveesh Vizhai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Raveesh_Vizhai
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MJR_Harthil_Vizhai={
+		name="Harthil Vizhai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Harthil_Vizhai
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	MJR_Rajiv_Valali={
+		name="Rajiv Valali"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Rajiv_Valali
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	MJR_Karun_Vizhai={
+		name="Karun Vizhai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Karun_Vizhai
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	MJR_Raghaveesh_Paadiyam={
+		name="Raghaveesh Paadiyam"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Raghaveesh_Paadiyam
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	MJR_Vinod_Merai={
+		name="Vinod Merai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Vinod_Merai
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	MJR_Rajeshna_Kanguppu={
+		name="Rajeshna Kanguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Rajeshna_Kanguppu
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	MJR_Dinesh_Paadiyam={
+		name="Dinesh Paadiyam"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MJR_Mohaveenth_Vinam={
+		name="Mohaveenth Vinam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Mohaveenth_Vinam
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	MJR_Manod_Kaadalam={
+		name="Manod Kaadalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Manod_Kaadalam
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	MJR_Harthil_Kudham={
+		name="Harthil Kudham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Harthil_Kudham
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MJR_Harun_Vizhai={
+		name="Harun Vizhai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Harun_Vizhai
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MJR_Bala_Vizhai={
+		name="Bala Vizhai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Bala_Vizhai
+				traits = {	polemarch 	}
+		}
+
+	}
+	MJR_Ragadeepakas_Vinam={
+		name="Ragadeepakas Vinam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Ragadeepakas_Vinam
+				traits = {	infirm 	}
+		}
+
+	}
+	MJR_Mandran_Paadiyam={
+		name="Mandran Paadiyam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Mandran_Paadiyam
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MJR_Satish_Vinam={
+		name="Satish Vinam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Satish_Vinam
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MJR_Harun_Kaadalam={
+		name="Harun Kaadalam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Harun_Kaadalam
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MJR_Vinoj_Kanguppu={
+		name="Vinoj Kanguppu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Vinoj_Kanguppu
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MJR_Rajesh_Vinam={
+		name="Rajesh Vinam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Rajesh_Vinam
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MJR_Pran_Karam={
+		name="Pran Karam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Pran_Karam
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	MJR_Kirandranoj_Sirani={
+		name="Kirandranoj Sirani"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Kirandranoj_Sirani
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	MJR_Bala_Kudham={
+		name="Bala Kudham"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Bala_Kudham
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	MJR_Chaveepak_Vizhai={
+		name="Chaveepak Vizhai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Chaveepak_Vizhai
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	MJR_Surem_Valali={
+		name="Surem Valali"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Surem_Valali
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	MJR_Ragadeepak_Valali={
+		name="Ragadeepak Valali"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Ragadeepak_Valali
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MJR_Prem_Karam={
+		name="Prem Karam"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Prem_Karam
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	MJR_Kumarthil_Vizhai={
+		name="Kumarthil Vizhai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Kumarthil_Vizhai
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	MJR_Siddhari_Vizhai={
+		name="Siddhari Vizhai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Siddhari_Vizhai
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	MJR_Vinoj_Vizhai={
+		name="Vinoj Vizhai"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MJR_Rajiv_Sirani={
+		name="Rajiv Sirani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Rajiv_Sirani
+				traits = {	infirm 	}
+		}
+
+	}
+	MJR_Kirandranoj_Merai={
+		name="Kirandranoj Merai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Kirandranoj_Merai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MJR_Anil_Karam={
+		name="Anil Karam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Anil_Karam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MJR_Presh_Karam={
+		name="Presh Karam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Presh_Karam
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MJR_Pranoj_Merai={
+		name="Pranoj Merai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Pranoj_Merai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MJR_Jagadeepak_Vinam={
+		name="Jagadeepak Vinam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Jagadeepak_Vinam
+				traits = {	polemarch 	}
+		}
+
+	}
+	MJR_Harun_Merai={
+		name="Harun Merai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Harun_Merai
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MJR_Presh_Kudham={
+		name="Presh Kudham"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Presh_Kudham
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MJR_Jagadeepak_Merai={
+		name="Jagadeepak Merai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Jagadeepak_Merai
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MJR_Harthil_Merai={
+		name="Harthil Merai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Harthil_Merai
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MJR_Kumarth_Kaadalam={
+		name="Kumarth Kaadalam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Kumarth_Kaadalam
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MJR_Deen_Merai={
+		name="Deen Merai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Deen_Merai
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MJR_Ragadeen_Merai={
+		name="Ragadeen Merai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Ragadeen_Merai
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MJR_Presh_Merai={
+		name="Presh Merai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Presh_Merai
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	MJR_Jagadeepakas_Vizhai={
+		name="Jagadeepakas Vizhai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Jagadeepakas_Vizhai
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MJR_Karthik_Paadiyam={
+		name="Karthik Paadiyam"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Karthik_Paadiyam
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MJR_Kumarthil_Sirani={
+		name="Kumarthil Sirani"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Kumarthil_Sirani
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	MJR_Kumarthil_Vinam={
+		name="Kumarthil Vinam"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Kumarthil_Vinam
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	MJR_Naveesh_Paadiyam={
+		name="Naveesh Paadiyam"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Naveesh_Paadiyam
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	MJR_Varthik_Kudham={
+		name="Varthik Kudham"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Varthik_Kudham
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	MJR_Ragadeen_Kanguppu={
+		name="Ragadeen Kanguppu"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MJR_Pran_Vizhai={
+		name="Pran Vizhai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Pran_Vizhai
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	MJR_Ragadeepakas_Paadiyam={
+		name="Ragadeepakas Paadiyam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Ragadeepakas_Paadiyam
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MJR_Arun_Karam={
+		name="Arun Karam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Arun_Karam
+				traits = {	the_banker 	}
+		}
+
+	}
+	MJR_Suresh_Kaadalam={
+		name="Suresh Kaadalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Suresh_Kaadalam
+				traits = {	the_banker 	}
+		}
+
+	}
+	MJR_Karun_Kudham={
+		name="Karun Kudham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Karun_Kudham
+				traits = {	the_banker 	}
+		}
+
+	}
+	MJR_Deepakash_Karam={
+		name="Deepakash Karam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MJR_Deepakash_Karam
+				traits = {	the_banker 	}
+		}
+
+	}
+	MJR_Ragadeepak_Kudham={
+		name="Ragadeepak Kudham"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Ragadeepak_Kudham
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MJR_Ragadeen_Valali={
+		name="Ragadeen Valali"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Ragadeen_Valali
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MJR_Karthil_Karam={
+		name="Karthil Karam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Karthil_Karam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MJR_Chan_Valali={
+		name="Chan Valali"
+
+		advisor={
+			slot = army_chief
+			idea_token = MJR_Chan_Valali
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MJR_Raveenthik_Vinam={
+		name="Raveenthik Vinam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Raveenthik_Vinam
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MJR_Deen_Sirani={
+		name="Deen Sirani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MJR_Deen_Sirani
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MJR_Pran_Merai={
+		name="Pran Merai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Pran_Merai
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MJR_Ganesh_Paadiyam={
+		name="Ganesh Paadiyam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MJR_Ganesh_Paadiyam
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MJR_Dinod_Merai={
+		name="Dinod Merai"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Dinod_Merai
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	MJR_Vinesh_Kanguppu={
+		name="Vinesh Kanguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Vinesh_Kanguppu
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	MJR_Jaghanod_Valali={
+		name="Jaghanod Valali"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Jaghanod_Valali
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	MJR_Vinesh_Kudham={
+		name="Vinesh Kudham"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Vinesh_Kudham
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	MJR_Karun_Valali={
+		name="Karun Valali"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Karun_Valali
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MJR_Harun_Kanguppu={
+		name="Harun Kanguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = MJR_Harun_Kanguppu
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	MJR_Siddhavi_Sirani={
+		name="Siddhavi Sirani"
+
+		advisor={
+			slot = theorist
+			idea_token = MJR_Siddhavi_Sirani
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MJR_Manesh_Paadiyam={
+		name="Manesh Paadiyam"
+
+		advisor={
+			slot = theorist
+			idea_token = MJR_Manesh_Paadiyam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MJR_Ajay_Merai={
+		name="Ajay Merai"
+
+		advisor={
+			slot = theorist
+			idea_token = MJR_Ajay_Merai
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

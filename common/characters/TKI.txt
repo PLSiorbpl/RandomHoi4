@@ -1,0 +1,880 @@
+characters = {
+	TKI_Mandran_Vannoli={
+		name="Mandran Vannoli"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TKI_Raghav_Tharai={
+		name="Raghav Tharai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Raghav_Tharai
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TKI_Rajesh_Vanneerku={
+		name="Rajesh Vanneerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Rajesh_Vanneerku
+				traits = {	humble 	}
+		}
+
+	}
+	TKI_Deepakashna_Nenjil={
+		name="Deepakashna Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Deepakashna_Nenjil
+				traits = {	headstrong 	}
+		}
+
+	}
+	TKI_Kumarun_Vannoli={
+		name="Kumarun Vannoli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Kumarun_Vannoli
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TKI_Ravi_Manneer={
+		name="Ravi Manneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Ravi_Manneer
+				traits = {	humble 	}
+		}
+
+	}
+	TKI_Pran_Tharai={
+		name="Pran Tharai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Pran_Tharai
+				traits = {	headstrong 	}
+		}
+
+	}
+	TKI_Satish_Vanneerku={
+		name="Satish Vanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Satish_Vanneerku
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TKI_Bala_Vanneerku={
+		name="Bala Vanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Bala_Vanneerku
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TKI_Kiran_Manneer={
+		name="Kiran Manneer"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Kiran_Manneer
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TKI_Deepakashna_Tharai={
+		name="Deepakashna Tharai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Deepakashna_Tharai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TKI_Dinesh_Tharai={
+		name="Dinesh Tharai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Dinesh_Tharai
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TKI_Jaghav_Vannoli={
+		name="Jaghav Vannoli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Jaghav_Vannoli
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TKI_Senth_Tham={
+		name="Senth Tham"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Senth_Tham
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TKI_Raghaveesh_Nenjil={
+		name="Raghaveesh Nenjil"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Raghaveesh_Nenjil
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TKI_Ajay_Vannoli={
+		name="Ajay Vannoli"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Ajay_Vannoli
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	TKI_Siddhandrak_Thilanbam={
+		name="Siddhandrak Thilanbam"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Siddhandrak_Thilanbam
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TKI_Ajay_Tham={
+		name="Ajay Tham"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Ajay_Tham
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TKI_Bala_Tharai={
+		name="Bala Tharai"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Bala_Tharai
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	TKI_Arun_Thilanbam={
+		name="Arun Thilanbam"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Arun_Thilanbam
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	TKI_Suresh_Thaganam={
+		name="Suresh Thaganam"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Suresh_Thaganam
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TKI_Siddharun_Thilanbam={
+		name="Siddharun Thilanbam"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TKI_Deenth_Manneer={
+		name="Deenth Manneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Deenth_Manneer
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	TKI_Kumari_Aasu={
+		name="Kumari Aasu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Kumari_Aasu
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TKI_Vinesh_Manneer={
+		name="Vinesh Manneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Vinesh_Manneer
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TKI_Bala_Nenjil={
+		name="Bala Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Bala_Nenjil
+				traits = {	autokrator 	}
+		}
+
+	}
+	TKI_Vinesh_Thilanbam={
+		name="Vinesh Thilanbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Vinesh_Thilanbam
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TKI_Vinoj_Vanneerku={
+		name="Vinoj Vanneerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Vinoj_Vanneerku
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	TKI_Manesh_Tharai={
+		name="Manesh Tharai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Manesh_Tharai
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TKI_Senth_Aasu={
+		name="Senth Aasu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Senth_Aasu
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TKI_Rajeshna_Vanneerku={
+		name="Rajeshna Vanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Rajeshna_Vanneerku
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TKI_Harun_Tharai={
+		name="Harun Tharai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Harun_Tharai
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TKI_Raghav_Vannoli={
+		name="Raghav Vannoli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Raghav_Vannoli
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TKI_Ganod_Nenjil={
+		name="Ganod Nenjil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Ganod_Nenjil
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TKI_Rajesh_Aasu={
+		name="Rajesh Aasu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Rajesh_Aasu
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TKI_Navi_Vanneerku={
+		name="Navi Vanneerku"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Navi_Vanneerku
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TKI_Raveen_Thaganam={
+		name="Raveen Thaganam"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Raveen_Thaganam
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TKI_Vinod_Tharai={
+		name="Vinod Tharai"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Vinod_Tharai
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TKI_Pran_Manneer={
+		name="Pran Manneer"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Pran_Manneer
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TKI_Deepakashna_Manneer={
+		name="Deepakashna Manneer"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Deepakashna_Manneer
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	TKI_Kumarun_Panneeram={
+		name="Kumarun Panneeram"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Kumarun_Panneeram
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TKI_Rajeshna_Tharai={
+		name="Rajeshna Tharai"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Rajeshna_Tharai
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	TKI_Raveen_Vanneerku={
+		name="Raveen Vanneerku"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TKI_Vinod_Nenjil={
+		name="Vinod Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Vinod_Nenjil
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TKI_Chan_Vanneerku={
+		name="Chan Vanneerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Chan_Vanneerku
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TKI_Vinod_Thaganam={
+		name="Vinod Thaganam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Vinod_Thaganam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TKI_Dinoj_Thilanbam={
+		name="Dinoj Thilanbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Dinoj_Thilanbam
+				traits = {	polemarch 	}
+		}
+
+	}
+	TKI_Chavi_Panneeram={
+		name="Chavi Panneeram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Chavi_Panneeram
+				traits = {	polemarch 	}
+		}
+
+	}
+	TKI_Kumari_Tham={
+		name="Kumari Tham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Kumari_Tham
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TKI_Raveen_Aasu={
+		name="Raveen Aasu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Raveen_Aasu
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TKI_Raghar_Aasu={
+		name="Raghar Aasu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Raghar_Aasu
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TKI_Pranoj_Aasu={
+		name="Pranoj Aasu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Pranoj_Aasu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TKI_Jagadeepak_Tharai={
+		name="Jagadeepak Tharai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Jagadeepak_Tharai
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TKI_Jaghav_Vanneerku={
+		name="Jaghav Vanneerku"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Jaghav_Vanneerku
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TKI_Siddharun_Nenjil={
+		name="Siddharun Nenjil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Siddharun_Nenjil
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TKI_Vinesh_Panneeram={
+		name="Vinesh Panneeram"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Vinesh_Panneeram
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TKI_Varthil_Thilanbam={
+		name="Varthil Thilanbam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Varthil_Thilanbam
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TKI_Vineshna_Aasu={
+		name="Vineshna Aasu"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Vineshna_Aasu
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TKI_Mohari_Tharai={
+		name="Mohari Tharai"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Mohari_Tharai
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TKI_Raveesh_Nenjil={
+		name="Raveesh Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Raveesh_Nenjil
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	TKI_Vinoj_Vannoli={
+		name="Vinoj Vannoli"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Vinoj_Vannoli
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	TKI_Dineshna_Tham={
+		name="Dineshna Tham"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Dineshna_Tham
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TKI_Prem_Vannoli={
+		name="Prem Vannoli"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Prem_Vannoli
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TKI_Raghaveesh_Panneeram={
+		name="Raghaveesh Panneeram"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TKI_Jaghav_Tham={
+		name="Jaghav Tham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Jaghav_Tham
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TKI_Deepakashna_Vanneerku={
+		name="Deepakashna Vanneerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Deepakashna_Vanneerku
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TKI_Ravi_Nenjil={
+		name="Ravi Nenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Ravi_Nenjil
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TKI_Dineshna_Panneeram={
+		name="Dineshna Panneeram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Dineshna_Panneeram
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TKI_Dinesh_Manneer={
+		name="Dinesh Manneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Dinesh_Manneer
+				traits = {	infirm 	}
+		}
+
+	}
+	TKI_Ravi_Thaganam={
+		name="Ravi Thaganam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TKI_Ravi_Thaganam
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TKI_Siddharun_Manneer={
+		name="Siddharun Manneer"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Siddharun_Manneer
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TKI_Raghar_Vanneerku={
+		name="Raghar Vanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Raghar_Vanneerku
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TKI_Deepakashna_Panneeram={
+		name="Deepakashna Panneeram"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Deepakashna_Panneeram
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TKI_Hari_Thaganam={
+		name="Hari Thaganam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TKI_Hari_Thaganam
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TKI_Ganod_Aasu={
+		name="Ganod Aasu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Ganod_Aasu
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TKI_Dineshna_Vannoli={
+		name="Dineshna Vannoli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TKI_Dineshna_Vannoli
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TKI_Kiran_Vanneerku={
+		name="Kiran Vanneerku"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Kiran_Vanneerku
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TKI_Chan_Thilanbam={
+		name="Chan Thilanbam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TKI_Chan_Thilanbam
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	TKI_Deenth_Tham={
+		name="Deenth Tham"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Deenth_Tham
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TKI_Vinoj_Tham={
+		name="Vinoj Tham"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Vinoj_Tham
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TKI_Surem_Nenjil={
+		name="Surem Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Surem_Nenjil
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TKI_Rajiv_Tham={
+		name="Rajiv Tham"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Rajiv_Tham
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TKI_Chan_Nenjil={
+		name="Chan Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Chan_Nenjil
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TKI_Manesh_Nenjil={
+		name="Manesh Nenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = TKI_Manesh_Nenjil
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TKI_Karth_Nenjil={
+		name="Karth Nenjil"
+
+		advisor={
+			slot = theorist
+			idea_token = TKI_Karth_Nenjil
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TKI_Kumari_Thilanbam={
+		name="Kumari Thilanbam"
+
+		advisor={
+			slot = theorist
+			idea_token = TKI_Kumari_Thilanbam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TKI_Deen_Nenjil={
+		name="Deen Nenjil"
+
+		advisor={
+			slot = theorist
+			idea_token = TKI_Deen_Nenjil
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

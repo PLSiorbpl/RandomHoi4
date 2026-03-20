@@ -1,0 +1,43 @@
+
+state={
+	id=370
+	name="STATE_370"
+	manpower = 985917
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=14
+		tungsten=5
+		coal=0
+	}
+
+	history={
+		victory_points = { 5255 2}
+		victory_points = { 5262 2}
+		victory_points = { 5265 3}
+		
+		owner = GPU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			5262 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GPU
+	}
+
+	provinces={
+		5252 5253 5254 5255 5256 5257 5258 5259 5260 5261 5262 5263 5264 5265 5266 5267 5268 
+	}
+	local_supplies=0.0 
+}

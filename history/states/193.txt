@@ -1,0 +1,38 @@
+
+state={
+	id=193
+	name="STATE_193"
+	manpower = 475297
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2977 3}
+		
+		owner = CHV
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CHV
+	}
+
+	provinces={
+		2977 2978 2979 2980 2981 2982 2983 
+	}
+	local_supplies=0.0 
+}

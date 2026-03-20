@@ -1,0 +1,38 @@
+
+state={
+	id=519
+	name="STATE_519"
+	manpower = 740055
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7458 6}
+		
+		owner = EKZ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = EKZ
+	}
+
+	provinces={
+		7457 7458 7459 7460 7461 7462 7463 7464 7465 7466 7467 7468 
+	}
+	local_supplies=0.0 
+}

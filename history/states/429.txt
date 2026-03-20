@@ -1,0 +1,43 @@
+
+state={
+	id=429
+	name="STATE_429"
+	manpower = 983980
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6037 2}
+		victory_points = { 6046 3}
+		victory_points = { 6052 2}
+		
+		owner = QIW
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6054 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QIW
+	}
+
+	provinces={
+		6037 6038 6039 6040 6041 6042 6043 6044 6045 6046 6047 6048 6049 6050 6051 6052 6053 6054 6055 6056 6057 6058 6059 6060 6061 6062 
+	}
+	local_supplies=0.0 
+}

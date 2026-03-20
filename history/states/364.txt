@@ -1,0 +1,38 @@
+
+state={
+	id=364
+	name="STATE_364"
+	manpower = 365986
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5213 1}
+		
+		owner = PCR
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PCR
+	}
+
+	provinces={
+		5210 5211 5212 5213 5214 5215 5216 
+	}
+	local_supplies=0.0 
+}

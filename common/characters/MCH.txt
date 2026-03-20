@@ -1,0 +1,880 @@
+characters = {
+	MCH_Nielm_Liebe={
+		name="Nielm Liebe"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCH_Lard_Machr={
+		name="Lard Machr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Lard_Machr
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MCH_Sorn_Bogend={
+		name="Sorn Bogend"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Sorn_Bogend
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	MCH_Franz_Turg={
+		name="Franz Turg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Franz_Turg
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MCH_Eirk_Schiffnunke={
+		name="Eirk Schiffnunke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Eirk_Schiffnunke
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MCH_Svens_Machr={
+		name="Svens Machr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Svens_Machr
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MCH_Rudold_Turg={
+		name="Rudold Turg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Rudold_Turg
+				traits = {	headstrong 	}
+		}
+
+	}
+	MCH_Matthijs_Schiffnunke={
+		name="Matthijs Schiffnunke"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Matthijs_Schiffnunke
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MCH_Wilhelm_Died={
+		name="Wilhelm Died"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Wilhelm_Died
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MCH_Anselm_Krind={
+		name="Anselm Krind"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Anselm_Krind
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MCH_Erich_Tald={
+		name="Erich Tald"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Erich_Tald
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MCH_Hens_Bogend={
+		name="Hens Bogend"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Hens_Bogend
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MCH_Hermans_Liebe={
+		name="Hermans Liebe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Hermans_Liebe
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MCH_Hens_Schilfe={
+		name="Hens Schilfe"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Hens_Schilfe
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MCH_Nielm_Turg={
+		name="Nielm Turg"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Nielm_Turg
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MCH_Willem_Machr={
+		name="Willem Machr"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Willem_Machr
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MCH_Emilhelmut_Turg={
+		name="Emilhelmut Turg"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Emilhelmut_Turg
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	MCH_Bjorg_Bogend={
+		name="Bjorg Bogend"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Bjorg_Bogend
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	MCH_Oskarl_Died={
+		name="Oskarl Died"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Oskarl_Died
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	MCH_Volkers_Krind={
+		name="Volkers Krind"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Volkers_Krind
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	MCH_Dirk_Schiffnunke={
+		name="Dirk Schiffnunke"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Dirk_Schiffnunke
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	MCH_Larald_Seeld={
+		name="Larald Seeld"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCH_Franz_Tald={
+		name="Franz Tald"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Franz_Tald
+				traits = {	warmonger 	}
+		}
+
+	}
+	MCH_Frald_Tald={
+		name="Frald Tald"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Frald_Tald
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	MCH_Johar_Bogend={
+		name="Johar Bogend"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Johar_Bogend
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	MCH_Anders_Turg={
+		name="Anders Turg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Anders_Turg
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	MCH_Janz_Bogend={
+		name="Janz Bogend"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Janz_Bogend
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MCH_Eirik_Krind={
+		name="Eirik Krind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Eirik_Krind
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	MCH_Knus_Seeld={
+		name="Knus Seeld"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Knus_Seeld
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MCH_Reinholfrenr_Seeld={
+		name="Reinholfrenr Seeld"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Reinholfrenr_Seeld
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MCH_Helm_Schilfe={
+		name="Helm Schilfe"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Helm_Schilfe
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MCH_Hanz_Bogend={
+		name="Hanz Bogend"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Hanz_Bogend
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MCH_Volkers_Died={
+		name="Volkers Died"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Volkers_Died
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MCH_Rich_Bogend={
+		name="Rich Bogend"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Rich_Bogend
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	MCH_Richar_Krind={
+		name="Richar Krind"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Richar_Krind
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	MCH_Helmut_Seeld={
+		name="Helmut Seeld"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Helmut_Seeld
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MCH_Harl_Schilfe={
+		name="Harl Schilfe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Harl_Schilfe
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	MCH_Hels_Turg={
+		name="Hels Turg"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Hels_Turg
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	MCH_Volf_Died={
+		name="Volf Died"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Volf_Died
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	MCH_Hermans_Died={
+		name="Hermans Died"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Hermans_Died
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	MCH_Otthiasparl_Tald={
+		name="Otthiasparl Tald"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Otthiasparl_Tald
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MCH_Richar_Died={
+		name="Richar Died"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Richar_Died
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	MCH_Knut_Bogend={
+		name="Knut Bogend"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCH_Eirk_Schilfe={
+		name="Eirk Schilfe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Eirk_Schilfe
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MCH_Emilhelmut_Died={
+		name="Emilhelmut Died"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Emilhelmut_Died
+				traits = {	polemarch 	}
+		}
+
+	}
+	MCH_Reinholfrenr_Schiffnunke={
+		name="Reinholfrenr Schiffnunke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Reinholfrenr_Schiffnunke
+				traits = {	infirm 	}
+		}
+
+	}
+	MCH_Lars_Schiffnunke={
+		name="Lars Schiffnunke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Lars_Schiffnunke
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MCH_Karald_Krind={
+		name="Karald Krind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Karald_Krind
+				traits = {	infirm 	}
+		}
+
+	}
+	MCH_Lars_Died={
+		name="Lars Died"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Lars_Died
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MCH_Olaf_Schiffnunke={
+		name="Olaf Schiffnunke"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Olaf_Schiffnunke
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MCH_Johann_Died={
+		name="Johann Died"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Johann_Died
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MCH_Ulrich_Died={
+		name="Ulrich Died"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Ulrich_Died
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MCH_Hermanselmut_Died={
+		name="Hermanselmut Died"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Hermanselmut_Died
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MCH_Harl_Bogend={
+		name="Harl Bogend"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Harl_Bogend
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	MCH_Bjoren_Bogend={
+		name="Bjoren Bogend"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Bjoren_Bogend
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MCH_Franz_Seeld={
+		name="Franz Seeld"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Franz_Seeld
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCH_Bjorg_Died={
+		name="Bjorg Died"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Bjorg_Died
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MCH_Larald_Machr={
+		name="Larald Machr"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Larald_Machr
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	MCH_Arne_Bogend={
+		name="Arne Bogend"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Arne_Bogend
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MCH_Leinritz_Bogend={
+		name="Leinritz Bogend"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Leinritz_Bogend
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	MCH_Franz_Krind={
+		name="Franz Krind"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Franz_Krind
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	MCH_Rudold_Seeld={
+		name="Rudold Seeld"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Rudold_Seeld
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	MCH_Magnut_Bogend={
+		name="Magnut Bogend"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Magnut_Bogend
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MCH_Sigurd_Turg={
+		name="Sigurd Turg"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MCH_Johann_Seeld={
+		name="Johann Seeld"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Johann_Seeld
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	MCH_Rudolkered_Seeld={
+		name="Rudolkered Seeld"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Rudolkered_Seeld
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MCH_Bjorg_Schiffnunke={
+		name="Bjorg Schiffnunke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Bjorg_Schiffnunke
+				traits = {	first_lady 	}
+		}
+
+	}
+	MCH_Harl_Seeld={
+		name="Harl Seeld"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Harl_Seeld
+				traits = {	the_banker 	}
+		}
+
+	}
+	MCH_Janz_Krind={
+		name="Janz Krind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Janz_Krind
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MCH_Thijs_Seeld={
+		name="Thijs Seeld"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MCH_Thijs_Seeld
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MCH_Georne_Bogend={
+		name="Georne Bogend"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Georne_Bogend
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MCH_Rudolkered_Turg={
+		name="Rudolkered Turg"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Rudolkered_Turg
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MCH_Hels_Tald={
+		name="Hels Tald"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Hels_Tald
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MCH_Leinrich_Tald={
+		name="Leinrich Tald"
+
+		advisor={
+			slot = army_chief
+			idea_token = MCH_Leinrich_Tald
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MCH_Dirk_Seeld={
+		name="Dirk Seeld"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Dirk_Seeld
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MCH_Knus_Tald={
+		name="Knus Tald"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MCH_Knus_Tald
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MCH_Joharann_Tald={
+		name="Joharann Tald"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Joharann_Tald
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MCH_Rudolfrender_Schilfe={
+		name="Rudolfrender Schilfe"
+
+		advisor={
+			slot = air_chief
+			idea_token = MCH_Rudolfrender_Schilfe
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MCH_Ulrik_Schilfe={
+		name="Ulrik Schilfe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Ulrik_Schilfe
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	MCH_Georne_Krind={
+		name="Georne Krind"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Georne_Krind
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	MCH_Anders_Machr={
+		name="Anders Machr"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Anders_Machr
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	MCH_Svens_Liebe={
+		name="Svens Liebe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Svens_Liebe
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	MCH_Olaf_Schilfe={
+		name="Olaf Schilfe"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Olaf_Schilfe
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	MCH_Magnut_Died={
+		name="Magnut Died"
+
+		advisor={
+			slot = high_command
+			idea_token = MCH_Magnut_Died
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	MCH_Reinrik_Seeld={
+		name="Reinrik Seeld"
+
+		advisor={
+			slot = theorist
+			idea_token = MCH_Reinrik_Seeld
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MCH_Bjoren_Turg={
+		name="Bjoren Turg"
+
+		advisor={
+			slot = theorist
+			idea_token = MCH_Bjoren_Turg
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MCH_Knut_Liebe={
+		name="Knut Liebe"
+
+		advisor={
+			slot = theorist
+			idea_token = MCH_Knut_Liebe
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

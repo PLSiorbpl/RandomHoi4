@@ -1,0 +1,42 @@
+
+state={
+	id=1245
+	name="STATE_1245"
+	manpower = 409341
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=11
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17172 1}
+		victory_points = { 17173 2}
+		
+		owner = JAB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17172 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JAB
+	}
+
+	provinces={
+		17170 17171 17172 17173 17174 17175 
+	}
+	local_supplies=0.0 
+}

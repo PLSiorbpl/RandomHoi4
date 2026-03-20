@@ -1,0 +1,44 @@
+
+state={
+	id=1004
+	name="STATE_1004"
+	manpower = 706962
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=19
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13832 1}
+		victory_points = { 13833 1}
+		victory_points = { 13837 1}
+		victory_points = { 13840 1}
+		
+		owner = GFI
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			13849 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GFI
+	}
+
+	provinces={
+		13830 13831 13832 13833 13834 13835 13836 13837 13838 13839 13840 13841 13842 13843 13844 13845 13846 13847 13848 13849 13850 
+	}
+	local_supplies=0.0 
+}

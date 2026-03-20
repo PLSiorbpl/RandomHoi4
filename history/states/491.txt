@@ -1,0 +1,37 @@
+
+state={
+	id=491
+	name="STATE_491"
+	manpower = 1439
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=19
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = BRH
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BRH
+	}
+
+	provinces={
+		6984 6985 6986 6987 6988 6989 6990 6991 6992 6993 6994 6995 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=69
+	name="STATE_69"
+	manpower = 418140
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1075 3}
+		
+		owner = EKZ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = EKZ
+	}
+
+	provinces={
+		1075 1076 1077 1078 1079 1080 
+	}
+	local_supplies=0.0 
+}

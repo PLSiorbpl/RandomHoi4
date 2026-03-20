@@ -1,0 +1,39 @@
+
+state={
+	id=908
+	name="STATE_908"
+	manpower = 893939
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=3
+	}
+
+	history={
+		victory_points = { 12537 6}
+		victory_points = { 12539 2}
+		
+		owner = KZU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KZU
+	}
+
+	provinces={
+		12531 12532 12533 12534 12535 12536 12537 12538 12539 12540 12541 12542 12543 12544 12545 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kama Fleet"			
+		naval_base = 17350
+		task_force = {
+			name = "Kama Fleet"
+			location = 17350
+			
+						ship = { name = "Mulan" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KIM version_name = "Bencak Class" } }	}
+			ship = { name = "Tara" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KIM version_name = "Anahat Class" } }	}
+			ship = { name = "Ritu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KIM version_name = "Anahat Class" } }	}
+			ship = { name = "Tara 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KIM version_name = "Bencak Class" } }	}
+			ship = { name = "Bencak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KIM version_name = "Anahat Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

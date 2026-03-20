@@ -1,0 +1,38 @@
+
+state={
+	id=139
+	name="STATE_139"
+	manpower = 352939
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2167 2}
+		
+		owner = HPI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HPI
+	}
+
+	provinces={
+		2167 2168 2169 2170 2171 
+	}
+	local_supplies=0.0 
+}

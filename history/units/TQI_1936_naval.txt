@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Teinn Fleet"			
+		naval_base = 13911
+		task_force = {
+			name = "Teinn Fleet"
+			location = 13911
+			
+						ship = { name = "Seach" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TQI version_name = "Cnoc Class" } }	}
+			ship = { name = "Maich" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TQI version_name = "Seach Class" } }	}
+			ship = { name = "Cnoc" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = TQI version_name = "Seach Class" } }	}
+			ship = { name = "Cnuach" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TQI version_name = "Cnuach Class" } }	}
+			ship = { name = "Seach 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TQI version_name = "Cnoc Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

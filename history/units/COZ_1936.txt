@@ -1,0 +1,189 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+			artillery_brigade = {  x = 3 y = 2 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			engineer = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Oxlam' Militia Division"
+		location = 11151
+		division_template = "Militia Division"
+		start_experience_factor = 0.914510
+		start_equipment_factor = 0.886314
+	}
+	division= {
+		name = "1nd 'Bakchil' Militia Division"
+		location = 9031
+		division_template = "Militia Division"
+		start_experience_factor = 0.520116
+		start_equipment_factor = 0.956182
+	}
+	division= {
+		name = "2rd 'Kanai' Militia Division"
+		location = 9237
+		division_template = "Militia Division"
+		start_experience_factor = 0.292000
+		start_equipment_factor = 0.952000
+	}
+	division= {
+		name = "3th 'Kalah' Militia Division"
+		location = 11140
+		division_template = "Militia Division"
+		start_experience_factor = 0.984851
+		start_equipment_factor = 0.935827
+	}
+	division= {
+		name = "4th 'Chilah' Militia Division"
+		location = 9028
+		division_template = "Militia Division"
+		start_experience_factor = 0.983361
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Uxmana' Militia Division"
+		location = 8123
+		division_template = "Militia Division"
+		start_experience_factor = 0.491787
+		start_equipment_factor = 0.877370
+	}
+	division= {
+		name = "6th 'Bakchil' Militia Division"
+		location = 7835
+		division_template = "Militia Division"
+		start_experience_factor = 0.484148
+		start_equipment_factor = 0.929963
+	}
+	division= {
+		name = "0st 'Bahunil' Infantry Division"
+		location = 9032
+		division_template = "Infantry Division"
+		start_experience_factor = 0.712867
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Tzol' Infantry Division"
+		location = 9024
+		division_template = "Infantry Division"
+		start_experience_factor = 0.623623
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Cozumel' Cavalry Division"
+		location = 8526
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.903693
+		start_equipment_factor = 0.938819
+	}
+	division= {
+		name = "1nd 'Bakab' Cavalry Division"
+		location = 11149
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.729773
+		start_equipment_factor = 1.000000
+	}
+
+}

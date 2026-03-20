@@ -1,0 +1,41 @@
+
+state={
+	id=1158
+	name="STATE_1158"
+	manpower = 757594
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 16092 6}
+		
+		owner = TRE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			16093 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TRE
+	}
+
+	provinces={
+		16086 16087 16088 16089 16090 16091 16092 16093 16094 16095 16096 16097 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=25
+	name="STATE_25"
+	manpower = 1153379
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 452 3}
+		victory_points = { 459 8}
+		
+		owner = ZTA
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ZTA
+	}
+
+	provinces={
+		444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 
+	}
+	local_supplies=0.0 
+}

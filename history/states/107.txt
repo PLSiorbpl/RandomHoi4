@@ -1,0 +1,41 @@
+
+state={
+	id=107
+	name="STATE_107"
+	manpower = 1075642
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1738 2}
+		victory_points = { 1741 2}
+		victory_points = { 1747 1}
+		victory_points = { 1751 2}
+		
+		owner = NKK
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NKK
+	}
+
+	provinces={
+		1736 1737 1738 1739 1740 1741 1742 1743 1744 1745 1746 1747 1748 1749 1750 1751 1752 1753 1754 1755 
+	}
+	local_supplies=0.0 
+}

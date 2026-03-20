@@ -1,0 +1,880 @@
+characters = {
+	TGM_Iderfax_Tighaska={
+		name="Iderfax Tighaska"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TGM_Mimokrane_Tiziremt={
+		name="Mimokrane Tiziremt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Mimokrane_Tiziremt
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TGM_Tahar_Tamatri={
+		name="Tahar Tamatri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Tahar_Tamatri
+				traits = {	humble 	}
+		}
+
+	}
+	TGM_Aselmad_Tiwizianimsi={
+		name="Aselmad Tiwizianimsi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Aselmad_Tiwizianimsi
+				traits = {	headstrong 	}
+		}
+
+	}
+	TGM_Aziannis_Tamsalt={
+		name="Aziannis Tamsalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Aziannis_Tamsalt
+				traits = {	humble 	}
+		}
+
+	}
+	TGM_Iderfax_Tamsalt={
+		name="Iderfax Tamsalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Iderfax_Tamsalt
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TGM_Tahar_Taghant={
+		name="Tahar Taghant"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Tahar_Taghant
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TGM_Tahar_Tamsalt={
+		name="Tahar Tamsalt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Tahar_Tamsalt
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TGM_Aselmari_Assourart={
+		name="Aselmari Assourart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Aselmari_Assourart
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TGM_Aziz_Tamatri={
+		name="Aziz Tamatri"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Aziz_Tamatri
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TGM_Yannis_Assourart={
+		name="Yannis Assourart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Yannis_Assourart
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TGM_Iskaren_Taghant={
+		name="Iskaren Taghant"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Iskaren_Taghant
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TGM_Karimokrane_Tighaska={
+		name="Karimokrane Tighaska"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Karimokrane_Tighaska
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TGM_Amar_Tamsalt={
+		name="Amar Tamsalt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Amar_Tamsalt
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TGM_Tariq_Tiwizianimsi={
+		name="Tariq Tiwizianimsi"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Tariq_Tiwizianimsi
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	TGM_Mokran_Tiwizianimsi={
+		name="Mokran Tiwizianimsi"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Mokran_Tiwizianimsi
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TGM_Iderfax_Tamatri={
+		name="Iderfax Tamatri"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Iderfax_Tamatri
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TGM_Amoun_Tiziremt={
+		name="Amoun Tiziremt"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Amoun_Tiziremt
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	TGM_Amoun_Taghant={
+		name="Amoun Taghant"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Amoun_Taghant
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	TGM_Iderfax_Assourart={
+		name="Iderfax Assourart"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Iderfax_Assourart
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TGM_Yannis_Tamsalt={
+		name="Yannis Tamsalt"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Yannis_Tamsalt
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TGM_Mezian_Tighaska={
+		name="Mezian Tighaska"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TGM_Amoun_Assourart={
+		name="Amoun Assourart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Amoun_Assourart
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TGM_Massinissini_Tamatri={
+		name="Massinissini Tamatri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Massinissini_Tamatri
+				traits = {	infirm 	}
+		}
+
+	}
+	TGM_Massa_Tiwizianimsi={
+		name="Massa Tiwizianimsi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Massa_Tiwizianimsi
+				traits = {	infirm 	}
+		}
+
+	}
+	TGM_Saidi_Tighaska={
+		name="Saidi Tighaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Saidi_Tighaska
+				traits = {	warmonger 	}
+		}
+
+	}
+	TGM_Aselmar_Tiwizianimsi={
+		name="Aselmar Tiwizianimsi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Aselmar_Tiwizianimsi
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TGM_Saidi_Assir={
+		name="Saidi Assir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Saidi_Assir
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TGM_Aziz_Assir={
+		name="Aziz Assir"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Aziz_Assir
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TGM_Massa_Tighaska={
+		name="Massa Tighaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Massa_Tighaska
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TGM_Kariq_Tighaska={
+		name="Kariq Tighaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Kariq_Tighaska
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TGM_Yannissa_Tamsalt={
+		name="Yannissa Tamsalt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Yannissa_Tamsalt
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TGM_Tariq_Taghant={
+		name="Tariq Taghant"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Tariq_Taghant
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TGM_Mimokrane_Taghant={
+		name="Mimokrane Taghant"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Mimokrane_Taghant
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TGM_Ziri_Tamsalt={
+		name="Ziri Tamsalt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Ziri_Tamsalt
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	TGM_Kari_Tamsalt={
+		name="Kari Tamsalt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Kari_Tamsalt
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TGM_Aselmad_Tamsalt={
+		name="Aselmad Tamsalt"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Aselmad_Tamsalt
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TGM_Aselmari_Taghant={
+		name="Aselmari Taghant"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Aselmari_Taghant
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TGM_Ziri_Tamdargadina={
+		name="Ziri Tamdargadina"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Ziri_Tamdargadina
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	TGM_Amar_Assir={
+		name="Amar Assir"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Amar_Assir
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TGM_Iskaren_Tiziremt={
+		name="Iskaren Tiziremt"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Iskaren_Tiziremt
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	TGM_Kari_Assir={
+		name="Kari Assir"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Kari_Assir
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TGM_Iderfan_Tamsalt={
+		name="Iderfan Tamsalt"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TGM_Mimokrane_Tamatri={
+		name="Mimokrane Tamatri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Mimokrane_Tamatri
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TGM_Aselmaren_Tighaska={
+		name="Aselmaren Tighaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Aselmaren_Tighaska
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TGM_Mokran_Tamdargadina={
+		name="Mokran Tamdargadina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Mokran_Tamdargadina
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TGM_Yannis_Tamdargadina={
+		name="Yannis Tamdargadina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Yannis_Tamdargadina
+				traits = {	infirm 	}
+		}
+
+	}
+	TGM_Ziri_Taghant={
+		name="Ziri Taghant"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Ziri_Taghant
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TGM_Azian_Tiziremt={
+		name="Azian Tiziremt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Azian_Tiziremt
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TGM_Yuba_Assourart={
+		name="Yuba Assourart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Yuba_Assourart
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TGM_Aselmad_Tiziremt={
+		name="Aselmad Tiziremt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Aselmad_Tiziremt
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TGM_Aselmaren_Assourart={
+		name="Aselmaren Assourart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Aselmaren_Assourart
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TGM_Mezian_Assourart={
+		name="Mezian Assourart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Mezian_Assourart
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TGM_Mimokrane_Assir={
+		name="Mimokrane Assir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Mimokrane_Assir
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TGM_Aziane_Tighaska={
+		name="Aziane Tighaska"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Aziane_Tighaska
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TGM_Iskari_Assourart={
+		name="Iskari Assourart"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Iskari_Assourart
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TGM_Aselmar_Tamdargadina={
+		name="Aselmar Tamdargadina"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Aselmar_Tamdargadina
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TGM_Tafsut_Tiwizianimsi={
+		name="Tafsut Tiwizianimsi"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Tafsut_Tiwizianimsi
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	TGM_Ziri_Tamatri={
+		name="Ziri Tamatri"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Ziri_Tamatri
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TGM_Taren_Tamatri={
+		name="Taren Tamatri"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Taren_Tamatri
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	TGM_Yannissa_Assir={
+		name="Yannissa Assir"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Yannissa_Assir
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TGM_Massinissini_Tiziremt={
+		name="Massinissini Tiziremt"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Massinissini_Tiziremt
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	TGM_Aselmad_Assourart={
+		name="Aselmad Assourart"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Aselmad_Assourart
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TGM_Iderfax_Tamdargadina={
+		name="Iderfax Tamdargadina"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TGM_Amar_Tiwizianimsi={
+		name="Amar Tiwizianimsi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Amar_Tiwizianimsi
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TGM_Kari_Tiziremt={
+		name="Kari Tiziremt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Kari_Tiziremt
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TGM_Yannis_Assir={
+		name="Yannis Assir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Yannis_Assir
+				traits = {	the_banker 	}
+		}
+
+	}
+	TGM_Massa_Assourart={
+		name="Massa Assourart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Massa_Assourart
+				traits = {	rearmer 	}
+		}
+
+	}
+	TGM_Taren_Tighaska={
+		name="Taren Tighaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Taren_Tighaska
+				traits = {	infirm 	}
+		}
+
+	}
+	TGM_Meziz_Taghant={
+		name="Meziz Taghant"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TGM_Meziz_Taghant
+				traits = {	rearmer 	}
+		}
+
+	}
+	TGM_Iskaren_Assir={
+		name="Iskaren Assir"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Iskaren_Assir
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TGM_Ziri_Tighaska={
+		name="Ziri Tighaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Ziri_Tighaska
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TGM_Sifax_Tamdargadina={
+		name="Sifax Tamdargadina"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Sifax_Tamdargadina
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TGM_Mokran_Tamatri={
+		name="Mokran Tamatri"
+
+		advisor={
+			slot = army_chief
+			idea_token = TGM_Mokran_Tamatri
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TGM_Ziriq_Tiziremt={
+		name="Ziriq Tiziremt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Ziriq_Tiziremt
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TGM_Iderfan_Taghant={
+		name="Iderfan Taghant"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TGM_Iderfan_Taghant
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TGM_Karimokrane_Tiziremt={
+		name="Karimokrane Tiziremt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Karimokrane_Tiziremt
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TGM_Saidi_Tiziremt={
+		name="Saidi Tiziremt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TGM_Saidi_Tiziremt
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TGM_Karimokrane_Tiwizianimsi={
+		name="Karimokrane Tiwizianimsi"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Karimokrane_Tiwizianimsi
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TGM_Mimokrane_Tamsalt={
+		name="Mimokrane Tamsalt"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Mimokrane_Tamsalt
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TGM_Amad_Assourart={
+		name="Amad Assourart"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Amad_Assourart
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TGM_Massinissini_Tamdargadina={
+		name="Massinissini Tamdargadina"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Massinissini_Tamdargadina
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TGM_Aziane_Taghant={
+		name="Aziane Taghant"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Aziane_Taghant
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TGM_Kariq_Taghant={
+		name="Kariq Taghant"
+
+		advisor={
+			slot = high_command
+			idea_token = TGM_Kariq_Taghant
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TGM_Taren_Tamsalt={
+		name="Taren Tamsalt"
+
+		advisor={
+			slot = theorist
+			idea_token = TGM_Taren_Tamsalt
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TGM_Iskari_Tamatri={
+		name="Iskari Tamatri"
+
+		advisor={
+			slot = theorist
+			idea_token = TGM_Iskari_Tamatri
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TGM_Aselmar_Tiziremt={
+		name="Aselmar Tiziremt"
+
+		advisor={
+			slot = theorist
+			idea_token = TGM_Aselmar_Tiziremt
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

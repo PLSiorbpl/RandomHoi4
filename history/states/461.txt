@@ -1,0 +1,39 @@
+
+state={
+	id=461
+	name="STATE_461"
+	manpower = 775170
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6502 4}
+		victory_points = { 6506 2}
+		
+		owner = GQT
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = GQT
+	}
+
+	provinces={
+		6502 6503 6504 6505 6506 6507 6508 6509 6510 6511 6512 6513 
+	}
+	local_supplies=0.0 
+}

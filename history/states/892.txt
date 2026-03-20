@@ -1,0 +1,38 @@
+
+state={
+	id=892
+	name="STATE_892"
+	manpower = 135218
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12371 1}
+		
+		owner = CEN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CEN
+	}
+
+	provinces={
+		12371 
+	}
+	local_supplies=0.0 
+}

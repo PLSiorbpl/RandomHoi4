@@ -1,0 +1,40 @@
+
+state={
+	id=507
+	name="STATE_507"
+	manpower = 1057177
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7289 2}
+		victory_points = { 7292 2}
+		victory_points = { 7300 5}
+		
+		owner = ACI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ACI
+	}
+
+	provinces={
+		7288 7289 7290 7291 7292 7293 7294 7295 7296 7297 7298 7299 7300 7301 7302 7303 7304 7305 7306 
+	}
+	local_supplies=0.0 
+}

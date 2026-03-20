@@ -1,0 +1,880 @@
+characters = {
+	JRE_Joharl_Prieg={
+		name="Joharl Prieg"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JRE_Frik_Buchilbe={
+		name="Frik Buchilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Frik_Buchilbe
+				traits = {	humble 	}
+		}
+
+	}
+	JRE_Johann_Ruhm={
+		name="Johann Ruhm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Johann_Ruhm
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	JRE_Rudold_Klaum={
+		name="Rudold Klaum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Rudold_Klaum
+				traits = {	humble 	}
+		}
+
+	}
+	JRE_Matto_Ruhm={
+		name="Matto Ruhm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Matto_Ruhm
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	JRE_Jansels_Licht={
+		name="Jansels Licht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Jansels_Licht
+				traits = {	humble 	}
+		}
+
+	}
+	JRE_Bjorn_Krin={
+		name="Bjorn Krin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Bjorn_Krin
+				traits = {	headstrong 	}
+		}
+
+	}
+	JRE_Olaf_Ruhm={
+		name="Olaf Ruhm"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Olaf_Ruhm
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	JRE_Matthijs_Klaum={
+		name="Matthijs Klaum"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Matthijs_Klaum
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	JRE_Herman_Freussin={
+		name="Herman Freussin"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Herman_Freussin
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	JRE_Anderensels_Licht={
+		name="Anderensels Licht"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Anderensels_Licht
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	JRE_Hers_Buchilbe={
+		name="Hers Buchilbe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Hers_Buchilbe
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	JRE_Svenders_Klaum={
+		name="Svenders Klaum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Svenders_Klaum
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	JRE_Heinrik_Klaum={
+		name="Heinrik Klaum"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Heinrik_Klaum
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	JRE_Hanselmut_Prieg={
+		name="Hanselmut Prieg"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Hanselmut_Prieg
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	JRE_Jans_Klaum={
+		name="Jans Klaum"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Jans_Klaum
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	JRE_Eirk_Freussin={
+		name="Eirk Freussin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Eirk_Freussin
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	JRE_Leinrich_Buchilbe={
+		name="Leinrich Buchilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Leinrich_Buchilbe
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	JRE_Erik_Krin={
+		name="Erik Krin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Erik_Krin
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	JRE_Hans_Freussin={
+		name="Hans Freussin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Hans_Freussin
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	JRE_Sigurd_Buchilbe={
+		name="Sigurd Buchilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Sigurd_Buchilbe
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	JRE_Oskarald_Ruhm={
+		name="Oskarald Ruhm"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JRE_Jenrichanz_Prieg={
+		name="Jenrichanz Prieg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Jenrichanz_Prieg
+				traits = {	basileus 	}
+		}
+
+	}
+	JRE_Hermanz_Flume={
+		name="Hermanz Flume"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Hermanz_Flume
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	JRE_Jans_Krin={
+		name="Jans Krin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Jans_Krin
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	JRE_Hers_Klaum={
+		name="Hers Klaum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Hers_Klaum
+				traits = {	basileus 	}
+		}
+
+	}
+	JRE_Ulrik_Eiselheiste={
+		name="Ulrik Eiselheiste"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Ulrik_Eiselheiste
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JRE_Frik_Freussin={
+		name="Frik Freussin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Frik_Freussin
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JRE_Helm_Rund={
+		name="Helm Rund"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Helm_Rund
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	JRE_Nielm_Ruhm={
+		name="Nielm Ruhm"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Nielm_Ruhm
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	JRE_Vold_Eiselheiste={
+		name="Vold Eiselheiste"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Vold_Eiselheiste
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	JRE_Willem_Flume={
+		name="Willem Flume"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Willem_Flume
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	JRE_Georn_Flume={
+		name="Georn Flume"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Georn_Flume
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	JRE_Georne_Licht={
+		name="Georne Licht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Georne_Licht
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	JRE_Frald_Eiselheiste={
+		name="Frald Eiselheiste"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Frald_Eiselheiste
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	JRE_Nielm_Buchilbe={
+		name="Nielm Buchilbe"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Nielm_Buchilbe
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	JRE_Bjorne_Ruhm={
+		name="Bjorne Ruhm"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Bjorne_Ruhm
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	JRE_Wilhels_Krin={
+		name="Wilhels Krin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Wilhels_Krin
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	JRE_Matthijs_Freussin={
+		name="Matthijs Freussin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Matthijs_Freussin
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	JRE_Frik_Eiselheiste={
+		name="Frik Eiselheiste"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Frik_Eiselheiste
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	JRE_Henderenrik_Buchilbe={
+		name="Henderenrik Buchilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Henderenrik_Buchilbe
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	JRE_Larald_Licht={
+		name="Larald Licht"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Larald_Licht
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	JRE_Kard_Klaum={
+		name="Kard Klaum"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JRE_Anselm_Eiselheiste={
+		name="Anselm Eiselheiste"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Anselm_Eiselheiste
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	JRE_Leinholf_Buchilbe={
+		name="Leinholf Buchilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Leinholf_Buchilbe
+				traits = {	infirm 	}
+		}
+
+	}
+	JRE_Heinrik_Buchilbe={
+		name="Heinrik Buchilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Heinrik_Buchilbe
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	JRE_Rolfren_Flume={
+		name="Rolfren Flume"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Rolfren_Flume
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JRE_Oskarald_Rund={
+		name="Oskarald Rund"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Oskarald_Rund
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JRE_Otthiaspar_Ruhm={
+		name="Otthiaspar Ruhm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Otthiaspar_Ruhm
+				traits = {	polemarch 	}
+		}
+
+	}
+	JRE_Ulrich_Flume={
+		name="Ulrich Flume"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Ulrich_Flume
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JRE_Jans_Ruhm={
+		name="Jans Ruhm"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Jans_Ruhm
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JRE_Henderenrik_Ruhm={
+		name="Henderenrik Ruhm"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Henderenrik_Ruhm
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	JRE_Matto_Buchilbe={
+		name="Matto Buchilbe"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Matto_Buchilbe
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	JRE_Thijs_Prieg={
+		name="Thijs Prieg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Thijs_Prieg
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	JRE_Thijs_Rund={
+		name="Thijs Rund"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Thijs_Rund
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	JRE_Leinholf_Krin={
+		name="Leinholf Krin"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Leinholf_Krin
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	JRE_Joharl_Licht={
+		name="Joharl Licht"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Joharl_Licht
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	JRE_Karan_Rund={
+		name="Karan Rund"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Karan_Rund
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	JRE_Georen_Ruhm={
+		name="Georen Ruhm"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Georen_Ruhm
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	JRE_Hermanz_Prieg={
+		name="Hermanz Prieg"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Hermanz_Prieg
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	JRE_Bjorne_Eiselheiste={
+		name="Bjorne Eiselheiste"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Bjorne_Eiselheiste
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	JRE_Lars_Buchilbe={
+		name="Lars Buchilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Lars_Buchilbe
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	JRE_Rudold_Buchilbe={
+		name="Rudold Buchilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Rudold_Buchilbe
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	JRE_Volf_Eiselheiste={
+		name="Volf Eiselheiste"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JRE_Ulrik_Prieg={
+		name="Ulrik Prieg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Ulrik_Prieg
+				traits = {	rearmer 	}
+		}
+
+	}
+	JRE_Alfred_Buchilbe={
+		name="Alfred Buchilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Alfred_Buchilbe
+				traits = {	infirm 	}
+		}
+
+	}
+	JRE_Otto_Krin={
+		name="Otto Krin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Otto_Krin
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	JRE_Larald_Freussin={
+		name="Larald Freussin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Larald_Freussin
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	JRE_Sorg_Flume={
+		name="Sorg Flume"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Sorg_Flume
+				traits = {	rearmer 	}
+		}
+
+	}
+	JRE_Thias_Prieg={
+		name="Thias Prieg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JRE_Thias_Prieg
+				traits = {	the_banker 	}
+		}
+
+	}
+	JRE_Georne_Buchilbe={
+		name="Georne Buchilbe"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Georne_Buchilbe
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	JRE_Reinrik_Ruhm={
+		name="Reinrik Ruhm"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Reinrik_Ruhm
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	JRE_Otto_Rund={
+		name="Otto Rund"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Otto_Rund
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JRE_Rich_Buchilbe={
+		name="Rich Buchilbe"
+
+		advisor={
+			slot = army_chief
+			idea_token = JRE_Rich_Buchilbe
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	JRE_Otthiaspar_Krin={
+		name="Otthiaspar Krin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Otthiaspar_Krin
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	JRE_Georen_Rund={
+		name="Georen Rund"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JRE_Georen_Rund
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	JRE_Svenders_Ruhm={
+		name="Svenders Ruhm"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Svenders_Ruhm
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	JRE_Frald_Krin={
+		name="Frald Krin"
+
+		advisor={
+			slot = air_chief
+			idea_token = JRE_Frald_Krin
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	JRE_Helm_Licht={
+		name="Helm Licht"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Helm_Licht
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	JRE_Reinrik_Krin={
+		name="Reinrik Krin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Reinrik_Krin
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	JRE_Hanselmut_Flume={
+		name="Hanselmut Flume"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Hanselmut_Flume
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	JRE_Hans_Krin={
+		name="Hans Krin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Hans_Krin
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	JRE_Eirich_Freussin={
+		name="Eirich Freussin"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Eirich_Freussin
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	JRE_Henderenrik_Eiselheiste={
+		name="Henderenrik Eiselheiste"
+
+		advisor={
+			slot = high_command
+			idea_token = JRE_Henderenrik_Eiselheiste
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	JRE_Rich_Prieg={
+		name="Rich Prieg"
+
+		advisor={
+			slot = theorist
+			idea_token = JRE_Rich_Prieg
+				traits = {	military_theorist 	}
+		}
+
+	}
+	JRE_Rolf_Licht={
+		name="Rolf Licht"
+
+		advisor={
+			slot = theorist
+			idea_token = JRE_Rolf_Licht
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	JRE_Kaspar_Freussin={
+		name="Kaspar Freussin"
+
+		advisor={
+			slot = theorist
+			idea_token = JRE_Kaspar_Freussin
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

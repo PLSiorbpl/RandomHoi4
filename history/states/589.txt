@@ -1,0 +1,43 @@
+
+state={
+	id=589
+	name="STATE_589"
+	manpower = 566012
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8602 1}
+		victory_points = { 8604 1}
+		victory_points = { 8608 1}
+		
+		owner = ATC
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8602 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ATC
+	}
+
+	provinces={
+		8602 8603 8604 8605 8606 8607 8608 8609 
+	}
+	local_supplies=0.0 
+}

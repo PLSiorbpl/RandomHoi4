@@ -1,0 +1,880 @@
+characters = {
+	PBN_Clavius_Otis={
+		name="Clavius Otis"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBN_Vitelius_Aera={
+		name="Vitelius Aera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Vitelius_Aera
+				traits = {	headstrong 	}
+		}
+
+	}
+	PBN_Gemus_Aera={
+		name="Gemus Aera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Gemus_Aera
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	PBN_Severius_Otis={
+		name="Severius Otis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Severius_Otis
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PBN_Regulus_Mens={
+		name="Regulus Mens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Regulus_Mens
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	PBN_Horaius_Unistrudo={
+		name="Horaius Unistrudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Horaius_Unistrudo
+				traits = {	headstrong 	}
+		}
+
+	}
+	PBN_Sextus_Audex={
+		name="Sextus Audex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Sextus_Audex
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PBN_Tracchus_Parium={
+		name="Tracchus Parium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Tracchus_Parium
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PBN_Spurius_Audex={
+		name="Spurius Audex"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Spurius_Audex
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PBN_Otho_Otisticium={
+		name="Otho Otisticium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Otho_Otisticium
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PBN_Claudius_Otis={
+		name="Claudius Otis"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Claudius_Otis
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PBN_Vibervius_Audex={
+		name="Vibervius Audex"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Vibervius_Audex
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	PBN_Gemus_Unistrudo={
+		name="Gemus Unistrudo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Gemus_Unistrudo
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	PBN_Lucimus_Mens={
+		name="Lucimus Mens"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Lucimus_Mens
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PBN_Aulius_Aera={
+		name="Aulius Aera"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Aulius_Aera
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	PBN_Titus_Ponor={
+		name="Titus Ponor"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Titus_Ponor
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	PBN_Flaus_Ferrum={
+		name="Flaus Ferrum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Flaus_Ferrum
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	PBN_Clavius_Parium={
+		name="Clavius Parium"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Clavius_Parium
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	PBN_Spurius_Pator={
+		name="Spurius Pator"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Spurius_Pator
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	PBN_Antus_Mens={
+		name="Antus Mens"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Antus_Mens
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	PBN_Claudius_Ponor={
+		name="Claudius Ponor"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Claudius_Ponor
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	PBN_Marcelius_Aera={
+		name="Marcelius Aera"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBN_Remustus_Otisticium={
+		name="Remustus Otisticium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Remustus_Otisticium
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	PBN_Claulus_Ponor={
+		name="Claulus Ponor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Claulus_Ponor
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	PBN_Horaius_Ferrum={
+		name="Horaius Ferrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Horaius_Ferrum
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBN_Brus_Pator={
+		name="Brus Pator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Brus_Pator
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	PBN_Silvanlianus_Mens={
+		name="Silvanlianus Mens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Silvanlianus_Mens
+				traits = {	autokrator 	}
+		}
+
+	}
+	PBN_Antus_Otis={
+		name="Antus Otis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Antus_Otis
+				traits = {	autokrator 	}
+		}
+
+	}
+	PBN_Quinus_Parium={
+		name="Quinus Parium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Quinus_Parium
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PBN_Maximususus_Otis={
+		name="Maximususus Otis"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Maximususus_Otis
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PBN_Vitellus_Mens={
+		name="Vitellus Mens"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Vitellus_Mens
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PBN_Coraianus_Ponor={
+		name="Coraianus Ponor"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Coraianus_Ponor
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PBN_Regulus_Unistrudo={
+		name="Regulus Unistrudo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Regulus_Unistrudo
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PBN_Valerius_Ferrum={
+		name="Valerius Ferrum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Valerius_Ferrum
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PBN_Nerus_Ponor={
+		name="Nerus Ponor"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Nerus_Ponor
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	PBN_Lucius_Parium={
+		name="Lucius Parium"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Lucius_Parium
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	PBN_Severius_Ferrum={
+		name="Severius Ferrum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Severius_Ferrum
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	PBN_Vitellus_Audex={
+		name="Vitellus Audex"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Vitellus_Audex
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	PBN_Otho_Mens={
+		name="Otho Mens"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Otho_Mens
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	PBN_Claudius_Otisticium={
+		name="Claudius Otisticium"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Claudius_Otisticium
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	PBN_Scaevola_Unistrudo={
+		name="Scaevola Unistrudo"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Scaevola_Unistrudo
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	PBN_Nongintus_Audex={
+		name="Nongintus Audex"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Nongintus_Audex
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	PBN_Cornelius_Ferrum={
+		name="Cornelius Ferrum"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBN_Caius_Ponor={
+		name="Caius Ponor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Caius_Ponor
+				traits = {	infirm 	}
+		}
+
+	}
+	PBN_Claudius_Audex={
+		name="Claudius Audex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Claudius_Audex
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PBN_Urbanus_Mens={
+		name="Urbanus Mens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Urbanus_Mens
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PBN_Clavius_Ferrum={
+		name="Clavius Ferrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Clavius_Ferrum
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PBN_Remitius_Parium={
+		name="Remitius Parium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Remitius_Parium
+				traits = {	infirm 	}
+		}
+
+	}
+	PBN_Sextustus_Unistrudo={
+		name="Sextustus Unistrudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Sextustus_Unistrudo
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PBN_Scaevolaus_Unistrudo={
+		name="Scaevolaus Unistrudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Scaevolaus_Unistrudo
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PBN_Clavius_Mens={
+		name="Clavius Mens"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Clavius_Mens
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PBN_Silvanlianus_Ponor={
+		name="Silvanlianus Ponor"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Silvanlianus_Ponor
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PBN_Silvanus_Parium={
+		name="Silvanus Parium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Silvanus_Parium
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	PBN_Claulus_Audex={
+		name="Claulus Audex"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Claulus_Audex
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	PBN_Vitellus_Ponor={
+		name="Vitellus Ponor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Vitellus_Ponor
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	PBN_Scaevola_Ponor={
+		name="Scaevola Ponor"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Scaevola_Ponor
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PBN_Titus_Audex={
+		name="Titus Audex"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Titus_Audex
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PBN_Coraianus_Ferrum={
+		name="Coraianus Ferrum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Coraianus_Ferrum
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	PBN_Vitellus_Otis={
+		name="Vitellus Otis"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Vitellus_Otis
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	PBN_Nerus_Audex={
+		name="Nerus Audex"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Nerus_Audex
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	PBN_Sextustus_Otis={
+		name="Sextustus Otis"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Sextustus_Otis
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	PBN_Serius_Otis={
+		name="Serius Otis"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Serius_Otis
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	PBN_Livius_Ponor={
+		name="Livius Ponor"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Livius_Ponor
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PBN_Tiberius_Otisticium={
+		name="Tiberius Otisticium"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBN_Titius_Pator={
+		name="Titius Pator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Titius_Pator
+				traits = {	the_banker 	}
+		}
+
+	}
+	PBN_Aulius_Parium={
+		name="Aulius Parium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Aulius_Parium
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBN_Faudius_Ferrum={
+		name="Faudius Ferrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Faudius_Ferrum
+				traits = {	the_banker 	}
+		}
+
+	}
+	PBN_Remustus_Mens={
+		name="Remustus Mens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Remustus_Mens
+				traits = {	the_banker 	}
+		}
+
+	}
+	PBN_Cornelius_Pator={
+		name="Cornelius Pator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Cornelius_Pator
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PBN_Atticus_Unistrudo={
+		name="Atticus Unistrudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBN_Atticus_Unistrudo
+				traits = {	first_lady 	}
+		}
+
+	}
+	PBN_Claulus_Parium={
+		name="Claulus Parium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Claulus_Parium
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PBN_Faudius_Pator={
+		name="Faudius Pator"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Faudius_Pator
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PBN_Vibervius_Pator={
+		name="Vibervius Pator"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Vibervius_Pator
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	PBN_Antus_Unistrudo={
+		name="Antus Unistrudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBN_Antus_Unistrudo
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PBN_Serius_Ponor={
+		name="Serius Ponor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Serius_Ponor
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	PBN_Severius_Pator={
+		name="Severius Pator"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBN_Severius_Pator
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	PBN_Cornelius_Otis={
+		name="Cornelius Otis"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Cornelius_Otis
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	PBN_Julus_Mens={
+		name="Julus Mens"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBN_Julus_Mens
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	PBN_Lucimus_Otis={
+		name="Lucimus Otis"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Lucimus_Otis
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	PBN_Sevolaus_Mens={
+		name="Sevolaus Mens"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Sevolaus_Mens
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	PBN_Drus_Mens={
+		name="Drus Mens"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Drus_Mens
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	PBN_Livius_Otisticium={
+		name="Livius Otisticium"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Livius_Otisticium
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	PBN_Drutus_Unistrudo={
+		name="Drutus Unistrudo"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Drutus_Unistrudo
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	PBN_Lucius_Otisticium={
+		name="Lucius Otisticium"
+
+		advisor={
+			slot = high_command
+			idea_token = PBN_Lucius_Otisticium
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	PBN_Marcelius_Ferrum={
+		name="Marcelius Ferrum"
+
+		advisor={
+			slot = theorist
+			idea_token = PBN_Marcelius_Ferrum
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PBN_Titius_Mens={
+		name="Titius Mens"
+
+		advisor={
+			slot = theorist
+			idea_token = PBN_Titius_Mens
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PBN_Tracchus_Unistrudo={
+		name="Tracchus Unistrudo"
+
+		advisor={
+			slot = theorist
+			idea_token = PBN_Tracchus_Unistrudo
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=1199
+	name="STATE_1199"
+	manpower = 555489
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16673 1}
+		victory_points = { 16675 2}
+		
+		owner = DBH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			16675 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DBH
+	}
+
+	provinces={
+		16672 16673 16674 16675 16676 16677 16678 16679 
+	}
+	local_supplies=0.0 
+}

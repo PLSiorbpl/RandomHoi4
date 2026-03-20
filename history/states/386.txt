@@ -1,0 +1,42 @@
+
+state={
+	id=386
+	name="STATE_386"
+	manpower = 714510
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5485 2}
+		victory_points = { 5490 4}
+		
+		owner = HHL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			5481 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HHL
+	}
+
+	provinces={
+		5480 5481 5482 5483 5484 5485 5486 5487 5488 5489 5490 
+	}
+	local_supplies=0.0 
+}

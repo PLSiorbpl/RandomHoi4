@@ -1,0 +1,41 @@
+
+state={
+	id=229
+	name="STATE_229"
+	manpower = 1341428
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3535 13}
+		
+		owner = NOJ
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			3546 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOJ
+	}
+
+	provinces={
+		3533 3534 3535 3536 3537 3538 3539 3540 3541 3542 3543 3544 3545 3546 3547 3548 3549 3550 3551 3552 3553 3554 3555 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=10
+	name="STATE_10"
+	manpower = 3508
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=6
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=27
+	}
+
+	history={
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 
+	}
+	local_supplies=0.0 
+}

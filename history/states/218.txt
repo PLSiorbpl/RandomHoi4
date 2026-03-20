@@ -1,0 +1,38 @@
+
+state={
+	id=218
+	name="STATE_218"
+	manpower = 540228
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=7
+	}
+
+	history={
+		victory_points = { 3330 4}
+		
+		owner = VUD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VUD
+	}
+
+	provinces={
+		3329 3330 3331 3332 3333 3334 3335 3336 
+	}
+	local_supplies=0.0 
+}

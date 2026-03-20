@@ -1,0 +1,40 @@
+
+state={
+	id=481
+	name="STATE_481"
+	manpower = 1415718
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6830 4}
+		victory_points = { 6832 4}
+		victory_points = { 6835 4}
+		
+		owner = VRU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VRU
+	}
+
+	provinces={
+		6811 6812 6813 6814 6815 6816 6817 6818 6819 6820 6821 6822 6823 6824 6825 6826 6827 6828 6829 6830 6831 6832 6833 6834 6835 
+	}
+	local_supplies=0.0 
+}

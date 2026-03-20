@@ -1,0 +1,42 @@
+
+state={
+	id=1279
+	name="STATE_1279"
+	manpower = 758041
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=18
+	}
+
+	history={
+		victory_points = { 17495 5}
+		victory_points = { 17501 1}
+		
+		owner = GWU
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17505 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GWU
+	}
+
+	provinces={
+		17494 17495 17496 17497 17498 17499 17500 17501 17502 17503 17504 17505 
+	}
+	local_supplies=0.0 
+}

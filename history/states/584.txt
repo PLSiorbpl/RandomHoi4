@@ -1,0 +1,39 @@
+
+state={
+	id=584
+	name="STATE_584"
+	manpower = 465574
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8538 1}
+		victory_points = { 8540 2}
+		
+		owner = SOO
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SOO
+	}
+
+	provinces={
+		8534 8535 8536 8537 8538 8539 8540 
+	}
+	local_supplies=0.0 
+}

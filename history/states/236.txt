@@ -1,0 +1,39 @@
+
+state={
+	id=236
+	name="STATE_236"
+	manpower = 1002681
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3629 4}
+		victory_points = { 3634 4}
+		
+		owner = HHL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HHL
+	}
+
+	provinces={
+		3625 3626 3627 3628 3629 3630 3631 3632 3633 3634 3635 3636 3637 3638 3639 3640 3641 
+	}
+	local_supplies=0.0 
+}

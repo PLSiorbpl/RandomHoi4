@@ -1,0 +1,880 @@
+characters = {
+	JMI_Oxib_Kaalampak={
+		name="Oxib Kaalampak"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JMI_Ekchil_Tzolkin={
+		name="Ekchil Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Ekchil_Tzolkin
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	JMI_Chichen_Bona={
+		name="Chichen Bona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chichen_Bona
+				traits = {	humble 	}
+		}
+
+	}
+	JMI_Bacatl_Bona={
+		name="Bacatl Bona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Bacatl_Bona
+				traits = {	headstrong 	}
+		}
+
+	}
+	JMI_Kanek_Tzolkin={
+		name="Kanek Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Kanek_Tzolkin
+				traits = {	headstrong 	}
+		}
+
+	}
+	JMI_Tecun_Chichenque={
+		name="Tecun Chichenque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Tecun_Chichenque
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	JMI_Tohichen_Tzolkin={
+		name="Tohichen Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Tohichen_Tzolkin
+				traits = {	headstrong 	}
+		}
+
+	}
+	JMI_Chil_Tzolkin={
+		name="Chil Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Chil_Tzolkin
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JMI_Balam_Kaalampak={
+		name="Balam Kaalampak"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Balam_Kaalampak
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	JMI_Nacab_Chichenque={
+		name="Nacab Chichenque"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Nacab_Chichenque
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	JMI_Tohichen_Bona={
+		name="Tohichen Bona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Tohichen_Bona
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	JMI_Nacom_Bahpu={
+		name="Nacom Bahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Nacom_Bahpu
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	JMI_Ekchua_Chichenque={
+		name="Ekchua Chichenque"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Ekchua_Chichenque
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	JMI_Pakan_Bona={
+		name="Pakan Bona"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Pakan_Bona
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	JMI_Moctez_Bona={
+		name="Moctez Bona"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Moctez_Bona
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	JMI_Tecun_Kaalampak={
+		name="Tecun Kaalampak"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Tecun_Kaalampak
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	JMI_Bacab_Tzolkin={
+		name="Bacab Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Bacab_Tzolkin
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	JMI_Popo_Chichenque={
+		name="Popo Chichenque"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Popo_Chichenque
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	JMI_Bacom_Chichenque={
+		name="Bacom Chichenque"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Bacom_Chichenque
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	JMI_Pakan_Chichenque={
+		name="Pakan Chichenque"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Pakan_Chichenque
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	JMI_Pakan_Chenque={
+		name="Pakan Chenque"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Pakan_Chenque
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	JMI_Ekchichen_Chenque={
+		name="Ekchichen Chenque"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JMI_Itzam_Kaalampak={
+		name="Itzam Kaalampak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Itzam_Kaalampak
+				traits = {	warmonger 	}
+		}
+
+	}
+	JMI_Yaxkin_Kaalampak={
+		name="Yaxkin Kaalampak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Yaxkin_Kaalampak
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	JMI_Acab_Bahpu={
+		name="Acab Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Acab_Bahpu
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	JMI_Chua_Tzolkin={
+		name="Chua Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chua_Tzolkin
+				traits = {	generallissimo 	}
+		}
+
+	}
+	JMI_Chakalam_Bona={
+		name="Chakalam Bona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chakalam_Bona
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JMI_Popo_Bahpu={
+		name="Popo Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Popo_Bahpu
+				traits = {	autokrator 	}
+		}
+
+	}
+	JMI_Ekchichen_Bona={
+		name="Ekchichen Bona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Ekchichen_Bona
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	JMI_Balam_Bona={
+		name="Balam Bona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Balam_Bona
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	JMI_Nacom_Tzolkin={
+		name="Nacom Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Nacom_Tzolkin
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	JMI_Bacom_Tzolkin={
+		name="Bacom Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Bacom_Tzolkin
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	JMI_Pakalam_Tzolkin={
+		name="Pakalam Tzolkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Pakalam_Tzolkin
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	JMI_Acab_Tzolkin={
+		name="Acab Tzolkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Acab_Tzolkin
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	JMI_Chakal_Tzolkin={
+		name="Chakal Tzolkin"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Chakal_Tzolkin
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	JMI_Kukulkal_Tzolkin={
+		name="Kukulkal Tzolkin"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Kukulkal_Tzolkin
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	JMI_Bacatl_Tzolkin={
+		name="Bacatl Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Bacatl_Tzolkin
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	JMI_Bacab_Kaalampak={
+		name="Bacab Kaalampak"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Bacab_Kaalampak
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	JMI_Chak_Bona={
+		name="Chak Bona"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Chak_Bona
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	JMI_Ahkin_Bona={
+		name="Ahkin Bona"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Ahkin_Bona
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	JMI_Pakan_Kaalampak={
+		name="Pakan Kaalampak"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Pakan_Kaalampak
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	JMI_Pakalam_Bahpu={
+		name="Pakalam Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Pakalam_Bahpu
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	JMI_Bacom_Kaalampak={
+		name="Bacom Kaalampak"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JMI_Chakanek_Chenque={
+		name="Chakanek Chenque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chakanek_Chenque
+				traits = {	polemarch 	}
+		}
+
+	}
+	JMI_Chakanek_Bahpu={
+		name="Chakanek Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chakanek_Bahpu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JMI_Chakal_Chenque={
+		name="Chakal Chenque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chakal_Chenque
+				traits = {	political_dancer 	}
+		}
+
+	}
+	JMI_Tohil_Kaalampak={
+		name="Tohil Kaalampak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Tohil_Kaalampak
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	JMI_Chakal_Bahpu={
+		name="Chakal Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chakal_Bahpu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	JMI_Nacom_Kaalampak={
+		name="Nacom Kaalampak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Nacom_Kaalampak
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	JMI_Chakanek_Bona={
+		name="Chakanek Bona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Chakanek_Bona
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	JMI_Acatl_Tzolkin={
+		name="Acatl Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Acatl_Tzolkin
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JMI_Acatl_Bona={
+		name="Acatl Bona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Acatl_Bona
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JMI_Chichen_Kaalampak={
+		name="Chichen Kaalampak"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Chichen_Kaalampak
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JMI_Nacab_Kaalampak={
+		name="Nacab Kaalampak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Nacab_Kaalampak
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	JMI_Oxib_Bahpu={
+		name="Oxib Bahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Oxib_Bahpu
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	JMI_Itzam_Bona={
+		name="Itzam Bona"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Itzam_Bona
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	JMI_Moctez_Kaalampak={
+		name="Moctez Kaalampak"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Moctez_Kaalampak
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	JMI_Nacab_Bahpu={
+		name="Nacab Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Nacab_Bahpu
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	JMI_Popo_Tzolkin={
+		name="Popo Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Popo_Tzolkin
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	JMI_Oxib_Tzolkin={
+		name="Oxib Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Oxib_Tzolkin
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	JMI_Popo_Chenque={
+		name="Popo Chenque"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Popo_Chenque
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	JMI_Bacab_Chichenque={
+		name="Bacab Chichenque"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Bacab_Chichenque
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	JMI_Chichen_Tzolkin={
+		name="Chichen Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Chichen_Tzolkin
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	JMI_Acatl_Chenque={
+		name="Acatl Chenque"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JMI_Ahkin_Chichenque={
+		name="Ahkin Chichenque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Ahkin_Chichenque
+				traits = {	first_lady 	}
+		}
+
+	}
+	JMI_Tecun_Bahpu={
+		name="Tecun Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Tecun_Bahpu
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	JMI_Tohichen_Kaalampak={
+		name="Tohichen Kaalampak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Tohichen_Kaalampak
+				traits = {	rearmer 	}
+		}
+
+	}
+	JMI_Chil_Bahpu={
+		name="Chil Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chil_Bahpu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JMI_Chua_Kaalampak={
+		name="Chua Kaalampak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Chua_Kaalampak
+				traits = {	the_banker 	}
+		}
+
+	}
+	JMI_Tohil_Chenque={
+		name="Tohil Chenque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JMI_Tohil_Chenque
+				traits = {	the_banker 	}
+		}
+
+	}
+	JMI_Chakal_Chichenque={
+		name="Chakal Chichenque"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Chakal_Chichenque
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	JMI_Acatl_Chichenque={
+		name="Acatl Chichenque"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Acatl_Chichenque
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	JMI_Yaxkin_Bahpu={
+		name="Yaxkin Bahpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Yaxkin_Bahpu
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	JMI_Ekchil_Bahpu={
+		name="Ekchil Bahpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = JMI_Ekchil_Bahpu
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	JMI_Chakalam_Bahpu={
+		name="Chakalam Bahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Chakalam_Bahpu
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	JMI_Acatl_Bahpu={
+		name="Acatl Bahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JMI_Acatl_Bahpu
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	JMI_Pakalam_Chichenque={
+		name="Pakalam Chichenque"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Pakalam_Chichenque
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	JMI_Chak_Bahpu={
+		name="Chak Bahpu"
+
+		advisor={
+			slot = air_chief
+			idea_token = JMI_Chak_Bahpu
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	JMI_Bacab_Chenque={
+		name="Bacab Chenque"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Bacab_Chenque
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	JMI_Nacab_Tzolkin={
+		name="Nacab Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Nacab_Tzolkin
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	JMI_Chua_Bahpu={
+		name="Chua Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Chua_Bahpu
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	JMI_Ekchichen_Bahpu={
+		name="Ekchichen Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Ekchichen_Bahpu
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	JMI_Chak_Tzolkin={
+		name="Chak Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Chak_Tzolkin
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	JMI_Bacatl_Bahpu={
+		name="Bacatl Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = JMI_Bacatl_Bahpu
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	JMI_Ahkin_Tzolkin={
+		name="Ahkin Tzolkin"
+
+		advisor={
+			slot = theorist
+			idea_token = JMI_Ahkin_Tzolkin
+				traits = {	military_theorist 	}
+		}
+
+	}
+	JMI_Ekchua_Kaalampak={
+		name="Ekchua Kaalampak"
+
+		advisor={
+			slot = theorist
+			idea_token = JMI_Ekchua_Kaalampak
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	JMI_Chil_Bona={
+		name="Chil Bona"
+
+		advisor={
+			slot = theorist
+			idea_token = JMI_Chil_Bona
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

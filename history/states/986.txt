@@ -1,0 +1,44 @@
+
+state={
+	id=986
+	name="STATE_986"
+	manpower = 858734
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13563 2}
+		victory_points = { 13565 1}
+		victory_points = { 13567 2}
+		victory_points = { 13573 1}
+		
+		owner = WOA
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			arms_factory = 1
+			industrial_complex = 0
+			
+			13567 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = WOA
+	}
+
+	provinces={
+		13560 13561 13562 13563 13564 13565 13566 13567 13568 13569 13570 13571 13572 13573 
+	}
+	local_supplies=0.0 
+}

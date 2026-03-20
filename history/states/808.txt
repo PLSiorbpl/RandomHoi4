@@ -1,0 +1,39 @@
+
+state={
+	id=808
+	name="STATE_808"
+	manpower = 622274
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11408 2}
+		victory_points = { 11412 3}
+		
+		owner = ATC
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ATC
+	}
+
+	provinces={
+		11408 11409 11410 11411 11412 11413 11414 11415 11416 11417 
+	}
+	local_supplies=0.0 
+}

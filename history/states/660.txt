@@ -1,0 +1,44 @@
+
+state={
+	id=660
+	name="STATE_660"
+	manpower = 1164412
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9399 1}
+		victory_points = { 9402 2}
+		victory_points = { 9404 5}
+		victory_points = { 9405 2}
+		
+		owner = SOO
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			9404 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SOO
+	}
+
+	provinces={
+		9397 9398 9399 9400 9401 9402 9403 9404 9405 9406 9407 9408 9409 9410 9411 9412 9413 9414 9415 9416 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=283
+	name="STATE_283"
+	manpower = 520325
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4213 3}
+		
+		owner = HHL
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HHL
+	}
+
+	provinces={
+		4213 4214 4215 4216 4217 4218 4219 4220 
+	}
+	local_supplies=0.0 
+}

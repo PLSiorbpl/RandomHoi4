@@ -1,0 +1,41 @@
+
+state={
+	id=446
+	name="STATE_446"
+	manpower = 854533
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6286 7}
+		
+		owner = FMR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6285 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FMR
+	}
+
+	provinces={
+		6282 6283 6284 6285 6286 6287 6288 6289 6290 6291 6292 6293 6294 6295 6296 6297 
+	}
+	local_supplies=0.0 
+}

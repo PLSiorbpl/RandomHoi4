@@ -1,0 +1,41 @@
+
+state={
+	id=702
+	name="STATE_702"
+	manpower = 989281
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9943 2}
+		victory_points = { 9946 1}
+		victory_points = { 9952 4}
+		victory_points = { 9957 1}
+		
+		owner = EKZ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = EKZ
+	}
+
+	provinces={
+		9942 9943 9944 9945 9946 9947 9948 9949 9950 9951 9952 9953 9954 9955 9956 9957 9958 
+	}
+	local_supplies=0.0 
+}

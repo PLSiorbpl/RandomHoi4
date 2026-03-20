@@ -1,0 +1,43 @@
+
+state={
+	id=407
+	name="STATE_407"
+	manpower = 881780
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5672 1}
+		victory_points = { 5674 4}
+		victory_points = { 5680 2}
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5675 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		5671 5672 5673 5674 5675 5676 5677 5678 5679 5680 5681 5682 5683 5684 5685 
+	}
+	local_supplies=0.0 
+}

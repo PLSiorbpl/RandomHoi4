@@ -1,0 +1,880 @@
+characters = {
+	ATC_Fabius_Amor={
+		name="Fabius Amor"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATC_Lonius_Cola={
+		name="Lonius Cola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Lonius_Cola
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ATC_Publianus_Medix={
+		name="Publianus Medix"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Publianus_Medix
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	ATC_Nerutus_Lachinum={
+		name="Nerutus Lachinum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Nerutus_Lachinum
+				traits = {	headstrong 	}
+		}
+
+	}
+	ATC_Attiustusus_Medicis={
+		name="Attiustusus Medicis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Attiustusus_Medicis
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	ATC_Hornelliustu_Aqua={
+		name="Hornelliustu Aqua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Hornelliustu_Aqua
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ATC_Quintongintu_Orbor={
+		name="Quintongintu Orbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Quintongintu_Orbor
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ATC_Lucimus_Orbor={
+		name="Lucimus Orbor"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Lucimus_Orbor
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	ATC_Tiberius_Amor={
+		name="Tiberius Amor"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Tiberius_Amor
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	ATC_Regulus_Aqua={
+		name="Regulus Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Regulus_Aqua
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	ATC_Tiberius_Lachinum={
+		name="Tiberius Lachinum"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Tiberius_Lachinum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	ATC_Manus_Amor={
+		name="Manus Amor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Manus_Amor
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	ATC_Valerius_Orbor={
+		name="Valerius Orbor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Valerius_Orbor
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	ATC_Marcelius_Amor={
+		name="Marcelius Amor"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Marcelius_Amor
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	ATC_Tiberius_Aqua={
+		name="Tiberius Aqua"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Tiberius_Aqua
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	ATC_Coratius_Auctus={
+		name="Coratius Auctus"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Coratius_Auctus
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	ATC_Scaevolavius_Lachinum={
+		name="Scaevolavius Lachinum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Scaevolavius_Lachinum
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	ATC_Antonius_Orbor={
+		name="Antonius Orbor"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Antonius_Orbor
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	ATC_Nerius_Orbor={
+		name="Nerius Orbor"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Nerius_Orbor
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	ATC_Manus_Medicis={
+		name="Manus Medicis"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Manus_Medicis
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	ATC_Drus_Aqua={
+		name="Drus Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Drus_Aqua
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	ATC_Antonius_Medix={
+		name="Antonius Medix"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATC_Regulius_Medix={
+		name="Regulius Medix"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Regulius_Medix
+				traits = {	polemarch 	}
+		}
+
+	}
+	ATC_Lucimus_Bellum={
+		name="Lucimus Bellum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Lucimus_Bellum
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	ATC_Paus_Amor={
+		name="Paus Amor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Paus_Amor
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	ATC_Vibius_Bellum={
+		name="Vibius Bellum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Vibius_Bellum
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	ATC_Drus_Medix={
+		name="Drus Medix"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Drus_Medix
+				traits = {	autokrator 	}
+		}
+
+	}
+	ATC_Regulius_Medicis={
+		name="Regulius Medicis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Regulius_Medicis
+				traits = {	warmonger 	}
+		}
+
+	}
+	ATC_Remus_Medix={
+		name="Remus Medix"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Remus_Medix
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	ATC_Scaevolauliu_Orbor={
+		name="Scaevolauliu Orbor"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Scaevolauliu_Orbor
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	ATC_Cornellianus_Medix={
+		name="Cornellianus Medix"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Cornellianus_Medix
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	ATC_Scaevolauliu_Amor={
+		name="Scaevolauliu Amor"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Scaevolauliu_Amor
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	ATC_Caius_Medix={
+		name="Caius Medix"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Caius_Medix
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	ATC_Horaticus_Medicis={
+		name="Horaticus Medicis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Horaticus_Medicis
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	ATC_Maximus_Cola={
+		name="Maximus Cola"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Maximus_Cola
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	ATC_Augus_Orbor={
+		name="Augus Orbor"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Augus_Orbor
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	ATC_Serius_Medicis={
+		name="Serius Medicis"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Serius_Medicis
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	ATC_Scaevolauliu_Castrum={
+		name="Scaevolauliu Castrum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Scaevolauliu_Castrum
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	ATC_Quintongintu_Medicis={
+		name="Quintongintu Medicis"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Quintongintu_Medicis
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	ATC_Nero_Aqua={
+		name="Nero Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Nero_Aqua
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	ATC_Cassius_Medix={
+		name="Cassius Medix"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Cassius_Medix
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	ATC_Decimus_Amor={
+		name="Decimus Amor"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Decimus_Amor
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	ATC_Caiustustus_Bellum={
+		name="Caiustustus Bellum"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATC_Graius_Medicis={
+		name="Graius Medicis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Graius_Medicis
+				traits = {	political_dancer 	}
+		}
+
+	}
+	ATC_Publianus_Bellum={
+		name="Publianus Bellum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Publianus_Bellum
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	ATC_Fabius_Orbor={
+		name="Fabius Orbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Fabius_Orbor
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	ATC_Sero_Cola={
+		name="Sero Cola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Sero_Cola
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	ATC_Serus_Bellum={
+		name="Serus Bellum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Serus_Bellum
+				traits = {	political_dancer 	}
+		}
+
+	}
+	ATC_Scaevolavius_Auctus={
+		name="Scaevolavius Auctus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Scaevolavius_Auctus
+				traits = {	polemarch 	}
+		}
+
+	}
+	ATC_Nonius_Aqua={
+		name="Nonius Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Nonius_Aqua
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	ATC_Drus_Castrum={
+		name="Drus Castrum"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Drus_Castrum
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	ATC_Scaevolavius_Castrum={
+		name="Scaevolavius Castrum"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Scaevolavius_Castrum
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	ATC_Fabius_Medicis={
+		name="Fabius Medicis"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Fabius_Medicis
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	ATC_Graius_Medix={
+		name="Graius Medix"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Graius_Medix
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	ATC_Nerutus_Castrum={
+		name="Nerutus Castrum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Nerutus_Castrum
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	ATC_Regus_Auctus={
+		name="Regus Auctus"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Regus_Auctus
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	ATC_Varcus_Aqua={
+		name="Varcus Aqua"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Varcus_Aqua
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	ATC_Marro_Lachinum={
+		name="Marro Lachinum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Marro_Lachinum
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	ATC_Maximus_Auctus={
+		name="Maximus Auctus"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Maximus_Auctus
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	ATC_Nonius_Auctus={
+		name="Nonius Auctus"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Nonius_Auctus
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	ATC_Remus_Lachinum={
+		name="Remus Lachinum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Remus_Lachinum
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	ATC_Severo_Bellum={
+		name="Severo Bellum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Severo_Bellum
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	ATC_Claudius_Cola={
+		name="Claudius Cola"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Claudius_Cola
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	ATC_Aulus_Lachinum={
+		name="Aulus Lachinum"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATC_Brus_Amor={
+		name="Brus Amor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Brus_Amor
+				traits = {	the_banker 	}
+		}
+
+	}
+	ATC_Otho_Castrum={
+		name="Otho Castrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Otho_Castrum
+				traits = {	the_banker 	}
+		}
+
+	}
+	ATC_Regulus_Cola={
+		name="Regulus Cola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Regulus_Cola
+				traits = {	infirm 	}
+		}
+
+	}
+	ATC_Claudius_Lachinum={
+		name="Claudius Lachinum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Claudius_Lachinum
+				traits = {	the_banker 	}
+		}
+
+	}
+	ATC_Manus_Lachinum={
+		name="Manus Lachinum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Manus_Lachinum
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	ATC_Scaevolauliu_Auctus={
+		name="Scaevolauliu Auctus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATC_Scaevolauliu_Auctus
+				traits = {	first_lady 	}
+		}
+
+	}
+	ATC_Antonius_Aqua={
+		name="Antonius Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Antonius_Aqua
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	ATC_Scaevola_Castrum={
+		name="Scaevola Castrum"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Scaevola_Castrum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	ATC_Marcus_Cola={
+		name="Marcus Cola"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Marcus_Cola
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	ATC_Prius_Bellum={
+		name="Prius Bellum"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATC_Prius_Bellum
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	ATC_Marcus_Amor={
+		name="Marcus Amor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Marcus_Amor
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	ATC_Hornelliustu_Cola={
+		name="Hornelliustu Cola"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATC_Hornelliustu_Cola
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	ATC_Julus_Aqua={
+		name="Julus Aqua"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Julus_Aqua
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	ATC_Serius_Amor={
+		name="Serius Amor"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATC_Serius_Amor
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	ATC_Julus_Bellum={
+		name="Julus Bellum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Julus_Bellum
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	ATC_Decius_Medicis={
+		name="Decius Medicis"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Decius_Medicis
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	ATC_Drus_Lachinum={
+		name="Drus Lachinum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Drus_Lachinum
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	ATC_Remitus_Auctus={
+		name="Remitus Auctus"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Remitus_Auctus
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	ATC_Drutus_Orbor={
+		name="Drutus Orbor"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Drutus_Orbor
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	ATC_Drutus_Lachinum={
+		name="Drutus Lachinum"
+
+		advisor={
+			slot = high_command
+			idea_token = ATC_Drutus_Lachinum
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	ATC_Loniustus_Medicis={
+		name="Loniustus Medicis"
+
+		advisor={
+			slot = theorist
+			idea_token = ATC_Loniustus_Medicis
+				traits = {	military_theorist 	}
+		}
+
+	}
+	ATC_Titelianlian_Medicis={
+		name="Titelianlian Medicis"
+
+		advisor={
+			slot = theorist
+			idea_token = ATC_Titelianlian_Medicis
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	ATC_Quinus_Aqua={
+		name="Quinus Aqua"
+
+		advisor={
+			slot = theorist
+			idea_token = ATC_Quinus_Aqua
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

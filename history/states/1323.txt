@@ -1,0 +1,42 @@
+
+state={
+	id=1323
+	name="STATE_1323"
+	manpower = 396706
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17812 1}
+		victory_points = { 17813 1}
+		
+		owner = QGA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17808 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QGA
+	}
+
+	provinces={
+		17808 17809 17810 17811 17812 17813 
+	}
+	local_supplies=0.0 
+}

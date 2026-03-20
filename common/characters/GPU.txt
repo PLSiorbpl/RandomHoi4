@@ -1,0 +1,880 @@
+characters = {
+	GPU_Eritz_Heit={
+		name="Eritz Heit"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GPU_Olaf_Namild={
+		name="Olaf Namild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Olaf_Namild
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GPU_Thiaspar_Feind={
+		name="Thiaspar Feind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Thiaspar_Feind
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GPU_Soren_Reilfeinze={
+		name="Soren Reilfeinze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Soren_Reilfeinze
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	GPU_Frich_Wacht={
+		name="Frich Wacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Frich_Wacht
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	GPU_Kaspar_Feind={
+		name="Kaspar Feind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Kaspar_Feind
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	GPU_Olaf_Reilfeinze={
+		name="Olaf Reilfeinze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Olaf_Reilfeinze
+				traits = {	humble 	}
+		}
+
+	}
+	GPU_Emillem_Fesetz={
+		name="Emillem Fesetz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Emillem_Fesetz
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	GPU_Willem_Reitz={
+		name="Willem Reitz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Willem_Reitz
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GPU_Matto_Frin={
+		name="Matto Frin"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Matto_Frin
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GPU_Magnus_Heit={
+		name="Magnus Heit"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Magnus_Heit
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GPU_Sten_Feind={
+		name="Sten Feind"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Sten_Feind
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	GPU_Arne_Wacht={
+		name="Arne Wacht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Arne_Wacht
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	GPU_Rich_Feind={
+		name="Rich Feind"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Rich_Feind
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	GPU_Kars_Feind={
+		name="Kars Feind"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Kars_Feind
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GPU_Arne_Reitz={
+		name="Arne Reitz"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Arne_Reitz
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	GPU_Kars_Feuesang={
+		name="Kars Feuesang"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Kars_Feuesang
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	GPU_Sigurd_Heit={
+		name="Sigurd Heit"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Sigurd_Heit
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	GPU_Kasparann_Reilfeinze={
+		name="Kasparann Reilfeinze"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Kasparann_Reilfeinze
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	GPU_Frik_Reilfeinze={
+		name="Frik Reilfeinze"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Frik_Reilfeinze
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	GPU_Georne_Namild={
+		name="Georne Namild"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Georne_Namild
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	GPU_Heinholf_Fesetz={
+		name="Heinholf Fesetz"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GPU_Kaspars_Feuesang={
+		name="Kaspars Feuesang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Kaspars_Feuesang
+				traits = {	infirm 	}
+		}
+
+	}
+	GPU_Frald_Namild={
+		name="Frald Namild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Frald_Namild
+				traits = {	polemarch 	}
+		}
+
+	}
+	GPU_Laran_Frin={
+		name="Laran Frin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Laran_Frin
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	GPU_Magnus_Frin={
+		name="Magnus Frin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Magnus_Frin
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	GPU_Svenrik_Richten={
+		name="Svenrik Richten"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Svenrik_Richten
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	GPU_Willem_Fesetz={
+		name="Willem Fesetz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Willem_Fesetz
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	GPU_Kars_Frin={
+		name="Kars Frin"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Kars_Frin
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	GPU_Otthiaspar_Namild={
+		name="Otthiaspar Namild"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Otthiaspar_Namild
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GPU_Heif_Namild={
+		name="Heif Namild"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Heif_Namild
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	GPU_Oskar_Wacht={
+		name="Oskar Wacht"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Oskar_Wacht
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	GPU_Ansels_Wacht={
+		name="Ansels Wacht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Ansels_Wacht
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	GPU_Georen_Feuesang={
+		name="Georen Feuesang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Georen_Feuesang
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	GPU_Sorg_Richten={
+		name="Sorg Richten"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Sorg_Richten
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	GPU_Hann_Feind={
+		name="Hann Feind"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Hann_Feind
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	GPU_Hann_Fesetz={
+		name="Hann Fesetz"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Hann_Fesetz
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	GPU_Otthiaspar_Reitz={
+		name="Otthiaspar Reitz"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Otthiaspar_Reitz
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	GPU_Oskard_Feuesang={
+		name="Oskard Feuesang"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Oskard_Feuesang
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	GPU_Matto_Wacht={
+		name="Matto Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Matto_Wacht
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	GPU_Arne_Richten={
+		name="Arne Richten"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Arne_Richten
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	GPU_Matto_Feuesang={
+		name="Matto Feuesang"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Matto_Feuesang
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	GPU_Georne_Reilfeinze={
+		name="Georne Reilfeinze"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GPU_Jens_Wacht={
+		name="Jens Wacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Jens_Wacht
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	GPU_Magnut_Richten={
+		name="Magnut Richten"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Magnut_Richten
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GPU_Larald_Frin={
+		name="Larald Frin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Larald_Frin
+				traits = {	political_dancer 	}
+		}
+
+	}
+	GPU_Nielmut_Frin={
+		name="Nielmut Frin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Nielmut_Frin
+				traits = {	polemarch 	}
+		}
+
+	}
+	GPU_Henselm_Namild={
+		name="Henselm Namild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Henselm_Namild
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GPU_Alfred_Heit={
+		name="Alfred Heit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Alfred_Heit
+				traits = {	infirm 	}
+		}
+
+	}
+	GPU_Kard_Frin={
+		name="Kard Frin"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Kard_Frin
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	GPU_Georn_Feuesang={
+		name="Georn Feuesang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Georn_Feuesang
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	GPU_Larald_Wacht={
+		name="Larald Wacht"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Larald_Wacht
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	GPU_Heinrik_Fesetz={
+		name="Heinrik Fesetz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Heinrik_Fesetz
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GPU_Knus_Feuesang={
+		name="Knus Feuesang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Knus_Feuesang
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	GPU_Janz_Namild={
+		name="Janz Namild"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Janz_Namild
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	GPU_Hakon_Richten={
+		name="Hakon Richten"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Hakon_Richten
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	GPU_Hann_Richten={
+		name="Hann Richten"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Hann_Richten
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	GPU_Kaspar_Frin={
+		name="Kaspar Frin"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Kaspar_Frin
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	GPU_Leif_Richten={
+		name="Leif Richten"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Leif_Richten
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	GPU_Helm_Reitz={
+		name="Helm Reitz"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Helm_Reitz
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	GPU_Heinhold_Frin={
+		name="Heinhold Frin"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Heinhold_Frin
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	GPU_Fritz_Heit={
+		name="Fritz Heit"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Fritz_Heit
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	GPU_Magnus_Fesetz={
+		name="Magnus Fesetz"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Magnus_Fesetz
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	GPU_Georne_Frin={
+		name="Georne Frin"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GPU_Helm_Frin={
+		name="Helm Frin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Helm_Frin
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	GPU_Oskar_Namild={
+		name="Oskar Namild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Oskar_Namild
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	GPU_Eritz_Feind={
+		name="Eritz Feind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Eritz_Feind
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	GPU_Georen_Reilfeinze={
+		name="Georen Reilfeinze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Georen_Reilfeinze
+				traits = {	infirm 	}
+		}
+
+	}
+	GPU_Sorg_Frin={
+		name="Sorg Frin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Sorg_Frin
+				traits = {	first_lady 	}
+		}
+
+	}
+	GPU_Oskar_Feind={
+		name="Oskar Feind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GPU_Oskar_Feind
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	GPU_Fritz_Reilfeinze={
+		name="Fritz Reilfeinze"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Fritz_Reilfeinze
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GPU_Kasparl_Feuesang={
+		name="Kasparl Feuesang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Kasparl_Feuesang
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	GPU_Alfred_Feuesang={
+		name="Alfred Feuesang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Alfred_Feuesang
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GPU_Reif_Wacht={
+		name="Reif Wacht"
+
+		advisor={
+			slot = army_chief
+			idea_token = GPU_Reif_Wacht
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GPU_Bers_Feuesang={
+		name="Bers Feuesang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Bers_Feuesang
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GPU_Frik_Frin={
+		name="Frik Frin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GPU_Frik_Frin
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GPU_Reif_Reitz={
+		name="Reif Reitz"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Reif_Reitz
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	GPU_Magnus_Namild={
+		name="Magnus Namild"
+
+		advisor={
+			slot = air_chief
+			idea_token = GPU_Magnus_Namild
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	GPU_Rolf_Richten={
+		name="Rolf Richten"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Rolf_Richten
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	GPU_Joharl_Fesetz={
+		name="Joharl Fesetz"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Joharl_Fesetz
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	GPU_Georen_Feind={
+		name="Georen Feind"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Georen_Feind
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	GPU_Emillem_Reilfeinze={
+		name="Emillem Reilfeinze"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Emillem_Reilfeinze
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	GPU_Fritz_Namild={
+		name="Fritz Namild"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Fritz_Namild
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	GPU_Eirk_Reilfeinze={
+		name="Eirk Reilfeinze"
+
+		advisor={
+			slot = high_command
+			idea_token = GPU_Eirk_Reilfeinze
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	GPU_Stend_Feind={
+		name="Stend Feind"
+
+		advisor={
+			slot = theorist
+			idea_token = GPU_Stend_Feind
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GPU_Niels_Wacht={
+		name="Niels Wacht"
+
+		advisor={
+			slot = theorist
+			idea_token = GPU_Niels_Wacht
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GPU_Georen_Namild={
+		name="Georen Namild"
+
+		advisor={
+			slot = theorist
+			idea_token = GPU_Georen_Namild
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

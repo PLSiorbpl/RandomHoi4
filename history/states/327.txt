@@ -1,0 +1,39 @@
+
+state={
+	id=327
+	name="STATE_327"
+	manpower = 842266
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4797 5}
+		victory_points = { 4800 2}
+		
+		owner = EOP
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = EOP
+	}
+
+	provinces={
+		4795 4796 4797 4798 4799 4800 4801 4802 4803 4804 4805 4806 4807 4808 
+	}
+	local_supplies=0.0 
+}

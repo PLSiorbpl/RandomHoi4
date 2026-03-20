@@ -1,0 +1,39 @@
+
+state={
+	id=715
+	name="STATE_715"
+	manpower = 695994
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10223 3}
+		victory_points = { 10226 2}
+		
+		owner = JMI
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JMI
+	}
+
+	provinces={
+		10218 10219 10220 10221 10222 10223 10224 10225 10226 10227 10228 
+	}
+	local_supplies=0.0 
+}

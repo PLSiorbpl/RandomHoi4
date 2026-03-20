@@ -1,0 +1,40 @@
+
+state={
+	id=919
+	name="STATE_919"
+	manpower = 1229538
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12651 4}
+		victory_points = { 12653 3}
+		victory_points = { 12665 4}
+		
+		owner = XUA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XUA
+	}
+
+	provinces={
+		12650 12651 12652 12653 12654 12655 12656 12657 12658 12659 12660 12661 12662 12663 12664 12665 12666 12667 12668 12669 12670 
+	}
+	local_supplies=0.0 
+}

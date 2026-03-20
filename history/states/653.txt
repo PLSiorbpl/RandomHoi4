@@ -1,0 +1,40 @@
+
+state={
+	id=653
+	name="STATE_653"
+	manpower = 896138
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9307 3}
+		victory_points = { 9312 3}
+		victory_points = { 9313 2}
+		
+		owner = TQI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TQI
+	}
+
+	provinces={
+		9306 9307 9308 9309 9310 9311 9312 9313 9314 9315 9316 9317 9318 9319 9320 
+	}
+	local_supplies=0.0 
+}

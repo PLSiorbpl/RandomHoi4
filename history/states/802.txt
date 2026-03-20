@@ -1,0 +1,41 @@
+
+state={
+	id=802
+	name="STATE_802"
+	manpower = 1503420
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=6
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11347 4}
+		victory_points = { 11355 3}
+		victory_points = { 11365 4}
+		victory_points = { 11368 1}
+		
+		owner = XQA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XQA
+	}
+
+	provinces={
+		11346 11347 11348 11349 11350 11351 11352 11353 11354 11355 11356 11357 11358 11359 11360 11361 11362 11363 11364 11365 11366 11367 11368 11369 11370 11371 
+	}
+	local_supplies=0.0 
+}

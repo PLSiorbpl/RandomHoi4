@@ -1,0 +1,39 @@
+
+state={
+	id=960
+	name="STATE_960"
+	manpower = 411654
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13151 1}
+		victory_points = { 13155 1}
+		
+		owner = XUA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUA
+	}
+
+	provinces={
+		13151 13152 13153 13154 13155 13156 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=123
+	name="STATE_123"
+	manpower = 433573
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 1951 1}
+		victory_points = { 1952 1}
+		victory_points = { 1953 1}
+		
+		owner = TYH
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TYH
+	}
+
+	provinces={
+		1950 1951 1952 1953 1954 1955 
+	}
+	local_supplies=0.0 
+}

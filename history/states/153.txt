@@ -1,0 +1,39 @@
+
+state={
+	id=153
+	name="STATE_153"
+	manpower = 491494
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2421 1}
+		victory_points = { 2424 3}
+		
+		owner = NOJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NOJ
+	}
+
+	provinces={
+		2419 2420 2421 2422 2423 2424 2425 2426 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=100
+	name="STATE_100"
+	manpower = 1152994
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=8
+	}
+
+	history={
+		victory_points = { 1641 11}
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			1659 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		1641 1642 1643 1644 1645 1646 1647 1648 1649 1650 1651 1652 1653 1654 1655 1656 1657 1658 1659 
+	}
+	local_supplies=0.0 
+}

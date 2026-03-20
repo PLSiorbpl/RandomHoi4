@@ -1,0 +1,41 @@
+
+state={
+	id=558
+	name="STATE_558"
+	manpower = 671254
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8064 5}
+		
+		owner = CNR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8062 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CNR
+	}
+
+	provinces={
+		8062 8063 8064 8065 8066 8067 8068 8069 8070 8071 
+	}
+	local_supplies=0.0 
+}

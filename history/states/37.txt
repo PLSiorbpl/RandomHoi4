@@ -1,0 +1,41 @@
+
+state={
+	id=37
+	name="STATE_37"
+	manpower = 1056344
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 653 2}
+		victory_points = { 667 2}
+		victory_points = { 669 2}
+		victory_points = { 670 2}
+		
+		owner = COZ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = COZ
+	}
+
+	provinces={
+		653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 
+	}
+	local_supplies=0.0 
+}

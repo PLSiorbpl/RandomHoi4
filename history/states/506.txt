@@ -1,0 +1,39 @@
+
+state={
+	id=506
+	name="STATE_506"
+	manpower = 939323
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7274 4}
+		victory_points = { 7277 3}
+		
+		owner = KNP
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KNP
+	}
+
+	provinces={
+		7273 7274 7275 7276 7277 7278 7279 7280 7281 7282 7283 7284 7285 7286 7287 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=812
+	name="STATE_812"
+	manpower = 1451922
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11474 3}
+		victory_points = { 11489 3}
+		victory_points = { 11491 2}
+		victory_points = { 11494 3}
+		
+		owner = SOO
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SOO
+	}
+
+	provinces={
+		11469 11470 11471 11472 11473 11474 11475 11476 11477 11478 11479 11480 11481 11482 11483 11484 11485 11486 11487 11488 11489 11490 11491 11492 11493 11494 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=145
+	name="STATE_145"
+	manpower = 1297622
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2270 5}
+		victory_points = { 2275 7}
+		
+		owner = AUR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			2282 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AUR
+	}
+
+	provinces={
+		2266 2267 2268 2269 2270 2271 2272 2273 2274 2275 2276 2277 2278 2279 2280 2281 2282 2283 2284 2285 2286 2287 2288 
+	}
+	local_supplies=0.0 
+}

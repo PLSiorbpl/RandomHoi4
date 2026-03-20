@@ -1,0 +1,38 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Buas Fleet"			
+		naval_base = 17615
+		task_force = {
+			name = "Buas Fleet"
+			location = 17615
+			
+						ship = { name = "Faoill" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Faoill 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Faoill 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = XUA version_name = "Faoill Class" } }	}
+			ship = { name = "Cnuas" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Faoill 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Faoill 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Faoill 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Muim" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = XUA version_name = "Faoill Class" } }	}
+			ship = { name = "Faoill 7" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = XUA version_name = "Faoill Class" } }	}
+			ship = { name = "Muim 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Muim 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+			ship = { name = "Cnuas 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = XUA version_name = "Muim Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

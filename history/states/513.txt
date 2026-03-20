@@ -1,0 +1,41 @@
+
+state={
+	id=513
+	name="STATE_513"
+	manpower = 480748
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=3
+	}
+
+	history={
+		victory_points = { 7406 3}
+		
+		owner = MWR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7407 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MWR
+	}
+
+	provinces={
+		7405 7406 7407 7408 7409 7410 7411 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,82 @@
+areas = {
+	# Generated continents
+		vizhchaadil = {
+		continents = {
+			vizhchaadil
+		}
+	}
+	aigh = {
+		continents = {
+			aigh
+		}
+	}
+	sabr = {
+		continents = {
+			sabr
+		}
+	}
+	furm = {
+		continents = {
+			furm
+		}
+	}
+	aigh = {
+		continents = {
+			aigh
+		}
+	}
+	nafasjid = {
+		continents = {
+			nafasjid
+		}
+	}
+	bahpu = {
+		continents = {
+			bahpu
+		}
+	}
+
+
+	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them
+	europe = {
+		continents = {
+			europe
+		}
+	}
+
+	north_america = {
+		continents = {
+			north_america
+		}
+	}
+
+	south_america = {
+		continents = {
+			south_america
+		}
+	}
+
+	africa = {
+		continents = {
+			africa
+		}
+	}
+
+	australia = {
+		continents = {
+			australia
+		}
+	}
+
+	asia = {
+		continents = {
+			asia
+		}
+	}
+
+	middle_east = {
+		continents = {
+			middle_east
+		}
+	}
+}

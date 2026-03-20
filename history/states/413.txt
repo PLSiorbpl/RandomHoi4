@@ -1,0 +1,39 @@
+
+state={
+	id=413
+	name="STATE_413"
+	manpower = 1011369
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5790 1}
+		victory_points = { 5796 7}
+		
+		owner = WHE
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = WHE
+	}
+
+	provinces={
+		5788 5789 5790 5791 5792 5793 5794 5795 5796 5797 5798 5799 5800 5801 5802 5803 5804 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=454
+	name="STATE_454"
+	manpower = 612799
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6384 2}
+		victory_points = { 6392 2}
+		
+		owner = GQT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = GQT
+	}
+
+	provinces={
+		6384 6385 6386 6387 6388 6389 6390 6391 6392 6393 
+	}
+	local_supplies=0.0 
+}

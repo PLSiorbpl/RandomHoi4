@@ -1,0 +1,41 @@
+
+state={
+	id=821
+	name="STATE_821"
+	manpower = 1111919
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11543 3}
+		victory_points = { 11556 3}
+		victory_points = { 11558 2}
+		victory_points = { 11559 2}
+		
+		owner = HNJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HNJ
+	}
+
+	provinces={
+		11542 11543 11544 11545 11546 11547 11548 11549 11550 11551 11552 11553 11554 11555 11556 11557 11558 11559 11560 
+	}
+	local_supplies=0.0 
+}

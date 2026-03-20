@@ -1,0 +1,39 @@
+
+state={
+	id=135
+	name="STATE_135"
+	manpower = 846944
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2096 1}
+		victory_points = { 2101 5}
+		
+		owner = SIJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SIJ
+	}
+
+	provinces={
+		2094 2095 2096 2097 2098 2099 2100 2101 2102 2103 2104 2105 2106 2107 
+	}
+	local_supplies=0.0 
+}

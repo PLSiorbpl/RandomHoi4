@@ -1,0 +1,38 @@
+
+state={
+	id=334
+	name="STATE_334"
+	manpower = 316870
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4863 1}
+		
+		owner = GQA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GQA
+	}
+
+	provinces={
+		4863 4864 4865 4866 
+	}
+	local_supplies=0.0 
+}

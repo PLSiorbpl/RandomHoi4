@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Haria Fleet"			
+		naval_base = 3719
+		task_force = {
+			name = "Haria Fleet"
+			location = 3719
+			
+						ship = { name = "Shan" definition = battleship equipment = { battleship_1 = { amount = 1 owner = HMR version_name = "Khab Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

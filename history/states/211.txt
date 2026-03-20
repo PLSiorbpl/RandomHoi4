@@ -1,0 +1,39 @@
+
+state={
+	id=211
+	name="STATE_211"
+	manpower = 523737
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=9
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3228 1}
+		victory_points = { 3239 1}
+		
+		owner = KZR
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KZR
+	}
+
+	provinces={
+		3224 3225 3226 3227 3228 3229 3230 3231 3232 3233 3234 3235 3236 3237 3238 3239 
+	}
+	local_supplies=0.0 
+}

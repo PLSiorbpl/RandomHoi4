@@ -1,0 +1,41 @@
+
+state={
+	id=903
+	name="STATE_903"
+	manpower = 299958
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=8
+	}
+
+	history={
+		victory_points = { 12494 1}
+		
+		owner = TVM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			12493 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TVM
+	}
+
+	provinces={
+		12491 12492 12493 12494 
+	}
+	local_supplies=0.0 
+}

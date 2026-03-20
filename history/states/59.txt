@@ -1,0 +1,41 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower = 1449951
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 928 2}
+		victory_points = { 934 3}
+		victory_points = { 941 3}
+		victory_points = { 942 3}
+		
+		owner = RDE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = RDE
+	}
+
+	provinces={
+		927 928 929 930 931 932 933 934 935 936 937 938 939 940 941 942 943 944 945 946 947 948 949 950 951 
+	}
+	local_supplies=0.0 
+}

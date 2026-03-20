@@ -1,0 +1,880 @@
+characters = {
+	GQA_Hassal_Irah={
+		name="Hassal Irah"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GQA_Abdullahya_Makanz={
+		name="Abdullahya Makanz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Abdullahya_Makanz
+				traits = {	humble 	}
+		}
+
+	}
+	GQA_Bilal_Kawarabalak={
+		name="Bilal Kawarabalak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Bilal_Kawarabalak
+				traits = {	headstrong 	}
+		}
+
+	}
+	GQA_Hamza_Hazn={
+		name="Hamza Hazn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Hamza_Hazn
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	GQA_Imrahmoud_Kawarabalak={
+		name="Imrahmoud Kawarabalak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Imrahmoud_Kawarabalak
+				traits = {	humble 	}
+		}
+
+	}
+	GQA_Adnan_Salj={
+		name="Adnan Salj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Adnan_Salj
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GQA_Anwariq_Salj={
+		name="Anwariq Salj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Anwariq_Salj
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GQA_Jamad_Kawarabalak={
+		name="Jamad Kawarabalak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Jamad_Kawarabalak
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	GQA_Omad_Kawarabalak={
+		name="Omad Kawarabalak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Omad_Kawarabalak
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GQA_Hammed_Makanz={
+		name="Hammed Makanz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Hammed_Makanz
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GQA_Sami_Makech={
+		name="Sami Makech"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Sami_Makech
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GQA_Jami_Thamlakta={
+		name="Jami Thamlakta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Jami_Thamlakta
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	GQA_Imrahmoud_Hazn={
+		name="Imrahmoud Hazn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Imrahmoud_Hazn
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	GQA_Yusuf_Imah={
+		name="Yusuf Imah"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Yusuf_Imah
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	GQA_Jamad_Irah={
+		name="Jamad Irah"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Jamad_Irah
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	GQA_Anwariq_Makech={
+		name="Anwariq Makech"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Anwariq_Makech
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	GQA_Adnan_Makanz={
+		name="Adnan Makanz"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Adnan_Makanz
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	GQA_Anwar_Kharia={
+		name="Anwar Kharia"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Anwar_Kharia
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	GQA_Jamza_Irah={
+		name="Jamza Irah"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Jamza_Irah
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	GQA_Khami_Kawarabalak={
+		name="Khami Kawarabalak"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Khami_Kawarabalak
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	GQA_Jamad_Makanz={
+		name="Jamad Makanz"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Jamad_Makanz
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	GQA_Abdullahya_Salj={
+		name="Abdullahya Salj"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GQA_Jamad_Salj={
+		name="Jamad Salj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Jamad_Salj
+				traits = {	autokrator 	}
+		}
+
+	}
+	GQA_Mahmoud_Hazn={
+		name="Mahmoud Hazn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Mahmoud_Hazn
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	GQA_Sammed_Salj={
+		name="Sammed Salj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Sammed_Salj
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	GQA_Rami_Makanz={
+		name="Rami Makanz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Rami_Makanz
+				traits = {	autokrator 	}
+		}
+
+	}
+	GQA_Samza_Makanz={
+		name="Samza Makanz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Samza_Makanz
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GQA_Majid_Kawarabalak={
+		name="Majid Kawarabalak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Majid_Kawarabalak
+				traits = {	basileus 	}
+		}
+
+	}
+	GQA_Ahmoud_Hazn={
+		name="Ahmoud Hazn"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Ahmoud_Hazn
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	GQA_Karid_Irah={
+		name="Karid Irah"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Karid_Irah
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GQA_Farim_Hazn={
+		name="Farim Hazn"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Farim_Hazn
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GQA_Ibrah_Makanz={
+		name="Ibrah Makanz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Ibrah_Makanz
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GQA_Khami_Thamlakta={
+		name="Khami Thamlakta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Khami_Thamlakta
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	GQA_Yusuf_Thamlakta={
+		name="Yusuf Thamlakta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Yusuf_Thamlakta
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	GQA_Anwar_Irah={
+		name="Anwar Irah"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Anwar_Irah
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	GQA_Faisan_Makanz={
+		name="Faisan Makanz"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Faisan_Makanz
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	GQA_Majid_Salj={
+		name="Majid Salj"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Majid_Salj
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	GQA_Ibran_Thamlakta={
+		name="Ibran Thamlakta"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Ibran_Thamlakta
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	GQA_Hamal_Makech={
+		name="Hamal Makech"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Hamal_Makech
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	GQA_Imran_Makech={
+		name="Imran Makech"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Imran_Makech
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	GQA_Omad_Hazn={
+		name="Omad Hazn"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Omad_Hazn
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	GQA_Karid_Hazn={
+		name="Karid Hazn"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Karid_Hazn
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	GQA_Ibran_Salj={
+		name="Ibran Salj"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GQA_Karid_Kawarabalak={
+		name="Karid Kawarabalak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Karid_Kawarabalak
+				traits = {	polemarch 	}
+		}
+
+	}
+	GQA_Hamza_Salj={
+		name="Hamza Salj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Hamza_Salj
+				traits = {	polemarch 	}
+		}
+
+	}
+	GQA_Faisan_Kharia={
+		name="Faisan Kharia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Faisan_Kharia
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	GQA_Ahmoud_Makanz={
+		name="Ahmoud Makanz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Ahmoud_Makanz
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	GQA_Karim_Thamlakta={
+		name="Karim Thamlakta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Karim_Thamlakta
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	GQA_Imrahmoud_Irah={
+		name="Imrahmoud Irah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Imrahmoud_Irah
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	GQA_Rami_Irah={
+		name="Rami Irah"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Rami_Irah
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	GQA_Khalid_Makech={
+		name="Khalid Makech"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Khalid_Makech
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	GQA_Hamza_Kawarabalak={
+		name="Hamza Kawarabalak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Hamza_Kawarabalak
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GQA_Farim_Imah={
+		name="Farim Imah"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Farim_Imah
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GQA_Karid_Imah={
+		name="Karid Imah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Karid_Imah
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	GQA_Ahmad_Salj={
+		name="Ahmad Salj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Ahmad_Salj
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	GQA_Hassal_Imah={
+		name="Hassal Imah"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Hassal_Imah
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	GQA_Mohamarid_Hazn={
+		name="Mohamarid Hazn"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Mohamarid_Hazn
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	GQA_Zaid_Hazn={
+		name="Zaid Hazn"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Zaid_Hazn
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	GQA_Omad_Salj={
+		name="Omad Salj"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Omad_Salj
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	GQA_Tarid_Hazn={
+		name="Tarid Hazn"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Tarid_Hazn
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	GQA_Jamza_Kawarabalak={
+		name="Jamza Kawarabalak"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Jamza_Kawarabalak
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	GQA_Kariq_Kharia={
+		name="Kariq Kharia"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Kariq_Kharia
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	GQA_Anwariq_Makanz={
+		name="Anwariq Makanz"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Anwariq_Makanz
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	GQA_Imrahmoud_Imah={
+		name="Imrahmoud Imah"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GQA_Khami_Salj={
+		name="Khami Salj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Khami_Salj
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	GQA_Omali_Imah={
+		name="Omali Imah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Omali_Imah
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	GQA_Faid_Thamlakta={
+		name="Faid Thamlakta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Faid_Thamlakta
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	GQA_Omali_Kharia={
+		name="Omali Kharia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Omali_Kharia
+				traits = {	infirm 	}
+		}
+
+	}
+	GQA_Karim_Imah={
+		name="Karim Imah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Karim_Imah
+				traits = {	rearmer 	}
+		}
+
+	}
+	GQA_Yusuf_Makanz={
+		name="Yusuf Makanz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GQA_Yusuf_Makanz
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	GQA_Farim_Irah={
+		name="Farim Irah"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Farim_Irah
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GQA_Omali_Makanz={
+		name="Omali Makanz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Omali_Makanz
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GQA_Faisan_Kawarabalak={
+		name="Faisan Kawarabalak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Faisan_Kawarabalak
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GQA_Sammed_Hazn={
+		name="Sammed Hazn"
+
+		advisor={
+			slot = army_chief
+			idea_token = GQA_Sammed_Hazn
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	GQA_Ahmoud_Kawarabalak={
+		name="Ahmoud Kawarabalak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Ahmoud_Kawarabalak
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	GQA_Khal_Thamlakta={
+		name="Khal Thamlakta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GQA_Khal_Thamlakta
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	GQA_Hammed_Thamlakta={
+		name="Hammed Thamlakta"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Hammed_Thamlakta
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	GQA_Ahmalid_Makech={
+		name="Ahmalid Makech"
+
+		advisor={
+			slot = air_chief
+			idea_token = GQA_Ahmalid_Makech
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	GQA_Abdullahya_Kharia={
+		name="Abdullahya Kharia"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Abdullahya_Kharia
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	GQA_Omarid_Makech={
+		name="Omarid Makech"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Omarid_Makech
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	GQA_Samarim_Makanz={
+		name="Samarim Makanz"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Samarim_Makanz
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	GQA_Imran_Imah={
+		name="Imran Imah"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Imran_Imah
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	GQA_Omarid_Kharia={
+		name="Omarid Kharia"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Omarid_Kharia
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	GQA_Khal_Makanz={
+		name="Khal Makanz"
+
+		advisor={
+			slot = high_command
+			idea_token = GQA_Khal_Makanz
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	GQA_Kariq_Hazn={
+		name="Kariq Hazn"
+
+		advisor={
+			slot = theorist
+			idea_token = GQA_Kariq_Hazn
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GQA_Ahmad_Irah={
+		name="Ahmad Irah"
+
+		advisor={
+			slot = theorist
+			idea_token = GQA_Ahmad_Irah
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GQA_Khami_Imah={
+		name="Khami Imah"
+
+		advisor={
+			slot = theorist
+			idea_token = GQA_Khami_Imah
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

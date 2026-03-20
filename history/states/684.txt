@@ -1,0 +1,41 @@
+
+state={
+	id=684
+	name="STATE_684"
+	manpower = 314365
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9734 1}
+		
+		owner = CEN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9731 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = CEN
+	}
+
+	provinces={
+		9730 9731 9732 9733 9734 9735 9736 
+	}
+	local_supplies=0.0 
+}

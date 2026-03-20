@@ -1,0 +1,38 @@
+
+state={
+	id=726
+	name="STATE_726"
+	manpower = 771846
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10372 5}
+		
+		owner = VUK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VUK
+	}
+
+	provinces={
+		10370 10371 10372 10373 10374 10375 10376 10377 10378 10379 10380 10381 10382 10383 
+	}
+	local_supplies=0.0 
+}

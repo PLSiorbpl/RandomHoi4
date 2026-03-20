@@ -1,0 +1,38 @@
+
+state={
+	id=315
+	name="STATE_315"
+	manpower = 447045
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4667 1}
+		
+		owner = NKK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NKK
+	}
+
+	provinces={
+		4658 4659 4660 4661 4662 4663 4664 4665 4666 4667 
+	}
+	local_supplies=0.0 
+}

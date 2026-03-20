@@ -1,0 +1,880 @@
+characters = {
+	SFI_Mattefano_Pace={
+		name="Mattefano Pace"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SFI_Alexandre_Santo={
+		name="Alexandre Santo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Alexandre_Santo
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SFI_Antor_Oasa={
+		name="Antor Oasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Antor_Oasa
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SFI_Marco_Pace={
+		name="Marco Pace"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Marco_Pace
+				traits = {	headstrong 	}
+		}
+
+	}
+	SFI_Nicomon_Stro={
+		name="Nicomon Stro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Nicomon_Stro
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SFI_Steo_Stro={
+		name="Steo Stro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Steo_Stro
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SFI_Mardo_Nombro={
+		name="Mardo Nombro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Mardo_Nombro
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SFI_Thien_Pontro={
+		name="Thien Pontro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Thien_Pontro
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SFI_Pablo_Pontro={
+		name="Pablo Pontro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Pablo_Pontro
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SFI_Bruno_Nombro={
+		name="Bruno Nombro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Bruno_Nombro
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SFI_Luis_Santo={
+		name="Luis Santo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Luis_Santo
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SFI_Albertonio_Mapita={
+		name="Albertonio Mapita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Albertonio_Mapita
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	SFI_Felien_Stro={
+		name="Felien Stro"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Felien_Stro
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SFI_Felien_Mapita={
+		name="Felien Mapita"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Felien_Mapita
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SFI_Jeancesco_Santo={
+		name="Jeancesco Santo"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Jeancesco_Santo
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SFI_Pedro_Oasa={
+		name="Pedro Oasa"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Pedro_Oasa
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SFI_Nicomon_Cavale={
+		name="Nicomon Cavale"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Nicomon_Cavale
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SFI_Giacolo_Nombro={
+		name="Giacolo Nombro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Giacolo_Nombro
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	SFI_Leonarlo_Sego={
+		name="Leonarlo Sego"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Leonarlo_Sego
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SFI_Giaco_Mapita={
+		name="Giaco Mapita"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Giaco_Mapita
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SFI_Stefano_Nombro={
+		name="Stefano Nombro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Stefano_Nombro
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SFI_Albertonio_Spirco={
+		name="Albertonio Spirco"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SFI_Stefano_Oasa={
+		name="Stefano Oasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Stefano_Oasa
+				traits = {	generallissimo 	}
+		}
+
+	}
+	SFI_Giaco_Sego={
+		name="Giaco Sego"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Giaco_Sego
+				traits = {	warmonger 	}
+		}
+
+	}
+	SFI_Alberto_Spirco={
+		name="Alberto Spirco"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Alberto_Spirco
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	SFI_Bruno_Stro={
+		name="Bruno Stro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Bruno_Stro
+				traits = {	basileus 	}
+		}
+
+	}
+	SFI_Nicomon_Pace={
+		name="Nicomon Pace"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Nicomon_Pace
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	SFI_Felipe_Cavale={
+		name="Felipe Cavale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Felipe_Cavale
+				traits = {	infirm 	}
+		}
+
+	}
+	SFI_Alexandre_Pace={
+		name="Alexandre Pace"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Alexandre_Pace
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SFI_Luis_Nombro={
+		name="Luis Nombro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Luis_Nombro
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SFI_Robertor_Spirco={
+		name="Robertor Spirco"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Robertor_Spirco
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SFI_Stefano_Pontro={
+		name="Stefano Pontro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Stefano_Pontro
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SFI_Jean_Spirco={
+		name="Jean Spirco"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Jean_Spirco
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SFI_Andre_Oasa={
+		name="Andre Oasa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Andre_Oasa
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SFI_Jean_Santo={
+		name="Jean Santo"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Jean_Santo
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SFI_Felien_Oasa={
+		name="Felien Oasa"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Felien_Oasa
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SFI_Vicarlose_Pontro={
+		name="Vicarlose Pontro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Vicarlose_Pontro
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	SFI_Enzo_Sego={
+		name="Enzo Sego"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Enzo_Sego
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	SFI_Pedro_Cavale={
+		name="Pedro Cavale"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Pedro_Cavale
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SFI_Matteon_Pontro={
+		name="Matteon Pontro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Matteon_Pontro
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	SFI_Francesco_Pontro={
+		name="Francesco Pontro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Francesco_Pontro
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	SFI_Pedre_Mapita={
+		name="Pedre Mapita"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Pedre_Mapita
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SFI_Frano_Spirco={
+		name="Frano Spirco"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SFI_Ramonio_Mapita={
+		name="Ramonio Mapita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Ramonio_Mapita
+				traits = {	polemarch 	}
+		}
+
+	}
+	SFI_Jeano_Nombro={
+		name="Jeano Nombro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Jeano_Nombro
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SFI_Jose_Pace={
+		name="Jose Pace"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Jose_Pace
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SFI_Nica_Oasa={
+		name="Nica Oasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Nica_Oasa
+				traits = {	polemarch 	}
+		}
+
+	}
+	SFI_Frano_Cavale={
+		name="Frano Cavale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Frano_Cavale
+				traits = {	polemarch 	}
+		}
+
+	}
+	SFI_Andre_Sego={
+		name="Andre Sego"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Andre_Sego
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SFI_Mattefandro_Pace={
+		name="Mattefandro Pace"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Mattefandro_Pace
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SFI_Jean_Mapita={
+		name="Jean Mapita"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Jean_Mapita
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SFI_Jeancesco_Pontro={
+		name="Jeancesco Pontro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Jeancesco_Pontro
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SFI_Ricardo_Pontro={
+		name="Ricardo Pontro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Ricardo_Pontro
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SFI_Ricardo_Stro={
+		name="Ricardo Stro"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Ricardo_Stro
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	SFI_Jose_Cavale={
+		name="Jose Cavale"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Jose_Cavale
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	SFI_Mardo_Stro={
+		name="Mardo Stro"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Mardo_Stro
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SFI_Albertonio_Pace={
+		name="Albertonio Pace"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Albertonio_Pace
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SFI_Andre_Mapita={
+		name="Andre Mapita"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Andre_Mapita
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SFI_Frano_Oasa={
+		name="Frano Oasa"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Frano_Oasa
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	SFI_Rico_Stro={
+		name="Rico Stro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Rico_Stro
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SFI_Paolas_Stro={
+		name="Paolas Stro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Paolas_Stro
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	SFI_Julien_Mapita={
+		name="Julien Mapita"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Julien_Mapita
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SFI_Cario_Sego={
+		name="Cario Sego"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Cario_Sego
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	SFI_Enzo_Oasa={
+		name="Enzo Oasa"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SFI_Frano_Mapita={
+		name="Frano Mapita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Frano_Mapita
+				traits = {	rearmer 	}
+		}
+
+	}
+	SFI_Felipe_Santo={
+		name="Felipe Santo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Felipe_Santo
+				traits = {	the_banker 	}
+		}
+
+	}
+	SFI_Roberto_Santo={
+		name="Roberto Santo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Roberto_Santo
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SFI_Rico_Sego={
+		name="Rico Sego"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Rico_Sego
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SFI_Paolas_Sego={
+		name="Paolas Sego"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Paolas_Sego
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SFI_Antor_Sego={
+		name="Antor Sego"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SFI_Antor_Sego
+				traits = {	the_banker 	}
+		}
+
+	}
+	SFI_Jeancesco_Sego={
+		name="Jeancesco Sego"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Jeancesco_Sego
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SFI_Alexan_Nombro={
+		name="Alexan Nombro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Alexan_Nombro
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SFI_Giacolo_Santo={
+		name="Giacolo Santo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Giacolo_Santo
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SFI_Steo_Spirco={
+		name="Steo Spirco"
+
+		advisor={
+			slot = army_chief
+			idea_token = SFI_Steo_Spirco
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SFI_Marlo_Santo={
+		name="Marlo Santo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Marlo_Santo
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SFI_Jeandro_Nombro={
+		name="Jeandro Nombro"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SFI_Jeandro_Nombro
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SFI_Mattefan_Pace={
+		name="Mattefan Pace"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Mattefan_Pace
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SFI_Mardo_Santo={
+		name="Mardo Santo"
+
+		advisor={
+			slot = air_chief
+			idea_token = SFI_Mardo_Santo
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SFI_Giacolo_Cavale={
+		name="Giacolo Cavale"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Giacolo_Cavale
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	SFI_Mattefan_Cavale={
+		name="Mattefan Cavale"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Mattefan_Cavale
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	SFI_Alexandre_Pontro={
+		name="Alexandre Pontro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Alexandre_Pontro
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SFI_Paolas_Santo={
+		name="Paolas Santo"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Paolas_Santo
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SFI_Nicomon_Nombro={
+		name="Nicomon Nombro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Nicomon_Nombro
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	SFI_Giaco_Nombro={
+		name="Giaco Nombro"
+
+		advisor={
+			slot = high_command
+			idea_token = SFI_Giaco_Nombro
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SFI_Nictonarlo_Nombro={
+		name="Nictonarlo Nombro"
+
+		advisor={
+			slot = theorist
+			idea_token = SFI_Nictonarlo_Nombro
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SFI_Marco_Stro={
+		name="Marco Stro"
+
+		advisor={
+			slot = theorist
+			idea_token = SFI_Marco_Stro
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SFI_Pedro_Mapita={
+		name="Pedro Mapita"
+
+		advisor={
+			slot = theorist
+			idea_token = SFI_Pedro_Mapita
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
