@@ -2,36 +2,37 @@
 state={
 	id=819
 	name="STATE_819"
-	manpower = 333515
+	manpower = 488346
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=2
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 11028 1}
 		
-		owner = CNR
+		owner = GHU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CNR
+		add_core_of = GHU
 	}
 
 	provinces={
-		11532 11533 11534 11535 11536 11537 
+		11027 11028 11029 11030 11031 11032 11033 11034 
 	}
 	local_supplies=0.0 
 }

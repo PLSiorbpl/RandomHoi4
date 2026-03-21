@@ -2,37 +2,39 @@
 state={
 	id=132
 	name="STATE_132"
-	manpower = 661529
+	manpower = 987102
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
-		coal=0
+		tungsten=3
+		coal=1
 	}
 
 	history={
-		victory_points = { 2067 4}
+		victory_points = { 1881 2}
+		victory_points = { 1883 1}
+		victory_points = { 1888 3}
 		
-		owner = GPU
+		owner = ETX
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GPU
+		add_core_of = ETX
 	}
 
 	provinces={
-		2063 2064 2065 2066 2067 2068 2069 2070 2071 2072 2073 2074 
+		1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 
 	}
 	local_supplies=0.0 
 }

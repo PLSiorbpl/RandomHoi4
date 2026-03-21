@@ -2,7 +2,7 @@
 state={
 	id=1251
 	name="STATE_1251"
-	manpower = 840348
+	manpower = 956901
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,31 +11,33 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=6
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17228 7}
+		victory_points = { 16492 2}
+		victory_points = { 16501 2}
+		victory_points = { 16504 2}
 		
-		owner = NFK
+		owner = IUI
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
 			
-			17240 = {
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			16492 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = NFK
+		add_core_of = IUI
 	}
 
 	provinces={
-		17227 17228 17229 17230 17231 17232 17233 17234 17235 17236 17237 17238 17239 17240 
+		16491 16492 16493 16494 16495 16496 16497 16498 16499 16500 16501 16502 16503 16504 
 	}
 	local_supplies=0.0 
 }

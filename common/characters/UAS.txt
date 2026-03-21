@@ -1,0 +1,880 @@
+characters = {
+	UAS_Mohal_Kawka={
+		name="Mohal Kawka"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UAS_Mohammed_Masraqq={
+		name="Mohammed Masraqq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Mohammed_Masraqq
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	UAS_Saad_Kitan={
+		name="Saad Kitan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Saad_Kitan
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	UAS_Jammed_Bashfa={
+		name="Jammed Bashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Jammed_Bashfa
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	UAS_Farid_Bashfa={
+		name="Farid Bashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Farid_Bashfa
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	UAS_Anwarim_Kitan={
+		name="Anwarim Kitan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Anwarim_Kitan
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	UAS_Khal_Kitan={
+		name="Khal Kitan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Khal_Kitan
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	UAS_Farid_Kutub={
+		name="Farid Kutub"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Farid_Kutub
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	UAS_Hammed_Kawka={
+		name="Hammed Kawka"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Hammed_Kawka
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	UAS_Zaid_Bashfa={
+		name="Zaid Bashfa"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Zaid_Bashfa
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	UAS_Anwar_Tayr={
+		name="Anwar Tayr"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Anwar_Tayr
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	UAS_Yusuf_Bashfa={
+		name="Yusuf Bashfa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Yusuf_Bashfa
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	UAS_Tarim_Hafa={
+		name="Tarim Hafa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Tarim_Hafa
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	UAS_Bilah_Kitabati={
+		name="Bilah Kitabati"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Bilah_Kitabati
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	UAS_Omariq_Kitabati={
+		name="Omariq Kitabati"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Omariq_Kitabati
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	UAS_Yahya_Tayr={
+		name="Yahya Tayr"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Yahya_Tayr
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	UAS_Zaid_Hafa={
+		name="Zaid Hafa"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Zaid_Hafa
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	UAS_Jamza_Ghuruq={
+		name="Jamza Ghuruq"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Jamza_Ghuruq
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	UAS_Adnan_Ghuruq={
+		name="Adnan Ghuruq"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Adnan_Ghuruq
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	UAS_Mohamza_Bashfa={
+		name="Mohamza Bashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Mohamza_Bashfa
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	UAS_Khamir_Tayr={
+		name="Khamir Tayr"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Khamir_Tayr
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	UAS_Bilah_Kutub={
+		name="Bilah Kutub"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UAS_Ramir_Hafa={
+		name="Ramir Hafa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Ramir_Hafa
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	UAS_Anwarim_Kutub={
+		name="Anwarim Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Anwarim_Kutub
+				traits = {	warmonger 	}
+		}
+
+	}
+	UAS_Omariq_Tayr={
+		name="Omariq Tayr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Omariq_Tayr
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	UAS_Samariq_Bashfa={
+		name="Samariq Bashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Samariq_Bashfa
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	UAS_Sammed_Kitan={
+		name="Sammed Kitan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Sammed_Kitan
+				traits = {	infirm 	}
+		}
+
+	}
+	UAS_Abdullahya_Masraqq={
+		name="Abdullahya Masraqq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Abdullahya_Masraqq
+				traits = {	infirm 	}
+		}
+
+	}
+	UAS_Rami_Kutub={
+		name="Rami Kutub"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Rami_Kutub
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	UAS_Tarim_Kitan={
+		name="Tarim Kitan"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Tarim_Kitan
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	UAS_Ahmal_Nasra={
+		name="Ahmal Nasra"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Ahmal_Nasra
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	UAS_Karim_Kitabati={
+		name="Karim Kitabati"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Karim_Kitabati
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	UAS_Karim_Nasra={
+		name="Karim Nasra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Karim_Nasra
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	UAS_Mohamza_Masraqq={
+		name="Mohamza Masraqq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Mohamza_Masraqq
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	UAS_Nabil_Ghuruq={
+		name="Nabil Ghuruq"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Nabil_Ghuruq
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	UAS_Hamir_Bashfa={
+		name="Hamir Bashfa"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Hamir_Bashfa
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	UAS_Sammed_Kawka={
+		name="Sammed Kawka"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Sammed_Kawka
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	UAS_Zaisal_Tayr={
+		name="Zaisal Tayr"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Zaisal_Tayr
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	UAS_Jami_Kutub={
+		name="Jami Kutub"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Jami_Kutub
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	UAS_Abdullahya_Hafa={
+		name="Abdullahya Hafa"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Abdullahya_Hafa
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	UAS_Anwar_Kawka={
+		name="Anwar Kawka"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Anwar_Kawka
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	UAS_Mahim_Kutub={
+		name="Mahim Kutub"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Mahim_Kutub
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	UAS_Mohamza_Kitabati={
+		name="Mohamza Kitabati"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UAS_Ahmad_Bashfa={
+		name="Ahmad Bashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Ahmad_Bashfa
+				traits = {	polemarch 	}
+		}
+
+	}
+	UAS_Hassal_Kutub={
+		name="Hassal Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Hassal_Kutub
+				traits = {	political_dancer 	}
+		}
+
+	}
+	UAS_Hami_Nasra={
+		name="Hami Nasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Hami_Nasra
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	UAS_Mohal_Tayr={
+		name="Mohal Tayr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Mohal_Tayr
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	UAS_Hassan_Nasra={
+		name="Hassan Nasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Hassan_Nasra
+				traits = {	infirm 	}
+		}
+
+	}
+	UAS_Ahmad_Tayr={
+		name="Ahmad Tayr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Ahmad_Tayr
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	UAS_Mahmoud_Nasra={
+		name="Mahmoud Nasra"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Mahmoud_Nasra
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	UAS_Jami_Kitabati={
+		name="Jami Kitabati"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Jami_Kitabati
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	UAS_Fariq_Kitabati={
+		name="Fariq Kitabati"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Fariq_Kitabati
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	UAS_Ibrah_Ghuruq={
+		name="Ibrah Ghuruq"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Ibrah_Ghuruq
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	UAS_Omad_Bashfa={
+		name="Omad Bashfa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Omad_Bashfa
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	UAS_Anwariq_Ghuruq={
+		name="Anwariq Ghuruq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Anwariq_Ghuruq
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	UAS_Omal_Kitabati={
+		name="Omal Kitabati"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Omal_Kitabati
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	UAS_Ahmoud_Hafa={
+		name="Ahmoud Hafa"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Ahmoud_Hafa
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	UAS_Anwar_Kutub={
+		name="Anwar Kutub"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Anwar_Kutub
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	UAS_Karid_Nasra={
+		name="Karid Nasra"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Karid_Nasra
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	UAS_Mahmoud_Kutub={
+		name="Mahmoud Kutub"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Mahmoud_Kutub
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	UAS_Hassan_Hafa={
+		name="Hassan Hafa"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Hassan_Hafa
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	UAS_Jammed_Tayr={
+		name="Jammed Tayr"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Jammed_Tayr
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	UAS_Mohammed_Kawka={
+		name="Mohammed Kawka"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Mohammed_Kawka
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	UAS_Yahim_Bashfa={
+		name="Yahim Bashfa"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UAS_Jamza_Hafa={
+		name="Jamza Hafa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Jamza_Hafa
+				traits = {	rearmer 	}
+		}
+
+	}
+	UAS_Hassal_Ghuruq={
+		name="Hassal Ghuruq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Hassal_Ghuruq
+				traits = {	rearmer 	}
+		}
+
+	}
+	UAS_Samariq_Masraqq={
+		name="Samariq Masraqq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Samariq_Masraqq
+				traits = {	rearmer 	}
+		}
+
+	}
+	UAS_Omariq_Kutub={
+		name="Omariq Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Omariq_Kutub
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	UAS_Ibrah_Kutub={
+		name="Ibrah Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Ibrah_Kutub
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	UAS_Hassal_Kitan={
+		name="Hassal Kitan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UAS_Hassal_Kitan
+				traits = {	infirm 	}
+		}
+
+	}
+	UAS_Mahim_Masraqq={
+		name="Mahim Masraqq"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Mahim_Masraqq
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	UAS_Farid_Hafa={
+		name="Farid Hafa"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Farid_Hafa
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	UAS_Anwar_Hafa={
+		name="Anwar Hafa"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Anwar_Hafa
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	UAS_Karim_Ghuruq={
+		name="Karim Ghuruq"
+
+		advisor={
+			slot = army_chief
+			idea_token = UAS_Karim_Ghuruq
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	UAS_Alid_Kitabati={
+		name="Alid Kitabati"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Alid_Kitabati
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	UAS_Imrahmad_Nasra={
+		name="Imrahmad Nasra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UAS_Imrahmad_Nasra
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	UAS_Samal_Bashfa={
+		name="Samal Bashfa"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Samal_Bashfa
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	UAS_Abdullahya_Bashfa={
+		name="Abdullahya Bashfa"
+
+		advisor={
+			slot = air_chief
+			idea_token = UAS_Abdullahya_Bashfa
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	UAS_Mahmoud_Kitan={
+		name="Mahmoud Kitan"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Mahmoud_Kitan
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	UAS_Ramir_Kitan={
+		name="Ramir Kitan"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Ramir_Kitan
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	UAS_Mohal_Hafa={
+		name="Mohal Hafa"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Mohal_Hafa
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	UAS_Imran_Kitan={
+		name="Imran Kitan"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Imran_Kitan
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	UAS_Imrahmad_Bashfa={
+		name="Imrahmad Bashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Imrahmad_Bashfa
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	UAS_Mohal_Nasra={
+		name="Mohal Nasra"
+
+		advisor={
+			slot = high_command
+			idea_token = UAS_Mohal_Nasra
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	UAS_Hamir_Masraqq={
+		name="Hamir Masraqq"
+
+		advisor={
+			slot = theorist
+			idea_token = UAS_Hamir_Masraqq
+				traits = {	military_theorist 	}
+		}
+
+	}
+	UAS_Karim_Bashfa={
+		name="Karim Bashfa"
+
+		advisor={
+			slot = theorist
+			idea_token = UAS_Karim_Bashfa
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	UAS_Hassal_Kawka={
+		name="Hassal Kawka"
+
+		advisor={
+			slot = theorist
+			idea_token = UAS_Hassal_Kawka
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

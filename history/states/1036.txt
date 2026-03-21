@@ -2,7 +2,7 @@
 state={
 	id=1036
 	name="STATE_1036"
-	manpower = 1020555
+	manpower = 1254358
 	
 	state_category = city
 	#impassable = yes
@@ -10,36 +10,31 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=2
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14429 1}
-		victory_points = { 14430 1}
-		victory_points = { 14431 1}
-		victory_points = { 14436 1}
-		victory_points = { 14438 3}
+		victory_points = { 13612 5}
+		victory_points = { 13616 1}
+		victory_points = { 13621 3}
 		
-		owner = RAQ
+		owner = NCL
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
 			
-			14438 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = RAQ
+		add_core_of = NCL
 	}
 
 	provinces={
-		14428 14429 14430 14431 14432 14433 14434 14435 14436 14437 14438 14439 14440 14441 14442 14443 14444 
+		13607 13608 13609 13610 13611 13612 13613 13614 13615 13616 13617 13618 13619 13620 13621 13622 13623 13624 13625 
 	}
 	local_supplies=0.0 
 }

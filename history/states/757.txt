@@ -2,14 +2,14 @@
 state={
 	id=757
 	name="STATE_757"
-	manpower = 130404
+	manpower = 2036927
 	
-	state_category = small_island
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 10731 1}
+		victory_points = { 10149 5}
+		victory_points = { 10151 7}
+		victory_points = { 10160 3}
 		
-		owner = JME
+		owner = ULU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 2
 			
-			10731 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = JME
+		add_core_of = ULU
 	}
 
 	provinces={
-		10731 
+		10139 10140 10141 10142 10143 10144 10145 10146 10147 10148 10149 10150 10151 10152 10153 10154 10155 10156 10157 10158 10159 10160 10161 10162 10163 10164 10165 10166 10167 10168 10169 
 	}
 	local_supplies=0.0 
 }

@@ -2,40 +2,40 @@
 state={
 	id=1326
 	name="STATE_1326"
-	manpower = 361809
+	manpower = 294431
 	
-	state_category = rural
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=4
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17832 1}
+		victory_points = { 17404 1}
 		
-		owner = RAQ
+		owner = MFN
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			17834 = {
+			17405 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = RAQ
+		add_core_of = MFN
 	}
 
 	provinces={
-		17831 17832 17833 17834 17835 
+		17404 17405 17406 
 	}
 	local_supplies=0.0 
 }

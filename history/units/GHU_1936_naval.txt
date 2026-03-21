@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ghuruq Fleet"			
+		naval_base = 9274
+		task_force = {
+			name = "Ghuruq Fleet"
+			location = 9274
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

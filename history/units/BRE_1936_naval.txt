@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Breiling Fleet"			
+		naval_base = 13297
+		task_force = {
+			name = "Breiling Fleet"
+			location = 13297
+			
+						ship = { name = "Eirseas" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = BRE version_name = "Faisce Class" } }	}
+			ship = { name = "Ceilte" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRE version_name = "Breiling Class" } }	}
+			ship = { name = "Faisce" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BRE version_name = "Eirseas Class" } }	}
+			ship = { name = "Porc" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRE version_name = "Breiling Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

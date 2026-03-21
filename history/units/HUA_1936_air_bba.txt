@@ -1,4 +1,30 @@
 air_wings = {
-	
+		261 = { 								
+		medium_plane_airframe_1 = { owner = "HUA" amount = 26 version_name = "Lichwer Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "HUA" amount = 28 version_name = "Scht Mk 1" }
+
+	}
+	217 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "HUA" amount = 32 version_name = "Mont Mk 2" }
+
+	}
+	228 = { 								
+		small_plane_cas_airframe_1 = { owner = "HUA" amount = 30 version_name = "Mont Mk 0" }
+small_plane_airframe_1 = { owner = "HUA" amount = 26 version_name = "Feueckeld Mk 1" }
+
+	}
+	41 = { 								
+		small_plane_cas_airframe_0 = { owner = "HUA" amount = 24 version_name = "Scht Mk 1" }
+
+	}
+	280 = { 								
+		medium_plane_airframe_0 = { owner = "HUA" amount = 35 version_name = "Frin Mk 1" }
+
+	}
+	91 = { 								
+		small_plane_airframe_0 = { owner = "HUA" amount = 28 version_name = "Frin Mk 1" }
+
+	}
+
 
 }

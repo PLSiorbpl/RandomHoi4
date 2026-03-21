@@ -2,9 +2,9 @@
 state={
 	id=913
 	name="STATE_913"
-	manpower = 490038
+	manpower = 1682270
 	
-	state_category = rural
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 12565 1}
-		victory_points = { 12570 1}
+		victory_points = { 12297 4}
+		victory_points = { 12302 2}
+		victory_points = { 12308 3}
+		victory_points = { 12311 2}
 		
-		owner = XUA
+		owner = CNU
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = XUA
+		add_core_of = CNU
 	}
 
 	provinces={
-		12565 12566 12567 12568 12569 12570 12571 12572 
+		12296 12297 12298 12299 12300 12301 12302 12303 12304 12305 12306 12307 12308 12309 12310 12311 12312 12313 12314 12315 12316 12317 12318 12319 12320 12321 
 	}
 	local_supplies=0.0 
 }

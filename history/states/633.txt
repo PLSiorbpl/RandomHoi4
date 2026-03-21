@@ -2,7 +2,7 @@
 state={
 	id=633
 	name="STATE_633"
-	manpower = 475563
+	manpower = 694399
 	
 	state_category = town
 	#impassable = yes
@@ -11,28 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 9140 1}
+		victory_points = { 8417 1}
+		victory_points = { 8422 1}
 		
-		owner = EKZ
+		owner = BHL
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = EKZ
+		add_core_of = BHL
 	}
 
 	provinces={
-		9137 9138 9139 9140 9141 9142 9143 9144 
+		8417 8418 8419 8420 8421 8422 8423 8424 8425 8426 
 	}
 	local_supplies=0.0 
 }

@@ -2,42 +2,40 @@
 state={
 	id=528
 	name="STATE_528"
-	manpower = 410630
+	manpower = 866275
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=6
 		tungsten=0
-		coal=23
+		coal=0
 	}
 
 	history={
-		victory_points = { 7620 1}
-		victory_points = { 7621 1}
-		victory_points = { 7625 1}
+		victory_points = { 6914 1}
+		victory_points = { 6915 2}
+		victory_points = { 6923 2}
+		victory_points = { 6925 1}
 		
-		owner = KZU
+		owner = NCL
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
-			7620 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = KZU
+		add_core_of = NCL
 	}
 
 	provinces={
-		7620 7621 7622 7623 7624 7625 
+		6914 6915 6916 6917 6918 6919 6920 6921 6922 6923 6924 6925 6926 
 	}
 	local_supplies=0.0 
 }

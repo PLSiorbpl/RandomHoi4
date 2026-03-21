@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Loras Fleet"			
+		naval_base = 17568
+		task_force = {
+			name = "Loras Fleet"
+			location = 17568
+			
+						ship = { name = "Ceoill" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = LOR version_name = "Cainta Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

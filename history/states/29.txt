@@ -2,9 +2,9 @@
 state={
 	id=29
 	name="STATE_29"
-	manpower = 2272153
+	manpower = 448710
 	
-	state_category = megalopolis
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 516 6}
-		victory_points = { 542 8}
-		victory_points = { 543 8}
+		victory_points = { 368 1}
+		victory_points = { 373 1}
 		
-		owner = RDE
+		owner = FEA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
-			arms_factory = 1
-			industrial_complex = 2
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = RDE
+		add_core_of = FEA
 	}
 
 	provinces={
-		509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 
+		368 369 370 371 372 373 
 	}
 	local_supplies=0.0 
 }

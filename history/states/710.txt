@@ -2,39 +2,40 @@
 state={
 	id=710
 	name="STATE_710"
-	manpower = 483387
+	manpower = 1992188
 	
-	state_category = town
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=8
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
-		coal=0
+		coal=63
 	}
 
 	history={
-		victory_points = { 10144 1}
-		victory_points = { 10146 1}
-		victory_points = { 10147 1}
+		victory_points = { 9481 1}
+		victory_points = { 9484 4}
+		victory_points = { 9489 7}
+		victory_points = { 9495 3}
 		
-		owner = AGS
+		owner = IMA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 4
+			
+			arms_factory = 2
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = AGS
+		add_core_of = IMA
 	}
 
 	provinces={
-		10143 10144 10145 10146 10147 10148 10149 
+		9472 9473 9474 9475 9476 9477 9478 9479 9480 9481 9482 9483 9484 9485 9486 9487 9488 9489 9490 9491 9492 9493 9494 9495 9496 9497 9498 9499 9500 9501 
 	}
 	local_supplies=0.0 
 }

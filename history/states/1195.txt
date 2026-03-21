@@ -2,14 +2,14 @@
 state={
 	id=1195
 	name="STATE_1195"
-	manpower = 837321
+	manpower = 907956
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 16627 7}
+		victory_points = { 15662 5}
 		
-		owner = JAX
+		owner = GHI
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			16624 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = JAX
+		add_core_of = GHI
 	}
 
 	provinces={
-		16624 16625 16626 16627 16628 16629 16630 16631 16632 16633 16634 16635 16636 16637 
+		15661 15662 15663 15664 15665 15666 15667 15668 15669 15670 15671 15672 15673 
 	}
 	local_supplies=0.0 
 }

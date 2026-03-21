@@ -2,43 +2,37 @@
 state={
 	id=1088
 	name="STATE_1088"
-	manpower = 1568351
+	manpower = 421762
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=17
 	}
 
 	history={
-		victory_points = { 15119 3}
-		victory_points = { 15125 3}
-		victory_points = { 15130 3}
-		victory_points = { 15136 3}
+		victory_points = { 14177 1}
 		
-		owner = NMT
+		owner = XUL
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 0
 			
-			15127 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = NMT
+		add_core_of = XUL
 	}
 
 	provinces={
-		15118 15119 15120 15121 15122 15123 15124 15125 15126 15127 15128 15129 15130 15131 15132 15133 15134 15135 15136 15137 15138 15139 15140 15141 15142 15143 15144 15145 
+		14176 14177 14178 14179 14180 
 	}
 	local_supplies=0.0 
 }

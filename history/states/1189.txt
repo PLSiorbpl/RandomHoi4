@@ -2,14 +2,14 @@
 state={
 	id=1189
 	name="STATE_1189"
-	manpower = 234492
+	manpower = 634358
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=1
-		oil=0
+		aluminium=7
+		chromium=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 16535 1}
+		victory_points = { 15573 2}
+		victory_points = { 15581 1}
 		
-		owner = OIS
+		owner = GHI
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
+			15577 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = OIS
+		add_core_of = GHI
 	}
 
 	provinces={
-		16534 16535 16536 
+		15573 15574 15575 15576 15577 15578 15579 15580 15581 
 	}
 	local_supplies=0.0 
 }

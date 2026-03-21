@@ -2,40 +2,38 @@
 state={
 	id=336
 	name="STATE_336"
-	manpower = 864892
+	manpower = 929943
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=7
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=9
 	}
 
 	history={
-		victory_points = { 4872 1}
-		victory_points = { 4880 2}
-		victory_points = { 4881 2}
-		victory_points = { 4883 1}
+		victory_points = { 4528 4}
+		victory_points = { 4529 1}
 		
-		owner = AUR
+		owner = ETX
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = AUR
+		add_core_of = ETX
 	}
 
 	provinces={
-		4869 4870 4871 4872 4873 4874 4875 4876 4877 4878 4879 4880 4881 4882 4883 
+		4525 4526 4527 4528 4529 4530 4531 4532 4533 4534 4535 4536 4537 
 	}
 	local_supplies=0.0 
 }

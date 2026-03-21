@@ -1,0 +1,40 @@
+
+state={
+	id=1361
+	name="STATE_1361"
+	manpower = 226609
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GHI
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17700 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GHI
+	}
+
+	provinces={
+		17697 17698 17699 17700 17701 
+	}
+	local_supplies=0.0 
+}

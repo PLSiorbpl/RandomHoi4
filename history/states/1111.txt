@@ -2,43 +2,38 @@
 state={
 	id=1111
 	name="STATE_1111"
-	manpower = 979649
+	manpower = 832477
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=6
-		tungsten=0
+		steel=0
+		tungsten=8
 		coal=0
 	}
 
 	history={
-		victory_points = { 15441 1}
-		victory_points = { 15443 3}
-		victory_points = { 15447 3}
-		victory_points = { 15451 1}
+		victory_points = { 14501 2}
+		victory_points = { 14503 2}
 		
-		owner = NMT
+		owner = SLU
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
-			15451 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = NMT
+		add_core_of = SLU
 	}
 
 	provinces={
-		15440 15441 15442 15443 15444 15445 15446 15447 15448 15449 15450 15451 15452 15453 15454 15455 
+		14498 14499 14500 14501 14502 14503 14504 14505 14506 14507 14508 14509 14510 
 	}
 	local_supplies=0.0 
 }

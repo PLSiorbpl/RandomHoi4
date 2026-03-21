@@ -2,9 +2,9 @@
 state={
 	id=256
 	name="STATE_256"
-	manpower = 554644
+	manpower = 738363
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,30 +13,27 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
-		victory_points = { 3859 3}
-		victory_points = { 3861 1}
+		victory_points = { 3478 1}
+		victory_points = { 3484 2}
 		
-		owner = GQA
+		owner = BXR
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 2
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
-			3858 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = GQA
+		add_core_of = BXR
 	}
 
 	provinces={
-		3857 3858 3859 3860 3861 3862 3863 3864 
+		3464 3465 3466 3467 3468 3469 3470 3471 3472 3473 3474 3475 3476 3477 3478 3479 3480 3481 3482 3483 3484 
 	}
 	local_supplies=0.0 
 }

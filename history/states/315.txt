@@ -2,37 +2,42 @@
 state={
 	id=315
 	name="STATE_315"
-	manpower = 447045
+	manpower = 2564766
 	
-	state_category = rural
+	state_category = megalopolis
 	#impassable = yes
 	resources={
-		aluminium=2
-		chromium=0
+		aluminium=0
+		chromium=11
 		oil=0
-		rubber=4
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4667 1}
+		victory_points = { 4234 4}
+		victory_points = { 4251 6}
+		victory_points = { 4255 10}
 		
-		owner = NKK
+		owner = RNT
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			
-			arms_factory = 0
-			industrial_complex = 0
-			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			4254 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = NKK
+		add_core_of = RNT
 	}
 
 	provinces={
-		4658 4659 4660 4661 4662 4663 4664 4665 4666 4667 
+		4216 4217 4218 4219 4220 4221 4222 4223 4224 4225 4226 4227 4228 4229 4230 4231 4232 4233 4234 4235 4236 4237 4238 4239 4240 4241 4242 4243 4244 4245 4246 4247 4248 4249 4250 4251 4252 4253 4254 4255 
 	}
 	local_supplies=0.0 
 }

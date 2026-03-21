@@ -2,40 +2,39 @@
 state={
 	id=501
 	name="STATE_501"
-	manpower = 1617493
+	manpower = 998197
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=7
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
-		steel=0
+		steel=22
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7172 3}
-		victory_points = { 7173 5}
-		victory_points = { 7174 5}
-		victory_points = { 7188 2}
+		victory_points = { 6564 1}
+		victory_points = { 6565 4}
+		victory_points = { 6576 2}
 		
-		owner = BBR
+		owner = PON
 		buildings = {
 			infrastructure = 4
-			air_base = 3
+			
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BBR
+		add_core_of = PON
 	}
 
 	provinces={
-		7172 7173 7174 7175 7176 7177 7178 7179 7180 7181 7182 7183 7184 7185 7186 7187 7188 7189 7190 7191 7192 7193 7194 7195 7196 7197 7198 7199 
+		6564 6565 6566 6567 6568 6569 6570 6571 6572 6573 6574 6575 6576 6577 6578 
 	}
 	local_supplies=0.0 
 }

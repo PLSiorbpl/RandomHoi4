@@ -2,14 +2,14 @@
 state={
 	id=768
 	name="STATE_768"
-	manpower = 426761
+	manpower = 977165
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10854 2}
-		victory_points = { 10858 1}
+		victory_points = { 10318 4}
+		victory_points = { 10324 3}
 		
-		owner = ATC
+		owner = WEA
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
-			10856 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ATC
+		add_core_of = WEA
 	}
 
 	provinces={
-		10853 10854 10855 10856 10857 10858 
+		10316 10317 10318 10319 10320 10321 10322 10323 10324 10325 10326 10327 10328 10329 
 	}
 	local_supplies=0.0 
 }

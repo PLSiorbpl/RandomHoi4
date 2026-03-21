@@ -1,0 +1,29 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Rico Fleet"			
+		naval_base = 8131
+		task_force = {
+			name = "Rico Fleet"
+			location = 8131
+			
+						ship = { name = "Giuscelta" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YIC version_name = "Giuscelta Class" } }	}
+			ship = { name = "Rico" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YIC version_name = "Oranziaggia Class" } }	}
+			ship = { name = "Giuscelta 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YIC version_name = "Giuscelta Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

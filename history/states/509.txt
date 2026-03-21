@@ -2,42 +2,39 @@
 state={
 	id=509
 	name="STATE_509"
-	manpower = 926323
+	manpower = 1045575
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=1
+		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
-		steel=10
+		rubber=1
+		steel=3
 		tungsten=0
-		coal=3
+		coal=0
 	}
 
 	history={
-		victory_points = { 7323 2}
-		victory_points = { 7325 3}
-		victory_points = { 7326 2}
+		victory_points = { 6700 1}
+		victory_points = { 6705 3}
+		victory_points = { 6706 3}
 		
-		owner = ZSI
+		owner = SVE
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
-			7327 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ZSI
+		add_core_of = SVE
 	}
 
 	provinces={
-		7322 7323 7324 7325 7326 7327 7328 7329 7330 7331 7332 7333 7334 7335 7336 
+		6700 6701 6702 6703 6704 6705 6706 6707 6708 6709 6710 6711 6712 6713 6714 6715 
 	}
 	local_supplies=0.0 
 }

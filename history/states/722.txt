@@ -2,14 +2,14 @@
 state={
 	id=722
 	name="STATE_722"
-	manpower = 482123
+	manpower = 521372
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,9 +17,10 @@ state={
 	}
 
 	history={
-		victory_points = { 10335 3}
+		victory_points = { 9666 1}
+		victory_points = { 9667 2}
 		
-		owner = CJR
+		owner = KUL
 		buildings = {
 			infrastructure = 3
 			
@@ -28,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = CJR
+		add_core_of = KUL
 	}
 
 	provinces={
-		10329 10330 10331 10332 10333 10334 10335 10336 
+		9665 9666 9667 9668 9669 9670 9671 
 	}
 	local_supplies=0.0 
 }

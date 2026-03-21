@@ -1,0 +1,880 @@
+characters = {
+	TAS_Faid_Khaman={
+		name="Faid Khaman"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAS_Adnan_Muniyahjaria={
+		name="Adnan Muniyahjaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Adnan_Muniyahjaria
+				traits = {	headstrong 	}
+		}
+
+	}
+	TAS_Yahmad_Muniyahidda={
+		name="Yahmad Muniyahidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Yahmad_Muniyahidda
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TAS_Faid_Manzim={
+		name="Faid Manzim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Faid_Manzim
+				traits = {	humble 	}
+		}
+
+	}
+	TAS_Jamir_Nasra={
+		name="Jamir Nasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Jamir_Nasra
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TAS_Alid_Nahrah={
+		name="Alid Nahrah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Alid_Nahrah
+				traits = {	humble 	}
+		}
+
+	}
+	TAS_Jammed_Ghabr={
+		name="Jammed Ghabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Jammed_Ghabr
+				traits = {	headstrong 	}
+		}
+
+	}
+	TAS_Jamir_Manzim={
+		name="Jamir Manzim"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Jamir_Manzim
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TAS_Bilal_Nahrah={
+		name="Bilal Nahrah"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Bilal_Nahrah
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TAS_Karid_Khaman={
+		name="Karid Khaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Karid_Khaman
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TAS_Jammed_Safil={
+		name="Jammed Safil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Jammed_Safil
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TAS_Yusuf_Nahrah={
+		name="Yusuf Nahrah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Yusuf_Nahrah
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TAS_Ahmar_Nasra={
+		name="Ahmar Nasra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Ahmar_Nasra
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TAS_Tarim_Nahrah={
+		name="Tarim Nahrah"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Tarim_Nahrah
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TAS_Anwariq_Manzim={
+		name="Anwariq Manzim"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Anwariq_Manzim
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	TAS_Nabilal_Manzim={
+		name="Nabilal Manzim"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Nabilal_Manzim
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	TAS_Tariq_Khaman={
+		name="Tariq Khaman"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Tariq_Khaman
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	TAS_Mahya_Nahrah={
+		name="Mahya Nahrah"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Mahya_Nahrah
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TAS_Ahmarim_Rihl={
+		name="Ahmarim Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Ahmarim_Rihl
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TAS_Mahim_Muniyahjaria={
+		name="Mahim Muniyahjaria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Mahim_Muniyahjaria
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TAS_Yusuf_Rihl={
+		name="Yusuf Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Yusuf_Rihl
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	TAS_Samir_Nasra={
+		name="Samir Nasra"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAS_Tarim_Muniyahidda={
+		name="Tarim Muniyahidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Tarim_Muniyahidda
+				traits = {	basileus 	}
+		}
+
+	}
+	TAS_Tarim_Ghabr={
+		name="Tarim Ghabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Tarim_Ghabr
+				traits = {	polemarch 	}
+		}
+
+	}
+	TAS_Nabilahim_Ghabr={
+		name="Nabilahim Ghabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Nabilahim_Ghabr
+				traits = {	warmonger 	}
+		}
+
+	}
+	TAS_Bilahim_Barahria={
+		name="Bilahim Barahria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Bilahim_Barahria
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	TAS_Khal_Safil={
+		name="Khal Safil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Khal_Safil
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TAS_Jamza_Rihl={
+		name="Jamza Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Jamza_Rihl
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TAS_Sammed_Muniyahjaria={
+		name="Sammed Muniyahjaria"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Sammed_Muniyahjaria
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TAS_Zaid_Khaman={
+		name="Zaid Khaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Zaid_Khaman
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TAS_Bilahmar_Nasra={
+		name="Bilahmar Nasra"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Bilahmar_Nasra
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TAS_Khammed_Khaman={
+		name="Khammed Khaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Khammed_Khaman
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TAS_Jamza_Nasra={
+		name="Jamza Nasra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Jamza_Nasra
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TAS_Nabil_Barahria={
+		name="Nabil Barahria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Nabil_Barahria
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TAS_Jamad_Ghabr={
+		name="Jamad Ghabr"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Jamad_Ghabr
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TAS_Karid_Rihl={
+		name="Karid Rihl"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Karid_Rihl
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TAS_Yahmad_Barahria={
+		name="Yahmad Barahria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Yahmad_Barahria
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TAS_Yahya_Khaman={
+		name="Yahya Khaman"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Yahya_Khaman
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	TAS_Ibrahim_Safil={
+		name="Ibrahim Safil"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Ibrahim_Safil
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	TAS_Farim_Safil={
+		name="Farim Safil"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Farim_Safil
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TAS_Yahya_Nahrah={
+		name="Yahya Nahrah"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Yahya_Nahrah
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TAS_Anwariq_Barahria={
+		name="Anwariq Barahria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Anwariq_Barahria
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	TAS_Saad_Khaman={
+		name="Saad Khaman"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAS_Adnan_Rihl={
+		name="Adnan Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Adnan_Rihl
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TAS_Karim_Muniyahidda={
+		name="Karim Muniyahidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Karim_Muniyahidda
+				traits = {	polemarch 	}
+		}
+
+	}
+	TAS_Farim_Nasra={
+		name="Farim Nasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Farim_Nasra
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TAS_Hassal_Manzim={
+		name="Hassal Manzim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Hassal_Manzim
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TAS_Hamir_Muniyahidda={
+		name="Hamir Muniyahidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Hamir_Muniyahidda
+				traits = {	polemarch 	}
+		}
+
+	}
+	TAS_Bilal_Rihl={
+		name="Bilal Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Bilal_Rihl
+				traits = {	infirm 	}
+		}
+
+	}
+	TAS_Yahya_Safil={
+		name="Yahya Safil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Yahya_Safil
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TAS_Adnan_Safil={
+		name="Adnan Safil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Adnan_Safil
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TAS_Ahmali_Nahrah={
+		name="Ahmali Nahrah"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Ahmali_Nahrah
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TAS_Imran_Khaman={
+		name="Imran Khaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Imran_Khaman
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TAS_Faid_Nahrah={
+		name="Faid Nahrah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Faid_Nahrah
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TAS_Karim_Manzim={
+		name="Karim Manzim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Karim_Manzim
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TAS_Nabil_Nasra={
+		name="Nabil Nasra"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Nabil_Nasra
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TAS_Jammed_Muniyahjaria={
+		name="Jammed Muniyahjaria"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Jammed_Muniyahjaria
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TAS_Rammed_Khaman={
+		name="Rammed Khaman"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Rammed_Khaman
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	TAS_Nabilal_Nahrah={
+		name="Nabilal Nahrah"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Nabilal_Nahrah
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TAS_Yahim_Barahria={
+		name="Yahim Barahria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Yahim_Barahria
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TAS_Zaisal_Manzim={
+		name="Zaisal Manzim"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Zaisal_Manzim
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TAS_Saad_Manzim={
+		name="Saad Manzim"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Saad_Manzim
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TAS_Faisal_Muniyahjaria={
+		name="Faisal Muniyahjaria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Faisal_Muniyahjaria
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	TAS_Farid_Nahrah={
+		name="Farid Nahrah"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAS_Farim_Muniyahidda={
+		name="Farim Muniyahidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Farim_Muniyahidda
+				traits = {	infirm 	}
+		}
+
+	}
+	TAS_Farim_Ghabr={
+		name="Farim Ghabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Farim_Ghabr
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TAS_Anwariq_Safil={
+		name="Anwariq Safil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Anwariq_Safil
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TAS_Tarim_Manzim={
+		name="Tarim Manzim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Tarim_Manzim
+				traits = {	rearmer 	}
+		}
+
+	}
+	TAS_Sami_Nasra={
+		name="Sami Nasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Sami_Nasra
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TAS_Mahim_Ghabr={
+		name="Mahim Ghabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAS_Mahim_Ghabr
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TAS_Nabilahim_Nahrah={
+		name="Nabilahim Nahrah"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Nabilahim_Nahrah
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TAS_Hamir_Barahria={
+		name="Hamir Barahria"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Hamir_Barahria
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TAS_Zaisal_Barahria={
+		name="Zaisal Barahria"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Zaisal_Barahria
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TAS_Mohal_Nahrah={
+		name="Mohal Nahrah"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAS_Mohal_Nahrah
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TAS_Ahmariq_Khaman={
+		name="Ahmariq Khaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Ahmariq_Khaman
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TAS_Yusuf_Ghabr={
+		name="Yusuf Ghabr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAS_Yusuf_Ghabr
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TAS_Mohal_Barahria={
+		name="Mohal Barahria"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Mohal_Barahria
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TAS_Nabilal_Muniyahjaria={
+		name="Nabilal Muniyahjaria"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAS_Nabilal_Muniyahjaria
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TAS_Ahmarim_Muniyahjaria={
+		name="Ahmarim Muniyahjaria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Ahmarim_Muniyahjaria
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TAS_Tarim_Muniyahjaria={
+		name="Tarim Muniyahjaria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Tarim_Muniyahjaria
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TAS_Zaid_Rihl={
+		name="Zaid Rihl"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Zaid_Rihl
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TAS_Hassan_Barahria={
+		name="Hassan Barahria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Hassan_Barahria
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	TAS_Jamza_Nahrah={
+		name="Jamza Nahrah"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Jamza_Nahrah
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	TAS_Sami_Barahria={
+		name="Sami Barahria"
+
+		advisor={
+			slot = high_command
+			idea_token = TAS_Sami_Barahria
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TAS_Sammed_Manzim={
+		name="Sammed Manzim"
+
+		advisor={
+			slot = theorist
+			idea_token = TAS_Sammed_Manzim
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TAS_Ahmariq_Barahria={
+		name="Ahmariq Barahria"
+
+		advisor={
+			slot = theorist
+			idea_token = TAS_Ahmariq_Barahria
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TAS_Abdullal_Barahria={
+		name="Abdullal Barahria"
+
+		advisor={
+			slot = theorist
+			idea_token = TAS_Abdullal_Barahria
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

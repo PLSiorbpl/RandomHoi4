@@ -2,12 +2,12 @@
 state={
 	id=476
 	name="STATE_476"
-	manpower = 215233
+	manpower = 931662
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=13
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,21 +17,24 @@ state={
 	}
 
 	history={
+		victory_points = { 6149 2}
+		victory_points = { 6152 3}
+		victory_points = { 6156 1}
 		
-		owner = UEM
+		owner = XRA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = UEM
+		add_core_of = XRA
 	}
 
 	provinces={
-		6738 6739 
+		6149 6150 6151 6152 6153 6154 6155 6156 6157 6158 6159 6160 6161 
 	}
 	local_supplies=0.0 
 }

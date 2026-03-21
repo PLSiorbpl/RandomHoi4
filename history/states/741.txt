@@ -2,43 +2,44 @@
 state={
 	id=741
 	name="STATE_741"
-	manpower = 1322712
+	manpower = 1571748
 	
 	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=0
 		rubber=0
-		steel=9
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10542 3}
-		victory_points = { 10545 3}
-		victory_points = { 10546 3}
-		victory_points = { 10556 3}
+		victory_points = { 9936 2}
+		victory_points = { 9942 2}
+		victory_points = { 9945 3}
+		victory_points = { 9947 2}
+		victory_points = { 9948 2}
 		
-		owner = AGH
+		owner = YMM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 1
-			industrial_complex = 0
-			dockyard = 1
-			10561 = {
+			industrial_complex = 1
+			
+			9942 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = AGH
+		add_core_of = YMM
 	}
 
 	provinces={
-		10540 10541 10542 10543 10544 10545 10546 10547 10548 10549 10550 10551 10552 10553 10554 10555 10556 10557 10558 10559 10560 10561 10562 
+		9933 9934 9935 9936 9937 9938 9939 9940 9941 9942 9943 9944 9945 9946 9947 9948 9949 9950 9951 9952 9953 9954 9955 
 	}
 	local_supplies=0.0 
 }

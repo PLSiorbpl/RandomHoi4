@@ -1,0 +1,880 @@
+characters = {
+	YMM_Khami_Hikma={
+		name="Khami Hikma"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YMM_Hassan_Qamahra={
+		name="Hassan Qamahra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Hassan_Qamahra
+				traits = {	humble 	}
+		}
+
+	}
+	YMM_Zaisan_Tana={
+		name="Zaisan Tana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Zaisan_Tana
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YMM_Samarid_Qamahra={
+		name="Samarid Qamahra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Samarid_Qamahra
+				traits = {	humble 	}
+		}
+
+	}
+	YMM_Jamir_Hikma={
+		name="Jamir Hikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Jamir_Hikma
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YMM_Faisal_Najrabalam={
+		name="Faisal Najrabalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Faisal_Najrabalam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	YMM_Hammed_Hikmaada={
+		name="Hammed Hikmaada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Hammed_Hikmaada
+				traits = {	humble 	}
+		}
+
+	}
+	YMM_Ramir_Tana={
+		name="Ramir Tana"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Ramir_Tana
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	YMM_Nabil_Hijr={
+		name="Nabil Hijr"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Nabil_Hijr
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	YMM_Anwariq_Shura={
+		name="Anwariq Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Anwariq_Shura
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YMM_Yusuf_Shura={
+		name="Yusuf Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Yusuf_Shura
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	YMM_Mahya_Qamahra={
+		name="Mahya Qamahra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Mahya_Qamahra
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	YMM_Hammed_Qamahra={
+		name="Hammed Qamahra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Hammed_Qamahra
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	YMM_Jammed_Qama={
+		name="Jammed Qama"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Jammed_Qama
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	YMM_Omad_Shar={
+		name="Omad Shar"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Omad_Shar
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	YMM_Samir_Shar={
+		name="Samir Shar"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Samir_Shar
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	YMM_Hammed_Hijr={
+		name="Hammed Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Hammed_Hijr
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	YMM_Hamza_Hikmaada={
+		name="Hamza Hikmaada"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Hamza_Hikmaada
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	YMM_Zaid_Najrabalam={
+		name="Zaid Najrabalam"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Zaid_Najrabalam
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	YMM_Jamza_Najrabalam={
+		name="Jamza Najrabalam"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Jamza_Najrabalam
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	YMM_Zaisal_Hijr={
+		name="Zaisal Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Zaisal_Hijr
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	YMM_Yusuf_Hikmaada={
+		name="Yusuf Hikmaada"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YMM_Farim_Shura={
+		name="Farim Shura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Farim_Shura
+				traits = {	basileus 	}
+		}
+
+	}
+	YMM_Ibrahim_Hijr={
+		name="Ibrahim Hijr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Ibrahim_Hijr
+				traits = {	infirm 	}
+		}
+
+	}
+	YMM_Samarid_Hilm={
+		name="Samarid Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Samarid_Hilm
+				traits = {	warmonger 	}
+		}
+
+	}
+	YMM_Mahim_Qamahra={
+		name="Mahim Qamahra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Mahim_Qamahra
+				traits = {	autokrator 	}
+		}
+
+	}
+	YMM_Samir_Shura={
+		name="Samir Shura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Samir_Shura
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YMM_Nabil_Tana={
+		name="Nabil Tana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Nabil_Tana
+				traits = {	polemarch 	}
+		}
+
+	}
+	YMM_Ramir_Qama={
+		name="Ramir Qama"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Ramir_Qama
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YMM_Zaisal_Shura={
+		name="Zaisal Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Zaisal_Shura
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YMM_Jami_Shura={
+		name="Jami Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Jami_Shura
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YMM_Khamir_Shura={
+		name="Khamir Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Khamir_Shura
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YMM_Sami_Shura={
+		name="Sami Shura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Sami_Shura
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	YMM_Hami_Qama={
+		name="Hami Qama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Hami_Qama
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	YMM_Hammed_Hilm={
+		name="Hammed Hilm"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Hammed_Hilm
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	YMM_Majid_Shar={
+		name="Majid Shar"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Majid_Shar
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	YMM_Ibran_Najrabalam={
+		name="Ibran Najrabalam"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Ibran_Najrabalam
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YMM_Farim_Qamahra={
+		name="Farim Qamahra"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Farim_Qamahra
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	YMM_Khamza_Qama={
+		name="Khamza Qama"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Khamza_Qama
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	YMM_Omal_Qamahra={
+		name="Omal Qamahra"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Omal_Qamahra
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	YMM_Hami_Tana={
+		name="Hami Tana"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Hami_Tana
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	YMM_Omad_Shura={
+		name="Omad Shura"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Omad_Shura
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	YMM_Nabil_Qama={
+		name="Nabil Qama"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YMM_Samza_Hikmaada={
+		name="Samza Hikmaada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Samza_Hikmaada
+				traits = {	political_dancer 	}
+		}
+
+	}
+	YMM_Abdullal_Qamahra={
+		name="Abdullal Qamahra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Abdullal_Qamahra
+				traits = {	polemarch 	}
+		}
+
+	}
+	YMM_Karim_Tana={
+		name="Karim Tana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Karim_Tana
+				traits = {	polemarch 	}
+		}
+
+	}
+	YMM_Alid_Najrabalam={
+		name="Alid Najrabalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Alid_Najrabalam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YMM_Adnan_Qamahra={
+		name="Adnan Qamahra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Adnan_Qamahra
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YMM_Hassal_Hikmaada={
+		name="Hassal Hikmaada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Hassal_Hikmaada
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	YMM_Ramza_Shura={
+		name="Ramza Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Ramza_Shura
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	YMM_Rami_Najrabalam={
+		name="Rami Najrabalam"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Rami_Najrabalam
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YMM_Hammed_Shura={
+		name="Hammed Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Hammed_Shura
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YMM_Zaisan_Shura={
+		name="Zaisan Shura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Zaisan_Shura
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	YMM_Hamza_Hikma={
+		name="Hamza Hikma"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Hamza_Hikma
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	YMM_Nabilal_Najrabalam={
+		name="Nabilal Najrabalam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Nabilal_Najrabalam
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	YMM_Imran_Tana={
+		name="Imran Tana"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Imran_Tana
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	YMM_Anwariq_Hikma={
+		name="Anwariq Hikma"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Anwariq_Hikma
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	YMM_Imrahim_Hikmaada={
+		name="Imrahim Hikmaada"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Imrahim_Hikmaada
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	YMM_Abdullahim_Hikmaada={
+		name="Abdullahim Hikmaada"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Abdullahim_Hikmaada
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	YMM_Anwar_Qamahra={
+		name="Anwar Qamahra"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Anwar_Qamahra
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	YMM_Mohami_Hikma={
+		name="Mohami Hikma"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Mohami_Hikma
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	YMM_Khamza_Qamahra={
+		name="Khamza Qamahra"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Khamza_Qamahra
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	YMM_Imrahim_Qamahra={
+		name="Imrahim Qamahra"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Imrahim_Qamahra
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	YMM_Abdullal_Qama={
+		name="Abdullal Qama"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YMM_Ibrahim_Hikma={
+		name="Ibrahim Hikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Ibrahim_Hikma
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YMM_Nabilahmad_Qama={
+		name="Nabilahmad Qama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Nabilahmad_Qama
+				traits = {	the_banker 	}
+		}
+
+	}
+	YMM_Ibrahim_Shura={
+		name="Ibrahim Shura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Ibrahim_Shura
+				traits = {	rearmer 	}
+		}
+
+	}
+	YMM_Adnan_Hilm={
+		name="Adnan Hilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Adnan_Hilm
+				traits = {	rearmer 	}
+		}
+
+	}
+	YMM_Zaisal_Najrabalam={
+		name="Zaisal Najrabalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Zaisal_Najrabalam
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	YMM_Samad_Najrabalam={
+		name="Samad Najrabalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YMM_Samad_Najrabalam
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YMM_Yahmar_Hilm={
+		name="Yahmar Hilm"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Yahmar_Hilm
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YMM_Anwar_Hikmaada={
+		name="Anwar Hikmaada"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Anwar_Hikmaada
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	YMM_Jamza_Qamahra={
+		name="Jamza Qamahra"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Jamza_Qamahra
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YMM_Mohamad_Tana={
+		name="Mohamad Tana"
+
+		advisor={
+			slot = army_chief
+			idea_token = YMM_Mohamad_Tana
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	YMM_Ibrahim_Tana={
+		name="Ibrahim Tana"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Ibrahim_Tana
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YMM_Samir_Qama={
+		name="Samir Qama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YMM_Samir_Qama
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	YMM_Nabilahmad_Tana={
+		name="Nabilahmad Tana"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Nabilahmad_Tana
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YMM_Hassan_Tana={
+		name="Hassan Tana"
+
+		advisor={
+			slot = air_chief
+			idea_token = YMM_Hassan_Tana
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	YMM_Zaid_Hilm={
+		name="Zaid Hilm"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Zaid_Hilm
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	YMM_Hami_Shura={
+		name="Hami Shura"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Hami_Shura
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	YMM_Jamza_Hikmaada={
+		name="Jamza Hikmaada"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Jamza_Hikmaada
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	YMM_Rami_Hijr={
+		name="Rami Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Rami_Hijr
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	YMM_Ibran_Hijr={
+		name="Ibran Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Ibran_Hijr
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	YMM_Mahim_Shar={
+		name="Mahim Shar"
+
+		advisor={
+			slot = high_command
+			idea_token = YMM_Mahim_Shar
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	YMM_Jami_Hijr={
+		name="Jami Hijr"
+
+		advisor={
+			slot = theorist
+			idea_token = YMM_Jami_Hijr
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YMM_Hamad_Hilm={
+		name="Hamad Hilm"
+
+		advisor={
+			slot = theorist
+			idea_token = YMM_Hamad_Hilm
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YMM_Fariq_Shura={
+		name="Fariq Shura"
+
+		advisor={
+			slot = theorist
+			idea_token = YMM_Fariq_Shura
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

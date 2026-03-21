@@ -2,37 +2,40 @@
 state={
 	id=440
 	name="STATE_440"
-	manpower = 572963
+	manpower = 541951
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=1
-		tungsten=0
+		steel=2
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 6205 4}
+		victory_points = { 5750 2}
 		
-		owner = UEM
+		owner = GDA
 		buildings = {
 			infrastructure = 3
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
 			
-			arms_factory = 0
-			industrial_complex = 1
-			
+			5749 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = UEM
+		add_core_of = GDA
 	}
 
 	provinces={
-		6203 6204 6205 6206 6207 6208 6209 6210 6211 
+		5745 5746 5747 5748 5749 5750 5751 5752 
 	}
 	local_supplies=0.0 
 }

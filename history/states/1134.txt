@@ -2,39 +2,38 @@
 state={
 	id=1134
 	name="STATE_1134"
-	manpower = 7352
+	manpower = 619325
 	
-	state_category = small_island
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=1
+		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=1
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 14813 1}
+		victory_points = { 14816 2}
 		
-		owner = QRR
+		owner = ANI
 		buildings = {
-			infrastructure = 1
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
-			15780 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = QRR
+		add_core_of = ANI
 	}
 
 	provinces={
-		15769 15770 15771 15772 15773 15774 15775 15776 15777 15778 15779 15780 15781 15782 15783 15784 15785 15786 15787 15788 15789 
+		14810 14811 14812 14813 14814 14815 14816 14817 
 	}
 	local_supplies=0.0 
 }

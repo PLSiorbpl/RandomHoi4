@@ -2,14 +2,14 @@
 state={
 	id=30
 	name="STATE_30"
-	manpower = 220412
+	manpower = 1102028
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 549 1}
+		victory_points = { 376 1}
+		victory_points = { 378 5}
 		
-		owner = RDE
+		owner = HBA
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = RDE
+		add_core_of = HBA
 	}
 
 	provinces={
-		549 550 551 
+		374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 
 	}
 	local_supplies=0.0 
 }

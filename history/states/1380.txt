@@ -1,0 +1,41 @@
+
+state={
+	id=1380
+	name="STATE_1380"
+	manpower = 325977
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=20
+	}
+
+	history={
+		victory_points = { 17841 1}
+		
+		owner = DRV
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17840 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DRV
+	}
+
+	provinces={
+		17840 17841 17842 17843 
+	}
+	local_supplies=0.0 
+}

@@ -2,26 +2,24 @@
 state={
 	id=424
 	name="STATE_424"
-	manpower = 894295
+	manpower = 328845
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=1
-		steel=12
+		rubber=0
+		steel=0
 		tungsten=0
-		coal=5
+		coal=0
 	}
 
 	history={
-		victory_points = { 5948 2}
-		victory_points = { 5950 2}
-		victory_points = { 5953 2}
+		victory_points = { 5556 1}
 		
-		owner = XHR
+		owner = SHI
 		buildings = {
 			infrastructure = 3
 			
@@ -30,11 +28,11 @@ state={
 			
 			
 		}
-		add_core_of = XHR
+		add_core_of = SHI
 	}
 
 	provinces={
-		5942 5943 5944 5945 5946 5947 5948 5949 5950 5951 5952 5953 5954 5955 5956 
+		5556 5557 5558 5559 
 	}
 	local_supplies=0.0 
 }

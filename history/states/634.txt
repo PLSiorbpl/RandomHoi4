@@ -2,14 +2,14 @@
 state={
 	id=634
 	name="STATE_634"
-	manpower = 970260
+	manpower = 356949
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 9147 1}
-		victory_points = { 9156 3}
-		victory_points = { 9161 3}
+		victory_points = { 8427 1}
 		
-		owner = BRH
+		owner = SAH
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
+			8429 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = BRH
+		add_core_of = SAH
 	}
 
 	provinces={
-		9145 9146 9147 9148 9149 9150 9151 9152 9153 9154 9155 9156 9157 9158 9159 9160 9161 
+		8427 8428 8429 8430 
 	}
 	local_supplies=0.0 
 }

@@ -2,39 +2,38 @@
 state={
 	id=38
 	name="STATE_38"
-	manpower = 887719
+	manpower = 645881
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
-		steel=0
+		rubber=5
+		steel=12
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 676 2}
-		victory_points = { 677 3}
-		victory_points = { 678 2}
+		victory_points = { 506 3}
+		victory_points = { 510 1}
 		
-		owner = NFO
+		owner = HOR
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NFO
+		add_core_of = HOR
 	}
 
 	provinces={
-		671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 
+		504 505 506 507 508 509 510 511 512 513 
 	}
 	local_supplies=0.0 
 }

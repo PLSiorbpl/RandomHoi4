@@ -2,13 +2,13 @@
 state={
 	id=600
 	name="STATE_600"
-	manpower = 1222078
+	manpower = 875837
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=5
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 8752 3}
-		victory_points = { 8757 3}
-		victory_points = { 8768 2}
-		victory_points = { 8770 2}
+		victory_points = { 7929 2}
+		victory_points = { 7936 4}
 		
-		owner = EKZ
+		owner = FUL
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = EKZ
+		add_core_of = FUL
 	}
 
 	provinces={
-		8751 8752 8753 8754 8755 8756 8757 8758 8759 8760 8761 8762 8763 8764 8765 8766 8767 8768 8769 8770 8771 
+		7924 7925 7926 7927 7928 7929 7930 7931 7932 7933 7934 7935 7936 
 	}
 	local_supplies=0.0 
 }

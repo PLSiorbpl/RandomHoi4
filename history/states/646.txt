@@ -2,14 +2,14 @@
 state={
 	id=646
 	name="STATE_646"
-	manpower = 368495
+	manpower = 1037008
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=5
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 9263 2}
+		victory_points = { 8629 2}
+		victory_points = { 8638 3}
+		victory_points = { 8639 1}
 		
-		owner = MWR
+		owner = KUL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = MWR
+		add_core_of = KUL
 	}
 
 	provinces={
-		9262 9263 9264 9265 9266 
+		8627 8628 8629 8630 8631 8632 8633 8634 8635 8636 8637 8638 8639 8640 8641 
 	}
 	local_supplies=0.0 
 }

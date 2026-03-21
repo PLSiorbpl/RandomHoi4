@@ -2,7 +2,7 @@
 state={
 	id=596
 	name="STATE_596"
-	manpower = 585762
+	manpower = 747582
 	
 	state_category = town
 	#impassable = yes
@@ -11,29 +11,31 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=9
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8695 1}
-		victory_points = { 8697 1}
+		victory_points = { 7877 5}
 		
-		owner = KNP
+		owner = SAH
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
-			
+			industrial_complex = 0
+			dockyard = 1
+			7879 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KNP
+		add_core_of = SAH
 	}
 
 	provinces={
-		8694 8695 8696 8697 8698 8699 8700 8701 8702 
+		7877 7878 7879 7880 7881 7882 7883 7884 7885 7886 
 	}
 	local_supplies=0.0 
 }

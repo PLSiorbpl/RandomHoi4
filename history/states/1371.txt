@@ -1,0 +1,42 @@
+
+state={
+	id=1371
+	name="STATE_1371"
+	manpower = 881571
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17779 2}
+		victory_points = { 17790 4}
+		
+		owner = IUI
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			17782 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IUI
+	}
+
+	provinces={
+		17779 17780 17781 17782 17783 17784 17785 17786 17787 17788 17789 17790 17791 
+	}
+	local_supplies=0.0 
+}

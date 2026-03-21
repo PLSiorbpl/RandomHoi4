@@ -2,14 +2,14 @@
 state={
 	id=984
 	name="STATE_984"
-	manpower = 604461
+	manpower = 2734379
 	
-	state_category = town
+	state_category = megalopolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,28 @@ state={
 	}
 
 	history={
-		victory_points = { 13540 3}
-		victory_points = { 13541 2}
+		victory_points = { 13076 6}
+		victory_points = { 13081 9}
+		victory_points = { 13087 5}
+		victory_points = { 13098 2}
 		
-		owner = GFI
+		owner = TSL
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
 			
+			13104 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = GFI
+		add_core_of = TSL
 	}
 
 	provinces={
-		13539 13540 13541 13542 13543 13544 13545 13546 13547 
+		13074 13075 13076 13077 13078 13079 13080 13081 13082 13083 13084 13085 13086 13087 13088 13089 13090 13091 13092 13093 13094 13095 13096 13097 13098 13099 13100 13101 13102 13103 13104 13105 13106 13107 13108 13109 13110 13111 13112 13113 13114 13115 
 	}
 	local_supplies=0.0 
 }

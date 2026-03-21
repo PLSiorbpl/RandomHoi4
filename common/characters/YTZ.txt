@@ -1,0 +1,880 @@
+characters = {
+	YTZ_Tecun_Becab={
+		name="Tecun Becab"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YTZ_Tohil_Lamna={
+		name="Tohil Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Tohil_Lamna
+				traits = {	humble 	}
+		}
+
+	}
+	YTZ_Ahkin_Lamna={
+		name="Ahkin Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Ahkin_Lamna
+				traits = {	headstrong 	}
+		}
+
+	}
+	YTZ_Chichen_Baluun={
+		name="Chichen Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Chichen_Baluun
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YTZ_Bacatl_Baluun={
+		name="Bacatl Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Bacatl_Baluun
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	YTZ_Yaxkin_Lamna={
+		name="Yaxkin Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Yaxkin_Lamna
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	YTZ_Ekchil_Itzik={
+		name="Ekchil Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Ekchil_Itzik
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	YTZ_Acab_Chich={
+		name="Acab Chich"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Acab_Chich
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YTZ_Kukulkanek_Tzolkin={
+		name="Kukulkanek Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Kukulkanek_Tzolkin
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	YTZ_Acab_Baluun={
+		name="Acab Baluun"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Acab_Baluun
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YTZ_Bacab_Tzolkin={
+		name="Bacab Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Bacab_Tzolkin
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	YTZ_Kukulkan_Baluun={
+		name="Kukulkan Baluun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Kukulkan_Baluun
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YTZ_Ekchichen_Tzolkin={
+		name="Ekchichen Tzolkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Ekchichen_Tzolkin
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YTZ_Ekchil_Lamna={
+		name="Ekchil Lamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Ekchil_Lamna
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YTZ_Kanek_Becab={
+		name="Kanek Becab"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Kanek_Becab
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YTZ_Kukulkan_Uxmal={
+		name="Kukulkan Uxmal"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Kukulkan_Uxmal
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YTZ_Pakan_Uxmal={
+		name="Pakan Uxmal"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Pakan_Uxmal
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	YTZ_Ahkin_Uxun={
+		name="Ahkin Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Ahkin_Uxun
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	YTZ_Ahkin_Becab={
+		name="Ahkin Becab"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Ahkin_Becab
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YTZ_Ahkin_Chich={
+		name="Ahkin Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Ahkin_Chich
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	YTZ_Pakal_Becab={
+		name="Pakal Becab"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Pakal_Becab
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	YTZ_Kukulkal_Uxun={
+		name="Kukulkal Uxun"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YTZ_Pakal_Uxun={
+		name="Pakal Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Pakal_Uxun
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YTZ_Pakan_Tzolkin={
+		name="Pakan Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Pakan_Tzolkin
+				traits = {	autokrator 	}
+		}
+
+	}
+	YTZ_Tecun_Uxmal={
+		name="Tecun Uxmal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Tecun_Uxmal
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	YTZ_Tohichen_Lamna={
+		name="Tohichen Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Tohichen_Lamna
+				traits = {	autokrator 	}
+		}
+
+	}
+	YTZ_Tohil_Becab={
+		name="Tohil Becab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Tohil_Becab
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	YTZ_Bacom_Itzik={
+		name="Bacom Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Bacom_Itzik
+				traits = {	basileus 	}
+		}
+
+	}
+	YTZ_Ekchua_Lamna={
+		name="Ekchua Lamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Ekchua_Lamna
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YTZ_Tecun_Lamna={
+		name="Tecun Lamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Tecun_Lamna
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YTZ_Moctez_Tzolkin={
+		name="Moctez Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Moctez_Tzolkin
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YTZ_Ekchua_Uxmal={
+		name="Ekchua Uxmal"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Ekchua_Uxmal
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	YTZ_Tohil_Tzolkin={
+		name="Tohil Tzolkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Tohil_Tzolkin
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YTZ_Bacom_Becab={
+		name="Bacom Becab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Bacom_Becab
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	YTZ_Acab_Becab={
+		name="Acab Becab"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Acab_Becab
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	YTZ_Acab_Itzik={
+		name="Acab Itzik"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Acab_Itzik
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	YTZ_Popo_Chich={
+		name="Popo Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Popo_Chich
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	YTZ_Ekchua_Chich={
+		name="Ekchua Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Ekchua_Chich
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	YTZ_Pakal_Baluun={
+		name="Pakal Baluun"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Pakal_Baluun
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	YTZ_Oxib_Chich={
+		name="Oxib Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Oxib_Chich
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	YTZ_Tohil_Kanilhau={
+		name="Tohil Kanilhau"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Tohil_Kanilhau
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	YTZ_Balam_Tzolkin={
+		name="Balam Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Balam_Tzolkin
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	YTZ_Bacab_Lamna={
+		name="Bacab Lamna"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YTZ_Pakan_Kanilhau={
+		name="Pakan Kanilhau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Pakan_Kanilhau
+				traits = {	polemarch 	}
+		}
+
+	}
+	YTZ_Nacab_Lamna={
+		name="Nacab Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Nacab_Lamna
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	YTZ_Chichen_Itzik={
+		name="Chichen Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Chichen_Itzik
+				traits = {	polemarch 	}
+		}
+
+	}
+	YTZ_Kukulkalam_Chich={
+		name="Kukulkalam Chich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Kukulkalam_Chich
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YTZ_Pakan_Baluun={
+		name="Pakan Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Pakan_Baluun
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YTZ_Kanek_Kanilhau={
+		name="Kanek Kanilhau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Kanek_Kanilhau
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YTZ_Ekchua_Baluun={
+		name="Ekchua Baluun"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Ekchua_Baluun
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YTZ_Kukulkalam_Lamna={
+		name="Kukulkalam Lamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Kukulkalam_Lamna
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YTZ_Ekchichen_Itzik={
+		name="Ekchichen Itzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Ekchichen_Itzik
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	YTZ_Tohil_Chich={
+		name="Tohil Chich"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Tohil_Chich
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	YTZ_Moctez_Uxun={
+		name="Moctez Uxun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Moctez_Uxun
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	YTZ_Bacab_Uxun={
+		name="Bacab Uxun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Bacab_Uxun
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YTZ_Oxib_Becab={
+		name="Oxib Becab"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Oxib_Becab
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	YTZ_Chua_Uxmal={
+		name="Chua Uxmal"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Chua_Uxmal
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YTZ_Itzam_Uxmal={
+		name="Itzam Uxmal"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Itzam_Uxmal
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	YTZ_Bacatl_Chich={
+		name="Bacatl Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Bacatl_Chich
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	YTZ_Kukulkanek_Itzik={
+		name="Kukulkanek Itzik"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Kukulkanek_Itzik
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YTZ_Itzam_Baluun={
+		name="Itzam Baluun"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Itzam_Baluun
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	YTZ_Chakalam_Kanilhau={
+		name="Chakalam Kanilhau"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Chakalam_Kanilhau
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	YTZ_Acab_Tzolkin={
+		name="Acab Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Acab_Tzolkin
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	YTZ_Kukulkal_Chich={
+		name="Kukulkal Chich"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YTZ_Bacab_Itzik={
+		name="Bacab Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Bacab_Itzik
+				traits = {	infirm 	}
+		}
+
+	}
+	YTZ_Ekchil_Kanilhau={
+		name="Ekchil Kanilhau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Ekchil_Kanilhau
+				traits = {	first_lady 	}
+		}
+
+	}
+	YTZ_Bacatl_Uxun={
+		name="Bacatl Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Bacatl_Uxun
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	YTZ_Pakan_Itzik={
+		name="Pakan Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Pakan_Itzik
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	YTZ_Ekchil_Uxmal={
+		name="Ekchil Uxmal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Ekchil_Uxmal
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YTZ_Tohil_Itzik={
+		name="Tohil Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YTZ_Tohil_Itzik
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YTZ_Kukulkal_Becab={
+		name="Kukulkal Becab"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Kukulkal_Becab
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YTZ_Pakal_Kanilhau={
+		name="Pakal Kanilhau"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Pakal_Kanilhau
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YTZ_Pakal_Itzik={
+		name="Pakal Itzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Pakal_Itzik
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	YTZ_Tecun_Tzolkin={
+		name="Tecun Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = YTZ_Tecun_Tzolkin
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YTZ_Acab_Kanilhau={
+		name="Acab Kanilhau"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Acab_Kanilhau
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	YTZ_Bacatl_Lamna={
+		name="Bacatl Lamna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YTZ_Bacatl_Lamna
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YTZ_Kukulkanek_Lamna={
+		name="Kukulkanek Lamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Kukulkanek_Lamna
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YTZ_Yaxkin_Becab={
+		name="Yaxkin Becab"
+
+		advisor={
+			slot = air_chief
+			idea_token = YTZ_Yaxkin_Becab
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	YTZ_Kukulkal_Lamna={
+		name="Kukulkal Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Kukulkal_Lamna
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	YTZ_Chua_Kanilhau={
+		name="Chua Kanilhau"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Chua_Kanilhau
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	YTZ_Ekchichen_Chich={
+		name="Ekchichen Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Ekchichen_Chich
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	YTZ_Ahkin_Tzolkin={
+		name="Ahkin Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Ahkin_Tzolkin
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YTZ_Itzam_Chich={
+		name="Itzam Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Itzam_Chich
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	YTZ_Kukulkalam_Itzik={
+		name="Kukulkalam Itzik"
+
+		advisor={
+			slot = high_command
+			idea_token = YTZ_Kukulkalam_Itzik
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	YTZ_Itzam_Tzolkin={
+		name="Itzam Tzolkin"
+
+		advisor={
+			slot = theorist
+			idea_token = YTZ_Itzam_Tzolkin
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YTZ_Kanek_Lamna={
+		name="Kanek Lamna"
+
+		advisor={
+			slot = theorist
+			idea_token = YTZ_Kanek_Lamna
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YTZ_Kukulkalam_Uxmal={
+		name="Kukulkalam Uxmal"
+
+		advisor={
+			slot = theorist
+			idea_token = YTZ_Kukulkalam_Uxmal
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

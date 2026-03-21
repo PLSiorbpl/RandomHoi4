@@ -2,14 +2,14 @@
 state={
 	id=568
 	name="STATE_568"
-	manpower = 1221838
+	manpower = 602246
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 8216 9}
-		victory_points = { 8218 2}
+		victory_points = { 7473 1}
+		victory_points = { 7475 1}
 		
-		owner = SFI
+		owner = PBR
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = SFI
+		add_core_of = PBR
 	}
 
 	provinces={
-		8209 8210 8211 8212 8213 8214 8215 8216 8217 8218 8219 8220 8221 8222 8223 8224 8225 8226 8227 8228 8229 
+		7472 7473 7474 7475 7476 7477 7478 7479 
 	}
 	local_supplies=0.0 
 }

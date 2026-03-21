@@ -1,0 +1,52 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Riba Fleet"			
+		naval_base = 16853
+		task_force = {
+			name = "Riba Fleet"
+			location = 16853
+			
+						ship = { name = "Sporesecnoso" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RIB version_name = "Visinat Class" } }	}
+			ship = { name = "Sporesecnoso 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Visinat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Visinat 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Obla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Visinat 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Obla 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Vrlika" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Obla 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Visinat 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Obla 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Obla 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Visinat 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Obla 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Obla 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Sporesecnoso 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Vrlika 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Visinat 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+			ship = { name = "Vrlika 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIB version_name = "Vrlika Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

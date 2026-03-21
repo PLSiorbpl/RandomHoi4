@@ -2,41 +2,40 @@
 state={
 	id=918
 	name="STATE_918"
-	manpower = 700999
+	manpower = 84697
 	
-	state_category = pastoral
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=33
-		steel=9
+		rubber=0
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12619 1}
-		victory_points = { 12641 1}
+		victory_points = { 12368 1}
 		
-		owner = UEO
+		owner = SOR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			12629 = {
+			12368 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = UEO
+		add_core_of = SOR
 	}
 
 	provinces={
-		12609 12610 12611 12612 12613 12614 12615 12616 12617 12618 12619 12620 12621 12622 12623 12624 12625 12626 12627 12628 12629 12630 12631 12632 12633 12634 12635 12636 12637 12638 12639 12640 12641 12642 12643 12644 12645 12646 12647 12648 12649 
+		12368 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=1014
 	name="STATE_1014"
-	manpower = 693325
+	manpower = 607844
 	
 	state_category = town
 	#impassable = yes
@@ -11,16 +11,15 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13979 5}
-		victory_points = { 13980 1}
+		victory_points = { 13367 2}
 		
-		owner = EOI
+		owner = QUA
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +28,11 @@ state={
 			
 			
 		}
-		add_core_of = EOI
+		add_core_of = QUA
 	}
 
 	provinces={
-		13978 13979 13980 13981 13982 13983 13984 13985 13986 13987 13988 
+		13362 13363 13364 13365 13366 13367 13368 13369 
 	}
 	local_supplies=0.0 
 }

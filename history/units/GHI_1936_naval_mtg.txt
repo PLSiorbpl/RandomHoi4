@@ -1,0 +1,35 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Chichel Fleet"			
+		naval_base = 17854
+		task_force = {
+			name = "Chichel Fleet"
+			location = 17854
+			
+						ship = { name = "Nacolkaban" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GHI version_name = "Narach Class" } }	}
+			ship = { name = "Cobah" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHI version_name = "Nacolkaban Class" } }	}
+			ship = { name = "Uxun" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHI version_name = "Narach Class" } }	}
+			ship = { name = "Cobah 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHI version_name = "Narach Class" } }	}
+			ship = { name = "Nacolkaban 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHI version_name = "Narach Class" } }	}
+			ship = { name = "Uxun 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHI version_name = "Uxun Class" } }	}
+			ship = { name = "Cobah 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHI version_name = "Narach Class" } }	}
+			ship = { name = "Uxun 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHI version_name = "Nacolkaban Class" } }	}
+			ship = { name = "Uxun 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHI version_name = "Narach Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

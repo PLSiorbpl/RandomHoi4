@@ -1,0 +1,880 @@
+characters = {
+	RIB_Mateusan_Visinat={
+		name="Mateusan Visinat"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RIB_Simir_Visinat={
+		name="Simir Visinat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Simir_Visinat
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RIB_Goris_Graljivozduh={
+		name="Goris Graljivozduh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Goris_Graljivozduh
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	RIB_Lubosladenek_Sporesecnoso={
+		name="Lubosladenek Sporesecnoso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Lubosladenek_Sporesecnoso
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	RIB_Alexei_Oblast={
+		name="Alexei Oblast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Alexei_Oblast
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	RIB_Kazimirosh_Bogina={
+		name="Kazimirosh Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Kazimirosh_Bogina
+				traits = {	headstrong 	}
+		}
+
+	}
+	RIB_Jarkolavelim_Hleb={
+		name="Jarkolavelim Hleb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Jarkolavelim_Hleb
+				traits = {	headstrong 	}
+		}
+
+	}
+	RIB_Vlanis_Hleb={
+		name="Vlanis Hleb"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Vlanis_Hleb
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	RIB_Ilya_Hleb={
+		name="Ilya Hleb"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Ilya_Hleb
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	RIB_Brankoladova_Vrlika={
+		name="Brankoladova Vrlika"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Brankoladova_Vrlika
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	RIB_Kiroslan_Riba={
+		name="Kiroslan Riba"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Kiroslan_Riba
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	RIB_Marko_Sporesecnoso={
+		name="Marko Sporesecnoso"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Marko_Sporesecnoso
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	RIB_Dusanislavel_Oblast={
+		name="Dusanislavel Oblast"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Dusanislavel_Oblast
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	RIB_Mateusan_Obla={
+		name="Mateusan Obla"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Mateusan_Obla
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	RIB_Velimir_Visinat={
+		name="Velimir Visinat"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Velimir_Visinat
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	RIB_Radek_Graljivozduh={
+		name="Radek Graljivozduh"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Radek_Graljivozduh
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	RIB_Niko_Zven={
+		name="Niko Zven"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Niko_Zven
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	RIB_Kirilav_Vrlika={
+		name="Kirilav Vrlika"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Kirilav_Vrlika
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	RIB_Jurankoladov_Oblast={
+		name="Jurankoladov Oblast"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Jurankoladov_Oblast
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	RIB_Oleg_Obla={
+		name="Oleg Obla"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Oleg_Obla
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	RIB_Niktoran_Graljivozduh={
+		name="Niktoran Graljivozduh"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Niktoran_Graljivozduh
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	RIB_Luboslav_Hleb={
+		name="Luboslav Hleb"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RIB_Andrej_Vrlika={
+		name="Andrej Vrlika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Andrej_Vrlika
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	RIB_Ilya_Obla={
+		name="Ilya Obla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Ilya_Obla
+				traits = {	warmonger 	}
+		}
+
+	}
+	RIB_Juraj_Riba={
+		name="Juraj Riba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Juraj_Riba
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RIB_Jurankoladov_Bogina={
+		name="Jurankoladov Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Jurankoladov_Bogina
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	RIB_Radovanko_Oblast={
+		name="Radovanko Oblast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Radovanko_Oblast
+				traits = {	polemarch 	}
+		}
+
+	}
+	RIB_Mateusz_Bogina={
+		name="Mateusz Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Mateusz_Bogina
+				traits = {	polemarch 	}
+		}
+
+	}
+	RIB_Kazimirosh_Zven={
+		name="Kazimirosh Zven"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Kazimirosh_Zven
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RIB_Jurankoladov_Vrlika={
+		name="Jurankoladov Vrlika"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Jurankoladov_Vrlika
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	RIB_Petan_Zven={
+		name="Petan Zven"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Petan_Zven
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RIB_Marosla_Graljivozduh={
+		name="Marosla Graljivozduh"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Marosla_Graljivozduh
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	RIB_Vlanis_Graljivozduh={
+		name="Vlanis Graljivozduh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Vlanis_Graljivozduh
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	RIB_Radovanislav_Graljivozduh={
+		name="Radovanislav Graljivozduh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Radovanislav_Graljivozduh
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	RIB_Radek_Visinat={
+		name="Radek Visinat"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Radek_Visinat
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	RIB_Matefan_Visinat={
+		name="Matefan Visinat"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Matefan_Visinat
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	RIB_Tomir_Visinat={
+		name="Tomir Visinat"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Tomir_Visinat
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	RIB_Nikitarkolav_Obla={
+		name="Nikitarkolav Obla"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Nikitarkolav_Obla
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	RIB_Miris_Graljivozduh={
+		name="Miris Graljivozduh"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Miris_Graljivozduh
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	RIB_Dmitri_Hleb={
+		name="Dmitri Hleb"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Dmitri_Hleb
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	RIB_Vlanis_Bogina={
+		name="Vlanis Bogina"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Vlanis_Bogina
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	RIB_Niktoran_Zven={
+		name="Niktoran Zven"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Niktoran_Zven
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	RIB_Peta_Sporesecnoso={
+		name="Peta Sporesecnoso"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RIB_Rado_Sporesecnoso={
+		name="Rado Sporesecnoso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Rado_Sporesecnoso
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RIB_Simitrislave_Vrlika={
+		name="Simitrislave Vrlika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Simitrislave_Vrlika
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	RIB_Peta_Hleb={
+		name="Peta Hleb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Peta_Hleb
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	RIB_Lubomiroslad_Graljivozduh={
+		name="Lubomiroslad Graljivozduh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Lubomiroslad_Graljivozduh
+				traits = {	political_dancer 	}
+		}
+
+	}
+	RIB_Niktor_Zven={
+		name="Niktor Zven"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Niktor_Zven
+				traits = {	polemarch 	}
+		}
+
+	}
+	RIB_Sergei_Vrlika={
+		name="Sergei Vrlika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Sergei_Vrlika
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RIB_Rado_Vrlika={
+		name="Rado Vrlika"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Rado_Vrlika
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RIB_Miroslav_Visinat={
+		name="Miroslav Visinat"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Miroslav_Visinat
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	RIB_Kirilav_Obla={
+		name="Kirilav Obla"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Kirilav_Obla
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	RIB_Lubosladenek_Bogina={
+		name="Lubosladenek Bogina"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Lubosladenek_Bogina
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	RIB_Marosladosla_Vrlika={
+		name="Marosladosla Vrlika"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Marosladosla_Vrlika
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	RIB_Matej_Zven={
+		name="Matej Zven"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Matej_Zven
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	RIB_Miris_Sporesecnoso={
+		name="Miris Sporesecnoso"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Miris_Sporesecnoso
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	RIB_Radeneksei_Obla={
+		name="Radeneksei Obla"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Radeneksei_Obla
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	RIB_Vlan_Sporesecnoso={
+		name="Vlan Sporesecnoso"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Vlan_Sporesecnoso
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	RIB_Luboslav_Visinat={
+		name="Luboslav Visinat"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Luboslav_Visinat
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	RIB_Radeneksei_Hleb={
+		name="Radeneksei Hleb"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Radeneksei_Hleb
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	RIB_Vlan_Bogina={
+		name="Vlan Bogina"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Vlan_Bogina
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	RIB_Zdek_Hleb={
+		name="Zdek Hleb"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Zdek_Hleb
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	RIB_Velimitar_Bogina={
+		name="Velimitar Bogina"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Velimitar_Bogina
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	RIB_Dran_Bogina={
+		name="Dran Bogina"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RIB_Marosladosla_Hleb={
+		name="Marosladosla Hleb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Marosladosla_Hleb
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	RIB_Luboslav_Vrlika={
+		name="Luboslav Vrlika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Luboslav_Vrlika
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	RIB_Brankoladova_Sporesecnoso={
+		name="Brankoladova Sporesecnoso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Brankoladova_Sporesecnoso
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	RIB_Dmitri_Oblast={
+		name="Dmitri Oblast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Dmitri_Oblast
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	RIB_Jarkolavelim_Sporesecnoso={
+		name="Jarkolavelim Sporesecnoso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Jarkolavelim_Sporesecnoso
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	RIB_Radosladenek_Hleb={
+		name="Radosladenek Hleb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RIB_Radosladenek_Hleb
+				traits = {	the_banker 	}
+		}
+
+	}
+	RIB_Pavko_Bogina={
+		name="Pavko Bogina"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Pavko_Bogina
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	RIB_Matefan_Zven={
+		name="Matefan Zven"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Matefan_Zven
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	RIB_Kazimirosh_Visinat={
+		name="Kazimirosh Visinat"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Kazimirosh_Visinat
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RIB_Miroslav_Zven={
+		name="Miroslav Zven"
+
+		advisor={
+			slot = army_chief
+			idea_token = RIB_Miroslav_Zven
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	RIB_Slav_Riba={
+		name="Slav Riba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Slav_Riba
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	RIB_Tomas_Sporesecnoso={
+		name="Tomas Sporesecnoso"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RIB_Tomas_Sporesecnoso
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	RIB_Radovanko_Zven={
+		name="Radovanko Zven"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Radovanko_Zven
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	RIB_Vlav_Bogina={
+		name="Vlav Bogina"
+
+		advisor={
+			slot = air_chief
+			idea_token = RIB_Vlav_Bogina
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	RIB_Tomas_Hleb={
+		name="Tomas Hleb"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Tomas_Hleb
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	RIB_Staros_Obla={
+		name="Staros Obla"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Staros_Obla
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	RIB_Velimitar_Oblast={
+		name="Velimitar Oblast"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Velimitar_Oblast
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	RIB_Aleg_Vrlika={
+		name="Aleg Vrlika"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Aleg_Vrlika
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	RIB_Radosladenek_Oblast={
+		name="Radosladenek Oblast"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Radosladenek_Oblast
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	RIB_Velimir_Hleb={
+		name="Velimir Hleb"
+
+		advisor={
+			slot = high_command
+			idea_token = RIB_Velimir_Hleb
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	RIB_Lubosladenek_Oblast={
+		name="Lubosladenek Oblast"
+
+		advisor={
+			slot = theorist
+			idea_token = RIB_Lubosladenek_Oblast
+				traits = {	military_theorist 	}
+		}
+
+	}
+	RIB_Goran_Oblast={
+		name="Goran Oblast"
+
+		advisor={
+			slot = theorist
+			idea_token = RIB_Goran_Oblast
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	RIB_Matej_Sporesecnoso={
+		name="Matej Sporesecnoso"
+
+		advisor={
+			slot = theorist
+			idea_token = RIB_Matej_Sporesecnoso
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -2,41 +2,40 @@
 state={
 	id=104
 	name="STATE_104"
-	manpower = 405080
+	manpower = 702046
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=2
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=6
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 1699 1}
-		victory_points = { 1704 1}
+		victory_points = { 1546 1}
+		victory_points = { 1549 1}
+		victory_points = { 1554 1}
+		victory_points = { 1555 1}
 		
-		owner = TPE
+		owner = FUA
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			arms_factory = 0
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			1703 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = TPE
+		add_core_of = FUA
 	}
 
 	provinces={
-		1699 1700 1701 1702 1703 1704 
+		1546 1547 1548 1549 1550 1551 1552 1553 1554 1555 
 	}
 	local_supplies=0.0 
 }

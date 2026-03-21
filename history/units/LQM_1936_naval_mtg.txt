@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Lamal Fleet"			
+		naval_base = 17308
+		task_force = {
+			name = "Lamal Fleet"
+			location = 17308
+			
+						ship = { name = "Ahcabahpu" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = LQM version_name = "Ahcabahpu Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

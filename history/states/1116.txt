@@ -2,41 +2,38 @@
 state={
 	id=1116
 	name="STATE_1116"
-	manpower = 1512372
+	manpower = 945857
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=0
 		rubber=0
-		steel=0
-		tungsten=0
+		steel=2
+		tungsten=9
 		coal=0
 	}
 
 	history={
-		victory_points = { 15512 7}
-		victory_points = { 15523 7}
+		victory_points = { 14583 2}
+		victory_points = { 14595 4}
 		
-		owner = MJR
+		owner = SLU
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
-			dockyard = 1
-			15531 = {
-				naval_base = 1
-			}
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = MJR
+		add_core_of = SLU
 	}
 
 	provinces={
-		15511 15512 15513 15514 15515 15516 15517 15518 15519 15520 15521 15522 15523 15524 15525 15526 15527 15528 15529 15530 15531 15532 15533 15534 15535 15536 
+		14580 14581 14582 14583 14584 14585 14586 14587 14588 14589 14590 14591 14592 14593 14594 14595 14596 
 	}
 	local_supplies=0.0 
 }

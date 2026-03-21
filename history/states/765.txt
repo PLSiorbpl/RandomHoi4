@@ -2,37 +2,38 @@
 state={
 	id=765
 	name="STATE_765"
-	manpower = 410910
+	manpower = 802228
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=5
+		rubber=0
 		steel=0
-		tungsten=3
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10827 1}
+		victory_points = { 10274 2}
+		victory_points = { 10275 2}
 		
-		owner = ACI
+		owner = YIC
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ACI
+		add_core_of = YIC
 	}
 
 	provinces={
-		10827 10828 10829 10830 10831 10832 10833 10834 10835 10836 10837 
+		10270 10271 10272 10273 10274 10275 10276 10277 10278 10279 10280 
 	}
 	local_supplies=0.0 
 }

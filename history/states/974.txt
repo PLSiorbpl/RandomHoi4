@@ -2,9 +2,9 @@
 state={
 	id=974
 	name="STATE_974"
-	manpower = 1131542
+	manpower = 191762
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,28 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 13368 5}
-		victory_points = { 13372 2}
-		victory_points = { 13377 1}
-		victory_points = { 13386 1}
+		victory_points = { 12967 1}
 		
-		owner = EOI
+		owner = QON
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			13377 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = EOI
+		add_core_of = QON
 	}
 
 	provinces={
-		13368 13369 13370 13371 13372 13373 13374 13375 13376 13377 13378 13379 13380 13381 13382 13383 13384 13385 13386 
+		12967 12968 
 	}
 	local_supplies=0.0 
 }

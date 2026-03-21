@@ -2,9 +2,9 @@
 state={
 	id=702
 	name="STATE_702"
-	manpower = 989281
+	manpower = 683692
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,12 +17,9 @@ state={
 	}
 
 	history={
-		victory_points = { 9943 2}
-		victory_points = { 9946 1}
-		victory_points = { 9952 4}
-		victory_points = { 9957 1}
+		victory_points = { 9376 4}
 		
-		owner = EKZ
+		owner = SOR
 		buildings = {
 			infrastructure = 3
 			
@@ -31,11 +28,11 @@ state={
 			
 			
 		}
-		add_core_of = EKZ
+		add_core_of = SOR
 	}
 
 	provinces={
-		9942 9943 9944 9945 9946 9947 9948 9949 9950 9951 9952 9953 9954 9955 9956 9957 9958 
+		9376 9377 9378 9379 9380 9381 9382 9383 9384 
 	}
 	local_supplies=0.0 
 }

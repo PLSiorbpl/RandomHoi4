@@ -2,37 +2,43 @@
 state={
 	id=915
 	name="STATE_915"
-	manpower = 491719
+	manpower = 1705215
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=14
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12588 2}
+		victory_points = { 12329 2}
+		victory_points = { 12333 1}
+		victory_points = { 12335 8}
+		victory_points = { 12339 1}
 		
-		owner = XUA
+		owner = DAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
 			industrial_complex = 1
-			
+			dockyard = 1
+			12329 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = XUA
+		add_core_of = DAN
 	}
 
 	provinces={
-		12585 12586 12587 12588 12589 12590 12591 
+		12328 12329 12330 12331 12332 12333 12334 12335 12336 12337 12338 12339 12340 12341 12342 12343 12344 12345 12346 12347 12348 12349 12350 12351 12352 12353 
 	}
 	local_supplies=0.0 
 }

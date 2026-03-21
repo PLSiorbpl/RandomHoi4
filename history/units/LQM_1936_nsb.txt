@@ -1,0 +1,167 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Oxlachel' Militia Division"
+		location = 15763
+		division_template = "Militia Division"
+		start_experience_factor = 0.964051
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Narana' Militia Division"
+		location = 15824
+		division_template = "Militia Division"
+		start_experience_factor = 0.449812
+		start_equipment_factor = 0.934282
+	}
+	division= {
+		name = "2rd 'Tzol' Militia Division"
+		location = 15692
+		division_template = "Militia Division"
+		start_experience_factor = 0.710885
+		start_equipment_factor = 0.959947
+	}
+	division= {
+		name = "3th 'Tohilha' Militia Division"
+		location = 15787
+		division_template = "Militia Division"
+		start_experience_factor = 0.111342
+		start_equipment_factor = 0.976261
+	}
+	division= {
+		name = "0st 'Akbe' Infantry Division"
+		location = 15925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.865798
+		start_equipment_factor = 0.984209
+	}
+	division= {
+		name = "1nd 'Ahkin' Infantry Division"
+		location = 15844
+		division_template = "Infantry Division"
+		start_experience_factor = 0.728618
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Ahkin' Infantry Division"
+		location = 15758
+		division_template = "Infantry Division"
+		start_experience_factor = 0.101603
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Tzolkin' Infantry Division"
+		location = 15516
+		division_template = "Infantry Division"
+		start_experience_factor = 0.232468
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Chel' Cavalry Division"
+		location = 15621
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.284334
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Tzol' Cavalry Division"
+		location = 15788
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.829973
+		start_equipment_factor = 1.000000
+	}
+
+}

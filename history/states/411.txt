@@ -2,41 +2,36 @@
 state={
 	id=411
 	name="STATE_411"
-	manpower = 392338
+	manpower = 179786
 	
-	state_category = rural
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
-		steel=0
-		tungsten=0
+		rubber=4
+		steel=1
+		tungsten=3
 		coal=0
 	}
 
 	history={
-		victory_points = { 5766 1}
-		victory_points = { 5769 1}
 		
-		owner = GQT
+		owner = CJE
 		buildings = {
 			infrastructure = 2
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			5769 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = GQT
+		add_core_of = CJE
 	}
 
 	provinces={
-		5765 5766 5767 5768 5769 5770 5771 5772 
+		5393 5394 5395 
 	}
 	local_supplies=0.0 
 }

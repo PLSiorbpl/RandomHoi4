@@ -1,0 +1,880 @@
+characters = {
+	RNT_Cialcolm_Neal={
+		name="Cialcolm Neal"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RNT_Niam_Cnoc={
+		name="Niam Cnoc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Niam_Cnoc
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	RNT_Nialcolm_Talte={
+		name="Nialcolm Talte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Nialcolm_Talte
+				traits = {	headstrong 	}
+		}
+
+	}
+	RNT_Padraig_Teim={
+		name="Padraig Teim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Padraig_Teim
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RNT_Liam_Crodailt={
+		name="Liam Crodailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Liam_Crodailt
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	RNT_Ulrich_Corm={
+		name="Ulrich Corm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Ulrich_Corm
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	RNT_Quinn_Fonn={
+		name="Quinn Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Quinn_Fonn
+				traits = {	humble 	}
+		}
+
+	}
+	RNT_Gareth_Fuach={
+		name="Gareth Fuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Gareth_Fuach
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	RNT_Eoinn_Fonn={
+		name="Eoinn Fonn"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Eoinn_Fonn
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RNT_Fergus_Corm={
+		name="Fergus Corm"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Fergus_Corm
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RNT_Padran_Talte={
+		name="Padran Talte"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Padran_Talte
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	RNT_Keiran_Beachas={
+		name="Keiran Beachas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Keiran_Beachas
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	RNT_Malcolm_Crodailt={
+		name="Malcolm Crodailt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Malcolm_Crodailt
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	RNT_Liaran_Tuatha={
+		name="Liaran Tuatha"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Liaran_Tuatha
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	RNT_Ciaran_Neal={
+		name="Ciaran Neal"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Ciaran_Neal
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	RNT_Ciaran_Fonn={
+		name="Ciaran Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Ciaran_Fonn
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	RNT_Gareth_Cnoc={
+		name="Gareth Cnoc"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Gareth_Cnoc
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	RNT_Liaran_Fonn={
+		name="Liaran Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Liaran_Fonn
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	RNT_Niaran_Talte={
+		name="Niaran Talte"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Niaran_Talte
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	RNT_Taran_Beachas={
+		name="Taran Beachas"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Taran_Beachas
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	RNT_Taran_Tuatha={
+		name="Taran Tuatha"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Taran_Tuatha
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	RNT_Taraig_Teim={
+		name="Taraig Teim"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RNT_Quin_Talte={
+		name="Quin Talte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Quin_Talte
+				traits = {	infirm 	}
+		}
+
+	}
+	RNT_Nialcolm_Tuatha={
+		name="Nialcolm Tuatha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Nialcolm_Tuatha
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	RNT_Ciaran_Corm={
+		name="Ciaran Corm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Ciaran_Corm
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	RNT_Liall_Teim={
+		name="Liall Teim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Liall_Teim
+				traits = {	polemarch 	}
+		}
+
+	}
+	RNT_Niaran_Corm={
+		name="Niaran Corm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Niaran_Corm
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RNT_Cialcolm_Fonn={
+		name="Cialcolm Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Cialcolm_Fonn
+				traits = {	polemarch 	}
+		}
+
+	}
+	RNT_Ciaran_Cnoc={
+		name="Ciaran Cnoc"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Ciaran_Cnoc
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	RNT_Eoin_Tuatha={
+		name="Eoin Tuatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Eoin_Tuatha
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RNT_Niam_Corm={
+		name="Niam Corm"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Niam_Corm
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	RNT_Mall_Corm={
+		name="Mall Corm"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Mall_Corm
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	RNT_Ciamus_Fonn={
+		name="Ciamus Fonn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Ciamus_Fonn
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	RNT_Mall_Teim={
+		name="Mall Teim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Mall_Teim
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	RNT_Hugh_Corm={
+		name="Hugh Corm"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Hugh_Corm
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	RNT_Gareth_Crodailt={
+		name="Gareth Crodailt"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Gareth_Crodailt
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	RNT_Padran_Fonn={
+		name="Padran Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Padran_Fonn
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	RNT_Liaran_Corm={
+		name="Liaran Corm"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Liaran_Corm
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	RNT_Quinn_Crodailt={
+		name="Quinn Crodailt"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Quinn_Crodailt
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	RNT_Declan_Corm={
+		name="Declan Corm"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Declan_Corm
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	RNT_Seam_Teim={
+		name="Seam Teim"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Seam_Teim
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	RNT_Keiran_Teim={
+		name="Keiran Teim"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Keiran_Teim
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	RNT_Hugh_Fuach={
+		name="Hugh Fuach"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RNT_Malcolm_Teim={
+		name="Malcolm Teim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Malcolm_Teim
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RNT_Liall_Corm={
+		name="Liall Corm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Liall_Corm
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RNT_Rhys_Crodailt={
+		name="Rhys Crodailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Rhys_Crodailt
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	RNT_Keiraig_Beachas={
+		name="Keiraig Beachas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Keiraig_Beachas
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	RNT_Iwan_Fonn={
+		name="Iwan Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Iwan_Fonn
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RNT_Keiran_Talte={
+		name="Keiran Talte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Keiran_Talte
+				traits = {	polemarch 	}
+		}
+
+	}
+	RNT_Padran_Fuach={
+		name="Padran Fuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Padran_Fuach
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	RNT_Ulrich_Beachas={
+		name="Ulrich Beachas"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Ulrich_Beachas
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	RNT_Ciaran_Talte={
+		name="Ciaran Talte"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Ciaran_Talte
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	RNT_Owen_Crodailt={
+		name="Owen Crodailt"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Owen_Crodailt
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	RNT_Mall_Cnoc={
+		name="Mall Cnoc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Mall_Cnoc
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	RNT_Quin_Fuach={
+		name="Quin Fuach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Quin_Fuach
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	RNT_Niall_Fonn={
+		name="Niall Fonn"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Niall_Fonn
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	RNT_Owen_Corm={
+		name="Owen Corm"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Owen_Corm
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	RNT_Ulrich_Fonn={
+		name="Ulrich Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Ulrich_Fonn
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	RNT_Niall_Corm={
+		name="Niall Corm"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Niall_Corm
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	RNT_Liam_Corm={
+		name="Liam Corm"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Liam_Corm
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	RNT_Mall_Fuach={
+		name="Mall Fuach"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Mall_Fuach
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	RNT_Keiraig_Fonn={
+		name="Keiraig Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Keiraig_Fonn
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	RNT_Garan_Cnoc={
+		name="Garan Cnoc"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Garan_Cnoc
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	RNT_Niaran_Cnoc={
+		name="Niaran Cnoc"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RNT_Eoin_Fonn={
+		name="Eoin Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Eoin_Fonn
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	RNT_Niam_Beachas={
+		name="Niam Beachas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Niam_Beachas
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	RNT_Declan_Fonn={
+		name="Declan Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Declan_Fonn
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	RNT_Seam_Beachas={
+		name="Seam Beachas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Seam_Beachas
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	RNT_Bran_Corm={
+		name="Bran Corm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Bran_Corm
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	RNT_Niall_Teim={
+		name="Niall Teim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RNT_Niall_Teim
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	RNT_Keiraig_Teim={
+		name="Keiraig Teim"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Keiraig_Teim
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	RNT_Tareth_Teim={
+		name="Tareth Teim"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Tareth_Teim
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	RNT_Padraig_Fonn={
+		name="Padraig Fonn"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Padraig_Fonn
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RNT_Cialcolm_Tuatha={
+		name="Cialcolm Tuatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = RNT_Cialcolm_Tuatha
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	RNT_Taran_Crodailt={
+		name="Taran Crodailt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Taran_Crodailt
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	RNT_Iwan_Talte={
+		name="Iwan Talte"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RNT_Iwan_Talte
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	RNT_Aidan_Crodailt={
+		name="Aidan Crodailt"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Aidan_Crodailt
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	RNT_Rhys_Beachas={
+		name="Rhys Beachas"
+
+		advisor={
+			slot = air_chief
+			idea_token = RNT_Rhys_Beachas
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	RNT_Ciaran_Teim={
+		name="Ciaran Teim"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Ciaran_Teim
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	RNT_Liareth_Corm={
+		name="Liareth Corm"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Liareth_Corm
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	RNT_Hugh_Talte={
+		name="Hugh Talte"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Hugh_Talte
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	RNT_Rhys_Neal={
+		name="Rhys Neal"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Rhys_Neal
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	RNT_Garan_Fonn={
+		name="Garan Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Garan_Fonn
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	RNT_Seamus_Neal={
+		name="Seamus Neal"
+
+		advisor={
+			slot = high_command
+			idea_token = RNT_Seamus_Neal
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	RNT_Quinn_Beachas={
+		name="Quinn Beachas"
+
+		advisor={
+			slot = theorist
+			idea_token = RNT_Quinn_Beachas
+				traits = {	military_theorist 	}
+		}
+
+	}
+	RNT_Keiraig_Tuatha={
+		name="Keiraig Tuatha"
+
+		advisor={
+			slot = theorist
+			idea_token = RNT_Keiraig_Tuatha
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	RNT_Liareth_Crodailt={
+		name="Liareth Crodailt"
+
+		advisor={
+			slot = theorist
+			idea_token = RNT_Liareth_Crodailt
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,880 @@
+characters = {
+	PON_Severiscus_Anitus={
+		name="Severiscus Anitus"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PON_Brus_Cors={
+		name="Brus Cors"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Brus_Cors
+				traits = {	headstrong 	}
+		}
+
+	}
+	PON_Gaianlius_Anitus={
+		name="Gaianlius Anitus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Gaianlius_Anitus
+				traits = {	headstrong 	}
+		}
+
+	}
+	PON_Gracchus_Nomena={
+		name="Gracchus Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Gracchus_Nomena
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PON_Manus_Domus={
+		name="Manus Domus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Manus_Domus
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PON_Drus_Sonis={
+		name="Drus Sonis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Drus_Sonis
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PON_Manus_Altium={
+		name="Manus Altium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Manus_Altium
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PON_Domintus_Domus={
+		name="Domintus Domus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Domintus_Domus
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PON_Varcelliusus_Domus={
+		name="Varcelliusus Domus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Varcelliusus_Domus
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PON_Gaianus_Camma={
+		name="Gaianus Camma"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Gaianus_Camma
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	PON_Aulus_Anitus={
+		name="Aulus Anitus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Aulus_Anitus
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	PON_Serus_Nomena={
+		name="Serus Nomena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Serus_Nomena
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PON_Domintus_Nomena={
+		name="Domintus Nomena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Domintus_Nomena
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	PON_Spuriscus_Sonis={
+		name="Spuriscus Sonis"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Spuriscus_Sonis
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	PON_Augulusus_Virtia={
+		name="Augulusus Virtia"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Augulusus_Virtia
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	PON_Drus_Cors={
+		name="Drus Cors"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Drus_Cors
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PON_Tracchus_Virtia={
+		name="Tracchus Virtia"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Tracchus_Virtia
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	PON_Quintonius_Sonis={
+		name="Quintonius Sonis"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Quintonius_Sonis
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	PON_Priscus_Anitus={
+		name="Priscus Anitus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Priscus_Anitus
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	PON_Remitelius_Altium={
+		name="Remitelius Altium"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Remitelius_Altium
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	PON_Servius_Domus={
+		name="Servius Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Servius_Domus
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PON_Marcellius_Ponsum={
+		name="Marcellius Ponsum"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PON_Severvius_Ponsum={
+		name="Severvius Ponsum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Severvius_Ponsum
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PON_Varro_Nomena={
+		name="Varro Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Varro_Nomena
+				traits = {	infirm 	}
+		}
+
+	}
+	PON_Spurius_Virtia={
+		name="Spurius Virtia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Spurius_Virtia
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	PON_Domintus_Altium={
+		name="Domintus Altium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Domintus_Altium
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	PON_Noniustus_Altium={
+		name="Noniustus Altium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Noniustus_Altium
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	PON_Nerus_Vilor={
+		name="Nerus Vilor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Nerus_Vilor
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	PON_Lonius_Vilor={
+		name="Lonius Vilor"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Lonius_Vilor
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PON_Serus_Virtia={
+		name="Serus Virtia"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Serus_Virtia
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PON_Domintus_Ponsum={
+		name="Domintus Ponsum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Domintus_Ponsum
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	PON_Remintonius_Cors={
+		name="Remintonius Cors"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Remintonius_Cors
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PON_Nerus_Virtia={
+		name="Nerus Virtia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Nerus_Virtia
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PON_Sextus_Domus={
+		name="Sextus Domus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Sextus_Domus
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	PON_Varcus_Camma={
+		name="Varcus Camma"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Varcus_Camma
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	PON_Lucius_Domus={
+		name="Lucius Domus"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Lucius_Domus
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	PON_Titellius_Vilor={
+		name="Titellius Vilor"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Titellius_Vilor
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	PON_Hornellusus_Virtia={
+		name="Hornellusus Virtia"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Hornellusus_Virtia
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PON_Augulus_Virtia={
+		name="Augulus Virtia"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Augulus_Virtia
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	PON_Graius_Cors={
+		name="Graius Cors"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Graius_Cors
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	PON_Nonginus_Domus={
+		name="Nonginus Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Nonginus_Domus
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	PON_Julus_Camma={
+		name="Julus Camma"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Julus_Camma
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	PON_Aulus_Ponsum={
+		name="Aulus Ponsum"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PON_Dominus_Domus={
+		name="Dominus Domus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Dominus_Domus
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PON_Nerus_Sonis={
+		name="Nerus Sonis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Nerus_Sonis
+				traits = {	polemarch 	}
+		}
+
+	}
+	PON_Marcellius_Anitus={
+		name="Marcellius Anitus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Marcellius_Anitus
+				traits = {	political_dancer 	}
+		}
+
+	}
+	PON_Gaiustus_Nomena={
+		name="Gaiustus Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Gaiustus_Nomena
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PON_Manus_Anitus={
+		name="Manus Anitus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Manus_Anitus
+				traits = {	political_dancer 	}
+		}
+
+	}
+	PON_Publius_Ponsum={
+		name="Publius Ponsum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Publius_Ponsum
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PON_Tracchus_Cors={
+		name="Tracchus Cors"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Tracchus_Cors
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	PON_Serus_Domus={
+		name="Serus Domus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Serus_Domus
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	PON_Tracchus_Nomena={
+		name="Tracchus Nomena"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Tracchus_Nomena
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PON_Hornellus_Anitus={
+		name="Hornellus Anitus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Hornellus_Anitus
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PON_Tracchus_Sonis={
+		name="Tracchus Sonis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Tracchus_Sonis
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	PON_Gemus_Vilor={
+		name="Gemus Vilor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Gemus_Vilor
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PON_Paus_Domus={
+		name="Paus Domus"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Paus_Domus
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	PON_Serus_Sonis={
+		name="Serus Sonis"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Serus_Sonis
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	PON_Varcelliusus_Anitus={
+		name="Varcelliusus Anitus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Varcelliusus_Anitus
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	PON_Marcellius_Virtia={
+		name="Marcellius Virtia"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Marcellius_Virtia
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PON_Varcelliusus_Sonis={
+		name="Varcelliusus Sonis"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Varcelliusus_Sonis
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	PON_Hornellus_Camma={
+		name="Hornellus Camma"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Hornellus_Camma
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PON_Caius_Altium={
+		name="Caius Altium"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Caius_Altium
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	PON_Nonginus_Anitus={
+		name="Nonginus Anitus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Nonginus_Anitus
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	PON_Varcellianli_Vilor={
+		name="Varcellianli Vilor"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PON_Spurius_Altium={
+		name="Spurius Altium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Spurius_Altium
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PON_Titellius_Altium={
+		name="Titellius Altium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Titellius_Altium
+				traits = {	infirm 	}
+		}
+
+	}
+	PON_Aulus_Camma={
+		name="Aulus Camma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Aulus_Camma
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PON_Drus_Altium={
+		name="Drus Altium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Drus_Altium
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PON_Attius_Anitus={
+		name="Attius Anitus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Attius_Anitus
+				traits = {	infirm 	}
+		}
+
+	}
+	PON_Spurius_Sonis={
+		name="Spurius Sonis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PON_Spurius_Sonis
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	PON_Marcellius_Altium={
+		name="Marcellius Altium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Marcellius_Altium
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PON_Remus_Altium={
+		name="Remus Altium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Remus_Altium
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	PON_Manus_Ponsum={
+		name="Manus Ponsum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Manus_Ponsum
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PON_Varcelliusus_Camma={
+		name="Varcelliusus Camma"
+
+		advisor={
+			slot = army_chief
+			idea_token = PON_Varcelliusus_Camma
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PON_Urbanus_Virtia={
+		name="Urbanus Virtia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Urbanus_Virtia
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	PON_Gemus_Anitus={
+		name="Gemus Anitus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PON_Gemus_Anitus
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PON_Dominus_Altium={
+		name="Dominus Altium"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Dominus_Altium
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	PON_Spuriscus_Anitus={
+		name="Spuriscus Anitus"
+
+		advisor={
+			slot = air_chief
+			idea_token = PON_Spuriscus_Anitus
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	PON_Gracchus_Domus={
+		name="Gracchus Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Gracchus_Domus
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PON_Faus_Domus={
+		name="Faus Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Faus_Domus
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	PON_Sextus_Vilor={
+		name="Sextus Vilor"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Sextus_Vilor
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	PON_Tibero_Anitus={
+		name="Tibero Anitus"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Tibero_Anitus
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	PON_Hornellus_Vilor={
+		name="Hornellus Vilor"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Hornellus_Vilor
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	PON_Spurius_Ponsum={
+		name="Spurius Ponsum"
+
+		advisor={
+			slot = high_command
+			idea_token = PON_Spurius_Ponsum
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	PON_Graius_Ponsum={
+		name="Graius Ponsum"
+
+		advisor={
+			slot = theorist
+			idea_token = PON_Graius_Ponsum
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PON_Severiscus_Domus={
+		name="Severiscus Domus"
+
+		advisor={
+			slot = theorist
+			idea_token = PON_Severiscus_Domus
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PON_Varcus_Altium={
+		name="Varcus Altium"
+
+		advisor={
+			slot = theorist
+			idea_token = PON_Varcus_Altium
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

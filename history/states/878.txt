@@ -2,40 +2,41 @@
 state={
 	id=878
 	name="STATE_878"
-	manpower = 334862
+	manpower = 2008750
 	
-	state_category = rural
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=1
+		chromium=3
+		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
-		coal=17
+		coal=0
 	}
 
 	history={
-		victory_points = { 12239 1}
+		victory_points = { 11756 3}
+		victory_points = { 11758 3}
+		victory_points = { 11764 2}
+		victory_points = { 11778 3}
+		victory_points = { 11779 3}
 		
-		owner = TQI
+		owner = CPM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 1
 			
-			12237 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = TQI
+		add_core_of = CPM
 	}
 
 	provinces={
-		12237 12238 12239 12240 
+		11753 11754 11755 11756 11757 11758 11759 11760 11761 11762 11763 11764 11765 11766 11767 11768 11769 11770 11771 11772 11773 11774 11775 11776 11777 11778 11779 11780 11781 11782 11783 11784 11785 11786 
 	}
 	local_supplies=0.0 
 }

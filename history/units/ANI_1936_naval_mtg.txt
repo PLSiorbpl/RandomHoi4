@@ -1,0 +1,55 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Anivis Fleet"			
+		naval_base = 17692
+		task_force = {
+			name = "Anivis Fleet"
+			location = 17692
+			
+						ship = { name = "Regotiumentu" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANI version_name = "Regotiumentu Class" } }	}
+			ship = { name = "Levistrudes" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANI version_name = "Bella Class" } }	}
+			ship = { name = "Levistrudes 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Theator" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Legotium" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Bella" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Gala" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ANI version_name = "Levistrudes Class" } }	}
+			ship = { name = "Regotiumentu 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Legotium 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ANI version_name = "Levistrudes Class" } }	}
+			ship = { name = "Bella 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ANI version_name = "Levistrudes Class" } }	}
+			ship = { name = "Legotium 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Legotium 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Gala 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Gala 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ANI version_name = "Levistrudes Class" } }	}
+			ship = { name = "Regotiumentu 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Theator 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Levistrudes 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Regotiumentu 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Bella 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Bella 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Theator 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Levistrudes 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Bella 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Theator 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Bella 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Levistrudes 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Legotium 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+			ship = { name = "Legotium 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANI version_name = "Gala Class" } }	}
+			ship = { name = "Regotiumentu 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANI version_name = "Theator Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,880 @@
+characters = {
+	PIN_Suryang_Bukut={
+		name="Suryang Bukut"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PIN_Bambang_Pintan={
+		name="Bambang Pintan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Bambang_Pintan
+				traits = {	headstrong 	}
+		}
+
+	}
+	PIN_Wayang_Senjaan={
+		name="Wayang Senjaan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Wayang_Senjaan
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	PIN_Rambang_Senjaan={
+		name="Rambang Senjaan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Rambang_Senjaan
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PIN_Waya_Pintan={
+		name="Waya Pintan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Waya_Pintan
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PIN_Bama_Pintan={
+		name="Bama Pintan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Bama_Pintan
+				traits = {	humble 	}
+		}
+
+	}
+	PIN_Bamban_Nafsu={
+		name="Bamban Nafsu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Bamban_Nafsu
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	PIN_Putfi_Sendung={
+		name="Putfi Sendung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Putfi_Sendung
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	PIN_Agus_Nafsu={
+		name="Agus Nafsu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Agus_Nafsu
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	PIN_Lutra_Sendung={
+		name="Lutra Sendung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Lutra_Sendung
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	PIN_Ketutra_Bukut={
+		name="Ketutra Bukut"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Ketutra_Bukut
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PIN_Waya_Bukut={
+		name="Waya Bukut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Waya_Bukut
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	PIN_Lutra_Petir={
+		name="Lutra Petir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Lutra_Petir
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PIN_Joko_Bukut={
+		name="Joko Bukut"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Joko_Bukut
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PIN_Budi_Kulauncaka={
+		name="Budi Kulauncaka"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Budi_Kulauncaka
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PIN_Dewa_Kulauncaka={
+		name="Dewa Kulauncaka"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Dewa_Kulauncaka
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	PIN_Arjuna_Petir={
+		name="Arjuna Petir"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Arjuna_Petir
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	PIN_Bama_Sendung={
+		name="Bama Sendung"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Bama_Sendung
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PIN_Bama_Senjaan={
+		name="Bama Senjaan"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Bama_Senjaan
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	PIN_Budi_Ibukak={
+		name="Budi Ibukak"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Budi_Ibukak
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	PIN_Arjuna_Kulauncaka={
+		name="Arjuna Kulauncaka"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Arjuna_Kulauncaka
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	PIN_Ketutra_Kulauncaka={
+		name="Ketutra Kulauncaka"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PIN_Dewa_Senjaan={
+		name="Dewa Senjaan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Dewa_Senjaan
+				traits = {	polemarch 	}
+		}
+
+	}
+	PIN_Mario_Bukut={
+		name="Mario Bukut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Mario_Bukut
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	PIN_Fajario_Kulauncaka={
+		name="Fajario Kulauncaka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Fajario_Kulauncaka
+				traits = {	infirm 	}
+		}
+
+	}
+	PIN_Lutra_Menjaan={
+		name="Lutra Menjaan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Lutra_Menjaan
+				traits = {	autokrator 	}
+		}
+
+	}
+	PIN_Rama_Pintan={
+		name="Rama Pintan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Rama_Pintan
+				traits = {	basileus 	}
+		}
+
+	}
+	PIN_Fajar_Petir={
+		name="Fajar Petir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Fajar_Petir
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	PIN_Mario_Kulauncaka={
+		name="Mario Kulauncaka"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Mario_Kulauncaka
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PIN_Sakti_Sendung={
+		name="Sakti Sendung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Sakti_Sendung
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PIN_Putfi_Pintan={
+		name="Putfi Pintan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Putfi_Pintan
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	PIN_Ramban_Nafsu={
+		name="Ramban Nafsu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Ramban_Nafsu
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	PIN_Surya_Nafsu={
+		name="Surya Nafsu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Surya_Nafsu
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	PIN_Joko_Kulauncaka={
+		name="Joko Kulauncaka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Joko_Kulauncaka
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PIN_Fajario_Pintan={
+		name="Fajario Pintan"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Fajario_Pintan
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	PIN_Waya_Nafsu={
+		name="Waya Nafsu"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Waya_Nafsu
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	PIN_Ketutra_Petir={
+		name="Ketutra Petir"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Ketutra_Petir
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	PIN_Andi_Ibukak={
+		name="Andi Ibukak"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Andi_Ibukak
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	PIN_Rambang_Petir={
+		name="Rambang Petir"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Rambang_Petir
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	PIN_Agus_Pintan={
+		name="Agus Pintan"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Agus_Pintan
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PIN_Rama_Bukut={
+		name="Rama Bukut"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Rama_Bukut
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	PIN_Joko_Petir={
+		name="Joko Petir"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Joko_Petir
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	PIN_Bama_Nafsu={
+		name="Bama Nafsu"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PIN_Surya_Pintan={
+		name="Surya Pintan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Surya_Pintan
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PIN_Rama_Senjaan={
+		name="Rama Senjaan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Rama_Senjaan
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PIN_Surya_Menjaan={
+		name="Surya Menjaan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Surya_Menjaan
+				traits = {	infirm 	}
+		}
+
+	}
+	PIN_Hario_Bukut={
+		name="Hario Bukut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Hario_Bukut
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PIN_Suryang_Petir={
+		name="Suryang Petir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Suryang_Petir
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PIN_Andi_Sendung={
+		name="Andi Sendung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Andi_Sendung
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PIN_Suryang_Senjaan={
+		name="Suryang Senjaan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Suryang_Senjaan
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PIN_Rizal_Bukut={
+		name="Rizal Bukut"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Rizal_Bukut
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PIN_Surya_Sendung={
+		name="Surya Sendung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Surya_Sendung
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PIN_Budi_Menjaan={
+		name="Budi Menjaan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Budi_Menjaan
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	PIN_Hario_Petir={
+		name="Hario Petir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Hario_Petir
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	PIN_Rama_Petir={
+		name="Rama Petir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Rama_Petir
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PIN_Rama_Menjaan={
+		name="Rama Menjaan"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Rama_Menjaan
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PIN_Bamban_Kulauncaka={
+		name="Bamban Kulauncaka"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Bamban_Kulauncaka
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	PIN_Wayang_Bukut={
+		name="Wayang Bukut"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Wayang_Bukut
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	PIN_Rambang_Sendung={
+		name="Rambang Sendung"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Rambang_Sendung
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	PIN_Lutra_Pintan={
+		name="Lutra Pintan"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Lutra_Pintan
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	PIN_Andi_Bukut={
+		name="Andi Bukut"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Andi_Bukut
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PIN_Mario_Sendung={
+		name="Mario Sendung"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Mario_Sendung
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	PIN_Rama_Sendung={
+		name="Rama Sendung"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Rama_Sendung
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	PIN_Wayan_Ibukak={
+		name="Wayan Ibukak"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PIN_Dewa_Pintan={
+		name="Dewa Pintan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Dewa_Pintan
+				traits = {	the_banker 	}
+		}
+
+	}
+	PIN_Lutra_Senjaan={
+		name="Lutra Senjaan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Lutra_Senjaan
+				traits = {	rearmer 	}
+		}
+
+	}
+	PIN_Hari_Ibukak={
+		name="Hari Ibukak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Hari_Ibukak
+				traits = {	rearmer 	}
+		}
+
+	}
+	PIN_Fajario_Sendung={
+		name="Fajario Sendung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Fajario_Sendung
+				traits = {	rearmer 	}
+		}
+
+	}
+	PIN_Hari_Sendung={
+		name="Hari Sendung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Hari_Sendung
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PIN_Waya_Kulauncaka={
+		name="Waya Kulauncaka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PIN_Waya_Kulauncaka
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PIN_Joko_Menjaan={
+		name="Joko Menjaan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Joko_Menjaan
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PIN_Arjuna_Bukut={
+		name="Arjuna Bukut"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Arjuna_Bukut
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PIN_Hari_Menjaan={
+		name="Hari Menjaan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Hari_Menjaan
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PIN_Ketutra_Menjaan={
+		name="Ketutra Menjaan"
+
+		advisor={
+			slot = army_chief
+			idea_token = PIN_Ketutra_Menjaan
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PIN_Fajario_Senjaan={
+		name="Fajario Senjaan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Fajario_Senjaan
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	PIN_Ketutra_Sendung={
+		name="Ketutra Sendung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PIN_Ketutra_Sendung
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	PIN_Wayan_Sendung={
+		name="Wayan Sendung"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Wayan_Sendung
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	PIN_Andi_Nafsu={
+		name="Andi Nafsu"
+
+		advisor={
+			slot = air_chief
+			idea_token = PIN_Andi_Nafsu
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	PIN_Mario_Petir={
+		name="Mario Petir"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Mario_Petir
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	PIN_Wayang_Menjaan={
+		name="Wayang Menjaan"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Wayang_Menjaan
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	PIN_Sakti_Nafsu={
+		name="Sakti Nafsu"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Sakti_Nafsu
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	PIN_Sakti_Ibukak={
+		name="Sakti Ibukak"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Sakti_Ibukak
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	PIN_Dewa_Menjaan={
+		name="Dewa Menjaan"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Dewa_Menjaan
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	PIN_Putfi_Petir={
+		name="Putfi Petir"
+
+		advisor={
+			slot = high_command
+			idea_token = PIN_Putfi_Petir
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	PIN_Suryang_Sendung={
+		name="Suryang Sendung"
+
+		advisor={
+			slot = theorist
+			idea_token = PIN_Suryang_Sendung
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PIN_Wayang_Ibukak={
+		name="Wayang Ibukak"
+
+		advisor={
+			slot = theorist
+			idea_token = PIN_Wayang_Ibukak
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PIN_Bambang_Bukut={
+		name="Bambang Bukut"
+
+		advisor={
+			slot = theorist
+			idea_token = PIN_Bambang_Bukut
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Rath Fleet"			
+		naval_base = 4704
+		task_force = {
+			name = "Rath Fleet"
+			location = 4704
+			
+						ship = { name = "Teim" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = RNT version_name = "Corm Class" } }	}
+			ship = { name = "Beachas" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RNT version_name = "Corm Class" } }	}
+			ship = { name = "Neal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RNT version_name = "Beachas Class" } }	}
+			ship = { name = "Teim 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = RNT version_name = "Tuatha Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

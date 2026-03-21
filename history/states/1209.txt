@@ -2,9 +2,9 @@
 state={
 	id=1209
 	name="STATE_1209"
-	manpower = 994179
+	manpower = 532079
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,27 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 16789 3}
-		victory_points = { 16794 3}
-		victory_points = { 16798 3}
+		victory_points = { 15909 3}
 		
-		owner = JAX
+		owner = QTU
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
-			16792 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = JAX
+		add_core_of = QTU
 	}
 
 	provinces={
-		16785 16786 16787 16788 16789 16790 16791 16792 16793 16794 16795 16796 16797 16798 16799 16800 16801 
+		15905 15906 15907 15908 15909 15910 15911 
 	}
 	local_supplies=0.0 
 }

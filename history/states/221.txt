@@ -2,7 +2,7 @@
 state={
 	id=221
 	name="STATE_221"
-	manpower = 453650
+	manpower = 368212
 	
 	state_category = rural
 	#impassable = yes
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 3370 3}
+		victory_points = { 3022 1}
 		
-		owner = EOP
+		owner = HBA
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = EOP
+		add_core_of = HBA
 	}
 
 	provinces={
-		3364 3365 3366 3367 3368 3369 3370 
+		3021 3022 3023 3024 
 	}
 	local_supplies=0.0 
 }

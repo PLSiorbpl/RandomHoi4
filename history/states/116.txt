@@ -2,9 +2,9 @@
 state={
 	id=116
 	name="STATE_116"
-	manpower = 373768
+	manpower = 1465846
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 1839 2}
+		victory_points = { 1671 2}
+		victory_points = { 1688 9}
 		
-		owner = FQR
+		owner = GDA
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 1
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 1
+			1669 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = FQR
+		add_core_of = GDA
 	}
 
 	provinces={
-		1835 1836 1837 1838 1839 1840 
+		1669 1670 1671 1672 1673 1674 1675 1676 1677 1678 1679 1680 1681 1682 1683 1684 1685 1686 1687 1688 1689 1690 
 	}
 	local_supplies=0.0 
 }

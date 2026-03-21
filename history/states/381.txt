@@ -2,13 +2,13 @@
 state={
 	id=381
 	name="STATE_381"
-	manpower = 1175979
+	manpower = 1237759
 	
 	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=1
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 5416 2}
-		victory_points = { 5421 4}
-		victory_points = { 5429 4}
+		victory_points = { 5036 6}
+		victory_points = { 5038 1}
+		victory_points = { 5044 1}
 		
-		owner = VUD
+		owner = GDA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = VUD
+		add_core_of = GDA
 	}
 
 	provinces={
-		5409 5410 5411 5412 5413 5414 5415 5416 5417 5418 5419 5420 5421 5422 5423 5424 5425 5426 5427 5428 5429 
+		5029 5030 5031 5032 5033 5034 5035 5036 5037 5038 5039 5040 5041 5042 5043 5044 5045 5046 
 	}
 	local_supplies=0.0 
 }

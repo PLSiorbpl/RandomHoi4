@@ -2,41 +2,39 @@
 state={
 	id=540
 	name="STATE_540"
-	manpower = 2368414
+	manpower = 1305655
 	
-	state_category = megalopolis
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
-		tungsten=0
-		coal=3
+		steel=2
+		tungsten=6
+		coal=0
 	}
 
 	history={
-		victory_points = { 7796 12}
-		victory_points = { 7806 12}
+		victory_points = { 7076 1}
+		victory_points = { 7077 7}
+		victory_points = { 7083 1}
 		
-		owner = JMI
+		owner = SOR
 		buildings = {
 			infrastructure = 4
-			air_base = 1
+			
 			arms_factory = 0
-			industrial_complex = 3
-			dockyard = 1
-			7812 = {
-				naval_base = 1
-			}
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = JMI
+		add_core_of = SOR
 	}
 
 	provinces={
-		7790 7791 7792 7793 7794 7795 7796 7797 7798 7799 7800 7801 7802 7803 7804 7805 7806 7807 7808 7809 7810 7811 7812 7813 7814 7815 7816 7817 7818 7819 7820 7821 7822 7823 7824 7825 7826 7827 7828 7829 7830 
+		7069 7070 7071 7072 7073 7074 7075 7076 7077 7078 7079 7080 7081 7082 7083 7084 7085 7086 7087 
 	}
 	local_supplies=0.0 
 }

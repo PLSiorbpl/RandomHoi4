@@ -1,0 +1,880 @@
+characters = {
+	VHA_Faisan_Turuq={
+		name="Faisan Turuq"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VHA_Omarid_Noum={
+		name="Omarid Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Omarid_Noum
+				traits = {	headstrong 	}
+		}
+
+	}
+	VHA_Zaisal_Namt={
+		name="Zaisal Namt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Zaisal_Namt
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	VHA_Majid_Yemen={
+		name="Majid Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Majid_Yemen
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	VHA_Fariq_Zahr={
+		name="Fariq Zahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Fariq_Zahr
+				traits = {	humble 	}
+		}
+
+	}
+	VHA_Imrahmarim_Matinamustab={
+		name="Imrahmarim Matinamustab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Imrahmarim_Matinamustab
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	VHA_Alid_Yemen={
+		name="Alid Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Alid_Yemen
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	VHA_Omarim_Turuq={
+		name="Omarim Turuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Omarim_Turuq
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	VHA_Saad_Shar={
+		name="Saad Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Saad_Shar
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	VHA_Khal_Matinamustab={
+		name="Khal Matinamustab"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Khal_Matinamustab
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	VHA_Nabilal_Shaykh={
+		name="Nabilal Shaykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Nabilal_Shaykh
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VHA_Omarim_Namt={
+		name="Omarim Namt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Omarim_Namt
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	VHA_Samarim_Turuq={
+		name="Samarim Turuq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Samarim_Turuq
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	VHA_Rammed_Shar={
+		name="Rammed Shar"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Rammed_Shar
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	VHA_Samal_Noum={
+		name="Samal Noum"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Samal_Noum
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	VHA_Yahmoud_Noum={
+		name="Yahmoud Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Yahmoud_Noum
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	VHA_Karid_Hijar={
+		name="Karid Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Karid_Hijar
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	VHA_Karid_Kutub={
+		name="Karid Kutub"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Karid_Kutub
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	VHA_Imrahya_Shaykh={
+		name="Imrahya Shaykh"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Imrahya_Shaykh
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	VHA_Yusuf_Matinamustab={
+		name="Yusuf Matinamustab"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Yusuf_Matinamustab
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	VHA_Ahmoud_Hijar={
+		name="Ahmoud Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Ahmoud_Hijar
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	VHA_Anwar_Noum={
+		name="Anwar Noum"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VHA_Fariq_Namt={
+		name="Fariq Namt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Fariq_Namt
+				traits = {	polemarch 	}
+		}
+
+	}
+	VHA_Omal_Hijar={
+		name="Omal Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Omal_Hijar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	VHA_Tarid_Matinamustab={
+		name="Tarid Matinamustab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Tarid_Matinamustab
+				traits = {	autokrator 	}
+		}
+
+	}
+	VHA_Majid_Matinamustab={
+		name="Majid Matinamustab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Majid_Matinamustab
+				traits = {	generallissimo 	}
+		}
+
+	}
+	VHA_Abdullal_Shar={
+		name="Abdullal Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Abdullal_Shar
+				traits = {	basileus 	}
+		}
+
+	}
+	VHA_Zaisal_Kutub={
+		name="Zaisal Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Zaisal_Kutub
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	VHA_Ibran_Turuq={
+		name="Ibran Turuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Ibran_Turuq
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	VHA_Nabil_Zahr={
+		name="Nabil Zahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Nabil_Zahr
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	VHA_Mohamza_Shar={
+		name="Mohamza Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Mohamza_Shar
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	VHA_Farim_Matinamustab={
+		name="Farim Matinamustab"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Farim_Matinamustab
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	VHA_Khal_Yemen={
+		name="Khal Yemen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Khal_Yemen
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	VHA_Ibran_Hijar={
+		name="Ibran Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Ibran_Hijar
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	VHA_Samarim_Hijar={
+		name="Samarim Hijar"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Samarim_Hijar
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	VHA_Nabil_Matinamustab={
+		name="Nabil Matinamustab"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Nabil_Matinamustab
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	VHA_Jamza_Hijar={
+		name="Jamza Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Jamza_Hijar
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	VHA_Khal_Namt={
+		name="Khal Namt"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Khal_Namt
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	VHA_Ibrahya_Noum={
+		name="Ibrahya Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Ibrahya_Noum
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	VHA_Mohamir_Hijar={
+		name="Mohamir Hijar"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Mohamir_Hijar
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	VHA_Ahmal_Yemen={
+		name="Ahmal Yemen"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Ahmal_Yemen
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	VHA_Imrah_Noum={
+		name="Imrah Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Imrah_Noum
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	VHA_Zaisan_Kutub={
+		name="Zaisan Kutub"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VHA_Abdullahmari_Noum={
+		name="Abdullahmari Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Abdullahmari_Noum
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	VHA_Hami_Kutub={
+		name="Hami Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Hami_Kutub
+				traits = {	polemarch 	}
+		}
+
+	}
+	VHA_Imrahya_Yemen={
+		name="Imrahya Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Imrahya_Yemen
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	VHA_Anwar_Yemen={
+		name="Anwar Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Anwar_Yemen
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	VHA_Samal_Namt={
+		name="Samal Namt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Samal_Namt
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	VHA_Faisan_Zahr={
+		name="Faisan Zahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Faisan_Zahr
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	VHA_Saad_Hijar={
+		name="Saad Hijar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Saad_Hijar
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	VHA_Hami_Noum={
+		name="Hami Noum"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Hami_Noum
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	VHA_Anwarid_Shar={
+		name="Anwarid Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Anwarid_Shar
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	VHA_Ahmoud_Namt={
+		name="Ahmoud Namt"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Ahmoud_Namt
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	VHA_Mohamza_Zahr={
+		name="Mohamza Zahr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Mohamza_Zahr
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	VHA_Nabil_Kutub={
+		name="Nabil Kutub"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Nabil_Kutub
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	VHA_Rami_Noum={
+		name="Rami Noum"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Rami_Noum
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	VHA_Khamir_Hijar={
+		name="Khamir Hijar"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Khamir_Hijar
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	VHA_Ibran_Shaykh={
+		name="Ibran Shaykh"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Ibran_Shaykh
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	VHA_Khal_Noum={
+		name="Khal Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Khal_Noum
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	VHA_Samza_Shaykh={
+		name="Samza Shaykh"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Samza_Shaykh
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	VHA_Sami_Turuq={
+		name="Sami Turuq"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Sami_Turuq
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	VHA_Tarid_Zahr={
+		name="Tarid Zahr"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Tarid_Zahr
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	VHA_Zaisan_Shar={
+		name="Zaisan Shar"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Zaisan_Shar
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	VHA_Jami_Hijar={
+		name="Jami Hijar"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VHA_Farim_Hijar={
+		name="Farim Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Farim_Hijar
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	VHA_Samad_Hijar={
+		name="Samad Hijar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Samad_Hijar
+				traits = {	first_lady 	}
+		}
+
+	}
+	VHA_Anwar_Shaykh={
+		name="Anwar Shaykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Anwar_Shaykh
+				traits = {	infirm 	}
+		}
+
+	}
+	VHA_Omarid_Yemen={
+		name="Omarid Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Omarid_Yemen
+				traits = {	infirm 	}
+		}
+
+	}
+	VHA_Hami_Shaykh={
+		name="Hami Shaykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Hami_Shaykh
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	VHA_Fariq_Shaykh={
+		name="Fariq Shaykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VHA_Fariq_Shaykh
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	VHA_Adnan_Kutub={
+		name="Adnan Kutub"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Adnan_Kutub
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	VHA_Rami_Namt={
+		name="Rami Namt"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Rami_Namt
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	VHA_Mohamza_Shaykh={
+		name="Mohamza Shaykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Mohamza_Shaykh
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	VHA_Mahya_Zahr={
+		name="Mahya Zahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = VHA_Mahya_Zahr
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VHA_Khal_Hijar={
+		name="Khal Hijar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Khal_Hijar
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	VHA_Hamza_Shar={
+		name="Hamza Shar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VHA_Hamza_Shar
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	VHA_Karid_Namt={
+		name="Karid Namt"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Karid_Namt
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	VHA_Saad_Yemen={
+		name="Saad Yemen"
+
+		advisor={
+			slot = air_chief
+			idea_token = VHA_Saad_Yemen
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	VHA_Samariq_Turuq={
+		name="Samariq Turuq"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Samariq_Turuq
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	VHA_Anwarid_Yemen={
+		name="Anwarid Yemen"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Anwarid_Yemen
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	VHA_Abdullal_Matinamustab={
+		name="Abdullal Matinamustab"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Abdullal_Matinamustab
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	VHA_Abdullahya_Zahr={
+		name="Abdullahya Zahr"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Abdullahya_Zahr
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	VHA_Mohamza_Yemen={
+		name="Mohamza Yemen"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Mohamza_Yemen
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	VHA_Jamir_Yemen={
+		name="Jamir Yemen"
+
+		advisor={
+			slot = high_command
+			idea_token = VHA_Jamir_Yemen
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	VHA_Bilali_Namt={
+		name="Bilali Namt"
+
+		advisor={
+			slot = theorist
+			idea_token = VHA_Bilali_Namt
+				traits = {	military_theorist 	}
+		}
+
+	}
+	VHA_Sami_Zahr={
+		name="Sami Zahr"
+
+		advisor={
+			slot = theorist
+			idea_token = VHA_Sami_Zahr
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	VHA_Ahmoud_Noum={
+		name="Ahmoud Noum"
+
+		advisor={
+			slot = theorist
+			idea_token = VHA_Ahmoud_Noum
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

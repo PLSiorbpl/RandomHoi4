@@ -2,43 +2,37 @@
 state={
 	id=537
 	name="STATE_537"
-	manpower = 1355409
+	manpower = 565727
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=9
+		aluminium=0
 		chromium=0
 		oil=0
-		rubber=17
-		steel=2
+		rubber=0
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7735 2}
-		victory_points = { 7752 2}
-		victory_points = { 7756 2}
-		victory_points = { 7758 2}
+		victory_points = { 7036 3}
 		
-		owner = LZM
+		owner = NAK
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 3
 			
-			7751 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = LZM
+		add_core_of = NAK
 	}
 
 	provinces={
-		7731 7732 7733 7734 7735 7736 7737 7738 7739 7740 7741 7742 7743 7744 7745 7746 7747 7748 7749 7750 7751 7752 7753 7754 7755 7756 7757 7758 7759 7760 7761 7762 7763 7764 7765 7766 7767 7768 7769 
+		7035 7036 7037 7038 7039 7040 7041 7042 
 	}
 	local_supplies=0.0 
 }

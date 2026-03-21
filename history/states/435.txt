@@ -2,38 +2,42 @@
 state={
 	id=435
 	name="STATE_435"
-	manpower = 1051606
+	manpower = 1201850
 	
 	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=12
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
-		steel=0
-		tungsten=0
+		steel=9
+		tungsten=5
 		coal=0
 	}
 
 	history={
-		victory_points = { 6148 1}
-		victory_points = { 6155 6}
+		victory_points = { 5675 4}
+		victory_points = { 5681 1}
+		victory_points = { 5690 4}
 		
-		owner = HSI
+		owner = GDA
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
+			5677 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HSI
+		add_core_of = GDA
 	}
 
 	provinces={
-		6139 6140 6141 6142 6143 6144 6145 6146 6147 6148 6149 6150 6151 6152 6153 6154 6155 
+		5675 5676 5677 5678 5679 5680 5681 5682 5683 5684 5685 5686 5687 5688 5689 5690 5691 5692 
 	}
 	local_supplies=0.0 
 }

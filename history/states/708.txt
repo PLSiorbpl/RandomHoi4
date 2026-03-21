@@ -2,14 +2,14 @@
 state={
 	id=708
 	name="STATE_708"
-	manpower = 506143
+	manpower = 574895
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 10111 3}
+		victory_points = { 9457 1}
+		victory_points = { 9461 1}
+		victory_points = { 9463 1}
 		
-		owner = TQI
+		owner = GHU
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = TQI
+		add_core_of = GHU
 	}
 
 	provinces={
-		10111 10112 10113 10114 10115 10116 10117 10118 
+		9456 9457 9458 9459 9460 9461 9462 9463 
 	}
 	local_supplies=0.0 
 }

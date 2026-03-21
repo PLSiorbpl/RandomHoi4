@@ -1,0 +1,880 @@
+characters = {
+	TSL_Niamus_Laocht={
+		name="Niamus Laocht"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TSL_Niaran_Glamhaintigh={
+		name="Niaran Glamhaintigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Niaran_Glamhaintigh
+				traits = {	headstrong 	}
+		}
+
+	}
+	TSL_Malcolm_Bradhair={
+		name="Malcolm Bradhair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Malcolm_Bradhair
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TSL_Padran_Talas={
+		name="Padran Talas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Padran_Talas
+				traits = {	headstrong 	}
+		}
+
+	}
+	TSL_Malcolm_Bein={
+		name="Malcolm Bein"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Malcolm_Bein
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TSL_Braig_Grionn={
+		name="Braig Grionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Braig_Grionn
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TSL_Liaraig_Laocht={
+		name="Liaraig Laocht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Liaraig_Laocht
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TSL_Ciamus_Glamhaintigh={
+		name="Ciamus Glamhaintigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Ciamus_Glamhaintigh
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TSL_Gareth_Laocht={
+		name="Gareth Laocht"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Gareth_Laocht
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TSL_Mall_Cuirseart={
+		name="Mall Cuirseart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Mall_Cuirseart
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TSL_Cialcolm_Talas={
+		name="Cialcolm Talas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Cialcolm_Talas
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TSL_Aidan_Laill={
+		name="Aidan Laill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Aidan_Laill
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TSL_Malcolm_Laocht={
+		name="Malcolm Laocht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Malcolm_Laocht
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TSL_Ciamus_Cuirseart={
+		name="Ciamus Cuirseart"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Ciamus_Cuirseart
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TSL_Garan_Bein={
+		name="Garan Bein"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Garan_Bein
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TSL_Bran_Bradhair={
+		name="Bran Bradhair"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Bran_Bradhair
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	TSL_Hugh_Bein={
+		name="Hugh Bein"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Hugh_Bein
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	TSL_Declan_Laocht={
+		name="Declan Laocht"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Declan_Laocht
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	TSL_Quin_Grionn={
+		name="Quin Grionn"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Quin_Grionn
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TSL_Seamus_Bradhair={
+		name="Seamus Bradhair"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Seamus_Bradhair
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TSL_Taran_Grionn={
+		name="Taran Grionn"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Taran_Grionn
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TSL_Niall_Cuirseart={
+		name="Niall Cuirseart"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TSL_Aidan_Glamhaintigh={
+		name="Aidan Glamhaintigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Aidan_Glamhaintigh
+				traits = {	infirm 	}
+		}
+
+	}
+	TSL_Padran_Grionn={
+		name="Padran Grionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Padran_Grionn
+				traits = {	infirm 	}
+		}
+
+	}
+	TSL_Declan_Bradhair={
+		name="Declan Bradhair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Declan_Bradhair
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	TSL_Mall_Laocht={
+		name="Mall Laocht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Mall_Laocht
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TSL_Iwan_Laill={
+		name="Iwan Laill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Iwan_Laill
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TSL_Braig_Glamhaintigh={
+		name="Braig Glamhaintigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Braig_Glamhaintigh
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	TSL_Cialcolm_Laocht={
+		name="Cialcolm Laocht"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Cialcolm_Laocht
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TSL_Padraig_Bradhair={
+		name="Padraig Bradhair"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Padraig_Bradhair
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TSL_Gareth_Ceann={
+		name="Gareth Ceann"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Gareth_Ceann
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TSL_Niamus_Ceann={
+		name="Niamus Ceann"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Niamus_Ceann
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TSL_Keiran_Bradhair={
+		name="Keiran Bradhair"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Keiran_Bradhair
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TSL_Aidan_Bradhair={
+		name="Aidan Bradhair"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Aidan_Bradhair
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TSL_Declan_Cuirseart={
+		name="Declan Cuirseart"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Declan_Cuirseart
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TSL_Owen_Talas={
+		name="Owen Talas"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Owen_Talas
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TSL_Liaraig_Talas={
+		name="Liaraig Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Liaraig_Talas
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TSL_Keiran_Luathantarra={
+		name="Keiran Luathantarra"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Keiran_Luathantarra
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	TSL_Hugh_Cuirseart={
+		name="Hugh Cuirseart"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Hugh_Cuirseart
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	TSL_Garan_Glamhaintigh={
+		name="Garan Glamhaintigh"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Garan_Glamhaintigh
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TSL_Padran_Cuirseart={
+		name="Padran Cuirseart"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Padran_Cuirseart
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	TSL_Seam_Luathantarra={
+		name="Seam Luathantarra"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Seam_Luathantarra
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	TSL_Mall_Bein={
+		name="Mall Bein"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TSL_Hugh_Laill={
+		name="Hugh Laill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Hugh_Laill
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TSL_Taran_Bradhair={
+		name="Taran Bradhair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Taran_Bradhair
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TSL_Owen_Grionn={
+		name="Owen Grionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Owen_Grionn
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TSL_Owen_Cuirseart={
+		name="Owen Cuirseart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Owen_Cuirseart
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TSL_Padran_Ceann={
+		name="Padran Ceann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Padran_Ceann
+				traits = {	infirm 	}
+		}
+
+	}
+	TSL_Garan_Laill={
+		name="Garan Laill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Garan_Laill
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TSL_Malcolm_Ceann={
+		name="Malcolm Ceann"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Malcolm_Ceann
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TSL_Niam_Bein={
+		name="Niam Bein"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Niam_Bein
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TSL_Malcolm_Glamhaintigh={
+		name="Malcolm Glamhaintigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Malcolm_Glamhaintigh
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TSL_Fergus_Talas={
+		name="Fergus Talas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Fergus_Talas
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TSL_Ciamus_Bradhair={
+		name="Ciamus Bradhair"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Ciamus_Bradhair
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TSL_Cialcolm_Bein={
+		name="Cialcolm Bein"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Cialcolm_Bein
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TSL_Braig_Luathantarra={
+		name="Braig Luathantarra"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Braig_Luathantarra
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TSL_Eoin_Glamhaintigh={
+		name="Eoin Glamhaintigh"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Eoin_Glamhaintigh
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TSL_Ulrich_Luathantarra={
+		name="Ulrich Luathantarra"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Ulrich_Luathantarra
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TSL_Liamus_Laocht={
+		name="Liamus Laocht"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Liamus_Laocht
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	TSL_Padraig_Cuirseart={
+		name="Padraig Cuirseart"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Padraig_Cuirseart
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TSL_Braig_Talas={
+		name="Braig Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Braig_Talas
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TSL_Malcolm_Luathantarra={
+		name="Malcolm Luathantarra"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Malcolm_Luathantarra
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	TSL_Declan_Glamhaintigh={
+		name="Declan Glamhaintigh"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Declan_Glamhaintigh
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TSL_Eoin_Talas={
+		name="Eoin Talas"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TSL_Liaraig_Laill={
+		name="Liaraig Laill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Liaraig_Laill
+				traits = {	first_lady 	}
+		}
+
+	}
+	TSL_Ciaran_Grionn={
+		name="Ciaran Grionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Ciaran_Grionn
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TSL_Padran_Luathantarra={
+		name="Padran Luathantarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Padran_Luathantarra
+				traits = {	the_banker 	}
+		}
+
+	}
+	TSL_Rhys_Laill={
+		name="Rhys Laill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Rhys_Laill
+				traits = {	rearmer 	}
+		}
+
+	}
+	TSL_Mall_Laill={
+		name="Mall Laill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Mall_Laill
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TSL_Liamus_Glamhaintigh={
+		name="Liamus Glamhaintigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TSL_Liamus_Glamhaintigh
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TSL_Cialcolm_Cuirseart={
+		name="Cialcolm Cuirseart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Cialcolm_Cuirseart
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TSL_Niam_Glamhaintigh={
+		name="Niam Glamhaintigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Niam_Glamhaintigh
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TSL_Rhys_Laocht={
+		name="Rhys Laocht"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Rhys_Laocht
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TSL_Ciamus_Laill={
+		name="Ciamus Laill"
+
+		advisor={
+			slot = army_chief
+			idea_token = TSL_Ciamus_Laill
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TSL_Owen_Glamhaintigh={
+		name="Owen Glamhaintigh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Owen_Glamhaintigh
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TSL_Niall_Laill={
+		name="Niall Laill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TSL_Niall_Laill
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TSL_Lialcolm_Laill={
+		name="Lialcolm Laill"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Lialcolm_Laill
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TSL_Ciaran_Cuirseart={
+		name="Ciaran Cuirseart"
+
+		advisor={
+			slot = air_chief
+			idea_token = TSL_Ciaran_Cuirseart
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TSL_Niamus_Talas={
+		name="Niamus Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Niamus_Talas
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	TSL_Ciaran_Glamhaintigh={
+		name="Ciaran Glamhaintigh"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Ciaran_Glamhaintigh
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	TSL_Declan_Ceann={
+		name="Declan Ceann"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Declan_Ceann
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	TSL_Niall_Ceann={
+		name="Niall Ceann"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Niall_Ceann
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	TSL_Rhys_Luathantarra={
+		name="Rhys Luathantarra"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Rhys_Luathantarra
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TSL_Keiran_Glamhaintigh={
+		name="Keiran Glamhaintigh"
+
+		advisor={
+			slot = high_command
+			idea_token = TSL_Keiran_Glamhaintigh
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TSL_Quinn_Bein={
+		name="Quinn Bein"
+
+		advisor={
+			slot = theorist
+			idea_token = TSL_Quinn_Bein
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TSL_Braig_Laill={
+		name="Braig Laill"
+
+		advisor={
+			slot = theorist
+			idea_token = TSL_Braig_Laill
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TSL_Taran_Glamhaintigh={
+		name="Taran Glamhaintigh"
+
+		advisor={
+			slot = theorist
+			idea_token = TSL_Taran_Glamhaintigh
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

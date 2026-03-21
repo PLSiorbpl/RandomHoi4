@@ -2,37 +2,38 @@
 state={
 	id=614
 	name="STATE_614"
-	manpower = 850998
+	manpower = 441837
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=1
+		chromium=0
 		oil=0
 		rubber=0
-		steel=1
-		tungsten=2
+		steel=0
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8919 7}
+		victory_points = { 8163 1}
+		victory_points = { 8164 1}
 		
-		owner = CNR
+		owner = CPM
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CNR
+		add_core_of = CPM
 	}
 
 	provinces={
-		8911 8912 8913 8914 8915 8916 8917 8918 8919 8920 8921 8922 8923 8924 
+		8163 8164 8165 8166 8167 8168 
 	}
 	local_supplies=0.0 
 }

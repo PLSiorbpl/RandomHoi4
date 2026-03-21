@@ -2,7 +2,7 @@
 state={
 	id=538
 	name="STATE_538"
-	manpower = 846307
+	manpower = 980607
 	
 	state_category = large_town
 	#impassable = yes
@@ -17,22 +17,28 @@ state={
 	}
 
 	history={
-		victory_points = { 7774 6}
+		victory_points = { 7043 2}
+		victory_points = { 7045 2}
+		victory_points = { 7048 2}
+		victory_points = { 7056 1}
 		
-		owner = ZTA
+		owner = KUL
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
 			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			7049 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = ZTA
+		add_core_of = KUL
 	}
 
 	provinces={
-		7770 7771 7772 7773 7774 7775 7776 7777 7778 7779 7780 7781 7782 7783 
+		7043 7044 7045 7046 7047 7048 7049 7050 7051 7052 7053 7054 7055 7056 
 	}
 	local_supplies=0.0 
 }

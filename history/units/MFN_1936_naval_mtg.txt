@@ -1,0 +1,38 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Mangugam Fleet"			
+		naval_base = 17412
+		task_force = {
+			name = "Mangugam Fleet"
+			location = 17412
+			
+						ship = { name = "Arniq" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MFN version_name = "Nuniq Class" } }	}
+			ship = { name = "Kimiat" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MFN version_name = "Nuniq Class" } }	}
+			ship = { name = "Silawimuk" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MFN version_name = "Nuniq Class" } }	}
+			ship = { name = "Naluk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MFN version_name = "Arniq Class" } }	}
+			ship = { name = "Naluk 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MFN version_name = "Kimiat Class" } }	}
+			ship = { name = "Naluk 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MFN version_name = "Kimiat Class" } }	}
+			ship = { name = "Naluk 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MFN version_name = "Arniq Class" } }	}
+			ship = { name = "Kimiat 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MFN version_name = "Arniq Class" } }	}
+			ship = { name = "Naluk 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MFN version_name = "Nuniq Class" } }	}
+			ship = { name = "Kimiat 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MFN version_name = "Nuniq Class" } }	}
+			ship = { name = "Arniq 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MFN version_name = "Kimiat Class" } }	}
+			ship = { name = "Nuniq" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MFN version_name = "Silawimuk Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

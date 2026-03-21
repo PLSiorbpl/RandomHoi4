@@ -2,7 +2,7 @@
 state={
 	id=40
 	name="STATE_40"
-	manpower = 701942
+	manpower = 707015
 	
 	state_category = town
 	#impassable = yes
@@ -11,28 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=16
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 705 6}
+		victory_points = { 531 3}
+		victory_points = { 536 1}
 		
-		owner = RDE
+		owner = SAN
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = RDE
+		add_core_of = SAN
 	}
 
 	provinces={
-		696 697 698 699 700 701 702 703 704 705 706 707 
+		527 528 529 530 531 532 533 534 535 536 
 	}
 	local_supplies=0.0 
 }

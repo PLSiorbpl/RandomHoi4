@@ -1,0 +1,880 @@
+characters = {
+	PBR_Severus_Regnum={
+		name="Severus Regnum"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBR_Fabiustus_Pris={
+		name="Fabiustus Pris"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Fabiustus_Pris
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PBR_Paudius_Implum={
+		name="Paudius Implum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Paudius_Implum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PBR_Vibervius_Maginciptor={
+		name="Vibervius Maginciptor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Vibervius_Maginciptor
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	PBR_Augus_Aetorpus={
+		name="Augus Aetorpus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Augus_Aetorpus
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	PBR_Hornelianlia_Maginciptor={
+		name="Hornelianlia Maginciptor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Hornelianlia_Maginciptor
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PBR_Vitellus_Aetorpus={
+		name="Vitellus Aetorpus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Vitellus_Aetorpus
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PBR_Silvanus_Turum={
+		name="Silvanus Turum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Silvanus_Turum
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PBR_Gaius_Artium={
+		name="Gaius Artium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Gaius_Artium
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PBR_Prius_Artium={
+		name="Prius Artium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Prius_Artium
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	PBR_Vitus_Sempesum={
+		name="Vitus Sempesum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Vitus_Sempesum
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PBR_Silvanus_Sempesum={
+		name="Silvanus Sempesum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Silvanus_Sempesum
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	PBR_Scaeverutus_Maginciptor={
+		name="Scaeverutus Maginciptor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Scaeverutus_Maginciptor
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	PBR_Marro_Implum={
+		name="Marro Implum"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Marro_Implum
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	PBR_Paulus_Maginciptor={
+		name="Paulus Maginciptor"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Paulus_Maginciptor
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PBR_Aulus_Pris={
+		name="Aulus Pris"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Aulus_Pris
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	PBR_Marcelius_Sempesum={
+		name="Marcelius Sempesum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Marcelius_Sempesum
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	PBR_Manus_Implum={
+		name="Manus Implum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Manus_Implum
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	PBR_Antonius_Pris={
+		name="Antonius Pris"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Antonius_Pris
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	PBR_Valero_Implum={
+		name="Valero Implum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Valero_Implum
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	PBR_Scaeverutus_Artium={
+		name="Scaeverutus Artium"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Scaeverutus_Artium
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	PBR_Severus_Artium={
+		name="Severus Artium"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBR_Silvanus_Maginciptor={
+		name="Silvanus Maginciptor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Silvanus_Maginciptor
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	PBR_Attius_Regnum={
+		name="Attius Regnum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Attius_Regnum
+				traits = {	autokrator 	}
+		}
+
+	}
+	PBR_Tibero_Regnum={
+		name="Tibero Regnum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Tibero_Regnum
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	PBR_Titellianus_Artium={
+		name="Titellianus Artium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Titellianus_Artium
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	PBR_Nonius_Sempus={
+		name="Nonius Sempus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Nonius_Sempus
+				traits = {	generallissimo 	}
+		}
+
+	}
+	PBR_Vitellus_Maginciptor={
+		name="Vitellus Maginciptor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Vitellus_Maginciptor
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	PBR_Julus_Aetorpus={
+		name="Julus Aetorpus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Julus_Aetorpus
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PBR_Aulus_Maginciptor={
+		name="Aulus Maginciptor"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Aulus_Maginciptor
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PBR_Severus_Pris={
+		name="Severus Pris"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Severus_Pris
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	PBR_Domiticus_Officae={
+		name="Domiticus Officae"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Domiticus_Officae
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PBR_Servius_Pris={
+		name="Servius Pris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Servius_Pris
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	PBR_Domiticus_Artium={
+		name="Domiticus Artium"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Domiticus_Artium
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PBR_Tibero_Maginciptor={
+		name="Tibero Maginciptor"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Tibero_Maginciptor
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	PBR_Gaius_Sempesum={
+		name="Gaius Sempesum"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Gaius_Sempesum
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	PBR_Luciusus_Maginciptor={
+		name="Luciusus Maginciptor"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Luciusus_Maginciptor
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	PBR_Marcusus_Officae={
+		name="Marcusus Officae"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Marcusus_Officae
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	PBR_Titellianus_Turum={
+		name="Titellianus Turum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Titellianus_Turum
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PBR_Sextustus_Sempesum={
+		name="Sextustus Sempesum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Sextustus_Sempesum
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	PBR_Publianus_Pris={
+		name="Publianus Pris"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Publianus_Pris
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	PBR_Regus_Maginciptor={
+		name="Regus Maginciptor"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Regus_Maginciptor
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	PBR_Scaeverutus_Officae={
+		name="Scaeverutus Officae"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBR_Claudius_Officae={
+		name="Claudius Officae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Claudius_Officae
+				traits = {	polemarch 	}
+		}
+
+	}
+	PBR_Urbanlius_Sempus={
+		name="Urbanlius Sempus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Urbanlius_Sempus
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PBR_Drutus_Maginciptor={
+		name="Drutus Maginciptor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Drutus_Maginciptor
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PBR_Sextustus_Artium={
+		name="Sextustus Artium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Sextustus_Artium
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PBR_Vibero_Turum={
+		name="Vibero Turum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Vibero_Turum
+				traits = {	infirm 	}
+		}
+
+	}
+	PBR_Vitellus_Implum={
+		name="Vitellus Implum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Vitellus_Implum
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PBR_Varro_Officae={
+		name="Varro Officae"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Varro_Officae
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PBR_Servius_Sempesum={
+		name="Servius Sempesum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Servius_Sempesum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PBR_Paulus_Officae={
+		name="Paulus Officae"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Paulus_Officae
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PBR_Tibero_Officae={
+		name="Tibero Officae"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Tibero_Officae
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PBR_Vitus_Aetorpus={
+		name="Vitus Aetorpus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Vitus_Aetorpus
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	PBR_Serus_Pris={
+		name="Serus Pris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Serus_Pris
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	PBR_Tracchus_Artium={
+		name="Tracchus Artium"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Tracchus_Artium
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	PBR_Lonius_Implum={
+		name="Lonius Implum"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Lonius_Implum
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PBR_Gaius_Implum={
+		name="Gaius Implum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Gaius_Implum
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	PBR_Tracchus_Aetorpus={
+		name="Tracchus Aetorpus"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Tracchus_Aetorpus
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	PBR_Marro_Maginciptor={
+		name="Marro Maginciptor"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Marro_Maginciptor
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	PBR_Vibervius_Turum={
+		name="Vibervius Turum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Vibervius_Turum
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	PBR_Serius_Implum={
+		name="Serius Implum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Serius_Implum
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	PBR_Publianus_Officae={
+		name="Publianus Officae"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Publianus_Officae
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	PBR_Gemitelius_Pris={
+		name="Gemitelius Pris"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBR_Paus_Sempus={
+		name="Paus Sempus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Paus_Sempus
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBR_Faudius_Pris={
+		name="Faudius Pris"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Faudius_Pris
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBR_Prius_Regnum={
+		name="Prius Regnum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Prius_Regnum
+				traits = {	rearmer 	}
+		}
+
+	}
+	PBR_Drus_Implum={
+		name="Drus Implum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Drus_Implum
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PBR_Servius_Officae={
+		name="Servius Officae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Servius_Officae
+				traits = {	first_lady 	}
+		}
+
+	}
+	PBR_Atticus_Implum={
+		name="Atticus Implum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBR_Atticus_Implum
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBR_Regus_Artium={
+		name="Regus Artium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Regus_Artium
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PBR_Aulus_Turum={
+		name="Aulus Turum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Aulus_Turum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PBR_Livius_Regnum={
+		name="Livius Regnum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Livius_Regnum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PBR_Titus_Maginciptor={
+		name="Titus Maginciptor"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBR_Titus_Maginciptor
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PBR_Gaius_Aetorpus={
+		name="Gaius Aetorpus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Gaius_Aetorpus
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	PBR_Faudius_Maginciptor={
+		name="Faudius Maginciptor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBR_Faudius_Maginciptor
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	PBR_Valero_Officae={
+		name="Valero Officae"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Valero_Officae
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	PBR_Paulus_Sempesum={
+		name="Paulus Sempesum"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBR_Paulus_Sempesum
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	PBR_Gracchus_Artium={
+		name="Gracchus Artium"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Gracchus_Artium
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	PBR_Nerus_Turum={
+		name="Nerus Turum"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Nerus_Turum
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	PBR_Drutus_Pris={
+		name="Drutus Pris"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Drutus_Pris
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	PBR_Longintonius_Officae={
+		name="Longintonius Officae"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Longintonius_Officae
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PBR_Drutus_Sempus={
+		name="Drutus Sempus"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Drutus_Sempus
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	PBR_Paudius_Sempus={
+		name="Paudius Sempus"
+
+		advisor={
+			slot = high_command
+			idea_token = PBR_Paudius_Sempus
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	PBR_Decius_Sempus={
+		name="Decius Sempus"
+
+		advisor={
+			slot = theorist
+			idea_token = PBR_Decius_Sempus
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PBR_Severo_Turum={
+		name="Severo Turum"
+
+		advisor={
+			slot = theorist
+			idea_token = PBR_Severo_Turum
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PBR_Severo_Aetorpus={
+		name="Severo Aetorpus"
+
+		advisor={
+			slot = theorist
+			idea_token = PBR_Severo_Aetorpus
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

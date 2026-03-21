@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Darahaya Fleet"			
+		naval_base = 17647
+		task_force = {
+			name = "Darahaya Fleet"
+			location = 17647
+			
+						ship = { name = "Rimenjelamat" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = DAR version_name = "Kampang Class" } }	}
+			ship = { name = "Darahaya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAR version_name = "Kelindung Class" } }	}
+			ship = { name = "Kampang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAR version_name = "Kelindung Class" } }	}
+			ship = { name = "Rimenjelamat 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DAR version_name = "Cahlamai Class" } }	}
+			ship = { name = "Darahaya 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DAR version_name = "Cahlamai Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -2,9 +2,9 @@
 state={
 	id=439
 	name="STATE_439"
-	manpower = 737680
+	manpower = 732198
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,29 +12,28 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 6191 3}
-		victory_points = { 6195 1}
-		victory_points = { 6196 1}
+		victory_points = { 5737 2}
+		victory_points = { 5738 3}
 		
-		owner = LCF
+		owner = GDA
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = LCF
+		add_core_of = GDA
 	}
 
 	provinces={
-		6191 6192 6193 6194 6195 6196 6197 6198 6199 6200 6201 6202 
+		5735 5736 5737 5738 5739 5740 5741 5742 5743 5744 
 	}
 	local_supplies=0.0 
 }

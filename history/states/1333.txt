@@ -2,39 +2,38 @@
 state={
 	id=1333
 	name="STATE_1333"
-	manpower = 2541
+	manpower = 570888
 	
-	state_category = small_island
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=7
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 17447 1}
+		victory_points = { 17454 2}
 		
-		owner = BPR
+		owner = WEA
 		buildings = {
-			infrastructure = 1
-			air_base = 2
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			17877 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BPR
+		add_core_of = WEA
 	}
 
 	provinces={
-		17877 17878 17879 17880 
+		17447 17448 17449 17450 17451 17452 17453 17454 
 	}
 	local_supplies=0.0 
 }

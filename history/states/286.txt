@@ -2,12 +2,12 @@
 state={
 	id=286
 	name="STATE_286"
-	manpower = 583691
+	manpower = 572037
 	
 	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=7
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 4241 2}
-		victory_points = { 4244 2}
+		victory_points = { 3866 1}
+		victory_points = { 3873 1}
 		
-		owner = ZRU
+		owner = GDA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
+			3866 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = ZRU
+		add_core_of = GDA
 	}
 
 	provinces={
-		4241 4242 4243 4244 4245 4246 4247 4248 4249 
+		3866 3867 3868 3869 3870 3871 3872 3873 
 	}
 	local_supplies=0.0 
 }

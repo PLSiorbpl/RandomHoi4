@@ -1,0 +1,880 @@
+characters = {
+	DAN_Vlanis_Mostrvo={
+		name="Vlanis Mostrvo"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Kazimir_Krava={
+		name="Kazimir Krava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Kazimir_Krava
+				traits = {	headstrong 	}
+		}
+
+	}
+	DAN_Yuraj_Ptica={
+		name="Yuraj Ptica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Yuraj_Ptica
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	DAN_Vlav_Mosof={
+		name="Vlav Mosof"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Vlav_Mosof
+				traits = {	headstrong 	}
+		}
+
+	}
+	DAN_Zdek_Mosof={
+		name="Zdek Mosof"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Zdek_Mosof
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	DAN_Matefan_Hradjevinatr={
+		name="Matefan Hradjevinatr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Matefan_Hradjevinatr
+				traits = {	humble 	}
+		}
+
+	}
+	DAN_Ivan_Plas={
+		name="Ivan Plas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ivan_Plas
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	DAN_Radosh_Muda={
+		name="Radosh Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Radosh_Muda
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	DAN_Stej_Mosof={
+		name="Stej Mosof"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Stej_Mosof
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DAN_Sladoslavel_Losof={
+		name="Sladoslavel Losof"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Sladoslavel_Losof
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	DAN_Sladoslavel_Muda={
+		name="Sladoslavel Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Sladoslavel_Muda
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	DAN_Bogdankoladi_Zvuk={
+		name="Bogdankoladi Zvuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Bogdankoladi_Zvuk
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DAN_Stej_Losof={
+		name="Stej Losof"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Stej_Losof
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	DAN_Oleg_Plas={
+		name="Oleg Plas"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Oleg_Plas
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	DAN_Bogdan_Plas={
+		name="Bogdan Plas"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Bogdan_Plas
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	DAN_Zoran_Zvuk={
+		name="Zoran Zvuk"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Zoran_Zvuk
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	DAN_Radosh_Losof={
+		name="Radosh Losof"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Radosh_Losof
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	DAN_Vlanis_Ptica={
+		name="Vlanis Ptica"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Vlanis_Ptica
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	DAN_Miroslavko_Hradjevinatr={
+		name="Miroslavko Hradjevinatr"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Miroslavko_Hradjevinatr
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DAN_Kazimeon_Hradjevinatr={
+		name="Kazimeon Hradjevinatr"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Kazimeon_Hradjevinatr
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	DAN_Oleg_Krava={
+		name="Oleg Krava"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Oleg_Krava
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	DAN_Jurislav_Mosof={
+		name="Jurislav Mosof"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Vlav_Zvuk={
+		name="Vlav Zvuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Vlav_Zvuk
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DAN_Kazimir_Muda={
+		name="Kazimir Muda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Kazimir_Muda
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	DAN_Matefan_Losof={
+		name="Matefan Losof"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Matefan_Losof
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DAN_Alexei_Mostrvo={
+		name="Alexei Mostrvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Alexei_Mostrvo
+				traits = {	basileus 	}
+		}
+
+	}
+	DAN_Jurilav_Plas={
+		name="Jurilav Plas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Jurilav_Plas
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	DAN_Kazimeon_Ptica={
+		name="Kazimeon Ptica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Kazimeon_Ptica
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DAN_Rado_Mostrvo={
+		name="Rado Mostrvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Rado_Mostrvo
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	DAN_Dmir_Zvuk={
+		name="Dmir Zvuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Dmir_Zvuk
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	DAN_Yuran_Zvuk={
+		name="Yuran Zvuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Yuran_Zvuk
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	DAN_Miris_Plas={
+		name="Miris Plas"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Miris_Plas
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	DAN_Goril_Mostrvo={
+		name="Goril Mostrvo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Goril_Mostrvo
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DAN_Nikitris_Krava={
+		name="Nikitris Krava"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Nikitris_Krava
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	DAN_Lubosla_Plas={
+		name="Lubosla Plas"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Lubosla_Plas
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	DAN_Luboslavko_Ribavac={
+		name="Luboslavko Ribavac"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Luboslavko_Ribavac
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	DAN_Luboslavko_Ptica={
+		name="Luboslavko Ptica"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Luboslavko_Ptica
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	DAN_Bogdankolav_Muda={
+		name="Bogdankolav Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Bogdankolav_Muda
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	DAN_Lubomas_Muda={
+		name="Lubomas Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Lubomas_Muda
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	DAN_Radosh_Mostrvo={
+		name="Radosh Mostrvo"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Radosh_Mostrvo
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	DAN_Bohdanovanis_Muda={
+		name="Bohdanovanis Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Bohdanovanis_Muda
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	DAN_Dusan_Ptica={
+		name="Dusan Ptica"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Dusan_Ptica
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	DAN_Marosh_Hradjevinatr={
+		name="Marosh Hradjevinatr"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Jurislav_Mostrvo={
+		name="Jurislav Mostrvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Jurislav_Mostrvo
+				traits = {	infirm 	}
+		}
+
+	}
+	DAN_Mateusan_Ptica={
+		name="Mateusan Ptica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Mateusan_Ptica
+				traits = {	political_dancer 	}
+		}
+
+	}
+	DAN_Lubomas_Mostrvo={
+		name="Lubomas Mostrvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Lubomas_Mostrvo
+				traits = {	infirm 	}
+		}
+
+	}
+	DAN_Miroslavko_Zvuk={
+		name="Miroslavko Zvuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Miroslavko_Zvuk
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DAN_Niko_Ptica={
+		name="Niko Ptica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Niko_Ptica
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	DAN_Lubomas_Krava={
+		name="Lubomas Krava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Lubomas_Krava
+				traits = {	infirm 	}
+		}
+
+	}
+	DAN_Dran_Plas={
+		name="Dran Plas"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Dran_Plas
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	DAN_Stan_Ptica={
+		name="Stan Ptica"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Stan_Ptica
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	DAN_Kirosh_Ribavac={
+		name="Kirosh Ribavac"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Kirosh_Ribavac
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	DAN_Miroslav_Ribavac={
+		name="Miroslav Ribavac"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Miroslav_Ribavac
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	DAN_Steusanov_Mosof={
+		name="Steusanov Mosof"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Steusanov_Mosof
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	DAN_Radek_Plas={
+		name="Radek Plas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Radek_Plas
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	DAN_Niktor_Ptica={
+		name="Niktor Ptica"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Niktor_Ptica
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DAN_Sladoslavel_Krava={
+		name="Sladoslavel Krava"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Sladoslavel_Krava
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	DAN_Petan_Mosof={
+		name="Petan Mosof"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Petan_Mosof
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	DAN_Marosla_Plas={
+		name="Marosla Plas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Marosla_Plas
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	DAN_Janko_Krava={
+		name="Janko Krava"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Janko_Krava
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	DAN_Slavko_Mosof={
+		name="Slavko Mosof"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Slavko_Mosof
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	DAN_Dusan_Plas={
+		name="Dusan Plas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Dusan_Plas
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	DAN_Lubomir_Losof={
+		name="Lubomir Losof"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Lubomir_Losof
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	DAN_Niko_Krava={
+		name="Niko Krava"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Radeneksei_Hradjevinatr={
+		name="Radeneksei Hradjevinatr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Radeneksei_Hradjevinatr
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	DAN_Sergei_Plas={
+		name="Sergei Plas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Sergei_Plas
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DAN_Jaroslav_Plas={
+		name="Jaroslav Plas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Jaroslav_Plas
+				traits = {	the_banker 	}
+		}
+
+	}
+	DAN_Kazimeon_Plas={
+		name="Kazimeon Plas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Kazimeon_Plas
+				traits = {	the_banker 	}
+		}
+
+	}
+	DAN_Stej_Krava={
+		name="Stej Krava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Stej_Krava
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	DAN_Steusan_Losof={
+		name="Steusan Losof"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Steusan_Losof
+				traits = {	the_banker 	}
+		}
+
+	}
+	DAN_Janko_Hradjevinatr={
+		name="Janko Hradjevinatr"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Janko_Hradjevinatr
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DAN_Niko_Losof={
+		name="Niko Losof"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Niko_Losof
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	DAN_Bogdan_Mosof={
+		name="Bogdan Mosof"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Bogdan_Mosof
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	DAN_Tomir_Zvuk={
+		name="Tomir Zvuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Tomir_Zvuk
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	DAN_Rado_Plas={
+		name="Rado Plas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Rado_Plas
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	DAN_Radeneksei_Ribavac={
+		name="Radeneksei Ribavac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Radeneksei_Ribavac
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DAN_Stej_Mostrvo={
+		name="Stej Mostrvo"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Stej_Mostrvo
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DAN_Alexei_Muda={
+		name="Alexei Muda"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Alexei_Muda
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	DAN_Mateusan_Krava={
+		name="Mateusan Krava"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Mateusan_Krava
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	DAN_Andrej_Plas={
+		name="Andrej Plas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Andrej_Plas
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	DAN_Bohdanovanis_Hradjevinatr={
+		name="Bohdanovanis Hradjevinatr"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Bohdanovanis_Hradjevinatr
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	DAN_Miroslav_Hradjevinatr={
+		name="Miroslav Hradjevinatr"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Miroslav_Hradjevinatr
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	DAN_Dmir_Ribavac={
+		name="Dmir Ribavac"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Dmir_Ribavac
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	DAN_Dran_Krava={
+		name="Dran Krava"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Dran_Krava
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	DAN_Kiros_Zvuk={
+		name="Kiros Zvuk"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Kiros_Zvuk
+				traits = {	military_theorist 	}
+		}
+
+	}
+	DAN_Stej_Plas={
+		name="Stej Plas"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Stej_Plas
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	DAN_Bogdankolav_Hradjevinatr={
+		name="Bogdankolav Hradjevinatr"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Bogdankolav_Hradjevinatr
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

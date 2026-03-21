@@ -2,38 +2,42 @@
 state={
 	id=948
 	name="STATE_948"
-	manpower = 360680
+	manpower = 2770816
 	
-	state_category = rural
+	state_category = megalopolis
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=9
 		oil=0
-		rubber=0
+		rubber=21
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13054 1}
-		victory_points = { 13055 1}
+		victory_points = { 12671 11}
+		victory_points = { 12676 1}
+		victory_points = { 12681 9}
 		
-		owner = UEO
+		owner = REO
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
-			
+			industrial_complex = 2
+			dockyard = 1
+			12684 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = UEO
+		add_core_of = REO
 	}
 
 	provinces={
-		13054 13055 13056 13057 13058 
+		12663 12664 12665 12666 12667 12668 12669 12670 12671 12672 12673 12674 12675 12676 12677 12678 12679 12680 12681 12682 12683 12684 12685 12686 12687 12688 12689 12690 12691 12692 12693 12694 12695 12696 12697 12698 12699 12700 12701 12702 12703 12704 12705 12706 12707 
 	}
 	local_supplies=0.0 
 }

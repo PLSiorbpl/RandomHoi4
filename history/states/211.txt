@@ -2,38 +2,41 @@
 state={
 	id=211
 	name="STATE_211"
-	manpower = 523737
+	manpower = 1021245
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=9
+		rubber=8
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 3228 1}
-		victory_points = { 3239 1}
+		victory_points = { 2900 3}
+		victory_points = { 2905 3}
 		
-		owner = KZR
+		owner = FUA
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 3
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 1
 			
+			2897 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KZR
+		add_core_of = FUA
 	}
 
 	provinces={
-		3224 3225 3226 3227 3228 3229 3230 3231 3232 3233 3234 3235 3236 3237 3238 3239 
+		2895 2896 2897 2898 2899 2900 2901 2902 2903 2904 2905 2906 2907 2908 2909 
 	}
 	local_supplies=0.0 
 }

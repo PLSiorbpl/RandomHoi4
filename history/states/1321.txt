@@ -2,9 +2,9 @@
 state={
 	id=1321
 	name="STATE_1321"
-	manpower = 87691
+	manpower = 526726
 	
-	state_category = small_island
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,25 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 17792 1}
+		victory_points = { 17346 1}
+		victory_points = { 17347 2}
 		
-		owner = QGA
+		owner = XRA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
-			17792 = {
+			17349 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QGA
+		add_core_of = XRA
 	}
 
 	provinces={
-		17792 
+		17346 17347 17348 17349 17350 17351 17352 
 	}
 	local_supplies=0.0 
 }

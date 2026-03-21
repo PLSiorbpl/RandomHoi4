@@ -2,14 +2,14 @@
 state={
 	id=172
 	name="STATE_172"
-	manpower = 614534
+	manpower = 667060
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 2699 1}
-		victory_points = { 2702 3}
+		victory_points = { 2461 3}
 		
-		owner = EOP
+		owner = HOR
 		buildings = {
-			infrastructure = 2
-			air_base = 6
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = EOP
+		add_core_of = HOR
 	}
 
 	provinces={
-		2699 2700 2701 2702 2703 2704 2705 2706 2707 2708 2709 2710 
+		2459 2460 2461 2462 2463 2464 2465 2466 2467 
 	}
 	local_supplies=0.0 
 }

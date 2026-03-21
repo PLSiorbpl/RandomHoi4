@@ -2,39 +2,39 @@
 state={
 	id=569
 	name="STATE_569"
-	manpower = 1636911
+	manpower = 943900
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=5
+		oil=0
 		rubber=0
 		steel=0
-		tungsten=1
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8244 1}
-		victory_points = { 8245 11}
-		victory_points = { 8253 3}
+		victory_points = { 7480 1}
+		victory_points = { 7483 4}
+		victory_points = { 7486 1}
 		
-		owner = AGH
+		owner = MFN
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 2
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = AGH
+		add_core_of = MFN
 	}
 
 	provinces={
-		8230 8231 8232 8233 8234 8235 8236 8237 8238 8239 8240 8241 8242 8243 8244 8245 8246 8247 8248 8249 8250 8251 8252 8253 8254 8255 8256 8257 
+		7480 7481 7482 7483 7484 7485 7486 7487 7488 7489 7490 7491 7492 7493 
 	}
 	local_supplies=0.0 
 }

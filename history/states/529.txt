@@ -2,12 +2,12 @@
 state={
 	id=529
 	name="STATE_529"
-	manpower = 484508
+	manpower = 1334102
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=6
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 7631 3}
+		victory_points = { 6932 2}
+		victory_points = { 6944 7}
 		
-		owner = CJR
+		owner = UAS
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CJR
+		add_core_of = UAS
 	}
 
 	provinces={
-		7626 7627 7628 7629 7630 7631 7632 
+		6927 6928 6929 6930 6931 6932 6933 6934 6935 6936 6937 6938 6939 6940 6941 6942 6943 6944 6945 6946 
 	}
 	local_supplies=0.0 
 }

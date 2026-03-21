@@ -2,36 +2,39 @@
 state={
 	id=369
 	name="STATE_369"
-	manpower = 192312
+	manpower = 1064762
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=8
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 4871 2}
+		victory_points = { 4877 1}
+		victory_points = { 4883 3}
 		
-		owner = HPI
+		owner = HOR
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = HPI
+		add_core_of = HOR
 	}
 
 	provinces={
-		5250 5251 
+		4870 4871 4872 4873 4874 4875 4876 4877 4878 4879 4880 4881 4882 4883 4884 4885 4886 
 	}
 	local_supplies=0.0 
 }

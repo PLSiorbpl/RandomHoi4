@@ -1,0 +1,143 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			engineer = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Librollo' Militia Division"
+		location = 12165
+		division_template = "Militia Division"
+		start_experience_factor = 0.662465
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Oranziaggia' Militia Division"
+		location = 6769
+		division_template = "Militia Division"
+		start_experience_factor = 0.829503
+		start_equipment_factor = 0.942645
+	}
+	division= {
+		name = "2rd 'Kawka' Militia Division"
+		location = 9212
+		division_template = "Militia Division"
+		start_experience_factor = 0.081282
+		start_equipment_factor = 0.909632
+	}
+	division= {
+		name = "0st 'Segina' Infantry Division"
+		location = 9741
+		division_template = "Infantry Division"
+		start_experience_factor = 0.586959
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Cita' Infantry Division"
+		location = 9743
+		division_template = "Infantry Division"
+		start_experience_factor = 0.557656
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Cita' Cavalry Division"
+		location = 8690
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.933039
+		start_equipment_factor = 1.000000
+	}
+
+}

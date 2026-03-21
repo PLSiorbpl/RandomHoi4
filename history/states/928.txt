@@ -2,40 +2,39 @@
 state={
 	id=928
 	name="STATE_928"
-	manpower = 309588
+	manpower = 839853
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=3
+		steel=21
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12759 1}
+		victory_points = { 12451 3}
+		victory_points = { 12453 1}
+		victory_points = { 12458 2}
 		
-		owner = UEO
+		owner = FUL
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 3
 			
-			12758 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = UEO
+		add_core_of = FUL
 	}
 
 	provinces={
-		12756 12757 12758 12759 
+		12450 12451 12452 12453 12454 12455 12456 12457 12458 12459 12460 12461 
 	}
 	local_supplies=0.0 
 }

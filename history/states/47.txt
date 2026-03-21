@@ -2,9 +2,9 @@
 state={
 	id=47
 	name="STATE_47"
-	manpower = 865629
+	manpower = 429983
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 802 7}
+		victory_points = { 656 2}
 		
-		owner = RDE
+		owner = SHI
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			arms_factory = 1
-			industrial_complex = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = RDE
+		add_core_of = SHI
 	}
 
 	provinces={
-		794 795 796 797 798 799 800 801 802 803 804 805 806 807 808 
+		656 657 658 659 660 661 
 	}
 	local_supplies=0.0 
 }

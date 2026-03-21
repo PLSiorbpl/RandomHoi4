@@ -2,12 +2,12 @@
 state={
 	id=638
 	name="STATE_638"
-	manpower = 687300
+	manpower = 1081938
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=1
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 9188 3}
-		victory_points = { 9191 2}
+		victory_points = { 8500 5}
+		victory_points = { 8501 3}
 		
-		owner = TQI
+		owner = XRA
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 3
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = TQI
+		add_core_of = XRA
 	}
 
 	provinces={
-		9186 9187 9188 9189 9190 9191 9192 9193 9194 9195 9196 
+		8494 8495 8496 8497 8498 8499 8500 8501 8502 8503 8504 8505 8506 8507 8508 8509 
 	}
 	local_supplies=0.0 
 }

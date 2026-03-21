@@ -2,9 +2,9 @@
 state={
 	id=674
 	name="STATE_674"
-	manpower = 234763
+	manpower = 670307
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,26 +13,26 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=17
 	}
 
 	history={
-		victory_points = { 9599 1}
+		victory_points = { 8988 4}
 		
-		owner = CJR
+		owner = CPM
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CJR
+		add_core_of = CPM
 	}
 
 	provinces={
-		9598 9599 9600 
+		8982 8983 8984 8985 8986 8987 8988 8989 8990 
 	}
 	local_supplies=0.0 
 }

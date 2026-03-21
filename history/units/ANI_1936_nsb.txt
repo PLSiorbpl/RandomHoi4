@@ -1,0 +1,191 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			anti_air = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Sterrum' Militia Division"
+		location = 2807
+		division_template = "Militia Division"
+		start_experience_factor = 0.659012
+		start_equipment_factor = 0.939824
+	}
+	division= {
+		name = "1nd 'Resumensus' Militia Division"
+		location = 14801
+		division_template = "Militia Division"
+		start_experience_factor = 0.176985
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Hiscator' Militia Division"
+		location = 14540
+		division_template = "Militia Division"
+		start_experience_factor = 0.541933
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Aetor' Militia Division"
+		location = 14722
+		division_template = "Militia Division"
+		start_experience_factor = 0.580688
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Sterrum' Infantry Division"
+		location = 14322
+		division_template = "Infantry Division"
+		start_experience_factor = 0.804554
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Agribum' Infantry Division"
+		location = 14819
+		division_template = "Infantry Division"
+		start_experience_factor = 0.103210
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Honus' Artillery Division"
+		location = 14624
+		division_template = "Artillery Division"
+		start_experience_factor = 0.417742
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Anivis' Cavalry Division"
+		location = 14743
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.489389
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Nourub' Cavalry Division"
+		location = 706
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.153263
+		start_equipment_factor = 1.000000
+	}
+
+}

@@ -1,0 +1,32 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Fonamh Fleet"			
+		naval_base = 13299
+		task_force = {
+			name = "Fonamh Fleet"
+			location = 13299
+			
+						ship = { name = "Ardanntignad" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = QON version_name = "Cuidheann Class" } }	}
+			ship = { name = "Fain" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QON version_name = "Fain Class" } }	}
+			ship = { name = "Fain 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = QON version_name = "Ardanntignad Class" } }	}
+			ship = { name = "Fainn" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QON version_name = "Fonamh Class" } }	}
+			ship = { name = "Fain 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = QON version_name = "Fain Class" } }	}
+			ship = { name = "Fonamh" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = QON version_name = "Fain Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

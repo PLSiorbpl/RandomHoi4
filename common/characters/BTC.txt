@@ -1,0 +1,880 @@
+characters = {
+	BTC_Tohichen_Chich={
+		name="Tohichen Chich"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BTC_Yaxkin_Uxun={
+		name="Yaxkin Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Yaxkin_Uxun
+				traits = {	humble 	}
+		}
+
+	}
+	BTC_Bacatl_Tzolkin={
+		name="Bacatl Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Bacatl_Tzolkin
+				traits = {	headstrong 	}
+		}
+
+	}
+	BTC_Ekchichen_Uxun={
+		name="Ekchichen Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Ekchichen_Uxun
+				traits = {	humble 	}
+		}
+
+	}
+	BTC_Bacom_Lamna={
+		name="Bacom Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Bacom_Lamna
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BTC_Bacab_Baluun={
+		name="Bacab Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Bacab_Baluun
+				traits = {	headstrong 	}
+		}
+
+	}
+	BTC_Ekchua_Baluun={
+		name="Ekchua Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Ekchua_Baluun
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BTC_Kukulkal_Lamna={
+		name="Kukulkal Lamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Kukulkal_Lamna
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	BTC_Tohil_Tzolkin={
+		name="Tohil Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Tohil_Tzolkin
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	BTC_Kukulkan_Tzolkin={
+		name="Kukulkan Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Kukulkan_Tzolkin
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	BTC_Moctez_Uxun={
+		name="Moctez Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Moctez_Uxun
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	BTC_Kanek_Baluun={
+		name="Kanek Baluun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Kanek_Baluun
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BTC_Oxib_Uxun={
+		name="Oxib Uxun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Oxib_Uxun
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BTC_Nacab_Baluun={
+		name="Nacab Baluun"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Nacab_Baluun
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	BTC_Balam_Chich={
+		name="Balam Chich"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Balam_Chich
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BTC_Kukulkal_Chich={
+		name="Kukulkal Chich"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Kukulkal_Chich
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	BTC_Moctez_Itzik={
+		name="Moctez Itzik"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Moctez_Itzik
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	BTC_Bacab_Uxmal={
+		name="Bacab Uxmal"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Bacab_Uxmal
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BTC_Pakal_Kanilhau={
+		name="Pakal Kanilhau"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Pakal_Kanilhau
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	BTC_Nacab_Itzik={
+		name="Nacab Itzik"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Nacab_Itzik
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	BTC_Acab_Itzik={
+		name="Acab Itzik"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Acab_Itzik
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	BTC_Bacab_Uxun={
+		name="Bacab Uxun"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BTC_Itzam_Itzik={
+		name="Itzam Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Itzam_Itzik
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Yaxkin_Lamna={
+		name="Yaxkin Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Yaxkin_Lamna
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BTC_Kukulkal_Itzik={
+		name="Kukulkal Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Kukulkal_Itzik
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Chichen_Tzolkin={
+		name="Chichen Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Chichen_Tzolkin
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BTC_Bacom_Kanilhau={
+		name="Bacom Kanilhau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Bacom_Kanilhau
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Chakalam_Tzolkin={
+		name="Chakalam Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Chakalam_Tzolkin
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Chua_Uxun={
+		name="Chua Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Chua_Uxun
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	BTC_Bacatl_Becab={
+		name="Bacatl Becab"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Bacatl_Becab
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BTC_Ekchil_Kanilhau={
+		name="Ekchil Kanilhau"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Ekchil_Kanilhau
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BTC_Moctez_Kanilhau={
+		name="Moctez Kanilhau"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Moctez_Kanilhau
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	BTC_Nacab_Chich={
+		name="Nacab Chich"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Nacab_Chich
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	BTC_Kanek_Becab={
+		name="Kanek Becab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Kanek_Becab
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	BTC_Popo_Itzik={
+		name="Popo Itzik"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Popo_Itzik
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	BTC_Nacab_Becab={
+		name="Nacab Becab"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Nacab_Becab
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	BTC_Acab_Uxmal={
+		name="Acab Uxmal"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Acab_Uxmal
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	BTC_Oxib_Kanilhau={
+		name="Oxib Kanilhau"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Oxib_Kanilhau
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	BTC_Kukulkalam_Becab={
+		name="Kukulkalam Becab"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Kukulkalam_Becab
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	BTC_Tohichen_Lamna={
+		name="Tohichen Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Tohichen_Lamna
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	BTC_Pakan_Baluun={
+		name="Pakan Baluun"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Pakan_Baluun
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	BTC_Tecun_Uxmal={
+		name="Tecun Uxmal"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Tecun_Uxmal
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	BTC_Chichen_Lamna={
+		name="Chichen Lamna"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BTC_Balam_Uxun={
+		name="Balam Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Balam_Uxun
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	BTC_Chua_Baluun={
+		name="Chua Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Chua_Baluun
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	BTC_Balam_Itzik={
+		name="Balam Itzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Balam_Itzik
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	BTC_Chakalam_Uxun={
+		name="Chakalam Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Chakalam_Uxun
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	BTC_Kukulkan_Chich={
+		name="Kukulkan Chich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Kukulkan_Chich
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BTC_Pakan_Lamna={
+		name="Pakan Lamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Pakan_Lamna
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Yaxkin_Itzik={
+		name="Yaxkin Itzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Yaxkin_Itzik
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	BTC_Itzam_Uxmal={
+		name="Itzam Uxmal"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Itzam_Uxmal
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	BTC_Oxib_Baluun={
+		name="Oxib Baluun"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Oxib_Baluun
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BTC_Tohil_Uxun={
+		name="Tohil Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Tohil_Uxun
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BTC_Kanek_Uxmal={
+		name="Kanek Uxmal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Kanek_Uxmal
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	BTC_Kanek_Itzik={
+		name="Kanek Itzik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Kanek_Itzik
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	BTC_Bacom_Baluun={
+		name="Bacom Baluun"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Bacom_Baluun
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	BTC_Tohil_Itzik={
+		name="Tohil Itzik"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Tohil_Itzik
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BTC_Kukulkan_Kanilhau={
+		name="Kukulkan Kanilhau"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Kukulkan_Kanilhau
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	BTC_Ekchil_Uxmal={
+		name="Ekchil Uxmal"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Ekchil_Uxmal
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	BTC_Bacom_Becab={
+		name="Bacom Becab"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Bacom_Becab
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	BTC_Ekchua_Itzik={
+		name="Ekchua Itzik"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Ekchua_Itzik
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	BTC_Tecun_Tzolkin={
+		name="Tecun Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Tecun_Tzolkin
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	BTC_Chua_Tzolkin={
+		name="Chua Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Chua_Tzolkin
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	BTC_Chichen_Baluun={
+		name="Chichen Baluun"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BTC_Ekchil_Uxun={
+		name="Ekchil Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Ekchil_Uxun
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BTC_Ekchil_Baluun={
+		name="Ekchil Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Ekchil_Baluun
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Ekchichen_Chich={
+		name="Ekchichen Chich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Ekchichen_Chich
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Ahkin_Baluun={
+		name="Ahkin Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Ahkin_Baluun
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	BTC_Ekchichen_Baluun={
+		name="Ekchichen Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Ekchichen_Baluun
+				traits = {	first_lady 	}
+		}
+
+	}
+	BTC_Bacom_Chich={
+		name="Bacom Chich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BTC_Bacom_Chich
+				traits = {	infirm 	}
+		}
+
+	}
+	BTC_Bacom_Tzolkin={
+		name="Bacom Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Bacom_Tzolkin
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	BTC_Popo_Uxun={
+		name="Popo Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Popo_Uxun
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BTC_Nacab_Uxmal={
+		name="Nacab Uxmal"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Nacab_Uxmal
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	BTC_Moctez_Uxmal={
+		name="Moctez Uxmal"
+
+		advisor={
+			slot = army_chief
+			idea_token = BTC_Moctez_Uxmal
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BTC_Ekchua_Tzolkin={
+		name="Ekchua Tzolkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Ekchua_Tzolkin
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BTC_Chichen_Uxmal={
+		name="Chichen Uxmal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BTC_Chichen_Uxmal
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	BTC_Kanek_Tzolkin={
+		name="Kanek Tzolkin"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Kanek_Tzolkin
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	BTC_Itzam_Lamna={
+		name="Itzam Lamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = BTC_Itzam_Lamna
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	BTC_Balam_Lamna={
+		name="Balam Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Balam_Lamna
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	BTC_Kukulkan_Lamna={
+		name="Kukulkan Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Kukulkan_Lamna
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	BTC_Itzam_Tzolkin={
+		name="Itzam Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Itzam_Tzolkin
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	BTC_Nacab_Lamna={
+		name="Nacab Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Nacab_Lamna
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	BTC_Kukulkan_Itzik={
+		name="Kukulkan Itzik"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Kukulkan_Itzik
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	BTC_Tohil_Lamna={
+		name="Tohil Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = BTC_Tohil_Lamna
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	BTC_Chichen_Becab={
+		name="Chichen Becab"
+
+		advisor={
+			slot = theorist
+			idea_token = BTC_Chichen_Becab
+				traits = {	military_theorist 	}
+		}
+
+	}
+	BTC_Popo_Baluun={
+		name="Popo Baluun"
+
+		advisor={
+			slot = theorist
+			idea_token = BTC_Popo_Baluun
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	BTC_Kukulkanek_Kanilhau={
+		name="Kukulkanek Kanilhau"
+
+		advisor={
+			slot = theorist
+			idea_token = BTC_Kukulkanek_Kanilhau
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

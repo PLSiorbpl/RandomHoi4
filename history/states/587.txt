@@ -2,7 +2,7 @@
 state={
 	id=587
 	name="STATE_587"
-	manpower = 793820
+	manpower = 1071995
 	
 	state_category = large_town
 	#impassable = yes
@@ -12,27 +12,27 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
-		coal=9
+		tungsten=6
+		coal=0
 	}
 
 	history={
-		victory_points = { 8580 7}
+		victory_points = { 7747 8}
 		
-		owner = CCH
+		owner = ULU
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CCH
+		add_core_of = ULU
 	}
 
 	provinces={
-		8575 8576 8577 8578 8579 8580 8581 8582 8583 8584 8585 8586 8587 
+		7747 7748 7749 7750 7751 7752 7753 7754 7755 7756 7757 7758 7759 7760 7761 7762 
 	}
 	local_supplies=0.0 
 }

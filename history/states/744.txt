@@ -2,40 +2,37 @@
 state={
 	id=744
 	name="STATE_744"
-	manpower = 659784
+	manpower = 707206
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=2
-		oil=0
+		chromium=0
+		oil=2
 		rubber=0
 		steel=0
-		tungsten=3
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10587 1}
-		victory_points = { 10588 1}
-		victory_points = { 10589 1}
-		victory_points = { 10595 1}
+		victory_points = { 9985 4}
 		
-		owner = CJR
+		owner = UNI
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = CJR
+		add_core_of = UNI
 	}
 
 	provinces={
-		10586 10587 10588 10589 10590 10591 10592 10593 10594 10595 
+		9978 9979 9980 9981 9982 9983 9984 9985 9986 9987 
 	}
 	local_supplies=0.0 
 }

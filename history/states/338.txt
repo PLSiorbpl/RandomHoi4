@@ -2,7 +2,7 @@
 state={
 	id=338
 	name="STATE_338"
-	manpower = 214719
+	manpower = 223117
 	
 	state_category = pastoral
 	#impassable = yes
@@ -18,20 +18,20 @@ state={
 
 	history={
 		
-		owner = PCR
+		owner = GDA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = PCR
+		add_core_of = GDA
 	}
 
 	provinces={
-		4888 4889 4890 
+		4542 4543 
 	}
 	local_supplies=0.0 
 }

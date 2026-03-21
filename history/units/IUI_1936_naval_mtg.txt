@@ -1,0 +1,39 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ilikiq Fleet"			
+		naval_base = 17805
+		task_force = {
+			name = "Ilikiq Fleet"
+			location = 17805
+			
+						ship = { name = "Katak" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IUI version_name = "Surta Class" } }	}
+			ship = { name = "Katak 2" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = IUI version_name = "Kuvak Class" } }	}
+			ship = { name = "Ilikiq" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IUI version_name = "Kuvak Class" } }	}
+			ship = { name = "Arna" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IUI version_name = "Kuvak Class" } }	}
+			ship = { name = "Imaq" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IUI version_name = "Kuvak Class" } }	}
+			ship = { name = "Ilikiq 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IUI version_name = "Kuvak Class" } }	}
+			ship = { name = "Kuvak" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IUI version_name = "Ilikiq Class" } }	}
+			ship = { name = "Surta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IUI version_name = "Avakkutanirn Class" } }	}
+			ship = { name = "Imaq 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IUI version_name = "Ilikiq Class" } }	}
+			ship = { name = "Katak 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IUI version_name = "Ilikiq Class" } }	}
+			ship = { name = "Kuvak 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IUI version_name = "Kuvak Class" } }	}
+			ship = { name = "Imaq 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IUI version_name = "Kuvak Class" } }	}
+			ship = { name = "Katak 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IUI version_name = "Avakkutanirn Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

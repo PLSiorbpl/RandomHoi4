@@ -1,0 +1,41 @@
+
+state={
+	id=1377
+	name="STATE_1377"
+	manpower = 83358
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=3
+	}
+
+	history={
+		victory_points = { 17830 1}
+		
+		owner = DRV
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17830 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DRV
+	}
+
+	provinces={
+		17830 
+	}
+	local_supplies=0.0 
+}

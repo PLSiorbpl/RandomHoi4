@@ -2,9 +2,9 @@
 state={
 	id=599
 	name="STATE_599"
-	manpower = 1567627
+	manpower = 947149
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,30 +12,31 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=7
-		coal=40
+		tungsten=0
+		coal=0
 	}
 
 	history={
-		victory_points = { 8726 3}
-		victory_points = { 8727 5}
-		victory_points = { 8728 5}
-		victory_points = { 8735 1}
+		victory_points = { 7911 4}
+		victory_points = { 7915 3}
 		
-		owner = MWR
+		owner = FAB
 		buildings = {
-			infrastructure = 3
-			air_base = 3
-			arms_factory = 1
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 1
 			
+			7922 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MWR
+		add_core_of = FAB
 	}
 
 	provinces={
-		8724 8725 8726 8727 8728 8729 8730 8731 8732 8733 8734 8735 8736 8737 8738 8739 8740 8741 8742 8743 8744 8745 8746 8747 8748 8749 8750 
+		7910 7911 7912 7913 7914 7915 7916 7917 7918 7919 7920 7921 7922 7923 
 	}
 	local_supplies=0.0 
 }

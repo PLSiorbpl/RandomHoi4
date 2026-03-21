@@ -2,7 +2,7 @@
 state={
 	id=767
 	name="STATE_767"
-	manpower = 715562
+	manpower = 1053883
 	
 	state_category = large_town
 	#impassable = yes
@@ -10,31 +10,30 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=2
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10841 2}
-		victory_points = { 10843 1}
-		victory_points = { 10851 2}
+		victory_points = { 10300 7}
+		victory_points = { 10311 1}
 		
-		owner = TQI
+		owner = BHL
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = TQI
+		add_core_of = BHL
 	}
 
 	provinces={
-		10841 10842 10843 10844 10845 10846 10847 10848 10849 10850 10851 10852 
+		10300 10301 10302 10303 10304 10305 10306 10307 10308 10309 10310 10311 10312 10313 10314 10315 
 	}
 	local_supplies=0.0 
 }

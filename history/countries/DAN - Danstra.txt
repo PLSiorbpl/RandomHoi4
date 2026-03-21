@@ -1,0 +1,516 @@
+capital = 738
+
+oob = "DAN_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "DAN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "DAN_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Ribavac Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mostrvo Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Ptica Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mostrvo Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mostrvo Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Muda Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "DAN_1936_air_bba"
+		set_technology = {
+			air_torpedoe_1 = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			
+		}
+
+	else = {
+		set_air_oob = "DAN_1936_air_legacy"
+		set_technology = {
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_destroyer = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "DAN_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Mostrvo Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Muda Class"
+			type = destroyer_2
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ptica Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ptica Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_light_battery = 1
+	basic_naval_mines = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	mtg_transport = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "DAN_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Mostrvo Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Muda Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ptica Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ptica Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+
+	}
+
+
+recruit_character = DAN_Vlanis_Mostrvo
+recruit_character = DAN_Kazimir_Krava
+recruit_character = DAN_Yuraj_Ptica
+recruit_character = DAN_Vlav_Mosof
+recruit_character = DAN_Zdek_Mosof
+recruit_character = DAN_Matefan_Hradjevinatr
+recruit_character = DAN_Ivan_Plas
+recruit_character = DAN_Radosh_Muda
+recruit_character = DAN_Stej_Mosof
+recruit_character = DAN_Sladoslavel_Losof
+recruit_character = DAN_Sladoslavel_Muda
+recruit_character = DAN_Bogdankoladi_Zvuk
+recruit_character = DAN_Stej_Losof
+recruit_character = DAN_Oleg_Plas
+recruit_character = DAN_Bogdan_Plas
+recruit_character = DAN_Zoran_Zvuk
+recruit_character = DAN_Radosh_Losof
+recruit_character = DAN_Vlanis_Ptica
+recruit_character = DAN_Miroslavko_Hradjevinatr
+recruit_character = DAN_Kazimeon_Hradjevinatr
+recruit_character = DAN_Oleg_Krava
+recruit_character = DAN_Jurislav_Mosof
+recruit_character = DAN_Vlav_Zvuk
+recruit_character = DAN_Kazimir_Muda
+recruit_character = DAN_Matefan_Losof
+recruit_character = DAN_Alexei_Mostrvo
+recruit_character = DAN_Jurilav_Plas
+recruit_character = DAN_Kazimeon_Ptica
+recruit_character = DAN_Rado_Mostrvo
+recruit_character = DAN_Dmir_Zvuk
+recruit_character = DAN_Yuran_Zvuk
+recruit_character = DAN_Miris_Plas
+recruit_character = DAN_Goril_Mostrvo
+recruit_character = DAN_Nikitris_Krava
+recruit_character = DAN_Lubosla_Plas
+recruit_character = DAN_Luboslavko_Ribavac
+recruit_character = DAN_Luboslavko_Ptica
+recruit_character = DAN_Bogdankolav_Muda
+recruit_character = DAN_Lubomas_Muda
+recruit_character = DAN_Radosh_Mostrvo
+recruit_character = DAN_Bohdanovanis_Muda
+recruit_character = DAN_Dusan_Ptica
+recruit_character = DAN_Marosh_Hradjevinatr
+recruit_character = DAN_Jurislav_Mostrvo
+recruit_character = DAN_Mateusan_Ptica
+recruit_character = DAN_Lubomas_Mostrvo
+recruit_character = DAN_Miroslavko_Zvuk
+recruit_character = DAN_Niko_Ptica
+recruit_character = DAN_Lubomas_Krava
+recruit_character = DAN_Dran_Plas
+recruit_character = DAN_Stan_Ptica
+recruit_character = DAN_Kirosh_Ribavac
+recruit_character = DAN_Miroslav_Ribavac
+recruit_character = DAN_Steusanov_Mosof
+recruit_character = DAN_Radek_Plas
+recruit_character = DAN_Niktor_Ptica
+recruit_character = DAN_Sladoslavel_Krava
+recruit_character = DAN_Petan_Mosof
+recruit_character = DAN_Marosla_Plas
+recruit_character = DAN_Janko_Krava
+recruit_character = DAN_Slavko_Mosof
+recruit_character = DAN_Dusan_Plas
+recruit_character = DAN_Lubomir_Losof
+recruit_character = DAN_Niko_Krava
+recruit_character = DAN_Radeneksei_Hradjevinatr
+recruit_character = DAN_Sergei_Plas
+recruit_character = DAN_Jaroslav_Plas
+recruit_character = DAN_Kazimeon_Plas
+recruit_character = DAN_Stej_Krava
+recruit_character = DAN_Steusan_Losof
+recruit_character = DAN_Janko_Hradjevinatr
+recruit_character = DAN_Niko_Losof
+recruit_character = DAN_Bogdan_Mosof
+recruit_character = DAN_Tomir_Zvuk
+recruit_character = DAN_Rado_Plas
+recruit_character = DAN_Radeneksei_Ribavac
+recruit_character = DAN_Stej_Mostrvo
+recruit_character = DAN_Alexei_Muda
+recruit_character = DAN_Mateusan_Krava
+recruit_character = DAN_Andrej_Plas
+recruit_character = DAN_Bohdanovanis_Hradjevinatr
+recruit_character = DAN_Miroslav_Hradjevinatr
+recruit_character = DAN_Dmir_Ribavac
+recruit_character = DAN_Dran_Krava
+recruit_character = DAN_Kiros_Zvuk
+recruit_character = DAN_Stej_Plas
+recruit_character = DAN_Bogdankolav_Hradjevinatr
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 6
+set_convoys = 13
+set_stability = 44
+set_war_support = 53
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1889.6.3"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	fascism = 31
+	communism = 26
+	neutrality = 18
+}
+
+
+
+
+

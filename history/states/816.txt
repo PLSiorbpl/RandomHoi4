@@ -2,37 +2,38 @@
 state={
 	id=816
 	name="STATE_816"
-	manpower = 247006
+	manpower = 514927
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
-		steel=0
+		rubber=4
+		steel=7
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11518 1}
+		victory_points = { 10985 1}
+		victory_points = { 10987 1}
 		
-		owner = COZ
+		owner = RFD
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = COZ
+		add_core_of = RFD
 	}
 
 	provinces={
-		11517 11518 11519 
+		10985 10986 10987 10988 10989 10990 10991 10992 
 	}
 	local_supplies=0.0 
 }

@@ -2,36 +2,38 @@
 state={
 	id=56
 	name="STATE_56"
-	manpower = 173291
+	manpower = 553110
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=2
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 829 1}
+		victory_points = { 831 1}
 		
-		owner = NOJ
+		owner = GDA
 		buildings = {
-			infrastructure = 2
-			air_base = 3
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NOJ
+		add_core_of = GDA
 	}
 
 	provinces={
-		897 898 
+		827 828 829 830 831 832 833 
 	}
 	local_supplies=0.0 
 }

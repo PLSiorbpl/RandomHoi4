@@ -2,9 +2,9 @@
 state={
 	id=1279
 	name="STATE_1279"
-	manpower = 758041
+	manpower = 260781
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,30 +13,28 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=18
+		coal=0
 	}
 
 	history={
-		victory_points = { 17495 5}
-		victory_points = { 17501 1}
 		
-		owner = GWU
+		owner = RUT
 		buildings = {
 			infrastructure = 3
-			air_base = 3
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			17505 = {
+			16866 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = GWU
+		add_core_of = RUT
 	}
 
 	provinces={
-		17494 17495 17496 17497 17498 17499 17500 17501 17502 17503 17504 17505 
+		16865 16866 16867 
 	}
 	local_supplies=0.0 
 }

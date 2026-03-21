@@ -2,42 +2,36 @@
 state={
 	id=921
 	name="STATE_921"
-	manpower = 862156
+	manpower = 148339
 	
-	state_category = large_town
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=4
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12679 3}
-		victory_points = { 12690 3}
-		victory_points = { 12691 1}
 		
-		owner = UEO
+		owner = FUL
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 2
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			12683 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = UEO
+		add_core_of = FUL
 	}
 
 	provinces={
-		12679 12680 12681 12682 12683 12684 12685 12686 12687 12688 12689 12690 12691 12692 
+		12377 12378 12379 
 	}
 	local_supplies=0.0 
 }

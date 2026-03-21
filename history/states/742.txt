@@ -2,7 +2,7 @@
 state={
 	id=742
 	name="STATE_742"
-	manpower = 1079532
+	manpower = 1213285
 	
 	state_category = city
 	#impassable = yes
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10567 3}
-		victory_points = { 10576 3}
-		victory_points = { 10579 3}
+		victory_points = { 9957 6}
+		victory_points = { 9968 3}
 		
-		owner = JMI
+		owner = PBR
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 3
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = JMI
+		add_core_of = PBR
 	}
 
 	provinces={
-		10563 10564 10565 10566 10567 10568 10569 10570 10571 10572 10573 10574 10575 10576 10577 10578 10579 10580 
+		9956 9957 9958 9959 9960 9961 9962 9963 9964 9965 9966 9967 9968 9969 9970 9971 9972 9973 
 	}
 	local_supplies=0.0 
 }

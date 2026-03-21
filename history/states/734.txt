@@ -2,13 +2,13 @@
 state={
 	id=734
 	name="STATE_734"
-	manpower = 352770
+	manpower = 452544
 	
 	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=7
 		oil=0
 		rubber=0
 		steel=0
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 10438 1}
+		victory_points = { 9836 1}
 		
-		owner = AGS
+		owner = FAB
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
-			10441 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = AGS
+		add_core_of = FAB
 	}
 
 	provinces={
-		10437 10438 10439 10440 10441 
+		9834 9835 9836 9837 9838 9839 9840 
 	}
 	local_supplies=0.0 
 }

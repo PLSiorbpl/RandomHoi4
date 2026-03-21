@@ -2,9 +2,9 @@
 state={
 	id=1311
 	name="STATE_1311"
-	manpower = 442760
+	manpower = 675279
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,27 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 17749 1}
-		victory_points = { 17750 1}
-		victory_points = { 17751 1}
+		victory_points = { 17230 1}
+		victory_points = { 17231 3}
 		
-		owner = NFT
+		owner = RUT
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			17752 = {
+			17231 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = NFT
+		add_core_of = RUT
 	}
 
 	provinces={
-		17748 17749 17750 17751 17752 17753 
+		17226 17227 17228 17229 17230 17231 17232 17233 17234 
 	}
 	local_supplies=0.0 
 }

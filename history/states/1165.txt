@@ -2,14 +2,14 @@
 state={
 	id=1165
 	name="STATE_1165"
-	manpower = 2115295
+	manpower = 1875943
 	
-	state_category = megalopolis
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=2
+		oil=8
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,27 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 16217 7}
-		victory_points = { 16218 6}
-		victory_points = { 16236 7}
+		victory_points = { 15215 4}
+		victory_points = { 15223 1}
+		victory_points = { 15224 9}
 		
-		owner = LHU
+		owner = QEC
 		buildings = {
 			infrastructure = 4
-			air_base = 1
-			arms_factory = 2
-			industrial_complex = 1
 			
-			16224 = {
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			15223 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = LHU
+		add_core_of = QEC
 	}
 
 	provinces={
-		16203 16204 16205 16206 16207 16208 16209 16210 16211 16212 16213 16214 16215 16216 16217 16218 16219 16220 16221 16222 16223 16224 16225 16226 16227 16228 16229 16230 16231 16232 16233 16234 16235 16236 16237 16238 
+		15210 15211 15212 15213 15214 15215 15216 15217 15218 15219 15220 15221 15222 15223 15224 15225 15226 15227 15228 15229 15230 15231 15232 15233 15234 15235 15236 15237 
 	}
 	local_supplies=0.0 
 }

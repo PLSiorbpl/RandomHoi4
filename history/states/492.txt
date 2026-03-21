@@ -2,14 +2,14 @@
 state={
 	id=492
 	name="STATE_492"
-	manpower = 302456
+	manpower = 1256163
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 6999 1}
+		victory_points = { 6394 3}
+		victory_points = { 6395 4}
 		
-		owner = ATC
+		owner = MFN
 		buildings = {
 			infrastructure = 2
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			6996 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ATC
+		add_core_of = MFN
 	}
 
 	provinces={
-		6996 6997 6998 6999 
+		6394 6395 6396 6397 6398 6399 6400 6401 6402 6403 6404 6405 6406 6407 6408 6409 6410 6411 6412 6413 6414 6415 6416 6417 6418 6419 
 	}
 	local_supplies=0.0 
 }

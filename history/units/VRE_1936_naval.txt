@@ -1,0 +1,35 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Vrefeka Fleet"			
+		naval_base = 4335
+		task_force = {
+			name = "Vrefeka Fleet"
+			location = 4335
+			
+						ship = { name = "Vrefeka" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = VRE version_name = "Sunce Class" } }	}
+			ship = { name = "Galjigan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VRE version_name = "Oblik Class" } }	}
+			ship = { name = "Oloda" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VRE version_name = "Oblik Class" } }	}
+			ship = { name = "Vrefeka 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VRE version_name = "Oblik Class" } }	}
+			ship = { name = "Oloda 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VRE version_name = "Oloda Class" } }	}
+			ship = { name = "Lostvot" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VRE version_name = "Oblik Class" } }	}
+			ship = { name = "Galjigan 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VRE version_name = "Oblik Class" } }	}
+			ship = { name = "Istverom" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VRE version_name = "Oblik Class" } }	}
+			ship = { name = "Istverom 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VRE version_name = "Oloda Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

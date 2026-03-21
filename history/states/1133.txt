@@ -2,38 +2,36 @@
 state={
 	id=1133
 	name="STATE_1133"
-	manpower = 1024037
+	manpower = 234421
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 15754 4}
-		victory_points = { 15755 4}
 		
-		owner = HQR
+		owner = SLU
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 2
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HQR
+		add_core_of = SLU
 	}
 
 	provinces={
-		15752 15753 15754 15755 15756 15757 15758 15759 15760 15761 15762 15763 15764 15765 15766 15767 15768 
+		14806 14807 14808 14809 
 	}
 	local_supplies=0.0 
 }

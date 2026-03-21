@@ -2,9 +2,9 @@
 state={
 	id=1293
 	name="STATE_1293"
-	manpower = 263345
+	manpower = 145686
 	
-	state_category = pastoral
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 17606 1}
+		victory_points = { 17030 1}
 		
-		owner = XUA
+		owner = KFM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 0
 			
+			17030 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = XUA
+		add_core_of = KFM
 	}
 
 	provinces={
-		17604 17605 17606 
+		17030 
 	}
 	local_supplies=0.0 
 }

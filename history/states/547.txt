@@ -2,12 +2,12 @@
 state={
 	id=547
 	name="STATE_547"
-	manpower = 491581
+	manpower = 809685
 	
 	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=5
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 7912 2}
-		victory_points = { 7917 1}
+		victory_points = { 7196 5}
 		
-		owner = MWR
+		owner = MAT
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MWR
+		add_core_of = MAT
 	}
 
 	provinces={
-		7911 7912 7913 7914 7915 7916 7917 7918 
+		7194 7195 7196 7197 7198 7199 7200 7201 7202 7203 7204 
 	}
 	local_supplies=0.0 
 }

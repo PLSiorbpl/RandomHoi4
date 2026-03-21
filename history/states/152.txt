@@ -2,14 +2,14 @@
 state={
 	id=152
 	name="STATE_152"
-	manpower = 1514825
+	manpower = 1374856
 	
-	state_category = large_city
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 2395 10}
-		victory_points = { 2401 3}
-		victory_points = { 2416 1}
+		victory_points = { 2180 1}
+		victory_points = { 2182 5}
+		victory_points = { 2183 3}
 		
-		owner = HHL
+		owner = OON
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
+			infrastructure = 4
+			
+			arms_factory = 0
 			industrial_complex = 1
 			
+			2176 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HHL
+		add_core_of = OON
 	}
 
 	provinces={
-		2393 2394 2395 2396 2397 2398 2399 2400 2401 2402 2403 2404 2405 2406 2407 2408 2409 2410 2411 2412 2413 2414 2415 2416 2417 2418 
+		2170 2171 2172 2173 2174 2175 2176 2177 2178 2179 2180 2181 2182 2183 2184 2185 2186 2187 2188 2189 2190 
 	}
 	local_supplies=0.0 
 }

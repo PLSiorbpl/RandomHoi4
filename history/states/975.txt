@@ -2,14 +2,14 @@
 state={
 	id=975
 	name="STATE_975"
-	manpower = 1126947
+	manpower = 1731226
 	
-	state_category = city
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 13391 6}
-		victory_points = { 13405 3}
+		victory_points = { 12976 8}
+		victory_points = { 12980 4}
+		victory_points = { 12993 1}
 		
-		owner = GFI
+		owner = REO
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
-			
+			dockyard = 1
+			12970 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = GFI
+		add_core_of = REO
 	}
 
 	provinces={
-		13387 13388 13389 13390 13391 13392 13393 13394 13395 13396 13397 13398 13399 13400 13401 13402 13403 13404 13405 
+		12969 12970 12971 12972 12973 12974 12975 12976 12977 12978 12979 12980 12981 12982 12983 12984 12985 12986 12987 12988 12989 12990 12991 12992 12993 12994 
 	}
 	local_supplies=0.0 
 }

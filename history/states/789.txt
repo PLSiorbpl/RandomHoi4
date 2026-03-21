@@ -2,9 +2,9 @@
 state={
 	id=789
 	name="STATE_789"
-	manpower = 1005675
+	manpower = 2000599
 	
-	state_category = city
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,30 +13,31 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=5
+		coal=0
 	}
 
 	history={
-		victory_points = { 11192 6}
-		victory_points = { 11193 3}
+		victory_points = { 10590 8}
+		victory_points = { 10591 1}
+		victory_points = { 10598 6}
 		
-		owner = MWR
+		owner = NCL
 		buildings = {
-			infrastructure = 3
-			air_base = 3
-			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			11201 = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			10591 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = MWR
+		add_core_of = NCL
 	}
 
 	provinces={
-		11189 11190 11191 11192 11193 11194 11195 11196 11197 11198 11199 11200 11201 11202 11203 11204 11205 
+		10590 10591 10592 10593 10594 10595 10596 10597 10598 10599 10600 10601 10602 10603 10604 10605 10606 10607 10608 10609 10610 10611 10612 10613 10614 10615 10616 10617 10618 10619 
 	}
 	local_supplies=0.0 
 }

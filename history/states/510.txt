@@ -2,38 +2,39 @@
 state={
 	id=510
 	name="STATE_510"
-	manpower = 1348274
+	manpower = 1842485
 	
 	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=10
 		chromium=0
-		oil=0
+		oil=7
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7353 6}
-		victory_points = { 7355 6}
+		victory_points = { 6716 2}
+		victory_points = { 6721 5}
+		victory_points = { 6735 7}
 		
-		owner = JMI
+		owner = IMA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 1
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = JMI
+		add_core_of = IMA
 	}
 
 	provinces={
-		7337 7338 7339 7340 7341 7342 7343 7344 7345 7346 7347 7348 7349 7350 7351 7352 7353 7354 7355 7356 7357 7358 7359 
+		6716 6717 6718 6719 6720 6721 6722 6723 6724 6725 6726 6727 6728 6729 6730 6731 6732 6733 6734 6735 6736 6737 6738 6739 6740 6741 6742 6743 
 	}
 	local_supplies=0.0 
 }

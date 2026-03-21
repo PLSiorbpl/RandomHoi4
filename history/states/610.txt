@@ -2,14 +2,14 @@
 state={
 	id=610
 	name="STATE_610"
-	manpower = 178687
+	manpower = 1889708
 	
-	state_category = pastoral
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=5
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
+		victory_points = { 8086 7}
+		victory_points = { 8092 3}
+		victory_points = { 8100 4}
 		
-		owner = MCD
+		owner = BON
 		buildings = {
-			infrastructure = 1
-			
+			infrastructure = 4
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 2
 			
-			8879 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = MCD
+		add_core_of = BON
 	}
 
 	provinces={
-		8874 8875 8876 8877 8878 8879 8880 8881 
+		8085 8086 8087 8088 8089 8090 8091 8092 8093 8094 8095 8096 8097 8098 8099 8100 8101 8102 8103 8104 8105 8106 8107 8108 8109 8110 8111 8112 8113 
 	}
 	local_supplies=0.0 
 }

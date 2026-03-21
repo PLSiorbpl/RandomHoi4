@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Yemen Fleet"			
+		naval_base = 10906
+		task_force = {
+			name = "Yemen Fleet"
+			location = 10906
+			
+						ship = { name = "Najrabalam" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YMM version_name = "Najrabalam Class" } }	}
+			ship = { name = "Shura" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = YMM version_name = "Shura Class" } }	}
+			ship = { name = "Shura 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = YMM version_name = "Shura Class" } }	}
+			ship = { name = "Qamahra" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YMM version_name = "Qamahra Class" } }	}
+			ship = { name = "Najrabalam 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YMM version_name = "Qamahra Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

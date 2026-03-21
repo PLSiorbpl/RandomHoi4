@@ -1,0 +1,880 @@
+characters = {
+	OOB_Rictonario_Cale={
+		name="Rictonario Cale"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OOB_Jeandre_Giuscelta={
+		name="Jeandre Giuscelta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Jeandre_Giuscelta
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	OOB_Alexan_Dessa={
+		name="Alexan Dessa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Alexan_Dessa
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	OOB_Felipe_Spio={
+		name="Felipe Spio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Felipe_Spio
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	OOB_Jeano_Spiradaturo={
+		name="Jeano Spiradaturo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Jeano_Spiradaturo
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	OOB_Bruno_Spio={
+		name="Bruno Spio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Bruno_Spio
+				traits = {	headstrong 	}
+		}
+
+	}
+	OOB_Mario_Oranziaggia={
+		name="Mario Oranziaggia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Mario_Oranziaggia
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	OOB_Steo_Giuscelta={
+		name="Steo Giuscelta"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Steo_Giuscelta
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	OOB_Mario_Pauranta={
+		name="Mario Pauranta"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Mario_Pauranta
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	OOB_Lucardo_Pauranta={
+		name="Lucardo Pauranta"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Lucardo_Pauranta
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	OOB_Felipe_Oranziaggia={
+		name="Felipe Oranziaggia"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Felipe_Oranziaggia
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	OOB_Ramonio_Dessa={
+		name="Ramonio Dessa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Ramonio_Dessa
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	OOB_Vico_Spiradaturo={
+		name="Vico Spiradaturo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Vico_Spiradaturo
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	OOB_Rictonario_Pauranta={
+		name="Rictonario Pauranta"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Rictonario_Pauranta
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	OOB_Julien_Pauranta={
+		name="Julien Pauranta"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Julien_Pauranta
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	OOB_Alberry_Spio={
+		name="Alberry Spio"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Alberry_Spio
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	OOB_Marco_Ombrola={
+		name="Marco Ombrola"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Marco_Ombrola
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	OOB_Marco_Spiradaturo={
+		name="Marco Spiradaturo"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Marco_Spiradaturo
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	OOB_Nictonio_Miringuaro={
+		name="Nictonio Miringuaro"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Nictonio_Miringuaro
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	OOB_Carco_Cale={
+		name="Carco Cale"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Carco_Cale
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	OOB_Andre_Oranziaggia={
+		name="Andre Oranziaggia"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Andre_Oranziaggia
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	OOB_Pedre_Giuscelta={
+		name="Pedre Giuscelta"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OOB_Rictonario_Spio={
+		name="Rictonario Spio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Rictonario_Spio
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	OOB_Carco_Spiradaturo={
+		name="Carco Spiradaturo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Carco_Spiradaturo
+				traits = {	basileus 	}
+		}
+
+	}
+	OOB_Cario_Oranziaggia={
+		name="Cario Oranziaggia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Cario_Oranziaggia
+				traits = {	polemarch 	}
+		}
+
+	}
+	OOB_Frano_Cale={
+		name="Frano Cale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Frano_Cale
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	OOB_Nicto_Miringuaro={
+		name="Nicto Miringuaro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Nicto_Miringuaro
+				traits = {	warmonger 	}
+		}
+
+	}
+	OOB_Vica_Spiradaturo={
+		name="Vica Spiradaturo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Vica_Spiradaturo
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	OOB_Carco_Dessa={
+		name="Carco Dessa"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Carco_Dessa
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	OOB_Nicto_Spiradaturo={
+		name="Nicto Spiradaturo"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Nicto_Spiradaturo
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	OOB_Alberry_Ombrola={
+		name="Alberry Ombrola"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Alberry_Ombrola
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	OOB_Lucarcolose_Dessa={
+		name="Lucarcolose Dessa"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Lucarcolose_Dessa
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	OOB_Marco_Cale={
+		name="Marco Cale"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Marco_Cale
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	OOB_Lucarlo_Spio={
+		name="Lucarlo Spio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Lucarlo_Spio
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	OOB_Julierto_Ombrola={
+		name="Julierto Ombrola"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Julierto_Ombrola
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	OOB_Pablo_Dessa={
+		name="Pablo Dessa"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Pablo_Dessa
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	OOB_Steo_Pauranta={
+		name="Steo Pauranta"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Steo_Pauranta
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	OOB_Vicarcomo_Ombrola={
+		name="Vicarcomo Ombrola"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Vicarcomo_Ombrola
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	OOB_Francescolo_Giuscelta={
+		name="Francescolo Giuscelta"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Francescolo_Giuscelta
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	OOB_Feliertonard_Dessa={
+		name="Feliertonard Dessa"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Feliertonard_Dessa
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	OOB_Marco_Dessa={
+		name="Marco Dessa"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Marco_Dessa
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	OOB_Julierto_Spiradaturo={
+		name="Julierto Spiradaturo"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Julierto_Spiradaturo
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	OOB_Julien_Cale={
+		name="Julien Cale"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OOB_Steo_Spiradaturo={
+		name="Steo Spiradaturo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Steo_Spiradaturo
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	OOB_Pablos_Ombrola={
+		name="Pablos Ombrola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Pablos_Ombrola
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	OOB_Nico_Spiradaturo={
+		name="Nico Spiradaturo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Nico_Spiradaturo
+				traits = {	infirm 	}
+		}
+
+	}
+	OOB_Marco_Spio={
+		name="Marco Spio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Marco_Spio
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	OOB_Robertonio_Dessa={
+		name="Robertonio Dessa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Robertonio_Dessa
+				traits = {	polemarch 	}
+		}
+
+	}
+	OOB_Alexancescol_Spio={
+		name="Alexancescol Spio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Alexancescol_Spio
+				traits = {	infirm 	}
+		}
+
+	}
+	OOB_Nictonio_Cale={
+		name="Nictonio Cale"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Nictonio_Cale
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	OOB_Matteo_Pauranta={
+		name="Matteo Pauranta"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Matteo_Pauranta
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	OOB_Ramonio_Ombrola={
+		name="Ramonio Ombrola"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Ramonio_Ombrola
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	OOB_Carco_Ombrola={
+		name="Carco Ombrola"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Carco_Ombrola
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	OOB_Vico_Dessa={
+		name="Vico Dessa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Vico_Dessa
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	OOB_Thien_Spio={
+		name="Thien Spio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Thien_Spio
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	OOB_Feliertonard_Oranziaggia={
+		name="Feliertonard Oranziaggia"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Feliertonard_Oranziaggia
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	OOB_Francescolo_Spiradaturo={
+		name="Francescolo Spiradaturo"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Francescolo_Spiradaturo
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	OOB_Mardo_Giuscelta={
+		name="Mardo Giuscelta"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Mardo_Giuscelta
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	OOB_Felien_Dessa={
+		name="Felien Dessa"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Felien_Dessa
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	OOB_Vicarcomo_Giuscelta={
+		name="Vicarcomo Giuscelta"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Vicarcomo_Giuscelta
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	OOB_Paolas_Dessa={
+		name="Paolas Dessa"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Paolas_Dessa
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	OOB_Cardo_Oranziaggia={
+		name="Cardo Oranziaggia"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Cardo_Oranziaggia
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	OOB_Matteonio_Pauranta={
+		name="Matteonio Pauranta"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Matteonio_Pauranta
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	OOB_Giaco_Dessa={
+		name="Giaco Dessa"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OOB_Matteo_Spio={
+		name="Matteo Spio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Matteo_Spio
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	OOB_Mario_Miringuaro={
+		name="Mario Miringuaro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Mario_Miringuaro
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	OOB_Jeano_Ombrola={
+		name="Jeano Ombrola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Jeano_Ombrola
+				traits = {	infirm 	}
+		}
+
+	}
+	OOB_Giaco_Miringuaro={
+		name="Giaco Miringuaro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Giaco_Miringuaro
+				traits = {	infirm 	}
+		}
+
+	}
+	OOB_Giaco_Pauranta={
+		name="Giaco Pauranta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Giaco_Pauranta
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	OOB_Alberton_Cale={
+		name="Alberton Cale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OOB_Alberton_Cale
+				traits = {	the_banker 	}
+		}
+
+	}
+	OOB_Marlo_Spio={
+		name="Marlo Spio"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Marlo_Spio
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	OOB_Jeandre_Spiradaturo={
+		name="Jeandre Spiradaturo"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Jeandre_Spiradaturo
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	OOB_Matteonio_Spiradaturo={
+		name="Matteonio Spiradaturo"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Matteonio_Spiradaturo
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	OOB_Roberry_Spio={
+		name="Roberry Spio"
+
+		advisor={
+			slot = army_chief
+			idea_token = OOB_Roberry_Spio
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	OOB_Lucarlo_Oranziaggia={
+		name="Lucarlo Oranziaggia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Lucarlo_Oranziaggia
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	OOB_Lucarlo_Pauranta={
+		name="Lucarlo Pauranta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OOB_Lucarlo_Pauranta
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	OOB_Mardo_Miringuaro={
+		name="Mardo Miringuaro"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Mardo_Miringuaro
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	OOB_Vico_Giuscelta={
+		name="Vico Giuscelta"
+
+		advisor={
+			slot = air_chief
+			idea_token = OOB_Vico_Giuscelta
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	OOB_Matteo_Cale={
+		name="Matteo Cale"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Matteo_Cale
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	OOB_Giacomo_Dessa={
+		name="Giacomo Dessa"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Giacomo_Dessa
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	OOB_Pablose_Spio={
+		name="Pablose Spio"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Pablose_Spio
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	OOB_Lucardo_Miringuaro={
+		name="Lucardo Miringuaro"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Lucardo_Miringuaro
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	OOB_Francescolo_Oranziaggia={
+		name="Francescolo Oranziaggia"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Francescolo_Oranziaggia
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	OOB_Cardo_Spio={
+		name="Cardo Spio"
+
+		advisor={
+			slot = high_command
+			idea_token = OOB_Cardo_Spio
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	OOB_Andre_Ombrola={
+		name="Andre Ombrola"
+
+		advisor={
+			slot = theorist
+			idea_token = OOB_Andre_Ombrola
+				traits = {	military_theorist 	}
+		}
+
+	}
+	OOB_Marlo_Cale={
+		name="Marlo Cale"
+
+		advisor={
+			slot = theorist
+			idea_token = OOB_Marlo_Cale
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	OOB_Jeano_Oranziaggia={
+		name="Jeano Oranziaggia"
+
+		advisor={
+			slot = theorist
+			idea_token = OOB_Jeano_Oranziaggia
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

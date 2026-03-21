@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Putri Fleet"			
+		naval_base = 17255
+		task_force = {
+			name = "Putri Fleet"
+			location = 17255
+			
+						ship = { name = "Matu" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RUT version_name = "Nerbang Class" } }	}
+			ship = { name = "Tebiasai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RUT version_name = "Tetan Class" } }	}
+			ship = { name = "Tetan" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUT version_name = "Nerbang Class" } }	}
+			ship = { name = "Nerbang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUT version_name = "Tetan Class" } }	}
+			ship = { name = "Matu 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RUT version_name = "Tetan Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

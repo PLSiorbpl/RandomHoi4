@@ -2,14 +2,14 @@
 state={
 	id=136
 	name="STATE_136"
-	manpower = 963311
+	manpower = 408099
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,28 +17,21 @@ state={
 	}
 
 	history={
-		victory_points = { 2111 4}
-		victory_points = { 2115 1}
-		victory_points = { 2116 1}
-		victory_points = { 2121 2}
 		
-		owner = RDE
+		owner = HUA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
-			dockyard = 1
-			2122 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = RDE
+		add_core_of = HUA
 	}
 
 	provinces={
-		2108 2109 2110 2111 2112 2113 2114 2115 2116 2117 2118 2119 2120 2121 2122 2123 
+		1928 1929 1930 1931 1932 1933 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 
 	}
 	local_supplies=0.0 
 }

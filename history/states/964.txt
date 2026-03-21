@@ -2,9 +2,9 @@
 state={
 	id=964
 	name="STATE_964"
-	manpower = 188300
+	manpower = 369569
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
+		victory_points = { 12884 1}
 		
-		owner = XUA
+		owner = QON
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			13198 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = XUA
+		add_core_of = QON
 	}
 
 	provinces={
-		13197 13198 
+		12883 12884 12885 12886 
 	}
 	local_supplies=0.0 
 }

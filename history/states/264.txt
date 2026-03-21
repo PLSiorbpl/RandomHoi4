@@ -2,9 +2,9 @@
 state={
 	id=264
 	name="STATE_264"
-	manpower = 818533
+	manpower = 396315
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 3964 3}
-		victory_points = { 3965 1}
-		victory_points = { 3972 2}
+		victory_points = { 3570 2}
 		
-		owner = GPU
+		owner = NXS
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GPU
+		add_core_of = NXS
 	}
 
 	provinces={
-		3961 3962 3963 3964 3965 3966 3967 3968 3969 3970 3971 3972 3973 
+		3568 3569 3570 3571 3572 
 	}
 	local_supplies=0.0 
 }

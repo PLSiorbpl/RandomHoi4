@@ -2,9 +2,9 @@
 state={
 	id=316
 	name="STATE_316"
-	manpower = 701306
+	manpower = 2523501
 	
-	state_category = town
+	state_category = megalopolis
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 4670 6}
+		victory_points = { 4259 9}
+		victory_points = { 4282 12}
 		
-		owner = MCH
+		owner = YMN
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 5
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MCH
+		add_core_of = YMN
 	}
 
 	provinces={
-		4668 4669 4670 4671 4672 4673 4674 4675 4676 4677 4678 
+		4256 4257 4258 4259 4260 4261 4262 4263 4264 4265 4266 4267 4268 4269 4270 4271 4272 4273 4274 4275 4276 4277 4278 4279 4280 4281 4282 4283 4284 4285 4286 4287 4288 4289 4290 4291 4292 4293 4294 
 	}
 	local_supplies=0.0 
 }

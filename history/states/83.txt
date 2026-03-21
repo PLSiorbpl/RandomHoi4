@@ -2,7 +2,7 @@
 state={
 	id=83
 	name="STATE_83"
-	manpower = 1109375
+	manpower = 1495327
 	
 	state_category = city
 	#impassable = yes
@@ -11,29 +11,28 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=36
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 1299 6}
-		victory_points = { 1311 3}
+		victory_points = { 1264 11}
 		
-		owner = HPI
+		owner = HBA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = HPI
+		add_core_of = HBA
 	}
 
 	provinces={
-		1293 1294 1295 1296 1297 1298 1299 1300 1301 1302 1303 1304 1305 1306 1307 1308 1309 1310 1311 
+		1251 1252 1253 1254 1255 1256 1257 1258 1259 1260 1261 1262 1263 1264 1265 1266 1267 1268 1269 1270 1271 1272 
 	}
 	local_supplies=0.0 
 }

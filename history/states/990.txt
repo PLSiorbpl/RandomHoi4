@@ -2,37 +2,36 @@
 state={
 	id=990
 	name="STATE_990"
-	manpower = 1106382
+	manpower = 355945
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=4
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13645 10}
 		
-		owner = GFI
+		owner = REO
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 3
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GFI
+		add_core_of = REO
 	}
 
 	provinces={
-		13628 13629 13630 13631 13632 13633 13634 13635 13636 13637 13638 13639 13640 13641 13642 13643 13644 13645 13646 
+		13202 13203 13204 13205 13206 
 	}
 	local_supplies=0.0 
 }

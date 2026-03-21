@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Buatha Fleet"			
+		naval_base = 13172
+		task_force = {
+			name = "Buatha Fleet"
+			location = 13172
+			
+						ship = { name = "Tirseart" definition = battleship equipment = { battleship_1 = { amount = 1 owner = DUA version_name = "Tirseart Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

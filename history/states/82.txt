@@ -2,40 +2,38 @@
 state={
 	id=82
 	name="STATE_82"
-	manpower = 1788483
+	manpower = 491283
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=2
-		chromium=0
-		oil=4
-		rubber=1
+		aluminium=0
+		chromium=4
+		oil=0
+		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 1260 3}
-		victory_points = { 1268 3}
-		victory_points = { 1271 4}
-		victory_points = { 1289 4}
+		victory_points = { 1248 1}
+		victory_points = { 1249 1}
 		
-		owner = EOP
+		owner = ETX
 		buildings = {
 			infrastructure = 3
-			air_base = 5
+			air_base = 3
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = EOP
+		add_core_of = ETX
 	}
 
 	provinces={
-		1260 1261 1262 1263 1264 1265 1266 1267 1268 1269 1270 1271 1272 1273 1274 1275 1276 1277 1278 1279 1280 1281 1282 1283 1284 1285 1286 1287 1288 1289 1290 1291 1292 
+		1245 1246 1247 1248 1249 1250 
 	}
 	local_supplies=0.0 
 }

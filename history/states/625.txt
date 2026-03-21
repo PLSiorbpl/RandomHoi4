@@ -2,42 +2,42 @@
 state={
 	id=625
 	name="STATE_625"
-	manpower = 1194791
+	manpower = 822687
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=6
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9054 5}
-		victory_points = { 9055 2}
-		victory_points = { 9062 3}
+		victory_points = { 8305 2}
+		victory_points = { 8308 1}
+		victory_points = { 8310 1}
 		
-		owner = TQI
+		owner = LUA
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			9060 = {
+			
+			8301 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = TQI
+		add_core_of = LUA
 	}
 
 	provinces={
-		9048 9049 9050 9051 9052 9053 9054 9055 9056 9057 9058 9059 9060 9061 9062 9063 9064 9065 9066 9067 
+		8301 8302 8303 8304 8305 8306 8307 8308 8309 8310 8311 8312 8313 
 	}
 	local_supplies=0.0 
 }

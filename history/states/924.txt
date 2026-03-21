@@ -2,7 +2,7 @@
 state={
 	id=924
 	name="STATE_924"
-	manpower = 509530
+	manpower = 573533
 	
 	state_category = town
 	#impassable = yes
@@ -17,10 +17,10 @@ state={
 	}
 
 	history={
-		victory_points = { 12717 1}
-		victory_points = { 12721 2}
+		victory_points = { 12405 1}
+		victory_points = { 12409 2}
 		
-		owner = UEO
+		owner = KUL
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = UEO
+		add_core_of = KUL
 	}
 
 	provinces={
-		12717 12718 12719 12720 12721 12722 12723 12724 
+		12402 12403 12404 12405 12406 12407 12408 12409 
 	}
 	local_supplies=0.0 
 }

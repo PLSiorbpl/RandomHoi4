@@ -2,12 +2,12 @@
 state={
 	id=740
 	name="STATE_740"
-	manpower = 282856
+	manpower = 859012
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=29
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
+		victory_points = { 9923 2}
+		victory_points = { 9928 2}
+		victory_points = { 9929 1}
 		
-		owner = BEJ
+		owner = FUL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			10535 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = FUL
 	}
 
 	provinces={
-		10531 10532 10533 10534 10535 10536 10537 10538 10539 
+		9920 9921 9922 9923 9924 9925 9926 9927 9928 9929 9930 9931 9932 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,880 @@
+characters = {
+	LQM_Itzam_Mutal={
+		name="Itzam Mutal"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LQM_Itzam_Oxlachel={
+		name="Itzam Oxlachel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Itzam_Oxlachel
+				traits = {	headstrong 	}
+		}
+
+	}
+	LQM_Ekchua_Mutalahuatun={
+		name="Ekchua Mutalahuatun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Ekchua_Mutalahuatun
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	LQM_Nacatl_Oxlachel={
+		name="Nacatl Oxlachel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Nacatl_Oxlachel
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LQM_Ekchakal_Kaluunilhakh={
+		name="Ekchakal Kaluunilhakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Ekchakal_Kaluunilhakh
+				traits = {	headstrong 	}
+		}
+
+	}
+	LQM_Tohil_Kaluunilhakh={
+		name="Tohil Kaluunilhakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Tohil_Kaluunilhakh
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	LQM_Chua_Kaluunilhakh={
+		name="Chua Kaluunilhakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Chua_Kaluunilhakh
+				traits = {	headstrong 	}
+		}
+
+	}
+	LQM_Pakan_Mutal={
+		name="Pakan Mutal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Pakan_Mutal
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	LQM_Acab_Ahcabahpu={
+		name="Acab Ahcabahpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Acab_Ahcabahpu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LQM_Chakan_Lamal={
+		name="Chakan Lamal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Chakan_Lamal
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	LQM_Moctez_Kaluunilhakh={
+		name="Moctez Kaluunilhakh"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Moctez_Kaluunilhakh
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	LQM_Chua_Oxlachel={
+		name="Chua Oxlachel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Chua_Oxlachel
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	LQM_Tohichen_Lamal={
+		name="Tohichen Lamal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Tohichen_Lamal
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LQM_Kukulkan_Mutalahuatun={
+		name="Kukulkan Mutalahuatun"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Kukulkan_Mutalahuatun
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	LQM_Balam_Nakalamnamna={
+		name="Balam Nakalamnamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Balam_Nakalamnamna
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	LQM_Tohichen_Mutal={
+		name="Tohichen Mutal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Tohichen_Mutal
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	LQM_Oxib_Kaluunilhakh={
+		name="Oxib Kaluunilhakh"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Oxib_Kaluunilhakh
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	LQM_Tohichen_Narana={
+		name="Tohichen Narana"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Tohichen_Narana
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	LQM_Itzam_Toholkal={
+		name="Itzam Toholkal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Itzam_Toholkal
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	LQM_Ekchak_Lamal={
+		name="Ekchak Lamal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Ekchak_Lamal
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	LQM_Ekchakan_Lamal={
+		name="Ekchakan Lamal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Ekchakan_Lamal
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	LQM_Oxib_Narana={
+		name="Oxib Narana"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LQM_Bacom_Ahcabahpu={
+		name="Bacom Ahcabahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Bacom_Ahcabahpu
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LQM_Ekchakal_Narana={
+		name="Ekchakal Narana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Ekchakal_Narana
+				traits = {	polemarch 	}
+		}
+
+	}
+	LQM_Kukulkanek_Nakalamnamna={
+		name="Kukulkanek Nakalamnamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Kukulkanek_Nakalamnamna
+				traits = {	generallissimo 	}
+		}
+
+	}
+	LQM_Nacatl_Lamal={
+		name="Nacatl Lamal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Nacatl_Lamal
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	LQM_Itzam_Narana={
+		name="Itzam Narana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Itzam_Narana
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	LQM_Nacatl_Kaluunilhakh={
+		name="Nacatl Kaluunilhakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Nacatl_Kaluunilhakh
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	LQM_Chakalam_Oxlachel={
+		name="Chakalam Oxlachel"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Chakalam_Oxlachel
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LQM_Chakan_Oxlachel={
+		name="Chakan Oxlachel"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Chakan_Oxlachel
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	LQM_Kukulkanek_Mutal={
+		name="Kukulkanek Mutal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Kukulkanek_Mutal
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	LQM_Chichen_Mutal={
+		name="Chichen Mutal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Chichen_Mutal
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LQM_Itzam_Ahcabahpu={
+		name="Itzam Ahcabahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Itzam_Ahcabahpu
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	LQM_Tohichen_Oxlachel={
+		name="Tohichen Oxlachel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Tohichen_Oxlachel
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LQM_Popo_Lamal={
+		name="Popo Lamal"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Popo_Lamal
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	LQM_Tecun_Lamal={
+		name="Tecun Lamal"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Tecun_Lamal
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	LQM_Kukulkal_Kaluunilhakh={
+		name="Kukulkal Kaluunilhakh"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Kukulkal_Kaluunilhakh
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	LQM_Kukulkanek_Mutalahuatun={
+		name="Kukulkanek Mutalahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Kukulkanek_Mutalahuatun
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	LQM_Acatl_Mutalahuatun={
+		name="Acatl Mutalahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Acatl_Mutalahuatun
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	LQM_Yaxkin_Lamal={
+		name="Yaxkin Lamal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Yaxkin_Lamal
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	LQM_Acatl_Kaluunilhakh={
+		name="Acatl Kaluunilhakh"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Acatl_Kaluunilhakh
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	LQM_Popo_Kaluunilhakh={
+		name="Popo Kaluunilhakh"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Popo_Kaluunilhakh
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	LQM_Bacab_Mutalahuatun={
+		name="Bacab Mutalahuatun"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LQM_Acatl_Oxlachel={
+		name="Acatl Oxlachel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Acatl_Oxlachel
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LQM_Acab_Nakalamnamna={
+		name="Acab Nakalamnamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Acab_Nakalamnamna
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LQM_Kukulkan_Nakalamnamna={
+		name="Kukulkan Nakalamnamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Kukulkan_Nakalamnamna
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LQM_Balam_Mutal={
+		name="Balam Mutal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Balam_Mutal
+				traits = {	infirm 	}
+		}
+
+	}
+	LQM_Chil_Nakalamnamna={
+		name="Chil Nakalamnamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Chil_Nakalamnamna
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LQM_Ekchak_Ahcabahpu={
+		name="Ekchak Ahcabahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Ekchak_Ahcabahpu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LQM_Balam_Kaluunilhakh={
+		name="Balam Kaluunilhakh"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Balam_Kaluunilhakh
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LQM_Kukulkal_Narana={
+		name="Kukulkal Narana"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Kukulkal_Narana
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	LQM_Ekchua_Nakalamnamna={
+		name="Ekchua Nakalamnamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Ekchua_Nakalamnamna
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	LQM_Balam_Lamal={
+		name="Balam Lamal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Balam_Lamal
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	LQM_Ahkin_Mutalahuatun={
+		name="Ahkin Mutalahuatun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Ahkin_Mutalahuatun
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	LQM_Yaxkin_Kaluunilhakh={
+		name="Yaxkin Kaluunilhakh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Yaxkin_Kaluunilhakh
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	LQM_Nacom_Ahcabahpu={
+		name="Nacom Ahcabahpu"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Nacom_Ahcabahpu
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	LQM_Chakalam_Toholkal={
+		name="Chakalam Toholkal"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Chakalam_Toholkal
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	LQM_Ekchua_Kaluunilhakh={
+		name="Ekchua Kaluunilhakh"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Ekchua_Kaluunilhakh
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	LQM_Acab_Narana={
+		name="Acab Narana"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Acab_Narana
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	LQM_Acatl_Lamal={
+		name="Acatl Lamal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Acatl_Lamal
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	LQM_Nacatl_Mutalahuatun={
+		name="Nacatl Mutalahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Nacatl_Mutalahuatun
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	LQM_Bacom_Toholkal={
+		name="Bacom Toholkal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Bacom_Toholkal
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	LQM_Balam_Oxlachel={
+		name="Balam Oxlachel"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Balam_Oxlachel
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	LQM_Chakan_Ahcabahpu={
+		name="Chakan Ahcabahpu"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LQM_Moctez_Mutal={
+		name="Moctez Mutal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Moctez_Mutal
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LQM_Nacom_Lamal={
+		name="Nacom Lamal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Nacom_Lamal
+				traits = {	the_banker 	}
+		}
+
+	}
+	LQM_Oxib_Toholkal={
+		name="Oxib Toholkal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Oxib_Toholkal
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	LQM_Acab_Toholkal={
+		name="Acab Toholkal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Acab_Toholkal
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	LQM_Kukulkanek_Kaluunilhakh={
+		name="Kukulkanek Kaluunilhakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Kukulkanek_Kaluunilhakh
+				traits = {	first_lady 	}
+		}
+
+	}
+	LQM_Moctez_Nakalamnamna={
+		name="Moctez Nakalamnamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LQM_Moctez_Nakalamnamna
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	LQM_Itzam_Nakalamnamna={
+		name="Itzam Nakalamnamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Itzam_Nakalamnamna
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	LQM_Kukulkanek_Toholkal={
+		name="Kukulkanek Toholkal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Kukulkanek_Toholkal
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	LQM_Ahkin_Kaluunilhakh={
+		name="Ahkin Kaluunilhakh"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Ahkin_Kaluunilhakh
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	LQM_Acab_Lamal={
+		name="Acab Lamal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LQM_Acab_Lamal
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	LQM_Tohichen_Ahcabahpu={
+		name="Tohichen Ahcabahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Tohichen_Ahcabahpu
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	LQM_Acatl_Narana={
+		name="Acatl Narana"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LQM_Acatl_Narana
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	LQM_Kukulkal_Mutal={
+		name="Kukulkal Mutal"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Kukulkal_Mutal
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	LQM_Tohil_Nakalamnamna={
+		name="Tohil Nakalamnamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = LQM_Tohil_Nakalamnamna
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	LQM_Yaxkin_Oxlachel={
+		name="Yaxkin Oxlachel"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Yaxkin_Oxlachel
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	LQM_Popo_Ahcabahpu={
+		name="Popo Ahcabahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Popo_Ahcabahpu
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	LQM_Itzam_Lamal={
+		name="Itzam Lamal"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Itzam_Lamal
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	LQM_Chil_Mutalahuatun={
+		name="Chil Mutalahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Chil_Mutalahuatun
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	LQM_Chakan_Mutalahuatun={
+		name="Chakan Mutalahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Chakan_Mutalahuatun
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	LQM_Tohichen_Mutalahuatun={
+		name="Tohichen Mutalahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = LQM_Tohichen_Mutalahuatun
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	LQM_Tohil_Narana={
+		name="Tohil Narana"
+
+		advisor={
+			slot = theorist
+			idea_token = LQM_Tohil_Narana
+				traits = {	military_theorist 	}
+		}
+
+	}
+	LQM_Chua_Nakalamnamna={
+		name="Chua Nakalamnamna"
+
+		advisor={
+			slot = theorist
+			idea_token = LQM_Chua_Nakalamnamna
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	LQM_Kukulkal_Oxlachel={
+		name="Kukulkal Oxlachel"
+
+		advisor={
+			slot = theorist
+			idea_token = LQM_Kukulkal_Oxlachel
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

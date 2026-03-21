@@ -1,0 +1,40 @@
+
+state={
+	id=1369
+	name="STATE_1369"
+	manpower = 198454
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = BTC
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17774 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BTC
+	}
+
+	provinces={
+		17773 17774 
+	}
+	local_supplies=0.0 
+}

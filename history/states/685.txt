@@ -2,9 +2,9 @@
 state={
 	id=685
 	name="STATE_685"
-	manpower = 1047638
+	manpower = 1049467
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 9739 9}
+		victory_points = { 9142 6}
 		
-		owner = KNP
+		owner = CPM
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 3
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = KNP
+		add_core_of = CPM
 	}
 
 	provinces={
-		9737 9738 9739 9740 9741 9742 9743 9744 9745 9746 9747 9748 9749 9750 9751 9752 9753 9754 
+		9136 9137 9138 9139 9140 9141 9142 9143 9144 9145 9146 9147 9148 9149 9150 9151 9152 9153 9154 9155 
 	}
 	local_supplies=0.0 
 }

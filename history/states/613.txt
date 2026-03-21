@@ -2,9 +2,9 @@
 state={
 	id=613
 	name="STATE_613"
-	manpower = 517354
+	manpower = 1991998
 	
-	state_category = town
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 8905 2}
-		victory_points = { 8906 2}
+		victory_points = { 8140 3}
+		victory_points = { 8144 7}
+		victory_points = { 8156 5}
 		
-		owner = MWR
+		owner = KUL
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MWR
+		add_core_of = KUL
 	}
 
 	provinces={
-		8903 8904 8905 8906 8907 8908 8909 8910 
+		8133 8134 8135 8136 8137 8138 8139 8140 8141 8142 8143 8144 8145 8146 8147 8148 8149 8150 8151 8152 8153 8154 8155 8156 8157 8158 8159 8160 8161 8162 
 	}
 	local_supplies=0.0 
 }

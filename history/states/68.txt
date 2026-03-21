@@ -2,37 +2,39 @@
 state={
 	id=68
 	name="STATE_68"
-	manpower = 303074
+	manpower = 1397264
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=1
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=13
+		coal=0
 	}
 
 	history={
-		victory_points = { 1072 1}
+		victory_points = { 1027 3}
+		victory_points = { 1034 3}
+		victory_points = { 1037 2}
 		
-		owner = NFO
+		owner = MVD
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NFO
+		add_core_of = MVD
 	}
 
 	provinces={
-		1067 1068 1069 1070 1071 1072 1073 1074 
+		1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 
 	}
 	local_supplies=0.0 
 }

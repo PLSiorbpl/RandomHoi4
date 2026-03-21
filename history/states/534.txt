@@ -2,9 +2,9 @@
 state={
 	id=534
 	name="STATE_534"
-	manpower = 456448
+	manpower = 1494525
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 7700 3}
+		victory_points = { 6993 2}
+		victory_points = { 6997 4}
+		victory_points = { 7000 3}
+		victory_points = { 7003 1}
 		
-		owner = HUA
+		owner = UAS
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
+			air_base = 4
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HUA
+		add_core_of = UAS
 	}
 
 	provinces={
-		7697 7698 7699 7700 7701 7702 7703 
+		6992 6993 6994 6995 6996 6997 6998 6999 7000 7001 7002 7003 7004 7005 7006 7007 7008 7009 7010 7011 7012 7013 
 	}
 	local_supplies=0.0 
 }

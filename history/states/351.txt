@@ -2,38 +2,39 @@
 state={
 	id=351
 	name="STATE_351"
-	manpower = 1158225
+	manpower = 1279514
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=7
+		rubber=0
 		steel=0
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 5048 4}
-		victory_points = { 5053 5}
+		victory_points = { 4687 2}
+		victory_points = { 4698 2}
+		victory_points = { 4699 6}
 		
-		owner = PCR
+		owner = ETX
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = PCR
+		add_core_of = ETX
 	}
 
 	provinces={
-		5046 5047 5048 5049 5050 5051 5052 5053 5054 5055 5056 5057 5058 5059 5060 5061 5062 5063 5064 5065 5066 5067 5068 5069 5070 5071 
+		4684 4685 4686 4687 4688 4689 4690 4691 4692 4693 4694 4695 4696 4697 4698 4699 4700 4701 4702 
 	}
 	local_supplies=0.0 
 }

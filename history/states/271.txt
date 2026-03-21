@@ -2,40 +2,37 @@
 state={
 	id=271
 	name="STATE_271"
-	manpower = 1158388
+	manpower = 555977
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
-		tungsten=4
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4052 3}
-		victory_points = { 4054 1}
-		victory_points = { 4056 2}
-		victory_points = { 4057 3}
+		victory_points = { 3659 3}
 		
-		owner = VUD
+		owner = SHI
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = VUD
+		add_core_of = SHI
 	}
 
 	provinces={
-		4051 4052 4053 4054 4055 4056 4057 4058 4059 4060 4061 4062 4063 4064 4065 4066 4067 4068 4069 4070 4071 
+		3659 3660 3661 3662 3663 3664 3665 
 	}
 	local_supplies=0.0 
 }

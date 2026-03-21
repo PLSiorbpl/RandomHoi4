@@ -2,40 +2,43 @@
 state={
 	id=1278
 	name="STATE_1278"
-	manpower = 595048
+	manpower = 1578419
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=3
 		steel=0
 		tungsten=0
-		coal=18
+		coal=0
 	}
 
 	history={
-		victory_points = { 17490 4}
+		victory_points = { 16844 3}
+		victory_points = { 16847 4}
+		victory_points = { 16850 1}
+		victory_points = { 16861 3}
 		
-		owner = GWU
+		owner = RIB
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
 			
-			17487 = {
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			16853 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = GWU
+		add_core_of = RIB
 	}
 
 	provinces={
-		17485 17486 17487 17488 17489 17490 17491 17492 17493 
+		16841 16842 16843 16844 16845 16846 16847 16848 16849 16850 16851 16852 16853 16854 16855 16856 16857 16858 16859 16860 16861 16862 16863 16864 
 	}
 	local_supplies=0.0 
 }

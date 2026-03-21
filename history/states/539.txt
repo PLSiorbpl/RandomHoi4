@@ -2,37 +2,37 @@
 state={
 	id=539
 	name="STATE_539"
-	manpower = 424649
+	manpower = 824788
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=8
+		steel=0
 		tungsten=0
-		coal=22
+		coal=0
 	}
 
 	history={
-		victory_points = { 7784 2}
+		victory_points = { 7062 5}
 		
-		owner = MWR
+		owner = DAN
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3
+			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MWR
+		add_core_of = DAN
 	}
 
 	provinces={
-		7784 7785 7786 7787 7788 7789 
+		7057 7058 7059 7060 7061 7062 7063 7064 7065 7066 7067 7068 
 	}
 	local_supplies=0.0 
 }

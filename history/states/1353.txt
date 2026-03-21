@@ -1,0 +1,42 @@
+
+state={
+	id=1353
+	name="STATE_1353"
+	manpower = 748312
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17634 3}
+		victory_points = { 17642 1}
+		
+		owner = DAR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17634 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DAR
+	}
+
+	provinces={
+		17634 17635 17636 17637 17638 17639 17640 17641 17642 17643 
+	}
+	local_supplies=0.0 
+}

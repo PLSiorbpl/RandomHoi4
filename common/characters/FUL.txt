@@ -1,0 +1,880 @@
+characters = {
+	FUL_Lubomitri_Vodar={
+		name="Lubomitri Vodar"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Simir_Slova={
+		name="Simir Slova"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Simir_Slova
+				traits = {	humble 	}
+		}
+
+	}
+	FUL_Niktoranisla_Svezduh={
+		name="Niktoranisla Svezduh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Niktoranisla_Svezduh
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	FUL_Yuri_Slova={
+		name="Yuri Slova"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Yuri_Slova
+				traits = {	headstrong 	}
+		}
+
+	}
+	FUL_Dusz_Hoda={
+		name="Dusz Hoda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Dusz_Hoda
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	FUL_Milosla_Postorebri={
+		name="Milosla Postorebri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Milosla_Postorebri
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	FUL_Niko_Svezduh={
+		name="Niko Svezduh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Niko_Svezduh
+				traits = {	humble 	}
+		}
+
+	}
+	FUL_Kazimiros_Gram={
+		name="Kazimiros Gram"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Kazimiros_Gram
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	FUL_Boril_Snaganstina={
+		name="Boril Snaganstina"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Boril_Snaganstina
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	FUL_Niktoraj_Slova={
+		name="Niktoraj Slova"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Niktoraj_Slova
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	FUL_Bori_Kovo={
+		name="Bori Kovo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Bori_Kovo
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	FUL_Lubomas_Gram={
+		name="Lubomas Gram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Lubomas_Gram
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	FUL_Niko_Slova={
+		name="Niko Slova"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Niko_Slova
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	FUL_Borilos_Slova={
+		name="Borilos Slova"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Borilos_Slova
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	FUL_Ivanis_Slova={
+		name="Ivanis Slova"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Ivanis_Slova
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	FUL_Stej_Svezduh={
+		name="Stej Svezduh"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Stej_Svezduh
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	FUL_Tomas_Slova={
+		name="Tomas Slova"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Tomas_Slova
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	FUL_Dragomir_Svezduh={
+		name="Dragomir Svezduh"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Dragomir_Svezduh
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	FUL_Radovan_Vodar={
+		name="Radovan Vodar"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Radovan_Vodar
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	FUL_Jaroslanov_Snaganstina={
+		name="Jaroslanov Snaganstina"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Jaroslanov_Snaganstina
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	FUL_Zdenek_Slova={
+		name="Zdenek Slova"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Zdenek_Slova
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	FUL_Dranovan_Dusao={
+		name="Dranovan Dusao"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Bragomas_Svezduh={
+		name="Bragomas Svezduh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Bragomas_Svezduh
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	FUL_Oleksei_Snaganstina={
+		name="Oleksei Snaganstina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Oleksei_Snaganstina
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	FUL_Yuran_Postorebri={
+		name="Yuran Postorebri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Yuran_Postorebri
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	FUL_Dragomir_Snaganstina={
+		name="Dragomir Snaganstina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Dragomir_Snaganstina
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	FUL_Bogdan_Gram={
+		name="Bogdan Gram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Bogdan_Gram
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	FUL_Matefan_Snaganstina={
+		name="Matefan Snaganstina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Matefan_Snaganstina
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	FUL_Braj_Postorebri={
+		name="Braj Postorebri"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Braj_Postorebri
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	FUL_Dranovan_Kovo={
+		name="Dranovan Kovo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Dranovan_Kovo
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	FUL_Luboslavel_Zemlj={
+		name="Luboslavel Zemlj"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Luboslavel_Zemlj
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	FUL_Bogdan_Postorebri={
+		name="Bogdan Postorebri"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Bogdan_Postorebri
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	FUL_Yuri_Snaganstina={
+		name="Yuri Snaganstina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Yuri_Snaganstina
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	FUL_Mateusan_Gram={
+		name="Mateusan Gram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Mateusan_Gram
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	FUL_Niktorislav_Snaganstina={
+		name="Niktorislav Snaganstina"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Niktorislav_Snaganstina
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	FUL_Ivanis_Snaganstina={
+		name="Ivanis Snaganstina"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Ivanis_Snaganstina
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	FUL_Simitar_Kovo={
+		name="Simitar Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Simitar_Kovo
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	FUL_Radimeon_Vodar={
+		name="Radimeon Vodar"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Radimeon_Vodar
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	FUL_Marko_Vodar={
+		name="Marko Vodar"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Marko_Vodar
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	FUL_Draj_Snaganstina={
+		name="Draj Snaganstina"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Draj_Snaganstina
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	FUL_Matej_Svezduh={
+		name="Matej Svezduh"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Matej_Svezduh
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	FUL_Luboslavel_Dusao={
+		name="Luboslavel Dusao"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Luboslavel_Dusao
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	FUL_Rado_Dusao={
+		name="Rado Dusao"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Ilya_Vodar={
+		name="Ilya Vodar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Ilya_Vodar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	FUL_Braj_Zemlj={
+		name="Braj Zemlj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Braj_Zemlj
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	FUL_Radimirosh_Gram={
+		name="Radimirosh Gram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Radimirosh_Gram
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	FUL_Vlavko_Slova={
+		name="Vlavko Slova"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Vlavko_Slova
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	FUL_Radoslav_Zemlj={
+		name="Radoslav Zemlj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Radoslav_Zemlj
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	FUL_Lubomas_Kovo={
+		name="Lubomas Kovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Lubomas_Kovo
+				traits = {	polemarch 	}
+		}
+
+	}
+	FUL_Bogdan_Zemlj={
+		name="Bogdan Zemlj"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Bogdan_Zemlj
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	FUL_Niktoraj_Snaganstina={
+		name="Niktoraj Snaganstina"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Niktoraj_Snaganstina
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	FUL_Velimir_Svezduh={
+		name="Velimir Svezduh"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Velimir_Svezduh
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	FUL_Matefan_Hoda={
+		name="Matefan Hoda"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Matefan_Hoda
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	FUL_Yurisla_Hoda={
+		name="Yurisla Hoda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Yurisla_Hoda
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	FUL_Niktoraj_Postorebri={
+		name="Niktoraj Postorebri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Niktoraj_Postorebri
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	FUL_Alek_Postorebri={
+		name="Alek Postorebri"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Alek_Postorebri
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	FUL_Yuri_Dusao={
+		name="Yuri Dusao"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Yuri_Dusao
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	FUL_Jaroslanov_Slova={
+		name="Jaroslanov Slova"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Jaroslanov_Slova
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	FUL_Jaroslanov_Kovo={
+		name="Jaroslanov Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Jaroslanov_Kovo
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	FUL_Luboslav_Svezduh={
+		name="Luboslav Svezduh"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Luboslav_Svezduh
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	FUL_Ivanis_Postorebri={
+		name="Ivanis Postorebri"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Ivanis_Postorebri
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	FUL_Yurisla_Slova={
+		name="Yurisla Slova"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Yurisla_Slova
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	FUL_Vlavko_Hoda={
+		name="Vlavko Hoda"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Vlavko_Hoda
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	FUL_Boril_Postorebri={
+		name="Boril Postorebri"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Radimirosh_Kovo={
+		name="Radimirosh Kovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Radimirosh_Kovo
+				traits = {	infirm 	}
+		}
+
+	}
+	FUL_Oleksei_Kovo={
+		name="Oleksei Kovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Oleksei_Kovo
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	FUL_Andrej_Gram={
+		name="Andrej Gram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Andrej_Gram
+				traits = {	infirm 	}
+		}
+
+	}
+	FUL_Draj_Kovo={
+		name="Draj Kovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Draj_Kovo
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	FUL_Slado_Postorebri={
+		name="Slado Postorebri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Slado_Postorebri
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	FUL_Alexei_Vodar={
+		name="Alexei Vodar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Alexei_Vodar
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	FUL_Luboslav_Gram={
+		name="Luboslav Gram"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Luboslav_Gram
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	FUL_Mateusan_Snaganstina={
+		name="Mateusan Snaganstina"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Mateusan_Snaganstina
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	FUL_Kazimir_Postorebri={
+		name="Kazimir Postorebri"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Kazimir_Postorebri
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	FUL_Vladimitri_Zemlj={
+		name="Vladimitri Zemlj"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Vladimitri_Zemlj
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	FUL_Ivanis_Vodar={
+		name="Ivanis Vodar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Ivanis_Vodar
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	FUL_Niktoranisla_Postorebri={
+		name="Niktoranisla Postorebri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Niktoranisla_Postorebri
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	FUL_Boril_Svezduh={
+		name="Boril Svezduh"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Boril_Svezduh
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	FUL_Radimirosh_Zemlj={
+		name="Radimirosh Zemlj"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Radimirosh_Zemlj
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	FUL_Lubomas_Hoda={
+		name="Lubomas Hoda"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Lubomas_Hoda
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	FUL_Yurilav_Postorebri={
+		name="Yurilav Postorebri"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Yurilav_Postorebri
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	FUL_Tomas_Svezduh={
+		name="Tomas Svezduh"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Tomas_Svezduh
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	FUL_Lubomas_Zemlj={
+		name="Lubomas Zemlj"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Lubomas_Zemlj
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	FUL_Lubos_Kovo={
+		name="Lubos Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Lubos_Kovo
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	FUL_Milavel_Kovo={
+		name="Milavel Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Milavel_Kovo
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	FUL_Luboslavel_Slova={
+		name="Luboslavel Slova"
+
+		advisor={
+			slot = theorist
+			idea_token = FUL_Luboslavel_Slova
+				traits = {	military_theorist 	}
+		}
+
+	}
+	FUL_Ivan_Snaganstina={
+		name="Ivan Snaganstina"
+
+		advisor={
+			slot = theorist
+			idea_token = FUL_Ivan_Snaganstina
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	FUL_Lubosladenek_Snaganstina={
+		name="Lubosladenek Snaganstina"
+
+		advisor={
+			slot = theorist
+			idea_token = FUL_Lubosladenek_Snaganstina
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,880 @@
+characters = {
+	GDA_Fang_Zhou={
+		name="Fang Zhou"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GDA_Gyatso_Huan={
+		name="Gyatso Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Gyatso_Huan
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GDA_Ngawang_Xiang={
+		name="Ngawang Xiang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Ngawang_Xiang
+				traits = {	humble 	}
+		}
+
+	}
+	GDA_Thuntso_Xian={
+		name="Thuntso Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Thuntso_Xian
+				traits = {	humble 	}
+		}
+
+	}
+	GDA_Lonam_Tong={
+		name="Lonam Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Lonam_Tong
+				traits = {	humble 	}
+		}
+
+	}
+	GDA_Renzin_Tong={
+		name="Renzin Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Renzin_Tong
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GDA_Chen_Tong={
+		name="Chen Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Chen_Tong
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GDA_Phubten_Shao={
+		name="Phubten Shao"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Phubten_Shao
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GDA_Ngawa_Xiang={
+		name="Ngawa Xiang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Ngawa_Xiang
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GDA_Dawang_Zhou={
+		name="Dawang Zhou"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Dawang_Zhou
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	GDA_Jiang_Tong={
+		name="Jiang Tong"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Jiang_Tong
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	GDA_Ming_Guan={
+		name="Ming Guan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Ming_Guan
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GDA_Ming_Zhou={
+		name="Ming Zhou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Ming_Zhou
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	GDA_Henzing_Guan={
+		name="Henzing Guan"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Henzing_Guan
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	GDA_Tengdu_Huan={
+		name="Tengdu Huan"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Tengdu_Huan
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	GDA_Phubten_Zhou={
+		name="Phubten Zhou"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Phubten_Zhou
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	GDA_Qian_Guan={
+		name="Qian Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Qian_Guan
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	GDA_Gyatsok_Tong={
+		name="Gyatsok Tong"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Gyatsok_Tong
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	GDA_Jigme_Guang={
+		name="Jigme Guang"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Jigme_Guang
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	GDA_Fangdu_Guang={
+		name="Fangdu Guang"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Fangdu_Guang
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	GDA_Tengdu_Xian={
+		name="Tengdu Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Tengdu_Xian
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	GDA_Phubteng_Huan={
+		name="Phubteng Huan"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GDA_Wang_Xiang={
+		name="Wang Xiang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Wang_Xiang
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	GDA_Lobsan_Dong={
+		name="Lobsan Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Lobsan_Dong
+				traits = {	infirm 	}
+		}
+
+	}
+	GDA_Jiang_Guang={
+		name="Jiang Guang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Jiang_Guang
+				traits = {	basileus 	}
+		}
+
+	}
+	GDA_Fang_Shuan={
+		name="Fang Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Fang_Shuan
+				traits = {	basileus 	}
+		}
+
+	}
+	GDA_Fangdu_Xian={
+		name="Fangdu Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Fangdu_Xian
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	GDA_Gyatsok_Zhou={
+		name="Gyatsok Zhou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Gyatsok_Zhou
+				traits = {	autokrator 	}
+		}
+
+	}
+	GDA_Tengdu_Guang={
+		name="Tengdu Guang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Tengdu_Guang
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GDA_Thuntsok_Huan={
+		name="Thuntsok Huan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Thuntsok_Huan
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GDA_Song_Tong={
+		name="Song Tong"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Song_Tong
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GDA_Qian_Shao={
+		name="Qian Shao"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Qian_Shao
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	GDA_Henzin_Xian={
+		name="Henzin Xian"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Henzin_Xian
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GDA_Gyatsok_Xiang={
+		name="Gyatsok Xiang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Gyatsok_Xiang
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	GDA_Teng_Huan={
+		name="Teng Huan"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Teng_Huan
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	GDA_Wangdu_Shao={
+		name="Wangdu Shao"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Wangdu_Shao
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	GDA_Phubten_Huan={
+		name="Phubten Huan"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Phubten_Huan
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	GDA_Jigme_Shuan={
+		name="Jigme Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Jigme_Shuan
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	GDA_Thubten_Shuan={
+		name="Thubten Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Thubten_Shuan
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	GDA_Ngawa_Guang={
+		name="Ngawa Guang"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Ngawa_Guang
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	GDA_Lobsang_Shao={
+		name="Lobsang Shao"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Lobsang_Shao
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	GDA_Tengdu_Xiang={
+		name="Tengdu Xiang"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Tengdu_Xiang
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	GDA_Long_Guan={
+		name="Long Guan"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GDA_Tengdu_Tong={
+		name="Tengdu Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Tengdu_Tong
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GDA_Fang_Tong={
+		name="Fang Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Fang_Tong
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GDA_Dawa_Guang={
+		name="Dawa Guang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Dawa_Guang
+				traits = {	infirm 	}
+		}
+
+	}
+	GDA_Nima_Shuan={
+		name="Nima Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Nima_Shuan
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	GDA_Wangdu_Dong={
+		name="Wangdu Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Wangdu_Dong
+				traits = {	polemarch 	}
+		}
+
+	}
+	GDA_Song_Huan={
+		name="Song Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Song_Huan
+				traits = {	polemarch 	}
+		}
+
+	}
+	GDA_Fang_Shao={
+		name="Fang Shao"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Fang_Shao
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GDA_Heng_Huan={
+		name="Heng Huan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Heng_Huan
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GDA_Thuntso_Xiang={
+		name="Thuntso Xiang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Thuntso_Xiang
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GDA_Fang_Xian={
+		name="Fang Xian"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Fang_Xian
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	GDA_Ngawa_Tong={
+		name="Ngawa Tong"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Ngawa_Tong
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	GDA_Ngawa_Guan={
+		name="Ngawa Guan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Ngawa_Guan
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	GDA_Thuntso_Guang={
+		name="Thuntso Guang"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Thuntso_Guang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	GDA_Wang_Guang={
+		name="Wang Guang"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Wang_Guang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	GDA_Thuntso_Dong={
+		name="Thuntso Dong"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Thuntso_Dong
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	GDA_Phubten_Guan={
+		name="Phubten Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Phubten_Guan
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	GDA_Song_Xian={
+		name="Song Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Song_Xian
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	GDA_Sonam_Xiang={
+		name="Sonam Xiang"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Sonam_Xiang
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	GDA_Wang_Shao={
+		name="Wang Shao"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Wang_Shao
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	GDA_Lobsan_Shuan={
+		name="Lobsan Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Lobsan_Shuan
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	GDA_Yang_Guan={
+		name="Yang Guan"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GDA_Karma_Dong={
+		name="Karma Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Karma_Dong
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	GDA_Lobsang_Guang={
+		name="Lobsang Guang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Lobsang_Guang
+				traits = {	first_lady 	}
+		}
+
+	}
+	GDA_Song_Guang={
+		name="Song Guang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Song_Guang
+				traits = {	the_banker 	}
+		}
+
+	}
+	GDA_Song_Dong={
+		name="Song Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Song_Dong
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	GDA_Henzin_Dong={
+		name="Henzin Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Henzin_Dong
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	GDA_Lobsang_Zhou={
+		name="Lobsang Zhou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GDA_Lobsang_Zhou
+				traits = {	the_banker 	}
+		}
+
+	}
+	GDA_Henzin_Huan={
+		name="Henzin Huan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Henzin_Huan
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	GDA_Ngawangdu_Shao={
+		name="Ngawangdu Shao"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Ngawangdu_Shao
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	GDA_Phun_Shuan={
+		name="Phun Shuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Phun_Shuan
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GDA_Jigme_Tong={
+		name="Jigme Tong"
+
+		advisor={
+			slot = army_chief
+			idea_token = GDA_Jigme_Tong
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GDA_Yuntsok_Shuan={
+		name="Yuntsok Shuan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Yuntsok_Shuan
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	GDA_Teng_Zhou={
+		name="Teng Zhou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GDA_Teng_Zhou
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	GDA_Henzin_Zhou={
+		name="Henzin Zhou"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Henzin_Zhou
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	GDA_Ngawangdu_Guan={
+		name="Ngawangdu Guan"
+
+		advisor={
+			slot = air_chief
+			idea_token = GDA_Ngawangdu_Guan
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GDA_Lonam_Xiang={
+		name="Lonam Xiang"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Lonam_Xiang
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	GDA_Fangdu_Shao={
+		name="Fangdu Shao"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Fangdu_Shao
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	GDA_Jiang_Shao={
+		name="Jiang Shao"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Jiang_Shao
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	GDA_Gyatsok_Xian={
+		name="Gyatsok Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Gyatsok_Xian
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	GDA_Thuntsok_Shuan={
+		name="Thuntsok Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Thuntsok_Shuan
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	GDA_Wangdu_Zhou={
+		name="Wangdu Zhou"
+
+		advisor={
+			slot = high_command
+			idea_token = GDA_Wangdu_Zhou
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	GDA_Yang_Huan={
+		name="Yang Huan"
+
+		advisor={
+			slot = theorist
+			idea_token = GDA_Yang_Huan
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GDA_Gyatso_Guang={
+		name="Gyatso Guang"
+
+		advisor={
+			slot = theorist
+			idea_token = GDA_Gyatso_Guang
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GDA_Yang_Shuan={
+		name="Yang Shuan"
+
+		advisor={
+			slot = theorist
+			idea_token = GDA_Yang_Shuan
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

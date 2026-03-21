@@ -2,9 +2,9 @@
 state={
 	id=626
 	name="STATE_626"
-	manpower = 511283
+	manpower = 1425525
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 9068 1}
-		victory_points = { 9069 1}
-		victory_points = { 9070 2}
+		victory_points = { 8318 1}
+		victory_points = { 8325 4}
+		victory_points = { 8336 4}
 		
-		owner = CBS
+		owner = CPM
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CBS
+		add_core_of = CPM
 	}
 
 	provinces={
-		9068 9069 9070 9071 9072 9073 9074 9075 
+		8314 8315 8316 8317 8318 8319 8320 8321 8322 8323 8324 8325 8326 8327 8328 8329 8330 8331 8332 8333 8334 8335 8336 8337 8338 
 	}
 	local_supplies=0.0 
 }

@@ -2,42 +2,39 @@
 state={
 	id=1218
 	name="STATE_1218"
-	manpower = 1285543
+	manpower = 1086717
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=29
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 16910 3}
-		victory_points = { 16911 3}
-		victory_points = { 16915 6}
+		victory_points = { 15982 3}
+		victory_points = { 15984 1}
+		victory_points = { 15996 2}
 		
-		owner = VID
+		owner = GHI
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
-			dockyard = 1
-			16920 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = VID
+		add_core_of = GHI
 	}
 
 	provinces={
-		16909 16910 16911 16912 16913 16914 16915 16916 16917 16918 16919 16920 16921 16922 16923 16924 16925 16926 16927 16928 16929 
+		15981 15982 15983 15984 15985 15986 15987 15988 15989 15990 15991 15992 15993 15994 15995 15996 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,880 @@
+characters = {
+	OON_Hugh_Buna={
+		name="Hugh Buna"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OON_Owen_Balamhne={
+		name="Owen Balamhne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Owen_Balamhne
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	OON_Keiran_Balamhne={
+		name="Keiran Balamhne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Keiran_Balamhne
+				traits = {	humble 	}
+		}
+
+	}
+	OON_Niaran_Uisceanta={
+		name="Niaran Uisceanta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Niaran_Uisceanta
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	OON_Keiraig_Tradh={
+		name="Keiraig Tradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Keiraig_Tradh
+				traits = {	headstrong 	}
+		}
+
+	}
+	OON_Padraig_Beite={
+		name="Padraig Beite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Padraig_Beite
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	OON_Aidan_Trodainn={
+		name="Aidan Trodainn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Aidan_Trodainn
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	OON_Padran_Trodainn={
+		name="Padran Trodainn"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Padran_Trodainn
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	OON_Keiraig_Coill={
+		name="Keiraig Coill"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Keiraig_Coill
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	OON_Bran_Trodainn={
+		name="Bran Trodainn"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Bran_Trodainn
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	OON_Declan_Baileach={
+		name="Declan Baileach"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Declan_Baileach
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	OON_Keiraig_Balamhne={
+		name="Keiraig Balamhne"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Keiraig_Balamhne
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	OON_Ciareth_Sabh={
+		name="Ciareth Sabh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Ciareth_Sabh
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	OON_Niaran_Coill={
+		name="Niaran Coill"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Niaran_Coill
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	OON_Quinn_Uisceanta={
+		name="Quinn Uisceanta"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Quinn_Uisceanta
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	OON_Keiran_Buna={
+		name="Keiran Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Keiran_Buna
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	OON_Niareth_Balamhne={
+		name="Niareth Balamhne"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Niareth_Balamhne
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	OON_Padraig_Coill={
+		name="Padraig Coill"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Padraig_Coill
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	OON_Eoinn_Balamhne={
+		name="Eoinn Balamhne"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Eoinn_Balamhne
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	OON_Eoin_Trodainn={
+		name="Eoin Trodainn"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Eoin_Trodainn
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	OON_Niamus_Sabh={
+		name="Niamus Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Niamus_Sabh
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	OON_Hugh_Baileach={
+		name="Hugh Baileach"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OON_Eoinn_Tradh={
+		name="Eoinn Tradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Eoinn_Tradh
+				traits = {	autokrator 	}
+		}
+
+	}
+	OON_Ciareth_Tradh={
+		name="Ciareth Tradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Ciareth_Tradh
+				traits = {	infirm 	}
+		}
+
+	}
+	OON_Mall_Uisceanta={
+		name="Mall Uisceanta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Mall_Uisceanta
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	OON_Rhys_Sabh={
+		name="Rhys Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Rhys_Sabh
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	OON_Nialcolm_Baileach={
+		name="Nialcolm Baileach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Nialcolm_Baileach
+				traits = {	infirm 	}
+		}
+
+	}
+	OON_Garan_Uisceanta={
+		name="Garan Uisceanta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Garan_Uisceanta
+				traits = {	polemarch 	}
+		}
+
+	}
+	OON_Liaran_Balamhne={
+		name="Liaran Balamhne"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Liaran_Balamhne
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	OON_Ciareth_Trodainn={
+		name="Ciareth Trodainn"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Ciareth_Trodainn
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	OON_Niam_Trodainn={
+		name="Niam Trodainn"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Niam_Trodainn
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	OON_Garan_Buna={
+		name="Garan Buna"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Garan_Buna
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	OON_Hugh_Uisceanta={
+		name="Hugh Uisceanta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Hugh_Uisceanta
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	OON_Ciaran_Coill={
+		name="Ciaran Coill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Ciaran_Coill
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	OON_Mall_Trodainn={
+		name="Mall Trodainn"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Mall_Trodainn
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	OON_Niaran_Balamhne={
+		name="Niaran Balamhne"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Niaran_Balamhne
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	OON_Malcolm_Spion={
+		name="Malcolm Spion"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Malcolm_Spion
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	OON_Niaran_Trodainn={
+		name="Niaran Trodainn"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Niaran_Trodainn
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	OON_Padraig_Baileach={
+		name="Padraig Baileach"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Padraig_Baileach
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	OON_Iwan_Uisceanta={
+		name="Iwan Uisceanta"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Iwan_Uisceanta
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	OON_Liaran_Sabh={
+		name="Liaran Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Liaran_Sabh
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	OON_Keiraig_Uisceanta={
+		name="Keiraig Uisceanta"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Keiraig_Uisceanta
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	OON_Padraig_Tradh={
+		name="Padraig Tradh"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OON_Rhys_Uisceanta={
+		name="Rhys Uisceanta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Rhys_Uisceanta
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	OON_Padraig_Sabh={
+		name="Padraig Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Padraig_Sabh
+				traits = {	polemarch 	}
+		}
+
+	}
+	OON_Aidan_Balamhne={
+		name="Aidan Balamhne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Aidan_Balamhne
+				traits = {	infirm 	}
+		}
+
+	}
+	OON_Seam_Buna={
+		name="Seam Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Seam_Buna
+				traits = {	infirm 	}
+		}
+
+	}
+	OON_Taran_Sabh={
+		name="Taran Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Taran_Sabh
+				traits = {	polemarch 	}
+		}
+
+	}
+	OON_Declan_Buna={
+		name="Declan Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Declan_Buna
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	OON_Taraig_Spion={
+		name="Taraig Spion"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Taraig_Spion
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	OON_Seamus_Tradh={
+		name="Seamus Tradh"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Seamus_Tradh
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	OON_Owen_Spion={
+		name="Owen Spion"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Owen_Spion
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	OON_Ulrich_Buna={
+		name="Ulrich Buna"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Ulrich_Buna
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	OON_Nialcolm_Coill={
+		name="Nialcolm Coill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Nialcolm_Coill
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	OON_Cialcolm_Trodainn={
+		name="Cialcolm Trodainn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Cialcolm_Trodainn
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	OON_Keiran_Baileach={
+		name="Keiran Baileach"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Keiran_Baileach
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	OON_Braig_Trodainn={
+		name="Braig Trodainn"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Braig_Trodainn
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	OON_Padraig_Spion={
+		name="Padraig Spion"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Padraig_Spion
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	OON_Seam_Uisceanta={
+		name="Seam Uisceanta"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Seam_Uisceanta
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	OON_Seam_Beite={
+		name="Seam Beite"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Seam_Beite
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	OON_Owen_Tradh={
+		name="Owen Tradh"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Owen_Tradh
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	OON_Taran_Buna={
+		name="Taran Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Taran_Buna
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	OON_Padraig_Buna={
+		name="Padraig Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Padraig_Buna
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	OON_Cialcolm_Baileach={
+		name="Cialcolm Baileach"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OON_Seamus_Baileach={
+		name="Seamus Baileach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Seamus_Baileach
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	OON_Mall_Balamhne={
+		name="Mall Balamhne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Mall_Balamhne
+				traits = {	the_banker 	}
+		}
+
+	}
+	OON_Ciaran_Tradh={
+		name="Ciaran Tradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Ciaran_Tradh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	OON_Niareth_Tradh={
+		name="Niareth Tradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Niareth_Tradh
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	OON_Iwan_Buna={
+		name="Iwan Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Iwan_Buna
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	OON_Padran_Buna={
+		name="Padran Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OON_Padran_Buna
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	OON_Keiraig_Sabh={
+		name="Keiraig Sabh"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Keiraig_Sabh
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	OON_Niaran_Tradh={
+		name="Niaran Tradh"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Niaran_Tradh
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	OON_Quinn_Spion={
+		name="Quinn Spion"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Quinn_Spion
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	OON_Seamus_Trodainn={
+		name="Seamus Trodainn"
+
+		advisor={
+			slot = army_chief
+			idea_token = OON_Seamus_Trodainn
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	OON_Garan_Trodainn={
+		name="Garan Trodainn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Garan_Trodainn
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	OON_Eoinn_Spion={
+		name="Eoinn Spion"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OON_Eoinn_Spion
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	OON_Taraig_Beite={
+		name="Taraig Beite"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Taraig_Beite
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	OON_Cialcolm_Sabh={
+		name="Cialcolm Sabh"
+
+		advisor={
+			slot = air_chief
+			idea_token = OON_Cialcolm_Sabh
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	OON_Nialcolm_Trodainn={
+		name="Nialcolm Trodainn"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Nialcolm_Trodainn
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	OON_Keiraig_Trodainn={
+		name="Keiraig Trodainn"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Keiraig_Trodainn
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	OON_Niam_Tradh={
+		name="Niam Tradh"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Niam_Tradh
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	OON_Garan_Baileach={
+		name="Garan Baileach"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Garan_Baileach
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	OON_Eoin_Balamhne={
+		name="Eoin Balamhne"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Eoin_Balamhne
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	OON_Padran_Sabh={
+		name="Padran Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = OON_Padran_Sabh
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	OON_Taraig_Baileach={
+		name="Taraig Baileach"
+
+		advisor={
+			slot = theorist
+			idea_token = OON_Taraig_Baileach
+				traits = {	military_theorist 	}
+		}
+
+	}
+	OON_Quin_Uisceanta={
+		name="Quin Uisceanta"
+
+		advisor={
+			slot = theorist
+			idea_token = OON_Quin_Uisceanta
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	OON_Nialcolm_Uisceanta={
+		name="Nialcolm Uisceanta"
+
+		advisor={
+			slot = theorist
+			idea_token = OON_Nialcolm_Uisceanta
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

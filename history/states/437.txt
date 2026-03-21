@@ -2,7 +2,7 @@
 state={
 	id=437
 	name="STATE_437"
-	manpower = 885421
+	manpower = 1007184
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,29 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=4
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6164 2}
-		victory_points = { 6167 6}
+		victory_points = { 5705 2}
+		victory_points = { 5711 5}
 		
-		owner = WHE
+		owner = SHE
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = WHE
+		add_core_of = SHE
 	}
 
 	provinces={
-		6161 6162 6163 6164 6165 6166 6167 6168 6169 6170 6171 6172 6173 6174 6175 
+		5701 5702 5703 5704 5705 5706 5707 5708 5709 5710 5711 5712 5713 5714 5715 
 	}
 	local_supplies=0.0 
 }

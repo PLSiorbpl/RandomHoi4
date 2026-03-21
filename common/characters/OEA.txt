@@ -1,0 +1,880 @@
+characters = {
+	OEA_Ciamus_Slin={
+		name="Ciamus Slin"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OEA_Tareth_Each={
+		name="Tareth Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Tareth_Each
+				traits = {	headstrong 	}
+		}
+
+	}
+	OEA_Seam_Seac={
+		name="Seam Seac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Seam_Seac
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	OEA_Aidan_Seac={
+		name="Aidan Seac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Aidan_Seac
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	OEA_Liall_Cort={
+		name="Liall Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Liall_Cort
+				traits = {	headstrong 	}
+		}
+
+	}
+	OEA_Padran_Each={
+		name="Padran Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Padran_Each
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	OEA_Ciam_Seac={
+		name="Ciam Seac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Ciam_Seac
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	OEA_Quin_Lailine={
+		name="Quin Lailine"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Quin_Lailine
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	OEA_Aidan_Bearnas={
+		name="Aidan Bearnas"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Aidan_Bearnas
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	OEA_Eoin_Each={
+		name="Eoin Each"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Eoin_Each
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	OEA_Malcolm_Cort={
+		name="Malcolm Cort"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Malcolm_Cort
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	OEA_Ulrich_Seac={
+		name="Ulrich Seac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Ulrich_Seac
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	OEA_Hugh_Fiorc={
+		name="Hugh Fiorc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Hugh_Fiorc
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	OEA_Liam_Lailine={
+		name="Liam Lailine"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Liam_Lailine
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	OEA_Garaig_Lailine={
+		name="Garaig Lailine"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Garaig_Lailine
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	OEA_Aidan_Slin={
+		name="Aidan Slin"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Aidan_Slin
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	OEA_Malcolm_Ceinta={
+		name="Malcolm Ceinta"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Malcolm_Ceinta
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	OEA_Mall_Cort={
+		name="Mall Cort"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Mall_Cort
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	OEA_Mall_Lear={
+		name="Mall Lear"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Mall_Lear
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	OEA_Rhys_Bearnas={
+		name="Rhys Bearnas"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Rhys_Bearnas
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	OEA_Braig_Seac={
+		name="Braig Seac"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Braig_Seac
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	OEA_Taran_Bearnas={
+		name="Taran Bearnas"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OEA_Ulrich_Lailine={
+		name="Ulrich Lailine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Ulrich_Lailine
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	OEA_Malcolm_Seac={
+		name="Malcolm Seac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Malcolm_Seac
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	OEA_Seamus_Seac={
+		name="Seamus Seac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Seamus_Seac
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	OEA_Fergus_Cort={
+		name="Fergus Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Fergus_Cort
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	OEA_Quinn_Fiorc={
+		name="Quinn Fiorc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Quinn_Fiorc
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	OEA_Ciam_Fuathanch={
+		name="Ciam Fuathanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Ciam_Fuathanch
+				traits = {	autokrator 	}
+		}
+
+	}
+	OEA_Garan_Ceinta={
+		name="Garan Ceinta"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Garan_Ceinta
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	OEA_Braig_Slin={
+		name="Braig Slin"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Braig_Slin
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	OEA_Tareth_Fiorc={
+		name="Tareth Fiorc"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Tareth_Fiorc
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	OEA_Rhys_Cort={
+		name="Rhys Cort"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Rhys_Cort
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	OEA_Cialcolm_Each={
+		name="Cialcolm Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Cialcolm_Each
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	OEA_Braig_Lear={
+		name="Braig Lear"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Braig_Lear
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	OEA_Ulrich_Cort={
+		name="Ulrich Cort"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Ulrich_Cort
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	OEA_Quinn_Slin={
+		name="Quinn Slin"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Quinn_Slin
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	OEA_Seamus_Lailine={
+		name="Seamus Lailine"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Seamus_Lailine
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	OEA_Niam_Slin={
+		name="Niam Slin"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Niam_Slin
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	OEA_Padran_Lear={
+		name="Padran Lear"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Padran_Lear
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	OEA_Cialcolm_Bearnas={
+		name="Cialcolm Bearnas"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Cialcolm_Bearnas
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	OEA_Garan_Cort={
+		name="Garan Cort"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Garan_Cort
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	OEA_Eoin_Lailine={
+		name="Eoin Lailine"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Eoin_Lailine
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	OEA_Eoin_Slin={
+		name="Eoin Slin"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OEA_Ciamus_Bearnas={
+		name="Ciamus Bearnas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Ciamus_Bearnas
+				traits = {	political_dancer 	}
+		}
+
+	}
+	OEA_Cialcolm_Slin={
+		name="Cialcolm Slin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Cialcolm_Slin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	OEA_Padran_Ceinta={
+		name="Padran Ceinta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Padran_Ceinta
+				traits = {	political_dancer 	}
+		}
+
+	}
+	OEA_Mall_Lailine={
+		name="Mall Lailine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Mall_Lailine
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	OEA_Bran_Bearnas={
+		name="Bran Bearnas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Bran_Bearnas
+				traits = {	polemarch 	}
+		}
+
+	}
+	OEA_Braig_Bearnas={
+		name="Braig Bearnas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Braig_Bearnas
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	OEA_Eoin_Lear={
+		name="Eoin Lear"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Eoin_Lear
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	OEA_Malcolm_Bearnas={
+		name="Malcolm Bearnas"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Malcolm_Bearnas
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	OEA_Quin_Lear={
+		name="Quin Lear"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Quin_Lear
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	OEA_Quin_Slin={
+		name="Quin Slin"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Quin_Slin
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	OEA_Mall_Bearnas={
+		name="Mall Bearnas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Mall_Bearnas
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	OEA_Liaran_Fiorc={
+		name="Liaran Fiorc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Liaran_Fiorc
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	OEA_Quinn_Fuathanch={
+		name="Quinn Fuathanch"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Quinn_Fuathanch
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	OEA_Liam_Lear={
+		name="Liam Lear"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Liam_Lear
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	OEA_Quin_Each={
+		name="Quin Each"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Quin_Each
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	OEA_Malcolm_Each={
+		name="Malcolm Each"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Malcolm_Each
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	OEA_Niam_Seac={
+		name="Niam Seac"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Niam_Seac
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	OEA_Liaran_Fuathanch={
+		name="Liaran Fuathanch"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Liaran_Fuathanch
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	OEA_Seam_Cort={
+		name="Seam Cort"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Seam_Cort
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	OEA_Liam_Fiorc={
+		name="Liam Fiorc"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Liam_Fiorc
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	OEA_Tareth_Lailine={
+		name="Tareth Lailine"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OEA_Braig_Fuathanch={
+		name="Braig Fuathanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Braig_Fuathanch
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	OEA_Padran_Lailine={
+		name="Padran Lailine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Padran_Lailine
+				traits = {	the_banker 	}
+		}
+
+	}
+	OEA_Tareth_Lear={
+		name="Tareth Lear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Tareth_Lear
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	OEA_Rhys_Fuathanch={
+		name="Rhys Fuathanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Rhys_Fuathanch
+				traits = {	the_banker 	}
+		}
+
+	}
+	OEA_Keiran_Slin={
+		name="Keiran Slin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Keiran_Slin
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	OEA_Niam_Lailine={
+		name="Niam Lailine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OEA_Niam_Lailine
+				traits = {	rearmer 	}
+		}
+
+	}
+	OEA_Quinn_Seac={
+		name="Quinn Seac"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Quinn_Seac
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	OEA_Hugh_Bearnas={
+		name="Hugh Bearnas"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Hugh_Bearnas
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	OEA_Braig_Lailine={
+		name="Braig Lailine"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Braig_Lailine
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	OEA_Ciam_Lear={
+		name="Ciam Lear"
+
+		advisor={
+			slot = army_chief
+			idea_token = OEA_Ciam_Lear
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	OEA_Mall_Fuathanch={
+		name="Mall Fuathanch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Mall_Fuathanch
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	OEA_Eoinn_Fiorc={
+		name="Eoinn Fiorc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OEA_Eoinn_Fiorc
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	OEA_Fergus_Slin={
+		name="Fergus Slin"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Fergus_Slin
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	OEA_Eoinn_Lailine={
+		name="Eoinn Lailine"
+
+		advisor={
+			slot = air_chief
+			idea_token = OEA_Eoinn_Lailine
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	OEA_Eoinn_Ceinta={
+		name="Eoinn Ceinta"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Eoinn_Ceinta
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	OEA_Garaig_Ceinta={
+		name="Garaig Ceinta"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Garaig_Ceinta
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	OEA_Quin_Cort={
+		name="Quin Cort"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Quin_Cort
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	OEA_Liaran_Ceinta={
+		name="Liaran Ceinta"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Liaran_Ceinta
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	OEA_Iwan_Lear={
+		name="Iwan Lear"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Iwan_Lear
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	OEA_Cialcolm_Lear={
+		name="Cialcolm Lear"
+
+		advisor={
+			slot = high_command
+			idea_token = OEA_Cialcolm_Lear
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	OEA_Liaran_Lear={
+		name="Liaran Lear"
+
+		advisor={
+			slot = theorist
+			idea_token = OEA_Liaran_Lear
+				traits = {	military_theorist 	}
+		}
+
+	}
+	OEA_Niam_Fiorc={
+		name="Niam Fiorc"
+
+		advisor={
+			slot = theorist
+			idea_token = OEA_Niam_Fiorc
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	OEA_Declan_Lear={
+		name="Declan Lear"
+
+		advisor={
+			slot = theorist
+			idea_token = OEA_Declan_Lear
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

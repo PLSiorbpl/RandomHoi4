@@ -1,0 +1,52 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Becab Fleet"			
+		naval_base = 17775
+		task_force = {
+			name = "Becab Fleet"
+			location = 17775
+			
+						ship = { name = "Chich" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BTC version_name = "Uxun Class" } }	}
+			ship = { name = "Itzik" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Kanilhau" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BTC version_name = "Tzolkin Class" } }	}
+			ship = { name = "Itzik 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BTC version_name = "Tzolkin Class" } }	}
+			ship = { name = "Tzolkin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Kanilhau 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BTC version_name = "Tzolkin Class" } }	}
+			ship = { name = "Baluun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Baluun 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+			ship = { name = "Uxun" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+			ship = { name = "Baluun 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Chich 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Kanilhau 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Itzik 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BTC version_name = "Kanilhau Class" } }	}
+			ship = { name = "Tzolkin 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+			ship = { name = "Tzolkin 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+			ship = { name = "Baluun 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BTC version_name = "Kanilhau Class" } }	}
+			ship = { name = "Itzik 4" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BTC version_name = "Tzolkin Class" } }	}
+			ship = { name = "Uxun 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BTC version_name = "Tzolkin Class" } }	}
+			ship = { name = "Kanilhau 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Kanilhau 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BTC version_name = "Itzik Class" } }	}
+			ship = { name = "Chich 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BTC version_name = "Kanilhau Class" } }	}
+			ship = { name = "Itzik 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+			ship = { name = "Kanilhau 6" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BTC version_name = "Tzolkin Class" } }	}
+			ship = { name = "Baluun 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+			ship = { name = "Chich 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+			ship = { name = "Tzolkin 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BTC version_name = "Chich Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

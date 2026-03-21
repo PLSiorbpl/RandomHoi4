@@ -2,14 +2,14 @@
 state={
 	id=167
 	name="STATE_167"
-	manpower = 557656
+	manpower = 2202795
 	
-	state_category = town
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 2646 1}
-		victory_points = { 2650 3}
+		victory_points = { 2372 8}
+		victory_points = { 2388 8}
+		victory_points = { 2398 1}
 		
-		owner = SIJ
+		owner = FVO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 1
-			industrial_complex = 0
+			industrial_complex = 2
 			
-			2650 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = SIJ
+		add_core_of = FVO
 	}
 
 	provinces={
-		2646 2647 2648 2649 2650 2651 2652 2653 
+		2371 2372 2373 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 2390 2391 2392 2393 2394 2395 2396 2397 2398 2399 2400 2401 2402 2403 2404 
 	}
 	local_supplies=0.0 
 }

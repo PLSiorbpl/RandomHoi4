@@ -2,39 +2,38 @@
 state={
 	id=150
 	name="STATE_150"
-	manpower = 1084965
+	manpower = 595815
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=18
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2348 2}
-		victory_points = { 2354 4}
-		victory_points = { 2362 4}
+		victory_points = { 2145 1}
+		victory_points = { 2148 2}
 		
-		owner = VUD
+		owner = GAU
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = VUD
+		add_core_of = GAU
 	}
 
 	provinces={
-		2344 2345 2346 2347 2348 2349 2350 2351 2352 2353 2354 2355 2356 2357 2358 2359 2360 2361 2362 
+		2144 2145 2146 2147 2148 2149 2150 2151 2152 
 	}
 	local_supplies=0.0 
 }

@@ -2,42 +2,37 @@
 state={
 	id=900
 	name="STATE_900"
-	manpower = 821429
+	manpower = 718792
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
-		coal=39
+		coal=0
 	}
 
 	history={
-		victory_points = { 12457 2}
-		victory_points = { 12462 3}
-		victory_points = { 12464 2}
+		victory_points = { 12080 4}
 		
-		owner = TVM
+		owner = RFD
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
 			
-			12465 = {
-				naval_base = 1
-			}
+			arms_factory = 1
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = TVM
+		add_core_of = RFD
 	}
 
 	provinces={
-		12457 12458 12459 12460 12461 12462 12463 12464 12465 12466 12467 12468 12469 
+		12075 12076 12077 12078 12079 12080 12081 12082 12083 12084 
 	}
 	local_supplies=0.0 
 }

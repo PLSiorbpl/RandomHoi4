@@ -1,0 +1,880 @@
+characters = {
+	NAK_Siddhari_Kolai={
+		name="Siddhari Kolai"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAK_Jaghaveenth_Arai={
+		name="Jaghaveenth Arai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Jaghaveenth_Arai
+				traits = {	humble 	}
+		}
+
+	}
+	NAK_Moharthil_Thenjilam={
+		name="Moharthil Thenjilam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Moharthil_Thenjilam
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	NAK_Moharthik_Nakkam={
+		name="Moharthik Nakkam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Moharthik_Nakkam
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	NAK_Jagadeenth_Kolai={
+		name="Jagadeenth Kolai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Jagadeenth_Kolai
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	NAK_Kirakash_Thenjilam={
+		name="Kirakash Thenjilam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Kirakash_Thenjilam
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	NAK_Harth_Isaikkamaikk={
+		name="Harth Isaikkamaikk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Harth_Isaikkamaikk
+				traits = {	humble 	}
+		}
+
+	}
+	NAK_Dinesh_Thenjilam={
+		name="Dinesh Thenjilam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Dinesh_Thenjilam
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	NAK_Deenthik_Isaikkamaikk={
+		name="Deenthik Isaikkamaikk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Deenthik_Isaikkamaikk
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	NAK_Kirakash_Isaikkamaikk={
+		name="Kirakash Isaikkamaikk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Kirakash_Isaikkamaikk
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	NAK_Mohanod_Puyal={
+		name="Mohanod Puyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Mohanod_Puyal
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	NAK_Deesh_Kolai={
+		name="Deesh Kolai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Deesh_Kolai
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	NAK_Prakash_Kolai={
+		name="Prakash Kolai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Prakash_Kolai
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	NAK_Vinoj_Puyam={
+		name="Vinoj Puyam"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Vinoj_Puyam
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	NAK_Pran_Arai={
+		name="Pran Arai"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Pran_Arai
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	NAK_Kumarun_Puyam={
+		name="Kumarun Puyam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Kumarun_Puyam
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	NAK_Deepak_Nakkam={
+		name="Deepak Nakkam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Deepak_Nakkam
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	NAK_Mohanesh_Nilai={
+		name="Mohanesh Nilai"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Mohanesh_Nilai
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	NAK_Arun_Puyal={
+		name="Arun Puyal"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Arun_Puyal
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	NAK_Kumari_Puyam={
+		name="Kumari Puyam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Kumari_Puyam
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	NAK_Gandrandrane_Thenjilam={
+		name="Gandrandrane Thenjilam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Gandrandrane_Thenjilam
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	NAK_Harthik_Nakkam={
+		name="Harthik Nakkam"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAK_Kirakash_Nilai={
+		name="Kirakash Nilai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Kirakash_Nilai
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	NAK_Kumari_Nakkam={
+		name="Kumari Nakkam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Kumari_Nakkam
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	NAK_Deepak_Puyam={
+		name="Deepak Puyam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Deepak_Puyam
+				traits = {	basileus 	}
+		}
+
+	}
+	NAK_Moharthil_Nakkam={
+		name="Moharthil Nakkam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Moharthil_Nakkam
+				traits = {	basileus 	}
+		}
+
+	}
+	NAK_Chavi_Puyam={
+		name="Chavi Puyam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Chavi_Puyam
+				traits = {	polemarch 	}
+		}
+
+	}
+	NAK_Maneshna_Mozhunam={
+		name="Maneshna Mozhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Maneshna_Mozhunam
+				traits = {	warmonger 	}
+		}
+
+	}
+	NAK_Raveen_Puyal={
+		name="Raveen Puyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Raveen_Puyal
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	NAK_Rajiv_Puyal={
+		name="Rajiv Puyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Rajiv_Puyal
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	NAK_Jaghaveenth_Mozhunam={
+		name="Jaghaveenth Mozhunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Jaghaveenth_Mozhunam
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	NAK_Deenthik_Kolai={
+		name="Deenthik Kolai"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Deenthik_Kolai
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	NAK_Kumarthil_Kolai={
+		name="Kumarthil Kolai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Kumarthil_Kolai
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	NAK_Prandrakash_Mozi={
+		name="Prandrakash Mozi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Prandrakash_Mozi
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	NAK_Senthik_Puyam={
+		name="Senthik Puyam"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Senthik_Puyam
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	NAK_Kiranod_Nilai={
+		name="Kiranod Nilai"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Kiranod_Nilai
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	NAK_Prandrakash_Thenjilam={
+		name="Prandrakash Thenjilam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Prandrakash_Thenjilam
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	NAK_Moharthil_Arai={
+		name="Moharthil Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Moharthil_Arai
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	NAK_Raghan_Thenjilam={
+		name="Raghan Thenjilam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Raghan_Thenjilam
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	NAK_Harth_Mozhunam={
+		name="Harth Mozhunam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Harth_Mozhunam
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	NAK_Jaghaveesh_Mozi={
+		name="Jaghaveesh Mozi"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Jaghaveesh_Mozi
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	NAK_Karun_Thenjilam={
+		name="Karun Thenjilam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Karun_Thenjilam
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	NAK_Karthik_Nakkam={
+		name="Karthik Nakkam"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAK_Arun_Isaikkamaikk={
+		name="Arun Isaikkamaikk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Arun_Isaikkamaikk
+				traits = {	political_dancer 	}
+		}
+
+	}
+	NAK_Krish_Isaikkamaikk={
+		name="Krish Isaikkamaikk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Krish_Isaikkamaikk
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	NAK_Gandrandrane_Nilai={
+		name="Gandrandrane Nilai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Gandrandrane_Nilai
+				traits = {	polemarch 	}
+		}
+
+	}
+	NAK_Kari_Mozhunam={
+		name="Kari Mozhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Kari_Mozhunam
+				traits = {	polemarch 	}
+		}
+
+	}
+	NAK_Naveen_Isaikkamaikk={
+		name="Naveen Isaikkamaikk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Naveen_Isaikkamaikk
+				traits = {	political_dancer 	}
+		}
+
+	}
+	NAK_Kirakash_Mozi={
+		name="Kirakash Mozi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Kirakash_Mozi
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	NAK_Moharthil_Puyal={
+		name="Moharthil Puyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Moharthil_Puyal
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	NAK_Harth_Puyal={
+		name="Harth Puyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Harth_Puyal
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	NAK_Mohavi_Puyal={
+		name="Mohavi Puyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Mohavi_Puyal
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	NAK_Bala_Mozi={
+		name="Bala Mozi"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Bala_Mozi
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	NAK_Ragadeenth_Puyal={
+		name="Ragadeenth Puyal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Ragadeenth_Puyal
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	NAK_Naveen_Puyam={
+		name="Naveen Puyam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Naveen_Puyam
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	NAK_Pran_Isaikkamaikk={
+		name="Pran Isaikkamaikk"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Pran_Isaikkamaikk
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	NAK_Vinod_Kolai={
+		name="Vinod Kolai"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Vinod_Kolai
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	NAK_Harth_Nilai={
+		name="Harth Nilai"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Harth_Nilai
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	NAK_Chavi_Isaikkamaikk={
+		name="Chavi Isaikkamaikk"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Chavi_Isaikkamaikk
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	NAK_Dinesh_Mozhunam={
+		name="Dinesh Mozhunam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Dinesh_Mozhunam
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	NAK_Mohavi_Mozi={
+		name="Mohavi Mozi"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Mohavi_Mozi
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	NAK_Varthik_Thenjilam={
+		name="Varthik Thenjilam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Varthik_Thenjilam
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	NAK_Prem_Mozi={
+		name="Prem Mozi"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Prem_Mozi
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	NAK_Prem_Mozhunam={
+		name="Prem Mozhunam"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAK_Ragadeepakas_Mozhunam={
+		name="Ragadeepakas Mozhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Ragadeepakas_Mozhunam
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	NAK_Harun_Puyal={
+		name="Harun Puyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Harun_Puyal
+				traits = {	the_banker 	}
+		}
+
+	}
+	NAK_Deepak_Isaikkamaikk={
+		name="Deepak Isaikkamaikk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Deepak_Isaikkamaikk
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	NAK_Maneshna_Kolai={
+		name="Maneshna Kolai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Maneshna_Kolai
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	NAK_Prem_Puyal={
+		name="Prem Puyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Prem_Puyal
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	NAK_Harish_Mozhunam={
+		name="Harish Mozhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAK_Harish_Mozhunam
+				traits = {	first_lady 	}
+		}
+
+	}
+	NAK_Siddhari_Arai={
+		name="Siddhari Arai"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Siddhari_Arai
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	NAK_Dinesh_Puyam={
+		name="Dinesh Puyam"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Dinesh_Puyam
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	NAK_Raveen_Kolai={
+		name="Raveen Kolai"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Raveen_Kolai
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	NAK_Satishna_Kolai={
+		name="Satishna Kolai"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAK_Satishna_Kolai
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	NAK_Mohavi_Nakkam={
+		name="Mohavi Nakkam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Mohavi_Nakkam
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	NAK_Dinesh_Puyal={
+		name="Dinesh Puyal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAK_Dinesh_Puyal
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	NAK_Mohar_Arai={
+		name="Mohar Arai"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Mohar_Arai
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	NAK_Vinoj_Nakkam={
+		name="Vinoj Nakkam"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAK_Vinoj_Nakkam
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	NAK_Moharthik_Kolai={
+		name="Moharthik Kolai"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Moharthik_Kolai
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	NAK_Mohar_Kolai={
+		name="Mohar Kolai"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Mohar_Kolai
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	NAK_Krish_Nilai={
+		name="Krish Nilai"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Krish_Nilai
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	NAK_Gandrandrane_Arai={
+		name="Gandrandrane Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Gandrandrane_Arai
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	NAK_Praneshna_Thenjilam={
+		name="Praneshna Thenjilam"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Praneshna_Thenjilam
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	NAK_Senthik_Mozi={
+		name="Senthik Mozi"
+
+		advisor={
+			slot = high_command
+			idea_token = NAK_Senthik_Mozi
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	NAK_Prakash_Puyal={
+		name="Prakash Puyal"
+
+		advisor={
+			slot = theorist
+			idea_token = NAK_Prakash_Puyal
+				traits = {	military_theorist 	}
+		}
+
+	}
+	NAK_Senth_Mozhunam={
+		name="Senth Mozhunam"
+
+		advisor={
+			slot = theorist
+			idea_token = NAK_Senth_Mozhunam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	NAK_Anil_Mozi={
+		name="Anil Mozi"
+
+		advisor={
+			slot = theorist
+			idea_token = NAK_Anil_Mozi
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

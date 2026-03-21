@@ -2,14 +2,14 @@
 state={
 	id=694
 	name="STATE_694"
-	manpower = 988060
+	manpower = 264032
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 9829 3}
-		victory_points = { 9831 3}
-		victory_points = { 9835 3}
+		victory_points = { 9281 1}
 		
-		owner = MWR
+		owner = XRA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
+			9281 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MWR
+		add_core_of = XRA
 	}
 
 	provinces={
-		9827 9828 9829 9830 9831 9832 9833 9834 9835 9836 9837 9838 9839 9840 9841 9842 9843 
+		9279 9280 9281 
 	}
 	local_supplies=0.0 
 }

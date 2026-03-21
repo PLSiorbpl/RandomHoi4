@@ -2,7 +2,7 @@
 state={
 	id=124
 	name="STATE_124"
-	manpower = 497045
+	manpower = 801616
 	
 	state_category = town
 	#impassable = yes
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 1958 1}
-		victory_points = { 1960 1}
-		victory_points = { 1963 1}
+		victory_points = { 1797 2}
+		victory_points = { 1802 2}
 		
-		owner = BAP
+		owner = HBA
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = BAP
+		add_core_of = HBA
 	}
 
 	provinces={
-		1956 1957 1958 1959 1960 1961 1962 1963 
+		1792 1793 1794 1795 1796 1797 1798 1799 1800 1801 1802 1803 1804 
 	}
 	local_supplies=0.0 
 }

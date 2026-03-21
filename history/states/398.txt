@@ -2,9 +2,9 @@
 state={
 	id=398
 	name="STATE_398"
-	manpower = 398226
+	manpower = 1112146
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 5594 1}
-		victory_points = { 5596 1}
+		victory_points = { 5241 1}
+		victory_points = { 5251 6}
 		
-		owner = NOJ
+		owner = HOR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			5596 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = NOJ
+		add_core_of = HOR
 	}
 
 	provinces={
-		5594 5595 5596 5597 5598 5599 
+		5240 5241 5242 5243 5244 5245 5246 5247 5248 5249 5250 5251 5252 5253 5254 5255 
 	}
 	local_supplies=0.0 
 }

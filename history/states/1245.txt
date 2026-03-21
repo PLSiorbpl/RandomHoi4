@@ -2,41 +2,42 @@
 state={
 	id=1245
 	name="STATE_1245"
-	manpower = 409341
+	manpower = 945811
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=11
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17172 1}
-		victory_points = { 17173 2}
+		victory_points = { 16341 1}
+		victory_points = { 16347 2}
+		victory_points = { 16350 2}
 		
-		owner = JAB
+		owner = YTZ
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
-			
-			17172 = {
+			industrial_complex = 0
+			dockyard = 1
+			16347 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = JAB
+		add_core_of = YTZ
 	}
 
 	provinces={
-		17170 17171 17172 17173 17174 17175 
+		16339 16340 16341 16342 16343 16344 16345 16346 16347 16348 16349 16350 16351 16352 
 	}
 	local_supplies=0.0 
 }

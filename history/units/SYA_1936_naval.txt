@@ -1,0 +1,29 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Sean Fleet"			
+		naval_base = 17588
+		task_force = {
+			name = "Sean Fleet"
+			location = 17588
+			
+						ship = { name = "Fuarradann" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SYA version_name = "Eirseas Class" } }	}
+			ship = { name = "Faisce" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SYA version_name = "Breiling Class" } }	}
+			ship = { name = "Porc" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SYA version_name = "Faisce Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

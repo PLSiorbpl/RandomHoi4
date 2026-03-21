@@ -2,7 +2,7 @@
 state={
 	id=475
 	name="STATE_475"
-	manpower = 744526
+	manpower = 1042349
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,29 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=9
 		tungsten=0
-		coal=0
+		coal=16
 	}
 
 	history={
-		victory_points = { 6727 4}
-		victory_points = { 6737 2}
+		victory_points = { 6133 5}
+		victory_points = { 6142 2}
 		
-		owner = GQT
+		owner = GHU
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GQT
+		add_core_of = GHU
 	}
 
 	provinces={
-		6726 6727 6728 6729 6730 6731 6732 6733 6734 6735 6736 6737 
+		6131 6132 6133 6134 6135 6136 6137 6138 6139 6140 6141 6142 6143 6144 6145 6146 6147 6148 
 	}
 	local_supplies=0.0 
 }

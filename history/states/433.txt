@@ -2,13 +2,13 @@
 state={
 	id=433
 	name="STATE_433"
-	manpower = 1264416
+	manpower = 716387
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=3
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
@@ -17,26 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 6108 6}
-		victory_points = { 6116 5}
+		victory_points = { 5658 2}
+		victory_points = { 5667 3}
 		
-		owner = GQT
+		owner = NXS
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
-			6128 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = GQT
+		add_core_of = NXS
 	}
 
 	provinces={
-		6106 6107 6108 6109 6110 6111 6112 6113 6114 6115 6116 6117 6118 6119 6120 6121 6122 6123 6124 6125 6126 6127 6128 
+		5658 5659 5660 5661 5662 5663 5664 5665 5666 5667 
 	}
 	local_supplies=0.0 
 }

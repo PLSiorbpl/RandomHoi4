@@ -2,40 +2,41 @@
 state={
 	id=5
 	name="STATE_5"
-	manpower = 327109
+	manpower = 1042168
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=5
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=17
 	}
 
 	history={
-		victory_points = { 93 1}
+		victory_points = { 29 1}
+		victory_points = { 42 5}
 		
-		owner = ZTA
+		owner = FEA
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 4
 			
-			95 = {
+			arms_factory = 0
+			industrial_complex = 1
+			
+			34 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = ZTA
+		add_core_of = FEA
 	}
 
 	provinces={
-		92 93 94 95 
+		29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 
 	}
 	local_supplies=0.0 
 }

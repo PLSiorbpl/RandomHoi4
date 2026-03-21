@@ -2,26 +2,26 @@
 state={
 	id=541
 	name="STATE_541"
-	manpower = 1097013
+	manpower = 941163
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=20
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7831 4}
-		victory_points = { 7835 4}
-		victory_points = { 7848 1}
+		victory_points = { 7089 1}
+		victory_points = { 7091 3}
+		victory_points = { 7100 1}
 		
-		owner = COZ
+		owner = YIC
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -30,11 +30,11 @@ state={
 			
 			
 		}
-		add_core_of = COZ
+		add_core_of = YIC
 	}
 
 	provinces={
-		7831 7832 7833 7834 7835 7836 7837 7838 7839 7840 7841 7842 7843 7844 7845 7846 7847 7848 7849 
+		7088 7089 7090 7091 7092 7093 7094 7095 7096 7097 7098 7099 7100 
 	}
 	local_supplies=0.0 
 }

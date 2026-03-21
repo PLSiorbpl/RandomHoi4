@@ -1,0 +1,41 @@
+
+state={
+	id=1366
+	name="STATE_1366"
+	manpower = 443942
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17745 1}
+		
+		owner = QEC
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17748 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QEC
+	}
+
+	provinces={
+		17745 17746 17747 17748 17749 17750 
+	}
+	local_supplies=0.0 
+}

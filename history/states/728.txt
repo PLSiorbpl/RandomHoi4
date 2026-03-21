@@ -2,37 +2,39 @@
 state={
 	id=728
 	name="STATE_728"
-	manpower = 125730
+	manpower = 707590
 	
-	state_category = small_island
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=9
 		tungsten=0
-		coal=0
+		coal=12
 	}
 
 	history={
-		victory_points = { 10393 1}
+		victory_points = { 9735 1}
+		victory_points = { 9737 1}
+		victory_points = { 9740 1}
 		
-		owner = BEJ
+		owner = GHU
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 0
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = GHU
 	}
 
 	provinces={
-		10393 
+		9735 9736 9737 9738 9739 9740 9741 9742 9743 9744 
 	}
 	local_supplies=0.0 
 }

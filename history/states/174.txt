@@ -2,39 +2,38 @@
 state={
 	id=174
 	name="STATE_174"
-	manpower = 1110211
+	manpower = 1006878
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
-		steel=14
-		tungsten=0
+		steel=0
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 2728 2}
-		victory_points = { 2739 2}
-		victory_points = { 2743 5}
+		victory_points = { 2491 5}
+		victory_points = { 2493 1}
 		
-		owner = SIJ
+		owner = HUA
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 2
+			air_base = 3
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = SIJ
+		add_core_of = HUA
 	}
 
 	provinces={
-		2725 2726 2727 2728 2729 2730 2731 2732 2733 2734 2735 2736 2737 2738 2739 2740 2741 2742 2743 
+		2485 2486 2487 2488 2489 2490 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2501 2502 2503 
 	}
 	local_supplies=0.0 
 }

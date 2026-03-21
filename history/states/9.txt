@@ -2,9 +2,9 @@
 state={
 	id=9
 	name="STATE_9"
-	manpower = 1028951
+	manpower = 367466
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,27 +13,29 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=2
 	}
 
 	history={
-		victory_points = { 137 6}
-		victory_points = { 144 2}
+		victory_points = { 92 1}
 		
-		owner = RDE
+		owner = UKI
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
+			90 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = RDE
+		add_core_of = UKI
 	}
 
 	provinces={
-		135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 
+		89 90 91 92 
 	}
 	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=1102
 	name="STATE_1102"
-	manpower = 1039174
+	manpower = 655587
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 15319 2}
-		victory_points = { 15325 7}
+		victory_points = { 14368 3}
+		victory_points = { 14371 1}
 		
-		owner = NON
+		owner = PIC
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
 			
-			15325 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = NON
+		add_core_of = PIC
 	}
 
 	provinces={
-		15315 15316 15317 15318 15319 15320 15321 15322 15323 15324 15325 15326 15327 15328 15329 15330 15331 
+		14366 14367 14368 14369 14370 14371 14372 14373 14374 
 	}
 	local_supplies=0.0 
 }

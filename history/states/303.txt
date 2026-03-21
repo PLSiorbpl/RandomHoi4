@@ -2,14 +2,14 @@
 state={
 	id=303
 	name="STATE_303"
-	manpower = 514021
+	manpower = 1142545
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 4502 1}
-		victory_points = { 4505 1}
-		victory_points = { 4507 1}
+		victory_points = { 4084 8}
 		
-		owner = VUD
+		owner = ETX
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = VUD
+		add_core_of = ETX
 	}
 
 	provinces={
-		4501 4502 4503 4504 4505 4506 4507 4508 
+		4075 4076 4077 4078 4079 4080 4081 4082 4083 4084 4085 4086 4087 4088 4089 4090 4091 
 	}
 	local_supplies=0.0 
 }

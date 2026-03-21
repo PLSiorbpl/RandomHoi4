@@ -1,0 +1,880 @@
+characters = {
+	DRV_Dusz_Krabro={
+		name="Dusz Krabro"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRV_Lubomas_Ptir={
+		name="Lubomas Ptir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Lubomas_Ptir
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	DRV_Simir_Ptir={
+		name="Simir Ptir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Simir_Ptir
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	DRV_Ivan_Ptir={
+		name="Ivan Ptir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Ivan_Ptir
+				traits = {	humble 	}
+		}
+
+	}
+	DRV_Radoslavel_Ostina={
+		name="Radoslavel Ostina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Radoslavel_Ostina
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	DRV_Simir_Mosof={
+		name="Simir Mosof"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Simir_Mosof
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	DRV_Bogdanko_Mosof={
+		name="Bogdanko Mosof"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Bogdanko_Mosof
+				traits = {	headstrong 	}
+		}
+
+	}
+	DRV_Sergei_Ostina={
+		name="Sergei Ostina"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Sergei_Ostina
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	DRV_Vlan_Krabro={
+		name="Vlan Krabro"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Vlan_Krabro
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	DRV_Aleg_Slos={
+		name="Aleg Slos"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Aleg_Slos
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	DRV_Andrej_Drvo={
+		name="Andrej Drvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Andrej_Drvo
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	DRV_Simeon_Slos={
+		name="Simeon Slos"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Simeon_Slos
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	DRV_Kiri_Gradar={
+		name="Kiri Gradar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Kiri_Gradar
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	DRV_Kiri_Krabro={
+		name="Kiri Krabro"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Kiri_Krabro
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	DRV_Yuraj_Slos={
+		name="Yuraj Slos"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Yuraj_Slos
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	DRV_Velimir_Ptir={
+		name="Velimir Ptir"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Velimir_Ptir
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	DRV_Ivanovan_Krametlo={
+		name="Ivanovan Krametlo"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Ivanovan_Krametlo
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	DRV_Bohdan_Teat={
+		name="Bohdan Teat"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Bohdan_Teat
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DRV_Lubos_Slos={
+		name="Lubos Slos"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Lubos_Slos
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	DRV_Gorilav_Ptir={
+		name="Gorilav Ptir"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Gorilav_Ptir
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	DRV_Bohdanov_Ptir={
+		name="Bohdanov Ptir"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Bohdanov_Ptir
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	DRV_Velimeon_Gradar={
+		name="Velimeon Gradar"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRV_Petan_Ptir={
+		name="Petan Ptir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Petan_Ptir
+				traits = {	autokrator 	}
+		}
+
+	}
+	DRV_Nikitrilav_Krabro={
+		name="Nikitrilav Krabro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Nikitrilav_Krabro
+				traits = {	autokrator 	}
+		}
+
+	}
+	DRV_Bori_Gradar={
+		name="Bori Gradar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Bori_Gradar
+				traits = {	infirm 	}
+		}
+
+	}
+	DRV_Ivan_Teat={
+		name="Ivan Teat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Ivan_Teat
+				traits = {	infirm 	}
+		}
+
+	}
+	DRV_Markolan_Ptir={
+		name="Markolan Ptir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Markolan_Ptir
+				traits = {	warmonger 	}
+		}
+
+	}
+	DRV_Vlav_Gradar={
+		name="Vlav Gradar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Vlav_Gradar
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	DRV_Miroslavko_Ptir={
+		name="Miroslavko Ptir"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Miroslavko_Ptir
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	DRV_Mila_Krametlo={
+		name="Mila Krametlo"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Mila_Krametlo
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	DRV_Ivan_Mosof={
+		name="Ivan Mosof"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Ivan_Mosof
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DRV_Kazimir_Drvo={
+		name="Kazimir Drvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Kazimir_Drvo
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DRV_Viktoran_Mosof={
+		name="Viktoran Mosof"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Viktoran_Mosof
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	DRV_Velimir_Krametlo={
+		name="Velimir Krametlo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Velimir_Krametlo
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	DRV_Zoran_Krametlo={
+		name="Zoran Krametlo"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Zoran_Krametlo
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	DRV_Vlavkolavel_Krabro={
+		name="Vlavkolavel Krabro"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Vlavkolavel_Krabro
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	DRV_Simir_Krabro={
+		name="Simir Krabro"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Simir_Krabro
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	DRV_Alexei_Krametlo={
+		name="Alexei Krametlo"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Alexei_Krametlo
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	DRV_Radek_Teat={
+		name="Radek Teat"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Radek_Teat
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	DRV_Simita_Zemljican={
+		name="Simita Zemljican"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Simita_Zemljican
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	DRV_Alexei_Zemljican={
+		name="Alexei Zemljican"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Alexei_Zemljican
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	DRV_Bori_Ptir={
+		name="Bori Ptir"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Bori_Ptir
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	DRV_Olek_Teat={
+		name="Olek Teat"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRV_Dmir_Ostina={
+		name="Dmir Ostina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Dmir_Ostina
+				traits = {	political_dancer 	}
+		}
+
+	}
+	DRV_Radimita_Ptir={
+		name="Radimita Ptir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Radimita_Ptir
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DRV_Bohdan_Krabro={
+		name="Bohdan Krabro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Bohdan_Krabro
+				traits = {	polemarch 	}
+		}
+
+	}
+	DRV_Jurislav_Drvo={
+		name="Jurislav Drvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Jurislav_Drvo
+				traits = {	political_dancer 	}
+		}
+
+	}
+	DRV_Miroslavko_Krametlo={
+		name="Miroslavko Krametlo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Miroslavko_Krametlo
+				traits = {	polemarch 	}
+		}
+
+	}
+	DRV_Radek_Krametlo={
+		name="Radek Krametlo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Radek_Krametlo
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DRV_Zoran_Mosof={
+		name="Zoran Mosof"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Zoran_Mosof
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	DRV_Yuraj_Krabro={
+		name="Yuraj Krabro"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Yuraj_Krabro
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	DRV_Tomas_Zemljican={
+		name="Tomas Zemljican"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Tomas_Zemljican
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	DRV_Zoran_Zemljican={
+		name="Zoran Zemljican"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Zoran_Zemljican
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	DRV_Bogdanov_Slos={
+		name="Bogdanov Slos"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Bogdanov_Slos
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	DRV_Vlav_Zemljican={
+		name="Vlav Zemljican"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Vlav_Zemljican
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DRV_Miroslavko_Gradar={
+		name="Miroslavko Gradar"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Miroslavko_Gradar
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DRV_Lubomirosh_Krabro={
+		name="Lubomirosh Krabro"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Lubomirosh_Krabro
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	DRV_Simeon_Gradar={
+		name="Simeon Gradar"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Simeon_Gradar
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	DRV_Radovanko_Ostina={
+		name="Radovanko Ostina"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Radovanko_Ostina
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	DRV_Bogdan_Slos={
+		name="Bogdan Slos"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Bogdan_Slos
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	DRV_Vlavkolavko_Krabro={
+		name="Vlavkolavko Krabro"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Vlavkolavko_Krabro
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	DRV_Vlado_Zemljican={
+		name="Vlado Zemljican"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Vlado_Zemljican
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	DRV_Dusz_Ostina={
+		name="Dusz Ostina"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Dusz_Ostina
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	DRV_Zoran_Gradar={
+		name="Zoran Gradar"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRV_Velimir_Teat={
+		name="Velimir Teat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Velimir_Teat
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	DRV_Bogdan_Gradar={
+		name="Bogdan Gradar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Bogdan_Gradar
+				traits = {	the_banker 	}
+		}
+
+	}
+	DRV_Lubomirosh_Zemljican={
+		name="Lubomirosh Zemljican"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Lubomirosh_Zemljican
+				traits = {	infirm 	}
+		}
+
+	}
+	DRV_Lubomas_Gradar={
+		name="Lubomas Gradar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Lubomas_Gradar
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	DRV_Radoslavel_Gradar={
+		name="Radoslavel Gradar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Radoslavel_Gradar
+				traits = {	infirm 	}
+		}
+
+	}
+	DRV_Viktoranko_Gradar={
+		name="Viktoranko Gradar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRV_Viktoranko_Gradar
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DRV_Bogdanko_Zemljican={
+		name="Bogdanko Zemljican"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Bogdanko_Zemljican
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	DRV_Zoran_Krabro={
+		name="Zoran Krabro"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Zoran_Krabro
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DRV_Vlavkolavel_Ptir={
+		name="Vlavkolavel Ptir"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Vlavkolavel_Ptir
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DRV_Lubomas_Drvo={
+		name="Lubomas Drvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRV_Lubomas_Drvo
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DRV_Radoslavel_Slos={
+		name="Radoslavel Slos"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Radoslavel_Slos
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	DRV_Jarko_Krabro={
+		name="Jarko Krabro"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRV_Jarko_Krabro
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	DRV_Jurislav_Slos={
+		name="Jurislav Slos"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Jurislav_Slos
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	DRV_Viktoran_Krabro={
+		name="Viktoran Krabro"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRV_Viktoran_Krabro
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	DRV_Radek_Ptir={
+		name="Radek Ptir"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Radek_Ptir
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	DRV_Dmir_Teat={
+		name="Dmir Teat"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Dmir_Teat
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	DRV_Ivanovan_Krabro={
+		name="Ivanovan Krabro"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Ivanovan_Krabro
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	DRV_Nikita_Ptir={
+		name="Nikita Ptir"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Nikita_Ptir
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	DRV_Velimir_Ostina={
+		name="Velimir Ostina"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Velimir_Ostina
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	DRV_Kiros_Ptir={
+		name="Kiros Ptir"
+
+		advisor={
+			slot = high_command
+			idea_token = DRV_Kiros_Ptir
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	DRV_Jarko_Zemljican={
+		name="Jarko Zemljican"
+
+		advisor={
+			slot = theorist
+			idea_token = DRV_Jarko_Zemljican
+				traits = {	military_theorist 	}
+		}
+
+	}
+	DRV_Nikitar_Zemljican={
+		name="Nikitar Zemljican"
+
+		advisor={
+			slot = theorist
+			idea_token = DRV_Nikitar_Zemljican
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	DRV_Radovan_Mosof={
+		name="Radovan Mosof"
+
+		advisor={
+			slot = theorist
+			idea_token = DRV_Radovan_Mosof
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

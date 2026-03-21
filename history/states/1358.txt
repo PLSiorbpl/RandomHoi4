@@ -1,0 +1,41 @@
+
+state={
+	id=1358
+	name="STATE_1358"
+	manpower = 113566
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17683 1}
+		
+		owner = ANI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17683 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ANI
+	}
+
+	provinces={
+		17683 
+	}
+	local_supplies=0.0 
+}

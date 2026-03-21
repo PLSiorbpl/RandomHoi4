@@ -2,25 +2,25 @@
 state={
 	id=199
 	name="STATE_199"
-	manpower = 547834
+	manpower = 620981
 	
 	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=2
 		chromium=0
-		oil=2
+		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 3034 2}
-		victory_points = { 3036 2}
+		victory_points = { 2775 3}
+		victory_points = { 2777 1}
 		
-		owner = HHL
+		owner = GDA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = HHL
+		add_core_of = GDA
 	}
 
 	provinces={
-		3034 3035 3036 3037 3038 3039 3040 3041 
+		2773 2774 2775 2776 2777 2778 2779 2780 
 	}
 	local_supplies=0.0 
 }

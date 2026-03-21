@@ -1,0 +1,38 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Atuugaaq Fleet"			
+		naval_base = 17186
+		task_force = {
+			name = "Atuugaaq Fleet"
+			location = 17186
+			
+						ship = { name = "Naktun" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = QTU version_name = "Kawakbe Class" } }	}
+			ship = { name = "Bakan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QTU version_name = "Chilam Class" } }	}
+			ship = { name = "Kukulkabal" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QTU version_name = "Kukulkabal Class" } }	}
+			ship = { name = "Kukulkabal 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QTU version_name = "Chilam Class" } }	}
+			ship = { name = "Bakan 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = QTU version_name = "Kawakbe Class" } }	}
+			ship = { name = "Ajawak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QTU version_name = "Chilam Class" } }	}
+			ship = { name = "Kukulkabal 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QTU version_name = "Kukulkabal Class" } }	}
+			ship = { name = "Bakan 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = QTU version_name = "Kawakbe Class" } }	}
+			ship = { name = "Chilam" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QTU version_name = "Kukulkabal Class" } }	}
+			ship = { name = "Ajawak 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = QTU version_name = "Kawakbe Class" } }	}
+			ship = { name = "Kawakbe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QTU version_name = "Chilam Class" } }	}
+			ship = { name = "Kawakbe 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = QTU version_name = "Kawakbe Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

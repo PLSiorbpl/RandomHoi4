@@ -1,0 +1,880 @@
+characters = {
+	SLU_Tratius_Gentus={
+		name="Tratius Gentus"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SLU_Publius_Caravia={
+		name="Publius Caravia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Publius_Caravia
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SLU_Antus_Tabestifex={
+		name="Antus Tabestifex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Antus_Tabestifex
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SLU_Horaticusust_Patructus={
+		name="Horaticusust Patructus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Horaticusust_Patructus
+				traits = {	headstrong 	}
+		}
+
+	}
+	SLU_Lonius_Artas={
+		name="Lonius Artas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Lonius_Artas
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SLU_Antonius_Patructus={
+		name="Antonius Patructus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Antonius_Patructus
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SLU_Nervius_Plus={
+		name="Nervius Plus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Nervius_Plus
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SLU_Prius_Aetespus={
+		name="Prius Aetespus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Prius_Aetespus
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SLU_Nero_Plus={
+		name="Nero Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Nero_Plus
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SLU_Quintus_Caravia={
+		name="Quintus Caravia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Quintus_Caravia
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SLU_Drutus_Aetespus={
+		name="Drutus Aetespus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Drutus_Aetespus
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SLU_Caianusus_Plus={
+		name="Caianusus Plus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Caianusus_Plus
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SLU_Otho_Caravia={
+		name="Otho Caravia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Otho_Caravia
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SLU_Sevolavius_Aetespus={
+		name="Sevolavius Aetespus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Sevolavius_Aetespus
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SLU_Neriscus_Patructus={
+		name="Neriscus Patructus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Neriscus_Patructus
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SLU_Tibiusus_Gentus={
+		name="Tibiusus Gentus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Tibiusus_Gentus
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	SLU_Brutustus_Patructus={
+		name="Brutustus Patructus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Brutustus_Patructus
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SLU_Flavius_Tabestifex={
+		name="Flavius Tabestifex"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Flavius_Tabestifex
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	SLU_Neriscus_Gentus={
+		name="Neriscus Gentus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Neriscus_Gentus
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SLU_Graius_Caravia={
+		name="Graius Caravia"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Graius_Caravia
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	SLU_Nero_Caravia={
+		name="Nero Caravia"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Nero_Caravia
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SLU_Augus_Vilva={
+		name="Augus Vilva"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SLU_Cornellianus_Patructus={
+		name="Cornellianus Patructus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Cornellianus_Patructus
+				traits = {	basileus 	}
+		}
+
+	}
+	SLU_Lucius_Artas={
+		name="Lucius Artas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Lucius_Artas
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	SLU_Atticus_Gentus={
+		name="Atticus Gentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Atticus_Gentus
+				traits = {	basileus 	}
+		}
+
+	}
+	SLU_Marcus_Plus={
+		name="Marcus Plus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Marcus_Plus
+				traits = {	autokrator 	}
+		}
+
+	}
+	SLU_Scaevolaudiu_Plus={
+		name="Scaevolaudiu Plus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Scaevolaudiu_Plus
+				traits = {	warmonger 	}
+		}
+
+	}
+	SLU_Nonius_Aetespus={
+		name="Nonius Aetespus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Nonius_Aetespus
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SLU_Claus_Plus={
+		name="Claus Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Claus_Plus
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SLU_Tratius_Plus={
+		name="Tratius Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Tratius_Plus
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SLU_Drutus_Tabestifex={
+		name="Drutus Tabestifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Drutus_Tabestifex
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SLU_Tibius_Nubes={
+		name="Tibius Nubes"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Tibius_Nubes
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SLU_Vibius_Plus={
+		name="Vibius Plus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Vibius_Plus
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SLU_Varro_Nubes={
+		name="Varro Nubes"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Varro_Nubes
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	SLU_Reminus_Vilva={
+		name="Reminus Vilva"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Reminus_Vilva
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	SLU_Marcus_Aetespus={
+		name="Marcus Aetespus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Marcus_Aetespus
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SLU_Lucimus_Patructus={
+		name="Lucimus Patructus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Lucimus_Patructus
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	SLU_Neriscus_Aetespus={
+		name="Neriscus Aetespus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Neriscus_Aetespus
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SLU_Vibius_Vilva={
+		name="Vibius Vilva"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Vibius_Vilva
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	SLU_Lucius_Nubes={
+		name="Lucius Nubes"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Lucius_Nubes
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SLU_Maximus_Gentus={
+		name="Maximus Gentus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Maximus_Gentus
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	SLU_Otho_Plus={
+		name="Otho Plus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Otho_Plus
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	SLU_Brutus_Gentus={
+		name="Brutus Gentus"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SLU_Horaticusust_Nubes={
+		name="Horaticusust Nubes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Horaticusust_Nubes
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SLU_Tiberius_Vilva={
+		name="Tiberius Vilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Tiberius_Vilva
+				traits = {	polemarch 	}
+		}
+
+	}
+	SLU_Cassius_Nubes={
+		name="Cassius Nubes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Cassius_Nubes
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SLU_Cornellianus_Malus={
+		name="Cornellianus Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Cornellianus_Malus
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SLU_Marcus_Caravia={
+		name="Marcus Caravia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Marcus_Caravia
+				traits = {	infirm 	}
+		}
+
+	}
+	SLU_Nervius_Aetespus={
+		name="Nervius Aetespus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Nervius_Aetespus
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SLU_Tracchustus_Tabestifex={
+		name="Tracchustus Tabestifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Tracchustus_Tabestifex
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SLU_Coratius_Patructus={
+		name="Coratius Patructus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Coratius_Patructus
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SLU_Sevolavius_Tabestifex={
+		name="Sevolavius Tabestifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Sevolavius_Tabestifex
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SLU_Lonius_Plus={
+		name="Lonius Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Lonius_Plus
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SLU_Spurius_Vilva={
+		name="Spurius Vilva"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Spurius_Vilva
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	SLU_Cornellianus_Tabestifex={
+		name="Cornellianus Tabestifex"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Cornellianus_Tabestifex
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SLU_Nerius_Gentus={
+		name="Nerius Gentus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Nerius_Gentus
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SLU_Scaevolaudiu_Aetespus={
+		name="Scaevolaudiu Aetespus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Scaevolaudiu_Aetespus
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SLU_Quintonius_Tabestifex={
+		name="Quintonius Tabestifex"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Quintonius_Tabestifex
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SLU_Marcus_Artas={
+		name="Marcus Artas"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Marcus_Artas
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	SLU_Manus_Artas={
+		name="Manus Artas"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Manus_Artas
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SLU_Drutus_Caravia={
+		name="Drutus Caravia"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Drutus_Caravia
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	SLU_Gemus_Tabestifex={
+		name="Gemus Tabestifex"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Gemus_Tabestifex
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	SLU_Lonius_Nubes={
+		name="Lonius Nubes"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Lonius_Nubes
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SLU_Regus_Gentus={
+		name="Regus Gentus"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SLU_Varro_Malus={
+		name="Varro Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Varro_Malus
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SLU_Decius_Vilva={
+		name="Decius Vilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Decius_Vilva
+				traits = {	first_lady 	}
+		}
+
+	}
+	SLU_Augus_Patructus={
+		name="Augus Patructus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Augus_Patructus
+				traits = {	the_banker 	}
+		}
+
+	}
+	SLU_Brutustus_Aetespus={
+		name="Brutustus Aetespus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Brutustus_Aetespus
+				traits = {	the_banker 	}
+		}
+
+	}
+	SLU_Drutus_Nubes={
+		name="Drutus Nubes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Drutus_Nubes
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SLU_Manus_Malus={
+		name="Manus Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SLU_Manus_Malus
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SLU_Nero_Artas={
+		name="Nero Artas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Nero_Artas
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SLU_Prius_Patructus={
+		name="Prius Patructus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Prius_Patructus
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SLU_Nonius_Caravia={
+		name="Nonius Caravia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Nonius_Caravia
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SLU_Tibiusus_Artas={
+		name="Tibiusus Artas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SLU_Tibiusus_Artas
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SLU_Decius_Malus={
+		name="Decius Malus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Decius_Malus
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SLU_Gaius_Artas={
+		name="Gaius Artas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SLU_Gaius_Artas
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SLU_Graius_Vilva={
+		name="Graius Vilva"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Graius_Vilva
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SLU_Lonius_Malus={
+		name="Lonius Malus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SLU_Lonius_Malus
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SLU_Nerius_Malus={
+		name="Nerius Malus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Nerius_Malus
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	SLU_Cornellianus_Caravia={
+		name="Cornellianus Caravia"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Cornellianus_Caravia
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SLU_Gaius_Patructus={
+		name="Gaius Patructus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Gaius_Patructus
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	SLU_Vitius_Gentus={
+		name="Vitius Gentus"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Vitius_Gentus
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	SLU_Quintonius_Vilva={
+		name="Quintonius Vilva"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Quintonius_Vilva
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	SLU_Lonius_Vilva={
+		name="Lonius Vilva"
+
+		advisor={
+			slot = high_command
+			idea_token = SLU_Lonius_Vilva
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	SLU_Gaius_Tabestifex={
+		name="Gaius Tabestifex"
+
+		advisor={
+			slot = theorist
+			idea_token = SLU_Gaius_Tabestifex
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SLU_Antus_Plus={
+		name="Antus Plus"
+
+		advisor={
+			slot = theorist
+			idea_token = SLU_Antus_Plus
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SLU_Graticus_Malus={
+		name="Graticus Malus"
+
+		advisor={
+			slot = theorist
+			idea_token = SLU_Graticus_Malus
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

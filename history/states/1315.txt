@@ -2,41 +2,43 @@
 state={
 	id=1315
 	name="STATE_1315"
-	manpower = 424219
+	manpower = 1457083
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=0
+		oil=14
+		rubber=41
 		steel=0
 		tungsten=0
-		coal=0
+		coal=6
 	}
 
 	history={
-		victory_points = { 17768 2}
-		victory_points = { 17769 1}
+		victory_points = { 17270 2}
+		victory_points = { 17279 2}
+		victory_points = { 17285 1}
+		victory_points = { 17292 2}
 		
-		owner = NFT
+		owner = LQM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
-			17768 = {
+			17284 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = NFT
+		add_core_of = LQM
 	}
 
 	provinces={
-		17765 17766 17767 17768 17769 17770 
+		17263 17264 17265 17266 17267 17268 17269 17270 17271 17272 17273 17274 17275 17276 17277 17278 17279 17280 17281 17282 17283 17284 17285 17286 17287 17288 17289 17290 17291 17292 17293 17294 17295 17296 17297 17298 17299 17300 17301 17302 17303 17304 
 	}
 	local_supplies=0.0 
 }

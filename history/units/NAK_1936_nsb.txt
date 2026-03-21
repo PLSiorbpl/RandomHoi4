@@ -1,0 +1,204 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+			artillery_brigade = {  x = 3 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Nipak' Militia Division"
+		location = 11864
+		division_template = "Militia Division"
+		start_experience_factor = 0.730689
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Kuranam' Militia Division"
+		location = 9255
+		division_template = "Militia Division"
+		start_experience_factor = 0.463046
+		start_equipment_factor = 0.957646
+	}
+	division= {
+		name = "2rd 'Arai' Militia Division"
+		location = 7811
+		division_template = "Militia Division"
+		start_experience_factor = 0.369844
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Kugak' Militia Division"
+		location = 9547
+		division_template = "Militia Division"
+		start_experience_factor = 0.287864
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Kaattu' Militia Division"
+		location = 8959
+		division_template = "Militia Division"
+		start_experience_factor = 0.841511
+		start_equipment_factor = 0.935065
+	}
+	division= {
+		name = "5th 'Thunam' Militia Division"
+		location = 8996
+		division_template = "Militia Division"
+		start_experience_factor = 0.302198
+		start_equipment_factor = 0.945642
+	}
+	division= {
+		name = "0st 'Nakkam' Infantry Division"
+		location = 10765
+		division_template = "Infantry Division"
+		start_experience_factor = 0.173951
+		start_equipment_factor = 0.968277
+	}
+	division= {
+		name = "1nd 'Kazh' Infantry Division"
+		location = 7955
+		division_template = "Infantry Division"
+		start_experience_factor = 0.794176
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Arai' Infantry Division"
+		location = 7811
+		division_template = "Infantry Division"
+		start_experience_factor = 0.935846
+		start_equipment_factor = 0.939354
+	}
+	division= {
+		name = "3th 'Nakkam' Infantry Division"
+		location = 10765
+		division_template = "Infantry Division"
+		start_experience_factor = 0.236351
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Kolai' Supported Infantry Division"
+		location = 10760
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.456356
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Nadi' Artillery Division"
+		location = 10517
+		division_template = "Artillery Division"
+		start_experience_factor = 0.267428
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Thai' Cavalry Division"
+		location = 10497
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.150174
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Nakkam' Cavalry Division"
+		location = 7815
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.678454
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Makku' Cavalry Division"
+		location = 9009
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.928518
+		start_equipment_factor = 1.000000
+	}
+
+}

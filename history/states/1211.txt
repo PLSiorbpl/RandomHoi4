@@ -2,14 +2,14 @@
 state={
 	id=1211
 	name="STATE_1211"
-	manpower = 528492
+	manpower = 853467
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=11
+		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 16814 3}
-		victory_points = { 16815 1}
+		victory_points = { 15921 1}
+		victory_points = { 15923 2}
+		victory_points = { 15931 2}
 		
-		owner = CHV
+		owner = LQM
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CHV
+		add_core_of = LQM
 	}
 
 	provinces={
-		16814 16815 16816 16817 16818 16819 16820 16821 
+		15920 15921 15922 15923 15924 15925 15926 15927 15928 15929 15930 15931 
 	}
 	local_supplies=0.0 
 }

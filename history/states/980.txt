@@ -2,7 +2,7 @@
 state={
 	id=980
 	name="STATE_980"
-	manpower = 375328
+	manpower = 358116
 	
 	state_category = pastoral
 	#impassable = yes
@@ -17,21 +17,22 @@ state={
 	}
 
 	history={
+		victory_points = { 13036 1}
 		
-		owner = EOI
+		owner = REO
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 1
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = EOI
+		add_core_of = REO
 	}
 
 	provinces={
-		13484 13485 13486 13487 13488 13489 13490 13491 
+		13033 13034 13035 13036 
 	}
 	local_supplies=0.0 
 }

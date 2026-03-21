@@ -2,9 +2,9 @@
 state={
 	id=58
 	name="STATE_58"
-	manpower = 453925
+	manpower = 262863
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,27 +12,27 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 920 3}
+		victory_points = { 858 1}
 		
-		owner = ZTA
+		owner = TMI
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ZTA
+		add_core_of = TMI
 	}
 
 	provinces={
-		920 921 922 923 924 925 926 
+		858 859 860 
 	}
 	local_supplies=0.0 
 }

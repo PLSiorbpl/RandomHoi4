@@ -2,39 +2,37 @@
 state={
 	id=480
 	name="STATE_480"
-	manpower = 774141
+	manpower = 327507
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=1
 		rubber=0
-		steel=10
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6799 2}
-		victory_points = { 6808 3}
-		victory_points = { 6809 1}
+		victory_points = { 6210 1}
 		
-		owner = XHR
+		owner = ULU
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = XHR
+		add_core_of = ULU
 	}
 
 	provinces={
-		6799 6800 6801 6802 6803 6804 6805 6806 6807 6808 6809 6810 
+		6210 6211 6212 6213 
 	}
 	local_supplies=0.0 
 }

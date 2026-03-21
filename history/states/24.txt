@@ -2,14 +2,14 @@
 state={
 	id=24
 	name="STATE_24"
-	manpower = 482163
+	manpower = 671454
 	
 	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=3
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 437 1}
-		victory_points = { 438 2}
+		victory_points = { 306 3}
+		victory_points = { 312 1}
 		
-		owner = NOJ
+		owner = ANI
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
+			313 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = NOJ
+		add_core_of = ANI
 	}
 
 	provinces={
-		437 438 439 440 441 442 443 
+		306 307 308 309 310 311 312 313 314 
 	}
 	local_supplies=0.0 
 }

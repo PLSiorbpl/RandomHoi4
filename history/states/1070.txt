@@ -2,14 +2,14 @@
 state={
 	id=1070
 	name="STATE_1070"
-	manpower = 670872
+	manpower = 728853
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 14842 2}
-		victory_points = { 14848 2}
+		victory_points = { 13966 4}
 		
-		owner = YAS
+		owner = KFM
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			14842 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = YAS
+		add_core_of = KFM
 	}
 
 	provinces={
-		14839 14840 14841 14842 14843 14844 14845 14846 14847 14848 
+		13959 13960 13961 13962 13963 13964 13965 13966 13967 13968 13969 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=118
 	name="STATE_118"
-	manpower = 847535
+	manpower = 938738
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,16 +11,16 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=5
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 1858 3}
-		victory_points = { 1866 4}
+		victory_points = { 1714 3}
+		victory_points = { 1717 3}
 		
-		owner = VUD
+		owner = FEA
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = VUD
+		add_core_of = FEA
 	}
 
 	provinces={
-		1858 1859 1860 1861 1862 1863 1864 1865 1866 1867 1868 1869 1870 1871 
+		1712 1713 1714 1715 1716 1717 1718 1719 1720 1721 1722 1723 1724 
 	}
 	local_supplies=0.0 
 }

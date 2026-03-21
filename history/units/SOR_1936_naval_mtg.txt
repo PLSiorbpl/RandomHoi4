@@ -1,0 +1,46 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Corg Fleet"			
+		naval_base = 17468
+		task_force = {
+			name = "Corg Fleet"
+			location = 17468
+			
+						ship = { name = "Muinta" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Muinta 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Baine" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Muinta 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Croin" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Fonn" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Croin 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Croin 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Croin 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Muinta 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Fonn 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Fonn 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Baine 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Croin 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Dora" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Baine 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Muinta 5" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Baine 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOR version_name = "Muinta Class" } }	}
+			ship = { name = "Croin 6" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+			ship = { name = "Dora 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOR version_name = "Baine Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

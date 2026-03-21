@@ -2,14 +2,14 @@
 state={
 	id=1284
 	name="STATE_1284"
-	manpower = 492204
+	manpower = 1161281
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,28 @@ state={
 	}
 
 	history={
-		victory_points = { 17544 2}
-		victory_points = { 17547 1}
+		victory_points = { 16917 1}
+		victory_points = { 16921 1}
+		victory_points = { 16928 2}
+		victory_points = { 16929 3}
 		
-		owner = AGH
+		owner = RUT
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			17548 = {
+			industrial_complex = 1
+			
+			16921 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = AGH
+		add_core_of = RUT
 	}
 
 	provinces={
-		17543 17544 17545 17546 17547 17548 17549 
+		16913 16914 16915 16916 16917 16918 16919 16920 16921 16922 16923 16924 16925 16926 16927 16928 16929 
 	}
 	local_supplies=0.0 
 }

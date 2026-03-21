@@ -2,37 +2,37 @@
 state={
 	id=650
 	name="STATE_650"
-	manpower = 287947
+	manpower = 818673
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=18
 		tungsten=0
-		coal=3
+		coal=52
 	}
 
 	history={
-		victory_points = { 9292 1}
+		victory_points = { 8683 5}
 		
-		owner = MWR
+		owner = GHU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MWR
+		add_core_of = GHU
 	}
 
 	provinces={
-		9292 9293 9294 9295 
+		8682 8683 8684 8685 8686 8687 8688 8689 8690 8691 8692 8693 8694 
 	}
 	local_supplies=0.0 
 }

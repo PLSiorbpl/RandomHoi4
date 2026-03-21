@@ -2,40 +2,40 @@
 state={
 	id=720
 	name="STATE_720"
-	manpower = 1098635
+	manpower = 1329498
 	
 	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=6
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=5
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10294 2}
-		victory_points = { 10304 2}
-		victory_points = { 10305 2}
-		victory_points = { 10307 2}
+		victory_points = { 9638 2}
+		victory_points = { 9639 4}
+		victory_points = { 9642 1}
+		victory_points = { 9645 2}
 		
-		owner = CJR
+		owner = MAT
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = CJR
+		add_core_of = MAT
 	}
 
 	provinces={
-		10289 10290 10291 10292 10293 10294 10295 10296 10297 10298 10299 10300 10301 10302 10303 10304 10305 10306 10307 
+		9635 9636 9637 9638 9639 9640 9641 9642 9643 9644 9645 9646 9647 9648 9649 9650 9651 9652 9653 9654 
 	}
 	local_supplies=0.0 
 }

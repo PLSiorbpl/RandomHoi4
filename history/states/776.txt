@@ -2,42 +2,37 @@
 state={
 	id=776
 	name="STATE_776"
-	manpower = 1187129
+	manpower = 539873
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
-		coal=34
+		coal=0
 	}
 
 	history={
-		victory_points = { 10956 3}
-		victory_points = { 10957 3}
-		victory_points = { 10974 4}
+		victory_points = { 10432 1}
 		
-		owner = TQI
+		owner = SAH
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
-			10966 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = TQI
+		add_core_of = SAH
 	}
 
 	provinces={
-		10955 10956 10957 10958 10959 10960 10961 10962 10963 10964 10965 10966 10967 10968 10969 10970 10971 10972 10973 10974 
+		10427 10428 10429 10430 10431 10432 10433 10434 
 	}
 	local_supplies=0.0 
 }

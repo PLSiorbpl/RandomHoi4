@@ -2,14 +2,14 @@
 state={
 	id=462
 	name="STATE_462"
-	manpower = 1064438
+	manpower = 1339661
 	
 	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 6517 7}
-		victory_points = { 6530 3}
+		victory_points = { 5926 3}
+		victory_points = { 5932 3}
+		victory_points = { 5936 3}
 		
-		owner = GPU
+		owner = DAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GPU
+		add_core_of = DAN
 	}
 
 	provinces={
-		6514 6515 6516 6517 6518 6519 6520 6521 6522 6523 6524 6525 6526 6527 6528 6529 6530 6531 
+		5917 5918 5919 5920 5921 5922 5923 5924 5925 5926 5927 5928 5929 5930 5931 5932 5933 5934 5935 5936 
 	}
 	local_supplies=0.0 
 }

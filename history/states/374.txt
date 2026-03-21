@@ -2,9 +2,9 @@
 state={
 	id=374
 	name="STATE_374"
-	manpower = 1822
+	manpower = 688280
 	
-	state_category = small_island
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,25 +13,27 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=4
+		coal=0
 	}
 
 	history={
+		victory_points = { 4982 1}
+		victory_points = { 4983 2}
 		
-		owner = VUD
+		owner = OON
 		buildings = {
-			infrastructure = 1
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = VUD
+		add_core_of = OON
 	}
 
 	provinces={
-		5299 5300 5301 5302 5303 5304 5305 5306 5307 5308 5309 5310 5311 5312 5313 
+		4982 4983 4984 4985 4986 4987 4988 4989 4990 4991 
 	}
 	local_supplies=0.0 
 }

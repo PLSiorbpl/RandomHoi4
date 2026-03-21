@@ -2,24 +2,23 @@
 state={
 	id=1229
 	name="STATE_1229"
-	manpower = 331625
+	manpower = 222405
 	
-	state_category = rural
+	state_category = small_island
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=6
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17030 1}
 		
-		owner = EOI
+		owner = BTC
 		buildings = {
 			infrastructure = 2
 			
@@ -28,11 +27,11 @@ state={
 			
 			
 		}
-		add_core_of = EOI
+		add_core_of = BTC
 	}
 
 	provinces={
-		17029 17030 17031 17032 
+		16071 16072 16073 16074 16075 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,29 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Nazamzarahr Fleet"			
+		naval_base = 4622
+		task_force = {
+			name = "Nazamzarahr Fleet"
+			location = 4622
+			
+						ship = { name = "Namangi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NAZ version_name = "Narfangi Class" } }	}
+			ship = { name = "Sepahnar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = NAZ version_name = "Sepahnar Class" } }	}
+			ship = { name = "Namangi 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = NAZ version_name = "Sepahnar Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

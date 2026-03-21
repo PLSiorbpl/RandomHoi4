@@ -2,39 +2,40 @@
 state={
 	id=693
 	name="STATE_693"
-	manpower = 613721
+	manpower = 1470716
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=0
+		aluminium=20
+		chromium=11
 		oil=0
-		rubber=0
+		rubber=3
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9819 1}
-		victory_points = { 9820 1}
-		victory_points = { 9825 1}
+		victory_points = { 9261 10}
 		
-		owner = MWR
+		owner = GHU
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
+			9274 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MWR
+		add_core_of = GHU
 	}
 
 	provinces={
-		9817 9818 9819 9820 9821 9822 9823 9824 9825 9826 
+		9256 9257 9258 9259 9260 9261 9262 9263 9264 9265 9266 9267 9268 9269 9270 9271 9272 9273 9274 9275 9276 9277 9278 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=1283
 	name="STATE_1283"
-	manpower = 213856
+	manpower = 949827
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=5
-		oil=1
+		chromium=0
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,26 @@ state={
 	}
 
 	history={
+		victory_points = { 16900 5}
+		victory_points = { 16906 2}
 		
-		owner = AGH
+		owner = RUT
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			17541 = {
+			16911 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = AGH
+		add_core_of = RUT
 	}
 
 	provinces={
-		17541 17542 
+		16899 16900 16901 16902 16903 16904 16905 16906 16907 16908 16909 16910 16911 16912 
 	}
 	local_supplies=0.0 
 }

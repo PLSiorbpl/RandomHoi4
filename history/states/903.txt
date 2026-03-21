@@ -2,7 +2,7 @@
 state={
 	id=903
 	name="STATE_903"
-	manpower = 299958
+	manpower = 494945
 	
 	state_category = rural
 	#impassable = yes
@@ -10,32 +10,30 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=4
 		steel=0
 		tungsten=0
-		coal=8
+		coal=0
 	}
 
 	history={
-		victory_points = { 12494 1}
+		victory_points = { 12119 1}
+		victory_points = { 12120 1}
 		
-		owner = TVM
+		owner = LOR
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3
+			
 			arms_factory = 0
 			industrial_complex = 0
 			
-			12493 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = TVM
+		add_core_of = LOR
 	}
 
 	provinces={
-		12491 12492 12493 12494 
+		12116 12117 12118 12119 12120 12121 12122 
 	}
 	local_supplies=0.0 
 }

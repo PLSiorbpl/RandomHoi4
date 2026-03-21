@@ -1,0 +1,28 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kulana Fleet"			
+		naval_base = 12545
+		task_force = {
+			name = "Kulana Fleet"
+			location = 12545
+			
+						ship = { name = "Ptir" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KUL version_name = "Teat Class" } }	}
+			ship = { name = "Krabro" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KUL version_name = "Zemljican Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -2,39 +2,38 @@
 state={
 	id=44
 	name="STATE_44"
-	manpower = 1052253
+	manpower = 1226477
 	
 	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=4
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=4
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 746 3}
-		victory_points = { 756 4}
-		victory_points = { 761 2}
+		victory_points = { 593 8}
+		victory_points = { 602 1}
 		
-		owner = KZU
+		owner = RNT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = KZU
+		add_core_of = RNT
 	}
 
 	provinces={
-		745 746 747 748 749 750 751 752 753 754 755 756 757 758 759 760 761 
+		590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,28 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Nakkam Fleet"			
+		naval_base = 11970
+		task_force = {
+			name = "Nakkam Fleet"
+			location = 11970
+			
+						ship = { name = "Arai" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NAK version_name = "Isaikkamaikk Class" } }	}
+			ship = { name = "Isaikkamaikk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NAK version_name = "Arai Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

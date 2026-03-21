@@ -2,39 +2,38 @@
 state={
 	id=989
 	name="STATE_989"
-	manpower = 1315327
+	manpower = 740836
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13607 5}
-		victory_points = { 13615 4}
-		victory_points = { 13621 2}
+		victory_points = { 13193 4}
+		victory_points = { 13194 1}
 		
-		owner = GFI
+		owner = TSL
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GFI
+		add_core_of = TSL
 	}
 
 	provinces={
-		13606 13607 13608 13609 13610 13611 13612 13613 13614 13615 13616 13617 13618 13619 13620 13621 13622 13623 13624 13625 13626 13627 
+		13192 13193 13194 13195 13196 13197 13198 13199 13200 13201 
 	}
 	local_supplies=0.0 
 }

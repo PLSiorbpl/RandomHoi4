@@ -2,43 +2,42 @@
 state={
 	id=1197
 	name="STATE_1197"
-	manpower = 998051
+	manpower = 1753585
 	
-	state_category = city
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=7
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 16642 2}
-		victory_points = { 16644 2}
-		victory_points = { 16652 2}
-		victory_points = { 16656 2}
+		victory_points = { 15696 4}
+		victory_points = { 15701 6}
+		victory_points = { 15705 3}
 		
-		owner = JAX
+		owner = LQM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 2
 			
-			16645 = {
+			15701 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = JAX
+		add_core_of = LQM
 	}
 
 	provinces={
-		16640 16641 16642 16643 16644 16645 16646 16647 16648 16649 16650 16651 16652 16653 16654 16655 16656 
+		15689 15690 15691 15692 15693 15694 15695 15696 15697 15698 15699 15700 15701 15702 15703 15704 15705 15706 15707 15708 15709 15710 15711 15712 15713 15714 
 	}
 	local_supplies=0.0 
 }

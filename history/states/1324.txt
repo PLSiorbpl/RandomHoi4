@@ -2,41 +2,39 @@
 state={
 	id=1324
 	name="STATE_1324"
-	manpower = 554770
+	manpower = 309960
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=6
+		chromium=0
 		oil=0
-		rubber=0
-		steel=0
+		rubber=9
+		steel=7
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17816 1}
-		victory_points = { 17821 1}
 		
-		owner = QGA
+		owner = MFN
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 1
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
-			17814 = {
+			17381 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QGA
+		add_core_of = MFN
 	}
 
 	provinces={
-		17814 17815 17816 17817 17818 17819 17820 17821 
+		17377 17378 17379 17380 17381 17382 17383 17384 
 	}
 	local_supplies=0.0 
 }

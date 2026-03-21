@@ -2,40 +2,38 @@
 state={
 	id=499
 	name="STATE_499"
-	manpower = 941368
+	manpower = 1034955
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
-		rubber=11
+		oil=0
+		rubber=0
 		steel=0
-		tungsten=27
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7118 2}
-		victory_points = { 7125 1}
-		victory_points = { 7129 2}
-		victory_points = { 7138 1}
+		victory_points = { 6540 2}
+		victory_points = { 6544 5}
 		
-		owner = JQU
+		owner = FUL
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = JQU
+		add_core_of = FUL
 	}
 
 	provinces={
-		7116 7117 7118 7119 7120 7121 7122 7123 7124 7125 7126 7127 7128 7129 7130 7131 7132 7133 7134 7135 7136 7137 7138 7139 7140 7141 
+		6539 6540 6541 6542 6543 6544 6545 6546 6547 6548 6549 6550 6551 6552 6553 6554 6555 
 	}
 	local_supplies=0.0 
 }

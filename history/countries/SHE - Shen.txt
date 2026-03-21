@@ -1,0 +1,393 @@
+capital = 21
+
+oob = "SHE_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "SHE_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "SHE_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	construction1= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SHE_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			armor_piercing_bombs = 1
+			engines_2 = 1
+			basic_small_airframe = 1
+			basic_medium_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Guan Mk 2"
+			type = small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Shan Mk 2"
+			type = small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Zhen Mk 1"
+			type = small_plane_naval_bomber_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Jing Mk 2"
+			type = medium_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Xiang Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Xiang Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Ying Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Chuan Mk 2"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Guan Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "SHE_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "SHE_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Tian Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "SHE_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Tian Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = SHE_Tenzing_Chuan
+recruit_character = SHE_Ngawa_Guan
+recruit_character = SHE_Gyatso_Shan
+recruit_character = SHE_Lonam_Xiang
+recruit_character = SHE_Tenzing_Guan
+recruit_character = SHE_Thubtenzing_Shan
+recruit_character = SHE_Jigme_Chuan
+recruit_character = SHE_Reng_Xiang
+recruit_character = SHE_Ming_Shan
+recruit_character = SHE_Dawang_Chuan
+recruit_character = SHE_Jiangdu_Chuan
+recruit_character = SHE_Henzing_Shan
+recruit_character = SHE_Thubten_Tian
+recruit_character = SHE_Ngawang_Tian
+recruit_character = SHE_Fang_Shan
+recruit_character = SHE_Gyatso_Guan
+recruit_character = SHE_Wangdu_Hong
+recruit_character = SHE_Thubtenzin_Chuan
+recruit_character = SHE_Henzing_Hong
+recruit_character = SHE_Chen_Chuan
+recruit_character = SHE_Qiang_Hong
+recruit_character = SHE_Chenzin_Hong
+recruit_character = SHE_Yang_Tian
+recruit_character = SHE_Gyatso_Tian
+recruit_character = SHE_Qiangdu_Shan
+recruit_character = SHE_Sonam_Guan
+recruit_character = SHE_Thubten_Chuan
+recruit_character = SHE_Longdu_Tian
+recruit_character = SHE_Heng_Guan
+recruit_character = SHE_Sonam_Hong
+recruit_character = SHE_Chenzin_Chuan
+recruit_character = SHE_Chen_Xiang
+recruit_character = SHE_Gyatso_Chuan
+recruit_character = SHE_Lobsan_Xiang
+recruit_character = SHE_Yuntso_Guan
+recruit_character = SHE_Yang_Chuan
+recruit_character = SHE_Chenzin_Shan
+recruit_character = SHE_Dawa_Shan
+recruit_character = SHE_Qiangdu_Xiang
+recruit_character = SHE_Qiang_Tian
+recruit_character = SHE_Phun_Hong
+recruit_character = SHE_Lobsan_Tian
+recruit_character = SHE_Hengdu_Shan
+recruit_character = SHE_Henzin_Xiang
+recruit_character = SHE_Nima_Shan
+recruit_character = SHE_Lobsang_Shan
+recruit_character = SHE_Jiangdu_Xiang
+recruit_character = SHE_Thubtenzin_Xiang
+recruit_character = SHE_Ngawang_Chuan
+recruit_character = SHE_Thubtenzing_Xiang
+recruit_character = SHE_Dawang_Shan
+recruit_character = SHE_Ngawan_Guan
+recruit_character = SHE_Ming_Chuan
+recruit_character = SHE_Ngawa_Tian
+recruit_character = SHE_Yuntso_Tian
+recruit_character = SHE_Jigme_Tian
+recruit_character = SHE_Qiang_Chuan
+recruit_character = SHE_Ming_Hong
+recruit_character = SHE_Wangdu_Shan
+recruit_character = SHE_Dawa_Hong
+recruit_character = SHE_Hengdu_Xiang
+recruit_character = SHE_Wang_Xiang
+recruit_character = SHE_Yuntsok_Shan
+recruit_character = SHE_Ngawan_Tian
+recruit_character = SHE_Ngawangdu_Tian
+recruit_character = SHE_Qiangdu_Chuan
+recruit_character = SHE_Chen_Tian
+recruit_character = SHE_Hengdu_Hong
+recruit_character = SHE_Fang_Tian
+recruit_character = SHE_Hengdu_Tian
+recruit_character = SHE_Henzin_Guan
+recruit_character = SHE_Yuntso_Xiang
+recruit_character = SHE_Karma_Xiang
+recruit_character = SHE_Reng_Hong
+recruit_character = SHE_Lobsang_Guan
+recruit_character = SHE_Henzing_Guan
+recruit_character = SHE_Heng_Tian
+recruit_character = SHE_Dawang_Guan
+recruit_character = SHE_Tenzing_Tian
+recruit_character = SHE_Karma_Chuan
+recruit_character = SHE_Henzin_Shan
+recruit_character = SHE_Henzing_Chuan
+recruit_character = SHE_Gyatso_Hong
+recruit_character = SHE_Yuntso_Hong
+recruit_character = SHE_Sonam_Chuan
+recruit_character = SHE_Jiangdu_Shan
+recruit_character = SHE_Reng_Guan
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 2
+set_war_support = 22
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.7.3"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 32
+	fascism = 21
+	communism = 11
+	neutrality = 36
+}
+
+
+
+
+

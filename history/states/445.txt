@@ -2,14 +2,14 @@
 state={
 	id=445
 	name="STATE_445"
-	manpower = 226139
+	manpower = 878838
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,27 @@ state={
 	}
 
 	history={
+		victory_points = { 5782 1}
+		victory_points = { 5786 3}
+		victory_points = { 5789 2}
 		
-		owner = QIW
+		owner = LIN
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
-			
-			6281 = {
+			dockyard = 1
+			5791 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QIW
+		add_core_of = LIN
 	}
 
 	provinces={
-		6279 6280 6281 
+		5779 5780 5781 5782 5783 5784 5785 5786 5787 5788 5789 5790 5791 5792 
 	}
 	local_supplies=0.0 
 }

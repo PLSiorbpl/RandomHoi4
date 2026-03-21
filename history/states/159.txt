@@ -2,9 +2,9 @@
 state={
 	id=159
 	name="STATE_159"
-	manpower = 811482
+	manpower = 783684
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,32 +12,31 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=3
 		coal=0
 	}
 
 	history={
-		victory_points = { 2498 2}
-		victory_points = { 2499 2}
-		victory_points = { 2505 3}
+		victory_points = { 2284 4}
+		victory_points = { 2294 1}
 		
-		owner = QIW
+		owner = CEI
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			2504 = {
+			
+			2290 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QIW
+		add_core_of = CEI
 	}
 
 	provinces={
-		2494 2495 2496 2497 2498 2499 2500 2501 2502 2503 2504 2505 2506 
+		2284 2285 2286 2287 2288 2289 2290 2291 2292 2293 2294 
 	}
 	local_supplies=0.0 
 }

@@ -2,37 +2,41 @@
 state={
 	id=880
 	name="STATE_880"
-	manpower = 533301
+	manpower = 2110355
 	
-	state_category = rural
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=3
-		steel=0
-		tungsten=0
+		rubber=0
+		steel=2
+		tungsten=5
 		coal=0
 	}
 
 	history={
-		victory_points = { 12259 1}
+		victory_points = { 11811 6}
+		victory_points = { 11814 11}
 		
-		owner = VUK
+		owner = SAH
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 2
 			
+			11814 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = VUK
+		add_core_of = SAH
 	}
 
 	provinces={
-		12258 12259 12260 12261 12262 12263 12264 12265 12266 12267 12268 
+		11802 11803 11804 11805 11806 11807 11808 11809 11810 11811 11812 11813 11814 11815 11816 11817 11818 11819 11820 11821 11822 11823 11824 11825 11826 11827 11828 11829 11830 11831 11832 11833 
 	}
 	local_supplies=0.0 
 }

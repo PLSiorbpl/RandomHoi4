@@ -1,0 +1,880 @@
+characters = {
+	LPO_Ciamus_Sean={
+		name="Ciamus Sean"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LPO_Garan_Sean={
+		name="Garan Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Garan_Sean
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LPO_Liaran_Cilt={
+		name="Liaran Cilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Liaran_Cilt
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LPO_Eoinn_Cois={
+		name="Eoinn Cois"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Eoinn_Cois
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LPO_Tareth_Suimhasach={
+		name="Tareth Suimhasach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Tareth_Suimhasach
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	LPO_Ulrich_Faich={
+		name="Ulrich Faich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Ulrich_Faich
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	LPO_Garan_Magne={
+		name="Garan Magne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Garan_Magne
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LPO_Padran_Faich={
+		name="Padran Faich"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Padran_Faich
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	LPO_Ciall_Faich={
+		name="Ciall Faich"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Ciall_Faich
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	LPO_Bran_Faich={
+		name="Bran Faich"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Bran_Faich
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	LPO_Cialcolm_Sean={
+		name="Cialcolm Sean"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Cialcolm_Sean
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	LPO_Niamus_Faich={
+		name="Niamus Faich"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Niamus_Faich
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	LPO_Gareth_Eacheath={
+		name="Gareth Eacheath"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Gareth_Eacheath
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	LPO_Ciall_Cois={
+		name="Ciall Cois"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Ciall_Cois
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	LPO_Niamus_Magne={
+		name="Niamus Magne"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Niamus_Magne
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	LPO_Declan_Balte={
+		name="Declan Balte"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Declan_Balte
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	LPO_Ciamus_Cois={
+		name="Ciamus Cois"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Ciamus_Cois
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	LPO_Owen_Geachaine={
+		name="Owen Geachaine"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Owen_Geachaine
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	LPO_Ciaran_Geachaine={
+		name="Ciaran Geachaine"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Ciaran_Geachaine
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	LPO_Ulrich_Suimhasach={
+		name="Ulrich Suimhasach"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Ulrich_Suimhasach
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	LPO_Mall_Faich={
+		name="Mall Faich"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Mall_Faich
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	LPO_Liall_Geachaine={
+		name="Liall Geachaine"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LPO_Declan_Sean={
+		name="Declan Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Declan_Sean
+				traits = {	warmonger 	}
+		}
+
+	}
+	LPO_Tareth_Sean={
+		name="Tareth Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Tareth_Sean
+				traits = {	basileus 	}
+		}
+
+	}
+	LPO_Taraig_Geachaine={
+		name="Taraig Geachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Taraig_Geachaine
+				traits = {	autokrator 	}
+		}
+
+	}
+	LPO_Iwan_Cois={
+		name="Iwan Cois"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Iwan_Cois
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	LPO_Keiran_Sean={
+		name="Keiran Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Keiran_Sean
+				traits = {	polemarch 	}
+		}
+
+	}
+	LPO_Hugh_Suimhasach={
+		name="Hugh Suimhasach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Hugh_Suimhasach
+				traits = {	generallissimo 	}
+		}
+
+	}
+	LPO_Niamus_Eacheath={
+		name="Niamus Eacheath"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Niamus_Eacheath
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LPO_Owen_Eirsearradh={
+		name="Owen Eirsearradh"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Owen_Eirsearradh
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	LPO_Quin_Sean={
+		name="Quin Sean"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Quin_Sean
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	LPO_Taran_Suimhasach={
+		name="Taran Suimhasach"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Taran_Suimhasach
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LPO_Ciamus_Suimhasach={
+		name="Ciamus Suimhasach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Ciamus_Suimhasach
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LPO_Taran_Cois={
+		name="Taran Cois"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Taran_Cois
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LPO_Rhys_Sean={
+		name="Rhys Sean"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Rhys_Sean
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	LPO_Taran_Eirsearradh={
+		name="Taran Eirsearradh"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Taran_Eirsearradh
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	LPO_Taran_Faich={
+		name="Taran Faich"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Taran_Faich
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	LPO_Malcolm_Cilt={
+		name="Malcolm Cilt"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Malcolm_Cilt
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	LPO_Hugh_Eacheath={
+		name="Hugh Eacheath"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Hugh_Eacheath
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	LPO_Gareth_Geachaine={
+		name="Gareth Geachaine"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Gareth_Geachaine
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	LPO_Eoin_Eacheath={
+		name="Eoin Eacheath"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Eoin_Eacheath
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	LPO_Iwan_Faich={
+		name="Iwan Faich"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Iwan_Faich
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	LPO_Garan_Balte={
+		name="Garan Balte"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LPO_Liareth_Geachaine={
+		name="Liareth Geachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Liareth_Geachaine
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LPO_Garan_Eirsearradh={
+		name="Garan Eirsearradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Garan_Eirsearradh
+				traits = {	infirm 	}
+		}
+
+	}
+	LPO_Liall_Eirsearradh={
+		name="Liall Eirsearradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Liall_Eirsearradh
+				traits = {	infirm 	}
+		}
+
+	}
+	LPO_Ciaran_Sean={
+		name="Ciaran Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Ciaran_Sean
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LPO_Eoin_Eirsearradh={
+		name="Eoin Eirsearradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Eoin_Eirsearradh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LPO_Mall_Balte={
+		name="Mall Balte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Mall_Balte
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LPO_Fergus_Cilt={
+		name="Fergus Cilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Fergus_Cilt
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	LPO_Nialcolm_Balte={
+		name="Nialcolm Balte"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Nialcolm_Balte
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	LPO_Liall_Cilt={
+		name="Liall Cilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Liall_Cilt
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	LPO_Liareth_Eirsearradh={
+		name="Liareth Eirsearradh"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Liareth_Eirsearradh
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	LPO_Braig_Magne={
+		name="Braig Magne"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Braig_Magne
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	LPO_Rhys_Geachaine={
+		name="Rhys Geachaine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Rhys_Geachaine
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	LPO_Braig_Faich={
+		name="Braig Faich"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Braig_Faich
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	LPO_Gareth_Cilt={
+		name="Gareth Cilt"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Gareth_Cilt
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	LPO_Ulrich_Cilt={
+		name="Ulrich Cilt"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Ulrich_Cilt
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	LPO_Quinn_Cilt={
+		name="Quinn Cilt"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Quinn_Cilt
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	LPO_Nialcolm_Suimhasach={
+		name="Nialcolm Suimhasach"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Nialcolm_Suimhasach
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	LPO_Keiran_Balte={
+		name="Keiran Balte"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Keiran_Balte
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	LPO_Liall_Cois={
+		name="Liall Cois"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Liall_Cois
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	LPO_Hugh_Balte={
+		name="Hugh Balte"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Hugh_Balte
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	LPO_Taraig_Cois={
+		name="Taraig Cois"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LPO_Padraig_Faich={
+		name="Padraig Faich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Padraig_Faich
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	LPO_Seam_Balte={
+		name="Seam Balte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Seam_Balte
+				traits = {	the_banker 	}
+		}
+
+	}
+	LPO_Fergus_Suimhasach={
+		name="Fergus Suimhasach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Fergus_Suimhasach
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	LPO_Iwan_Magne={
+		name="Iwan Magne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Iwan_Magne
+				traits = {	rearmer 	}
+		}
+
+	}
+	LPO_Malcolm_Magne={
+		name="Malcolm Magne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Malcolm_Magne
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	LPO_Liall_Faich={
+		name="Liall Faich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LPO_Liall_Faich
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	LPO_Cialcolm_Eacheath={
+		name="Cialcolm Eacheath"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Cialcolm_Eacheath
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LPO_Mall_Magne={
+		name="Mall Magne"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Mall_Magne
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LPO_Gareth_Suimhasach={
+		name="Gareth Suimhasach"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Gareth_Suimhasach
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LPO_Quinn_Eacheath={
+		name="Quinn Eacheath"
+
+		advisor={
+			slot = army_chief
+			idea_token = LPO_Quinn_Eacheath
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LPO_Ciall_Magne={
+		name="Ciall Magne"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Ciall_Magne
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	LPO_Ciaran_Cois={
+		name="Ciaran Cois"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LPO_Ciaran_Cois
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	LPO_Rhys_Balte={
+		name="Rhys Balte"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Rhys_Balte
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	LPO_Owen_Faich={
+		name="Owen Faich"
+
+		advisor={
+			slot = air_chief
+			idea_token = LPO_Owen_Faich
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	LPO_Tareth_Cilt={
+		name="Tareth Cilt"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Tareth_Cilt
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	LPO_Fergus_Eirsearradh={
+		name="Fergus Eirsearradh"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Fergus_Eirsearradh
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	LPO_Quin_Faich={
+		name="Quin Faich"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Quin_Faich
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	LPO_Bran_Eirsearradh={
+		name="Bran Eirsearradh"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Bran_Eirsearradh
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	LPO_Hugh_Faich={
+		name="Hugh Faich"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Hugh_Faich
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	LPO_Liam_Cilt={
+		name="Liam Cilt"
+
+		advisor={
+			slot = high_command
+			idea_token = LPO_Liam_Cilt
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	LPO_Taraig_Suimhasach={
+		name="Taraig Suimhasach"
+
+		advisor={
+			slot = theorist
+			idea_token = LPO_Taraig_Suimhasach
+				traits = {	military_theorist 	}
+		}
+
+	}
+	LPO_Tareth_Geachaine={
+		name="Tareth Geachaine"
+
+		advisor={
+			slot = theorist
+			idea_token = LPO_Tareth_Geachaine
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	LPO_Malcolm_Suimhasach={
+		name="Malcolm Suimhasach"
+
+		advisor={
+			slot = theorist
+			idea_token = LPO_Malcolm_Suimhasach
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

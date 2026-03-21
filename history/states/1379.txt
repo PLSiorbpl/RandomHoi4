@@ -1,0 +1,42 @@
+
+state={
+	id=1379
+	name="STATE_1379"
+	manpower = 601097
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=52
+	}
+
+	history={
+		victory_points = { 17835 1}
+		victory_points = { 17838 2}
+		
+		owner = DRV
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17837 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DRV
+	}
+
+	provinces={
+		17832 17833 17834 17835 17836 17837 17838 17839 
+	}
+	local_supplies=0.0 
+}

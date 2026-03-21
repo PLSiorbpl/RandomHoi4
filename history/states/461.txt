@@ -2,14 +2,14 @@
 state={
 	id=461
 	name="STATE_461"
-	manpower = 775170
+	manpower = 1336029
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=4
-		oil=0
+		chromium=0
+		oil=4
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 6502 4}
-		victory_points = { 6506 2}
+		victory_points = { 5905 3}
+		victory_points = { 5909 5}
+		victory_points = { 5913 2}
 		
-		owner = GQT
+		owner = MFN
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+			infrastructure = 4
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GQT
+		add_core_of = MFN
 	}
 
 	provinces={
-		6502 6503 6504 6505 6506 6507 6508 6509 6510 6511 6512 6513 
+		5897 5898 5899 5900 5901 5902 5903 5904 5905 5906 5907 5908 5909 5910 5911 5912 5913 5914 5915 5916 
 	}
 	local_supplies=0.0 
 }

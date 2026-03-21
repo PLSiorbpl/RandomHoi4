@@ -2,9 +2,9 @@
 state={
 	id=810
 	name="STATE_810"
-	manpower = 1585533
+	manpower = 545844
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 11432 4}
-		victory_points = { 11440 11}
+		victory_points = { 10927 3}
 		
-		owner = KZU
+		owner = SOR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 0
+			industrial_complex = 0
 			
-			11448 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = KZU
+		add_core_of = SOR
 	}
 
 	provinces={
-		11426 11427 11428 11429 11430 11431 11432 11433 11434 11435 11436 11437 11438 11439 11440 11441 11442 11443 11444 11445 11446 11447 11448 11449 11450 11451 11452 
+		10925 10926 10927 10928 10929 10930 10931 
 	}
 	local_supplies=0.0 
 }

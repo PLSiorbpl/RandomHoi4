@@ -2,42 +2,38 @@
 state={
 	id=464
 	name="STATE_464"
-	manpower = 1027855
+	manpower = 1762762
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=23
-		chromium=0
-		oil=0
-		rubber=25
-		steel=5
+		aluminium=0
+		chromium=21
+		oil=3
+		rubber=0
+		steel=9
 		tungsten=0
-		coal=51
+		coal=0
 	}
 
 	history={
-		victory_points = { 6552 1}
-		victory_points = { 6579 2}
-		victory_points = { 6586 2}
+		victory_points = { 5953 12}
+		victory_points = { 5966 2}
 		
-		owner = VRU
+		owner = BON
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
 			
-			6557 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 2
+			
 			
 		}
-		add_core_of = VRU
+		add_core_of = BON
 	}
 
 	provinces={
-		6550 6551 6552 6553 6554 6555 6556 6557 6558 6559 6560 6561 6562 6563 6564 6565 6566 6567 6568 6569 6570 6571 6572 6573 6574 6575 6576 6577 6578 6579 6580 6581 6582 6583 6584 6585 6586 6587 6588 6589 
+		5947 5948 5949 5950 5951 5952 5953 5954 5955 5956 5957 5958 5959 5960 5961 5962 5963 5964 5965 5966 5967 5968 5969 5970 5971 5972 5973 
 	}
 	local_supplies=0.0 
 }

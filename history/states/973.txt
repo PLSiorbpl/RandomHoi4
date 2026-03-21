@@ -2,38 +2,37 @@
 state={
 	id=973
 	name="STATE_973"
-	manpower = 408245
+	manpower = 751731
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
-		steel=5
+		rubber=6
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13365 1}
-		victory_points = { 13366 1}
+		victory_points = { 12956 3}
 		
-		owner = GFI
+		owner = REO
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GFI
+		add_core_of = REO
 	}
 
 	provinces={
-		13362 13363 13364 13365 13366 13367 
+		12956 12957 12958 12959 12960 12961 12962 12963 12964 12965 12966 
 	}
 	local_supplies=0.0 
 }

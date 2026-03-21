@@ -2,39 +2,39 @@
 state={
 	id=48
 	name="STATE_48"
-	manpower = 120095
+	manpower = 2486408
 	
-	state_category = small_island
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
-		rubber=1
-		steel=0
-		tungsten=8
+		oil=0
+		rubber=0
+		steel=17
+		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 670 2}
+		victory_points = { 676 7}
+		victory_points = { 700 9}
 		
-		owner = RDE
+		owner = OON
 		buildings = {
-			infrastructure = 2
-			air_base = 3
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 4
 			
-			810 = {
-				naval_base = 1
-			}
+			arms_factory = 2
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = RDE
+		add_core_of = OON
 	}
 
 	provinces={
-		809 810 
+		662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 687 688 689 690 691 692 693 694 695 696 697 698 699 700 
 	}
 	local_supplies=0.0 
 }

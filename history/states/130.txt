@@ -2,9 +2,9 @@
 state={
 	id=130
 	name="STATE_130"
-	manpower = 853974
+	manpower = 1570745
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,28 +12,31 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=25
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2037 1}
-		victory_points = { 2040 6}
+		victory_points = { 1842 1}
+		victory_points = { 1845 3}
+		victory_points = { 1854 1}
+		victory_points = { 1861 3}
+		victory_points = { 1863 2}
 		
-		owner = AUR
+		owner = MPI
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 5
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = AUR
+		add_core_of = MPI
 	}
 
 	provinces={
-		2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 
+		1842 1843 1844 1845 1846 1847 1848 1849 1850 1851 1852 1853 1854 1855 1856 1857 1858 1859 1860 1861 1862 1863 1864 1865 1866 1867 
 	}
 	local_supplies=0.0 
 }

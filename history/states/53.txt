@@ -2,42 +2,38 @@
 state={
 	id=53
 	name="STATE_53"
-	manpower = 1432795
+	manpower = 1569254
 	
-	state_category = city
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=15
+		steel=11
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 845 3}
-		victory_points = { 856 6}
-		victory_points = { 868 3}
+		victory_points = { 777 7}
+		victory_points = { 789 5}
 		
-		owner = ZTA
+		owner = SHE
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 2
 			
-			841 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ZTA
+		add_core_of = SHE
 	}
 
 	provinces={
-		841 842 843 844 845 846 847 848 849 850 851 852 853 854 855 856 857 858 859 860 861 862 863 864 865 866 867 868 869 870 
+		769 770 771 772 773 774 775 776 777 778 779 780 781 782 783 784 785 786 787 788 789 790 791 
 	}
 	local_supplies=0.0 
 }

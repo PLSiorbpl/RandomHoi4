@@ -1,0 +1,41 @@
+
+state={
+	id=1384
+	name="STATE_1384"
+	manpower = 20679
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17862 1}
+		
+		owner = PIN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17862 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = PIN
+	}
+
+	provinces={
+		17862 
+	}
+	local_supplies=0.0 
+}

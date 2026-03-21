@@ -2,14 +2,14 @@
 state={
 	id=777
 	name="STATE_777"
-	manpower = 640786
+	manpower = 458471
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10976 5}
+		victory_points = { 10436 1}
+		victory_points = { 10439 1}
 		
-		owner = BEJ
+		owner = UNI
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = UNI
 	}
 
 	provinces={
-		10975 10976 10977 10978 10979 10980 10981 10982 10983 10984 
+		10435 10436 10437 10438 10439 10440 
 	}
 	local_supplies=0.0 
 }

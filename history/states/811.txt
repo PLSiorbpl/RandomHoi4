@@ -2,9 +2,9 @@
 state={
 	id=811
 	name="STATE_811"
-	manpower = 946790
+	manpower = 800125
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 11454 4}
-		victory_points = { 11457 2}
-		victory_points = { 11460 2}
+		victory_points = { 10937 1}
+		victory_points = { 10941 3}
 		
-		owner = MWR
+		owner = UAS
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
+			10940 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MWR
+		add_core_of = UAS
 	}
 
 	provinces={
-		11453 11454 11455 11456 11457 11458 11459 11460 11461 11462 11463 11464 11465 11466 11467 11468 
+		10932 10933 10934 10935 10936 10937 10938 10939 10940 10941 10942 
 	}
 	local_supplies=0.0 
 }

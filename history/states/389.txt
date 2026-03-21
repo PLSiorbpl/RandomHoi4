@@ -2,14 +2,14 @@
 state={
 	id=389
 	name="STATE_389"
-	manpower = 1162300
+	manpower = 475104
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 5510 3}
-		victory_points = { 5515 1}
-		victory_points = { 5520 6}
+		victory_points = { 5130 1}
+		victory_points = { 5133 1}
 		
-		owner = GPU
+		owner = HOR
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GPU
+		add_core_of = HOR
 	}
 
 	provinces={
-		5507 5508 5509 5510 5511 5512 5513 5514 5515 5516 5517 5518 5519 5520 5521 5522 5523 5524 5525 5526 5527 
+		5129 5130 5131 5132 5133 5134 
 	}
 	local_supplies=0.0 
 }

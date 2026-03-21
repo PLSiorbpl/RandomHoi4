@@ -2,7 +2,7 @@
 state={
 	id=894
 	name="STATE_894"
-	manpower = 412541
+	manpower = 488870
 	
 	state_category = rural
 	#impassable = yes
@@ -17,22 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 12405 3}
+		victory_points = { 11968 2}
 		
-		owner = KNP
+		owner = NAK
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 0
 			
+			11970 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KNP
+		add_core_of = NAK
 	}
 
 	provinces={
-		12401 12402 12403 12404 12405 12406 
+		11966 11967 11968 11969 11970 11971 
 	}
 	local_supplies=0.0 
 }

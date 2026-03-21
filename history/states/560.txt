@@ -2,7 +2,7 @@
 state={
 	id=560
 	name="STATE_560"
-	manpower = 1052906
+	manpower = 1440134
 	
 	state_category = city
 	#impassable = yes
@@ -11,29 +11,28 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=9
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8096 4}
-		victory_points = { 8109 5}
+		victory_points = { 7367 11}
 		
-		owner = EKZ
+		owner = BHL
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = EKZ
+		add_core_of = BHL
 	}
 
 	provinces={
-		8092 8093 8094 8095 8096 8097 8098 8099 8100 8101 8102 8103 8104 8105 8106 8107 8108 8109 
+		7366 7367 7368 7369 7370 7371 7372 7373 7374 7375 7376 7377 7378 7379 7380 7381 7382 7383 7384 7385 7386 
 	}
 	local_supplies=0.0 
 }

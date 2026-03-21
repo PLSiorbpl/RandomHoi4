@@ -2,39 +2,37 @@
 state={
 	id=1257
 	name="STATE_1257"
-	manpower = 308662
+	manpower = 785405
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=11
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
-		coal=0
+		tungsten=6
+		coal=3
 	}
 
 	history={
+		victory_points = { 16604 5}
 		
-		owner = KIM
+		owner = IUI
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 0
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
-			17306 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = KIM
+		add_core_of = IUI
 	}
 
 	provinces={
-		17304 17305 17306 17307 
+		16601 16602 16603 16604 16605 16606 16607 16608 16609 16610 16611 
 	}
 	local_supplies=0.0 
 }

@@ -2,39 +2,41 @@
 state={
 	id=301
 	name="STATE_301"
-	manpower = 1651105
+	manpower = 847464
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=6
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4456 6}
-		victory_points = { 4461 6}
-		victory_points = { 4476 3}
+		victory_points = { 4046 2}
+		victory_points = { 4050 4}
 		
-		owner = AUR
+		owner = FUA
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 2
 			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			4054 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = AUR
+		add_core_of = FUA
 	}
 
 	provinces={
-		4451 4452 4453 4454 4455 4456 4457 4458 4459 4460 4461 4462 4463 4464 4465 4466 4467 4468 4469 4470 4471 4472 4473 4474 4475 4476 4477 4478 
+		4044 4045 4046 4047 4048 4049 4050 4051 4052 4053 4054 4055 4056 
 	}
 	local_supplies=0.0 
 }

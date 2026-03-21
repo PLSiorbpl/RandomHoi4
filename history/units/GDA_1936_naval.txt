@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Guang Fleet"			
+		naval_base = 5869
+		task_force = {
+			name = "Guang Fleet"
+			location = 5869
+			
+						ship = { name = "Xiang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GDA version_name = "Dong Class" } }	}
+			ship = { name = "Guan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GDA version_name = "Guan Class" } }	}
+			ship = { name = "Xian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GDA version_name = "Guan Class" } }	}
+			ship = { name = "Xian 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GDA version_name = "Xian Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

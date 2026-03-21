@@ -2,7 +2,7 @@
 state={
 	id=916
 	name="STATE_916"
-	manpower = 321000
+	manpower = 460574
 	
 	state_category = rural
 	#impassable = yes
@@ -11,28 +11,28 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12593 1}
+		victory_points = { 12356 1}
 		
-		owner = UEO
+		owner = BHL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = UEO
+		add_core_of = BHL
 	}
 
 	provinces={
-		12592 12593 12594 12595 
+		12354 12355 12356 12357 12358 12359 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,50 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Becanahlah Fleet"			
+		naval_base = 17748
+		task_force = {
+			name = "Becanahlah Fleet"
+			location = 17748
+			
+						ship = { name = "Chichen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = QEC version_name = "Tikin Class" } }	}
+			ship = { name = "Chichen 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = QEC version_name = "Nach Class" } }	}
+			ship = { name = "Haax" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Chichen 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QEC version_name = "Becab Class" } }	}
+			ship = { name = "Chichen 4" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Haax 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Haax 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Xulkin" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = QEC version_name = "Nach Class" } }	}
+			ship = { name = "Chichen 5" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Tikin" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Tikin 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QEC version_name = "Becab Class" } }	}
+			ship = { name = "Haax 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Haax 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Xulkin 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = QEC version_name = "Nach Class" } }	}
+			ship = { name = "Haax 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Xulkin 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QEC version_name = "Becab Class" } }	}
+			ship = { name = "Becab" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = QEC version_name = "Nach Class" } }	}
+			ship = { name = "Tikin 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Tikin 4" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Nach" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Chichen 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Nach 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = QEC version_name = "Nach Class" } }	}
+			ship = { name = "Tikin 5" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = QEC version_name = "Haax Class" } }	}
+			ship = { name = "Chichen 7" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = QEC version_name = "Nach Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

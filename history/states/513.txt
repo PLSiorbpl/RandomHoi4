@@ -2,40 +2,38 @@
 state={
 	id=513
 	name="STATE_513"
-	manpower = 480748
+	manpower = 509327
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=0
+		aluminium=1
+		chromium=11
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=3
+		coal=0
 	}
 
 	history={
-		victory_points = { 7406 3}
+		victory_points = { 6764 1}
+		victory_points = { 6767 1}
 		
-		owner = MWR
+		owner = GHU
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			air_base = 3
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			7407 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = MWR
+		add_core_of = GHU
 	}
 
 	provinces={
-		7405 7406 7407 7408 7409 7410 7411 
+		6764 6765 6766 6767 6768 6769 
 	}
 	local_supplies=0.0 
 }

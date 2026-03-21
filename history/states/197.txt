@@ -2,12 +2,12 @@
 state={
 	id=197
 	name="STATE_197"
-	manpower = 508943
+	manpower = 1273129
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=8
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,29 @@ state={
 	}
 
 	history={
-		victory_points = { 3014 3}
-		victory_points = { 3018 1}
+		victory_points = { 2735 2}
+		victory_points = { 2738 1}
+		victory_points = { 2744 2}
+		victory_points = { 2745 2}
+		victory_points = { 2747 2}
 		
-		owner = NKK
+		owner = FEA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
+			2745 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = NKK
+		add_core_of = FEA
 	}
 
 	provinces={
-		3014 3015 3016 3017 3018 3019 3020 3021 
+		2735 2736 2737 2738 2739 2740 2741 2742 2743 2744 2745 2746 2747 2748 2749 2750 2751 2752 2753 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=561
 	name="STATE_561"
-	manpower = 1089966
+	manpower = 585420
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 8117 4}
-		victory_points = { 8123 5}
+		victory_points = { 7388 1}
+		victory_points = { 7393 2}
 		
-		owner = COZ
+		owner = KUL
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = COZ
+		add_core_of = KUL
 	}
 
 	provinces={
-		8110 8111 8112 8113 8114 8115 8116 8117 8118 8119 8120 8121 8122 8123 8124 8125 8126 8127 8128 
+		7387 7388 7389 7390 7391 7392 7393 7394 
 	}
 	local_supplies=0.0 
 }

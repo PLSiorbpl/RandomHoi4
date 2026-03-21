@@ -2,15 +2,15 @@
 state={
 	id=1316
 	name="STATE_1316"
-	manpower = 164408
+	manpower = 221667
 	
-	state_category = pastoral
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=6
 		steel=0
 		tungsten=0
 		coal=0
@@ -18,23 +18,23 @@ state={
 
 	history={
 		
-		owner = NFT
+		owner = LQM
 		buildings = {
 			infrastructure = 2
-			
+			air_base = 3
 			arms_factory = 0
 			industrial_complex = 0
 			
-			17771 = {
+			17308 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = NFT
+		add_core_of = LQM
 	}
 
 	provinces={
-		17771 17772 
+		17305 17306 17307 17308 17309 
 	}
 	local_supplies=0.0 
 }

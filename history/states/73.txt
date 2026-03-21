@@ -2,13 +2,13 @@
 state={
 	id=73
 	name="STATE_73"
-	manpower = 757886
+	manpower = 1360309
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=1
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
@@ -17,28 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 1151 1}
-		victory_points = { 1152 1}
-		victory_points = { 1153 1}
-		victory_points = { 1158 1}
+		victory_points = { 1124 6}
+		victory_points = { 1136 4}
 		
-		owner = MCK
+		owner = TGY
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
 			
-			1159 = {
-				naval_base = 1
-			}
+			arms_factory = 1
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = MCK
+		add_core_of = TGY
 	}
 
 	provinces={
-		1151 1152 1153 1154 1155 1156 1157 1158 1159 1160 1161 1162 
+		1122 1123 1124 1125 1126 1127 1128 1129 1130 1131 1132 1133 1134 1135 1136 1137 1138 1139 1140 1141 
 	}
 	local_supplies=0.0 
 }

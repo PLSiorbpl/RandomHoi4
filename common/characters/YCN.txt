@@ -1,0 +1,880 @@
+characters = {
+	YCN_Yuntso_Lian={
+		name="Yuntso Lian"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YCN_Renzin_Shua={
+		name="Renzin Shua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Renzin_Shua
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YCN_Lobsang_Xian={
+		name="Lobsang Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Lobsang_Xian
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YCN_Dawan_Xian={
+		name="Dawan Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Dawan_Xian
+				traits = {	humble 	}
+		}
+
+	}
+	YCN_Jigme_Shua={
+		name="Jigme Shua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Jigme_Shua
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YCN_Reng_Shua={
+		name="Reng Shua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Reng_Shua
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YCN_Phubtenzing_Xian={
+		name="Phubtenzing Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Phubtenzing_Xian
+				traits = {	humble 	}
+		}
+
+	}
+	YCN_Thun_Zhan={
+		name="Thun Zhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Thun_Zhan
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YCN_Gyatsok_Lian={
+		name="Gyatsok Lian"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Gyatsok_Lian
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	YCN_Gyatsok_Biang={
+		name="Gyatsok Biang"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Gyatsok_Biang
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	YCN_Tenzing_Lian={
+		name="Tenzing Lian"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Tenzing_Lian
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	YCN_Fang_Biang={
+		name="Fang Biang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Fang_Biang
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YCN_Phubten_Shan={
+		name="Phubten Shan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Phubten_Shan
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	YCN_Song_Zhan={
+		name="Song Zhan"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Song_Zhan
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	YCN_Heng_Biang={
+		name="Heng Biang"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Heng_Biang
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YCN_Sonam_Lian={
+		name="Sonam Lian"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Sonam_Lian
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	YCN_Ming_Zhan={
+		name="Ming Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Ming_Zhan
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	YCN_Juntsok_Shua={
+		name="Juntsok Shua"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Juntsok_Shua
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	YCN_Renzing_Shan={
+		name="Renzing Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Renzing_Shan
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	YCN_Lobsan_Shan={
+		name="Lobsan Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Lobsan_Shan
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	YCN_Lobsan_Zhan={
+		name="Lobsan Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Lobsan_Zhan
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YCN_Jiangdu_Biang={
+		name="Jiangdu Biang"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YCN_Nima_Lian={
+		name="Nima Lian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Nima_Lian
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	YCN_Fang_Lian={
+		name="Fang Lian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Fang_Lian
+				traits = {	basileus 	}
+		}
+
+	}
+	YCN_Juntsok_Biang={
+		name="Juntsok Biang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Juntsok_Biang
+				traits = {	infirm 	}
+		}
+
+	}
+	YCN_Thun_Shan={
+		name="Thun Shan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Thun_Shan
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	YCN_Juntsok_Lian={
+		name="Juntsok Lian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Juntsok_Lian
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	YCN_Heng_Zhan={
+		name="Heng Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Heng_Zhan
+				traits = {	generallissimo 	}
+		}
+
+	}
+	YCN_Yuntso_Biang={
+		name="Yuntso Biang"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Yuntso_Biang
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YCN_Chenzin_Xian={
+		name="Chenzin Xian"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Chenzin_Xian
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	YCN_Jiang_Shan={
+		name="Jiang Shan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Jiang_Shan
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	YCN_Qiang_Biang={
+		name="Qiang Biang"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Qiang_Biang
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	YCN_Lobsang_Shan={
+		name="Lobsang Shan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Lobsang_Shan
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	YCN_Thun_Xian={
+		name="Thun Xian"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Thun_Xian
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	YCN_Henzin_Lian={
+		name="Henzin Lian"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Henzin_Lian
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YCN_Phubtenzing_Lian={
+		name="Phubtenzing Lian"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Phubtenzing_Lian
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YCN_Tenzing_Biang={
+		name="Tenzing Biang"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Tenzing_Biang
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	YCN_Dawangdu_Shua={
+		name="Dawangdu Shua"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Dawangdu_Shua
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	YCN_Dawa_Xian={
+		name="Dawa Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Dawa_Xian
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	YCN_Wang_Biang={
+		name="Wang Biang"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Wang_Biang
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	YCN_Thun_Biang={
+		name="Thun Biang"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Thun_Biang
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	YCN_Phubtenzing_Shua={
+		name="Phubtenzing Shua"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Phubtenzing_Shua
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	YCN_Dawan_Zhan={
+		name="Dawan Zhan"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YCN_Dawangdu_Xian={
+		name="Dawangdu Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Dawangdu_Xian
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YCN_Phubtenzin_Shan={
+		name="Phubtenzin Shan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Phubtenzin_Shan
+				traits = {	polemarch 	}
+		}
+
+	}
+	YCN_Longdu_Zhan={
+		name="Longdu Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Longdu_Zhan
+				traits = {	political_dancer 	}
+		}
+
+	}
+	YCN_Gyatso_Biang={
+		name="Gyatso Biang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Gyatso_Biang
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YCN_Long_Shua={
+		name="Long Shua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Long_Shua
+				traits = {	infirm 	}
+		}
+
+	}
+	YCN_Lobsang_Lian={
+		name="Lobsang Lian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Lobsang_Lian
+				traits = {	infirm 	}
+		}
+
+	}
+	YCN_Reng_Biang={
+		name="Reng Biang"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Reng_Biang
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YCN_Teng_Biang={
+		name="Teng Biang"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Teng_Biang
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YCN_Thuntsok_Lian={
+		name="Thuntsok Lian"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Thuntsok_Lian
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	YCN_Henzin_Zhan={
+		name="Henzin Zhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Henzin_Zhan
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YCN_Long_Lian={
+		name="Long Lian"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Long_Lian
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	YCN_Yang_Shua={
+		name="Yang Shua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Yang_Shua
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	YCN_Teng_Lian={
+		name="Teng Lian"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Teng_Lian
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	YCN_Lobsang_Biang={
+		name="Lobsang Biang"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Lobsang_Biang
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	YCN_Phun_Shan={
+		name="Phun Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Phun_Shan
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YCN_Lonam_Zhan={
+		name="Lonam Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Lonam_Zhan
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	YCN_Chen_Zhan={
+		name="Chen Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Chen_Zhan
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	YCN_Gyatso_Lian={
+		name="Gyatso Lian"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Gyatso_Lian
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	YCN_Phubtenzing_Shan={
+		name="Phubtenzing Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Phubtenzing_Shan
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YCN_Phun_Shua={
+		name="Phun Shua"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Phun_Shua
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	YCN_Wang_Shan={
+		name="Wang Shan"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YCN_Phubtenzin_Xian={
+		name="Phubtenzin Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Phubtenzin_Xian
+				traits = {	rearmer 	}
+		}
+
+	}
+	YCN_Song_Xian={
+		name="Song Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Song_Xian
+				traits = {	rearmer 	}
+		}
+
+	}
+	YCN_Chenzin_Biang={
+		name="Chenzin Biang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Chenzin_Biang
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YCN_Teng_Zhan={
+		name="Teng Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Teng_Zhan
+				traits = {	rearmer 	}
+		}
+
+	}
+	YCN_Phubtenzin_Zhan={
+		name="Phubtenzin Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Phubtenzin_Zhan
+				traits = {	infirm 	}
+		}
+
+	}
+	YCN_Gyatso_Shua={
+		name="Gyatso Shua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YCN_Gyatso_Shua
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	YCN_Ming_Shua={
+		name="Ming Shua"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Ming_Shua
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YCN_Nima_Shan={
+		name="Nima Shan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Nima_Shan
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YCN_Gyatso_Zhan={
+		name="Gyatso Zhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Gyatso_Zhan
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	YCN_Juntso_Shan={
+		name="Juntso Shan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YCN_Juntso_Shan
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	YCN_Thubten_Lian={
+		name="Thubten Lian"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Thubten_Lian
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	YCN_Phubtenzing_Zhan={
+		name="Phubtenzing Zhan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YCN_Phubtenzing_Zhan
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	YCN_Yang_Zhan={
+		name="Yang Zhan"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Yang_Zhan
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YCN_Henzin_Shan={
+		name="Henzin Shan"
+
+		advisor={
+			slot = air_chief
+			idea_token = YCN_Henzin_Shan
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	YCN_Renzing_Zhan={
+		name="Renzing Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Renzing_Zhan
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	YCN_Gyatsok_Shua={
+		name="Gyatsok Shua"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Gyatsok_Shua
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	YCN_Chen_Xian={
+		name="Chen Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Chen_Xian
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	YCN_Wang_Xian={
+		name="Wang Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Wang_Xian
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	YCN_Wang_Shua={
+		name="Wang Shua"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Wang_Shua
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	YCN_Sonam_Shua={
+		name="Sonam Shua"
+
+		advisor={
+			slot = high_command
+			idea_token = YCN_Sonam_Shua
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	YCN_Fang_Shua={
+		name="Fang Shua"
+
+		advisor={
+			slot = theorist
+			idea_token = YCN_Fang_Shua
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YCN_Lonam_Lian={
+		name="Lonam Lian"
+
+		advisor={
+			slot = theorist
+			idea_token = YCN_Lonam_Lian
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YCN_Ngawang_Zhan={
+		name="Ngawang Zhan"
+
+		advisor={
+			slot = theorist
+			idea_token = YCN_Ngawang_Zhan
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

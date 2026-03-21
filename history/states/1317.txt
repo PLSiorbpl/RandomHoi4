@@ -2,9 +2,9 @@
 state={
 	id=1317
 	name="STATE_1317"
-	manpower = 310533
+	manpower = 837408
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,26 @@ state={
 	}
 
 	history={
+		victory_points = { 17313 4}
+		victory_points = { 17314 2}
 		
-		owner = NFT
+		owner = XRA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
-			17775 = {
+			17318 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = NFT
+		add_core_of = XRA
 	}
 
 	provinces={
-		17773 17774 17775 17776 
+		17310 17311 17312 17313 17314 17315 17316 17317 17318 17319 17320 17321 
 	}
 	local_supplies=0.0 
 }

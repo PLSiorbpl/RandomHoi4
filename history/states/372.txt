@@ -2,39 +2,40 @@
 state={
 	id=372
 	name="STATE_372"
-	manpower = 977652
+	manpower = 2701116
 	
-	state_category = large_town
+	state_category = megalopolis
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
-		victory_points = { 5281 2}
-		victory_points = { 5285 3}
-		victory_points = { 5291 2}
+		victory_points = { 4941 22}
 		
-		owner = EOP
+		owner = GDA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 3
 			
+			4966 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = EOP
+		add_core_of = GDA
 	}
 
 	provinces={
-		5279 5280 5281 5282 5283 5284 5285 5286 5287 5288 5289 5290 5291 5292 5293 5294 
+		4929 4930 4931 4932 4933 4934 4935 4936 4937 4938 4939 4940 4941 4942 4943 4944 4945 4946 4947 4948 4949 4950 4951 4952 4953 4954 4955 4956 4957 4958 4959 4960 4961 4962 4963 4964 4965 4966 4967 4968 4969 4970 
 	}
 	local_supplies=0.0 
 }

@@ -2,36 +2,38 @@
 state={
 	id=10
 	name="STATE_10"
-	manpower = 3508
+	manpower = 485811
 	
-	state_category = small_island
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=6
-		oil=6
+		chromium=0
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=27
+		coal=0
 	}
 
 	history={
+		victory_points = { 93 1}
+		victory_points = { 94 1}
 		
-		owner = RDE
+		owner = KET
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = RDE
+		add_core_of = KET
 	}
 
 	provinces={
-		152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 
+		93 94 95 96 97 98 
 	}
 	local_supplies=0.0 
 }

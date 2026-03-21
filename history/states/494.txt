@@ -2,40 +2,41 @@
 state={
 	id=494
 	name="STATE_494"
-	manpower = 1163026
+	manpower = 897824
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=10
 		chromium=0
 		oil=0
-		rubber=1
-		steel=22
+		rubber=0
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7023 4}
-		victory_points = { 7026 1}
-		victory_points = { 7027 2}
-		victory_points = { 7033 1}
+		victory_points = { 6448 4}
+		victory_points = { 6453 1}
 		
-		owner = EKZ
+		owner = IMA
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
+			6460 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = EKZ
+		add_core_of = IMA
 	}
 
 	provinces={
-		7023 7024 7025 7026 7027 7028 7029 7030 7031 7032 7033 7034 7035 7036 7037 7038 7039 7040 7041 7042 7043 
+		6448 6449 6450 6451 6452 6453 6454 6455 6456 6457 6458 6459 6460 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Danstra Fleet"			
+		naval_base = 12329
+		task_force = {
+			name = "Danstra Fleet"
+			location = 12329
+			
+						ship = { name = "Ptica" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = DAN version_name = "Ptica Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

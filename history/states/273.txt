@@ -2,41 +2,37 @@
 state={
 	id=273
 	name="STATE_273"
-	manpower = 1485206
+	manpower = 113050
 	
-	state_category = large_city
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=5
-		rubber=0
+		oil=0
+		rubber=1
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4081 1}
-		victory_points = { 4095 13}
+		victory_points = { 3701 1}
 		
-		owner = HHL
+		owner = HOR
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 0
+			industrial_complex = 0
 			
-			4086 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = HHL
+		add_core_of = HOR
 	}
 
 	provinces={
-		4080 4081 4082 4083 4084 4085 4086 4087 4088 4089 4090 4091 4092 4093 4094 4095 4096 4097 4098 4099 4100 4101 4102 4103 4104 
+		3701 
 	}
 	local_supplies=0.0 
 }

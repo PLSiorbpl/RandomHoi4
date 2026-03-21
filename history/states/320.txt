@@ -2,7 +2,7 @@
 state={
 	id=320
 	name="STATE_320"
-	manpower = 292030
+	manpower = 311101
 	
 	state_category = pastoral
 	#impassable = yes
@@ -10,29 +10,28 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=8
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4719 1}
 		
-		owner = VUD
+		owner = CJE
 		buildings = {
 			infrastructure = 2
 			
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = VUD
+		add_core_of = CJE
 	}
 
 	provinces={
-		4716 4717 4718 4719 4720 4721 
+		4318 4319 4320 4321 4322 4323 
 	}
 	local_supplies=0.0 
 }

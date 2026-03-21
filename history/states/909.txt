@@ -2,14 +2,14 @@
 state={
 	id=909
 	name="STATE_909"
-	manpower = 294431
+	manpower = 2092267
 	
-	state_category = rural
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=8
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,21 +17,25 @@ state={
 	}
 
 	history={
+		victory_points = { 12229 3}
+		victory_points = { 12232 1}
+		victory_points = { 12235 4}
+		victory_points = { 12240 8}
 		
-		owner = CJR
+		owner = UNI
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = CJR
+		add_core_of = UNI
 	}
 
 	provinces={
-		12546 12547 12548 12549 
+		12221 12222 12223 12224 12225 12226 12227 12228 12229 12230 12231 12232 12233 12234 12235 12236 12237 12238 12239 12240 12241 12242 12243 12244 12245 12246 12247 12248 12249 12250 12251 12252 
 	}
 	local_supplies=0.0 
 }

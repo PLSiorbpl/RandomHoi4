@@ -2,14 +2,14 @@
 state={
 	id=1199
 	name="STATE_1199"
-	manpower = 555489
+	manpower = 2171093
 	
-	state_category = town
+	state_category = metropolis
 	#impassable = yes
 	resources={
-		aluminium=2
+		aluminium=0
 		chromium=0
-		oil=0
+		oil=10
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 16673 1}
-		victory_points = { 16675 2}
+		victory_points = { 15739 4}
+		victory_points = { 15754 3}
+		victory_points = { 15769 8}
 		
-		owner = DBH
+		owner = LQM
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			dockyard = 1
-			16675 = {
+			15743 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = DBH
+		add_core_of = LQM
 	}
 
 	provinces={
-		16672 16673 16674 16675 16676 16677 16678 16679 
+		15739 15740 15741 15742 15743 15744 15745 15746 15747 15748 15749 15750 15751 15752 15753 15754 15755 15756 15757 15758 15759 15760 15761 15762 15763 15764 15765 15766 15767 15768 15769 15770 15771 15772 15773 
 	}
 	local_supplies=0.0 
 }

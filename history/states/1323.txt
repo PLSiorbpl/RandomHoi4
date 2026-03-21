@@ -2,13 +2,13 @@
 state={
 	id=1323
 	name="STATE_1323"
-	manpower = 396706
+	manpower = 753474
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=3
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
@@ -17,26 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 17812 1}
-		victory_points = { 17813 1}
+		victory_points = { 17367 2}
+		victory_points = { 17368 1}
+		victory_points = { 17371 1}
 		
-		owner = QGA
+		owner = MFN
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 0
-			
-			17808 = {
+			dockyard = 1
+			17375 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QGA
+		add_core_of = MFN
 	}
 
 	provinces={
-		17808 17809 17810 17811 17812 17813 
+		17367 17368 17369 17370 17371 17372 17373 17374 17375 17376 
 	}
 	local_supplies=0.0 
 }

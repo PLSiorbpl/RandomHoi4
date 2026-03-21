@@ -2,14 +2,14 @@
 state={
 	id=864
 	name="STATE_864"
-	manpower = 279821
+	manpower = 437205
 	
 	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 12046 1}
+		victory_points = { 11591 2}
 		
-		owner = AGH
+		owner = MFN
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			12046 = {
+			11593 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = AGH
+		add_core_of = MFN
 	}
 
 	provinces={
-		12046 12047 12048 12049 
+		11589 11590 11591 11592 11593 11594 
 	}
 	local_supplies=0.0 
 }

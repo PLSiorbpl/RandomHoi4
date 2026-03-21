@@ -2,39 +2,37 @@
 state={
 	id=553
 	name="STATE_553"
-	manpower = 944224
+	manpower = 514168
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=7
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7990 2}
-		victory_points = { 7995 4}
-		victory_points = { 8003 2}
+		victory_points = { 7289 1}
 		
-		owner = ATC
+		owner = RFD
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ATC
+		add_core_of = RFD
 	}
 
 	provinces={
-		7990 7991 7992 7993 7994 7995 7996 7997 7998 7999 8000 8001 8002 8003 8004 8005 
+		7282 7283 7284 7285 7286 7287 7288 7289 
 	}
 	local_supplies=0.0 
 }

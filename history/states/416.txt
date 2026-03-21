@@ -2,7 +2,7 @@
 state={
 	id=416
 	name="STATE_416"
-	manpower = 207864
+	manpower = 229617
 	
 	state_category = pastoral
 	#impassable = yes
@@ -17,25 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 5847 1}
 		
-		owner = LCF
+		owner = ETX
 		buildings = {
-			infrastructure = 2
-			air_base = 4
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
 			
-			5847 = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5442 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = LCF
+		add_core_of = ETX
 	}
 
 	provinces={
-		5847 5848 
+		5442 5443 
 	}
 	local_supplies=0.0 
 }

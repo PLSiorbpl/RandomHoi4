@@ -2,14 +2,14 @@
 state={
 	id=419
 	name="STATE_419"
-	manpower = 1082715
+	manpower = 957857
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 5869 1}
-		victory_points = { 5875 2}
-		victory_points = { 5877 2}
-		victory_points = { 5881 2}
-		victory_points = { 5885 2}
+		victory_points = { 5473 3}
+		victory_points = { 5474 1}
+		victory_points = { 5475 3}
 		
-		owner = HSI
+		owner = YMN
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HSI
+		add_core_of = YMN
 	}
 
 	provinces={
-		5869 5870 5871 5872 5873 5874 5875 5876 5877 5878 5879 5880 5881 5882 5883 5884 5885 5886 5887 
+		5466 5467 5468 5469 5470 5471 5472 5473 5474 5475 5476 5477 5478 5479 
 	}
 	local_supplies=0.0 
 }

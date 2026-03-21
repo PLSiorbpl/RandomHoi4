@@ -2,9 +2,9 @@
 state={
 	id=401
 	name="STATE_401"
-	manpower = 895861
+	manpower = 388113
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,28 +12,30 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=1
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5608 4}
-		victory_points = { 5609 4}
+		victory_points = { 5282 1}
 		
-		owner = ZTR
+		owner = GDA
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
+			5279 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = ZTR
+		add_core_of = GDA
 	}
 
 	provinces={
-		5608 5609 5610 5611 5612 5613 5614 5615 5616 5617 5618 5619 5620 5621 5622 
+		5279 5280 5281 5282 5283 
 	}
 	local_supplies=0.0 
 }

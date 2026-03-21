@@ -2,38 +2,39 @@
 state={
 	id=761
 	name="STATE_761"
-	manpower = 1051783
+	manpower = 1621270
 	
-	state_category = city
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
-		oil=2
+		oil=6
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=17
+		coal=0
 	}
 
 	history={
-		victory_points = { 10764 4}
-		victory_points = { 10769 5}
+		victory_points = { 10219 4}
+		victory_points = { 10222 7}
+		victory_points = { 10227 1}
 		
-		owner = TQI
+		owner = PON
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = TQI
+		add_core_of = PON
 	}
 
 	provinces={
-		10764 10765 10766 10767 10768 10769 10770 10771 10772 10773 10774 10775 10776 10777 10778 10779 10780 10781 
+		10204 10205 10206 10207 10208 10209 10210 10211 10212 10213 10214 10215 10216 10217 10218 10219 10220 10221 10222 10223 10224 10225 10226 10227 
 	}
 	local_supplies=0.0 
 }

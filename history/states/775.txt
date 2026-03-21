@@ -2,14 +2,14 @@
 state={
 	id=775
 	name="STATE_775"
-	manpower = 710083
+	manpower = 854041
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 10939 1}
-		victory_points = { 10946 1}
-		victory_points = { 10949 1}
-		victory_points = { 10953 1}
+		victory_points = { 10418 6}
 		
-		owner = TGM
+		owner = IMA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = TGM
+		add_core_of = IMA
 	}
 
 	provinces={
-		10939 10940 10941 10942 10943 10944 10945 10946 10947 10948 10949 10950 10951 10952 10953 10954 
+		10415 10416 10417 10418 10419 10420 10421 10422 10423 10424 10425 10426 
 	}
 	local_supplies=0.0 
 }

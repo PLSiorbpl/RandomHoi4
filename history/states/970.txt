@@ -2,13 +2,13 @@
 state={
 	id=970
 	name="STATE_970"
-	manpower = 783048
+	manpower = 683118
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=2
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
@@ -17,24 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 13337 1}
-		victory_points = { 13340 1}
-		victory_points = { 13344 1}
+		victory_points = { 12931 2}
+		victory_points = { 12933 2}
 		
-		owner = UEO
+		owner = BRE
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
 			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			12931 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = UEO
+		add_core_of = BRE
 	}
 
 	provinces={
-		13332 13333 13334 13335 13336 13337 13338 13339 13340 13341 13342 13343 13344 
+		12927 12928 12929 12930 12931 12932 12933 12934 12935 
 	}
 	local_supplies=0.0 
 }

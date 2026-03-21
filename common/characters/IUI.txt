@@ -1,0 +1,880 @@
+characters = {
+	IUI_Nanuq_Ilikiq={
+		name="Nanuq Ilikiq"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IUI_Mikigaq_Avakkutanirn={
+		name="Mikigaq Avakkutanirn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Mikigaq_Avakkutanirn
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	IUI_Atka_Takuq={
+		name="Atka Takuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Atka_Takuq
+				traits = {	humble 	}
+		}
+
+	}
+	IUI_Nanikigaq_Kuvak={
+		name="Nanikigaq Kuvak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Nanikigaq_Kuvak
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	IUI_Manuq_Aliaq={
+		name="Manuq Aliaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Manuq_Aliaq
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	IUI_Nuvuk_Qangmiak={
+		name="Nuvuk Qangmiak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Nuvuk_Qangmiak
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	IUI_Naluk_Aliaq={
+		name="Naluk Aliaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Naluk_Aliaq
+				traits = {	humble 	}
+		}
+
+	}
+	IUI_Atka_Aliaq={
+		name="Atka Aliaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Atka_Aliaq
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	IUI_Taluk_Imaq={
+		name="Taluk Imaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Taluk_Imaq
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	IUI_Ukpik_Takuq={
+		name="Ukpik Takuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Ukpik_Takuq
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	IUI_Kanuq_Qangmiak={
+		name="Kanuq Qangmiak"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Kanuq_Qangmiak
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IUI_Iluk_Kuvak={
+		name="Iluk Kuvak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Iluk_Kuvak
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	IUI_Pana_Qangmiak={
+		name="Pana Qangmiak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Pana_Qangmiak
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IUI_Kanuq_Kuvak={
+		name="Kanuq Kuvak"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Kanuq_Kuvak
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	IUI_Panikigaq_Imaq={
+		name="Panikigaq Imaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Panikigaq_Imaq
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	IUI_Nana_Ilikiq={
+		name="Nana Ilikiq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Nana_Ilikiq
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	IUI_Atka_Qangmiak={
+		name="Atka Qangmiak"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Atka_Qangmiak
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	IUI_Mana_Kuvak={
+		name="Mana Kuvak"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Mana_Kuvak
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	IUI_Kaviku_Qangmiak={
+		name="Kaviku Qangmiak"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kaviku_Qangmiak
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	IUI_Olik_Avakkutanirn={
+		name="Olik Avakkutanirn"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Olik_Avakkutanirn
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	IUI_Ukpik_Imaq={
+		name="Ukpik Imaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Ukpik_Imaq
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	IUI_Tulok_Qangmiak={
+		name="Tulok Qangmiak"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IUI_Nutarak_Surta={
+		name="Nutarak Surta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Nutarak_Surta
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	IUI_Nanikigaq_Surta={
+		name="Nanikigaq Surta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Nanikigaq_Surta
+				traits = {	generallissimo 	}
+		}
+
+	}
+	IUI_Nanikigaq_Avakkutanirn={
+		name="Nanikigaq Avakkutanirn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Nanikigaq_Avakkutanirn
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	IUI_Olik_Takuq={
+		name="Olik Takuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Olik_Takuq
+				traits = {	polemarch 	}
+		}
+
+	}
+	IUI_Nanaq_Qangmiak={
+		name="Nanaq Qangmiak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Nanaq_Qangmiak
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	IUI_Kana_Qangmiak={
+		name="Kana Qangmiak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Kana_Qangmiak
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	IUI_Panik_Avakkutanirn={
+		name="Panik Avakkutanirn"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Panik_Avakkutanirn
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	IUI_Kaviku_Imaq={
+		name="Kaviku Imaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Kaviku_Imaq
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	IUI_Kavikigaq_Surta={
+		name="Kavikigaq Surta"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Kavikigaq_Surta
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IUI_Manuq_Qangmiak={
+		name="Manuq Qangmiak"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Manuq_Qangmiak
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	IUI_Amaq_Ilikiq={
+		name="Amaq Ilikiq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Amaq_Ilikiq
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	IUI_Manaq_Imaq={
+		name="Manaq Imaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Manaq_Imaq
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	IUI_Panikigaq_Ilikiq={
+		name="Panikigaq Ilikiq"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Panikigaq_Ilikiq
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	IUI_Nuvuk_Aliaq={
+		name="Nuvuk Aliaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Nuvuk_Aliaq
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	IUI_Kanaq_Takuq={
+		name="Kanaq Takuq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kanaq_Takuq
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	IUI_Kunik_Takuq={
+		name="Kunik Takuq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kunik_Takuq
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	IUI_Kunik_Qangmiak={
+		name="Kunik Qangmiak"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kunik_Qangmiak
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	IUI_Kanuq_Aliaq={
+		name="Kanuq Aliaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kanuq_Aliaq
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	IUI_Kunikigaq_Takuq={
+		name="Kunikigaq Takuq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kunikigaq_Takuq
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	IUI_Sila_Takuq={
+		name="Sila Takuq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Sila_Takuq
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	IUI_Nuvuk_Takuq={
+		name="Nuvuk Takuq"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IUI_Ukpik_Surta={
+		name="Ukpik Surta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Ukpik_Surta
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	IUI_Manuq_Takuq={
+		name="Manuq Takuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Manuq_Takuq
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	IUI_Mana_Ilikiq={
+		name="Mana Ilikiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Mana_Ilikiq
+				traits = {	polemarch 	}
+		}
+
+	}
+	IUI_Panik_Surta={
+		name="Panik Surta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Panik_Surta
+				traits = {	polemarch 	}
+		}
+
+	}
+	IUI_Kanik_Surta={
+		name="Kanik Surta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Kanik_Surta
+				traits = {	polemarch 	}
+		}
+
+	}
+	IUI_Naluk_Ilikiq={
+		name="Naluk Ilikiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Naluk_Ilikiq
+				traits = {	polemarch 	}
+		}
+
+	}
+	IUI_Kavikigaq_Takuq={
+		name="Kavikigaq Takuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Kavikigaq_Takuq
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	IUI_Olikigaq_Imaq={
+		name="Olikigaq Imaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Olikigaq_Imaq
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	IUI_Miku_Ilikiq={
+		name="Miku Ilikiq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Miku_Ilikiq
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	IUI_Amaq_Surta={
+		name="Amaq Surta"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Amaq_Surta
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	IUI_Panuq_Surta={
+		name="Panuq Surta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Panuq_Surta
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	IUI_Sila_Aliaq={
+		name="Sila Aliaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Sila_Aliaq
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IUI_Panikigaq_Aliaq={
+		name="Panikigaq Aliaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Panikigaq_Aliaq
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	IUI_Pana_Takuq={
+		name="Pana Takuq"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Pana_Takuq
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	IUI_Pana_Avakkutanirn={
+		name="Pana Avakkutanirn"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Pana_Avakkutanirn
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	IUI_Nanikigaq_Aliaq={
+		name="Nanikigaq Aliaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Nanikigaq_Aliaq
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	IUI_Pana_Surta={
+		name="Pana Surta"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Pana_Surta
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	IUI_Kanik_Avakkutanirn={
+		name="Kanik Avakkutanirn"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kanik_Avakkutanirn
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	IUI_Qajaq_Takuq={
+		name="Qajaq Takuq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Qajaq_Takuq
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	IUI_Oliku_Kuvak={
+		name="Oliku Kuvak"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Oliku_Kuvak
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	IUI_Kanuq_Takuq={
+		name="Kanuq Takuq"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IUI_Amaq_Qangmiak={
+		name="Amaq Qangmiak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Amaq_Qangmiak
+				traits = {	infirm 	}
+		}
+
+	}
+	IUI_Ukpik_Avakkutanirn={
+		name="Ukpik Avakkutanirn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Ukpik_Avakkutanirn
+				traits = {	first_lady 	}
+		}
+
+	}
+	IUI_Pana_Imaq={
+		name="Pana Imaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Pana_Imaq
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	IUI_Mikigaq_Qangmiak={
+		name="Mikigaq Qangmiak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Mikigaq_Qangmiak
+				traits = {	rearmer 	}
+		}
+
+	}
+	IUI_Iluk_Surta={
+		name="Iluk Surta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Iluk_Surta
+				traits = {	the_banker 	}
+		}
+
+	}
+	IUI_Panuq_Imaq={
+		name="Panuq Imaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IUI_Panuq_Imaq
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	IUI_Nutarak_Takuq={
+		name="Nutarak Takuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Nutarak_Takuq
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	IUI_Miku_Imaq={
+		name="Miku Imaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Miku_Imaq
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	IUI_Panik_Qangmiak={
+		name="Panik Qangmiak"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Panik_Qangmiak
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	IUI_Tulok_Ilikiq={
+		name="Tulok Ilikiq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IUI_Tulok_Ilikiq
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	IUI_Naluk_Takuq={
+		name="Naluk Takuq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Naluk_Takuq
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IUI_Iluk_Aliaq={
+		name="Iluk Aliaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IUI_Iluk_Aliaq
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IUI_Kavikigaq_Kuvak={
+		name="Kavikigaq Kuvak"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Kavikigaq_Kuvak
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	IUI_Kana_Ilikiq={
+		name="Kana Ilikiq"
+
+		advisor={
+			slot = air_chief
+			idea_token = IUI_Kana_Ilikiq
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	IUI_Tulok_Kuvak={
+		name="Tulok Kuvak"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Tulok_Kuvak
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	IUI_Kanaq_Avakkutanirn={
+		name="Kanaq Avakkutanirn"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Kanaq_Avakkutanirn
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	IUI_Olik_Imaq={
+		name="Olik Imaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Olik_Imaq
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	IUI_Miku_Surta={
+		name="Miku Surta"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Miku_Surta
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	IUI_Pana_Ilikiq={
+		name="Pana Ilikiq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Pana_Ilikiq
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	IUI_Nanikigaq_Ilikiq={
+		name="Nanikigaq Ilikiq"
+
+		advisor={
+			slot = high_command
+			idea_token = IUI_Nanikigaq_Ilikiq
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	IUI_Kavik_Avakkutanirn={
+		name="Kavik Avakkutanirn"
+
+		advisor={
+			slot = theorist
+			idea_token = IUI_Kavik_Avakkutanirn
+				traits = {	military_theorist 	}
+		}
+
+	}
+	IUI_Manuq_Avakkutanirn={
+		name="Manuq Avakkutanirn"
+
+		advisor={
+			slot = theorist
+			idea_token = IUI_Manuq_Avakkutanirn
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	IUI_Miku_Qangmiak={
+		name="Miku Qangmiak"
+
+		advisor={
+			slot = theorist
+			idea_token = IUI_Miku_Qangmiak
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

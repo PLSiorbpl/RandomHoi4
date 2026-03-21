@@ -2,24 +2,25 @@
 state={
 	id=519
 	name="STATE_519"
-	manpower = 740055
+	manpower = 583892
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=4
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7458 6}
+		victory_points = { 6829 1}
+		victory_points = { 6831 1}
 		
-		owner = EKZ
+		owner = YOR
 		buildings = {
 			infrastructure = 3
 			
@@ -28,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = EKZ
+		add_core_of = YOR
 	}
 
 	provinces={
-		7457 7458 7459 7460 7461 7462 7463 7464 7465 7466 7467 7468 
+		6829 6830 6831 6832 6833 6834 6835 6836 
 	}
 	local_supplies=0.0 
 }

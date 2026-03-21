@@ -2,7 +2,7 @@
 state={
 	id=906
 	name="STATE_906"
-	manpower = 514425
+	manpower = 1085966
 	
 	state_category = town
 	#impassable = yes
@@ -10,30 +10,29 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=1
-		steel=0
+		rubber=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12511 2}
-		victory_points = { 12517 1}
+		victory_points = { 12201 6}
 		
-		owner = VUK
+		owner = MFN
 		buildings = {
 			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = VUK
+		add_core_of = MFN
 	}
 
 	provinces={
-		12511 12512 12513 12514 12515 12516 12517 12518 12519 
+		12179 12180 12181 12182 12183 12184 12185 12186 12187 12188 12189 12190 12191 12192 12193 12194 12195 12196 12197 12198 12199 12200 12201 12202 
 	}
 	local_supplies=0.0 
 }

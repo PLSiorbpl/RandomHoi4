@@ -2,38 +2,41 @@
 state={
 	id=482
 	name="STATE_482"
-	manpower = 1313341
+	manpower = 968754
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=6
 		chromium=0
 		oil=0
 		rubber=0
-		steel=10
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6841 5}
-		victory_points = { 6857 7}
+		victory_points = { 6246 1}
+		victory_points = { 6253 5}
 		
-		owner = VRU
+		owner = YIC
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 2
+			infrastructure = 4
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
+			6255 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = VRU
+		add_core_of = YIC
 	}
 
 	provinces={
-		6836 6837 6838 6839 6840 6841 6842 6843 6844 6845 6846 6847 6848 6849 6850 6851 6852 6853 6854 6855 6856 6857 
+		6245 6246 6247 6248 6249 6250 6251 6252 6253 6254 6255 6256 6257 6258 
 	}
 	local_supplies=0.0 
 }

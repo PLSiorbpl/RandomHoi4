@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Sanub Fleet"			
+		naval_base = 5518
+		task_force = {
+			name = "Sanub Fleet"
+			location = 5518
+			
+						ship = { name = "Fariq" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SAN version_name = "Hafil Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

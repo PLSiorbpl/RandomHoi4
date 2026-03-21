@@ -2,9 +2,9 @@
 state={
 	id=50
 	name="STATE_50"
-	manpower = 337204
+	manpower = 750031
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 823 2}
+		victory_points = { 755 5}
 		
-		owner = ZTA
+		owner = HUA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			825 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ZTA
+		add_core_of = HUA
 	}
 
 	provinces={
-		823 824 825 826 
+		746 747 748 749 750 751 752 753 754 755 
 	}
 	local_supplies=0.0 
 }

@@ -2,38 +2,38 @@
 state={
 	id=800
 	name="STATE_800"
-	manpower = 421656
+	manpower = 922676
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=2
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
-		steel=0
+		steel=11
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11327 1}
-		victory_points = { 11331 2}
+		victory_points = { 10800 5}
+		victory_points = { 10809 1}
 		
-		owner = POI
+		owner = PON
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = POI
+		add_core_of = PON
 	}
 
 	provinces={
-		11327 11328 11329 11330 11331 11332 
+		10798 10799 10800 10801 10802 10803 10804 10805 10806 10807 10808 10809 10810 
 	}
 	local_supplies=0.0 
 }

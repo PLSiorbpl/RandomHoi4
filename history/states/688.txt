@@ -2,38 +2,39 @@
 state={
 	id=688
 	name="STATE_688"
-	manpower = 509054
+	manpower = 1755347
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=24
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 9778 1}
-		victory_points = { 9781 2}
+		victory_points = { 9193 4}
+		victory_points = { 9197 2}
+		victory_points = { 9209 7}
 		
-		owner = EKZ
+		owner = GHU
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = EKZ
+		add_core_of = GHU
 	}
 
 	provinces={
-		9774 9775 9776 9777 9778 9779 9780 9781 
+		9190 9191 9192 9193 9194 9195 9196 9197 9198 9199 9200 9201 9202 9203 9204 9205 9206 9207 9208 9209 9210 9211 9212 9213 9214 9215 9216 9217 
 	}
 	local_supplies=0.0 
 }

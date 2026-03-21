@@ -2,41 +2,39 @@
 state={
 	id=187
 	name="STATE_187"
-	manpower = 896709
+	manpower = 228279
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=29
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2911 6}
-		victory_points = { 2916 1}
 		
-		owner = MCC
+		owner = RNT
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
-			2911 = {
+			2628 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = MCC
+		add_core_of = RNT
 	}
 
 	provinces={
-		2907 2908 2909 2910 2911 2912 2913 2914 2915 2916 2917 2918 2919 2920 2921 
+		2628 2629 
 	}
 	local_supplies=0.0 
 }

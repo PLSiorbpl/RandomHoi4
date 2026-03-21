@@ -2,14 +2,14 @@
 state={
 	id=470
 	name="STATE_470"
-	manpower = 417968
+	manpower = 1695184
 	
-	state_category = rural
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=2
-		oil=6
+		chromium=0
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 6663 1}
-		victory_points = { 6670 1}
+		victory_points = { 6064 13}
 		
-		owner = LCF
+		owner = SAH
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
 			
-			arms_factory = 0
-			industrial_complex = 0
-			
-			6671 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = LCF
+		add_core_of = SAH
 	}
 
 	provinces={
-		6661 6662 6663 6664 6665 6666 6667 6668 6669 6670 6671 6672 6673 6674 6675 6676 6677 6678 6679 6680 6681 
+		6054 6055 6056 6057 6058 6059 6060 6061 6062 6063 6064 6065 6066 6067 6068 6069 6070 6071 6072 6073 6074 6075 6076 6077 6078 6079 
 	}
 	local_supplies=0.0 
 }

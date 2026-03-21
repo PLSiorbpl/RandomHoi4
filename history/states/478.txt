@@ -2,38 +2,39 @@
 state={
 	id=478
 	name="STATE_478"
-	manpower = 2040843
+	manpower = 279129
 	
-	state_category = megalopolis
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=6
-		rubber=0
+		oil=0
+		rubber=2
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6768 6}
-		victory_points = { 6786 14}
 		
-		owner = HSI
+		owner = LUA
 		buildings = {
-			infrastructure = 4
-			
-			arms_factory = 3
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 1
+			6185 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HSI
+		add_core_of = LUA
 	}
 
 	provinces={
-		6756 6757 6758 6759 6760 6761 6762 6763 6764 6765 6766 6767 6768 6769 6770 6771 6772 6773 6774 6775 6776 6777 6778 6779 6780 6781 6782 6783 6784 6785 6786 6787 6788 6789 6790 6791 
+		6183 6184 6185 
 	}
 	local_supplies=0.0 
 }

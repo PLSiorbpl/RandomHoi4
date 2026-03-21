@@ -2,39 +2,42 @@
 state={
 	id=131
 	name="STATE_131"
-	manpower = 1029744
+	manpower = 846965
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
-		steel=1
+		steel=11
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2046 2}
-		victory_points = { 2050 4}
-		victory_points = { 2056 2}
+		victory_points = { 1868 2}
+		victory_points = { 1873 1}
+		victory_points = { 1877 2}
 		
-		owner = MCK
+		owner = VRE
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
 			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			1873 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MCK
+		add_core_of = VRE
 	}
 
 	provinces={
-		2046 2047 2048 2049 2050 2051 2052 2053 2054 2055 2056 2057 2058 2059 2060 2061 2062 
+		1868 1869 1870 1871 1872 1873 1874 1875 1876 1877 1878 1879 
 	}
 	local_supplies=0.0 
 }

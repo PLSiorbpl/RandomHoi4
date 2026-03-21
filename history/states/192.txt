@@ -2,7 +2,7 @@
 state={
 	id=192
 	name="STATE_192"
-	manpower = 697246
+	manpower = 711030
 	
 	state_category = town
 	#impassable = yes
@@ -12,16 +12,15 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=5
 		coal=0
 	}
 
 	history={
-		victory_points = { 2966 1}
-		victory_points = { 2972 1}
-		victory_points = { 2975 1}
+		victory_points = { 2672 2}
+		victory_points = { 2673 2}
 		
-		owner = ZRU
+		owner = ETX
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -30,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = ZRU
+		add_core_of = ETX
 	}
 
 	provinces={
-		2966 2967 2968 2969 2970 2971 2972 2973 2974 2975 2976 
+		2670 2671 2672 2673 2674 2675 2676 2677 2678 2679 
 	}
 	local_supplies=0.0 
 }

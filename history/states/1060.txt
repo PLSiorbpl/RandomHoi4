@@ -2,14 +2,14 @@
 state={
 	id=1060
 	name="STATE_1060"
-	manpower = 1283918
+	manpower = 294431
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 14737 3}
-		victory_points = { 14738 2}
-		victory_points = { 14746 3}
-		victory_points = { 14751 3}
+		victory_points = { 13870 1}
 		
-		owner = HSK
+		owner = DAR
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HSK
+		add_core_of = DAR
 	}
 
 	provinces={
-		14732 14733 14734 14735 14736 14737 14738 14739 14740 14741 14742 14743 14744 14745 14746 14747 14748 14749 14750 14751 14752 14753 
+		13869 13870 13871 
 	}
 	local_supplies=0.0 
 }

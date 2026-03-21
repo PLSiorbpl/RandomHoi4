@@ -1,0 +1,880 @@
+characters = {
+	KAV_Rajesh_Makku={
+		name="Rajesh Makku"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAV_Ajay_Siram={
+		name="Ajay Siram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Ajay_Siram
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KAV_Harthil_Nadam={
+		name="Harthil Nadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Harthil_Nadam
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KAV_Manoj_Thiraikkiram={
+		name="Manoj Thiraikkiram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Manoj_Thiraikkiram
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAV_Kirak_Nunbu={
+		name="Kirak Nunbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Kirak_Nunbu
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KAV_Jagadeenthik_Thiraikkiram={
+		name="Jagadeenthik Thiraikkiram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Jagadeenthik_Thiraikkiram
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAV_Siddhar_Siram={
+		name="Siddhar Siram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Siddhar_Siram
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KAV_Jagadeesh_Siram={
+		name="Jagadeesh Siram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Jagadeesh_Siram
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAV_Siddhav_Oosaiyannola={
+		name="Siddhav Oosaiyannola"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Siddhav_Oosaiyannola
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KAV_Satish_Kavarappu={
+		name="Satish Kavarappu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Satish_Kavarappu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KAV_Surem_Nadam={
+		name="Surem Nadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Surem_Nadam
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KAV_Kirak_Thiraikkiram={
+		name="Kirak Thiraikkiram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Kirak_Thiraikkiram
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KAV_Siddhav_Thiraikkiram={
+		name="Siddhav Thiraikkiram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Siddhav_Thiraikkiram
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KAV_Ajay_Kavaividitha={
+		name="Ajay Kavaividitha"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Ajay_Kavaividitha
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KAV_Ragadeen_Thunam={
+		name="Ragadeen Thunam"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Ragadeen_Thunam
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KAV_Dinoj_Kavaividitha={
+		name="Dinoj Kavaividitha"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Dinoj_Kavaividitha
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	KAV_Karth_Nadam={
+		name="Karth Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Karth_Nadam
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KAV_Manoj_Kavaividitha={
+		name="Manoj Kavaividitha"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Manoj_Kavaividitha
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	KAV_Presh_Putrul={
+		name="Presh Putrul"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Presh_Putrul
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	KAV_Kumarthik_Kavarappu={
+		name="Kumarthik Kavarappu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Kumarthik_Kavarappu
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	KAV_Karth_Thiraikkiram={
+		name="Karth Thiraikkiram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Karth_Thiraikkiram
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	KAV_Manesh_Kavaividitha={
+		name="Manesh Kavaividitha"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAV_Vineshna_Makku={
+		name="Vineshna Makku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Vineshna_Makku
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KAV_Karun_Thunam={
+		name="Karun Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Karun_Thunam
+				traits = {	infirm 	}
+		}
+
+	}
+	KAV_Vinoj_Thunam={
+		name="Vinoj Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Vinoj_Thunam
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAV_Dinesh_Kavarappu={
+		name="Dinesh Kavarappu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Dinesh_Kavarappu
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KAV_Jaghav_Kavarappu={
+		name="Jaghav Kavarappu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Jaghav_Kavarappu
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	KAV_Varth_Kavaividitha={
+		name="Varth Kavaividitha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Varth_Kavaividitha
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAV_Ragadeen_Kavarappu={
+		name="Ragadeen Kavarappu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Ragadeen_Kavarappu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KAV_Dinoj_Thunam={
+		name="Dinoj Thunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Dinoj_Thunam
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KAV_Jaghandran_Siram={
+		name="Jaghandran Siram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Jaghandran_Siram
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KAV_Raghan_Kavaividitha={
+		name="Raghan Kavaividitha"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Raghan_Kavaividitha
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KAV_Jaghaneshna_Kavaividitha={
+		name="Jaghaneshna Kavaividitha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Jaghaneshna_Kavaividitha
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	KAV_Vijay_Nadam={
+		name="Vijay Nadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Vijay_Nadam
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KAV_Kiran_Kavarappu={
+		name="Kiran Kavarappu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Kiran_Kavarappu
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KAV_Jaghav_Nunbu={
+		name="Jaghav Nunbu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Jaghav_Nunbu
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KAV_Kumarthil_Siram={
+		name="Kumarthil Siram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Kumarthil_Siram
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KAV_Manoj_Kavarappu={
+		name="Manoj Kavarappu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Manoj_Kavarappu
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	KAV_Harun_Kavarappu={
+		name="Harun Kavarappu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Harun_Kavarappu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	KAV_Ganesh_Thiraikkiram={
+		name="Ganesh Thiraikkiram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Ganesh_Thiraikkiram
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KAV_Prem_Kavarappu={
+		name="Prem Kavarappu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Prem_Kavarappu
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KAV_Siddhar_Thiraikkiram={
+		name="Siddhar Thiraikkiram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Siddhar_Thiraikkiram
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	KAV_Karth_Makku={
+		name="Karth Makku"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAV_Jagadeesh_Thiraikkiram={
+		name="Jagadeesh Thiraikkiram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Jagadeesh_Thiraikkiram
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAV_Pran_Thunam={
+		name="Pran Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Pran_Thunam
+				traits = {	infirm 	}
+		}
+
+	}
+	KAV_Ganesh_Putrul={
+		name="Ganesh Putrul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Ganesh_Putrul
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KAV_Harthil_Nunbu={
+		name="Harthil Nunbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Harthil_Nunbu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KAV_Raveepak_Nunbu={
+		name="Raveepak Nunbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Raveepak_Nunbu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KAV_Surem_Nunbu={
+		name="Surem Nunbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Surem_Nunbu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KAV_Ajay_Nunbu={
+		name="Ajay Nunbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Ajay_Nunbu
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KAV_Manoj_Siram={
+		name="Manoj Siram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Manoj_Siram
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KAV_Raveen_Kavaividitha={
+		name="Raveen Kavaividitha"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Raveen_Kavaividitha
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAV_Rajesh_Oosaiyannola={
+		name="Rajesh Oosaiyannola"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Rajesh_Oosaiyannola
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAV_Jaghandran_Putrul={
+		name="Jaghandran Putrul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Jaghandran_Putrul
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	KAV_Satish_Siram={
+		name="Satish Siram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Satish_Siram
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KAV_Raveepak_Thunam={
+		name="Raveepak Thunam"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Raveepak_Thunam
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KAV_Mandranod_Siram={
+		name="Mandranod Siram"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Mandranod_Siram
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KAV_Rajiv_Nunbu={
+		name="Rajiv Nunbu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Rajiv_Nunbu
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	KAV_Naveesh_Nadam={
+		name="Naveesh Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Naveesh_Nadam
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	KAV_Prem_Putrul={
+		name="Prem Putrul"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Prem_Putrul
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	KAV_Karun_Nunbu={
+		name="Karun Nunbu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Karun_Nunbu
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	KAV_Surem_Putrul={
+		name="Surem Putrul"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Surem_Putrul
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	KAV_Bala_Nadam={
+		name="Bala Nadam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Bala_Nadam
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	KAV_Manoj_Oosaiyannola={
+		name="Manoj Oosaiyannola"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAV_Suresh_Kavaividitha={
+		name="Suresh Kavaividitha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Suresh_Kavaividitha
+				traits = {	infirm 	}
+		}
+
+	}
+	KAV_Moharun_Oosaiyannola={
+		name="Moharun Oosaiyannola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Moharun_Oosaiyannola
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	KAV_Vinesh_Kavaividitha={
+		name="Vinesh Kavaividitha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Vinesh_Kavaividitha
+				traits = {	rearmer 	}
+		}
+
+	}
+	KAV_Jaghanod_Oosaiyannola={
+		name="Jaghanod Oosaiyannola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Jaghanod_Oosaiyannola
+				traits = {	rearmer 	}
+		}
+
+	}
+	KAV_Arun_Kavaividitha={
+		name="Arun Kavaividitha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Arun_Kavaividitha
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KAV_Manesh_Nunbu={
+		name="Manesh Nunbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAV_Manesh_Nunbu
+				traits = {	infirm 	}
+		}
+
+	}
+	KAV_Karthik_Siram={
+		name="Karthik Siram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Karthik_Siram
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KAV_Manesh_Makku={
+		name="Manesh Makku"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Manesh_Makku
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KAV_Jaghanod_Kavaividitha={
+		name="Jaghanod Kavaividitha"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Jaghanod_Kavaividitha
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAV_Manesh_Kavarappu={
+		name="Manesh Kavarappu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAV_Manesh_Kavarappu
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KAV_Vinod_Nadam={
+		name="Vinod Nadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Vinod_Nadam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	KAV_Kumarthik_Nunbu={
+		name="Kumarthik Nunbu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAV_Kumarthik_Nunbu
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KAV_Jaghandrakas_Makku={
+		name="Jaghandrakas Makku"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Jaghandrakas_Makku
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KAV_Karthik_Thiraikkiram={
+		name="Karthik Thiraikkiram"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAV_Karthik_Thiraikkiram
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	KAV_Mohan_Makku={
+		name="Mohan Makku"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Mohan_Makku
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	KAV_Karthik_Oosaiyannola={
+		name="Karthik Oosaiyannola"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Karthik_Oosaiyannola
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	KAV_Suresh_Thiraikkiram={
+		name="Suresh Thiraikkiram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Suresh_Thiraikkiram
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KAV_Kumarthik_Kavaividitha={
+		name="Kumarthik Kavaividitha"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Kumarthik_Kavaividitha
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	KAV_Varthil_Siram={
+		name="Varthil Siram"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Varthil_Siram
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	KAV_Pranoj_Oosaiyannola={
+		name="Pranoj Oosaiyannola"
+
+		advisor={
+			slot = high_command
+			idea_token = KAV_Pranoj_Oosaiyannola
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	KAV_Vineshna_Thunam={
+		name="Vineshna Thunam"
+
+		advisor={
+			slot = theorist
+			idea_token = KAV_Vineshna_Thunam
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KAV_Raghan_Makku={
+		name="Raghan Makku"
+
+		advisor={
+			slot = theorist
+			idea_token = KAV_Raghan_Makku
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KAV_Harun_Siram={
+		name="Harun Siram"
+
+		advisor={
+			slot = theorist
+			idea_token = KAV_Harun_Siram
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

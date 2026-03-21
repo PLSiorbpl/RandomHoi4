@@ -2,14 +2,14 @@
 state={
 	id=1291
 	name="STATE_1291"
-	manpower = 234242
+	manpower = 826320
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 17592 1}
+		victory_points = { 17011 5}
 		
-		owner = XUA
+		owner = KFM
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
-			17592 = {
+			17004 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = XUA
+		add_core_of = KFM
 	}
 
 	provinces={
-		17591 17592 17593 
+		17001 17002 17003 17004 17005 17006 17007 17008 17009 17010 17011 17012 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,99 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Bakan' Militia Division"
+		location = 15812
+		division_template = "Militia Division"
+		start_experience_factor = 0.518676
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Manek' Militia Division"
+		location = 15813
+		division_template = "Militia Division"
+		start_experience_factor = 0.810547
+		start_equipment_factor = 0.958606
+	}
+	division= {
+		name = "2rd 'Nakmul' Militia Division"
+		location = 15962
+		division_template = "Militia Division"
+		start_experience_factor = 0.357837
+		start_equipment_factor = 0.991768
+	}
+	division= {
+		name = "0st 'Sotznai' Infantry Division"
+		location = 16198
+		division_template = "Infantry Division"
+		start_experience_factor = 0.566932
+		start_equipment_factor = 0.959832
+	}
+	division= {
+		name = "0st 'Kawakbe' Cavalry Division"
+		location = 15884
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.268146
+		start_equipment_factor = 0.945563
+	}
+	division= {
+		name = "1nd 'Balakha' Cavalry Division"
+		location = 15904
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.848248
+		start_equipment_factor = 1.000000
+	}
+
+}

@@ -2,9 +2,9 @@
 state={
 	id=327
 	name="STATE_327"
-	manpower = 842266
+	manpower = 615054
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,27 +13,30 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=29
 	}
 
 	history={
-		victory_points = { 4797 5}
-		victory_points = { 4800 2}
+		victory_points = { 4409 1}
+		victory_points = { 4416 2}
 		
-		owner = EOP
+		owner = UKI
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 1
 			industrial_complex = 0
 			
+			4411 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = EOP
+		add_core_of = UKI
 	}
 
 	provinces={
-		4795 4796 4797 4798 4799 4800 4801 4802 4803 4804 4805 4806 4807 4808 
+		4409 4410 4411 4412 4413 4414 4415 4416 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=122
 	name="STATE_122"
-	manpower = 850696
+	manpower = 914016
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=3
+		chromium=15
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,9 +17,10 @@ state={
 	}
 
 	history={
-		victory_points = { 1946 6}
+		victory_points = { 1771 1}
+		victory_points = { 1775 5}
 		
-		owner = QIW
+		owner = RNT
 		buildings = {
 			infrastructure = 3
 			
@@ -28,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = QIW
+		add_core_of = RNT
 	}
 
 	provinces={
-		1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 
+		1770 1771 1772 1773 1774 1775 1776 1777 1778 1779 1780 1781 1782 1783 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,406 @@
+capital = 167
+
+oob = "FVO_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "FVO_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "FVO_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	motorised_infantry= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	basic_machine_tools= 1
+	construction1= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "FVO_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_medium_airframe = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			early_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Bannta Mk 0"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "FVO_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_bomber = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "FVO_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Rona Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bannta Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Rona Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Scath Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Cuath Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "FVO_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Rona Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Bannta Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Rona Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Scath Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_armor_carrier_deck
+				mid_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Cuath Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
+
+recruit_character = FVO_Niall_Scath
+recruit_character = FVO_Garaig_Bannta
+recruit_character = FVO_Cialcolm_Lorc
+recruit_character = FVO_Liamus_Cuath
+recruit_character = FVO_Niaran_Bannta
+recruit_character = FVO_Nialcolm_Fion
+recruit_character = FVO_Bran_Fonn
+recruit_character = FVO_Liareth_Fonn
+recruit_character = FVO_Ciareth_Scath
+recruit_character = FVO_Quin_Bannta
+recruit_character = FVO_Liamus_Clas
+recruit_character = FVO_Eoin_Fonn
+recruit_character = FVO_Bran_Scath
+recruit_character = FVO_Garan_Fion
+recruit_character = FVO_Ulrich_Scath
+recruit_character = FVO_Hugh_Bannta
+recruit_character = FVO_Eoin_Fion
+recruit_character = FVO_Rhys_Fionnta
+recruit_character = FVO_Garaig_Fion
+recruit_character = FVO_Niamus_Clas
+recruit_character = FVO_Rhys_Rona
+recruit_character = FVO_Aidan_Cuath
+recruit_character = FVO_Declan_Clas
+recruit_character = FVO_Bran_Rath
+recruit_character = FVO_Liam_Fionnta
+recruit_character = FVO_Eoin_Bannta
+recruit_character = FVO_Iwan_Scath
+recruit_character = FVO_Fergus_Fionnta
+recruit_character = FVO_Seam_Fion
+recruit_character = FVO_Taran_Fonn
+recruit_character = FVO_Iwan_Cuath
+recruit_character = FVO_Liam_Clas
+recruit_character = FVO_Declan_Rona
+recruit_character = FVO_Quin_Fion
+recruit_character = FVO_Cialcolm_Rona
+recruit_character = FVO_Garaig_Clas
+recruit_character = FVO_Mall_Fionnta
+recruit_character = FVO_Declan_Lorc
+recruit_character = FVO_Ciamus_Scath
+recruit_character = FVO_Nialcolm_Rona
+recruit_character = FVO_Iwan_Fion
+recruit_character = FVO_Liam_Lorc
+recruit_character = FVO_Braig_Rath
+recruit_character = FVO_Quin_Lorc
+recruit_character = FVO_Owen_Fion
+recruit_character = FVO_Niaran_Fion
+recruit_character = FVO_Liareth_Fionnta
+recruit_character = FVO_Quinn_Clas
+recruit_character = FVO_Niall_Rath
+recruit_character = FVO_Liareth_Bannta
+recruit_character = FVO_Liareth_Rath
+recruit_character = FVO_Braig_Scath
+recruit_character = FVO_Ulrich_Rona
+recruit_character = FVO_Fergus_Rath
+recruit_character = FVO_Garan_Lorc
+recruit_character = FVO_Eoinn_Bannta
+recruit_character = FVO_Padran_Fion
+recruit_character = FVO_Garaig_Rona
+recruit_character = FVO_Niall_Fion
+recruit_character = FVO_Quinn_Fion
+recruit_character = FVO_Ciamus_Rath
+recruit_character = FVO_Eoinn_Scath
+recruit_character = FVO_Braig_Fonn
+recruit_character = FVO_Mall_Rath
+recruit_character = FVO_Ulrich_Clas
+recruit_character = FVO_Niamus_Fonn
+recruit_character = FVO_Ulrich_Cuath
+recruit_character = FVO_Fergus_Bannta
+recruit_character = FVO_Ciareth_Clas
+recruit_character = FVO_Taran_Cuath
+recruit_character = FVO_Aidan_Rath
+recruit_character = FVO_Keiran_Clas
+recruit_character = FVO_Ulrich_Fionnta
+recruit_character = FVO_Declan_Rath
+recruit_character = FVO_Keiraig_Scath
+recruit_character = FVO_Liareth_Rona
+recruit_character = FVO_Niall_Cuath
+recruit_character = FVO_Niall_Fonn
+recruit_character = FVO_Rhys_Clas
+recruit_character = FVO_Fergus_Cuath
+recruit_character = FVO_Bran_Rona
+recruit_character = FVO_Padraig_Fion
+recruit_character = FVO_Niaran_Lorc
+recruit_character = FVO_Fergus_Scath
+recruit_character = FVO_Eoinn_Fion
+recruit_character = FVO_Liam_Fion
+recruit_character = FVO_Hugh_Fion
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 24
+set_war_support = 26
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.5.6"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 52
+	fascism = 13
+	communism = 17
+	neutrality = 18
+}
+
+
+
+
+

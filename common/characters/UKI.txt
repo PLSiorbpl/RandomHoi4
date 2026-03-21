@@ -1,0 +1,880 @@
+characters = {
+	UKI_Koldo_Argi={
+		name="Koldo Argi"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UKI_Aitorkaizkai_Askuskua={
+		name="Aitorkaizkai Askuskua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Aitorkaizkai_Askuskua
+				traits = {	humble 	}
+		}
+
+	}
+	UKI_Amaiur_Askuskua={
+		name="Amaiur Askuskua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Amaiur_Askuskua
+				traits = {	humble 	}
+		}
+
+	}
+	UKI_Mikel_Argi={
+		name="Mikel Argi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Mikel_Argi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	UKI_Benat_Askuskua={
+		name="Benat Askuskua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Benat_Askuskua
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	UKI_Mikel_Giza={
+		name="Mikel Giza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Mikel_Giza
+				traits = {	headstrong 	}
+		}
+
+	}
+	UKI_Aitorkaizkai_Giza={
+		name="Aitorkaizkai Giza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Aitorkaizkai_Giza
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	UKI_Koldo_Askuskua={
+		name="Koldo Askuskua"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Koldo_Askuskua
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	UKI_Ekai_Etxe={
+		name="Ekai Etxe"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Ekai_Etxe
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	UKI_Amai_Trebesti={
+		name="Amai Trebesti"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Amai_Trebesti
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	UKI_Gorkaitz_Trebesti={
+		name="Gorkaitz Trebesti"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Gorkaitz_Trebesti
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	UKI_Ibanti_Zuhar={
+		name="Ibanti Zuhar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Ibanti_Zuhar
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	UKI_Eneko_Ukintur={
+		name="Eneko Ukintur"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Eneko_Ukintur
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	UKI_Aitz_Hodea={
+		name="Aitz Hodea"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Aitz_Hodea
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	UKI_Amaiur_Hotza={
+		name="Amaiur Hotza"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Amaiur_Hotza
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	UKI_Unaitor_Hodea={
+		name="Unaitor Hodea"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Unaitor_Hodea
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	UKI_Ibaiur_Hodea={
+		name="Ibaiur Hodea"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Ibaiur_Hodea
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	UKI_Xabier_Zuhar={
+		name="Xabier Zuhar"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Xabier_Zuhar
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	UKI_Ekaizkai_Hotza={
+		name="Ekaizkai Hotza"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Ekaizkai_Hotza
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	UKI_Ekaizkai_Etxekata={
+		name="Ekaizkai Etxekata"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Ekaizkai_Etxekata
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	UKI_Ander_Etxekata={
+		name="Ander Etxekata"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Ander_Etxekata
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	UKI_Xanti_Etxe={
+		name="Xanti Etxe"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UKI_Miker_Etxekata={
+		name="Miker Etxekata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Miker_Etxekata
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	UKI_Amaitor_Zuhar={
+		name="Amaitor Zuhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Amaitor_Zuhar
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	UKI_Gorkaitz_Argi={
+		name="Gorkaitz Argi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Gorkaitz_Argi
+				traits = {	polemarch 	}
+		}
+
+	}
+	UKI_Unaitor_Zuhar={
+		name="Unaitor Zuhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Unaitor_Zuhar
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	UKI_Asier_Ukintur={
+		name="Asier Ukintur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Asier_Ukintur
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	UKI_Ekaizkai_Ukintur={
+		name="Ekaizkai Ukintur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Ekaizkai_Ukintur
+				traits = {	generallissimo 	}
+		}
+
+	}
+	UKI_Amaiur_Ukintur={
+		name="Amaiur Ukintur"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Amaiur_Ukintur
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	UKI_Benat_Etxekata={
+		name="Benat Etxekata"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Benat_Etxekata
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	UKI_Gaitor_Ukintur={
+		name="Gaitor Ukintur"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Gaitor_Ukintur
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	UKI_Ibaiur_Zuhar={
+		name="Ibaiur Zuhar"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Ibaiur_Zuhar
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	UKI_Benaitz_Askuskua={
+		name="Benaitz Askuskua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Benaitz_Askuskua
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	UKI_Benaitz_Ukintur={
+		name="Benaitz Ukintur"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Benaitz_Ukintur
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	UKI_Ander_Argi={
+		name="Ander Argi"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Ander_Argi
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	UKI_Ekaitor_Trebesti={
+		name="Ekaitor Trebesti"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Ekaitor_Trebesti
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	UKI_Asier_Etxekata={
+		name="Asier Etxekata"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Asier_Etxekata
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	UKI_Amai_Hotza={
+		name="Amai Hotza"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Amai_Hotza
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	UKI_Koldo_Giza={
+		name="Koldo Giza"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Koldo_Giza
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	UKI_Unaitz_Giza={
+		name="Unaitz Giza"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Unaitz_Giza
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	UKI_Xanti_Trebesti={
+		name="Xanti Trebesti"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Xanti_Trebesti
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	UKI_Gaitorka_Hotza={
+		name="Gaitorka Hotza"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Gaitorka_Hotza
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	UKI_Ekai_Giza={
+		name="Ekai Giza"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UKI_Benaizka_Askuskua={
+		name="Benaizka Askuskua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Benaizka_Askuskua
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	UKI_Iban_Askuskua={
+		name="Iban Askuskua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Iban_Askuskua
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	UKI_Unaitz_Zuhar={
+		name="Unaitz Zuhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Unaitz_Zuhar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	UKI_Ander_Trebesti={
+		name="Ander Trebesti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Ander_Trebesti
+				traits = {	polemarch 	}
+		}
+
+	}
+	UKI_Unaitorkaito_Etxekata={
+		name="Unaitorkaito Etxekata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Unaitorkaito_Etxekata
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	UKI_Benaitz_Hotza={
+		name="Benaitz Hotza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Benaitz_Hotza
+				traits = {	political_dancer 	}
+		}
+
+	}
+	UKI_Unat_Askuskua={
+		name="Unat Askuskua"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Unat_Askuskua
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	UKI_Harkai_Etxe={
+		name="Harkai Etxe"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Harkai_Etxe
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	UKI_Eder_Ukintur={
+		name="Eder Ukintur"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Eder_Ukintur
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	UKI_Mikel_Etxe={
+		name="Mikel Etxe"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Mikel_Etxe
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	UKI_Harkai_Giza={
+		name="Harkai Giza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Harkai_Giza
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	UKI_Benaitz_Argi={
+		name="Benaitz Argi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Benaitz_Argi
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	UKI_Ikel_Hodea={
+		name="Ikel Hodea"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Ikel_Hodea
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	UKI_Gaitorka_Zuhar={
+		name="Gaitorka Zuhar"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Gaitorka_Zuhar
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	UKI_Xanti_Zuhar={
+		name="Xanti Zuhar"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Xanti_Zuhar
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	UKI_Xabier_Trebesti={
+		name="Xabier Trebesti"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Xabier_Trebesti
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	UKI_Eder_Argi={
+		name="Eder Argi"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Eder_Argi
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	UKI_Ibai_Argi={
+		name="Ibai Argi"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Ibai_Argi
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	UKI_Ibaiur_Etxekata={
+		name="Ibaiur Etxekata"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Ibaiur_Etxekata
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	UKI_Unaitz_Askuskua={
+		name="Unaitz Askuskua"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Unaitz_Askuskua
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	UKI_Mikel_Etxekata={
+		name="Mikel Etxekata"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UKI_Eder_Hotza={
+		name="Eder Hotza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Eder_Hotza
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	UKI_Ekaiur_Trebesti={
+		name="Ekaiur Trebesti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Ekaiur_Trebesti
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	UKI_Gaitor_Argi={
+		name="Gaitor Argi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Gaitor_Argi
+				traits = {	first_lady 	}
+		}
+
+	}
+	UKI_Miker_Zuhar={
+		name="Miker Zuhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Miker_Zuhar
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	UKI_Harka_Askuskua={
+		name="Harka Askuskua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Harka_Askuskua
+				traits = {	first_lady 	}
+		}
+
+	}
+	UKI_Gaiur_Trebesti={
+		name="Gaiur Trebesti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UKI_Gaiur_Trebesti
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	UKI_Eneko_Giza={
+		name="Eneko Giza"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Eneko_Giza
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	UKI_Ibaiur_Ukintur={
+		name="Ibaiur Ukintur"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Ibaiur_Ukintur
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	UKI_Ekaitor_Askuskua={
+		name="Ekaitor Askuskua"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Ekaitor_Askuskua
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	UKI_Ekaizkai_Hodea={
+		name="Ekaizkai Hodea"
+
+		advisor={
+			slot = army_chief
+			idea_token = UKI_Ekaizkai_Hodea
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	UKI_Gorkaitz_Askuskua={
+		name="Gorkaitz Askuskua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Gorkaitz_Askuskua
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	UKI_Iker_Ukintur={
+		name="Iker Ukintur"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UKI_Iker_Ukintur
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	UKI_Amai_Argi={
+		name="Amai Argi"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Amai_Argi
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	UKI_Ibaiur_Askuskua={
+		name="Ibaiur Askuskua"
+
+		advisor={
+			slot = air_chief
+			idea_token = UKI_Ibaiur_Askuskua
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	UKI_Amaiur_Giza={
+		name="Amaiur Giza"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Amaiur_Giza
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	UKI_Gaitorka_Trebesti={
+		name="Gaitorka Trebesti"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Gaitorka_Trebesti
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	UKI_Unaitor_Etxe={
+		name="Unaitor Etxe"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Unaitor_Etxe
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	UKI_Amaitor_Ukintur={
+		name="Amaitor Ukintur"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Amaitor_Ukintur
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	UKI_Aitz_Askuskua={
+		name="Aitz Askuskua"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Aitz_Askuskua
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	UKI_Unat_Zuhar={
+		name="Unat Zuhar"
+
+		advisor={
+			slot = high_command
+			idea_token = UKI_Unat_Zuhar
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	UKI_Iban_Ukintur={
+		name="Iban Ukintur"
+
+		advisor={
+			slot = theorist
+			idea_token = UKI_Iban_Ukintur
+				traits = {	military_theorist 	}
+		}
+
+	}
+	UKI_Aitz_Etxe={
+		name="Aitz Etxe"
+
+		advisor={
+			slot = theorist
+			idea_token = UKI_Aitz_Etxe
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	UKI_Ander_Ukintur={
+		name="Ander Ukintur"
+
+		advisor={
+			slot = theorist
+			idea_token = UKI_Ander_Ukintur
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

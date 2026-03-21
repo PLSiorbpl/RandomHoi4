@@ -2,39 +2,36 @@
 state={
 	id=1002
 	name="STATE_1002"
-	manpower = 180048
+	manpower = 216951
 	
 	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=2
+		chromium=0
 		oil=0
-		rubber=0
+		rubber=2
 		steel=0
 		tungsten=0
-		coal=3
+		coal=0
 	}
 
 	history={
 		
-		owner = WOA
+		owner = REO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
-			13820 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = WOA
+		add_core_of = REO
 	}
 
 	provinces={
-		13820 13821 
+		13295 13296 
 	}
 	local_supplies=0.0 
 }

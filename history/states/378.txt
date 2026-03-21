@@ -2,38 +2,36 @@
 state={
 	id=378
 	name="STATE_378"
-	manpower = 1849254
+	manpower = 213859
 	
-	state_category = metropolis
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=12
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5364 12}
-		victory_points = { 5392 6}
 		
-		owner = AUR
+		owner = GAU
 		buildings = {
-			infrastructure = 4
-			
-			arms_factory = 1
-			industrial_complex = 2
+			infrastructure = 2
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = AUR
+		add_core_of = GAU
 	}
 
 	provinces={
-		5362 5363 5364 5365 5366 5367 5368 5369 5370 5371 5372 5373 5374 5375 5376 5377 5378 5379 5380 5381 5382 5383 5384 5385 5386 5387 5388 5389 5390 5391 5392 5393 5394 
+		5014 5015 5016 5017 5018 5019 
 	}
 	local_supplies=0.0 
 }

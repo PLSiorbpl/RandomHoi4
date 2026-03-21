@@ -2,14 +2,14 @@
 state={
 	id=481
 	name="STATE_481"
-	manpower = 1415718
+	manpower = 2022588
 	
-	state_category = large_city
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=3
-		oil=4
+		chromium=0
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 6830 4}
-		victory_points = { 6832 4}
-		victory_points = { 6835 4}
+		victory_points = { 6224 4}
+		victory_points = { 6235 5}
+		victory_points = { 6236 5}
 		
-		owner = VRU
+		owner = SVE
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 2
-			industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = VRU
+		add_core_of = SVE
 	}
 
 	provinces={
-		6811 6812 6813 6814 6815 6816 6817 6818 6819 6820 6821 6822 6823 6824 6825 6826 6827 6828 6829 6830 6831 6832 6833 6834 6835 
+		6214 6215 6216 6217 6218 6219 6220 6221 6222 6223 6224 6225 6226 6227 6228 6229 6230 6231 6232 6233 6234 6235 6236 6237 6238 6239 6240 6241 6242 6243 6244 
 	}
 	local_supplies=0.0 
 }

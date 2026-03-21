@@ -2,38 +2,40 @@
 state={
 	id=959
 	name="STATE_959"
-	manpower = 457094
+	manpower = 1108131
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=83
 	}
 
 	history={
-		victory_points = { 13145 2}
-		victory_points = { 13146 1}
+		victory_points = { 12827 8}
 		
-		owner = XUA
+		owner = QON
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 1
+			12815 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = XUA
+		add_core_of = QON
 	}
 
 	provinces={
-		13144 13145 13146 13147 13148 13149 13150 
+		12813 12814 12815 12816 12817 12818 12819 12820 12821 12822 12823 12824 12825 12826 12827 12828 
 	}
 	local_supplies=0.0 
 }

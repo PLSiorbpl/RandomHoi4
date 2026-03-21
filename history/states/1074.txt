@@ -2,38 +2,36 @@
 state={
 	id=1074
 	name="STATE_1074"
-	manpower = 496150
+	manpower = 231912
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14887 3}
-		victory_points = { 14889 1}
 		
-		owner = NMT
+		owner = XUL
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NMT
+		add_core_of = XUL
 	}
 
 	provinces={
-		14886 14887 14888 14889 14890 14891 14892 14893 
+		14000 14001 
 	}
 	local_supplies=0.0 
 }

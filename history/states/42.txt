@@ -2,41 +2,42 @@
 state={
 	id=42
 	name="STATE_42"
-	manpower = 591497
+	manpower = 1181566
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=10
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 723 1}
-		victory_points = { 724 2}
+		victory_points = { 562 2}
+		victory_points = { 567 3}
+		victory_points = { 570 3}
 		
-		owner = ZTA
+		owner = RNT
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
-			724 = {
+			562 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = ZTA
+		add_core_of = RNT
 	}
 
 	provinces={
-		721 722 723 724 725 726 727 728 729 
+		560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 
 	}
 	local_supplies=0.0 
 }

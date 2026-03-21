@@ -1,0 +1,880 @@
+characters = {
+	SAH_Ramo_Torte={
+		name="Ramo Torte"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAH_Alexan_Paro={
+		name="Alexan Paro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Alexan_Paro
+				traits = {	headstrong 	}
+		}
+
+	}
+	SAH_Enzo_Anielta={
+		name="Enzo Anielta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Enzo_Anielta
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SAH_Steon_Tore={
+		name="Steon Tore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Steon_Tore
+				traits = {	humble 	}
+		}
+
+	}
+	SAH_Marlo_Tore={
+		name="Marlo Tore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Marlo_Tore
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SAH_Luca_Strada={
+		name="Luca Strada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Luca_Strada
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SAH_Ramo_Rusce={
+		name="Ramo Rusce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Ramo_Rusce
+				traits = {	headstrong 	}
+		}
+
+	}
+	SAH_Pablo_Moria={
+		name="Pablo Moria"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Pablo_Moria
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SAH_Bruno_Core={
+		name="Bruno Core"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Bruno_Core
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SAH_Luis_Paro={
+		name="Luis Paro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Luis_Paro
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SAH_Cario_Rusce={
+		name="Cario Rusce"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Cario_Rusce
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SAH_Nicto_Fiustanyonfi={
+		name="Nicto Fiustanyonfi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Nicto_Fiustanyonfi
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SAH_Andre_Torte={
+		name="Andre Torte"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Andre_Torte
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SAH_Alberry_Strada={
+		name="Alberry Strada"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Alberry_Strada
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SAH_Albertor_Paro={
+		name="Albertor Paro"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Albertor_Paro
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	SAH_Nicto_Lanyonfita={
+		name="Nicto Lanyonfita"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Nicto_Lanyonfita
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SAH_Cardo_Moria={
+		name="Cardo Moria"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Cardo_Moria
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SAH_Stefancescom_Core={
+		name="Stefancescom Core"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Stefancescom_Core
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	SAH_Giacomon_Paro={
+		name="Giacomon Paro"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Giacomon_Paro
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	SAH_Mardo_Fiustanyonfi={
+		name="Mardo Fiustanyonfi"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Mardo_Fiustanyonfi
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SAH_Matteon_Core={
+		name="Matteon Core"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Matteon_Core
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	SAH_Nicarlo_Fiustanyonfi={
+		name="Nicarlo Fiustanyonfi"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAH_Pedro_Core={
+		name="Pedro Core"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Pedro_Core
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SAH_Nicto_Rusce={
+		name="Nicto Rusce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Nicto_Rusce
+				traits = {	infirm 	}
+		}
+
+	}
+	SAH_Giacomo_Moria={
+		name="Giacomo Moria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Giacomo_Moria
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SAH_Alexan_Tore={
+		name="Alexan Tore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Alexan_Tore
+				traits = {	generallissimo 	}
+		}
+
+	}
+	SAH_Marcolas_Anielta={
+		name="Marcolas Anielta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Marcolas_Anielta
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SAH_Robertor_Tore={
+		name="Robertor Tore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Robertor_Tore
+				traits = {	warmonger 	}
+		}
+
+	}
+	SAH_Giacolo_Rusce={
+		name="Giacolo Rusce"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Giacolo_Rusce
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SAH_Ramo_Anielta={
+		name="Ramo Anielta"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Ramo_Anielta
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SAH_Rica_Torte={
+		name="Rica Torte"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Rica_Torte
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SAH_Paolas_Anielta={
+		name="Paolas Anielta"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Paolas_Anielta
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SAH_Frano_Lanyonfita={
+		name="Frano Lanyonfita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Frano_Lanyonfita
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SAH_Mattefancesc_Core={
+		name="Mattefancesc Core"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Mattefancesc_Core
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SAH_Paolas_Fiustanyonfi={
+		name="Paolas Fiustanyonfi"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Paolas_Fiustanyonfi
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SAH_Carco_Fiustanyonfi={
+		name="Carco Fiustanyonfi"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Carco_Fiustanyonfi
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SAH_Frano_Anielta={
+		name="Frano Anielta"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Frano_Anielta
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	SAH_Jeandre_Paro={
+		name="Jeandre Paro"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Jeandre_Paro
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	SAH_Cario_Tore={
+		name="Cario Tore"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Cario_Tore
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SAH_Marcolas_Torte={
+		name="Marcolas Torte"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Marcolas_Torte
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SAH_Jeandre_Rusce={
+		name="Jeandre Rusce"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Jeandre_Rusce
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	SAH_Jeandre_Core={
+		name="Jeandre Core"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Jeandre_Core
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	SAH_Felipe_Lanyonfita={
+		name="Felipe Lanyonfita"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAH_Cardo_Core={
+		name="Cardo Core"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Cardo_Core
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SAH_Nicarlo_Core={
+		name="Nicarlo Core"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Nicarlo_Core
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SAH_Jeano_Lanyonfita={
+		name="Jeano Lanyonfita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Jeano_Lanyonfita
+				traits = {	polemarch 	}
+		}
+
+	}
+	SAH_Jeancesco_Torte={
+		name="Jeancesco Torte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Jeancesco_Torte
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SAH_Leon_Tore={
+		name="Leon Tore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Leon_Tore
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SAH_Giacomo_Paro={
+		name="Giacomo Paro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Giacomo_Paro
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SAH_Vicarlos_Tore={
+		name="Vicarlos Tore"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Vicarlos_Tore
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SAH_Mardo_Tore={
+		name="Mardo Tore"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Mardo_Tore
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SAH_Alexancescol_Paro={
+		name="Alexancescol Paro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Alexancescol_Paro
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SAH_Vico_Paro={
+		name="Vico Paro"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Vico_Paro
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SAH_Giacomo_Fiustanyonfi={
+		name="Giacomo Fiustanyonfi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Giacomo_Fiustanyonfi
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SAH_Alexano_Core={
+		name="Alexano Core"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Alexano_Core
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	SAH_Mattefancesc_Strada={
+		name="Mattefancesc Strada"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Mattefancesc_Strada
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SAH_Vicarlos_Anielta={
+		name="Vicarlos Anielta"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Vicarlos_Anielta
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SAH_Nica_Core={
+		name="Nica Core"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Nica_Core
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SAH_Alexan_Moria={
+		name="Alexan Moria"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Alexan_Moria
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SAH_Alexancescol_Fiustanyonfi={
+		name="Alexancescol Fiustanyonfi"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Alexancescol_Fiustanyonfi
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	SAH_Julien_Anielta={
+		name="Julien Anielta"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Julien_Anielta
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SAH_Carlos_Torte={
+		name="Carlos Torte"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Carlos_Torte
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SAH_Paolo_Anielta={
+		name="Paolo Anielta"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Paolo_Anielta
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	SAH_Jeandre_Anielta={
+		name="Jeandre Anielta"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAH_Cardo_Paro={
+		name="Cardo Paro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Cardo_Paro
+				traits = {	infirm 	}
+		}
+
+	}
+	SAH_Anto_Strada={
+		name="Anto Strada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Anto_Strada
+				traits = {	infirm 	}
+		}
+
+	}
+	SAH_Andre_Anielta={
+		name="Andre Anielta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Andre_Anielta
+				traits = {	infirm 	}
+		}
+
+	}
+	SAH_Vica_Strada={
+		name="Vica Strada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Vica_Strada
+				traits = {	first_lady 	}
+		}
+
+	}
+	SAH_Roberto_Tore={
+		name="Roberto Tore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Roberto_Tore
+				traits = {	first_lady 	}
+		}
+
+	}
+	SAH_Mario_Lanyonfita={
+		name="Mario Lanyonfita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAH_Mario_Lanyonfita
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SAH_Marco_Strada={
+		name="Marco Strada"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Marco_Strada
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SAH_Luis_Moria={
+		name="Luis Moria"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Luis_Moria
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SAH_Frano_Moria={
+		name="Frano Moria"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Frano_Moria
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SAH_Jeano_Tore={
+		name="Jeano Tore"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAH_Jeano_Tore
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SAH_Vicarco_Moria={
+		name="Vicarco Moria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Vicarco_Moria
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SAH_Vica_Core={
+		name="Vica Core"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAH_Vica_Core
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SAH_Giacolo_Paro={
+		name="Giacolo Paro"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Giacolo_Paro
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SAH_Alberry_Fiustanyonfi={
+		name="Alberry Fiustanyonfi"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAH_Alberry_Fiustanyonfi
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SAH_Roberto_Fiustanyonfi={
+		name="Roberto Fiustanyonfi"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Roberto_Fiustanyonfi
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	SAH_Paolo_Torte={
+		name="Paolo Torte"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Paolo_Torte
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SAH_Luca_Moria={
+		name="Luca Moria"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Luca_Moria
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	SAH_Alexan_Core={
+		name="Alexan Core"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Alexan_Core
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	SAH_Jeancescomo_Moria={
+		name="Jeancescomo Moria"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Jeancescomo_Moria
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	SAH_Pablo_Core={
+		name="Pablo Core"
+
+		advisor={
+			slot = high_command
+			idea_token = SAH_Pablo_Core
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	SAH_Nicarlo_Torte={
+		name="Nicarlo Torte"
+
+		advisor={
+			slot = theorist
+			idea_token = SAH_Nicarlo_Torte
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SAH_Nica_Strada={
+		name="Nica Strada"
+
+		advisor={
+			slot = theorist
+			idea_token = SAH_Nica_Strada
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SAH_Alexano_Paro={
+		name="Alexano Paro"
+
+		advisor={
+			slot = theorist
+			idea_token = SAH_Alexano_Paro
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

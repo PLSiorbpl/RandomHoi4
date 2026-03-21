@@ -2,7 +2,7 @@
 state={
 	id=473
 	name="STATE_473"
-	manpower = 396970
+	manpower = 540541
 	
 	state_category = rural
 	#impassable = yes
@@ -10,29 +10,32 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=4
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6709 1}
+		victory_points = { 6108 3}
 		
-		owner = GQT
+		owner = TAS
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
+			6105 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = GQT
+		add_core_of = TAS
 	}
 
 	provinces={
-		6705 6706 6707 6708 6709 6710 
+		6105 6106 6107 6108 6109 6110 6111 6112 
 	}
 	local_supplies=0.0 
 }

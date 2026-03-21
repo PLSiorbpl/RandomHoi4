@@ -2,14 +2,14 @@
 state={
 	id=471
 	name="STATE_471"
-	manpower = 1112933
+	manpower = 999155
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=4
+		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 6684 3}
-		victory_points = { 6687 3}
-		victory_points = { 6690 3}
+		victory_points = { 6087 2}
+		victory_points = { 6088 4}
 		
-		owner = LCF
+		owner = BHL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = LCF
+		add_core_of = BHL
 	}
 
 	provinces={
-		6682 6683 6684 6685 6686 6687 6688 6689 6690 6691 6692 6693 6694 6695 6696 6697 6698 6699 6700 
+		6080 6081 6082 6083 6084 6085 6086 6087 6088 6089 6090 6091 6092 6093 6094 
 	}
 	local_supplies=0.0 
 }

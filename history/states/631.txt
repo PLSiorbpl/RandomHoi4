@@ -2,36 +2,37 @@
 state={
 	id=631
 	name="STATE_631"
-	manpower = 273331
+	manpower = 684838
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=2
+		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=2
 	}
 
 	history={
+		victory_points = { 8406 4}
 		
-		owner = CNR
+		owner = BHL
 		buildings = {
-			infrastructure = 1
-			
-			arms_factory = 0
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CNR
+		add_core_of = BHL
 	}
 
 	provinces={
-		9120 9121 9122 9123 9124 9125 
+		8402 8403 8404 8405 8406 8407 8408 8409 8410 
 	}
 	local_supplies=0.0 
 }

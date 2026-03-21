@@ -2,38 +2,38 @@
 state={
 	id=623
 	name="STATE_623"
-	manpower = 866781
+	manpower = 1147820
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=10
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9007 4}
-		victory_points = { 9018 3}
+		victory_points = { 8275 3}
+		victory_points = { 8277 5}
 		
-		owner = ATC
+		owner = NAK
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ATC
+		add_core_of = NAK
 	}
 
 	provinces={
-		9006 9007 9008 9009 9010 9011 9012 9013 9014 9015 9016 9017 9018 9019 
+		8274 8275 8276 8277 8278 8279 8280 8281 8282 8283 8284 8285 8286 8287 8288 8289 8290 
 	}
 	local_supplies=0.0 
 }

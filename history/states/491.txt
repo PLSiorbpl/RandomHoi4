@@ -2,36 +2,43 @@
 state={
 	id=491
 	name="STATE_491"
-	manpower = 1439
+	manpower = 1905963
 	
-	state_category = small_island
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=19
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
-		tungsten=0
+		steel=19
+		tungsten=4
 		coal=0
 	}
 
 	history={
+		victory_points = { 6382 1}
+		victory_points = { 6385 4}
+		victory_points = { 6389 2}
+		victory_points = { 6391 6}
 		
-		owner = BRH
+		owner = NCL
 		buildings = {
-			infrastructure = 1
-			air_base = 3
+			infrastructure = 4
+			
 			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 2
+			6380 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = BRH
+		add_core_of = NCL
 	}
 
 	provinces={
-		6984 6985 6986 6987 6988 6989 6990 6991 6992 6993 6994 6995 
+		6365 6366 6367 6368 6369 6370 6371 6372 6373 6374 6375 6376 6377 6378 6379 6380 6381 6382 6383 6384 6385 6386 6387 6388 6389 6390 6391 6392 6393 
 	}
 	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=617
 	name="STATE_617"
-	manpower = 714072
+	manpower = 710459
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 8941 4}
-		victory_points = { 8943 2}
+		victory_points = { 8192 1}
+		victory_points = { 8199 3}
 		
-		owner = ZTA
+		owner = UAS
 		buildings = {
 			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
 			
-			arms_factory = 1
-			industrial_complex = 0
-			
-			8941 = {
+			8195 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = ZTA
+		add_core_of = UAS
 	}
 
 	provinces={
-		8939 8940 8941 8942 8943 8944 8945 8946 8947 8948 8949 
+		8192 8193 8194 8195 8196 8197 8198 8199 8200 8201 
 	}
 	local_supplies=0.0 
 }

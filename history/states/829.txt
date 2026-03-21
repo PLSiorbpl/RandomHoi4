@@ -2,14 +2,14 @@
 state={
 	id=829
 	name="STATE_829"
-	manpower = 733459
+	manpower = 782535
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 11604 2}
-		victory_points = { 11612 4}
+		victory_points = { 11105 2}
+		victory_points = { 11106 2}
 		
-		owner = ATC
+		owner = KUL
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ATC
+		add_core_of = KUL
 	}
 
 	provinces={
-		11601 11602 11603 11604 11605 11606 11607 11608 11609 11610 11611 11612 
+		11104 11105 11106 11107 11108 11109 11110 11111 11112 11113 11114 
 	}
 	local_supplies=0.0 
 }

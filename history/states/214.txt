@@ -2,40 +2,43 @@
 state={
 	id=214
 	name="STATE_214"
-	manpower = 982755
+	manpower = 2966003
 	
-	state_category = large_town
+	state_category = megalopolis
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=22
 		chromium=0
 		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 3262 2}
-		victory_points = { 3263 2}
-		victory_points = { 3275 2}
-		victory_points = { 3280 2}
+		victory_points = { 2930 2}
+		victory_points = { 2934 11}
+		victory_points = { 2954 6}
+		victory_points = { 2959 5}
 		
-		owner = FQR
+		owner = OON
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			
-			arms_factory = 0
-			industrial_complex = 1
-			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 3
+			2934 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = FQR
+		add_core_of = OON
 	}
 
 	provinces={
-		3262 3263 3264 3265 3266 3267 3268 3269 3270 3271 3272 3273 3274 3275 3276 3277 3278 3279 3280 3281 3282 
+		2919 2920 2921 2922 2923 2924 2925 2926 2927 2928 2929 2930 2931 2932 2933 2934 2935 2936 2937 2938 2939 2940 2941 2942 2943 2944 2945 2946 2947 2948 2949 2950 2951 2952 2953 2954 2955 2956 2957 2958 2959 2960 2961 2962 2963 2964 2965 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,880 @@
+characters = {
+	EAG_Liam_Luas={
+		name="Liam Luas"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EAG_Taran_Athas={
+		name="Taran Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Taran_Athas
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EAG_Ciall_Athas={
+		name="Ciall Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Ciall_Athas
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EAG_Quin_Luas={
+		name="Quin Luas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Quin_Luas
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	EAG_Padraig_Luas={
+		name="Padraig Luas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Padraig_Luas
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	EAG_Braig_Uamh={
+		name="Braig Uamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Braig_Uamh
+				traits = {	humble 	}
+		}
+
+	}
+	EAG_Mall_Eagnasamha={
+		name="Mall Eagnasamha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Mall_Eagnasamha
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EAG_Niareth_Boilt={
+		name="Niareth Boilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Niareth_Boilt
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	EAG_Niamus_Uamh={
+		name="Niamus Uamh"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Niamus_Uamh
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	EAG_Niaran_Sean={
+		name="Niaran Sean"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Niaran_Sean
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	EAG_Niall_Beach={
+		name="Niall Beach"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Niall_Beach
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	EAG_Hugh_Dubhas={
+		name="Hugh Dubhas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Hugh_Dubhas
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	EAG_Aidan_Dubhas={
+		name="Aidan Dubhas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Aidan_Dubhas
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	EAG_Garaig_Eagnasamha={
+		name="Garaig Eagnasamha"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Garaig_Eagnasamha
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	EAG_Liam_Eagnasamha={
+		name="Liam Eagnasamha"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Liam_Eagnasamha
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	EAG_Ciaran_Luas={
+		name="Ciaran Luas"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Ciaran_Luas
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	EAG_Braig_Eagnasamha={
+		name="Braig Eagnasamha"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Braig_Eagnasamha
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	EAG_Garaig_Luas={
+		name="Garaig Luas"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Garaig_Luas
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	EAG_Keiran_Eagnasamha={
+		name="Keiran Eagnasamha"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Keiran_Eagnasamha
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	EAG_Liamus_Uamh={
+		name="Liamus Uamh"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Liamus_Uamh
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	EAG_Fergus_Beach={
+		name="Fergus Beach"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Fergus_Beach
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	EAG_Niareth_Eagnasamha={
+		name="Niareth Eagnasamha"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EAG_Eoin_Sean={
+		name="Eoin Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Eoin_Sean
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	EAG_Ciamus_Uamh={
+		name="Ciamus Uamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Ciamus_Uamh
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	EAG_Tareth_Uamh={
+		name="Tareth Uamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Tareth_Uamh
+				traits = {	infirm 	}
+		}
+
+	}
+	EAG_Liamus_Fioc={
+		name="Liamus Fioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Liamus_Fioc
+				traits = {	polemarch 	}
+		}
+
+	}
+	EAG_Garaig_Uamh={
+		name="Garaig Uamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Garaig_Uamh
+				traits = {	generallissimo 	}
+		}
+
+	}
+	EAG_Hugh_Sean={
+		name="Hugh Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Hugh_Sean
+				traits = {	basileus 	}
+		}
+
+	}
+	EAG_Garaig_Athas={
+		name="Garaig Athas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Garaig_Athas
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	EAG_Owen_Uamh={
+		name="Owen Uamh"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Owen_Uamh
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	EAG_Niaran_Eagnasamha={
+		name="Niaran Eagnasamha"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Niaran_Eagnasamha
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EAG_Ulrich_Luas={
+		name="Ulrich Luas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Ulrich_Luas
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EAG_Fergus_Uamh={
+		name="Fergus Uamh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Fergus_Uamh
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	EAG_Eoin_Fioc={
+		name="Eoin Fioc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Eoin_Fioc
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	EAG_Niaran_Fioc={
+		name="Niaran Fioc"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Niaran_Fioc
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	EAG_Ciaran_Boilt={
+		name="Ciaran Boilt"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Ciaran_Boilt
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	EAG_Niaran_Uamh={
+		name="Niaran Uamh"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Niaran_Uamh
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	EAG_Declan_Fioc={
+		name="Declan Fioc"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Declan_Fioc
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	EAG_Bran_Athas={
+		name="Bran Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Bran_Athas
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	EAG_Padraig_Athas={
+		name="Padraig Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Padraig_Athas
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	EAG_Malcolm_Sean={
+		name="Malcolm Sean"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Malcolm_Sean
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	EAG_Niamus_Athas={
+		name="Niamus Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Niamus_Athas
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	EAG_Rhys_Sean={
+		name="Rhys Sean"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EAG_Hugh_Luas={
+		name="Hugh Luas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Hugh_Luas
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EAG_Nialcolm_Eagnasamha={
+		name="Nialcolm Eagnasamha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Nialcolm_Eagnasamha
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EAG_Quin_Fioc={
+		name="Quin Fioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Quin_Fioc
+				traits = {	polemarch 	}
+		}
+
+	}
+	EAG_Ciall_Dubhas={
+		name="Ciall Dubhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Ciall_Dubhas
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EAG_Fergus_Sean={
+		name="Fergus Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Fergus_Sean
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EAG_Ciaran_Dubhas={
+		name="Ciaran Dubhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Ciaran_Dubhas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	EAG_Cialcolm_Dubhas={
+		name="Cialcolm Dubhas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Cialcolm_Dubhas
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	EAG_Bran_Luas={
+		name="Bran Luas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Bran_Luas
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	EAG_Tareth_Dubhas={
+		name="Tareth Dubhas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Tareth_Dubhas
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	EAG_Niaran_Athas={
+		name="Niaran Athas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Niaran_Athas
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	EAG_Braig_Fail={
+		name="Braig Fail"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Braig_Fail
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	EAG_Aidan_Athas={
+		name="Aidan Athas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Aidan_Athas
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	EAG_Iwan_Fioc={
+		name="Iwan Fioc"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Iwan_Fioc
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	EAG_Ulrich_Athas={
+		name="Ulrich Athas"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Ulrich_Athas
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	EAG_Keiran_Athas={
+		name="Keiran Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Keiran_Athas
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	EAG_Ciaran_Fioc={
+		name="Ciaran Fioc"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Ciaran_Fioc
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	EAG_Taran_Fioc={
+		name="Taran Fioc"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Taran_Fioc
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	EAG_Keiran_Uamh={
+		name="Keiran Uamh"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Keiran_Uamh
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	EAG_Taran_Boilt={
+		name="Taran Boilt"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Taran_Boilt
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	EAG_Niareth_Uamh={
+		name="Niareth Uamh"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Niareth_Uamh
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	EAG_Niareth_Fioc={
+		name="Niareth Fioc"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EAG_Bran_Eagnasamha={
+		name="Bran Eagnasamha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Bran_Eagnasamha
+				traits = {	the_banker 	}
+		}
+
+	}
+	EAG_Liamus_Athas={
+		name="Liamus Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Liamus_Athas
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	EAG_Ciamus_Sean={
+		name="Ciamus Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Ciamus_Sean
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	EAG_Nialcolm_Fail={
+		name="Nialcolm Fail"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Nialcolm_Fail
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EAG_Quin_Boilt={
+		name="Quin Boilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Quin_Boilt
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EAG_Garaig_Fioc={
+		name="Garaig Fioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EAG_Garaig_Fioc
+				traits = {	first_lady 	}
+		}
+
+	}
+	EAG_Cialcolm_Boilt={
+		name="Cialcolm Boilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Cialcolm_Boilt
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	EAG_Aidan_Beach={
+		name="Aidan Beach"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Aidan_Beach
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	EAG_Rhys_Eagnasamha={
+		name="Rhys Eagnasamha"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Rhys_Eagnasamha
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	EAG_Quinn_Sean={
+		name="Quinn Sean"
+
+		advisor={
+			slot = army_chief
+			idea_token = EAG_Quinn_Sean
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	EAG_Quin_Athas={
+		name="Quin Athas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Quin_Athas
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	EAG_Liareth_Uamh={
+		name="Liareth Uamh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EAG_Liareth_Uamh
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	EAG_Liareth_Athas={
+		name="Liareth Athas"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Liareth_Athas
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	EAG_Liareth_Luas={
+		name="Liareth Luas"
+
+		advisor={
+			slot = air_chief
+			idea_token = EAG_Liareth_Luas
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	EAG_Malcolm_Boilt={
+		name="Malcolm Boilt"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Malcolm_Boilt
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	EAG_Bran_Sean={
+		name="Bran Sean"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Bran_Sean
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	EAG_Mall_Beach={
+		name="Mall Beach"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Mall_Beach
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	EAG_Keiran_Fioc={
+		name="Keiran Fioc"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Keiran_Fioc
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	EAG_Niareth_Fail={
+		name="Niareth Fail"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Niareth_Fail
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	EAG_Lialcolm_Fail={
+		name="Lialcolm Fail"
+
+		advisor={
+			slot = high_command
+			idea_token = EAG_Lialcolm_Fail
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	EAG_Seam_Athas={
+		name="Seam Athas"
+
+		advisor={
+			slot = theorist
+			idea_token = EAG_Seam_Athas
+				traits = {	military_theorist 	}
+		}
+
+	}
+	EAG_Ciall_Eagnasamha={
+		name="Ciall Eagnasamha"
+
+		advisor={
+			slot = theorist
+			idea_token = EAG_Ciall_Eagnasamha
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	EAG_Ulrich_Eagnasamha={
+		name="Ulrich Eagnasamha"
+
+		advisor={
+			slot = theorist
+			idea_token = EAG_Ulrich_Eagnasamha
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

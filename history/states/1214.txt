@@ -2,9 +2,9 @@
 state={
 	id=1214
 	name="STATE_1214"
-	manpower = 240135
+	manpower = 466118
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,25 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 16840 1}
+		victory_points = { 15947 1}
+		victory_points = { 15950 1}
 		
-		owner = VID
+		owner = GHI
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
 			
-			16840 = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			15947 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = VID
+		add_core_of = GHI
 	}
 
 	provinces={
-		16840 16841 16842 
+		15946 15947 15948 15949 15950 15951 
 	}
 	local_supplies=0.0 
 }

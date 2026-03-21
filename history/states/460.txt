@@ -2,39 +2,42 @@
 state={
 	id=460
 	name="STATE_460"
-	manpower = 965643
+	manpower = 857161
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=7
+		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=3
 	}
 
 	history={
-		victory_points = { 6488 4}
-		victory_points = { 6490 1}
-		victory_points = { 6494 4}
+		victory_points = { 5887 2}
+		victory_points = { 5894 2}
+		victory_points = { 5896 1}
 		
-		owner = LCF
+		owner = SOR
 		buildings = {
 			infrastructure = 3
-			air_base = 3
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
+			5888 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = LCF
+		add_core_of = SOR
 	}
 
 	provinces={
-		6486 6487 6488 6489 6490 6491 6492 6493 6494 6495 6496 6497 6498 6499 6500 6501 
+		5884 5885 5886 5887 5888 5889 5890 5891 5892 5893 5894 5895 5896 
 	}
 	local_supplies=0.0 
 }

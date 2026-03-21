@@ -2,41 +2,39 @@
 state={
 	id=570
 	name="STATE_570"
-	manpower = 415118
+	manpower = 1234030
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=4
 		chromium=0
-		oil=0
+		oil=4
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=4
 	}
 
 	history={
-		victory_points = { 8258 1}
-		victory_points = { 8264 1}
+		victory_points = { 7496 3}
+		victory_points = { 7500 2}
+		victory_points = { 7506 3}
 		
-		owner = BEJ
+		owner = PON
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			8259 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = PON
 	}
 
 	provinces={
-		8258 8259 8260 8261 8262 8263 8264 8265 8266 8267 
+		7494 7495 7496 7497 7498 7499 7500 7501 7502 7503 7504 7505 7506 7507 7508 7509 7510 7511 
 	}
 	local_supplies=0.0 
 }

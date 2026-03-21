@@ -2,37 +2,41 @@
 state={
 	id=332
 	name="STATE_332"
-	manpower = 256718
+	manpower = 905661
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4845 1}
+		victory_points = { 4480 1}
+		victory_points = { 4483 5}
 		
-		owner = HPI
+		owner = NAZ
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
+			4483 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HPI
+		add_core_of = NAZ
 	}
 
 	provinces={
-		4845 4846 4847 
+		4477 4478 4479 4480 4481 4482 4483 4484 4485 4486 4487 4488 4489 
 	}
 	local_supplies=0.0 
 }

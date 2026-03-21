@@ -2,42 +2,38 @@
 state={
 	id=967
 	name="STATE_967"
-	manpower = 1070153
+	manpower = 597466
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=55
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13246 1}
-		victory_points = { 13265 1}
-		victory_points = { 13270 1}
+		victory_points = { 12917 2}
+		victory_points = { 12918 1}
 		
-		owner = UEO
+		owner = LZO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
-			13272 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = UEO
+		add_core_of = LZO
 	}
 
 	provinces={
-		13235 13236 13237 13238 13239 13240 13241 13242 13243 13244 13245 13246 13247 13248 13249 13250 13251 13252 13253 13254 13255 13256 13257 13258 13259 13260 13261 13262 13263 13264 13265 13266 13267 13268 13269 13270 13271 13272 13273 13274 13275 13276 13277 13278 13279 13280 13281 13282 13283 13284 13285 13286 13287 13288 13289 13290 13291 13292 13293 13294 13295 13296 13297 13298 13299 13300 13301 13302 
+		12916 12917 12918 12919 12920 12921 12922 12923 
 	}
 	local_supplies=0.0 
 }

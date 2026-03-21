@@ -2,42 +2,41 @@
 state={
 	id=1266
 	name="STATE_1266"
-	manpower = 1030153
+	manpower = 2042663
 	
-	state_category = city
+	state_category = metropolis
 	#impassable = yes
 	resources={
-		aluminium=2
+		aluminium=0
 		chromium=0
 		oil=0
-		rubber=1
-		steel=0
+		rubber=0
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17364 3}
-		victory_points = { 17368 3}
-		victory_points = { 17369 2}
+		victory_points = { 16700 6}
+		victory_points = { 16713 10}
 		
-		owner = AGS
+		owner = RIB
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
+			infrastructure = 4
+			
+			arms_factory = 1
 			industrial_complex = 1
 			
-			17361 = {
+			16718 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = AGS
+		add_core_of = RIB
 	}
 
 	provinces={
-		17355 17356 17357 17358 17359 17360 17361 17362 17363 17364 17365 17366 17367 17368 17369 17370 17371 17372 
+		16698 16699 16700 16701 16702 16703 16704 16705 16706 16707 16708 16709 16710 16711 16712 16713 16714 16715 16716 16717 16718 16719 16720 16721 16722 16723 16724 16725 16726 16727 16728 
 	}
 	local_supplies=0.0 
 }

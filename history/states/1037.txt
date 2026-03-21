@@ -2,39 +2,40 @@
 state={
 	id=1037
 	name="STATE_1037"
-	manpower = 1111732
+	manpower = 1214870
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14447 3}
-		victory_points = { 14452 3}
-		victory_points = { 14460 3}
+		victory_points = { 13626 2}
+		victory_points = { 13631 2}
+		victory_points = { 13637 1}
+		victory_points = { 13644 2}
 		
-		owner = KIJ
+		owner = KFM
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = KIJ
+		add_core_of = KFM
 	}
 
 	provinces={
-		14445 14446 14447 14448 14449 14450 14451 14452 14453 14454 14455 14456 14457 14458 14459 14460 14461 14462 14463 
+		13626 13627 13628 13629 13630 13631 13632 13633 13634 13635 13636 13637 13638 13639 13640 13641 13642 13643 13644 
 	}
 	local_supplies=0.0 
 }

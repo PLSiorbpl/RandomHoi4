@@ -2,9 +2,9 @@
 state={
 	id=748
 	name="STATE_748"
-	manpower = 909290
+	manpower = 570844
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,28 +12,29 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=9
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10641 4}
-		victory_points = { 10650 4}
+		victory_points = { 10047 1}
+		victory_points = { 10049 1}
+		victory_points = { 10051 1}
 		
-		owner = JME
+		owner = GHU
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = JME
+		add_core_of = GHU
 	}
 
 	provinces={
-		10637 10638 10639 10640 10641 10642 10643 10644 10645 10646 10647 10648 10649 10650 10651 10652 
+		10045 10046 10047 10048 10049 10050 10051 10052 
 	}
 	local_supplies=0.0 
 }

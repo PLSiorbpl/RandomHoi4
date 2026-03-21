@@ -2,38 +2,38 @@
 state={
 	id=25
 	name="STATE_25"
-	manpower = 1153379
+	manpower = 562837
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=4
 		steel=0
-		tungsten=0
+		tungsten=8
 		coal=0
 	}
 
 	history={
-		victory_points = { 452 3}
-		victory_points = { 459 8}
+		victory_points = { 319 2}
+		victory_points = { 320 1}
 		
-		owner = ZTA
+		owner = TMI
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			arms_factory = 0
-			industrial_complex = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ZTA
+		add_core_of = TMI
 	}
 
 	provinces={
-		444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 
+		315 316 317 318 319 320 321 322 
 	}
 	local_supplies=0.0 
 }

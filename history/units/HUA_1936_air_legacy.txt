@@ -1,4 +1,30 @@
 air_wings = {
-	
+		261 = { 								
+		tac_bomber_equipment_0 = { owner = "HUA" amount = 26 version_name = "Lichwer Mk 0" }
+nav_bomber_equipment_0 = { owner = "HUA" amount = 28 version_name = "Scht Mk 1" }
+
+	}
+	217 = { 								
+		nav_bomber_equipment_0 = { owner = "HUA" amount = 32 version_name = "Mont Mk 2" }
+
+	}
+	228 = { 								
+		CAS_equipment_0 = { owner = "HUA" amount = 30 version_name = "Mont Mk 0" }
+fighter_equipment_0 = { owner = "HUA" amount = 26 version_name = "Feueckeld Mk 1" }
+
+	}
+	41 = { 								
+		CAS_equipment_0 = { owner = "HUA" amount = 24 version_name = "Scht Mk 1" }
+
+	}
+	280 = { 								
+		tac_bomber_equipment_0 = { owner = "HUA" amount = 35 version_name = "Frin Mk 1" }
+
+	}
+	91 = { 								
+		fighter_equipment_0 = { owner = "HUA" amount = 28 version_name = "Frin Mk 1" }
+
+	}
+
 
 }

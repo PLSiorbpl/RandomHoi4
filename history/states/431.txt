@@ -2,9 +2,9 @@
 state={
 	id=431
 	name="STATE_431"
-	manpower = 341380
+	manpower = 1156946
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 6080 1}
-		victory_points = { 6081 1}
+		victory_points = { 5622 3}
+		victory_points = { 5626 3}
+		victory_points = { 5636 1}
 		
-		owner = GQT
+		owner = ETX
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GQT
+		add_core_of = ETX
 	}
 
 	provinces={
-		6079 6080 6081 6082 6083 
+		5622 5623 5624 5625 5626 5627 5628 5629 5630 5631 5632 5633 5634 5635 5636 5637 5638 
 	}
 	local_supplies=0.0 
 }

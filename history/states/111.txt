@@ -2,9 +2,9 @@
 state={
 	id=111
 	name="STATE_111"
-	manpower = 966675
+	manpower = 640292
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,29 +13,26 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 1788 1}
-		victory_points = { 1796 2}
-		victory_points = { 1799 1}
-		victory_points = { 1801 5}
+		victory_points = { 1630 4}
 		
-		owner = HPI
+		owner = SHE
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HPI
+		add_core_of = SHE
 	}
 
 	provinces={
-		1787 1788 1789 1790 1791 1792 1793 1794 1795 1796 1797 1798 1799 1800 1801 1802 
+		1630 1631 1632 1633 1634 1635 1636 1637 
 	}
 	local_supplies=0.0 
 }

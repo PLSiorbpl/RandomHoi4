@@ -2,36 +2,39 @@
 state={
 	id=166
 	name="STATE_166"
-	manpower = 5134
+	manpower = 1115395
 	
-	state_category = small_island
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=4
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 2356 2}
+		victory_points = { 2357 2}
+		victory_points = { 2368 3}
 		
-		owner = FQR
+		owner = CJE
 		buildings = {
-			infrastructure = 1
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = FQR
+		add_core_of = CJE
 	}
 
 	provinces={
-		2598 2599 2600 2601 2602 2603 2604 2605 2606 2607 2608 2609 2610 2611 2612 2613 2614 2615 2616 2617 2618 2619 2620 2621 2622 2623 2624 2625 2626 2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 2640 2641 2642 2643 2644 2645 
+		2354 2355 2356 2357 2358 2359 2360 2361 2362 2363 2364 2365 2366 2367 2368 2369 2370 
 	}
 	local_supplies=0.0 
 }

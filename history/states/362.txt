@@ -2,36 +2,41 @@
 state={
 	id=362
 	name="STATE_362"
-	manpower = 297272
+	manpower = 860924
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
-		rubber=1
+		oil=0
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 4814 1}
+		victory_points = { 4816 5}
 		
-		owner = VUD
+		owner = ETX
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
+			4815 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = VUD
+		add_core_of = ETX
 	}
 
 	provinces={
-		5196 5197 5198 5199 
+		4812 4813 4814 4815 4816 4817 4818 4819 4820 4821 4822 4823 4824 
 	}
 	local_supplies=0.0 
 }

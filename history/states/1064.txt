@@ -2,14 +2,14 @@
 state={
 	id=1064
 	name="STATE_1064"
-	manpower = 383266
+	manpower = 670947
 	
 	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 14789 2}
+		victory_points = { 13898 2}
+		victory_points = { 13903 1}
 		
-		owner = KIJ
+		owner = KFM
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = KIJ
+		add_core_of = KFM
 	}
 
 	provinces={
-		14786 14787 14788 14789 14790 14791 
+		13898 13899 13900 13901 13902 13903 13904 13905 13906 13907 
 	}
 	local_supplies=0.0 
 }

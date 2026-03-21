@@ -2,7 +2,7 @@
 state={
 	id=589
 	name="STATE_589"
-	manpower = 566012
+	manpower = 682351
 	
 	state_category = town
 	#impassable = yes
@@ -17,27 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 8602 1}
-		victory_points = { 8604 1}
-		victory_points = { 8608 1}
+		victory_points = { 7787 3}
+		victory_points = { 7789 1}
 		
-		owner = ATC
+		owner = SOR
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			8602 = {
+			7789 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = ATC
+		add_core_of = SOR
 	}
 
 	provinces={
-		8602 8603 8604 8605 8606 8607 8608 8609 
+		7787 7788 7789 7790 7791 7792 7793 7794 7795 
 	}
 	local_supplies=0.0 
 }

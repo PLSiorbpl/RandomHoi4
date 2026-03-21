@@ -2,42 +2,38 @@
 state={
 	id=651
 	name="STATE_651"
-	manpower = 449438
+	manpower = 746110
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9296 1}
-		victory_points = { 9298 1}
-		victory_points = { 9299 1}
+		victory_points = { 8697 3}
+		victory_points = { 8700 1}
 		
-		owner = JME
+		owner = UNI
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			9298 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = JME
+		add_core_of = UNI
 	}
 
 	provinces={
-		9296 9297 9298 9299 9300 9301 
+		8695 8696 8697 8698 8699 8700 8701 8702 8703 8704 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=699
 	name="STATE_699"
-	manpower = 928681
+	manpower = 1078306
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,34 +11,30 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=4
-		tungsten=19
+		steel=0
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9892 1}
-		victory_points = { 9896 1}
-		victory_points = { 9900 1}
-		victory_points = { 9905 2}
+		victory_points = { 9329 2}
+		victory_points = { 9332 1}
+		victory_points = { 9336 5}
 		
-		owner = JME
+		owner = ULU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			
 			arms_factory = 1
 			industrial_complex = 0
 			
-			9910 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = JME
+		add_core_of = ULU
 	}
 
 	provinces={
-		9892 9893 9894 9895 9896 9897 9898 9899 9900 9901 9902 9903 9904 9905 9906 9907 9908 9909 9910 9911 
+		9326 9327 9328 9329 9330 9331 9332 9333 9334 9335 9336 9337 9338 9339 9340 9341 
 	}
 	local_supplies=0.0 
 }

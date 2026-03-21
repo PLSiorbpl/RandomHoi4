@@ -1,0 +1,880 @@
+characters = {
+	GHI_Oxib_Sotznai={
+		name="Oxib Sotznai"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GHI_Tohil_Nakmul={
+		name="Tohil Nakmul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Tohil_Nakmul
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GHI_Kanek_Narach={
+		name="Kanek Narach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Kanek_Narach
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GHI_Ekchichen_Nacolkaban={
+		name="Ekchichen Nacolkaban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Ekchichen_Nacolkaban
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GHI_Kukulkan_Uxun={
+		name="Kukulkan Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Kukulkan_Uxun
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GHI_Pakanek_Kukul={
+		name="Pakanek Kukul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Pakanek_Kukul
+				traits = {	headstrong 	}
+		}
+
+	}
+	GHI_Kukulkan_Nacolkaban={
+		name="Kukulkan Nacolkaban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Kukulkan_Nacolkaban
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GHI_Pakalam_Nacolkaban={
+		name="Pakalam Nacolkaban"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Pakalam_Nacolkaban
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GHI_Kukulkalam_Nacolkaban={
+		name="Kukulkalam Nacolkaban"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Kukulkalam_Nacolkaban
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GHI_Popo_Uxun={
+		name="Popo Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Popo_Uxun
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GHI_Ekchua_Cobah={
+		name="Ekchua Cobah"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Ekchua_Cobah
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	GHI_Ekchichen_Kukul={
+		name="Ekchichen Kukul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Ekchichen_Kukul
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	GHI_Ekchichen_Nakmul={
+		name="Ekchichen Nakmul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Ekchichen_Nakmul
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	GHI_Itzam_Kukul={
+		name="Itzam Kukul"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Itzam_Kukul
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	GHI_Pakalam_Sotznai={
+		name="Pakalam Sotznai"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Pakalam_Sotznai
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	GHI_Ekchakalam_Kukul={
+		name="Ekchakalam Kukul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Ekchakalam_Kukul
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	GHI_Pakanek_Narach={
+		name="Pakanek Narach"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Pakanek_Narach
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	GHI_Itzam_Cobah={
+		name="Itzam Cobah"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Itzam_Cobah
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	GHI_Chakanek_Uxun={
+		name="Chakanek Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Chakanek_Uxun
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	GHI_Chua_Nakmul={
+		name="Chua Nakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Chua_Nakmul
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	GHI_Chichen_Sotznai={
+		name="Chichen Sotznai"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Chichen_Sotznai
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	GHI_Acab_Uxun={
+		name="Acab Uxun"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GHI_Oxib_Nacolkaban={
+		name="Oxib Nacolkaban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Oxib_Nacolkaban
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GHI_Yaxkin_Sotznai={
+		name="Yaxkin Sotznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Yaxkin_Sotznai
+				traits = {	basileus 	}
+		}
+
+	}
+	GHI_Tecun_Sotznai={
+		name="Tecun Sotznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Tecun_Sotznai
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	GHI_Balam_Sotznai={
+		name="Balam Sotznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Balam_Sotznai
+				traits = {	autokrator 	}
+		}
+
+	}
+	GHI_Kukulkal_Uxun={
+		name="Kukulkal Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Kukulkal_Uxun
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	GHI_Chak_Kawakcha={
+		name="Chak Kawakcha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Chak_Kawakcha
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	GHI_Acab_Nakmul={
+		name="Acab Nakmul"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Acab_Nakmul
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GHI_Kukulkan_Kawakcha={
+		name="Kukulkan Kawakcha"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Kukulkan_Kawakcha
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GHI_Acab_Nacolkaban={
+		name="Acab Nacolkaban"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Acab_Nacolkaban
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GHI_Nacom_Sotznai={
+		name="Nacom Sotznai"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Nacom_Sotznai
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GHI_Chua_Kawakcha={
+		name="Chua Kawakcha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Chua_Kawakcha
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	GHI_Oxib_Narach={
+		name="Oxib Narach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Oxib_Narach
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	GHI_Pakanek_Haalamnamna={
+		name="Pakanek Haalamnamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Pakanek_Haalamnamna
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GHI_Bacab_Sotznai={
+		name="Bacab Sotznai"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Bacab_Sotznai
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GHI_Nacatl_Kawakcha={
+		name="Nacatl Kawakcha"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Nacatl_Kawakcha
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	GHI_Ahkin_Nacolkaban={
+		name="Ahkin Nacolkaban"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Ahkin_Nacolkaban
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	GHI_Chichen_Nakmul={
+		name="Chichen Nakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Chichen_Nakmul
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	GHI_Pakanek_Nakmul={
+		name="Pakanek Nakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Pakanek_Nakmul
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	GHI_Pakal_Kukul={
+		name="Pakal Kukul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Pakal_Kukul
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	GHI_Ekchichen_Narach={
+		name="Ekchichen Narach"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Ekchichen_Narach
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	GHI_Tecun_Kawakcha={
+		name="Tecun Kawakcha"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GHI_Ekchil_Sotznai={
+		name="Ekchil Sotznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Ekchil_Sotznai
+				traits = {	political_dancer 	}
+		}
+
+	}
+	GHI_Yaxkin_Cobah={
+		name="Yaxkin Cobah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Yaxkin_Cobah
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	GHI_Nacab_Nacolkaban={
+		name="Nacab Nacolkaban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Nacab_Nacolkaban
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GHI_Itzam_Nakmul={
+		name="Itzam Nakmul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Itzam_Nakmul
+				traits = {	political_dancer 	}
+		}
+
+	}
+	GHI_Popo_Nacolkaban={
+		name="Popo Nacolkaban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Popo_Nacolkaban
+				traits = {	polemarch 	}
+		}
+
+	}
+	GHI_Pakan_Narach={
+		name="Pakan Narach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Pakan_Narach
+				traits = {	political_dancer 	}
+		}
+
+	}
+	GHI_Bacab_Haalamnamna={
+		name="Bacab Haalamnamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Bacab_Haalamnamna
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GHI_Pakan_Kukul={
+		name="Pakan Kukul"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Pakan_Kukul
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GHI_Pakal_Kawakcha={
+		name="Pakal Kawakcha"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Pakal_Kawakcha
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	GHI_Chakanek_Kawakcha={
+		name="Chakanek Kawakcha"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Chakanek_Kawakcha
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GHI_Tecun_Nacolkaban={
+		name="Tecun Nacolkaban"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Tecun_Nacolkaban
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	GHI_Chakal_Cobah={
+		name="Chakal Cobah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Chakal_Cobah
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	GHI_Pakan_Haalamnamna={
+		name="Pakan Haalamnamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Pakan_Haalamnamna
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	GHI_Chak_Haalamnamna={
+		name="Chak Haalamnamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Chak_Haalamnamna
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GHI_Acatl_Nacolkaban={
+		name="Acatl Nacolkaban"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Acatl_Nacolkaban
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	GHI_Acab_Haalamnamna={
+		name="Acab Haalamnamna"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Acab_Haalamnamna
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	GHI_Ahkin_Nakmul={
+		name="Ahkin Nakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Ahkin_Nakmul
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	GHI_Pakalam_Narach={
+		name="Pakalam Narach"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Pakalam_Narach
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	GHI_Chakal_Sotznai={
+		name="Chakal Sotznai"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Chakal_Sotznai
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	GHI_Chakanek_Kukul={
+		name="Chakanek Kukul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Chakanek_Kukul
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	GHI_Bacom_Uxun={
+		name="Bacom Uxun"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GHI_Moctez_Nacolkaban={
+		name="Moctez Nacolkaban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Moctez_Nacolkaban
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	GHI_Ekchakalam_Haalamnamna={
+		name="Ekchakalam Haalamnamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Ekchakalam_Haalamnamna
+				traits = {	first_lady 	}
+		}
+
+	}
+	GHI_Chua_Sotznai={
+		name="Chua Sotznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Chua_Sotznai
+				traits = {	first_lady 	}
+		}
+
+	}
+	GHI_Pakanek_Sotznai={
+		name="Pakanek Sotznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Pakanek_Sotznai
+				traits = {	the_banker 	}
+		}
+
+	}
+	GHI_Acatl_Narach={
+		name="Acatl Narach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Acatl_Narach
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GHI_Chak_Kukul={
+		name="Chak Kukul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GHI_Chak_Kukul
+				traits = {	first_lady 	}
+		}
+
+	}
+	GHI_Kukulkalam_Haalamnamna={
+		name="Kukulkalam Haalamnamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Kukulkalam_Haalamnamna
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	GHI_Tecun_Narach={
+		name="Tecun Narach"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Tecun_Narach
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	GHI_Kukulkal_Narach={
+		name="Kukulkal Narach"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Kukulkal_Narach
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	GHI_Kukulkalam_Uxun={
+		name="Kukulkalam Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = GHI_Kukulkalam_Uxun
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	GHI_Chakanek_Nacolkaban={
+		name="Chakanek Nacolkaban"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Chakanek_Nacolkaban
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	GHI_Popo_Cobah={
+		name="Popo Cobah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GHI_Popo_Cobah
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	GHI_Pakan_Kawakcha={
+		name="Pakan Kawakcha"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Pakan_Kawakcha
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GHI_Kukulkan_Sotznai={
+		name="Kukulkan Sotznai"
+
+		advisor={
+			slot = air_chief
+			idea_token = GHI_Kukulkan_Sotznai
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	GHI_Acatl_Uxun={
+		name="Acatl Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Acatl_Uxun
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	GHI_Nacatl_Uxun={
+		name="Nacatl Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Nacatl_Uxun
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	GHI_Ekchil_Nakmul={
+		name="Ekchil Nakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Ekchil_Nakmul
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	GHI_Ekchakalam_Nakmul={
+		name="Ekchakalam Nakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Ekchakalam_Nakmul
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	GHI_Kukulkan_Cobah={
+		name="Kukulkan Cobah"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Kukulkan_Cobah
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	GHI_Ekchakalam_Nacolkaban={
+		name="Ekchakalam Nacolkaban"
+
+		advisor={
+			slot = high_command
+			idea_token = GHI_Ekchakalam_Nacolkaban
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	GHI_Ekchil_Narach={
+		name="Ekchil Narach"
+
+		advisor={
+			slot = theorist
+			idea_token = GHI_Ekchil_Narach
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GHI_Chakal_Kawakcha={
+		name="Chakal Kawakcha"
+
+		advisor={
+			slot = theorist
+			idea_token = GHI_Chakal_Kawakcha
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GHI_Kukulkalam_Nakmul={
+		name="Kukulkalam Nakmul"
+
+		advisor={
+			slot = theorist
+			idea_token = GHI_Kukulkalam_Nakmul
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

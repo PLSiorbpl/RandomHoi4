@@ -1,0 +1,880 @@
+characters = {
+	LZO_Ciaran_Leal={
+		name="Ciaran Leal"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LZO_Niall_Leal={
+		name="Niall Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Niall_Leal
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	LZO_Owen_Leal={
+		name="Owen Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Owen_Leal
+				traits = {	headstrong 	}
+		}
+
+	}
+	LZO_Keiran_Leal={
+		name="Keiran Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Keiran_Leal
+				traits = {	humble 	}
+		}
+
+	}
+	LZO_Ulrich_Reoilt={
+		name="Ulrich Reoilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Ulrich_Reoilt
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	LZO_Niall_Nearg={
+		name="Niall Nearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Niall_Nearg
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	LZO_Taraig_Reoilt={
+		name="Taraig Reoilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Taraig_Reoilt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LZO_Malcolm_Reoilt={
+		name="Malcolm Reoilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Malcolm_Reoilt
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	LZO_Bran_Reoilt={
+		name="Bran Reoilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Bran_Reoilt
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LZO_Taran_Cein={
+		name="Taran Cein"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Taran_Cein
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LZO_Taran_Leal={
+		name="Taran Leal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Taran_Leal
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	LZO_Padran_Fiochaisceac={
+		name="Padran Fiochaisceac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Padran_Fiochaisceac
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	LZO_Seamus_Tirseart={
+		name="Seamus Tirseart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Seamus_Tirseart
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LZO_Seam_Fiochaisceac={
+		name="Seam Fiochaisceac"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Seam_Fiochaisceac
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	LZO_Padraig_Cein={
+		name="Padraig Cein"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Padraig_Cein
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	LZO_Keiraig_Tuaill={
+		name="Keiraig Tuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Keiraig_Tuaill
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	LZO_Aidan_Cein={
+		name="Aidan Cein"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Aidan_Cein
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	LZO_Mall_Nearg={
+		name="Mall Nearg"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Mall_Nearg
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	LZO_Iwan_Cein={
+		name="Iwan Cein"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Iwan_Cein
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	LZO_Garan_Buatha={
+		name="Garan Buatha"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Garan_Buatha
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	LZO_Garan_Tirseart={
+		name="Garan Tirseart"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Garan_Tirseart
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	LZO_Ulrich_Tuaill={
+		name="Ulrich Tuaill"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LZO_Padraig_Cluai={
+		name="Padraig Cluai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Padraig_Cluai
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LZO_Tareth_Leal={
+		name="Tareth Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Tareth_Leal
+				traits = {	warmonger 	}
+		}
+
+	}
+	LZO_Quin_Cluai={
+		name="Quin Cluai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Quin_Cluai
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LZO_Ciaran_Fiochaisceac={
+		name="Ciaran Fiochaisceac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Ciaran_Fiochaisceac
+				traits = {	warmonger 	}
+		}
+
+	}
+	LZO_Gareth_Fiochaisceac={
+		name="Gareth Fiochaisceac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Gareth_Fiochaisceac
+				traits = {	autokrator 	}
+		}
+
+	}
+	LZO_Bran_Tirseart={
+		name="Bran Tirseart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Bran_Tirseart
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	LZO_Garan_Scearrasamht={
+		name="Garan Scearrasamht"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Garan_Scearrasamht
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LZO_Iwan_Scearrasamht={
+		name="Iwan Scearrasamht"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Iwan_Scearrasamht
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LZO_Aidan_Tuaill={
+		name="Aidan Tuaill"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Aidan_Tuaill
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	LZO_Ciaran_Cein={
+		name="Ciaran Cein"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Ciaran_Cein
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LZO_Ciaran_Scearrasamht={
+		name="Ciaran Scearrasamht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Ciaran_Scearrasamht
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	LZO_Taran_Reoilt={
+		name="Taran Reoilt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Taran_Reoilt
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	LZO_Liamus_Nearg={
+		name="Liamus Nearg"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Liamus_Nearg
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	LZO_Rhys_Tuaill={
+		name="Rhys Tuaill"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Rhys_Tuaill
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	LZO_Eoinn_Buatha={
+		name="Eoinn Buatha"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Eoinn_Buatha
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	LZO_Seamus_Nearg={
+		name="Seamus Nearg"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Seamus_Nearg
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	LZO_Ulrich_Nearg={
+		name="Ulrich Nearg"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Ulrich_Nearg
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	LZO_Iwan_Tuaill={
+		name="Iwan Tuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Iwan_Tuaill
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	LZO_Ciam_Buatha={
+		name="Ciam Buatha"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Ciam_Buatha
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	LZO_Aidan_Tirseart={
+		name="Aidan Tirseart"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Aidan_Tirseart
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	LZO_Keiraig_Cluai={
+		name="Keiraig Cluai"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LZO_Iwan_Leal={
+		name="Iwan Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Iwan_Leal
+				traits = {	polemarch 	}
+		}
+
+	}
+	LZO_Nialcolm_Scearrasamht={
+		name="Nialcolm Scearrasamht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Nialcolm_Scearrasamht
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	LZO_Liall_Scearrasamht={
+		name="Liall Scearrasamht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Liall_Scearrasamht
+				traits = {	infirm 	}
+		}
+
+	}
+	LZO_Ciaraig_Tuaill={
+		name="Ciaraig Tuaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Ciaraig_Tuaill
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LZO_Niall_Tuaill={
+		name="Niall Tuaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Niall_Tuaill
+				traits = {	political_dancer 	}
+		}
+
+	}
+	LZO_Cialcolm_Scearrasamht={
+		name="Cialcolm Scearrasamht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Cialcolm_Scearrasamht
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LZO_Gareth_Reoilt={
+		name="Gareth Reoilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Gareth_Reoilt
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LZO_Seam_Scearrasamht={
+		name="Seam Scearrasamht"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Seam_Scearrasamht
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LZO_Liam_Reoilt={
+		name="Liam Reoilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Liam_Reoilt
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LZO_Iwan_Tirseart={
+		name="Iwan Tirseart"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Iwan_Tirseart
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	LZO_Ciaran_Buatha={
+		name="Ciaran Buatha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Ciaran_Buatha
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	LZO_Hugh_Nearg={
+		name="Hugh Nearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Hugh_Nearg
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	LZO_Padraig_Tirseart={
+		name="Padraig Tirseart"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Padraig_Tirseart
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	LZO_Owen_Tirseart={
+		name="Owen Tirseart"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Owen_Tirseart
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	LZO_Hugh_Cein={
+		name="Hugh Cein"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Hugh_Cein
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	LZO_Niam_Reoilt={
+		name="Niam Reoilt"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Niam_Reoilt
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	LZO_Eoin_Nearg={
+		name="Eoin Nearg"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Eoin_Nearg
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	LZO_Mall_Tuaill={
+		name="Mall Tuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Mall_Tuaill
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	LZO_Mall_Leal={
+		name="Mall Leal"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Mall_Leal
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	LZO_Ciam_Tirseart={
+		name="Ciam Tirseart"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Ciam_Tirseart
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	LZO_Gareth_Cein={
+		name="Gareth Cein"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LZO_Quin_Nearg={
+		name="Quin Nearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Quin_Nearg
+				traits = {	rearmer 	}
+		}
+
+	}
+	LZO_Gareth_Buatha={
+		name="Gareth Buatha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Gareth_Buatha
+				traits = {	the_banker 	}
+		}
+
+	}
+	LZO_Niall_Cluai={
+		name="Niall Cluai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Niall_Cluai
+				traits = {	first_lady 	}
+		}
+
+	}
+	LZO_Niaraig_Tuaill={
+		name="Niaraig Tuaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Niaraig_Tuaill
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LZO_Garan_Fiochaisceac={
+		name="Garan Fiochaisceac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Garan_Fiochaisceac
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	LZO_Niamus_Scearrasamht={
+		name="Niamus Scearrasamht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LZO_Niamus_Scearrasamht
+				traits = {	infirm 	}
+		}
+
+	}
+	LZO_Owen_Scearrasamht={
+		name="Owen Scearrasamht"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Owen_Scearrasamht
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	LZO_Gareth_Tirseart={
+		name="Gareth Tirseart"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Gareth_Tirseart
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	LZO_Bran_Buatha={
+		name="Bran Buatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Bran_Buatha
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	LZO_Owen_Buatha={
+		name="Owen Buatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = LZO_Owen_Buatha
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	LZO_Owen_Nearg={
+		name="Owen Nearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Owen_Nearg
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LZO_Ulrich_Fiochaisceac={
+		name="Ulrich Fiochaisceac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LZO_Ulrich_Fiochaisceac
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	LZO_Padran_Tirseart={
+		name="Padran Tirseart"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Padran_Tirseart
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	LZO_Hugh_Tirseart={
+		name="Hugh Tirseart"
+
+		advisor={
+			slot = air_chief
+			idea_token = LZO_Hugh_Tirseart
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	LZO_Owen_Tuaill={
+		name="Owen Tuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Owen_Tuaill
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	LZO_Liam_Fiochaisceac={
+		name="Liam Fiochaisceac"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Liam_Fiochaisceac
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	LZO_Seam_Tirseart={
+		name="Seam Tirseart"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Seam_Tirseart
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	LZO_Ciaran_Tuaill={
+		name="Ciaran Tuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Ciaran_Tuaill
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	LZO_Padraig_Scearrasamht={
+		name="Padraig Scearrasamht"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Padraig_Scearrasamht
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	LZO_Niaraig_Nearg={
+		name="Niaraig Nearg"
+
+		advisor={
+			slot = high_command
+			idea_token = LZO_Niaraig_Nearg
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	LZO_Quinn_Fiochaisceac={
+		name="Quinn Fiochaisceac"
+
+		advisor={
+			slot = theorist
+			idea_token = LZO_Quinn_Fiochaisceac
+				traits = {	military_theorist 	}
+		}
+
+	}
+	LZO_Seamus_Reoilt={
+		name="Seamus Reoilt"
+
+		advisor={
+			slot = theorist
+			idea_token = LZO_Seamus_Reoilt
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	LZO_Seam_Leal={
+		name="Seam Leal"
+
+		advisor={
+			slot = theorist
+			idea_token = LZO_Seam_Leal
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

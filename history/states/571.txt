@@ -2,14 +2,14 @@
 state={
 	id=571
 	name="STATE_571"
-	manpower = 374389
+	manpower = 791067
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=2
-		oil=0
+		chromium=0
+		oil=4
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
+		victory_points = { 7517 4}
 		
-		owner = KNP
+		owner = MFN
 		buildings = {
-			infrastructure = 1
-			
+			infrastructure = 3
+			air_base = 4
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			8272 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = KNP
+		add_core_of = MFN
 	}
 
 	provinces={
-		8268 8269 8270 8271 8272 8273 8274 8275 8276 8277 8278 
+		7512 7513 7514 7515 7516 7517 7518 7519 7520 7521 7522 7523 
 	}
 	local_supplies=0.0 
 }

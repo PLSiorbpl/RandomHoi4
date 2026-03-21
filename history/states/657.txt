@@ -2,14 +2,14 @@
 state={
 	id=657
 	name="STATE_657"
-	manpower = 795364
+	manpower = 904107
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 9359 6}
+		victory_points = { 8780 6}
 		
-		owner = ATC
+		owner = ULU
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ATC
+		add_core_of = ULU
 	}
 
 	provinces={
-		9354 9355 9356 9357 9358 9359 9360 9361 9362 9363 9364 9365 9366 
+		8767 8768 8769 8770 8771 8772 8773 8774 8775 8776 8777 8778 8779 8780 
 	}
 	local_supplies=0.0 
 }

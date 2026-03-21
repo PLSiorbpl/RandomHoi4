@@ -2,9 +2,9 @@
 state={
 	id=18
 	name="STATE_18"
-	manpower = 1023665
+	manpower = 726135
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 322 2}
-		victory_points = { 328 5}
+		victory_points = { 231 3}
+		victory_points = { 234 2}
 		
-		owner = ZTA
+		owner = ETX
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ZTA
+		add_core_of = ETX
 	}
 
 	provinces={
-		321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 
+		231 232 233 234 235 236 237 238 239 240 
 	}
 	local_supplies=0.0 
 }

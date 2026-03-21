@@ -2,14 +2,14 @@
 state={
 	id=665
 	name="STATE_665"
-	manpower = 577887
+	manpower = 802781
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=4
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,9 +17,10 @@ state={
 	}
 
 	history={
-		victory_points = { 9467 3}
+		victory_points = { 8841 4}
+		victory_points = { 8847 1}
 		
-		owner = CNR
+		owner = MFN
 		buildings = {
 			infrastructure = 3
 			
@@ -28,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = CNR
+		add_core_of = MFN
 	}
 
 	provinces={
-		9466 9467 9468 9469 9470 9471 9472 9473 9474 
+		8840 8841 8842 8843 8844 8845 8846 8847 8848 8849 8850 8851 
 	}
 	local_supplies=0.0 
 }

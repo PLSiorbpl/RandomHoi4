@@ -1,0 +1,880 @@
+characters = {
+	LUA_Ciareth_Clamhas={
+		name="Ciareth Clamhas"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUA_Ulrich_Abha={
+		name="Ulrich Abha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Ulrich_Abha
+				traits = {	humble 	}
+		}
+
+	}
+	LUA_Ciall_Tighdealas={
+		name="Ciall Tighdealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Ciall_Tighdealas
+				traits = {	humble 	}
+		}
+
+	}
+	LUA_Keiraig_Maile={
+		name="Keiraig Maile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Keiraig_Maile
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	LUA_Seam_Loras={
+		name="Seam Loras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Seam_Loras
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LUA_Seamus_Loras={
+		name="Seamus Loras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Seamus_Loras
+				traits = {	headstrong 	}
+		}
+
+	}
+	LUA_Tareth_Cainta={
+		name="Tareth Cainta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Tareth_Cainta
+				traits = {	headstrong 	}
+		}
+
+	}
+	LUA_Liareth_Talas={
+		name="Liareth Talas"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Liareth_Talas
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LUA_Taran_Tighdealas={
+		name="Taran Tighdealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Taran_Tighdealas
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LUA_Iwan_Abha={
+		name="Iwan Abha"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Iwan_Abha
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LUA_Nialcolm_Cainta={
+		name="Nialcolm Cainta"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Nialcolm_Cainta
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LUA_Fergus_Loras={
+		name="Fergus Loras"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Fergus_Loras
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	LUA_Lialcolm_Torc={
+		name="Lialcolm Torc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Lialcolm_Torc
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	LUA_Aidan_Ceoill={
+		name="Aidan Ceoill"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Aidan_Ceoill
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	LUA_Quin_Abha={
+		name="Quin Abha"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Quin_Abha
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	LUA_Keiraig_Grian={
+		name="Keiraig Grian"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Keiraig_Grian
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	LUA_Quin_Loras={
+		name="Quin Loras"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Quin_Loras
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	LUA_Keiran_Grian={
+		name="Keiran Grian"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Keiran_Grian
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	LUA_Fergus_Cainta={
+		name="Fergus Cainta"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Fergus_Cainta
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	LUA_Seamus_Abha={
+		name="Seamus Abha"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Seamus_Abha
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	LUA_Keiran_Talas={
+		name="Keiran Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Keiran_Talas
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	LUA_Seamus_Torc={
+		name="Seamus Torc"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUA_Garaig_Loras={
+		name="Garaig Loras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Garaig_Loras
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	LUA_Declan_Maile={
+		name="Declan Maile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Declan_Maile
+				traits = {	generallissimo 	}
+		}
+
+	}
+	LUA_Quinn_Abha={
+		name="Quinn Abha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Quinn_Abha
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	LUA_Malcolm_Tighdealas={
+		name="Malcolm Tighdealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Malcolm_Tighdealas
+				traits = {	basileus 	}
+		}
+
+	}
+	LUA_Liall_Maile={
+		name="Liall Maile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Liall_Maile
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	LUA_Bran_Grian={
+		name="Bran Grian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Bran_Grian
+				traits = {	warmonger 	}
+		}
+
+	}
+	LUA_Liaran_Maile={
+		name="Liaran Maile"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Liaran_Maile
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	LUA_Keiran_Tighdealas={
+		name="Keiran Tighdealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Keiran_Tighdealas
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	LUA_Taran_Clamhas={
+		name="Taran Clamhas"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Taran_Clamhas
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LUA_Keiraig_Tighdealas={
+		name="Keiraig Tighdealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Keiraig_Tighdealas
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	LUA_Padran_Torc={
+		name="Padran Torc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Padran_Torc
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	LUA_Niall_Ceoill={
+		name="Niall Ceoill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Niall_Ceoill
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	LUA_Seam_Grian={
+		name="Seam Grian"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Seam_Grian
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	LUA_Taran_Loras={
+		name="Taran Loras"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Taran_Loras
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	LUA_Iwan_Loras={
+		name="Iwan Loras"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Iwan_Loras
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	LUA_Quinn_Cainta={
+		name="Quinn Cainta"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Quinn_Cainta
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	LUA_Declan_Torc={
+		name="Declan Torc"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Declan_Torc
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	LUA_Cialcolm_Cainta={
+		name="Cialcolm Cainta"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Cialcolm_Cainta
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	LUA_Declan_Abha={
+		name="Declan Abha"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Declan_Abha
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	LUA_Taraig_Abha={
+		name="Taraig Abha"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Taraig_Abha
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	LUA_Niamus_Torc={
+		name="Niamus Torc"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUA_Ulrich_Clamhas={
+		name="Ulrich Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Ulrich_Clamhas
+				traits = {	polemarch 	}
+		}
+
+	}
+	LUA_Owen_Talas={
+		name="Owen Talas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Owen_Talas
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	LUA_Quin_Ceoill={
+		name="Quin Ceoill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Quin_Ceoill
+				traits = {	polemarch 	}
+		}
+
+	}
+	LUA_Liareth_Ceoill={
+		name="Liareth Ceoill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Liareth_Ceoill
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LUA_Niaran_Cainta={
+		name="Niaran Cainta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Niaran_Cainta
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LUA_Lialcolm_Maile={
+		name="Lialcolm Maile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Lialcolm_Maile
+				traits = {	political_dancer 	}
+		}
+
+	}
+	LUA_Quinn_Tighdealas={
+		name="Quinn Tighdealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Quinn_Tighdealas
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	LUA_Nialcolm_Tighdealas={
+		name="Nialcolm Tighdealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Nialcolm_Tighdealas
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LUA_Quinn_Ceoill={
+		name="Quinn Ceoill"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Quinn_Ceoill
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	LUA_Iwan_Maile={
+		name="Iwan Maile"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Iwan_Maile
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	LUA_Braig_Tighdealas={
+		name="Braig Tighdealas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Braig_Tighdealas
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LUA_Liall_Tighdealas={
+		name="Liall Tighdealas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Liall_Tighdealas
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	LUA_Bran_Abha={
+		name="Bran Abha"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Bran_Abha
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	LUA_Iwan_Tighdealas={
+		name="Iwan Tighdealas"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Iwan_Tighdealas
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	LUA_Niareth_Grian={
+		name="Niareth Grian"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Niareth_Grian
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	LUA_Niareth_Abha={
+		name="Niareth Abha"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Niareth_Abha
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	LUA_Liareth_Cainta={
+		name="Liareth Cainta"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Liareth_Cainta
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	LUA_Bran_Tighdealas={
+		name="Bran Tighdealas"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Bran_Tighdealas
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	LUA_Niall_Maile={
+		name="Niall Maile"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Niall_Maile
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	LUA_Niam_Tighdealas={
+		name="Niam Tighdealas"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Niam_Tighdealas
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	LUA_Cialcolm_Grian={
+		name="Cialcolm Grian"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUA_Padran_Talas={
+		name="Padran Talas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Padran_Talas
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	LUA_Liall_Talas={
+		name="Liall Talas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Liall_Talas
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	LUA_Niam_Cainta={
+		name="Niam Cainta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Niam_Cainta
+				traits = {	rearmer 	}
+		}
+
+	}
+	LUA_Niamus_Abha={
+		name="Niamus Abha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Niamus_Abha
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	LUA_Cialcolm_Loras={
+		name="Cialcolm Loras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Cialcolm_Loras
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	LUA_Niaran_Maile={
+		name="Niaran Maile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUA_Niaran_Maile
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	LUA_Quin_Maile={
+		name="Quin Maile"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Quin_Maile
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	LUA_Fergus_Maile={
+		name="Fergus Maile"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Fergus_Maile
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	LUA_Hugh_Abha={
+		name="Hugh Abha"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Hugh_Abha
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	LUA_Nialcolm_Grian={
+		name="Nialcolm Grian"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUA_Nialcolm_Grian
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LUA_Ciaran_Abha={
+		name="Ciaran Abha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Ciaran_Abha
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	LUA_Taran_Talas={
+		name="Taran Talas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUA_Taran_Talas
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	LUA_Niareth_Talas={
+		name="Niareth Talas"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Niareth_Talas
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	LUA_Keiraig_Abha={
+		name="Keiraig Abha"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUA_Keiraig_Abha
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	LUA_Ciaran_Loras={
+		name="Ciaran Loras"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Ciaran_Loras
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	LUA_Ciall_Talas={
+		name="Ciall Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Ciall_Talas
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	LUA_Fergus_Tighdealas={
+		name="Fergus Tighdealas"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Fergus_Tighdealas
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	LUA_Tareth_Ceoill={
+		name="Tareth Ceoill"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Tareth_Ceoill
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	LUA_Niamus_Tighdealas={
+		name="Niamus Tighdealas"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Niamus_Tighdealas
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	LUA_Niareth_Maile={
+		name="Niareth Maile"
+
+		advisor={
+			slot = high_command
+			idea_token = LUA_Niareth_Maile
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	LUA_Braig_Abha={
+		name="Braig Abha"
+
+		advisor={
+			slot = theorist
+			idea_token = LUA_Braig_Abha
+				traits = {	military_theorist 	}
+		}
+
+	}
+	LUA_Eoinn_Talas={
+		name="Eoinn Talas"
+
+		advisor={
+			slot = theorist
+			idea_token = LUA_Eoinn_Talas
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	LUA_Keiraig_Loras={
+		name="Keiraig Loras"
+
+		advisor={
+			slot = theorist
+			idea_token = LUA_Keiraig_Loras
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

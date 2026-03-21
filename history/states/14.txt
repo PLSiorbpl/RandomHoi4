@@ -2,43 +2,38 @@
 state={
 	id=14
 	name="STATE_14"
-	manpower = 597503
+	manpower = 1843192
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=19
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 254 1}
-		victory_points = { 259 1}
-		victory_points = { 260 1}
-		victory_points = { 262 1}
+		victory_points = { 152 9}
+		victory_points = { 164 4}
 		
-		owner = ZTA
+		owner = ETX
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 1
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 2
 			industrial_complex = 0
 			
-			261 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ZTA
+		add_core_of = ETX
 	}
 
 	provinces={
-		251 252 253 254 255 256 257 258 259 260 261 262 263 
+		139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 
 	}
 	local_supplies=0.0 
 }

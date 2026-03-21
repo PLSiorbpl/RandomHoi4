@@ -2,14 +2,14 @@
 state={
 	id=772
 	name="STATE_772"
-	manpower = 802487
+	manpower = 1103160
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=4
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10884 6}
+		victory_points = { 10362 3}
+		victory_points = { 10373 5}
 		
-		owner = CNR
+		owner = ULU
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = CNR
+		add_core_of = ULU
 	}
 
 	provinces={
-		10884 10885 10886 10887 10888 10889 10890 10891 10892 10893 10894 10895 10896 
+		10358 10359 10360 10361 10362 10363 10364 10365 10366 10367 10368 10369 10370 10371 10372 10373 
 	}
 	local_supplies=0.0 
 }

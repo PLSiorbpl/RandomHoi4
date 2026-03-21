@@ -2,41 +2,40 @@
 state={
 	id=423
 	name="STATE_423"
-	manpower = 339548
+	manpower = 591348
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=6
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5939 1}
-		victory_points = { 5940 1}
+		victory_points = { 5548 2}
 		
-		owner = WHE
+		owner = ANI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			5938 = {
+			5549 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = WHE
+		add_core_of = ANI
 	}
 
 	provinces={
-		5938 5939 5940 5941 
+		5548 5549 5550 5551 5552 5553 5554 5555 
 	}
 	local_supplies=0.0 
 }
