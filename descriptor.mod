@@ -1,7 +1,7 @@
-name="RandomHoi4V2"
+name="CoolPack"
 picture="thumbnail.png"
-version="v1"
-user_dir="RandomHoi4"
+version="v0.2"
+user_dir="CoolPack"
 replace_path="history/states"
 replace_path="map/strategicregions"
 replace_path="history/units"
@@ -13,11 +13,9 @@ replace_path="common/factions/goals"
 replace_path="common/factions/rules"
 replace_path="common/factions/rules/groups"
 replace_path="common/factions/templates"
-
 tags={
 	"Gameplay"
 	"Historical"
 }
 supported_version="1.17.*"
-
-remote_file_id="<ID>"
+remote_file_id="3689175864"
