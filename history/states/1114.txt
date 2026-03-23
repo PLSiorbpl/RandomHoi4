@@ -2,7 +2,7 @@
 state={
 	id=1114
 	name="STATE_1114"
-	manpower = 1476933
+	manpower = 1556288
 	
 	state_category = city
 	#impassable = yes
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 14562 11}
+		victory_points = { 13359 9}
 		
-		owner = SLU
+		owner = AJT
 		buildings = {
 			infrastructure = 4
-			
+			air_base = 2
 			arms_factory = 1
 			industrial_complex = 0
 			
-			14557 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = SLU
+		add_core_of = AJT
 	}
 
 	provinces={
-		14542 14543 14544 14545 14546 14547 14548 14549 14550 14551 14552 14553 14554 14555 14556 14557 14558 14559 14560 14561 14562 14563 
+		13344 13345 13346 13347 13348 13349 13350 13351 13352 13353 13354 13355 13356 13357 13358 13359 13360 
 	}
 	local_supplies=0.0 
 }

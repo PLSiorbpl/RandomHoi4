@@ -2,9 +2,9 @@
 state={
 	id=627
 	name="STATE_627"
-	manpower = 1636577
+	manpower = 505494
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 8342 3}
-		victory_points = { 8346 5}
-		victory_points = { 8358 4}
+		victory_points = { 7409 2}
 		
-		owner = DAN
+		owner = LIZ
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 0
+			industrial_complex = 0
 			
+			7410 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = DAN
+		add_core_of = LIZ
 	}
 
 	provinces={
-		8339 8340 8341 8342 8343 8344 8345 8346 8347 8348 8349 8350 8351 8352 8353 8354 8355 8356 8357 8358 8359 8360 8361 8362 8363 
+		7409 7410 7411 7412 
 	}
 	local_supplies=0.0 
 }

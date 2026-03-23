@@ -2,36 +2,38 @@
 state={
 	id=311
 	name="STATE_311"
-	manpower = 279710
+	manpower = 673345
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=1
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=25
 	}
 
 	history={
+		victory_points = { 3699 2}
+		victory_points = { 3701 1}
 		
-		owner = FVO
+		owner = UXU
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = FVO
+		add_core_of = UXU
 	}
 
 	provinces={
-		4183 4184 4185 
+		3698 3699 3700 3701 3702 3703 
 	}
 	local_supplies=0.0 
 }

@@ -2,38 +2,39 @@
 state={
 	id=507
 	name="STATE_507"
-	manpower = 896293
+	manpower = 852031
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=19
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6665 4}
-		victory_points = { 6675 2}
+		victory_points = { 6118 1}
+		victory_points = { 6119 1}
+		victory_points = { 6121 1}
 		
-		owner = PON
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = GIZ
 	}
 
 	provinces={
-		6665 6666 6667 6668 6669 6670 6671 6672 6673 6674 6675 6676 6677 
+		6117 6118 6119 6120 6121 6122 6123 6124 
 	}
 	local_supplies=0.0 
 }

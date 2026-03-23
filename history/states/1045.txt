@@ -2,13 +2,13 @@
 state={
 	id=1045
 	name="STATE_1045"
-	manpower = 292137
+	manpower = 1083920
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=2
 		oil=0
 		rubber=0
 		steel=0
@@ -17,22 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 13714 1}
+		victory_points = { 12499 2}
+		victory_points = { 12505 2}
+		victory_points = { 12506 1}
 		
-		owner = XUL
+		owner = CAH
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
+			12504 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = XUL
+		add_core_of = CAH
 	}
 
 	provinces={
-		13714 13715 13716 
+		12499 12500 12501 12502 12503 12504 12505 12506 12507 12508 12509 
 	}
 	local_supplies=0.0 
 }

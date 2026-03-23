@@ -22,9 +22,6 @@ division_template = {
 			infantry = {  x = 0 y = 2 }
 			infantry = {  x = 1 y = 0 }
 			infantry = {  x = 1 y = 1 }
-			infantry = {  x = 1 y = 2 }
-			infantry = {  x = 2 y = 0 }
-			infantry = {  x = 2 y = 1 }
 
 	}
 	
@@ -39,17 +36,15 @@ division_template = {
 			infantry = {  x = 0 y = 0 }
 			infantry = {  x = 0 y = 1 }
 			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
 			infantry = {  x = 1 y = 0 }
 			infantry = {  x = 1 y = 1 }
 			infantry = {  x = 1 y = 2 }
-			infantry = {  x = 2 y = 0 }
-			infantry = {  x = 2 y = 1 }
-			infantry = {  x = 2 y = 2 }
 
 	}
 	
 	support = {
-			recon = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 0 }
 
 	}
 }
@@ -59,18 +54,18 @@ division_template = {
 	regiments = {
 			infantry = {  x = 0 y = 0 }
 			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
 			infantry = {  x = 1 y = 0 }
 			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
 			infantry = {  x = 2 y = 0 }
 			infantry = {  x = 2 y = 1 }
 			artillery_brigade = {  x = 3 y = 0 }
-			artillery_brigade = {  x = 3 y = 1 }
 
 	}
 	
 	support = {
 			artillery = {  x = 0 y = 0 }
-			recon = {  x = 1 y = 0 }
 
 	}
 }
@@ -80,9 +75,14 @@ division_template = {
 	regiments = {
 			cavalry = {  x = 0 y = 0 }
 			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
 			cavalry = {  x = 1 y = 0 }
 			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
 			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
 
 	}
 	
@@ -90,15 +90,94 @@ division_template = {
 
 	}
 }
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			mot_artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
 
 
 units = {
 	division= {
-		name = "0st 'Luas' Militia Division"
-		location = 9974
+		name = "0st 'Tigheanbha' Militia Division"
+		location = 2881
 		division_template = "Militia Division"
-		start_experience_factor = 0.581231
+		start_experience_factor = 0.270063
 		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Laochair' Militia Division"
+		location = 419
+		division_template = "Militia Division"
+		start_experience_factor = 0.569703
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Sabh' Infantry Division"
+		location = 496
+		division_template = "Infantry Division"
+		start_experience_factor = 0.509337
+		start_equipment_factor = 0.983944
+	}
+	division= {
+		name = "1nd 'Aighdean' Infantry Division"
+		location = 1631
+		division_template = "Infantry Division"
+		start_experience_factor = 0.645220
+		start_equipment_factor = 0.928764
+	}
+	division= {
+		name = "0st 'Croc' Cavalry Division"
+		location = 493
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.753364
+		start_equipment_factor = 0.977288
 	}
 
 }

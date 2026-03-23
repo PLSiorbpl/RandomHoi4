@@ -2,39 +2,38 @@
 state={
 	id=381
 	name="STATE_381"
-	manpower = 1237759
+	manpower = 1172355
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=5
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5036 6}
-		victory_points = { 5038 1}
-		victory_points = { 5044 1}
+		victory_points = { 4538 2}
+		victory_points = { 4540 4}
 		
-		owner = GDA
+		owner = LIM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GDA
+		add_core_of = LIM
 	}
 
 	provinces={
-		5029 5030 5031 5032 5033 5034 5035 5036 5037 5038 5039 5040 5041 5042 5043 5044 5045 5046 
+		4537 4538 4539 4540 4541 4542 4543 4544 4545 4546 4547 4548 
 	}
 	local_supplies=0.0 
 }

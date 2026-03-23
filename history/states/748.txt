@@ -2,14 +2,14 @@
 state={
 	id=748
 	name="STATE_748"
-	manpower = 570844
+	manpower = 1742919
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10047 1}
-		victory_points = { 10049 1}
-		victory_points = { 10051 1}
+		victory_points = { 8821 8}
+		victory_points = { 8826 2}
 		
-		owner = GHU
+		owner = IMI
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GHU
+		add_core_of = IMI
 	}
 
 	provinces={
-		10045 10046 10047 10048 10049 10050 10051 10052 
+		8818 8819 8820 8821 8822 8823 8824 8825 8826 8827 8828 8829 8830 8831 8832 8833 8834 8835 8836 
 	}
 	local_supplies=0.0 
 }

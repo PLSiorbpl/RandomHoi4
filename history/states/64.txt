@@ -2,38 +2,40 @@
 state={
 	id=64
 	name="STATE_64"
-	manpower = 1693937
+	manpower = 349337
 	
-	state_category = large_city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=31
-		tungsten=0
+		steel=0
+		tungsten=5
 		coal=0
 	}
 
 	history={
-		victory_points = { 943 3}
-		victory_points = { 951 10}
+		victory_points = { 869 1}
 		
-		owner = MIA
+		owner = KUK
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
 			
-			arms_factory = 1
-			industrial_complex = 1
-			
+			868 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MIA
+		add_core_of = KUK
 	}
 
 	provinces={
-		935 936 937 938 939 940 941 942 943 944 945 946 947 948 949 950 951 952 953 954 955 956 957 958 959 960 
+		868 869 870 
 	}
 	local_supplies=0.0 
 }

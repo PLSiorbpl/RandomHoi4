@@ -2,14 +2,14 @@
 state={
 	id=983
 	name="STATE_983"
-	manpower = 1170063
+	manpower = 915387
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 13058 3}
-		victory_points = { 13061 5}
+		victory_points = { 11699 3}
+		victory_points = { 11700 1}
 		
-		owner = DUA
+		owner = TIK
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = DUA
+		add_core_of = TIK
 	}
 
 	provinces={
-		13056 13057 13058 13059 13060 13061 13062 13063 13064 13065 13066 13067 13068 13069 13070 13071 13072 13073 
+		11695 11696 11697 11698 11699 11700 11701 11702 11703 11704 
 	}
 	local_supplies=0.0 
 }

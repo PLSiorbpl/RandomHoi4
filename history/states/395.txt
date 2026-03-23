@@ -2,14 +2,14 @@
 state={
 	id=395
 	name="STATE_395"
-	manpower = 498620
+	manpower = 1098847
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=1
-		oil=0
+		chromium=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 5208 1}
-		victory_points = { 5209 1}
+		victory_points = { 4759 6}
 		
-		owner = TGY
+		owner = YIT
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = TGY
+		add_core_of = YIT
 	}
 
 	provinces={
-		5204 5205 5206 5207 5208 5209 
+		4757 4758 4759 4760 4761 4762 4763 4764 4765 4766 4767 4768 
 	}
 	local_supplies=0.0 
 }

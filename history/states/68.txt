@@ -2,7 +2,7 @@
 state={
 	id=68
 	name="STATE_68"
-	manpower = 1397264
+	manpower = 1037992
 	
 	state_category = large_town
 	#impassable = yes
@@ -13,15 +13,14 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=3
 	}
 
 	history={
-		victory_points = { 1027 3}
-		victory_points = { 1034 3}
-		victory_points = { 1037 2}
+		victory_points = { 899 2}
+		victory_points = { 907 4}
 		
-		owner = MVD
+		owner = YFX
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -30,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = MVD
+		add_core_of = YFX
 	}
 
 	provinces={
-		1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 
+		899 900 901 902 903 904 905 906 907 908 909 
 	}
 	local_supplies=0.0 
 }

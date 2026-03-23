@@ -2,43 +2,38 @@
 state={
 	id=234
 	name="STATE_234"
-	manpower = 2120473
+	manpower = 904937
 	
-	state_category = metropolis
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=7
 		chromium=0
 		oil=0
 		rubber=0
-		steel=3
+		steel=0
 		tungsten=0
-		coal=61
+		coal=0
 	}
 
 	history={
-		victory_points = { 3174 2}
-		victory_points = { 3175 9}
-		victory_points = { 3183 2}
-		victory_points = { 3193 3}
+		victory_points = { 2815 3}
+		victory_points = { 2816 1}
 		
-		owner = CEI
+		owner = MSN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			3174 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = CEI
+		add_core_of = MSN
 	}
 
 	provinces={
-		3174 3175 3176 3177 3178 3179 3180 3181 3182 3183 3184 3185 3186 3187 3188 3189 3190 3191 3192 3193 3194 3195 3196 3197 3198 3199 3200 3201 3202 3203 3204 3205 
+		2815 2816 2817 2818 2819 2820 2821 2822 2823 
 	}
 	local_supplies=0.0 
 }

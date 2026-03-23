@@ -2,39 +2,37 @@
 state={
 	id=531
 	name="STATE_531"
-	manpower = 1336793
+	manpower = 954804
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=6
 		chromium=0
-		oil=3
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=11
+		coal=0
 	}
 
 	history={
-		victory_points = { 6959 1}
-		victory_points = { 6960 3}
-		victory_points = { 6961 6}
+		victory_points = { 6386 5}
 		
-		owner = CPM
+		owner = TPM
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 3
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = CPM
+		add_core_of = TPM
 	}
 
 	provinces={
-		6959 6960 6961 6962 6963 6964 6965 6966 6967 6968 6969 6970 6971 6972 6973 6974 6975 6976 6977 6978 
+		6381 6382 6383 6384 6385 6386 6387 6388 6389 6390 
 	}
 	local_supplies=0.0 
 }

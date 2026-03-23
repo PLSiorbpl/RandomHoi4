@@ -2,7 +2,7 @@
 state={
 	id=154
 	name="STATE_154"
-	manpower = 407232
+	manpower = 653543
 	
 	state_category = rural
 	#impassable = yes
@@ -11,28 +11,28 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=10
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2208 1}
+		victory_points = { 1958 3}
 		
-		owner = MIA
+		owner = YFX
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			air_base = 3
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MIA
+		add_core_of = YFX
 	}
 
 	provinces={
-		2205 2206 2207 2208 2209 
+		1956 1957 1958 1959 1960 1961 
 	}
 	local_supplies=0.0 
 }

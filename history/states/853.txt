@@ -2,14 +2,14 @@
 state={
 	id=853
 	name="STATE_853"
-	manpower = 604156
+	manpower = 1816800
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 11458 3}
+		victory_points = { 9900 4}
+		victory_points = { 9910 3}
+		victory_points = { 9913 3}
 		
-		owner = NAK
+		owner = RSM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 1
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = RSM
 	}
 
 	provinces={
-		11457 11458 11459 11460 11461 11462 11463 11464 
+		9899 9900 9901 9902 9903 9904 9905 9906 9907 9908 9909 9910 9911 9912 9913 9914 9915 9916 9917 9918 
 	}
 	local_supplies=0.0 
 }

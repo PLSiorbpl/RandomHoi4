@@ -2,9 +2,9 @@
 state={
 	id=1209
 	name="STATE_1209"
-	manpower = 532079
+	manpower = 994568
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,26 +13,32 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=3
 	}
 
 	history={
-		victory_points = { 15909 3}
+		victory_points = { 15002 1}
+		victory_points = { 15006 1}
+		victory_points = { 15007 1}
+		victory_points = { 15008 1}
 		
-		owner = QTU
+		owner = COO
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
 			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			15010 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = QTU
+		add_core_of = COO
 	}
 
 	provinces={
-		15905 15906 15907 15908 15909 15910 15911 
+		15001 15002 15003 15004 15005 15006 15007 15008 15009 15010 
 	}
 	local_supplies=0.0 
 }

@@ -2,38 +2,38 @@
 state={
 	id=623
 	name="STATE_623"
-	manpower = 1147820
+	manpower = 1083531
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=10
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8275 3}
-		victory_points = { 8277 5}
+		victory_points = { 7370 4}
+		victory_points = { 7375 1}
 		
-		owner = NAK
+		owner = XEN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = XEN
 	}
 
 	provinces={
-		8274 8275 8276 8277 8278 8279 8280 8281 8282 8283 8284 8285 8286 8287 8288 8289 8290 
+		7365 7366 7367 7368 7369 7370 7371 7372 7373 7374 7375 7376 
 	}
 	local_supplies=0.0 
 }

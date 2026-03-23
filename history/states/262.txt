@@ -2,12 +2,12 @@
 state={
 	id=262
 	name="STATE_262"
-	manpower = 483707
+	manpower = 1605004
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=7
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,22 +17,28 @@ state={
 	}
 
 	history={
-		victory_points = { 3556 2}
+		victory_points = { 3100 3}
+		victory_points = { 3102 3}
+		victory_points = { 3107 1}
+		victory_points = { 3112 2}
 		
-		owner = CJE
+		owner = TRO
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
+			3111 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = CJE
+		add_core_of = TRO
 	}
 
 	provinces={
-		3556 3557 3558 3559 3560 3561 
+		3099 3100 3101 3102 3103 3104 3105 3106 3107 3108 3109 3110 3111 3112 3113 3114 3115 
 	}
 	local_supplies=0.0 
 }

@@ -2,12 +2,12 @@
 state={
 	id=754
 	name="STATE_754"
-	manpower = 1010608
+	manpower = 938340
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,24 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 10099 3}
-		victory_points = { 10103 3}
-		victory_points = { 10109 1}
+		victory_points = { 8901 1}
+		victory_points = { 8906 3}
 		
-		owner = KOB
+		owner = IDU
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
 			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			8906 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KOB
+		add_core_of = IDU
 	}
 
 	provinces={
-		10098 10099 10100 10101 10102 10103 10104 10105 10106 10107 10108 10109 10110 10111 10112 10113 
+		8901 8902 8903 8904 8905 8906 8907 8908 8909 8910 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Cahaya Fleet"			
+		naval_base = 13482
+		task_force = {
+			name = "Cahaya Fleet"
+			location = 13482
+			
+						ship = { name = "Bung" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CAH version_name = "Suci Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

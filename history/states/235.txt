@@ -2,9 +2,9 @@
 state={
 	id=235
 	name="STATE_235"
-	manpower = 940842
+	manpower = 240423
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 3209 3}
-		victory_points = { 3217 3}
+		victory_points = { 2824 1}
 		
-		owner = ETX
+		owner = CDA
 		buildings = {
 			infrastructure = 3
-			air_base = 4
-			arms_factory = 1
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ETX
+		add_core_of = CDA
 	}
 
 	provinces={
-		3206 3207 3208 3209 3210 3211 3212 3213 3214 3215 3216 3217 3218 
+		2824 2825 
 	}
 	local_supplies=0.0 
 }

@@ -2,40 +2,39 @@
 state={
 	id=414
 	name="STATE_414"
-	manpower = 335536
+	manpower = 922165
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=6
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5426 1}
+		victory_points = { 4974 2}
+		victory_points = { 4978 2}
+		victory_points = { 4981 1}
 		
-		owner = ETX
+		owner = IKA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			5427 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ETX
+		add_core_of = IKA
 	}
 
 	provinces={
-		5426 5427 5428 5429 
+		4973 4974 4975 4976 4977 4978 4979 4980 4981 4982 
 	}
 	local_supplies=0.0 
 }

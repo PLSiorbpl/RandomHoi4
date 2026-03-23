@@ -2,14 +2,14 @@
 state={
 	id=198
 	name="STATE_198"
-	manpower = 1252543
+	manpower = 1076962
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 2761 7}
-		victory_points = { 2763 2}
+		victory_points = { 2422 1}
+		victory_points = { 2424 1}
+		victory_points = { 2426 3}
 		
-		owner = GAU
+		owner = UXU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GAU
+		add_core_of = UXU
 	}
 
 	provinces={
-		2754 2755 2756 2757 2758 2759 2760 2761 2762 2763 2764 2765 2766 2767 2768 2769 2770 2771 2772 
+		2422 2423 2424 2425 2426 2427 2428 2429 2430 2431 2432 
 	}
 	local_supplies=0.0 
 }

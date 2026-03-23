@@ -1,0 +1,20 @@
+air_wings = {
+		406 = { 								
+		nav_bomber_equipment_0 = { owner = "QER" amount = 4 version_name = "Aniverbis Mk 2" }
+tac_bomber_equipment_0 = { owner = "QER" amount = 2 version_name = "Malus Mk 2" }
+
+	}
+	375 = { 								
+		nav_bomber_equipment_0 = { owner = "QER" amount = 1 version_name = "Celerrus Mk 0" }
+CAS_equipment_0 = { owner = "QER" amount = 1 version_name = "Celerrus Mk 1" }
+
+	}
+	597 = { 								
+		CAS_equipment_0 = { owner = "QER" amount = 2 version_name = "Strum Mk 0" }
+fighter_equipment_0 = { owner = "QER" amount = 6 version_name = "Otium Mk 2" }
+fighter_equipment_0 = { owner = "QER" amount = 5 version_name = "Strum Mk 2" }
+
+	}
+
+
+}

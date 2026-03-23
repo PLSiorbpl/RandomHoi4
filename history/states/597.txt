@@ -2,38 +2,40 @@
 state={
 	id=597
 	name="STATE_597"
-	manpower = 918853
+	manpower = 361029
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=3
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7887 4}
-		victory_points = { 7896 1}
+		victory_points = { 7072 1}
 		
-		owner = DAN
+		owner = QER
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
+			7072 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = DAN
+		add_core_of = QER
 	}
 
 	provinces={
-		7887 7888 7889 7890 7891 7892 7893 7894 7895 7896 7897 7898 7899 
+		7072 7073 7074 
 	}
 	local_supplies=0.0 
 }

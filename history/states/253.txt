@@ -2,12 +2,12 @@
 state={
 	id=253
 	name="STATE_253"
-	manpower = 276650
+	manpower = 1194429
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=7
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,25 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 3447 1}
+		victory_points = { 3011 2}
+		victory_points = { 3015 3}
 		
-		owner = ANI
+		owner = UXU
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			3449 = {
+			3012 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = ANI
+		add_core_of = UXU
 	}
 
 	provinces={
-		3447 3448 3449 
+		3008 3009 3010 3011 3012 3013 3014 3015 3016 3017 3018 3019 
 	}
 	local_supplies=0.0 
 }

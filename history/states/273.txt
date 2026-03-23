@@ -2,37 +2,42 @@
 state={
 	id=273
 	name="STATE_273"
-	manpower = 113050
+	manpower = 2570339
 	
-	state_category = small_island
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=1
 		oil=0
-		rubber=1
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 3701 1}
+		victory_points = { 3250 8}
+		victory_points = { 3265 3}
+		victory_points = { 3272 5}
 		
-		owner = HOR
+		owner = BXN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 0
-			
+			industrial_complex = 1
+			dockyard = 1
+			3261 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HOR
+		add_core_of = BXN
 	}
 
 	provinces={
-		3701 
+		3248 3249 3250 3251 3252 3253 3254 3255 3256 3257 3258 3259 3260 3261 3262 3263 3264 3265 3266 3267 3268 3269 3270 3271 3272 3273 3274 3275 3276 
 	}
 	local_supplies=0.0 
 }

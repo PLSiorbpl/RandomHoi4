@@ -1,0 +1,880 @@
+characters = {
+	BZA_Mall_Cnuach={
+		name="Mall Cnuach"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BZA_Fergus_Tuachaine={
+		name="Fergus Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Fergus_Tuachaine
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BZA_Ciaran_Tuachaine={
+		name="Ciaran Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Ciaran_Tuachaine
+				traits = {	headstrong 	}
+		}
+
+	}
+	BZA_Keiran_Tuachaine={
+		name="Keiran Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Keiran_Tuachaine
+				traits = {	headstrong 	}
+		}
+
+	}
+	BZA_Seam_Feite={
+		name="Seam Feite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Seam_Feite
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	BZA_Padraig_Liath={
+		name="Padraig Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Padraig_Liath
+				traits = {	humble 	}
+		}
+
+	}
+	BZA_Taran_Bearchaine={
+		name="Taran Bearchaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Taran_Bearchaine
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	BZA_Cialcolm_Feite={
+		name="Cialcolm Feite"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Cialcolm_Feite
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BZA_Keiraig_Neach={
+		name="Keiraig Neach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Keiraig_Neach
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	BZA_Quin_Leal={
+		name="Quin Leal"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Quin_Leal
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BZA_Iwan_Spioc={
+		name="Iwan Spioc"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Iwan_Spioc
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BZA_Hugh_Tuachaine={
+		name="Hugh Tuachaine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Hugh_Tuachaine
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	BZA_Liaran_Buas={
+		name="Liaran Buas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Liaran_Buas
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	BZA_Hugh_Feite={
+		name="Hugh Feite"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Hugh_Feite
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BZA_Eoin_Buas={
+		name="Eoin Buas"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Eoin_Buas
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	BZA_Ciaran_Spioc={
+		name="Ciaran Spioc"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Ciaran_Spioc
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	BZA_Mall_Liath={
+		name="Mall Liath"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Mall_Liath
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	BZA_Ciamus_Faiche={
+		name="Ciamus Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Ciamus_Faiche
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	BZA_Liaran_Neach={
+		name="Liaran Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Liaran_Neach
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	BZA_Ciaran_Faiche={
+		name="Ciaran Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Ciaran_Faiche
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	BZA_Eoin_Neach={
+		name="Eoin Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Eoin_Neach
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	BZA_Keiraig_Spioc={
+		name="Keiraig Spioc"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BZA_Fergus_Spioc={
+		name="Fergus Spioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Fergus_Spioc
+				traits = {	warmonger 	}
+		}
+
+	}
+	BZA_Padran_Leal={
+		name="Padran Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Padran_Leal
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	BZA_Declan_Liath={
+		name="Declan Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Declan_Liath
+				traits = {	warmonger 	}
+		}
+
+	}
+	BZA_Quin_Neach={
+		name="Quin Neach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Quin_Neach
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BZA_Padran_Spioc={
+		name="Padran Spioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Padran_Spioc
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	BZA_Ciamus_Liath={
+		name="Ciamus Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Ciamus_Liath
+				traits = {	generallissimo 	}
+		}
+
+	}
+	BZA_Eoinn_Feite={
+		name="Eoinn Feite"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Eoinn_Feite
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BZA_Seamus_Cnuach={
+		name="Seamus Cnuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Seamus_Cnuach
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BZA_Malcolm_Spioc={
+		name="Malcolm Spioc"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Malcolm_Spioc
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	BZA_Ciall_Liath={
+		name="Ciall Liath"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Ciall_Liath
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BZA_Liam_Feite={
+		name="Liam Feite"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Liam_Feite
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	BZA_Ciaran_Cnuach={
+		name="Ciaran Cnuach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Ciaran_Cnuach
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	BZA_Declan_Neach={
+		name="Declan Neach"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Declan_Neach
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	BZA_Ulrich_Leal={
+		name="Ulrich Leal"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Ulrich_Leal
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	BZA_Quinn_Bearchaine={
+		name="Quinn Bearchaine"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Quinn_Bearchaine
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	BZA_Nialcolm_Faiche={
+		name="Nialcolm Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Nialcolm_Faiche
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	BZA_Ciamus_Bearchaine={
+		name="Ciamus Bearchaine"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Ciamus_Bearchaine
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	BZA_Malcolm_Leal={
+		name="Malcolm Leal"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Malcolm_Leal
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	BZA_Tareth_Tuachaine={
+		name="Tareth Tuachaine"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Tareth_Tuachaine
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	BZA_Ciamus_Buas={
+		name="Ciamus Buas"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Ciamus_Buas
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	BZA_Niareth_Neach={
+		name="Niareth Neach"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BZA_Owen_Faiche={
+		name="Owen Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Owen_Faiche
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BZA_Declan_Faiche={
+		name="Declan Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Declan_Faiche
+				traits = {	polemarch 	}
+		}
+
+	}
+	BZA_Bran_Faiche={
+		name="Bran Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Bran_Faiche
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	BZA_Declan_Buas={
+		name="Declan Buas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Declan_Buas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	BZA_Ciall_Neach={
+		name="Ciall Neach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Ciall_Neach
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BZA_Liam_Leal={
+		name="Liam Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Liam_Leal
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	BZA_Niareth_Bearchaine={
+		name="Niareth Bearchaine"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Niareth_Bearchaine
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BZA_Ciall_Cnuach={
+		name="Ciall Cnuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Ciall_Cnuach
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	BZA_Garan_Feite={
+		name="Garan Feite"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Garan_Feite
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BZA_Garan_Bearchaine={
+		name="Garan Bearchaine"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Garan_Bearchaine
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BZA_Ciam_Liath={
+		name="Ciam Liath"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Ciam_Liath
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	BZA_Malcolm_Tuachaine={
+		name="Malcolm Tuachaine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Malcolm_Tuachaine
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	BZA_Padran_Liath={
+		name="Padran Liath"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Padran_Liath
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	BZA_Eoin_Spioc={
+		name="Eoin Spioc"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Eoin_Spioc
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BZA_Padran_Buas={
+		name="Padran Buas"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Padran_Buas
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	BZA_Ciamus_Neach={
+		name="Ciamus Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Ciamus_Neach
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	BZA_Liaran_Bearchaine={
+		name="Liaran Bearchaine"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Liaran_Bearchaine
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	BZA_Seamus_Liath={
+		name="Seamus Liath"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Seamus_Liath
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	BZA_Declan_Feite={
+		name="Declan Feite"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Declan_Feite
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	BZA_Seamus_Feite={
+		name="Seamus Feite"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Seamus_Feite
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	BZA_Padraig_Faiche={
+		name="Padraig Faiche"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BZA_Iwan_Tuachaine={
+		name="Iwan Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Iwan_Tuachaine
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BZA_Keiran_Liath={
+		name="Keiran Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Keiran_Liath
+				traits = {	the_banker 	}
+		}
+
+	}
+	BZA_Keiran_Leal={
+		name="Keiran Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Keiran_Leal
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	BZA_Cialcolm_Faiche={
+		name="Cialcolm Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Cialcolm_Faiche
+				traits = {	the_banker 	}
+		}
+
+	}
+	BZA_Niaraig_Cnuach={
+		name="Niaraig Cnuach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Niaraig_Cnuach
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	BZA_Ulrich_Neach={
+		name="Ulrich Neach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BZA_Ulrich_Neach
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	BZA_Ciall_Leal={
+		name="Ciall Leal"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Ciall_Leal
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BZA_Ulrich_Faiche={
+		name="Ulrich Faiche"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Ulrich_Faiche
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BZA_Eoinn_Cnuach={
+		name="Eoinn Cnuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Eoinn_Cnuach
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BZA_Rhys_Neach={
+		name="Rhys Neach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BZA_Rhys_Neach
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	BZA_Niamus_Faiche={
+		name="Niamus Faiche"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Niamus_Faiche
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	BZA_Ciaran_Liath={
+		name="Ciaran Liath"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BZA_Ciaran_Liath
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	BZA_Aidan_Cnuach={
+		name="Aidan Cnuach"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Aidan_Cnuach
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	BZA_Iwan_Faiche={
+		name="Iwan Faiche"
+
+		advisor={
+			slot = air_chief
+			idea_token = BZA_Iwan_Faiche
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	BZA_Padraig_Spioc={
+		name="Padraig Spioc"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Padraig_Spioc
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	BZA_Fergus_Faiche={
+		name="Fergus Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Fergus_Faiche
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	BZA_Garan_Cnuach={
+		name="Garan Cnuach"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Garan_Cnuach
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	BZA_Malcolm_Neach={
+		name="Malcolm Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Malcolm_Neach
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	BZA_Quin_Faiche={
+		name="Quin Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Quin_Faiche
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	BZA_Bran_Leal={
+		name="Bran Leal"
+
+		advisor={
+			slot = high_command
+			idea_token = BZA_Bran_Leal
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	BZA_Ulrich_Bearchaine={
+		name="Ulrich Bearchaine"
+
+		advisor={
+			slot = theorist
+			idea_token = BZA_Ulrich_Bearchaine
+				traits = {	military_theorist 	}
+		}
+
+	}
+	BZA_Seamus_Leal={
+		name="Seamus Leal"
+
+		advisor={
+			slot = theorist
+			idea_token = BZA_Seamus_Leal
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	BZA_Ciam_Buas={
+		name="Ciam Buas"
+
+		advisor={
+			slot = theorist
+			idea_token = BZA_Ciam_Buas
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

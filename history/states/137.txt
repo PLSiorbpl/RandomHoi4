@@ -2,14 +2,14 @@
 state={
 	id=137
 	name="STATE_137"
-	manpower = 375432
+	manpower = 448989
 	
 	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=2
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 1950 1}
+		victory_points = { 1779 1}
 		
-		owner = HBA
+		owner = UXU
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 0
 			
-			1950 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = HBA
+		add_core_of = UXU
 	}
 
 	provinces={
-		1949 1950 1951 1952 1953 1954 
+		1779 1780 1781 1782 
 	}
 	local_supplies=0.0 
 }

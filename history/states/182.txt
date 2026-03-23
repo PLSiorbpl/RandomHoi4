@@ -2,37 +2,42 @@
 state={
 	id=182
 	name="STATE_182"
-	manpower = 514590
+	manpower = 1809596
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=4
+		oil=1
+		rubber=0
 		steel=0
-		tungsten=6
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2557 1}
+		victory_points = { 2241 2}
+		victory_points = { 2245 2}
+		victory_points = { 2251 6}
 		
-		owner = TGY
+		owner = UXU
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 1
-			industrial_complex = 0
-			
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			2247 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = TGY
+		add_core_of = UXU
 	}
 
 	provinces={
-		2555 2556 2557 2558 2559 2560 2561 
+		2241 2242 2243 2244 2245 2246 2247 2248 2249 2250 2251 2252 2253 2254 2255 2256 2257 2258 2259 2260 
 	}
 	local_supplies=0.0 
 }

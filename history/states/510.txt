@@ -2,14 +2,14 @@
 state={
 	id=510
 	name="STATE_510"
-	manpower = 1842485
+	manpower = 822112
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=10
+		aluminium=0
 		chromium=0
-		oil=7
+		oil=1
 		rubber=0
 		steel=3
 		tungsten=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 6716 2}
-		victory_points = { 6721 5}
-		victory_points = { 6735 7}
+		victory_points = { 6137 1}
+		victory_points = { 6140 2}
 		
-		owner = IMA
+		owner = RQF
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = IMA
+		add_core_of = RQF
 	}
 
 	provinces={
-		6716 6717 6718 6719 6720 6721 6722 6723 6724 6725 6726 6727 6728 6729 6730 6731 6732 6733 6734 6735 6736 6737 6738 6739 6740 6741 6742 6743 
+		6137 6138 6139 6140 6141 6142 6143 6144 
 	}
 	local_supplies=0.0 
 }

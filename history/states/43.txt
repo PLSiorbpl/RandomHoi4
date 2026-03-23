@@ -2,7 +2,7 @@
 state={
 	id=43
 	name="STATE_43"
-	manpower = 785664
+	manpower = 748435
 	
 	state_category = town
 	#impassable = yes
@@ -10,30 +10,30 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=4
-		steel=0
+		rubber=0
+		steel=6
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 580 1}
-		victory_points = { 583 3}
+		victory_points = { 588 1}
+		victory_points = { 590 2}
 		
-		owner = FEA
+		owner = YFX
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = FEA
+		add_core_of = YFX
 	}
 
 	provinces={
-		577 578 579 580 581 582 583 584 585 586 587 588 589 
+		584 585 586 587 588 589 590 
 	}
 	local_supplies=0.0 
 }

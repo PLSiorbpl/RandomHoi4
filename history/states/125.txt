@@ -2,12 +2,12 @@
 state={
 	id=125
 	name="STATE_125"
-	manpower = 436068
+	manpower = 1393453
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=9
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 1805 2}
+		victory_points = { 1637 1}
+		victory_points = { 1646 2}
+		victory_points = { 1650 4}
 		
-		owner = TGY
+		owner = MSN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = TGY
+		add_core_of = MSN
 	}
 
 	provinces={
-		1805 1806 1807 1808 1809 1810 
+		1637 1638 1639 1640 1641 1642 1643 1644 1645 1646 1647 1648 1649 1650 1651 
 	}
 	local_supplies=0.0 
 }

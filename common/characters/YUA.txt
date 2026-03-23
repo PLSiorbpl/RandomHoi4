@@ -1,0 +1,880 @@
+characters = {
+	YUA_Fang_Deng={
+		name="Fang Deng"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YUA_Yang_Hong={
+		name="Yang Hong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Yang_Hong
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	YUA_Gyatso_Xian={
+		name="Gyatso Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Gyatso_Xian
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	YUA_Jiang_Zhong={
+		name="Jiang Zhong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Jiang_Zhong
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YUA_Yang_Yuan={
+		name="Yang Yuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Yang_Yuan
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YUA_Chen_Xian={
+		name="Chen Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Chen_Xian
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YUA_Jiang_Xian={
+		name="Jiang Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Jiang_Xian
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YUA_Qian_Deng={
+		name="Qian Deng"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Qian_Deng
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YUA_Reng_Hong={
+		name="Reng Hong"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Reng_Hong
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YUA_Renzingdu_Hong={
+		name="Renzingdu Hong"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Renzingdu_Hong
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	YUA_Mingdu_Yuan={
+		name="Mingdu Yuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Mingdu_Yuan
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	YUA_Thubten_Xian={
+		name="Thubten Xian"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Thubten_Xian
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YUA_Teng_Huan={
+		name="Teng Huan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Teng_Huan
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	YUA_Fang_Xian={
+		name="Fang Xian"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Fang_Xian
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	YUA_Qiangdu_Xian={
+		name="Qiangdu Xian"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Qiangdu_Xian
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	YUA_Chen_Yuan={
+		name="Chen Yuan"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Chen_Yuan
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	YUA_Sonam_Shuan={
+		name="Sonam Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Sonam_Shuan
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	YUA_Teng_Zhong={
+		name="Teng Zhong"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Teng_Zhong
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YUA_Qian_Zhong={
+		name="Qian Zhong"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Qian_Zhong
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	YUA_Teng_Deng={
+		name="Teng Deng"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Teng_Deng
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	YUA_Yang_Zhong={
+		name="Yang Zhong"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Yang_Zhong
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	YUA_Renzin_Yuan={
+		name="Renzin Yuan"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YUA_Sonam_Xian={
+		name="Sonam Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Sonam_Xian
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	YUA_Fang_Shuan={
+		name="Fang Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Fang_Shuan
+				traits = {	generallissimo 	}
+		}
+
+	}
+	YUA_Fang_Hong={
+		name="Fang Hong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Fang_Hong
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	YUA_Thubten_Shuan={
+		name="Thubten Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Thubten_Shuan
+				traits = {	autokrator 	}
+		}
+
+	}
+	YUA_Thun_Huan={
+		name="Thun Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Thun_Huan
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	YUA_Mingdu_Deng={
+		name="Mingdu Deng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Mingdu_Deng
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	YUA_Thun_Deng={
+		name="Thun Deng"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Thun_Deng
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YUA_Thun_Hong={
+		name="Thun Hong"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Thun_Hong
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	YUA_Teng_Zhao={
+		name="Teng Zhao"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Teng_Zhao
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YUA_Fang_Yuan={
+		name="Fang Yuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Fang_Yuan
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YUA_Cheng_Deng={
+		name="Cheng Deng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Cheng_Deng
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	YUA_Chen_Zhao={
+		name="Chen Zhao"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Chen_Zhao
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	YUA_Qian_Shuan={
+		name="Qian Shuan"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Qian_Shuan
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	YUA_Mingdu_Huan={
+		name="Mingdu Huan"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Mingdu_Huan
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	YUA_Ngawang_Zhong={
+		name="Ngawang Zhong"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Ngawang_Zhong
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	YUA_Yuntso_Xian={
+		name="Yuntso Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Yuntso_Xian
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	YUA_Phubten_Hong={
+		name="Phubten Hong"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Phubten_Hong
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	YUA_Cheng_Xian={
+		name="Cheng Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Cheng_Xian
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	YUA_Gyatsok_Yuan={
+		name="Gyatsok Yuan"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Gyatsok_Yuan
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	YUA_Qiangdu_Shuan={
+		name="Qiangdu Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Qiangdu_Shuan
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YUA_Reng_Yuan={
+		name="Reng Yuan"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YUA_Tenzing_Shuan={
+		name="Tenzing Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Tenzing_Shuan
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YUA_Gyatsok_Hong={
+		name="Gyatsok Hong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Gyatsok_Hong
+				traits = {	infirm 	}
+		}
+
+	}
+	YUA_Gyatsok_Deng={
+		name="Gyatsok Deng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Gyatsok_Deng
+				traits = {	polemarch 	}
+		}
+
+	}
+	YUA_Chen_Hong={
+		name="Chen Hong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Chen_Hong
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YUA_Yang_Shuan={
+		name="Yang Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Yang_Shuan
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YUA_Qiang_Shuan={
+		name="Qiang Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Qiang_Shuan
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	YUA_Fangdu_Hong={
+		name="Fangdu Hong"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Fangdu_Hong
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YUA_Cheng_Huan={
+		name="Cheng Huan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Cheng_Huan
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YUA_Karma_Hong={
+		name="Karma Hong"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Karma_Hong
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	YUA_Ngawang_Shuan={
+		name="Ngawang Shuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Ngawang_Shuan
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	YUA_Karma_Deng={
+		name="Karma Deng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Karma_Deng
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	YUA_Ngawang_Zhao={
+		name="Ngawang Zhao"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Ngawang_Zhao
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	YUA_Fang_Zhong={
+		name="Fang Zhong"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Fang_Zhong
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	YUA_Karma_Zhao={
+		name="Karma Zhao"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Karma_Zhao
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	YUA_Ngawang_Hong={
+		name="Ngawang Hong"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Ngawang_Hong
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	YUA_Phubten_Deng={
+		name="Phubten Deng"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Phubten_Deng
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	YUA_Gyatsok_Shuan={
+		name="Gyatsok Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Gyatsok_Shuan
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	YUA_Chenzin_Zhao={
+		name="Chenzin Zhao"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Chenzin_Zhao
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	YUA_Fangdu_Deng={
+		name="Fangdu Deng"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Fangdu_Deng
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	YUA_Yuntso_Zhong={
+		name="Yuntso Zhong"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Yuntso_Zhong
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	YUA_Chen_Shuan={
+		name="Chen Shuan"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YUA_Qian_Huan={
+		name="Qian Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Qian_Huan
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	YUA_Nima_Deng={
+		name="Nima Deng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Nima_Deng
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	YUA_Long_Shuan={
+		name="Long Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Long_Shuan
+				traits = {	infirm 	}
+		}
+
+	}
+	YUA_Yuntso_Yuan={
+		name="Yuntso Yuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Yuntso_Yuan
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	YUA_Ngawan_Yuan={
+		name="Ngawan Yuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Ngawan_Yuan
+				traits = {	first_lady 	}
+		}
+
+	}
+	YUA_Jiang_Shuan={
+		name="Jiang Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YUA_Jiang_Shuan
+				traits = {	infirm 	}
+		}
+
+	}
+	YUA_Gyatsok_Zhao={
+		name="Gyatsok Zhao"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Gyatsok_Zhao
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	YUA_Phun_Shuan={
+		name="Phun Shuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Phun_Shuan
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	YUA_Jiang_Yuan={
+		name="Jiang Yuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Jiang_Yuan
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	YUA_Qiang_Xian={
+		name="Qiang Xian"
+
+		advisor={
+			slot = army_chief
+			idea_token = YUA_Qiang_Xian
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	YUA_Ming_Shuan={
+		name="Ming Shuan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Ming_Shuan
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	YUA_Thubten_Deng={
+		name="Thubten Deng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YUA_Thubten_Deng
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	YUA_Phubten_Yuan={
+		name="Phubten Yuan"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Phubten_Yuan
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	YUA_Chenzin_Yuan={
+		name="Chenzin Yuan"
+
+		advisor={
+			slot = air_chief
+			idea_token = YUA_Chenzin_Yuan
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YUA_Qian_Zhao={
+		name="Qian Zhao"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Qian_Zhao
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	YUA_Dawa_Zhao={
+		name="Dawa Zhao"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Dawa_Zhao
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	YUA_Fangdu_Zhao={
+		name="Fangdu Zhao"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Fangdu_Zhao
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	YUA_Qiang_Deng={
+		name="Qiang Deng"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Qiang_Deng
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	YUA_Phubten_Shuan={
+		name="Phubten Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Phubten_Shuan
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	YUA_Teng_Yuan={
+		name="Teng Yuan"
+
+		advisor={
+			slot = high_command
+			idea_token = YUA_Teng_Yuan
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	YUA_Phun_Huan={
+		name="Phun Huan"
+
+		advisor={
+			slot = theorist
+			idea_token = YUA_Phun_Huan
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YUA_Song_Hong={
+		name="Song Hong"
+
+		advisor={
+			slot = theorist
+			idea_token = YUA_Song_Hong
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YUA_Sonam_Deng={
+		name="Sonam Deng"
+
+		advisor={
+			slot = theorist
+			idea_token = YUA_Sonam_Deng
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

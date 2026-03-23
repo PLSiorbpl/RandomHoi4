@@ -2,7 +2,7 @@
 state={
 	id=694
 	name="STATE_694"
-	manpower = 264032
+	manpower = 340151
 	
 	state_category = pastoral
 	#impassable = yes
@@ -13,29 +13,25 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=9
 	}
 
 	history={
-		victory_points = { 9281 1}
 		
-		owner = XRA
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 0
 			
-			9281 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = XRA
+		add_core_of = GIZ
 	}
 
 	provinces={
-		9279 9280 9281 
+		8223 8224 
 	}
 	local_supplies=0.0 
 }

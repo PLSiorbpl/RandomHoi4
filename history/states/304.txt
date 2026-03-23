@@ -2,7 +2,7 @@
 state={
 	id=304
 	name="STATE_304"
-	manpower = 584655
+	manpower = 735974
 	
 	state_category = town
 	#impassable = yes
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 4098 3}
+		victory_points = { 3656 3}
 		
-		owner = FVO
+		owner = CDA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = FVO
+		add_core_of = CDA
 	}
 
 	provinces={
-		4092 4093 4094 4095 4096 4097 4098 4099 
+		3655 3656 3657 3658 3659 3660 3661 
 	}
 	local_supplies=0.0 
 }

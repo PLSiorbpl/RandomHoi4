@@ -2,40 +2,39 @@
 state={
 	id=534
 	name="STATE_534"
-	manpower = 1494525
+	manpower = 2652473
 	
-	state_category = city
+	state_category = metropolis
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=4
 		chromium=0
-		oil=0
+		oil=5
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6993 2}
-		victory_points = { 6997 4}
-		victory_points = { 7000 3}
-		victory_points = { 7003 1}
+		victory_points = { 6409 9}
+		victory_points = { 6410 5}
+		victory_points = { 6430 2}
 		
-		owner = UAS
+		owner = LIM
 		buildings = {
 			infrastructure = 4
-			air_base = 4
+			air_base = 1
 			arms_factory = 1
-			industrial_complex = 0
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = UAS
+		add_core_of = LIM
 	}
 
 	provinces={
-		6992 6993 6994 6995 6996 6997 6998 6999 7000 7001 7002 7003 7004 7005 7006 7007 7008 7009 7010 7011 7012 7013 
+		6409 6410 6411 6412 6413 6414 6415 6416 6417 6418 6419 6420 6421 6422 6423 6424 6425 6426 6427 6428 6429 6430 6431 6432 6433 6434 6435 6436 6437 6438 
 	}
 	local_supplies=0.0 
 }

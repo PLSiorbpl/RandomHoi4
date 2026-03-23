@@ -2,42 +2,39 @@
 state={
 	id=370
 	name="STATE_370"
-	manpower = 1308307
+	manpower = 887956
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=3
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4890 2}
-		victory_points = { 4895 4}
-		victory_points = { 4901 3}
+		victory_points = { 4386 2}
+		victory_points = { 4393 1}
+		victory_points = { 4394 1}
 		
-		owner = ASH
+		owner = YAG
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
-			4893 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ASH
+		add_core_of = YAG
 	}
 
 	provinces={
-		4887 4888 4889 4890 4891 4892 4893 4894 4895 4896 4897 4898 4899 4900 4901 4902 4903 4904 4905 
+		4386 4387 4388 4389 4390 4391 4392 4393 4394 
 	}
 	local_supplies=0.0 
 }

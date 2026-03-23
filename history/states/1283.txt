@@ -2,9 +2,9 @@
 state={
 	id=1283
 	name="STATE_1283"
-	manpower = 949827
+	manpower = 254418
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,21 @@ state={
 	}
 
 	history={
-		victory_points = { 16900 5}
-		victory_points = { 16906 2}
 		
-		owner = RUT
+		owner = KUK
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
 			
-			16911 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = RUT
+		add_core_of = KUK
 	}
 
 	provinces={
-		16899 16900 16901 16902 16903 16904 16905 16906 16907 16908 16909 16910 16911 16912 
+		17013 17014 
 	}
 	local_supplies=0.0 
 }

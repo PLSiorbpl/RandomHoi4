@@ -2,7 +2,7 @@
 state={
 	id=443
 	name="STATE_443"
-	manpower = 265290
+	manpower = 618297
 	
 	state_category = pastoral
 	#impassable = yes
@@ -11,28 +11,27 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5774 1}
 		
-		owner = YCN
+		owner = SUM
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 2
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = YCN
+		add_core_of = SUM
 	}
 
 	provinces={
-		5774 5775 5776 
+		5307 5308 5309 5310 5311 5312 5313 5314 5315 5316 
 	}
 	local_supplies=0.0 
 }

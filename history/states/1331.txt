@@ -2,7 +2,7 @@
 state={
 	id=1331
 	name="STATE_1331"
-	manpower = 454264
+	manpower = 849739
 	
 	state_category = rural
 	#impassable = yes
@@ -10,32 +10,31 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=10
 		steel=0
-		tungsten=0
+		tungsten=20
 		coal=0
 	}
 
 	history={
-		victory_points = { 17436 2}
 		
-		owner = WEA
+		owner = UXM
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 2
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			17434 = {
+			17891 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = WEA
+		add_core_of = UXM
 	}
 
 	provinces={
-		17434 17435 17436 17437 17438 17439 
+		17879 17880 17881 17882 17883 17884 17885 17886 17887 17888 17889 17890 17891 17892 17893 17894 17895 
 	}
 	local_supplies=0.0 
 }

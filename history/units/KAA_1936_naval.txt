@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kaab Fleet"			
+		naval_base = 11922
+		task_force = {
+			name = "Kaab Fleet"
+			location = 11922
+			
+						ship = { name = "Sayil" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KAA version_name = "Cozumel Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

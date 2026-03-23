@@ -2,39 +2,41 @@
 state={
 	id=675
 	name="STATE_675"
-	manpower = 1481229
+	manpower = 622684
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=12
+		oil=1
+		rubber=0
 		steel=0
-		tungsten=11
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8992 3}
-		victory_points = { 8998 2}
-		victory_points = { 9009 5}
+		victory_points = { 8012 1}
+		victory_points = { 8015 1}
 		
-		owner = NAK
+		owner = FBR
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
-			
+			industrial_complex = 0
+			dockyard = 1
+			8015 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = NAK
+		add_core_of = FBR
 	}
 
 	provinces={
-		8991 8992 8993 8994 8995 8996 8997 8998 8999 9000 9001 9002 9003 9004 9005 9006 9007 9008 9009 9010 9011 9012 9013 
+		8012 8013 8014 8015 8016 8017 
 	}
 	local_supplies=0.0 
 }

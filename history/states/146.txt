@@ -2,38 +2,37 @@
 state={
 	id=146
 	name="STATE_146"
-	manpower = 950559
+	manpower = 798324
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=15
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2103 2}
-		victory_points = { 2106 4}
+		victory_points = { 1870 4}
 		
-		owner = MPI
+		owner = CDA
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = MPI
+		add_core_of = CDA
 	}
 
 	provinces={
-		2098 2099 2100 2101 2102 2103 2104 2105 2106 2107 2108 2109 2110 2111 
+		1870 1871 1872 1873 1874 1875 1876 1877 
 	}
 	local_supplies=0.0 
 }

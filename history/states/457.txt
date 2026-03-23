@@ -2,9 +2,9 @@
 state={
 	id=457
 	name="STATE_457"
-	manpower = 190232
+	manpower = 921737
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,9 +17,9 @@ state={
 	}
 
 	history={
-		victory_points = { 5874 1}
+		victory_points = { 5500 5}
 		
-		owner = YCN
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -28,11 +28,11 @@ state={
 			
 			
 		}
-		add_core_of = YCN
+		add_core_of = GIZ
 	}
 
 	provinces={
-		5874 5875 
+		5496 5497 5498 5499 5500 5501 5502 5503 5504 5505 
 	}
 	local_supplies=0.0 
 }

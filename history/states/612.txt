@@ -2,14 +2,14 @@
 state={
 	id=612
 	name="STATE_612"
-	manpower = 406085
+	manpower = 1386048
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 8131 1}
+		victory_points = { 7269 6}
+		victory_points = { 7279 2}
 		
-		owner = YIC
+		owner = AKI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
-			arms_factory = 1
-			industrial_complex = 0
-			
-			8131 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = YIC
+		add_core_of = AKI
 	}
 
 	provinces={
-		8128 8129 8130 8131 8132 
+		7265 7266 7267 7268 7269 7270 7271 7272 7273 7274 7275 7276 7277 7278 7279 
 	}
 	local_supplies=0.0 
 }

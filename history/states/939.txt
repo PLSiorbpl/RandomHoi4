@@ -2,36 +2,37 @@
 state={
 	id=939
 	name="STATE_939"
-	manpower = 181247
+	manpower = 743357
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 11147 3}
 		
-		owner = YIC
+		owner = KER
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = YIC
+		add_core_of = KER
 	}
 
 	provinces={
-		12554 12555 
+		11141 11142 11143 11144 11145 11146 11147 
 	}
 	local_supplies=0.0 
 }

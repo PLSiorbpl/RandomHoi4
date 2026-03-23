@@ -2,42 +2,39 @@
 state={
 	id=1148
 	name="STATE_1148"
-	manpower = 1343864
+	manpower = 3281
 	
-	state_category = city
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 15012 6}
-		victory_points = { 15022 2}
-		victory_points = { 15023 1}
 		
-		owner = QEC
+		owner = SEM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			15022 = {
+			13960 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QEC
+		add_core_of = SEM
 	}
 
 	provinces={
-		15012 15013 15014 15015 15016 15017 15018 15019 15020 15021 15022 15023 15024 15025 15026 15027 15028 15029 15030 15031 
+		13960 13961 13962 13963 13964 13965 13966 13967 13968 13969 13970 13971 13972 13973 13974 13975 13976 13977 13978 
 	}
 	local_supplies=0.0 
 }

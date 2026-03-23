@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ufumbasiku Fleet"			
+		naval_base = 15180
+		task_force = {
+			name = "Ufumbasiku Fleet"
+			location = 15180
+			
+						ship = { name = "Tunda" definition = battle_cruiser equipment = { battle_cruiser_2 = { amount = 1 owner = UFU version_name = "Watakati Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

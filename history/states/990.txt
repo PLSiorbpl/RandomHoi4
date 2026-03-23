@@ -2,36 +2,37 @@
 state={
 	id=990
 	name="STATE_990"
-	manpower = 355945
+	manpower = 796403
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
-		rubber=4
+		chromium=1
+		oil=2
+		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=5
 		coal=0
 	}
 
 	history={
+		victory_points = { 11749 4}
 		
-		owner = REO
+		owner = ZGT
 		buildings = {
 			infrastructure = 3
-			air_base = 3
+			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = REO
+		add_core_of = ZGT
 	}
 
 	provinces={
-		13202 13203 13204 13205 13206 
+		11747 11748 11749 11750 11751 11752 11753 11754 
 	}
 	local_supplies=0.0 
 }

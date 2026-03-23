@@ -2,7 +2,7 @@
 state={
 	id=437
 	name="STATE_437"
-	manpower = 1007184
+	manpower = 1345577
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,16 +11,17 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=4
+		steel=0
 		tungsten=0
-		coal=0
+		coal=6
 	}
 
 	history={
-		victory_points = { 5705 2}
-		victory_points = { 5711 5}
+		victory_points = { 5237 2}
+		victory_points = { 5238 4}
+		victory_points = { 5247 1}
 		
-		owner = SHE
+		owner = GIZ
 		buildings = {
 			infrastructure = 4
 			
@@ -29,11 +30,11 @@ state={
 			
 			
 		}
-		add_core_of = SHE
+		add_core_of = GIZ
 	}
 
 	provinces={
-		5701 5702 5703 5704 5705 5706 5707 5708 5709 5710 5711 5712 5713 5714 5715 
+		5235 5236 5237 5238 5239 5240 5241 5242 5243 5244 5245 5246 5247 5248 
 	}
 	local_supplies=0.0 
 }

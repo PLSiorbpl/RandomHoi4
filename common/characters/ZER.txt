@@ -1,0 +1,880 @@
+characters = {
+	ZER_Ketutfi_Jalaku={
+		name="Ketutfi Jalaku"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZER_Surya_Nyarembat={
+		name="Surya Nyarembat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Surya_Nyarembat
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	ZER_Lutfi_Bulauang={
+		name="Lutfi Bulauang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Lutfi_Bulauang
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	ZER_Waya_Putrisaanama={
+		name="Waya Putrisaanama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Waya_Putrisaanama
+				traits = {	headstrong 	}
+		}
+
+	}
+	ZER_Fajario_Putrisaanama={
+		name="Fajario Putrisaanama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Fajario_Putrisaanama
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	ZER_Rama_Malak={
+		name="Rama Malak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Rama_Malak
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	ZER_Rama_Nyarembat={
+		name="Rama Nyarembat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Rama_Nyarembat
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	ZER_Bambang_Putrisaanama={
+		name="Bambang Putrisaanama"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Bambang_Putrisaanama
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	ZER_Waya_Perap={
+		name="Waya Perap"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Waya_Perap
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	ZER_Hari_Malak={
+		name="Hari Malak"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Hari_Malak
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	ZER_Bamban_Bulauang={
+		name="Bamban Bulauang"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Bamban_Bulauang
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	ZER_Wayang_Nyarembat={
+		name="Wayang Nyarembat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Wayang_Nyarembat
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	ZER_Bama_Bulauang={
+		name="Bama Bulauang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Bama_Bulauang
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	ZER_Arjuna_Kekumban={
+		name="Arjuna Kekumban"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Arjuna_Kekumban
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	ZER_Bamban_Malak={
+		name="Bamban Malak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Bamban_Malak
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	ZER_Hario_Senjelak={
+		name="Hario Senjelak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Hario_Senjelak
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	ZER_Hario_Perap={
+		name="Hario Perap"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Hario_Perap
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	ZER_Rambang_Senaki={
+		name="Rambang Senaki"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Rambang_Senaki
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	ZER_Joko_Senjelak={
+		name="Joko Senjelak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Joko_Senjelak
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	ZER_Mari_Malak={
+		name="Mari Malak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Mari_Malak
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	ZER_Suryang_Jalaku={
+		name="Suryang Jalaku"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Suryang_Jalaku
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	ZER_Waya_Senjelak={
+		name="Waya Senjelak"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZER_Fajar_Nyarembat={
+		name="Fajar Nyarembat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Fajar_Nyarembat
+				traits = {	polemarch 	}
+		}
+
+	}
+	ZER_Bambang_Bulauang={
+		name="Bambang Bulauang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Bambang_Bulauang
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	ZER_Budi_Senaki={
+		name="Budi Senaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Budi_Senaki
+				traits = {	infirm 	}
+		}
+
+	}
+	ZER_Rizal_Putrisaanama={
+		name="Rizal Putrisaanama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Rizal_Putrisaanama
+				traits = {	generallissimo 	}
+		}
+
+	}
+	ZER_Wayan_Putrisaanama={
+		name="Wayan Putrisaanama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Wayan_Putrisaanama
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	ZER_Agus_Senjelak={
+		name="Agus Senjelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Agus_Senjelak
+				traits = {	generallissimo 	}
+		}
+
+	}
+	ZER_Arjuna_Perap={
+		name="Arjuna Perap"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Arjuna_Perap
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	ZER_Fajario_Perjan={
+		name="Fajario Perjan"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Fajario_Perjan
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	ZER_Hari_Bulauang={
+		name="Hari Bulauang"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Hari_Bulauang
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	ZER_Bamban_Putrisaanama={
+		name="Bamban Putrisaanama"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Bamban_Putrisaanama
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	ZER_Mario_Senaki={
+		name="Mario Senaki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Mario_Senaki
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	ZER_Budi_Nyarembat={
+		name="Budi Nyarembat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Budi_Nyarembat
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	ZER_Fajario_Senaki={
+		name="Fajario Senaki"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Fajario_Senaki
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	ZER_Ketutfi_Nyarembat={
+		name="Ketutfi Nyarembat"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Ketutfi_Nyarembat
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	ZER_Dewa_Malak={
+		name="Dewa Malak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Dewa_Malak
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	ZER_Mari_Nyarembat={
+		name="Mari Nyarembat"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Mari_Nyarembat
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	ZER_Rizal_Senjelak={
+		name="Rizal Senjelak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Rizal_Senjelak
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	ZER_Sakti_Nyarembat={
+		name="Sakti Nyarembat"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Sakti_Nyarembat
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	ZER_Rizal_Perap={
+		name="Rizal Perap"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Rizal_Perap
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	ZER_Joko_Putrisaanama={
+		name="Joko Putrisaanama"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Joko_Putrisaanama
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	ZER_Budi_Kekumban={
+		name="Budi Kekumban"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZER_Wayan_Jalaku={
+		name="Wayan Jalaku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Wayan_Jalaku
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	ZER_Dewa_Bulauang={
+		name="Dewa Bulauang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Dewa_Bulauang
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	ZER_Ramban_Senjelak={
+		name="Ramban Senjelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Ramban_Senjelak
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	ZER_Wayang_Perap={
+		name="Wayang Perap"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Wayang_Perap
+				traits = {	infirm 	}
+		}
+
+	}
+	ZER_Putra_Malak={
+		name="Putra Malak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Putra_Malak
+				traits = {	polemarch 	}
+		}
+
+	}
+	ZER_Hari_Senaki={
+		name="Hari Senaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Hari_Senaki
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	ZER_Rambang_Putrisaanama={
+		name="Rambang Putrisaanama"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Rambang_Putrisaanama
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	ZER_Fajario_Jalaku={
+		name="Fajario Jalaku"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Fajario_Jalaku
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	ZER_Suryang_Senjelak={
+		name="Suryang Senjelak"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Suryang_Senjelak
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	ZER_Fajar_Malak={
+		name="Fajar Malak"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Fajar_Malak
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	ZER_Fajari_Perjan={
+		name="Fajari Perjan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Fajari_Perjan
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	ZER_Ramban_Bulauang={
+		name="Ramban Bulauang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Ramban_Bulauang
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	ZER_Dewa_Senjelak={
+		name="Dewa Senjelak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Dewa_Senjelak
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	ZER_Arjuna_Senjelak={
+		name="Arjuna Senjelak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Arjuna_Senjelak
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	ZER_Hario_Putrisaanama={
+		name="Hario Putrisaanama"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Hario_Putrisaanama
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	ZER_Mario_Senjelak={
+		name="Mario Senjelak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Mario_Senjelak
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	ZER_Budi_Malak={
+		name="Budi Malak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Budi_Malak
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	ZER_Budi_Putrisaanama={
+		name="Budi Putrisaanama"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Budi_Putrisaanama
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	ZER_Ketut_Perap={
+		name="Ketut Perap"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Ketut_Perap
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	ZER_Mari_Kekumban={
+		name="Mari Kekumban"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Mari_Kekumban
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	ZER_Joko_Malak={
+		name="Joko Malak"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZER_Bambang_Malak={
+		name="Bambang Malak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Bambang_Malak
+				traits = {	the_banker 	}
+		}
+
+	}
+	ZER_Arjuna_Perjan={
+		name="Arjuna Perjan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Arjuna_Perjan
+				traits = {	first_lady 	}
+		}
+
+	}
+	ZER_Fajar_Perjan={
+		name="Fajar Perjan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Fajar_Perjan
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	ZER_Dewa_Perap={
+		name="Dewa Perap"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Dewa_Perap
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	ZER_Andi_Kekumban={
+		name="Andi Kekumban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Andi_Kekumban
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	ZER_Agus_Senaki={
+		name="Agus Senaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZER_Agus_Senaki
+				traits = {	rearmer 	}
+		}
+
+	}
+	ZER_Rambang_Kekumban={
+		name="Rambang Kekumban"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Rambang_Kekumban
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	ZER_Putfi_Putrisaanama={
+		name="Putfi Putrisaanama"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Putfi_Putrisaanama
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	ZER_Lutra_Malak={
+		name="Lutra Malak"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Lutra_Malak
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	ZER_Mario_Perap={
+		name="Mario Perap"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZER_Mario_Perap
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	ZER_Arjuna_Putrisaanama={
+		name="Arjuna Putrisaanama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Arjuna_Putrisaanama
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	ZER_Budi_Perjan={
+		name="Budi Perjan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZER_Budi_Perjan
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	ZER_Mario_Malak={
+		name="Mario Malak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Mario_Malak
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	ZER_Ketut_Malak={
+		name="Ketut Malak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZER_Ketut_Malak
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	ZER_Ramban_Putrisaanama={
+		name="Ramban Putrisaanama"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Ramban_Putrisaanama
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	ZER_Ketutra_Jalaku={
+		name="Ketutra Jalaku"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Ketutra_Jalaku
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	ZER_Ketutra_Malak={
+		name="Ketutra Malak"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Ketutra_Malak
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	ZER_Bama_Senaki={
+		name="Bama Senaki"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Bama_Senaki
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	ZER_Bamban_Perap={
+		name="Bamban Perap"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Bamban_Perap
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	ZER_Surya_Kekumban={
+		name="Surya Kekumban"
+
+		advisor={
+			slot = high_command
+			idea_token = ZER_Surya_Kekumban
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	ZER_Wayan_Senaki={
+		name="Wayan Senaki"
+
+		advisor={
+			slot = theorist
+			idea_token = ZER_Wayan_Senaki
+				traits = {	military_theorist 	}
+		}
+
+	}
+	ZER_Hari_Kekumban={
+		name="Hari Kekumban"
+
+		advisor={
+			slot = theorist
+			idea_token = ZER_Hari_Kekumban
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	ZER_Agus_Perjan={
+		name="Agus Perjan"
+
+		advisor={
+			slot = theorist
+			idea_token = ZER_Agus_Perjan
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

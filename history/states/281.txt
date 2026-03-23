@@ -2,14 +2,14 @@
 state={
 	id=281
 	name="STATE_281"
-	manpower = 925162
+	manpower = 1771613
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=5
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,27 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 3766 2}
-		victory_points = { 3770 2}
-		victory_points = { 3771 2}
+		victory_points = { 3384 7}
+		victory_points = { 3387 1}
+		victory_points = { 3389 3}
 		
-		owner = RIB
+		owner = BUN
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			dockyard = 1
-			3765 = {
+			3396 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = RIB
+		add_core_of = BUN
 	}
 
 	provinces={
-		3760 3761 3762 3763 3764 3765 3766 3767 3768 3769 3770 3771 3772 
+		3381 3382 3383 3384 3385 3386 3387 3388 3389 3390 3391 3392 3393 3394 3395 3396 3397 3398 3399 3400 
 	}
 	local_supplies=0.0 
 }

@@ -2,39 +2,37 @@
 state={
 	id=653
 	name="STATE_653"
-	manpower = 136149
+	manpower = 456505
 	
-	state_category = small_island
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=8
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 7767 1}
 		
-		owner = FUL
+		owner = GIZ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			8741 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = FUL
+		add_core_of = GIZ
 	}
 
 	provinces={
-		8727 8728 8729 8730 8731 8732 8733 8734 8735 8736 8737 8738 8739 8740 8741 8742 
+		7765 7766 7767 7768 
 	}
 	local_supplies=0.0 
 }

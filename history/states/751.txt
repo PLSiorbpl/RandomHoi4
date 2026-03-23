@@ -2,42 +2,37 @@
 state={
 	id=751
 	name="STATE_751"
-	manpower = 1396652
+	manpower = 392440
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
-		tungsten=3
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10062 2}
-		victory_points = { 10071 6}
-		victory_points = { 10074 1}
+		victory_points = { 8877 1}
 		
-		owner = BEJ
+		owner = CAE
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 0
-			dockyard = 1
-			10075 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = CAE
 	}
 
 	provinces={
-		10062 10063 10064 10065 10066 10067 10068 10069 10070 10071 10072 10073 10074 10075 10076 10077 10078 10079 10080 10081 10082 
+		8877 8878 8879 
 	}
 	local_supplies=0.0 
 }

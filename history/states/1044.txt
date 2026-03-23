@@ -2,40 +2,39 @@
 state={
 	id=1044
 	name="STATE_1044"
-	manpower = 144156
+	manpower = 2690459
 	
-	state_category = small_island
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
-		coal=1
+		tungsten=15
+		coal=0
 	}
 
 	history={
-		victory_points = { 13713 1}
+		victory_points = { 12477 1}
+		victory_points = { 12482 10}
+		victory_points = { 12484 7}
 		
-		owner = KFM
+		owner = THE
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 0
+			arms_factory = 2
 			industrial_complex = 1
 			
-			13713 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = KFM
+		add_core_of = THE
 	}
 
 	provinces={
-		13713 
+		12469 12470 12471 12472 12473 12474 12475 12476 12477 12478 12479 12480 12481 12482 12483 12484 12485 12486 12487 12488 12489 12490 12491 12492 12493 12494 12495 12496 12497 12498 
 	}
 	local_supplies=0.0 
 }

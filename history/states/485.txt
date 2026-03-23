@@ -2,14 +2,14 @@
 state={
 	id=485
 	name="STATE_485"
-	manpower = 681398
+	manpower = 1404309
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 6307 1}
-		victory_points = { 6309 2}
+		victory_points = { 5841 2}
+		victory_points = { 5843 2}
+		victory_points = { 5844 3}
 		
-		owner = PBR
+		owner = UFU
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+			infrastructure = 4
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
+			5842 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = PBR
+		add_core_of = UFU
 	}
 
 	provinces={
-		6301 6302 6303 6304 6305 6306 6307 6308 6309 
+		5840 5841 5842 5843 5844 5845 5846 5847 5848 5849 5850 5851 5852 5853 5854 
 	}
 	local_supplies=0.0 
 }

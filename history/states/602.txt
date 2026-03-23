@@ -2,7 +2,7 @@
 state={
 	id=602
 	name="STATE_602"
-	manpower = 871247
+	manpower = 1057198
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,29 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=1
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7967 2}
-		victory_points = { 7975 3}
+		victory_points = { 7136 1}
+		victory_points = { 7144 5}
 		
-		owner = BHL
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BHL
+		add_core_of = GIZ
 	}
 
 	provinces={
-		7963 7964 7965 7966 7967 7968 7969 7970 7971 7972 7973 7974 7975 
+		7136 7137 7138 7139 7140 7141 7142 7143 7144 7145 7146 
 	}
 	local_supplies=0.0 
 }

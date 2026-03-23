@@ -2,7 +2,7 @@
 state={
 	id=376
 	name="STATE_376"
-	manpower = 864546
+	manpower = 1083364
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,30 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4998 1}
-		victory_points = { 4999 2}
-		victory_points = { 5006 2}
+		victory_points = { 4499 4}
+		victory_points = { 4500 2}
 		
-		owner = GDA
+		owner = CAE
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GDA
+		add_core_of = CAE
 	}
 
 	provinces={
-		4994 4995 4996 4997 4998 4999 5000 5001 5002 5003 5004 5005 5006 
+		4491 4492 4493 4494 4495 4496 4497 4498 4499 4500 4501 
 	}
 	local_supplies=0.0 
 }

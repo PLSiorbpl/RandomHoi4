@@ -2,13 +2,13 @@
 state={
 	id=324
 	name="STATE_324"
-	manpower = 796303
+	manpower = 385992
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=2
 		oil=0
 		rubber=0
 		steel=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 4375 3}
-		victory_points = { 4381 2}
+		victory_points = { 3831 1}
 		
-		owner = CJE
+		owner = UXU
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CJE
+		add_core_of = UXU
 	}
 
 	provinces={
-		4371 4372 4373 4374 4375 4376 4377 4378 4379 4380 4381 
+		3830 3831 3832 
 	}
 	local_supplies=0.0 
 }

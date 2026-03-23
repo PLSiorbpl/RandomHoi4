@@ -2,14 +2,14 @@
 state={
 	id=86
 	name="STATE_86"
-	manpower = 1678984
+	manpower = 419482
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=4
+		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 1316 5}
-		victory_points = { 1320 1}
-		victory_points = { 1338 5}
+		victory_points = { 1163 1}
 		
-		owner = FEA
+		owner = CDA
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = FEA
+		add_core_of = CDA
 	}
 
 	provinces={
-		1315 1316 1317 1318 1319 1320 1321 1322 1323 1324 1325 1326 1327 1328 1329 1330 1331 1332 1333 1334 1335 1336 1337 1338 1339 1340 
+		1162 1163 1164 1165 
 	}
 	local_supplies=0.0 
 }

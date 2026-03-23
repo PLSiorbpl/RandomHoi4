@@ -2,36 +2,39 @@
 state={
 	id=456
 	name="STATE_456"
-	manpower = 136156
+	manpower = 1149892
 	
-	state_category = small_island
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 5486 2}
+		victory_points = { 5487 2}
+		victory_points = { 5492 2}
 		
-		owner = YCN
+		owner = SAN
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = YCN
+		add_core_of = SAN
 	}
 
 	provinces={
-		5872 5873 
+		5484 5485 5486 5487 5488 5489 5490 5491 5492 5493 5494 5495 
 	}
 	local_supplies=0.0 
 }

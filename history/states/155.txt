@@ -2,38 +2,38 @@
 state={
 	id=155
 	name="STATE_155"
-	manpower = 1726287
+	manpower = 1351534
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=35
+		aluminium=6
+		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=11
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
-		victory_points = { 2217 7}
-		victory_points = { 2232 6}
+		victory_points = { 1968 2}
+		victory_points = { 1971 6}
 		
-		owner = ETX
+		owner = BUN
 		buildings = {
 			infrastructure = 4
-			air_base = 2
-			arms_factory = 2
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ETX
+		add_core_of = BUN
 	}
 
 	provinces={
-		2210 2211 2212 2213 2214 2215 2216 2217 2218 2219 2220 2221 2222 2223 2224 2225 2226 2227 2228 2229 2230 2231 2232 2233 2234 2235 
+		1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 
 	}
 	local_supplies=0.0 
 }

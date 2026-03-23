@@ -2,36 +2,38 @@
 state={
 	id=411
 	name="STATE_411"
-	manpower = 179786
+	manpower = 618026
 	
-	state_category = small_island
+	state_category = pastoral
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=7
 		chromium=0
 		oil=0
-		rubber=4
-		steel=1
-		tungsten=3
+		rubber=0
+		steel=0
+		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 4941 1}
+		victory_points = { 4948 1}
 		
-		owner = CJE
+		owner = IKA
 		buildings = {
 			infrastructure = 2
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CJE
+		add_core_of = IKA
 	}
 
 	provinces={
-		5393 5394 5395 
+		4940 4941 4942 4943 4944 4945 4946 4947 4948 4949 4950 
 	}
 	local_supplies=0.0 
 }

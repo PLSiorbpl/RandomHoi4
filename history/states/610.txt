@@ -2,39 +2,38 @@
 state={
 	id=610
 	name="STATE_610"
-	manpower = 1889708
+	manpower = 1521220
 	
-	state_category = large_city
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=5
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
-		victory_points = { 8086 7}
-		victory_points = { 8092 3}
-		victory_points = { 8100 4}
+		victory_points = { 7234 5}
+		victory_points = { 7236 3}
 		
-		owner = BON
+		owner = RSM
 		buildings = {
 			infrastructure = 4
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BON
+		add_core_of = RSM
 	}
 
 	provinces={
-		8085 8086 8087 8088 8089 8090 8091 8092 8093 8094 8095 8096 8097 8098 8099 8100 8101 8102 8103 8104 8105 8106 8107 8108 8109 8110 8111 8112 8113 
+		7233 7234 7235 7236 7237 7238 7239 7240 7241 7242 7243 7244 7245 7246 7247 7248 
 	}
 	local_supplies=0.0 
 }

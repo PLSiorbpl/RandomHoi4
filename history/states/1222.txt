@@ -2,7 +2,7 @@
 state={
 	id=1222
 	name="STATE_1222"
-	manpower = 344522
+	manpower = 567304
 	
 	state_category = rural
 	#impassable = yes
@@ -11,14 +11,16 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 15600 1}
+		victory_points = { 15602 1}
 		
-		owner = BTC
+		owner = HTN
 		buildings = {
 			infrastructure = 3
 			
@@ -27,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = BTC
+		add_core_of = HTN
 	}
 
 	provinces={
-		16023 16024 16025 16026 
+		15600 15601 15602 15603 15604 15605 
 	}
 	local_supplies=0.0 
 }

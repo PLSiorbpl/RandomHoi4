@@ -1,0 +1,880 @@
+characters = {
+	CLA_Quinn_Athas={
+		name="Quinn Athas"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CLA_Keiran_Buac={
+		name="Keiran Buac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Keiran_Buac
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CLA_Seam_Greac={
+		name="Seam Greac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Seam_Greac
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	CLA_Quinn_Buac={
+		name="Quinn Buac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Quinn_Buac
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CLA_Ciaran_Clamhas={
+		name="Ciaran Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Ciaran_Clamhas
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CLA_Keiran_Greac={
+		name="Keiran Greac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Keiran_Greac
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CLA_Aidan_Breilinas={
+		name="Aidan Breilinas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Aidan_Breilinas
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CLA_Aidan_Seart={
+		name="Aidan Seart"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Aidan_Seart
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CLA_Hugh_Buac={
+		name="Hugh Buac"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Hugh_Buac
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	CLA_Declan_Buathas={
+		name="Declan Buathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Declan_Buathas
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	CLA_Ciam_Gean={
+		name="Ciam Gean"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Ciam_Gean
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CLA_Quin_Lorg={
+		name="Quin Lorg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Quin_Lorg
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	CLA_Ulrich_Buathas={
+		name="Ulrich Buathas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Ulrich_Buathas
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	CLA_Ciam_Buathas={
+		name="Ciam Buathas"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Ciam_Buathas
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CLA_Eoin_Athas={
+		name="Eoin Athas"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Eoin_Athas
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CLA_Eoinn_Lorg={
+		name="Eoinn Lorg"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Eoinn_Lorg
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	CLA_Fergus_Breilinas={
+		name="Fergus Breilinas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Fergus_Breilinas
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	CLA_Ulrich_Greac={
+		name="Ulrich Greac"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Ulrich_Greac
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	CLA_Nialcolm_Lorg={
+		name="Nialcolm Lorg"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Nialcolm_Lorg
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	CLA_Iwan_Clamhas={
+		name="Iwan Clamhas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Iwan_Clamhas
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	CLA_Niall_Breilinas={
+		name="Niall Breilinas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Niall_Breilinas
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	CLA_Quin_Athas={
+		name="Quin Athas"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CLA_Fergus_Athas={
+		name="Fergus Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Fergus_Athas
+				traits = {	polemarch 	}
+		}
+
+	}
+	CLA_Padran_Clamhas={
+		name="Padran Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Padran_Clamhas
+				traits = {	warmonger 	}
+		}
+
+	}
+	CLA_Ciaran_Seart={
+		name="Ciaran Seart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Ciaran_Seart
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	CLA_Quinn_Gean={
+		name="Quinn Gean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Quinn_Gean
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	CLA_Garan_Buathas={
+		name="Garan Buathas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Garan_Buathas
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	CLA_Niam_Greac={
+		name="Niam Greac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Niam_Greac
+				traits = {	polemarch 	}
+		}
+
+	}
+	CLA_Ciall_Gean={
+		name="Ciall Gean"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Ciall_Gean
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CLA_Rhys_Buathas={
+		name="Rhys Buathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Rhys_Buathas
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	CLA_Mall_Seart={
+		name="Mall Seart"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Mall_Seart
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	CLA_Niam_Seart={
+		name="Niam Seart"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Niam_Seart
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CLA_Seam_Buac={
+		name="Seam Buac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Seam_Buac
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	CLA_Quinn_Buathas={
+		name="Quinn Buathas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Quinn_Buathas
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CLA_Bran_Buathas={
+		name="Bran Buathas"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Bran_Buathas
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CLA_Padran_Seart={
+		name="Padran Seart"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Padran_Seart
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CLA_Braig_Seart={
+		name="Braig Seart"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Braig_Seart
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	CLA_Fergus_Buathas={
+		name="Fergus Buathas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Fergus_Buathas
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	CLA_Malcolm_Buathas={
+		name="Malcolm Buathas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Malcolm_Buathas
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	CLA_Eoinn_Breilinas={
+		name="Eoinn Breilinas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Eoinn_Breilinas
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	CLA_Malcolm_Gean={
+		name="Malcolm Gean"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Malcolm_Gean
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	CLA_Quin_Clamhas={
+		name="Quin Clamhas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Quin_Clamhas
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	CLA_Malcolm_Buac={
+		name="Malcolm Buac"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CLA_Declan_Tuarnadhaill={
+		name="Declan Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Declan_Tuarnadhaill
+				traits = {	infirm 	}
+		}
+
+	}
+	CLA_Quinn_Tuarnadhaill={
+		name="Quinn Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Quinn_Tuarnadhaill
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CLA_Owen_Greac={
+		name="Owen Greac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Owen_Greac
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CLA_Liall_Clamhas={
+		name="Liall Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Liall_Clamhas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CLA_Nialcolm_Greac={
+		name="Nialcolm Greac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Nialcolm_Greac
+				traits = {	infirm 	}
+		}
+
+	}
+	CLA_Aidan_Gean={
+		name="Aidan Gean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Aidan_Gean
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CLA_Cialcolm_Buathas={
+		name="Cialcolm Buathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Cialcolm_Buathas
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CLA_Ciam_Breilinas={
+		name="Ciam Breilinas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Ciam_Breilinas
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	CLA_Owen_Athas={
+		name="Owen Athas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Owen_Athas
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CLA_Ciall_Greac={
+		name="Ciall Greac"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Ciall_Greac
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CLA_Eoin_Tuarnadhaill={
+		name="Eoin Tuarnadhaill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Eoin_Tuarnadhaill
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CLA_Ciam_Tuarnadhaill={
+		name="Ciam Tuarnadhaill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Ciam_Tuarnadhaill
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CLA_Keiran_Breilinas={
+		name="Keiran Breilinas"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Keiran_Breilinas
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	CLA_Keiran_Tuarnadhaill={
+		name="Keiran Tuarnadhaill"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Keiran_Tuarnadhaill
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	CLA_Seamus_Lorg={
+		name="Seamus Lorg"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Seamus_Lorg
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	CLA_Niareth_Buac={
+		name="Niareth Buac"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Niareth_Buac
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	CLA_Ciaran_Gean={
+		name="Ciaran Gean"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Ciaran_Gean
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CLA_Ciall_Buathas={
+		name="Ciall Buathas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Ciall_Buathas
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	CLA_Ciall_Seart={
+		name="Ciall Seart"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Ciall_Seart
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	CLA_Seamus_Clamhas={
+		name="Seamus Clamhas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Seamus_Clamhas
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	CLA_Braig_Buathas={
+		name="Braig Buathas"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CLA_Quinn_Greac={
+		name="Quinn Greac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Quinn_Greac
+				traits = {	rearmer 	}
+		}
+
+	}
+	CLA_Rhys_Clamhas={
+		name="Rhys Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Rhys_Clamhas
+				traits = {	first_lady 	}
+		}
+
+	}
+	CLA_Fergus_Buac={
+		name="Fergus Buac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Fergus_Buac
+				traits = {	infirm 	}
+		}
+
+	}
+	CLA_Mall_Athas={
+		name="Mall Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Mall_Athas
+				traits = {	infirm 	}
+		}
+
+	}
+	CLA_Garan_Clamhas={
+		name="Garan Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Garan_Clamhas
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	CLA_Seam_Gean={
+		name="Seam Gean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CLA_Seam_Gean
+				traits = {	the_banker 	}
+		}
+
+	}
+	CLA_Nialcolm_Athas={
+		name="Nialcolm Athas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Nialcolm_Athas
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CLA_Niam_Lorg={
+		name="Niam Lorg"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Niam_Lorg
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CLA_Ciaran_Athas={
+		name="Ciaran Athas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Ciaran_Athas
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	CLA_Fergus_Tuarnadhaill={
+		name="Fergus Tuarnadhaill"
+
+		advisor={
+			slot = army_chief
+			idea_token = CLA_Fergus_Tuarnadhaill
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	CLA_Owen_Buac={
+		name="Owen Buac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Owen_Buac
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CLA_Liamus_Buac={
+		name="Liamus Buac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CLA_Liamus_Buac
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	CLA_Braig_Athas={
+		name="Braig Athas"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Braig_Athas
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	CLA_Quinn_Seart={
+		name="Quinn Seart"
+
+		advisor={
+			slot = air_chief
+			idea_token = CLA_Quinn_Seart
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CLA_Braig_Tuarnadhaill={
+		name="Braig Tuarnadhaill"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Braig_Tuarnadhaill
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	CLA_Fergus_Seart={
+		name="Fergus Seart"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Fergus_Seart
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CLA_Eoin_Buac={
+		name="Eoin Buac"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Eoin_Buac
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	CLA_Liamus_Greac={
+		name="Liamus Greac"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Liamus_Greac
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	CLA_Eoinn_Buathas={
+		name="Eoinn Buathas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Eoinn_Buathas
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	CLA_Iwan_Breilinas={
+		name="Iwan Breilinas"
+
+		advisor={
+			slot = high_command
+			idea_token = CLA_Iwan_Breilinas
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	CLA_Seam_Seart={
+		name="Seam Seart"
+
+		advisor={
+			slot = theorist
+			idea_token = CLA_Seam_Seart
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CLA_Padran_Athas={
+		name="Padran Athas"
+
+		advisor={
+			slot = theorist
+			idea_token = CLA_Padran_Athas
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CLA_Nialcolm_Clamhas={
+		name="Nialcolm Clamhas"
+
+		advisor={
+			slot = theorist
+			idea_token = CLA_Nialcolm_Clamhas
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

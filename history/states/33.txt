@@ -2,9 +2,9 @@
 state={
 	id=33
 	name="STATE_33"
-	manpower = 508563
+	manpower = 1345258
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,29 +13,27 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=6
 	}
 
 	history={
-		victory_points = { 412 1}
+		victory_points = { 435 3}
+		victory_points = { 436 3}
 		
-		owner = RNT
+		owner = EAG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			411 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = RNT
+		add_core_of = EAG
 	}
 
 	provinces={
-		411 412 413 414 415 416 
+		424 425 426 427 428 429 430 431 432 433 434 435 436 437 
 	}
 	local_supplies=0.0 
 }

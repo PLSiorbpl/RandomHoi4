@@ -2,42 +2,39 @@
 state={
 	id=28
 	name="STATE_28"
-	manpower = 1177344
+	manpower = 3506584
 	
-	state_category = city
+	state_category = megalopolis
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=8
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 352 1}
-		victory_points = { 357 5}
-		victory_points = { 359 2}
+		victory_points = { 346 6}
+		victory_points = { 356 10}
+		victory_points = { 373 7}
 		
-		owner = SAN
+		owner = EAG
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			arms_factory = 0
+			infrastructure = 5
+			
+			arms_factory = 2
 			industrial_complex = 1
 			
-			359 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = SAN
+		add_core_of = EAG
 	}
 
 	provinces={
-		351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 
+		336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 
 	}
 	local_supplies=0.0 
 }

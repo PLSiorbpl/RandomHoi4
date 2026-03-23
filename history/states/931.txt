@@ -2,14 +2,14 @@
 state={
 	id=931
 	name="STATE_931"
-	manpower = 769726
+	manpower = 555231
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=1
+		chromium=6
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 12489 4}
-		victory_points = { 12490 1}
+		victory_points = { 10986 1}
+		victory_points = { 10988 1}
 		
-		owner = NAK
+		owner = CAH
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = CAH
 	}
 
 	provinces={
-		12488 12489 12490 12491 12492 12493 12494 12495 12496 12497 
+		10985 10986 10987 10988 10989 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=890
 	name="STATE_890"
-	manpower = 508860
+	manpower = 1296781
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 11921 1}
-		victory_points = { 11923 2}
+		victory_points = { 10362 2}
+		victory_points = { 10368 5}
 		
-		owner = IMA
+		owner = LIM
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = IMA
+		add_core_of = LIM
 	}
 
 	provinces={
-		11919 11920 11921 11922 11923 11924 11925 
+		10361 10362 10363 10364 10365 10366 10367 10368 10369 10370 10371 10372 10373 10374 
 	}
 	local_supplies=0.0 
 }

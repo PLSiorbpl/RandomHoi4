@@ -1,0 +1,880 @@
+characters = {
+	JAX_Braig_Faiscean={
+		name="Braig Faiscean"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAX_Taran_Lealas={
+		name="Taran Lealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Taran_Lealas
+				traits = {	humble 	}
+		}
+
+	}
+	JAX_Lialcolm_Each={
+		name="Lialcolm Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Lialcolm_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JAX_Ciam_Trodaing={
+		name="Ciam Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Ciam_Trodaing
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JAX_Seam_Buna={
+		name="Seam Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Seam_Buna
+				traits = {	humble 	}
+		}
+
+	}
+	JAX_Liamus_Each={
+		name="Liamus Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Liamus_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JAX_Owen_Trodaing={
+		name="Owen Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Owen_Trodaing
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	JAX_Keiraig_Faiscean={
+		name="Keiraig Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Keiraig_Faiscean
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	JAX_Ciaran_Trodaing={
+		name="Ciaran Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Ciaran_Trodaing
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JAX_Ciam_Millearg={
+		name="Ciam Millearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Ciam_Millearg
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	JAX_Cialcolm_Faiscean={
+		name="Cialcolm Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Cialcolm_Faiscean
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JAX_Quin_Each={
+		name="Quin Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Quin_Each
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	JAX_Tareth_Snamhtirsear={
+		name="Tareth Snamhtirsear"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Tareth_Snamhtirsear
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	JAX_Iwan_Tuas={
+		name="Iwan Tuas"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Iwan_Tuas
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	JAX_Liall_Geach={
+		name="Liall Geach"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Liall_Geach
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	JAX_Hugh_Buna={
+		name="Hugh Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Hugh_Buna
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	JAX_Niall_Faiscean={
+		name="Niall Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Niall_Faiscean
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	JAX_Seam_Tuas={
+		name="Seam Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Seam_Tuas
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	JAX_Seamus_Faiscean={
+		name="Seamus Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Seamus_Faiscean
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	JAX_Ciamus_Trodaing={
+		name="Ciamus Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Ciamus_Trodaing
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	JAX_Liamus_Buna={
+		name="Liamus Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Liamus_Buna
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	JAX_Ciaran_Geach={
+		name="Ciaran Geach"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAX_Niam_Geach={
+		name="Niam Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Niam_Geach
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	JAX_Iwan_Each={
+		name="Iwan Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Iwan_Each
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JAX_Liam_Tuas={
+		name="Liam Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Liam_Tuas
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	JAX_Padraig_Each={
+		name="Padraig Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Padraig_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JAX_Niaran_Each={
+		name="Niaran Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Niaran_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JAX_Quinn_Faiscean={
+		name="Quinn Faiscean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Quinn_Faiscean
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	JAX_Liamus_Geach={
+		name="Liamus Geach"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Liamus_Geach
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	JAX_Ciareth_Faiscean={
+		name="Ciareth Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Ciareth_Faiscean
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	JAX_Rhys_Each={
+		name="Rhys Each"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Rhys_Each
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JAX_Ulrich_Faiscean={
+		name="Ulrich Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Ulrich_Faiscean
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	JAX_Eoinn_Breim={
+		name="Eoinn Breim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Eoinn_Breim
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	JAX_Padraig_Faiscean={
+		name="Padraig Faiscean"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Padraig_Faiscean
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	JAX_Ciam_Buna={
+		name="Ciam Buna"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Ciam_Buna
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	JAX_Lialcolm_Geach={
+		name="Lialcolm Geach"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Lialcolm_Geach
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	JAX_Braig_Millearg={
+		name="Braig Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Braig_Millearg
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	JAX_Fergus_Buna={
+		name="Fergus Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Fergus_Buna
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	JAX_Rhys_Geach={
+		name="Rhys Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Rhys_Geach
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	JAX_Tareth_Faiscean={
+		name="Tareth Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Tareth_Faiscean
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	JAX_Padraig_Trodaing={
+		name="Padraig Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Padraig_Trodaing
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	JAX_Taran_Buna={
+		name="Taran Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Taran_Buna
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	JAX_Eoin_Tuas={
+		name="Eoin Tuas"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAX_Garan_Millearg={
+		name="Garan Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Garan_Millearg
+				traits = {	polemarch 	}
+		}
+
+	}
+	JAX_Eoinn_Geach={
+		name="Eoinn Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Eoinn_Geach
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	JAX_Braig_Buna={
+		name="Braig Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Braig_Buna
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JAX_Niam_Trodaing={
+		name="Niam Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Niam_Trodaing
+				traits = {	polemarch 	}
+		}
+
+	}
+	JAX_Ciaran_Faiscean={
+		name="Ciaran Faiscean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Ciaran_Faiscean
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JAX_Tareth_Breim={
+		name="Tareth Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Tareth_Breim
+				traits = {	infirm 	}
+		}
+
+	}
+	JAX_Nialcolm_Buna={
+		name="Nialcolm Buna"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Nialcolm_Buna
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	JAX_Owen_Lealas={
+		name="Owen Lealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Owen_Lealas
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	JAX_Ciaran_Buna={
+		name="Ciaran Buna"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Ciaran_Buna
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	JAX_Keiraig_Geach={
+		name="Keiraig Geach"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Keiraig_Geach
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	JAX_Seamus_Buna={
+		name="Seamus Buna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Seamus_Buna
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	JAX_Aidan_Geach={
+		name="Aidan Geach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Aidan_Geach
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	JAX_Declan_Faiscean={
+		name="Declan Faiscean"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Declan_Faiscean
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	JAX_Liam_Buna={
+		name="Liam Buna"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Liam_Buna
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	JAX_Liall_Millearg={
+		name="Liall Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Liall_Millearg
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	JAX_Bran_Each={
+		name="Bran Each"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Bran_Each
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	JAX_Garan_Breim={
+		name="Garan Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Garan_Breim
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	JAX_Niam_Tuas={
+		name="Niam Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Niam_Tuas
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	JAX_Fergus_Breim={
+		name="Fergus Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Fergus_Breim
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	JAX_Ciareth_Geach={
+		name="Ciareth Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Ciareth_Geach
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	JAX_Seam_Lealas={
+		name="Seam Lealas"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAX_Liamus_Tuas={
+		name="Liamus Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Liamus_Tuas
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	JAX_Quinn_Breim={
+		name="Quinn Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Quinn_Breim
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	JAX_Malcolm_Geach={
+		name="Malcolm Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Malcolm_Geach
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	JAX_Malcolm_Buna={
+		name="Malcolm Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Malcolm_Buna
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	JAX_Keiran_Trodaing={
+		name="Keiran Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Keiran_Trodaing
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	JAX_Braig_Geach={
+		name="Braig Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAX_Braig_Geach
+				traits = {	first_lady 	}
+		}
+
+	}
+	JAX_Lialcolm_Snamhtirsear={
+		name="Lialcolm Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Lialcolm_Snamhtirsear
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	JAX_Rhys_Faiscean={
+		name="Rhys Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Rhys_Faiscean
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	JAX_Rhys_Snamhtirsear={
+		name="Rhys Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Rhys_Snamhtirsear
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	JAX_Cialcolm_Trodaing={
+		name="Cialcolm Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAX_Cialcolm_Trodaing
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JAX_Eoinn_Each={
+		name="Eoinn Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Eoinn_Each
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	JAX_Cialcolm_Millearg={
+		name="Cialcolm Millearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAX_Cialcolm_Millearg
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	JAX_Aidan_Trodaing={
+		name="Aidan Trodaing"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Aidan_Trodaing
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	JAX_Cialcolm_Each={
+		name="Cialcolm Each"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAX_Cialcolm_Each
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	JAX_Ulrich_Trodaing={
+		name="Ulrich Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Ulrich_Trodaing
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	JAX_Liall_Tuas={
+		name="Liall Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Liall_Tuas
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	JAX_Liam_Faiscean={
+		name="Liam Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Liam_Faiscean
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	JAX_Malcolm_Each={
+		name="Malcolm Each"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Malcolm_Each
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	JAX_Liamus_Faiscean={
+		name="Liamus Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Liamus_Faiscean
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	JAX_Aidan_Snamhtirsear={
+		name="Aidan Snamhtirsear"
+
+		advisor={
+			slot = high_command
+			idea_token = JAX_Aidan_Snamhtirsear
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	JAX_Seamus_Trodaing={
+		name="Seamus Trodaing"
+
+		advisor={
+			slot = theorist
+			idea_token = JAX_Seamus_Trodaing
+				traits = {	military_theorist 	}
+		}
+
+	}
+	JAX_Tareth_Each={
+		name="Tareth Each"
+
+		advisor={
+			slot = theorist
+			idea_token = JAX_Tareth_Each
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	JAX_Padran_Buna={
+		name="Padran Buna"
+
+		advisor={
+			slot = theorist
+			idea_token = JAX_Padran_Buna
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

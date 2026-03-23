@@ -2,14 +2,14 @@
 state={
 	id=525
 	name="STATE_525"
-	manpower = 577773
+	manpower = 361784
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,26 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 6888 1}
-		victory_points = { 6892 1}
+		victory_points = { 6309 1}
 		
-		owner = CNU
+		owner = SAN
 		buildings = {
 			infrastructure = 3
-			air_base = 3
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			6889 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = CNU
+		add_core_of = SAN
 	}
 
 	provinces={
-		6885 6886 6887 6888 6889 6890 6891 6892 
+		6308 6309 6310 
 	}
 	local_supplies=0.0 
 }

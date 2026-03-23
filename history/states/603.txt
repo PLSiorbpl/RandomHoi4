@@ -2,42 +2,38 @@
 state={
 	id=603
 	name="STATE_603"
-	manpower = 1099145
+	manpower = 1991413
 	
-	state_category = large_town
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=6
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7976 3}
-		victory_points = { 7986 1}
-		victory_points = { 7991 2}
+		victory_points = { 7147 7}
+		victory_points = { 7168 5}
 		
-		owner = BEJ
+		owner = GIZ
 		buildings = {
 			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			7985 = {
-				naval_base = 1
-			}
+			industrial_complex = 2
+			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = GIZ
 	}
 
 	provinces={
-		7976 7977 7978 7979 7980 7981 7982 7983 7984 7985 7986 7987 7988 7989 7990 7991 
+		7147 7148 7149 7150 7151 7152 7153 7154 7155 7156 7157 7158 7159 7160 7161 7162 7163 7164 7165 7166 7167 7168 
 	}
 	local_supplies=0.0 
 }

@@ -1,878 +1,878 @@
 characters = {
-	BON_Remus_Honor={
-		name="Remus Honor"
+	BON_Varcus_Codus={
+		name="Varcus Codus"
 
 		
 		country_leader={
-			ideology=oligarchism
-			traits = { headstrong  }
+			ideology=moderatism
+			traits = { humble  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 	}
-	BON_Gaianus_Sons={
-		name="Gaianus Sons"
+	BON_Nonginus_Mentus={
+		name="Nonginus Mentus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = BON_Gaianus_Sons
-				traits = {	staunch_constitutionalist 	}
-		}
-
-	}
-	BON_Gemitius_Honor={
-		name="Gemitius Honor"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Gemitius_Honor
-				traits = {	headstrong 	}
-		}
-
-	}
-	BON_Titellianus_Sons={
-		name="Titellianus Sons"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Titellianus_Sons
+			idea_token = BON_Nonginus_Mentus
 				traits = {	socialite_connections 	}
 		}
 
 	}
-	BON_Flaulus_Machina={
-		name="Flaulus Machina"
+	BON_Spuriustus_Auctorus={
+		name="Spuriustus Auctorus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = BON_Flaulus_Machina
+			idea_token = BON_Spuriustus_Auctorus
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BON_Lucius_Legina={
+		name="Lucius Legina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Lucius_Legina
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BON_Remitellius_Avia={
+		name="Remitellius Avia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Remitellius_Avia
+				traits = {	humble 	}
+		}
+
+	}
+	BON_Hornellius_Mena={
+		name="Hornellius Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Hornellius_Mena
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BON_Servius_Fidus={
+		name="Servius Fidus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Servius_Fidus
 				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	BON_Faus_Dientudax={
-		name="Faus Dientudax"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Faus_Dientudax
-				traits = {	staunch_constitutionalist 	}
-		}
-
-	}
-	BON_Urbanlius_Belebs={
-		name="Urbanlius Belebs"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Urbanlius_Belebs
-				traits = {	headstrong 	}
-		}
-
-	}
-	BON_Paulus_Reginus={
-		name="Paulus Reginus"
+	BON_Remus_Domentus={
+		name="Remus Domentus"
 
 		advisor={
 			slot = army_chief
-			idea_token = BON_Paulus_Reginus
-				traits = {	army_chief_reform_2 	}
+			idea_token = BON_Remus_Domentus
+				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	BON_Vibiusus_Reginus={
-		name="Vibiusus Reginus"
+	BON_Graticus_Auctorus={
+		name="Graticus Auctorus"
 
 		advisor={
 			slot = army_chief
-			idea_token = BON_Vibiusus_Reginus
-				traits = {	army_chief_planning_1 	}
-		}
-
-	}
-	BON_Brus_Machina={
-		name="Brus Machina"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Brus_Machina
-				traits = {	army_chief_organizational_2 	}
-		}
-
-	}
-	BON_Drus_Reginus={
-		name="Drus Reginus"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Drus_Reginus
-				traits = {	army_chief_defensive_1 	}
-		}
-
-	}
-	BON_Graius_Aerrus={
-		name="Graius Aerrus"
-
-		advisor={
-			slot = navy_chief
-			idea_token = BON_Graius_Aerrus
-				traits = {	navy_chief_reform_1 	}
-		}
-
-	}
-	BON_Valerutus_Machina={
-		name="Valerutus Machina"
-
-		advisor={
-			slot = navy_chief
-			idea_token = BON_Valerutus_Machina
-				traits = {	navy_chief_naval_aviation_2 	}
-		}
-
-	}
-	BON_Varro_Dientudax={
-		name="Varro Dientudax"
-
-		advisor={
-			slot = air_chief
-			idea_token = BON_Varro_Dientudax
-				traits = {	air_chief_reform_1 	}
-		}
-
-	}
-	BON_Lucius_Honor={
-		name="Lucius Honor"
-
-		advisor={
-			slot = air_chief
-			idea_token = BON_Lucius_Honor
-				traits = {	air_chief_reform_1 	}
-		}
-
-	}
-	BON_Coraius_Dientudax={
-		name="Coraius Dientudax"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Coraius_Dientudax
-				traits = {	air_naval_strike_2 	}
-		}
-
-	}
-	BON_Publianus_Belebs={
-		name="Publianus Belebs"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Publianus_Belebs
-				traits = {	air_bomber_interception_2 	}
-		}
-
-	}
-	BON_Varcellianli_Aerrus={
-		name="Varcellianli Aerrus"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Varcellianli_Aerrus
-				traits = {	navy_carrier_2 	}
-		}
-
-	}
-	BON_Vibiusus_Sons={
-		name="Vibiusus Sons"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Vibiusus_Sons
-				traits = {	army_cavalry_2 	}
-		}
-
-	}
-	BON_Urbanlius_Honor={
-		name="Urbanlius Honor"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Urbanlius_Honor
-				traits = {	air_strategic_bombing_2 	}
-		}
-
-	}
-	BON_Nerius_Dientudax={
-		name="Nerius Dientudax"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Nerius_Dientudax
-				traits = {	navy_submarine_2 	}
-		}
-
-	}
-	BON_Gemitius_Machina={
-		name="Gemitius Machina"
-
-		
-		country_leader={
-			ideology=nazism
-			traits = { basileus  }
-			expire="1965.1.1.1"
-			id=-1
-		}
-
-	}
-	BON_Attiusus_Virta={
-		name="Attiusus Virta"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Attiusus_Virta
-				traits = {	celebrity_junta_leader 	}
-		}
-
-	}
-	BON_Publianus_Honor={
-		name="Publianus Honor"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Publianus_Honor
-				traits = {	celebrity_junta_leader 	}
-		}
-
-	}
-	BON_Marcus_Machina={
-		name="Marcus Machina"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Marcus_Machina
-				traits = {	polemarch 	}
-		}
-
-	}
-	BON_Marcus_Belebs={
-		name="Marcus Belebs"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Marcus_Belebs
-				traits = {	archon_basileus 	}
-		}
-
-	}
-	BON_Drus_Sons={
-		name="Drus Sons"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Drus_Sons
-				traits = {	infirm 	}
-		}
-
-	}
-	BON_Clavius_Virta={
-		name="Clavius Virta"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Clavius_Virta
-				traits = {	polemarch 	}
-		}
-
-	}
-	BON_Spuriscus_Dientudax={
-		name="Spuriscus Dientudax"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Spuriscus_Dientudax
-				traits = {	army_chief_planning_2 	}
-		}
-
-	}
-	BON_Vibervius_Aerrus={
-		name="Vibervius Aerrus"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Vibervius_Aerrus
-				traits = {	army_chief_entrenchment_2 	}
-		}
-
-	}
-	BON_Paus_Aerrus={
-		name="Paus Aerrus"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Paus_Aerrus
-				traits = {	army_chief_maneuver_1 	}
-		}
-
-	}
-	BON_Remus_Otifex={
-		name="Remus Otifex"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Remus_Otifex
-				traits = {	army_chief_planning_1 	}
-		}
-
-	}
-	BON_Gaianus_Machina={
-		name="Gaianus Machina"
-
-		advisor={
-			slot = navy_chief
-			idea_token = BON_Gaianus_Machina
-				traits = {	navy_chief_reform_1 	}
-		}
-
-	}
-	BON_Marcus_Aerrus={
-		name="Marcus Aerrus"
-
-		advisor={
-			slot = navy_chief
-			idea_token = BON_Marcus_Aerrus
-				traits = {	navy_chief_decisive_battle_1 	}
-		}
-
-	}
-	BON_Viticus_Aerrus={
-		name="Viticus Aerrus"
-
-		advisor={
-			slot = air_chief
-			idea_token = BON_Viticus_Aerrus
-				traits = {	air_chief_reform_2 	}
-		}
-
-	}
-	BON_Vibervius_Anitastria={
-		name="Vibervius Anitastria"
-
-		advisor={
-			slot = air_chief
-			idea_token = BON_Vibervius_Anitastria
-				traits = {	air_chief_old_guard_1 	}
-		}
-
-	}
-	BON_Gracchus_Belebs={
-		name="Gracchus Belebs"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Gracchus_Belebs
-				traits = {	army_entrenchment_1 	}
-		}
-
-	}
-	BON_Spuriscus_Aerrus={
-		name="Spuriscus Aerrus"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Spuriscus_Aerrus
-				traits = {	air_close_air_support_1 	}
-		}
-
-	}
-	BON_Graius_Belebs={
-		name="Graius Belebs"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Graius_Belebs
-				traits = {	navy_naval_air_defense_1 	}
-		}
-
-	}
-	BON_Valerutus_Sons={
-		name="Valerutus Sons"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Valerutus_Sons
-				traits = {	air_air_superiority_2 	}
-		}
-
-	}
-	BON_Prius_Virta={
-		name="Prius Virta"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Prius_Virta
-				traits = {	air_naval_strike_1 	}
-		}
-
-	}
-	BON_Manus_Machina={
-		name="Manus Machina"
-
-		advisor={
-			slot = high_command
-			idea_token = BON_Manus_Machina
-				traits = {	navy_carrier_1 	}
-		}
-
-	}
-	BON_Publius_Dientudax={
-		name="Publius Dientudax"
-
-		
-		country_leader={
-			ideology=stalinism
-			traits = { mastermind_code_cracker  }
-			expire="1965.1.1.1"
-			id=-1
-		}
-
-	}
-	BON_Gaius_Sons={
-		name="Gaius Sons"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Gaius_Sons
-				traits = {	reluctant_stalinist 	}
-		}
-
-	}
-	BON_Julius_Sons={
-		name="Julius Sons"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Julius_Sons
-				traits = {	indomitable_perseverance 	}
-		}
-
-	}
-	BON_Viticus_Anitastria={
-		name="Viticus Anitastria"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Viticus_Anitastria
-				traits = {	polemarch 	}
-		}
-
-	}
-	BON_Sevola_Belebs={
-		name="Sevola Belebs"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Sevola_Belebs
-				traits = {	political_dancer 	}
-		}
-
-	}
-	BON_Severo_Anitastria={
-		name="Severo Anitastria"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Severo_Anitastria
-				traits = {	infirm 	}
-		}
-
-	}
-	BON_Decimus_Dientudax={
-		name="Decimus Dientudax"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Decimus_Dientudax
-				traits = {	indomitable_perseverance 	}
-		}
-
-	}
-	BON_Antongintus_Otifex={
-		name="Antongintus Otifex"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Antongintus_Otifex
-				traits = {	army_chief_reform_1 	}
-		}
-
-	}
-	BON_Publius_Aerrus={
-		name="Publius Aerrus"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Publius_Aerrus
-				traits = {	army_chief_maneuver_2 	}
-		}
-
-	}
-	BON_Vibius_Reginus={
-		name="Vibius Reginus"
-
-		advisor={
-			slot = army_chief
-			idea_token = BON_Vibius_Reginus
+			idea_token = BON_Graticus_Auctorus
 				traits = {	army_chief_morale_1 	}
 		}
 
 	}
-	BON_Quinus_Otifex={
-		name="Quinus Otifex"
+	BON_Flaulius_Codus={
+		name="Flaulius Codus"
 
 		advisor={
 			slot = army_chief
-			idea_token = BON_Quinus_Otifex
-				traits = {	army_chief_defensive_1 	}
+			idea_token = BON_Flaulius_Codus
+				traits = {	army_chief_drill_2 	}
 		}
 
 	}
-	BON_Publius_Anitastria={
-		name="Publius Anitastria"
+	BON_Vitellius_Legina={
+		name="Vitellius Legina"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Vitellius_Legina
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BON_Faudius_Codes={
+		name="Faudius Codes"
 
 		advisor={
 			slot = navy_chief
-			idea_token = BON_Publius_Anitastria
-				traits = {	navy_chief_naval_aviation_1 	}
+			idea_token = BON_Faudius_Codes
+				traits = {	navy_chief_commerce_raiding_2 	}
 		}
 
 	}
-	BON_Gemitius_Reginus={
-		name="Gemitius Reginus"
+	BON_Maximus_Codes={
+		name="Maximus Codes"
 
 		advisor={
 			slot = navy_chief
-			idea_token = BON_Gemitius_Reginus
-				traits = {	navy_chief_decisive_battle_1 	}
+			idea_token = BON_Maximus_Codes
+				traits = {	navy_chief_decisive_battle_2 	}
 		}
 
 	}
-	BON_Sextus_Anitastria={
-		name="Sextus Anitastria"
+	BON_Faudius_Mena={
+		name="Faudius Mena"
 
 		advisor={
 			slot = air_chief
-			idea_token = BON_Sextus_Anitastria
-				traits = {	air_chief_night_operations_1 	}
+			idea_token = BON_Faudius_Mena
+				traits = {	air_chief_safety_1 	}
 		}
 
 	}
-	BON_Titicus_Anitastria={
-		name="Titicus Anitastria"
+	BON_Atticus_Codus={
+		name="Atticus Codus"
 
 		advisor={
 			slot = air_chief
-			idea_token = BON_Titicus_Anitastria
-				traits = {	air_chief_all_weather_1 	}
+			idea_token = BON_Atticus_Codus
+				traits = {	air_chief_all_weather_2 	}
 		}
 
 	}
-	BON_Remitius_Otifex={
-		name="Remitius Otifex"
+	BON_Hornelius_Mena={
+		name="Hornelius Mena"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Remitius_Otifex
-				traits = {	navy_carrier_2 	}
+			idea_token = BON_Hornelius_Mena
+				traits = {	air_bomber_interception_2 	}
 		}
 
 	}
-	BON_Tratius_Machina={
-		name="Tratius Machina"
+	BON_Maximus_Mentus={
+		name="Maximus Mentus"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Tratius_Machina
-				traits = {	army_cavalry_2 	}
+			idea_token = BON_Maximus_Mentus
+				traits = {	air_close_air_support_1 	}
 		}
 
 	}
-	BON_Urbanlianus_Belebs={
-		name="Urbanlianus Belebs"
+	BON_Servius_Domentus={
+		name="Servius Domentus"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Urbanlianus_Belebs
-				traits = {	air_air_combat_training_2 	}
+			idea_token = BON_Servius_Domentus
+				traits = {	army_CombinedArms_2 	}
 		}
 
 	}
-	BON_Paudius_Virta={
-		name="Paudius Virta"
+	BON_Marro_Auctorus={
+		name="Marro Auctorus"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Paudius_Virta
-				traits = {	army_entrenchment_1 	}
+			idea_token = BON_Marro_Auctorus
+				traits = {	army_logistics_1 	}
 		}
 
 	}
-	BON_Lucius_Machina={
-		name="Lucius Machina"
+	BON_Caius_Fidus={
+		name="Caius Fidus"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Lucius_Machina
-				traits = {	army_entrenchment_1 	}
+			idea_token = BON_Caius_Fidus
+				traits = {	navy_carrier_1 	}
 		}
 
 	}
-	BON_Hornellius_Anitastria={
-		name="Hornellius Anitastria"
+	BON_Nero_Bontudo={
+		name="Nero Bontudo"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Hornellius_Anitastria
-				traits = {	army_concealment_1 	}
+			idea_token = BON_Nero_Bontudo
+				traits = {	air_air_combat_training_1 	}
 		}
 
 	}
-	BON_Viberius_Otifex={
-		name="Viberius Otifex"
+	BON_Gemitus_Codes={
+		name="Gemitus Codes"
 
 		
 		country_leader={
-			ideology=socialism
-			traits = { rearmer  }
+			ideology=fascism_ideology
+			traits = { collaborator_king  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 	}
-	BON_Coraius_Virta={
-		name="Coraius Virta"
+	BON_Vitelianus_Domentus={
+		name="Vitelianus Domentus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = BON_Coraius_Virta
-				traits = {	staunch_constitutionalist 	}
+			idea_token = BON_Vitelianus_Domentus
+				traits = {	spirit_of_genghis 	}
 		}
 
 	}
-	BON_Marcellus_Honor={
-		name="Marcellus Honor"
+	BON_Antus_Avia={
+		name="Antus Avia"
 
 		advisor={
 			slot = political_advisor
-			idea_token = BON_Marcellus_Honor
-				traits = {	liberal_democratic_paragon 	}
+			idea_token = BON_Antus_Avia
+				traits = {	autocratic_imperialist 	}
 		}
 
 	}
-	BON_Graius_Otifex={
-		name="Graius Otifex"
+	BON_Gracchus_Legina={
+		name="Gracchus Legina"
 
 		advisor={
 			slot = political_advisor
-			idea_token = BON_Graius_Otifex
-				traits = {	the_banker 	}
-		}
-
-	}
-	BON_Titicus_Machina={
-		name="Titicus Machina"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Titicus_Machina
-				traits = {	the_banker 	}
-		}
-
-	}
-	BON_Domitus_Honor={
-		name="Domitus Honor"
-
-		advisor={
-			slot = political_advisor
-			idea_token = BON_Domitus_Honor
+			idea_token = BON_Gracchus_Legina
 				traits = {	infirm 	}
 		}
 
 	}
-	BON_Urbanlianus_Virta={
-		name="Urbanlianus Virta"
+	BON_Drus_Bontudo={
+		name="Drus Bontudo"
 
 		advisor={
 			slot = political_advisor
-			idea_token = BON_Urbanlianus_Virta
-				traits = {	staunch_constitutionalist 	}
+			idea_token = BON_Drus_Bontudo
+				traits = {	basileus 	}
 		}
 
 	}
-	BON_Tracchus_Aerrus={
-		name="Tracchus Aerrus"
+	BON_Tracchus_Mena={
+		name="Tracchus Mena"
 
 		advisor={
-			slot = army_chief
-			idea_token = BON_Tracchus_Aerrus
-				traits = {	army_chief_reform_2 	}
+			slot = political_advisor
+			idea_token = BON_Tracchus_Mena
+				traits = {	basileus 	}
 		}
 
 	}
-	BON_Drus_Dientudax={
-		name="Drus Dientudax"
+	BON_Brus_Domentus={
+		name="Brus Domentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Brus_Domentus
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BON_Vitelianus_Codes={
+		name="Vitelianus Codes"
 
 		advisor={
 			slot = army_chief
-			idea_token = BON_Drus_Dientudax
+			idea_token = BON_Vitelianus_Codes
 				traits = {	army_chief_defensive_2 	}
 		}
 
 	}
-	BON_Remitius_Honor={
-		name="Remitius Honor"
+	BON_Marcellus_Mentus={
+		name="Marcellus Mentus"
 
 		advisor={
 			slot = army_chief
-			idea_token = BON_Remitius_Honor
+			idea_token = BON_Marcellus_Mentus
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BON_Vibero_Legina={
+		name="Vibero Legina"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Vibero_Legina
 				traits = {	army_chief_planning_1 	}
 		}
 
 	}
-	BON_Spuriscus_Sons={
-		name="Spuriscus Sons"
+	BON_Horaticus_Avia={
+		name="Horaticus Avia"
 
 		advisor={
 			slot = army_chief
-			idea_token = BON_Spuriscus_Sons
-				traits = {	army_chief_organizational_2 	}
+			idea_token = BON_Horaticus_Avia
+				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	BON_Cassius_Honor={
-		name="Cassius Honor"
+	BON_Vitellius_Auctorus={
+		name="Vitellius Auctorus"
 
 		advisor={
 			slot = navy_chief
-			idea_token = BON_Cassius_Honor
-				traits = {	navy_chief_decisive_battle_1 	}
+			idea_token = BON_Vitellius_Auctorus
+				traits = {	navy_chief_old_guard_1 	}
 		}
 
 	}
-	BON_Domitus_Sons={
-		name="Domitus Sons"
+	BON_Gaiustus_Auctorus={
+		name="Gaiustus Auctorus"
 
 		advisor={
 			slot = navy_chief
-			idea_token = BON_Domitus_Sons
-				traits = {	navy_chief_naval_aviation_1 	}
+			idea_token = BON_Gaiustus_Auctorus
+				traits = {	navy_chief_maneuver_1 	}
 		}
 
 	}
-	BON_Otho_Honor={
-		name="Otho Honor"
+	BON_Spuriustus_Codus={
+		name="Spuriustus Codus"
 
 		advisor={
 			slot = air_chief
-			idea_token = BON_Otho_Honor
-				traits = {	air_chief_all_weather_2 	}
+			idea_token = BON_Spuriustus_Codus
+				traits = {	air_chief_old_guard_1 	}
 		}
 
 	}
-	BON_Lucimus_Machina={
-		name="Lucimus Machina"
+	BON_Gemus_Legina={
+		name="Gemus Legina"
 
 		advisor={
 			slot = air_chief
-			idea_token = BON_Lucimus_Machina
-				traits = {	air_chief_night_operations_1 	}
+			idea_token = BON_Gemus_Legina
+				traits = {	air_chief_all_weather_1 	}
 		}
 
 	}
-	BON_Titellianus_Aerrus={
-		name="Titellianus Aerrus"
+	BON_Decius_Bontudo={
+		name="Decius Bontudo"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Titellianus_Aerrus
+			idea_token = BON_Decius_Bontudo
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	BON_Paulustus_Auctorus={
+		name="Paulustus Auctorus"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Paulustus_Auctorus
 				traits = {	air_tactical_bombing_1 	}
 		}
 
 	}
-	BON_Brusus_Honor={
-		name="Brusus Honor"
+	BON_Reminus_Avia={
+		name="Reminus Avia"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Brusus_Honor
-				traits = {	navy_amphibious_assault_2 	}
+			idea_token = BON_Reminus_Avia
+				traits = {	army_logistics_2 	}
 		}
 
 	}
-	BON_Marcellus_Sons={
-		name="Marcellus Sons"
+	BON_Valervius_Codes={
+		name="Valervius Codes"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Marcellus_Sons
-				traits = {	navy_carrier_1 	}
+			idea_token = BON_Valervius_Codes
+				traits = {	army_radio_intelligence_2 	}
 		}
 
 	}
-	BON_Lucius_Aerrus={
-		name="Lucius Aerrus"
+	BON_Gemitus_Fidus={
+		name="Gemitus Fidus"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Lucius_Aerrus
-				traits = {	air_airborne_2 	}
+			idea_token = BON_Gemitus_Fidus
+				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	BON_Tracchus_Anitastria={
-		name="Tracchus Anitastria"
+	BON_Brus_Legina={
+		name="Brus Legina"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Tracchus_Anitastria
-				traits = {	air_bomber_interception_1 	}
+			idea_token = BON_Brus_Legina
+				traits = {	navy_fleet_logistics_2 	}
 		}
 
 	}
-	BON_Drutus_Reginus={
-		name="Drutus Reginus"
+	BON_Flaulius_Mena={
+		name="Flaulius Mena"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BON_Silvanus_Codus={
+		name="Silvanus Codus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Silvanus_Codus
+				traits = {	polemarch 	}
+		}
+
+	}
+	BON_Varcus_Auctorus={
+		name="Varcus Auctorus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Varcus_Auctorus
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	BON_Corneliustus_Fidus={
+		name="Corneliustus Fidus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Corneliustus_Fidus
+				traits = {	polemarch 	}
+		}
+
+	}
+	BON_Gaius_Mentus={
+		name="Gaius Mentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Gaius_Mentus
+				traits = {	infirm 	}
+		}
+
+	}
+	BON_Gemus_Auctorus={
+		name="Gemus Auctorus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Gemus_Auctorus
+				traits = {	infirm 	}
+		}
+
+	}
+	BON_Gemus_Codus={
+		name="Gemus Codus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Gemus_Codus
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	BON_Remus_Bontudo={
+		name="Remus Bontudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Remus_Bontudo
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BON_Domitusus_Codes={
+		name="Domitusus Codes"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Domitusus_Codes
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BON_Silvanlianus_Bontudo={
+		name="Silvanlianus Bontudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Silvanlianus_Bontudo
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	BON_Drus_Avia={
+		name="Drus Avia"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Drus_Avia
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BON_Gaiustus_Codus={
+		name="Gaiustus Codus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BON_Gaiustus_Codus
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	BON_Flaulius_Domentus={
+		name="Flaulius Domentus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BON_Flaulius_Domentus
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	BON_Paus_Auctorus={
+		name="Paus Auctorus"
+
+		advisor={
+			slot = air_chief
+			idea_token = BON_Paus_Auctorus
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	BON_Maximus_Auctorus={
+		name="Maximus Auctorus"
+
+		advisor={
+			slot = air_chief
+			idea_token = BON_Maximus_Auctorus
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	BON_Julus_Bontudo={
+		name="Julus Bontudo"
 
 		advisor={
 			slot = high_command
-			idea_token = BON_Drutus_Reginus
+			idea_token = BON_Julus_Bontudo
 				traits = {	army_logistics_1 	}
 		}
 
 	}
-	BON_Vibius_Honor={
-		name="Vibius Honor"
+	BON_Horacchustus_Mentus={
+		name="Horacchustus Mentus"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Horacchustus_Mentus
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	BON_Vitellius_Codes={
+		name="Vitellius Codes"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Vitellius_Codes
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	BON_Vitellius_Avia={
+		name="Vitellius Avia"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Vitellius_Avia
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	BON_Domintus_Codus={
+		name="Domintus Codus"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Domintus_Codus
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	BON_Gaius_Codes={
+		name="Gaius Codes"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Gaius_Codes
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	BON_Gemitus_Mentus={
+		name="Gemitus Mentus"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BON_Seriscus_Legina={
+		name="Seriscus Legina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Seriscus_Legina
+				traits = {	the_banker 	}
+		}
+
+	}
+	BON_Antonius_Codus={
+		name="Antonius Codus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Antonius_Codus
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	BON_Vibervius_Mena={
+		name="Vibervius Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Vibervius_Mena
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	BON_Viberius_Bontudo={
+		name="Viberius Bontudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Viberius_Bontudo
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	BON_Lonius_Avia={
+		name="Lonius Avia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Lonius_Avia
+				traits = {	the_banker 	}
+		}
+
+	}
+	BON_Brus_Mentus={
+		name="Brus Mentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BON_Brus_Mentus
+				traits = {	the_banker 	}
+		}
+
+	}
+	BON_Attiusus_Mena={
+		name="Attiusus Mena"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Attiusus_Mena
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BON_Silvanus_Auctorus={
+		name="Silvanus Auctorus"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Silvanus_Auctorus
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BON_Domitusus_Codus={
+		name="Domitusus Codus"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Domitusus_Codus
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BON_Nero_Fidus={
+		name="Nero Fidus"
+
+		advisor={
+			slot = army_chief
+			idea_token = BON_Nero_Fidus
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BON_Lucius_Fidus={
+		name="Lucius Fidus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BON_Lucius_Fidus
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	BON_Spurius_Mentus={
+		name="Spurius Mentus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BON_Spurius_Mentus
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	BON_Marro_Fidus={
+		name="Marro Fidus"
+
+		advisor={
+			slot = air_chief
+			idea_token = BON_Marro_Fidus
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	BON_Atticus_Auctorus={
+		name="Atticus Auctorus"
+
+		advisor={
+			slot = air_chief
+			idea_token = BON_Atticus_Auctorus
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	BON_Silvanus_Domentus={
+		name="Silvanus Domentus"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Silvanus_Domentus
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	BON_Drus_Codus={
+		name="Drus Codus"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Drus_Codus
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	BON_Atticus_Fidus={
+		name="Atticus Fidus"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Atticus_Fidus
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	BON_Lucius_Mena={
+		name="Lucius Mena"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Lucius_Mena
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	BON_Varro_Avia={
+		name="Varro Avia"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Varro_Avia
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	BON_Valervius_Domentus={
+		name="Valervius Domentus"
+
+		advisor={
+			slot = high_command
+			idea_token = BON_Valervius_Domentus
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	BON_Silvanus_Mentus={
+		name="Silvanus Mentus"
 
 		advisor={
 			slot = theorist
-			idea_token = BON_Vibius_Honor
+			idea_token = BON_Silvanus_Mentus
 				traits = {	military_theorist 	}
 		}
 
 	}
-	BON_Paus_Honor={
-		name="Paus Honor"
+	BON_Brutus_Auctorus={
+		name="Brutus Auctorus"
 
 		advisor={
 			slot = theorist
-			idea_token = BON_Paus_Honor
+			idea_token = BON_Brutus_Auctorus
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	BON_Viticus_Dientudax={
-		name="Viticus Dientudax"
+	BON_Viberius_Codus={
+		name="Viberius Codus"
 
 		advisor={
 			slot = theorist
-			idea_token = BON_Viticus_Dientudax
+			idea_token = BON_Viberius_Codus
 				traits = {	air_warfare_theorist 	}
 		}
 

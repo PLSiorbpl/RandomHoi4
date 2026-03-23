@@ -2,12 +2,12 @@
 state={
 	id=960
 	name="STATE_960"
-	manpower = 1203915
+	manpower = 975362
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=6
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 12830 6}
-		victory_points = { 12845 3}
+		victory_points = { 11453 4}
+		victory_points = { 11455 1}
 		
-		owner = DUA
+		owner = BAC
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 3
+			air_base = 6
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = DUA
+		add_core_of = BAC
 	}
 
 	provinces={
-		12829 12830 12831 12832 12833 12834 12835 12836 12837 12838 12839 12840 12841 12842 12843 12844 12845 12846 
+		11449 11450 11451 11452 11453 11454 11455 11456 11457 11458 
 	}
 	local_supplies=0.0 
 }

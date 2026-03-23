@@ -2,38 +2,41 @@
 state={
 	id=522
 	name="STATE_522"
-	manpower = 659577
+	manpower = 889070
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=4
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=8
 	}
 
 	history={
-		victory_points = { 6853 1}
-		victory_points = { 6855 3}
+		victory_points = { 6260 1}
+		victory_points = { 6264 4}
 		
-		owner = NAK
+		owner = IKA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
+			6258 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = NAK
+		add_core_of = IKA
 	}
 
 	provinces={
-		6853 6854 6855 6856 6857 6858 6859 6860 6861 
+		6256 6257 6258 6259 6260 6261 6262 6263 6264 
 	}
 	local_supplies=0.0 
 }

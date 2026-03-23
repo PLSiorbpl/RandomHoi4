@@ -2,38 +2,38 @@
 state={
 	id=667
 	name="STATE_667"
-	manpower = 1048287
+	manpower = 790635
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=2
 		chromium=0
-		oil=2
+		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
-		coal=0
+		coal=12
 	}
 
 	history={
-		victory_points = { 8880 5}
-		victory_points = { 8888 1}
+		victory_points = { 7917 3}
+		victory_points = { 7922 1}
 		
-		owner = ULU
+		owner = IKA
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = IKA
 	}
 
 	provinces={
-		8875 8876 8877 8878 8879 8880 8881 8882 8883 8884 8885 8886 8887 8888 8889 
+		7917 7918 7919 7920 7921 7922 7923 7924 
 	}
 	local_supplies=0.0 
 }

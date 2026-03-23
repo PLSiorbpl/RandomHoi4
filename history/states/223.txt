@@ -2,41 +2,37 @@
 state={
 	id=223
 	name="STATE_223"
-	manpower = 512638
+	manpower = 696295
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 3046 1}
-		victory_points = { 3055 1}
+		victory_points = { 2709 3}
 		
-		owner = HBA
+		owner = HAM
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			air_base = 1
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
-			3044 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = HBA
+		add_core_of = HAM
 	}
 
 	provinces={
-		3040 3041 3042 3043 3044 3045 3046 3047 3048 3049 3050 3051 3052 3053 3054 3055 3056 3057 3058 3059 3060 3061 
+		2706 2707 2708 2709 2710 2711 2712 
 	}
 	local_supplies=0.0 
 }

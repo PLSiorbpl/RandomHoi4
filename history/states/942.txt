@@ -2,9 +2,9 @@
 state={
 	id=942
 	name="STATE_942"
-	manpower = 977528
+	manpower = 196241
 	
-	state_category = large_town
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 12576 3}
-		victory_points = { 12585 2}
+		victory_points = { 11185 1}
 		
-		owner = LOR
+		owner = CAH
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
+			11185 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = LOR
+		add_core_of = CAH
 	}
 
 	provinces={
-		12574 12575 12576 12577 12578 12579 12580 12581 12582 12583 12584 12585 12586 12587 12588 
+		11185 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=1022
 	name="STATE_1022"
-	manpower = 840959
+	manpower = 1028805
 	
 	state_category = town
 	#impassable = yes
@@ -10,30 +10,33 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=10
+		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 13445 3}
-		victory_points = { 13451 2}
+		victory_points = { 12173 1}
+		victory_points = { 12176 4}
 		
-		owner = KFM
+		owner = TOT
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
 			
+			12178 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KFM
+		add_core_of = TOT
 	}
 
 	provinces={
-		13445 13446 13447 13448 13449 13450 13451 13452 13453 13454 13455 13456 13457 13458 13459 
+		12170 12171 12172 12173 12174 12175 12176 12177 12178 12179 
 	}
 	local_supplies=0.0 
 }

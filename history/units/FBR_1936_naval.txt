@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Feris Fleet"			
+		naval_base = 15466
+		task_force = {
+			name = "Feris Fleet"
+			location = 15466
+			
+						ship = { name = "Celerrus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FBR version_name = "Otium Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

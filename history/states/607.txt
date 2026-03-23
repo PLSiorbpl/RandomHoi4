@@ -2,39 +2,37 @@
 state={
 	id=607
 	name="STATE_607"
-	manpower = 1462787
+	manpower = 631592
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8035 3}
-		victory_points = { 8046 4}
-		victory_points = { 8053 2}
+		victory_points = { 7193 3}
 		
-		owner = BON
+		owner = ZAP
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 3
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = BON
+		add_core_of = ZAP
 	}
 
 	provinces={
-		8035 8036 8037 8038 8039 8040 8041 8042 8043 8044 8045 8046 8047 8048 8049 8050 8051 8052 8053 8054 8055 8056 
+		7193 7194 7195 7196 7197 7198 
 	}
 	local_supplies=0.0 
 }

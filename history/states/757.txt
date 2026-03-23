@@ -2,14 +2,14 @@
 state={
 	id=757
 	name="STATE_757"
-	manpower = 2036927
+	manpower = 576103
 	
-	state_category = metropolis
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10149 5}
-		victory_points = { 10151 7}
-		victory_points = { 10160 3}
+		victory_points = { 8940 1}
+		victory_points = { 8943 1}
 		
-		owner = ULU
+		owner = IDU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = IDU
 	}
 
 	provinces={
-		10139 10140 10141 10142 10143 10144 10145 10146 10147 10148 10149 10150 10151 10152 10153 10154 10155 10156 10157 10158 10159 10160 10161 10162 10163 10164 10165 10166 10167 10168 10169 
+		8940 8941 8942 8943 8944 8945 
 	}
 	local_supplies=0.0 
 }

@@ -2,13 +2,13 @@
 state={
 	id=187
 	name="STATE_187"
-	manpower = 228279
+	manpower = 479329
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=6
 		oil=0
 		rubber=0
 		steel=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
+		victory_points = { 2303 1}
 		
-		owner = RNT
+		owner = HAM
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			2628 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = RNT
+		add_core_of = HAM
 	}
 
 	provinces={
-		2628 2629 
+		2303 2304 2305 2306 
 	}
 	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=913
 	name="STATE_913"
-	manpower = 1682270
+	manpower = 1261234
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,29 +13,27 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=9
 	}
 
 	history={
-		victory_points = { 12297 4}
-		victory_points = { 12302 2}
-		victory_points = { 12308 3}
-		victory_points = { 12311 2}
+		victory_points = { 10681 2}
+		victory_points = { 10685 5}
 		
-		owner = CNU
+		owner = TOT
 		buildings = {
 			infrastructure = 4
-			air_base = 3
-			arms_factory = 2
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CNU
+		add_core_of = TOT
 	}
 
 	provinces={
-		12296 12297 12298 12299 12300 12301 12302 12303 12304 12305 12306 12307 12308 12309 12310 12311 12312 12313 12314 12315 12316 12317 12318 12319 12320 12321 
+		10675 10676 10677 10678 10679 10680 10681 10682 10683 10684 10685 10686 10687 
 	}
 	local_supplies=0.0 
 }

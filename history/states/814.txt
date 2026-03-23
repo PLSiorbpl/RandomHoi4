@@ -2,40 +2,38 @@
 state={
 	id=814
 	name="STATE_814"
-	manpower = 1297585
+	manpower = 533679
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=1
+		aluminium=0
 		chromium=0
-		oil=5
+		oil=1
 		rubber=0
-		steel=28
+		steel=0
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 10952 5}
-		victory_points = { 10954 2}
-		victory_points = { 10962 1}
-		victory_points = { 10966 1}
+		victory_points = { 9503 1}
+		victory_points = { 9504 1}
 		
-		owner = PON
+		owner = DEL
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 2
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = DEL
 	}
 
 	provinces={
-		10951 10952 10953 10954 10955 10956 10957 10958 10959 10960 10961 10962 10963 10964 10965 10966 10967 10968 10969 
+		9503 9504 9505 9506 9507 
 	}
 	local_supplies=0.0 
 }

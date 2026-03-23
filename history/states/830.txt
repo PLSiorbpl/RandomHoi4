@@ -2,25 +2,25 @@
 state={
 	id=830
 	name="STATE_830"
-	manpower = 548903
+	manpower = 638219
 	
 	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=4
+		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=3
+		coal=0
 	}
 
 	history={
-		victory_points = { 11115 1}
-		victory_points = { 11121 1}
+		victory_points = { 9642 1}
+		victory_points = { 9644 1}
 		
-		owner = BON
+		owner = LIM
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = BON
+		add_core_of = LIM
 	}
 
 	provinces={
-		11115 11116 11117 11118 11119 11120 11121 
+		9642 9643 9644 9645 9646 9647 
 	}
 	local_supplies=0.0 
 }

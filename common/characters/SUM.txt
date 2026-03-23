@@ -1,0 +1,880 @@
+characters = {
+	SUM_Iban_Etxeko={
+		name="Iban Etxeko"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUM_Harka_Etxeko={
+		name="Harka Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Harka_Etxeko
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SUM_Ander_Kantu={
+		name="Ander Kantu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Ander_Kantu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SUM_Iban_Aintza={
+		name="Iban Aintza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Iban_Aintza
+				traits = {	headstrong 	}
+		}
+
+	}
+	SUM_Unai_Etxeko={
+		name="Unai Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Unai_Etxeko
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SUM_Miker_Aintza={
+		name="Miker Aintza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Miker_Aintza
+				traits = {	headstrong 	}
+		}
+
+	}
+	SUM_Unat_Balmugazkina={
+		name="Unat Balmugazkina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Unat_Balmugazkina
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SUM_Ikel_Hitza={
+		name="Ikel Hitza"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Ikel_Hitza
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SUM_Gorkaitorka_Etxeko={
+		name="Gorkaitorka Etxeko"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Gorkaitorka_Etxeko
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SUM_Gorkaizka_Etxeko={
+		name="Gorkaizka Etxeko"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Gorkaizka_Etxeko
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SUM_Gorkaitorkai_Gaurra={
+		name="Gorkaitorkai Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Gorkaitorkai_Gaurra
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SUM_Ekaitz_Berri={
+		name="Ekaitz Berri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Ekaitz_Berri
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SUM_Gaizka_Gaurra={
+		name="Gaizka Gaurra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Gaizka_Gaurra
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SUM_Gorkaitorkai_Zubi={
+		name="Gorkaitorkai Zubi"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Gorkaitorkai_Zubi
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SUM_Ibanti_Bizea={
+		name="Ibanti Bizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Ibanti_Bizea
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	SUM_Mikel_Gaurra={
+		name="Mikel Gaurra"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Mikel_Gaurra
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SUM_Unaitz_Aintza={
+		name="Unaitz Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Unaitz_Aintza
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SUM_Amai_Aintza={
+		name="Amai Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Amai_Aintza
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	SUM_Amaiur_Etxeko={
+		name="Amaiur Etxeko"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Amaiur_Etxeko
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SUM_Gorka_Aintza={
+		name="Gorka Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Gorka_Aintza
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	SUM_Gorkaizka_Aintza={
+		name="Gorkaizka Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Gorkaizka_Aintza
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	SUM_Eneko_Hitza={
+		name="Eneko Hitza"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUM_Iker_Zubi={
+		name="Iker Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Iker_Zubi
+				traits = {	generallissimo 	}
+		}
+
+	}
+	SUM_Aitor_Gaurra={
+		name="Aitor Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Aitor_Gaurra
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SUM_Ikel_Semena={
+		name="Ikel Semena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Ikel_Semena
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SUM_Unat_Gaurra={
+		name="Unat Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Unat_Gaurra
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SUM_Ibanti_Zubi={
+		name="Ibanti Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Ibanti_Zubi
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SUM_Gorkaitorkai_Balmugazkina={
+		name="Gorkaitorkai Balmugazkina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Gorkaitorkai_Balmugazkina
+				traits = {	polemarch 	}
+		}
+
+	}
+	SUM_Benat_Gaurra={
+		name="Benat Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Benat_Gaurra
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SUM_Xanti_Berri={
+		name="Xanti Berri"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Xanti_Berri
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SUM_Eder_Hitza={
+		name="Eder Hitza"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Eder_Hitza
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SUM_Ikel_Zubi={
+		name="Ikel Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Ikel_Zubi
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SUM_Asier_Bizea={
+		name="Asier Bizea"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Asier_Bizea
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SUM_Harkai_Aintza={
+		name="Harkai Aintza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Harkai_Aintza
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SUM_Mikel_Bizea={
+		name="Mikel Bizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Mikel_Bizea
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SUM_Miker_Berri={
+		name="Miker Berri"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Miker_Berri
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SUM_Aitorkaizka_Berri={
+		name="Aitorkaizka Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Aitorkaizka_Berri
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	SUM_Mikel_Kantu={
+		name="Mikel Kantu"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Mikel_Kantu
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	SUM_Amaiur_Bizea={
+		name="Amaiur Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Amaiur_Bizea
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SUM_Ekaitz_Etxeko={
+		name="Ekaitz Etxeko"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Ekaitz_Etxeko
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	SUM_Ander_Bizea={
+		name="Ander Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Ander_Bizea
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	SUM_Aitorkaizka_Aintza={
+		name="Aitorkaizka Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Aitorkaizka_Aintza
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SUM_Iker_Aintza={
+		name="Iker Aintza"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUM_Gaizka_Etxeko={
+		name="Gaizka Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Gaizka_Etxeko
+				traits = {	infirm 	}
+		}
+
+	}
+	SUM_Unat_Aintza={
+		name="Unat Aintza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Unat_Aintza
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SUM_Ander_Gaurra={
+		name="Ander Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Ander_Gaurra
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SUM_Miker_Balmugazkina={
+		name="Miker Balmugazkina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Miker_Balmugazkina
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SUM_Harkai_Etxeko={
+		name="Harkai Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Harkai_Etxeko
+				traits = {	polemarch 	}
+		}
+
+	}
+	SUM_Iban_Gaurra={
+		name="Iban Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Iban_Gaurra
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SUM_Ekaitz_Balmugazkina={
+		name="Ekaitz Balmugazkina"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Ekaitz_Balmugazkina
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SUM_Eder_Aintza={
+		name="Eder Aintza"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Eder_Aintza
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SUM_Amaiur_Berri={
+		name="Amaiur Berri"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Amaiur_Berri
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SUM_Benaitz_Gaurra={
+		name="Benaitz Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Benaitz_Gaurra
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SUM_Amaitz_Hitza={
+		name="Amaitz Hitza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Amaitz_Hitza
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SUM_Unat_Semena={
+		name="Unat Semena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Unat_Semena
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SUM_Iban_Bizea={
+		name="Iban Bizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Iban_Bizea
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SUM_Harkai_Balmugazkina={
+		name="Harkai Balmugazkina"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Harkai_Balmugazkina
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SUM_Eneko_Bizea={
+		name="Eneko Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Eneko_Bizea
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SUM_Ibai_Berri={
+		name="Ibai Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Ibai_Berri
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	SUM_Harka_Hitza={
+		name="Harka Hitza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Harka_Hitza
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	SUM_Xabier_Aintza={
+		name="Xabier Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Xabier_Aintza
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SUM_Aitz_Gaurra={
+		name="Aitz Gaurra"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Aitz_Gaurra
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	SUM_Amai_Berri={
+		name="Amai Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Amai_Berri
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	SUM_Koldo_Etxeko={
+		name="Koldo Etxeko"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUM_Unaitor_Etxeko={
+		name="Unaitor Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Unaitor_Etxeko
+				traits = {	rearmer 	}
+		}
+
+	}
+	SUM_Ekaiur_Etxeko={
+		name="Ekaiur Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Ekaiur_Etxeko
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	SUM_Gorkaizka_Bizea={
+		name="Gorkaizka Bizea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Gorkaizka_Bizea
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SUM_Iban_Zubi={
+		name="Iban Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Iban_Zubi
+				traits = {	the_banker 	}
+		}
+
+	}
+	SUM_Gorkaitorkai_Berri={
+		name="Gorkaitorkai Berri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Gorkaitorkai_Berri
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	SUM_Amaitz_Zubi={
+		name="Amaitz Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUM_Amaitz_Zubi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SUM_Xanti_Gaurra={
+		name="Xanti Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Xanti_Gaurra
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SUM_Unai_Berri={
+		name="Unai Berri"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Unai_Berri
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SUM_Unaitz_Etxeko={
+		name="Unaitz Etxeko"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Unaitz_Etxeko
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SUM_Ibanti_Balmugazkina={
+		name="Ibanti Balmugazkina"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUM_Ibanti_Balmugazkina
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SUM_Harkaizka_Etxeko={
+		name="Harkaizka Etxeko"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Harkaizka_Etxeko
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SUM_Amaiur_Zubi={
+		name="Amaiur Zubi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUM_Amaiur_Zubi
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SUM_Unaitz_Semena={
+		name="Unaitz Semena"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Unaitz_Semena
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SUM_Unaitz_Kantu={
+		name="Unaitz Kantu"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUM_Unaitz_Kantu
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SUM_Ikel_Etxeko={
+		name="Ikel Etxeko"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Ikel_Etxeko
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	SUM_Benaitz_Hitza={
+		name="Benaitz Hitza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Benaitz_Hitza
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	SUM_Aitorkaizka_Semena={
+		name="Aitorkaizka Semena"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Aitorkaizka_Semena
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	SUM_Benai_Bizea={
+		name="Benai Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Benai_Bizea
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SUM_Ikel_Berri={
+		name="Ikel Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Ikel_Berri
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SUM_Unai_Hitza={
+		name="Unai Hitza"
+
+		advisor={
+			slot = high_command
+			idea_token = SUM_Unai_Hitza
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	SUM_Asier_Gaurra={
+		name="Asier Gaurra"
+
+		advisor={
+			slot = theorist
+			idea_token = SUM_Asier_Gaurra
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SUM_Amaitz_Balmugazkina={
+		name="Amaitz Balmugazkina"
+
+		advisor={
+			slot = theorist
+			idea_token = SUM_Amaitz_Balmugazkina
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SUM_Amaiur_Kantu={
+		name="Amaiur Kantu"
+
+		advisor={
+			slot = theorist
+			idea_token = SUM_Amaiur_Kantu
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -2,38 +2,37 @@
 state={
 	id=103
 	name="STATE_103"
-	manpower = 1506952
+	manpower = 437225
 	
-	state_category = large_city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=5
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
-		victory_points = { 1533 8}
-		victory_points = { 1539 4}
+		victory_points = { 1370 1}
 		
-		owner = ETX
+		owner = BUN
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ETX
+		add_core_of = BUN
 	}
 
 	provinces={
-		1523 1524 1525 1526 1527 1528 1529 1530 1531 1532 1533 1534 1535 1536 1537 1538 1539 1540 1541 1542 1543 1544 1545 
+		1368 1369 1370 1371 
 	}
 	local_supplies=0.0 
 }

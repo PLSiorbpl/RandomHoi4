@@ -2,39 +2,38 @@
 state={
 	id=35
 	name="STATE_35"
-	manpower = 1785542
+	manpower = 1075013
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=6
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 466 3}
-		victory_points = { 468 4}
-		victory_points = { 470 5}
+		victory_points = { 453 5}
+		victory_points = { 456 1}
 		
-		owner = GAU
+		owner = YFX
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GAU
+		add_core_of = YFX
 	}
 
 	provinces={
-		443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 
+		449 450 451 452 453 454 455 456 457 458 459 
 	}
 	local_supplies=0.0 
 }

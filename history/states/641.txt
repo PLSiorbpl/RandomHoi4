@@ -2,39 +2,40 @@
 state={
 	id=641
 	name="STATE_641"
-	manpower = 2073906
+	manpower = 656086
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=6
+		oil=1
+		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 8545 13}
-		victory_points = { 8549 1}
-		victory_points = { 8558 2}
+		victory_points = { 7607 3}
 		
-		owner = FAB
+		owner = UFU
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 2
-			industrial_complex = 0
+			infrastructure = 3
 			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			7606 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = FAB
+		add_core_of = UFU
 	}
 
 	provinces={
-		8542 8543 8544 8545 8546 8547 8548 8549 8550 8551 8552 8553 8554 8555 8556 8557 8558 8559 8560 8561 8562 8563 8564 8565 8566 8567 8568 8569 8570 8571 8572 8573 8574 8575 
+		7602 7603 7604 7605 7606 7607 
 	}
 	local_supplies=0.0 
 }

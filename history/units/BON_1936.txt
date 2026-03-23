@@ -4,6 +4,7 @@ division_template = {
 	regiments = {
 			infantry = {  x = 0 y = 0 }
 			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
 			infantry = {  x = 1 y = 0 }
 			infantry = {  x = 1 y = 1 }
 
@@ -22,8 +23,10 @@ division_template = {
 			infantry = {  x = 0 y = 2 }
 			infantry = {  x = 1 y = 0 }
 			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
 			infantry = {  x = 2 y = 0 }
 			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
 
 	}
 	
@@ -43,15 +46,11 @@ division_template = {
 			infantry = {  x = 1 y = 1 }
 			infantry = {  x = 1 y = 2 }
 			infantry = {  x = 1 y = 3 }
-			infantry = {  x = 2 y = 0 }
-			infantry = {  x = 2 y = 1 }
-			infantry = {  x = 2 y = 2 }
 
 	}
 	
 	support = {
 			artillery = {  x = 0 y = 0 }
-			maintenance_company = {  x = 1 y = 0 }
 
 	}
 }
@@ -64,7 +63,6 @@ division_template = {
 			infantry = {  x = 0 y = 2 }
 			infantry = {  x = 1 y = 0 }
 			infantry = {  x = 1 y = 1 }
-			infantry = {  x = 1 y = 2 }
 			infantry = {  x = 2 y = 0 }
 			infantry = {  x = 2 y = 1 }
 			artillery_brigade = {  x = 3 y = 0 }
@@ -84,10 +82,8 @@ division_template = {
 			cavalry = {  x = 0 y = 0 }
 			cavalry = {  x = 0 y = 1 }
 			cavalry = {  x = 0 y = 2 }
-			cavalry = {  x = 0 y = 3 }
 			cavalry = {  x = 1 y = 0 }
 			cavalry = {  x = 1 y = 1 }
-			cavalry = {  x = 1 y = 2 }
 
 	}
 	
@@ -102,11 +98,12 @@ division_template = {
 			motorized = {  x = 0 y = 0 }
 			motorized = {  x = 0 y = 1 }
 			motorized = {  x = 0 y = 2 }
-			motorized = {  x = 0 y = 3 }
 			motorized = {  x = 1 y = 0 }
 			motorized = {  x = 1 y = 1 }
 			motorized = {  x = 1 y = 2 }
-			motorized = {  x = 1 y = 3 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			motorized = {  x = 2 y = 2 }
 
 	}
 	
@@ -120,14 +117,14 @@ division_template = {
 	regiments = {
 			motorized = {  x = 0 y = 0 }
 			motorized = {  x = 0 y = 1 }
-			motorized = {  x = 0 y = 2 }
 			motorized = {  x = 1 y = 0 }
 			motorized = {  x = 1 y = 1 }
 
 	}
 	
 	support = {
-			maintenance_company = {  x = 0 y = 0 }
+			anti_air = {  x = 0 y = 0 }
+			recon = {  x = 1 y = 0 }
 
 	}
 }
@@ -140,19 +137,33 @@ division_template = {
 			motorized = {  x = 0 y = 2 }
 			motorized = {  x = 1 y = 0 }
 			motorized = {  x = 1 y = 1 }
-			motorized = {  x = 1 y = 2 }
 			mot_artillery_brigade = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 2 y = 1 }
 
 	}
 	
 	support = {
-			maintenance_company = {  x = 0 y = 0 }
-			recon = {  x = 1 y = 0 }
+			artillery = {  x = 0 y = 0 }
+			anti_air = {  x = 1 y = 0 }
 
 	}
 }
 
 
 units = {
+	division= {
+		name = "0st 'Legina' Militia Division"
+		location = 5054
+		division_template = "Militia Division"
+		start_experience_factor = 0.955620
+		start_equipment_factor = 0.994854
+	}
+	division= {
+		name = "0st 'Codus' Cavalry Division"
+		location = 8685
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.582511
+		start_equipment_factor = 1.000000
+	}
 
 }

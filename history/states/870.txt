@@ -2,14 +2,14 @@
 state={
 	id=870
 	name="STATE_870"
-	manpower = 487914
+	manpower = 1172997
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,10 +17,10 @@ state={
 	}
 
 	history={
-		victory_points = { 11646 1}
-		victory_points = { 11647 1}
+		victory_points = { 10102 2}
+		victory_points = { 10104 4}
 		
-		owner = BEJ
+		owner = XEN
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = XEN
 	}
 
 	provinces={
-		11645 11646 11647 11648 11649 11650 
+		10101 10102 10103 10104 10105 10106 10107 10108 10109 10110 10111 10112 
 	}
 	local_supplies=0.0 
 }

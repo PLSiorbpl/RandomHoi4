@@ -2,7 +2,7 @@
 state={
 	id=662
 	name="STATE_662"
-	manpower = 461720
+	manpower = 597047
 	
 	state_category = rural
 	#impassable = yes
@@ -13,29 +13,27 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=13
 	}
 
 	history={
-		victory_points = { 8813 1}
+		victory_points = { 7863 2}
+		victory_points = { 7866 1}
 		
-		owner = BEJ
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			air_base = 3
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			8810 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = GIZ
 	}
 
 	provinces={
-		8809 8810 8811 8812 8813 8814 
+		7862 7863 7864 7865 7866 7867 
 	}
 	local_supplies=0.0 
 }

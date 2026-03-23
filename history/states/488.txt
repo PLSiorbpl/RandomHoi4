@@ -2,41 +2,40 @@
 state={
 	id=488
 	name="STATE_488"
-	manpower = 593258
+	manpower = 1520878
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=4
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6329 1}
-		victory_points = { 6330 2}
+		victory_points = { 5880 1}
+		victory_points = { 5881 2}
+		victory_points = { 5887 4}
+		victory_points = { 5896 1}
 		
-		owner = XRA
+		owner = JNI
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
-			6326 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = XRA
+		add_core_of = JNI
 	}
 
 	provinces={
-		6326 6327 6328 6329 6330 6331 6332 6333 
+		5880 5881 5882 5883 5884 5885 5886 5887 5888 5889 5890 5891 5892 5893 5894 5895 5896 5897 
 	}
 	local_supplies=0.0 
 }

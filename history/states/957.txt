@@ -2,41 +2,42 @@
 state={
 	id=957
 	name="STATE_957"
-	manpower = 746784
+	manpower = 1779534
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12782 1}
-		victory_points = { 12790 3}
+		victory_points = { 11396 6}
+		victory_points = { 11401 3}
+		victory_points = { 11403 1}
 		
-		owner = QON
+		owner = CAI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			12790 = {
+			industrial_complex = 1
+			
+			11406 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QON
+		add_core_of = CAI
 	}
 
 	provinces={
-		12782 12783 12784 12785 12786 12787 12788 12789 12790 12791 
+		11396 11397 11398 11399 11400 11401 11402 11403 11404 11405 11406 11407 11408 11409 11410 11411 11412 11413 11414 
 	}
 	local_supplies=0.0 
 }

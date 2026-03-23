@@ -2,9 +2,9 @@
 state={
 	id=1028
 	name="STATE_1028"
-	manpower = 955943
+	manpower = 2755174
 	
-	state_category = large_town
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,32 +12,31 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=8
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13524 4}
-		victory_points = { 13526 1}
-		victory_points = { 13532 2}
+		victory_points = { 12268 3}
+		victory_points = { 12280 14}
 		
-		owner = NCL
+		owner = AJT
 		buildings = {
 			infrastructure = 4
-			
-			arms_factory = 0
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 1
-			
-			13525 = {
+			dockyard = 1
+			12270 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = NCL
+		add_core_of = AJT
 	}
 
 	provinces={
-		13520 13521 13522 13523 13524 13525 13526 13527 13528 13529 13530 13531 13532 13533 
+		12252 12253 12254 12255 12256 12257 12258 12259 12260 12261 12262 12263 12264 12265 12266 12267 12268 12269 12270 12271 12272 12273 12274 12275 12276 12277 12278 12279 12280 12281 12282 
 	}
 	local_supplies=0.0 
 }

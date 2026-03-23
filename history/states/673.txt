@@ -2,9 +2,9 @@
 state={
 	id=673
 	name="STATE_673"
-	manpower = 912859
+	manpower = 214891
 	
-	state_category = large_town
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,30 +12,30 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=4
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8970 6}
+		victory_points = { 7996 1}
 		
-		owner = BEJ
+		owner = IDU
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			8972 = {
+			7996 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = IDU
 	}
 
 	provinces={
-		8969 8970 8971 8972 8973 8974 8975 8976 8977 8978 8979 8980 8981 
+		7996 
 	}
 	local_supplies=0.0 
 }

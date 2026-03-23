@@ -2,39 +2,38 @@
 state={
 	id=48
 	name="STATE_48"
-	manpower = 2486408
+	manpower = 2118368
 	
-	state_category = metropolis
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=17
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 670 2}
-		victory_points = { 676 7}
-		victory_points = { 700 9}
+		victory_points = { 644 3}
+		victory_points = { 663 9}
 		
-		owner = OON
+		owner = UXU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = OON
+		add_core_of = UXU
 	}
 
 	provinces={
-		662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 687 688 689 690 691 692 693 694 695 696 697 698 699 700 
+		638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 
 	}
 	local_supplies=0.0 
 }

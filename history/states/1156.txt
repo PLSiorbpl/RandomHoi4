@@ -2,14 +2,14 @@
 state={
 	id=1156
 	name="STATE_1156"
-	manpower = 801495
+	manpower = 778286
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 15126 5}
+		victory_points = { 14304 1}
+		victory_points = { 14306 1}
+		victory_points = { 14310 1}
 		
-		owner = BTC
+		owner = COO
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BTC
+		add_core_of = COO
 	}
 
 	provinces={
-		15125 15126 15127 15128 15129 15130 15131 15132 15133 15134 15135 
+		14303 14304 14305 14306 14307 14308 14309 14310 
 	}
 	local_supplies=0.0 
 }

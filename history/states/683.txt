@@ -2,9 +2,9 @@
 state={
 	id=683
 	name="STATE_683"
-	manpower = 1270065
+	manpower = 674344
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,28 +12,27 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=5
 		coal=0
 	}
 
 	history={
-		victory_points = { 9113 6}
-		victory_points = { 9115 4}
+		victory_points = { 8100 2}
 		
-		owner = DAN
+		owner = YAG
 		buildings = {
-			infrastructure = 4
-			
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = DAN
+		add_core_of = YAG
 	}
 
 	provinces={
-		9107 9108 9109 9110 9111 9112 9113 9114 9115 9116 9117 9118 9119 9120 9121 9122 9123 9124 9125 
+		8098 8099 8100 8101 8102 8103 
 	}
 	local_supplies=0.0 
 }

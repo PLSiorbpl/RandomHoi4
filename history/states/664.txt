@@ -2,9 +2,9 @@
 state={
 	id=664
 	name="STATE_664"
-	manpower = 724798
+	manpower = 365098
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,28 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 8830 1}
-		victory_points = { 8831 1}
-		victory_points = { 8832 1}
-		victory_points = { 8839 1}
+		victory_points = { 7885 1}
 		
-		owner = WEA
+		owner = IDU
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			8831 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = WEA
+		add_core_of = IDU
 	}
 
 	provinces={
-		8830 8831 8832 8833 8834 8835 8836 8837 8838 8839 
+		7884 7885 7886 
 	}
 	local_supplies=0.0 
 }

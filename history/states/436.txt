@@ -2,7 +2,7 @@
 state={
 	id=436
 	name="STATE_436"
-	manpower = 588930
+	manpower = 819442
 	
 	state_category = town
 	#impassable = yes
@@ -11,17 +11,17 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5694 1}
-		victory_points = { 5696 1}
-		victory_points = { 5698 1}
+		victory_points = { 5227 1}
+		victory_points = { 5229 2}
+		victory_points = { 5231 1}
 		
-		owner = YMM
+		owner = ZAP
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -30,11 +30,11 @@ state={
 			
 			
 		}
-		add_core_of = YMM
+		add_core_of = ZAP
 	}
 
 	provinces={
-		5693 5694 5695 5696 5697 5698 5699 5700 
+		5227 5228 5229 5230 5231 5232 5233 5234 
 	}
 	local_supplies=0.0 
 }

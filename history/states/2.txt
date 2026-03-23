@@ -2,40 +2,40 @@
 state={
 	id=2
 	name="STATE_2"
-	manpower = 552918
+	manpower = 1392461
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13 1}
+		victory_points = { 10 8}
 		
-		owner = BEJ
+		owner = EAG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			12 = {
+			8 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = EAG
 	}
 
 	provinces={
-		12 13 14 15 16 17 18 
+		3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=584
 	name="STATE_584"
-	manpower = 833010
+	manpower = 1485309
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=7
-		chromium=0
-		oil=0
+		aluminium=0
+		chromium=12
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 7719 6}
+		victory_points = { 6937 4}
+		victory_points = { 6947 2}
+		victory_points = { 6950 2}
 		
-		owner = KOB
+		owner = KQL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
+			6937 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KOB
+		add_core_of = KQL
 	}
 
 	provinces={
-		7719 7720 7721 7722 7723 7724 7725 7726 7727 7728 7729 7730 
+		6936 6937 6938 6939 6940 6941 6942 6943 6944 6945 6946 6947 6948 6949 6950 6951 
 	}
 	local_supplies=0.0 
 }

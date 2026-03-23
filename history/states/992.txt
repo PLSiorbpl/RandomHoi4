@@ -2,12 +2,12 @@
 state={
 	id=992
 	name="STATE_992"
-	manpower = 202066
+	manpower = 365204
 	
 	state_category = pastoral
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,21 +17,22 @@ state={
 	}
 
 	history={
+		victory_points = { 11782 1}
 		
-		owner = BRE
+		owner = BAC
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BRE
+		add_core_of = BAC
 	}
 
 	provinces={
-		13217 13218 
+		11782 11783 11784 
 	}
 	local_supplies=0.0 
 }

@@ -2,38 +2,38 @@
 state={
 	id=598
 	name="STATE_598"
-	manpower = 717915
+	manpower = 678101
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7900 3}
-		victory_points = { 7904 1}
+		victory_points = { 7075 2}
+		victory_points = { 7076 1}
 		
-		owner = IMA
+		owner = SUM
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = IMA
+		add_core_of = SUM
 	}
 
 	provinces={
-		7900 7901 7902 7903 7904 7905 7906 7907 7908 7909 
+		7075 7076 7077 7078 7079 7080 7081 
 	}
 	local_supplies=0.0 
 }

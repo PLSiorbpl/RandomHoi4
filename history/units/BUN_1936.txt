@@ -1,0 +1,244 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 0 y = 3 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			motorized = {  x = 1 y = 3 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			motorized = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+			engineer = {  x = 1 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Bira' Militia Division"
+		location = 1902
+		division_template = "Militia Division"
+		start_experience_factor = 0.943822
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Arwa' Militia Division"
+		location = 3392
+		division_template = "Militia Division"
+		start_experience_factor = 0.249687
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Bira' Militia Division"
+		location = 3283
+		division_template = "Militia Division"
+		start_experience_factor = 0.455062
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Itza' Militia Division"
+		location = 1964
+		division_template = "Militia Division"
+		start_experience_factor = 0.853465
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Begia' Militia Division"
+		location = 2
+		division_template = "Militia Division"
+		start_experience_factor = 0.926970
+		start_equipment_factor = 0.938218
+	}
+	division= {
+		name = "0st 'Mimbatuarang' Infantry Division"
+		location = 2043
+		division_template = "Infantry Division"
+		start_experience_factor = 0.642153
+		start_equipment_factor = 0.950325
+	}
+	division= {
+		name = "1nd 'Tempisua' Infantry Division"
+		location = 2307
+		division_template = "Infantry Division"
+		start_experience_factor = 0.182378
+		start_equipment_factor = 0.938597
+	}
+	division= {
+		name = "2rd 'Begia' Infantry Division"
+		location = 3418
+		division_template = "Infantry Division"
+		start_experience_factor = 0.905359
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Itza' Supported Infantry Division"
+		location = 1964
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.732053
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Begitasaiaki' Artillery Division"
+		location = 1972
+		division_template = "Artillery Division"
+		start_experience_factor = 0.315760
+		start_equipment_factor = 0.953494
+	}
+	division= {
+		name = "0st 'Oroiziona' Cavalry Division"
+		location = 3117
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.586408
+		start_equipment_factor = 0.965921
+	}
+	division= {
+		name = "1nd 'Terjat' Cavalry Division"
+		location = 3389
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.136707
+		start_equipment_factor = 0.951779
+	}
+	division= {
+		name = "2rd 'Arombatang' Cavalry Division"
+		location = 3399
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.992724
+		start_equipment_factor = 1.000000
+	}
+
+}

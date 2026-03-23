@@ -2,9 +2,9 @@
 state={
 	id=251
 	name="STATE_251"
-	manpower = 197498
+	manpower = 1489763
 	
-	state_category = pastoral
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 3432 1}
+		victory_points = { 2985 1}
+		victory_points = { 2988 1}
+		victory_points = { 2995 6}
 		
-		owner = HUA
+		owner = HEI
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 4
 			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2985 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HUA
+		add_core_of = HEI
 	}
 
 	provinces={
-		3432 3433 
+		2983 2984 2985 2986 2987 2988 2989 2990 2991 2992 2993 2994 2995 2996 2997 2998 
 	}
 	local_supplies=0.0 
 }

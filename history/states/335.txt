@@ -2,7 +2,7 @@
 state={
 	id=335
 	name="STATE_335"
-	manpower = 674514
+	manpower = 955461
 	
 	state_category = town
 	#impassable = yes
@@ -11,29 +11,32 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4518 1}
-		victory_points = { 4520 3}
+		victory_points = { 3945 3}
+		victory_points = { 3947 2}
 		
-		owner = CJE
+		owner = EAG
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
-			
+			industrial_complex = 0
+			dockyard = 1
+			3946 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = CJE
+		add_core_of = EAG
 	}
 
 	provinces={
-		4516 4517 4518 4519 4520 4521 4522 4523 4524 
+		3940 3941 3942 3943 3944 3945 3946 3947 3948 3949 
 	}
 	local_supplies=0.0 
 }

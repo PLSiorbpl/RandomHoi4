@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Gizkintza Fleet"			
+		naval_base = 9680
+		task_force = {
+			name = "Gizkintza Fleet"
+			location = 9680
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

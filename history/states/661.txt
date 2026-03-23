@@ -2,38 +2,39 @@
 state={
 	id=661
 	name="STATE_661"
-	manpower = 615819
+	manpower = 907282
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8806 1}
-		victory_points = { 8808 2}
+		victory_points = { 7854 1}
+		victory_points = { 7856 2}
+		victory_points = { 7860 2}
 		
-		owner = NAK
+		owner = XEN
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = XEN
 	}
 
 	provinces={
-		8801 8802 8803 8804 8805 8806 8807 8808 
+		7853 7854 7855 7856 7857 7858 7859 7860 7861 
 	}
 	local_supplies=0.0 
 }

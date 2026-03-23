@@ -2,14 +2,14 @@
 state={
 	id=486
 	name="STATE_486"
-	manpower = 470833
+	manpower = 1220012
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 6316 2}
+		victory_points = { 5855 2}
+		victory_points = { 5859 2}
+		victory_points = { 5861 3}
 		
-		owner = NAK
+		owner = AKI
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = AKI
 	}
 
 	provinces={
-		6310 6311 6312 6313 6314 6315 6316 6317 6318 6319 6320 
+		5855 5856 5857 5858 5859 5860 5861 5862 5863 5864 5865 5866 5867 
 	}
 	local_supplies=0.0 
 }

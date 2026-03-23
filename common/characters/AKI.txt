@@ -1,0 +1,880 @@
+characters = {
+	AKI_Iderfannis_Thant={
+		name="Iderfannis Thant"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AKI_Karim_Tamsirt={
+		name="Karim Tamsirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Karim_Tamsirt
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	AKI_Amari_Thant={
+		name="Amari Thant"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Amari_Thant
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	AKI_Karimokranni_Afsous={
+		name="Karimokranni Afsous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Karimokranni_Afsous
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	AKI_Aselmad_Imazrous={
+		name="Aselmad Imazrous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Aselmad_Imazrous
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	AKI_Aselmariq_Amezwur={
+		name="Aselmariq Amezwur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Aselmariq_Amezwur
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	AKI_Tarimokran_Afsous={
+		name="Tarimokran Afsous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Tarimokran_Afsous
+				traits = {	headstrong 	}
+		}
+
+	}
+	AKI_Mimokran_Thant={
+		name="Mimokran Thant"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Mimokran_Thant
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	AKI_Mezian_Tawinim={
+		name="Mezian Tawinim"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Mezian_Tawinim
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	AKI_Sifannissa_Afsous={
+		name="Sifannissa Afsous"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Sifannissa_Afsous
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	AKI_Aziz_Amdirt={
+		name="Aziz Amdirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Aziz_Amdirt
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	AKI_Aziz_Tamsirt={
+		name="Aziz Tamsirt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Aziz_Tamsirt
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	AKI_Sifannissa_Thant={
+		name="Sifannissa Thant"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Sifannissa_Thant
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	AKI_Mimokranniss_Thant={
+		name="Mimokranniss Thant"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Mimokranniss_Thant
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	AKI_Karen_Amezwur={
+		name="Karen Amezwur"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Karen_Amezwur
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	AKI_Amokrannis_Imazrous={
+		name="Amokrannis Imazrous"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Amokrannis_Imazrous
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	AKI_Meziz_Tawinim={
+		name="Meziz Tawinim"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Meziz_Tawinim
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	AKI_Lyes_Tawinim={
+		name="Lyes Tawinim"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Lyes_Tawinim
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	AKI_Iskarim_Amdirt={
+		name="Iskarim Amdirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Iskarim_Amdirt
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	AKI_Iskarim_Amezwur={
+		name="Iskarim Amezwur"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Iskarim_Amezwur
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	AKI_Ziriq_Talut={
+		name="Ziriq Talut"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Ziriq_Talut
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	AKI_Ziri_Tamaza={
+		name="Ziri Tamaza"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AKI_Mokrane_Amdirt={
+		name="Mokrane Amdirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Mokrane_Amdirt
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	AKI_Tarimokran_Thant={
+		name="Tarimokran Thant"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Tarimokran_Thant
+				traits = {	generallissimo 	}
+		}
+
+	}
+	AKI_Mezian_Tamsirt={
+		name="Mezian Tamsirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Mezian_Tamsirt
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	AKI_Yane_Afsous={
+		name="Yane Afsous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Yane_Afsous
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	AKI_Amarim_Amdirt={
+		name="Amarim Amdirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Amarim_Amdirt
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	AKI_Karen_Tamaza={
+		name="Karen Tamaza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Karen_Tamaza
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	AKI_Mimoun_Tawinim={
+		name="Mimoun Tawinim"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Mimoun_Tawinim
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	AKI_Amoun_Talut={
+		name="Amoun Talut"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Amoun_Talut
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	AKI_Iderfax_Tamaza={
+		name="Iderfax Tamaza"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Iderfax_Tamaza
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	AKI_Meziz_Amezwur={
+		name="Meziz Amezwur"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Meziz_Amezwur
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	AKI_Amarimokran_Talut={
+		name="Amarimokran Talut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Amarimokran_Talut
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	AKI_Aziz_Imazrous={
+		name="Aziz Imazrous"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Aziz_Imazrous
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	AKI_Aselmar_Tawinim={
+		name="Aselmar Tawinim"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Aselmar_Tawinim
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	AKI_Amokrannis_Afsous={
+		name="Amokrannis Afsous"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Amokrannis_Afsous
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	AKI_Sifane_Tamaza={
+		name="Sifane Tamaza"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Sifane_Tamaza
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	AKI_Sifane_Amdirt={
+		name="Sifane Amdirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Sifane_Amdirt
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	AKI_Iskar_Tamsirt={
+		name="Iskar Tamsirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Iskar_Tamsirt
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	AKI_Yane_Tawinim={
+		name="Yane Tawinim"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Yane_Tawinim
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	AKI_Mimokran_Imazrous={
+		name="Mimokran Imazrous"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Mimokran_Imazrous
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	AKI_Mimokran_Afsous={
+		name="Mimokran Afsous"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Mimokran_Afsous
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	AKI_Sifannis_Amezwur={
+		name="Sifannis Amezwur"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AKI_Tarimokran_Amezwur={
+		name="Tarimokran Amezwur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Tarimokran_Amezwur
+				traits = {	infirm 	}
+		}
+
+	}
+	AKI_Amokrane_Imazrous={
+		name="Amokrane Imazrous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Amokrane_Imazrous
+				traits = {	infirm 	}
+		}
+
+	}
+	AKI_Massa_Amezwur={
+		name="Massa Amezwur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Massa_Amezwur
+				traits = {	polemarch 	}
+		}
+
+	}
+	AKI_Amokrannis_Amezwur={
+		name="Amokrannis Amezwur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Amokrannis_Amezwur
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	AKI_Sifannissa_Imazrous={
+		name="Sifannissa Imazrous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Sifannissa_Imazrous
+				traits = {	political_dancer 	}
+		}
+
+	}
+	AKI_Meziz_Thant={
+		name="Meziz Thant"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Meziz_Thant
+				traits = {	infirm 	}
+		}
+
+	}
+	AKI_Sifane_Tamsirt={
+		name="Sifane Tamsirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Sifane_Tamsirt
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	AKI_Aselmar_Amezwur={
+		name="Aselmar Amezwur"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Aselmar_Amezwur
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	AKI_Iskarim_Tamaza={
+		name="Iskarim Tamaza"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Iskarim_Tamaza
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	AKI_Mimokranniss_Imazrous={
+		name="Mimokranniss Imazrous"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Mimokranniss_Imazrous
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	AKI_Amokrane_Afsous={
+		name="Amokrane Afsous"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Amokrane_Afsous
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	AKI_Tahariq_Thant={
+		name="Tahariq Thant"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Tahariq_Thant
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	AKI_Ziri_Imazrous={
+		name="Ziri Imazrous"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Ziri_Imazrous
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	AKI_Aselmariq_Imazrous={
+		name="Aselmariq Imazrous"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Aselmariq_Imazrous
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	AKI_Amokrannis_Tamaza={
+		name="Amokrannis Tamaza"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Amokrannis_Tamaza
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	AKI_Aziz_Tawinim={
+		name="Aziz Tawinim"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Aziz_Tawinim
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	AKI_Tahariq_Afsous={
+		name="Tahariq Afsous"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Tahariq_Afsous
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	AKI_Mimokran_Amezwur={
+		name="Mimokran Amezwur"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Mimokran_Amezwur
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	AKI_Aselmariq_Tamaza={
+		name="Aselmariq Tamaza"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Aselmariq_Tamaza
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	AKI_Taharen_Tamsirt={
+		name="Taharen Tamsirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Taharen_Tamsirt
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	AKI_Mimokranniss_Tamsirt={
+		name="Mimokranniss Tamsirt"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AKI_Meziz_Afsous={
+		name="Meziz Afsous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Meziz_Afsous
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	AKI_Mimokran_Talut={
+		name="Mimokran Talut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Mimokran_Talut
+				traits = {	the_banker 	}
+		}
+
+	}
+	AKI_Amokrane_Tawinim={
+		name="Amokrane Tawinim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Amokrane_Tawinim
+				traits = {	first_lady 	}
+		}
+
+	}
+	AKI_Saidi_Afsous={
+		name="Saidi Afsous"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Saidi_Afsous
+				traits = {	the_banker 	}
+		}
+
+	}
+	AKI_Mimokranniss_Tawinim={
+		name="Mimokranniss Tawinim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Mimokranniss_Tawinim
+				traits = {	infirm 	}
+		}
+
+	}
+	AKI_Taharen_Tawinim={
+		name="Taharen Tawinim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AKI_Taharen_Tawinim
+				traits = {	the_banker 	}
+		}
+
+	}
+	AKI_Aselmariq_Talut={
+		name="Aselmariq Talut"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Aselmariq_Talut
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	AKI_Aziane_Tamsirt={
+		name="Aziane Tamsirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Aziane_Tamsirt
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	AKI_Aselmaren_Afsous={
+		name="Aselmaren Afsous"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Aselmaren_Afsous
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	AKI_Aselmariq_Tamsirt={
+		name="Aselmariq Tamsirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = AKI_Aselmariq_Tamsirt
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	AKI_Meziz_Amdirt={
+		name="Meziz Amdirt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Meziz_Amdirt
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	AKI_Amoun_Amezwur={
+		name="Amoun Amezwur"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AKI_Amoun_Amezwur
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	AKI_Taharim_Talut={
+		name="Taharim Talut"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Taharim_Talut
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	AKI_Tafsut_Amezwur={
+		name="Tafsut Amezwur"
+
+		advisor={
+			slot = air_chief
+			idea_token = AKI_Tafsut_Amezwur
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	AKI_Massa_Thant={
+		name="Massa Thant"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Massa_Thant
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	AKI_Sifannis_Tawinim={
+		name="Sifannis Tawinim"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Sifannis_Tawinim
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	AKI_Ziriq_Thant={
+		name="Ziriq Thant"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Ziriq_Thant
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	AKI_Lyes_Tamsirt={
+		name="Lyes Tamsirt"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Lyes_Tamsirt
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	AKI_Amarimokran_Imazrous={
+		name="Amarimokran Imazrous"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Amarimokran_Imazrous
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	AKI_Amarimokran_Thant={
+		name="Amarimokran Thant"
+
+		advisor={
+			slot = high_command
+			idea_token = AKI_Amarimokran_Thant
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	AKI_Ziriq_Afsous={
+		name="Ziriq Afsous"
+
+		advisor={
+			slot = theorist
+			idea_token = AKI_Ziriq_Afsous
+				traits = {	military_theorist 	}
+		}
+
+	}
+	AKI_Meziane_Tamaza={
+		name="Meziane Tamaza"
+
+		advisor={
+			slot = theorist
+			idea_token = AKI_Meziane_Tamaza
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	AKI_Amarim_Imazrous={
+		name="Amarim Imazrous"
+
+		advisor={
+			slot = theorist
+			idea_token = AKI_Amarim_Imazrous
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

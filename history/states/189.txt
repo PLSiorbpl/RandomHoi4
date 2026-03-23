@@ -2,37 +2,42 @@
 state={
 	id=189
 	name="STATE_189"
-	manpower = 496625
+	manpower = 891576
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=4
+		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=2
 	}
 
 	history={
-		victory_points = { 2641 2}
+		victory_points = { 2313 2}
+		victory_points = { 2317 1}
+		victory_points = { 2318 2}
 		
-		owner = HOR
+		owner = HAM
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 1
+			2315 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HOR
+		add_core_of = HAM
 	}
 
 	provinces={
-		2640 2641 2642 2643 2644 2645 2646 
+		2311 2312 2313 2314 2315 2316 2317 2318 2319 
 	}
 	local_supplies=0.0 
 }

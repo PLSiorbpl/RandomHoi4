@@ -2,14 +2,14 @@
 state={
 	id=480
 	name="STATE_480"
-	manpower = 327507
+	manpower = 944457
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 6210 1}
+		victory_points = { 5783 1}
+		victory_points = { 5785 3}
 		
-		owner = ULU
+		owner = IKA
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = IKA
 	}
 
 	provinces={
-		6210 6211 6212 6213 
+		5782 5783 5784 5785 5786 5787 5788 5789 5790 5791 
 	}
 	local_supplies=0.0 
 }

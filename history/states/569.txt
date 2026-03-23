@@ -2,9 +2,9 @@
 state={
 	id=569
 	name="STATE_569"
-	manpower = 943900
+	manpower = 221572
 	
-	state_category = large_town
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 7480 1}
-		victory_points = { 7483 4}
-		victory_points = { 7486 1}
+		victory_points = { 6810 1}
 		
-		owner = MFN
+		owner = LIZ
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 3
 			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			6810 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MFN
+		add_core_of = LIZ
 	}
 
 	provinces={
-		7480 7481 7482 7483 7484 7485 7486 7487 7488 7489 7490 7491 7492 7493 
+		6810 
 	}
 	local_supplies=0.0 
 }

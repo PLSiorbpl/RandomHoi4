@@ -2,37 +2,38 @@
 state={
 	id=51
 	name="STATE_51"
-	manpower = 455429
+	manpower = 725395
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=4
+		oil=1
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 756 2}
+		victory_points = { 688 1}
+		victory_points = { 692 1}
 		
-		owner = HOR
+		owner = CDA
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HOR
+		add_core_of = CDA
 	}
 
 	provinces={
-		756 757 758 759 760 761 
+		686 687 688 689 690 691 692 
 	}
 	local_supplies=0.0 
 }

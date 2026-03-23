@@ -2,14 +2,14 @@
 state={
 	id=679
 	name="STATE_679"
-	manpower = 799830
+	manpower = 1840895
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 9065 3}
-		victory_points = { 9068 2}
+		victory_points = { 8050 11}
 		
-		owner = MFN
+		owner = XEN
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MFN
+		add_core_of = XEN
 	}
 
 	provinces={
-		9061 9062 9063 9064 9065 9066 9067 9068 9069 9070 9071 9072 
+		8044 8045 8046 8047 8048 8049 8050 8051 8052 8053 8054 8055 8056 8057 8058 8059 8060 8061 8062 8063 
 	}
 	local_supplies=0.0 
 }

@@ -2,41 +2,38 @@
 state={
 	id=1107
 	name="STATE_1107"
-	manpower = 1143305
+	manpower = 1171577
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=10
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14432 6}
-		victory_points = { 14442 2}
+		victory_points = { 13245 1}
+		victory_points = { 13246 5}
 		
-		owner = SLU
+		owner = VAN
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
-			14443 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = SLU
+		add_core_of = VAN
 	}
 
 	provinces={
-		14432 14433 14434 14435 14436 14437 14438 14439 14440 14441 14442 14443 14444 14445 14446 14447 14448 
+		13241 13242 13243 13244 13245 13246 13247 13248 13249 13250 13251 13252 
 	}
 	local_supplies=0.0 
 }

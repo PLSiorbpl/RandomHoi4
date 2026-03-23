@@ -2,42 +2,38 @@
 state={
 	id=399
 	name="STATE_399"
-	manpower = 1053259
+	manpower = 933088
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
-		tungsten=7
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5256 1}
-		victory_points = { 5258 4}
-		victory_points = { 5268 1}
+		victory_points = { 4799 1}
+		victory_points = { 4801 3}
 		
-		owner = ANI
+		owner = BON
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
-			5261 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ANI
+		add_core_of = BON
 	}
 
 	provinces={
-		5256 5257 5258 5259 5260 5261 5262 5263 5264 5265 5266 5267 5268 5269 5270 
+		4796 4797 4798 4799 4800 4801 4802 4803 4804 4805 
 	}
 	local_supplies=0.0 
 }

@@ -2,36 +2,38 @@
 state={
 	id=378
 	name="STATE_378"
-	manpower = 213859
+	manpower = 551783
 	
-	state_category = small_island
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=5
-		tungsten=0
+		steel=1
+		tungsten=1
 		coal=0
 	}
 
 	history={
+		victory_points = { 4510 1}
+		victory_points = { 4511 1}
 		
-		owner = GAU
+		owner = ZAP
 		buildings = {
-			infrastructure = 2
-			air_base = 4
+			infrastructure = 3
+			
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GAU
+		add_core_of = ZAP
 	}
 
 	provinces={
-		5014 5015 5016 5017 5018 5019 
+		4510 4511 4512 4513 4514 
 	}
 	local_supplies=0.0 
 }

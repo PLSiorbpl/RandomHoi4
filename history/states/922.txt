@@ -2,38 +2,42 @@
 state={
 	id=922
 	name="STATE_922"
-	manpower = 525877
+	manpower = 3149603
 	
-	state_category = rural
+	state_category = megalopolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12380 1}
-		victory_points = { 12381 1}
+		victory_points = { 10827 4}
+		victory_points = { 10850 7}
+		victory_points = { 10858 9}
 		
-		owner = GHU
+		owner = YFX
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 5
+			
 			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 3
+			10844 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = GHU
+		add_core_of = YFX
 	}
 
 	provinces={
-		12380 12381 12382 12383 12384 12385 12386 
+		10824 10825 10826 10827 10828 10829 10830 10831 10832 10833 10834 10835 10836 10837 10838 10839 10840 10841 10842 10843 10844 10845 10846 10847 10848 10849 10850 10851 10852 10853 10854 10855 10856 10857 10858 
 	}
 	local_supplies=0.0 
 }

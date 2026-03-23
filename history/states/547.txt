@@ -2,37 +2,37 @@
 state={
 	id=547
 	name="STATE_547"
-	manpower = 809685
+	manpower = 560610
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=5
+		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=0
-		tungsten=0
+		steel=5
+		tungsten=12
 		coal=0
 	}
 
 	history={
-		victory_points = { 7196 5}
+		victory_points = { 6576 2}
 		
-		owner = MAT
+		owner = ZAP
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MAT
+		add_core_of = ZAP
 	}
 
 	provinces={
-		7194 7195 7196 7197 7198 7199 7200 7201 7202 7203 7204 
+		6576 6577 6578 6579 6580 
 	}
 	local_supplies=0.0 
 }

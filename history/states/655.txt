@@ -2,14 +2,14 @@
 state={
 	id=655
 	name="STATE_655"
-	manpower = 312593
+	manpower = 1183014
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 8753 1}
+		victory_points = { 7792 6}
+		victory_points = { 7793 1}
 		
-		owner = ULU
+		owner = AHC
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = AHC
 	}
 
 	provinces={
-		8753 8754 8755 8756 
+		7785 7786 7787 7788 7789 7790 7791 7792 7793 7794 7795 7796 
 	}
 	local_supplies=0.0 
 }

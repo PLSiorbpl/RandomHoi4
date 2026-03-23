@@ -1,0 +1,192 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			anti_air = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Siranamai' Militia Division"
+		location = 13735
+		division_template = "Militia Division"
+		start_experience_factor = 0.045530
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Rimbahayah' Militia Division"
+		location = 12130
+		division_template = "Militia Division"
+		start_experience_factor = 0.758014
+		start_equipment_factor = 0.970539
+	}
+	division= {
+		name = "2rd 'Thoguganthi' Militia Division"
+		location = 13325
+		division_template = "Militia Division"
+		start_experience_factor = 0.990349
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Katpu' Militia Division"
+		location = 12458
+		division_template = "Militia Division"
+		start_experience_factor = 0.864521
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Taragai' Militia Division"
+		location = 13698
+		division_template = "Militia Division"
+		start_experience_factor = 0.303979
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Bung' Infantry Division"
+		location = 12917
+		division_template = "Infantry Division"
+		start_experience_factor = 0.565803
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Padik' Infantry Division"
+		location = 13696
+		division_template = "Infantry Division"
+		start_experience_factor = 0.950614
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Trahargai' Supported Infantry Division"
+		location = 13622
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.885038
+		start_equipment_factor = 0.995356
+	}
+	division= {
+		name = "0st 'Veli' Artillery Division"
+		location = 13338
+		division_template = "Artillery Division"
+		start_experience_factor = 0.266461
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Kaam' Cavalry Division"
+		location = 12457
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.014819
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Rimbahayah' Cavalry Division"
+		location = 10666
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.010677
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Rimbahayah' Cavalry Division"
+		location = 12028
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.457551
+		start_equipment_factor = 1.000000
+	}
+
+}

@@ -2,38 +2,37 @@
 state={
 	id=877
 	name="STATE_877"
-	manpower = 1366617
+	manpower = 586468
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=6
+		aluminium=11
 		chromium=0
 		oil=0
 		rubber=0
-		steel=16
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11747 4}
-		victory_points = { 11751 6}
+		victory_points = { 10200 2}
 		
-		owner = XRA
+		owner = TPM
 		buildings = {
-			infrastructure = 4
-			
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = XRA
+		add_core_of = TPM
 	}
 
 	provinces={
-		11733 11734 11735 11736 11737 11738 11739 11740 11741 11742 11743 11744 11745 11746 11747 11748 11749 11750 11751 11752 
+		10198 10199 10200 10201 10202 10203 
 	}
 	local_supplies=0.0 
 }

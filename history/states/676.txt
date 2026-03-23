@@ -2,40 +2,38 @@
 state={
 	id=676
 	name="STATE_676"
-	manpower = 1047757
+	manpower = 1096607
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=8
-		steel=0
+		oil=2
+		rubber=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9015 2}
-		victory_points = { 9016 1}
-		victory_points = { 9018 2}
-		victory_points = { 9023 2}
+		victory_points = { 8021 1}
+		victory_points = { 8027 5}
 		
-		owner = UAS
+		owner = RSM
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = UAS
+		add_core_of = RSM
 	}
 
 	provinces={
-		9014 9015 9016 9017 9018 9019 9020 9021 9022 9023 9024 9025 9026 9027 9028 9029 
+		8018 8019 8020 8021 8022 8023 8024 8025 8026 8027 8028 8029 
 	}
 	local_supplies=0.0 
 }

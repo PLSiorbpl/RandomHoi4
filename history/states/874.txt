@@ -2,14 +2,14 @@
 state={
 	id=874
 	name="STATE_874"
-	manpower = 286401
+	manpower = 804040
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 11701 1}
+		victory_points = { 10141 1}
+		victory_points = { 10143 3}
 		
-		owner = NAK
+		owner = UFU
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			11699 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = NAK
+		add_core_of = UFU
 	}
 
 	provinces={
-		11699 11700 11701 
+		10141 10142 10143 10144 10145 10146 10147 10148 
 	}
 	local_supplies=0.0 
 }

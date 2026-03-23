@@ -2,42 +2,40 @@
 state={
 	id=1298
 	name="STATE_1298"
-	manpower = 1742014
+	manpower = 547217
 	
-	state_category = large_city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=18
+		chromium=0
 		oil=0
 		rubber=6
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17063 5}
-		victory_points = { 17073 2}
-		victory_points = { 17074 6}
+		victory_points = { 17316 1}
 		
-		owner = KFM
+		owner = REO
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
-			dockyard = 1
-			17065 = {
+			industrial_complex = 0
+			
+			17316 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = KFM
+		add_core_of = REO
 	}
 
 	provinces={
-		17062 17063 17064 17065 17066 17067 17068 17069 17070 17071 17072 17073 17074 17075 17076 17077 17078 17079 17080 17081 17082 17083 17084 17085 17086 17087 17088 17089 17090 17091 
+		17312 17313 17314 17315 17316 17317 17318 17319 17320 17321 
 	}
 	local_supplies=0.0 
 }

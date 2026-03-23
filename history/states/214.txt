@@ -2,12 +2,12 @@
 state={
 	id=214
 	name="STATE_214"
-	manpower = 2966003
+	manpower = 2203105
 	
-	state_category = megalopolis
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=22
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,28 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 2930 2}
-		victory_points = { 2934 11}
-		victory_points = { 2954 6}
-		victory_points = { 2959 5}
+		victory_points = { 2604 6}
+		victory_points = { 2605 7}
 		
-		owner = OON
+		owner = HAM
 		buildings = {
-			infrastructure = 5
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 1
-			industrial_complex = 0
-			dockyard = 3
-			2934 = {
-				naval_base = 1
-			}
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = OON
+		add_core_of = HAM
 	}
 
 	provinces={
-		2919 2920 2921 2922 2923 2924 2925 2926 2927 2928 2929 2930 2931 2932 2933 2934 2935 2936 2937 2938 2939 2940 2941 2942 2943 2944 2945 2946 2947 2948 2949 2950 2951 2952 2953 2954 2955 2956 2957 2958 2959 2960 2961 2962 2963 2964 2965 
+		2601 2602 2603 2604 2605 2606 2607 2608 2609 2610 2611 2612 2613 2614 2615 2616 2617 2618 2619 2620 2621 2622 2623 2624 
 	}
 	local_supplies=0.0 
 }

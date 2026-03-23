@@ -2,9 +2,9 @@
 state={
 	id=613
 	name="STATE_613"
-	manpower = 1991998
+	manpower = 659136
 	
-	state_category = metropolis
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 8140 3}
-		victory_points = { 8144 7}
-		victory_points = { 8156 5}
+		victory_points = { 7280 1}
 		
-		owner = KUL
+		owner = LIZ
 		buildings = {
-			infrastructure = 4
-			air_base = 3
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = KUL
+		add_core_of = LIZ
 	}
 
 	provinces={
-		8133 8134 8135 8136 8137 8138 8139 8140 8141 8142 8143 8144 8145 8146 8147 8148 8149 8150 8151 8152 8153 8154 8155 8156 8157 8158 8159 8160 8161 8162 
+		7280 7281 7282 7283 7284 7285 7286 7287 
 	}
 	local_supplies=0.0 
 }

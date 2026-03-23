@@ -2,13 +2,13 @@
 state={
 	id=749
 	name="STATE_749"
-	manpower = 617922
+	manpower = 1636737
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=3
 		oil=0
 		rubber=0
 		steel=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10059 3}
+		victory_points = { 8837 8}
+		victory_points = { 8850 2}
 		
-		owner = NAK
+		owner = BYL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			10058 = {
-				naval_base = 1
-			}
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = NAK
+		add_core_of = BYL
 	}
 
 	provinces={
-		10053 10054 10055 10056 10057 10058 10059 10060 
+		8837 8838 8839 8840 8841 8842 8843 8844 8845 8846 8847 8848 8849 8850 8851 8852 8853 8854 
 	}
 	local_supplies=0.0 
 }

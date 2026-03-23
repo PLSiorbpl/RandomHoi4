@@ -2,37 +2,42 @@
 state={
 	id=12
 	name="STATE_12"
-	manpower = 715046
+	manpower = 1158798
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=6
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 121 5}
+		victory_points = { 95 1}
+		victory_points = { 100 3}
+		victory_points = { 102 1}
 		
-		owner = MZI
+		owner = HAM
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
+			94 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = MZI
+		add_core_of = HAM
 	}
 
 	provinces={
-		118 119 120 121 122 123 124 125 126 127 
+		93 94 95 96 97 98 99 100 101 102 103 104 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=127
 	name="STATE_127"
-	manpower = 246744
+	manpower = 389698
 	
 	state_category = pastoral
 	#impassable = yes
@@ -18,20 +18,20 @@ state={
 
 	history={
 		
-		owner = TGY
+		owner = BXN
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = TGY
+		add_core_of = BXN
 	}
 
 	provinces={
-		1821 1822 
+		1662 1663 1664 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=609
 	name="STATE_609"
-	manpower = 683118
+	manpower = 1567291
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 8076 2}
-		victory_points = { 8077 1}
-		victory_points = { 8080 1}
+		victory_points = { 7222 2}
+		victory_points = { 7227 4}
+		victory_points = { 7231 2}
 		
-		owner = BEJ
+		owner = IKA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = IKA
 	}
 
 	provinces={
-		8076 8077 8078 8079 8080 8081 8082 8083 8084 
+		7215 7216 7217 7218 7219 7220 7221 7222 7223 7224 7225 7226 7227 7228 7229 7230 7231 7232 
 	}
 	local_supplies=0.0 
 }

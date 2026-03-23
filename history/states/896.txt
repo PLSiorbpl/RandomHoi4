@@ -2,13 +2,13 @@
 state={
 	id=896
 	name="STATE_896"
-	manpower = 2261089
+	manpower = 706153
 	
-	state_category = metropolis
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=3
 		oil=0
 		rubber=0
 		steel=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 12005 5}
-		victory_points = { 12013 12}
+		victory_points = { 10437 2}
+		victory_points = { 10441 1}
 		
-		owner = DAN
+		owner = BYL
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 3
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = DAN
+		add_core_of = BYL
 	}
 
 	provinces={
-		11991 11992 11993 11994 11995 11996 11997 11998 11999 12000 12001 12002 12003 12004 12005 12006 12007 12008 12009 12010 12011 12012 12013 12014 12015 12016 12017 12018 12019 12020 12021 12022 12023 12024 12025 
+		10436 10437 10438 10439 10440 10441 10442 
 	}
 	local_supplies=0.0 
 }

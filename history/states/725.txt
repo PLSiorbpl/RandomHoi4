@@ -2,14 +2,14 @@
 state={
 	id=725
 	name="STATE_725"
-	manpower = 304755
+	manpower = 475561
 	
 	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=1
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,9 +17,9 @@ state={
 	}
 
 	history={
-		victory_points = { 9699 1}
+		victory_points = { 8560 1}
 		
-		owner = IMA
+		owner = XEN
 		buildings = {
 			infrastructure = 3
 			
@@ -28,11 +28,11 @@ state={
 			
 			
 		}
-		add_core_of = IMA
+		add_core_of = XEN
 	}
 
 	provinces={
-		9699 9700 9701 9702 
+		8560 8561 8562 8563 
 	}
 	local_supplies=0.0 
 }

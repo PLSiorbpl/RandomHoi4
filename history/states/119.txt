@@ -2,41 +2,41 @@
 state={
 	id=119
 	name="STATE_119"
-	manpower = 1613443
+	manpower = 1461633
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=8
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 1730 4}
-		victory_points = { 1734 7}
+		victory_points = { 1552 6}
+		victory_points = { 1554 2}
 		
-		owner = GDA
+		owner = EAG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 1
 			
-			1737 = {
+			1560 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = GDA
+		add_core_of = EAG
 	}
 
 	provinces={
-		1725 1726 1727 1728 1729 1730 1731 1732 1733 1734 1735 1736 1737 1738 1739 1740 1741 1742 1743 1744 1745 1746 1747 1748 
+		1549 1550 1551 1552 1553 1554 1555 1556 1557 1558 1559 1560 1561 1562 1563 1564 
 	}
 	local_supplies=0.0 
 }

@@ -2,42 +2,38 @@
 state={
 	id=799
 	name="STATE_799"
-	manpower = 1673669
+	manpower = 1131239
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=3
+		steel=0
 		tungsten=0
-		coal=0
+		coal=64
 	}
 
 	history={
-		victory_points = { 10781 1}
-		victory_points = { 10782 6}
-		victory_points = { 10796 5}
+		victory_points = { 9377 3}
+		victory_points = { 9381 2}
 		
-		owner = EAG
+		owner = GIZ
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
-			dockyard = 1
-			10779 = {
-				naval_base = 1
-			}
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = EAG
+		add_core_of = GIZ
 	}
 
 	provinces={
-		10772 10773 10774 10775 10776 10777 10778 10779 10780 10781 10782 10783 10784 10785 10786 10787 10788 10789 10790 10791 10792 10793 10794 10795 10796 10797 
+		9371 9372 9373 9374 9375 9376 9377 9378 9379 9380 9381 9382 
 	}
 	local_supplies=0.0 
 }

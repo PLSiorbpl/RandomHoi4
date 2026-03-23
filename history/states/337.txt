@@ -2,14 +2,14 @@
 state={
 	id=337
 	name="STATE_337"
-	manpower = 349111
+	manpower = 1568001
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 4540 1}
+		victory_points = { 3966 3}
+		victory_points = { 3969 2}
+		victory_points = { 3977 2}
 		
-		owner = MZI
+		owner = MSN
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MZI
+		add_core_of = MSN
 	}
 
 	provinces={
-		4538 4539 4540 4541 
+		3962 3963 3964 3965 3966 3967 3968 3969 3970 3971 3972 3973 3974 3975 3976 3977 3978 3979 3980 3981 3982 3983 
 	}
 	local_supplies=0.0 
 }

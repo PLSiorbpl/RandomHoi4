@@ -2,37 +2,41 @@
 state={
 	id=695
 	name="STATE_695"
-	manpower = 285062
+	manpower = 1208065
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=11
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9284 1}
+		victory_points = { 8233 5}
+		victory_points = { 8235 2}
 		
-		owner = YIC
+		owner = KQL
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 1
+			8234 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = YIC
+		add_core_of = KQL
 	}
 
 	provinces={
-		9282 9283 9284 
+		8225 8226 8227 8228 8229 8230 8231 8232 8233 8234 8235 8236 
 	}
 	local_supplies=0.0 
 }

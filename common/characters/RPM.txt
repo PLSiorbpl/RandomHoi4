@@ -1,0 +1,880 @@
+characters = {
+	RPM_Mosi_Wimanda={
+		name="Mosi Wimanda"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RPM_Taji_Utukutimaifu={
+		name="Taji Utukutimaifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Taji_Utukutimaifu
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	RPM_Temba_Ramli={
+		name="Temba Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Temba_Ramli
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RPM_Bari_Ufumbasiku={
+		name="Bari Ufumbasiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Bari_Ufumbasiku
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	RPM_Lubano_Akili={
+		name="Lubano Akili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Lubano_Akili
+				traits = {	humble 	}
+		}
+
+	}
+	RPM_Simba_Mjumbukwezi={
+		name="Simba Mjumbukwezi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Simba_Mjumbukwezi
+				traits = {	humble 	}
+		}
+
+	}
+	RPM_Mbwama_Ufumbasiku={
+		name="Mbwama Ufumbasiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Mbwama_Ufumbasiku
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	RPM_Kamari_Lanaji={
+		name="Kamari Lanaji"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Kamari_Lanaji
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	RPM_Jumarakari_Ufumbasiku={
+		name="Jumarakari Ufumbasiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Jumarakari_Ufumbasiku
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	RPM_Kwana_Ufumbasiku={
+		name="Kwana Ufumbasiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Kwana_Ufumbasiku
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	RPM_Bakari_Deltabakuban={
+		name="Bakari Deltabakuban"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Bakari_Deltabakuban
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RPM_Mbwana_Ramli={
+		name="Mbwana Ramli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Mbwana_Ramli
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	RPM_Jumarakari_Jeshi={
+		name="Jumarakari Jeshi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Jumarakari_Jeshi
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	RPM_Mbwame_Ufumbasiku={
+		name="Mbwame Ufumbasiku"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Mbwame_Ufumbasiku
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	RPM_Tembano_Msia={
+		name="Tembano Msia"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Tembano_Msia
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	RPM_Simbano_Utukutimaifu={
+		name="Simbano Utukutimaifu"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Simbano_Utukutimaifu
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	RPM_Kato_Wimanda={
+		name="Kato Wimanda"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kato_Wimanda
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	RPM_Kame_Jeshi={
+		name="Kame Jeshi"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kame_Jeshi
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	RPM_Kame_Wimanda={
+		name="Kame Wimanda"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kame_Wimanda
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	RPM_Lubano_Lanaji={
+		name="Lubano Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Lubano_Lanaji
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	RPM_Kame_Ramli={
+		name="Kame Ramli"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kame_Ramli
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	RPM_Musa_Mjumbukwezi={
+		name="Musa Mjumbukwezi"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RPM_Shaka_Msia={
+		name="Shaka Msia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Shaka_Msia
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	RPM_Jumari_Wimanda={
+		name="Jumari Wimanda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Jumari_Wimanda
+				traits = {	polemarch 	}
+		}
+
+	}
+	RPM_Tana_Msia={
+		name="Tana Msia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Tana_Msia
+				traits = {	polemarch 	}
+		}
+
+	}
+	RPM_Mbwana_Akili={
+		name="Mbwana Akili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Mbwana_Akili
+				traits = {	generallissimo 	}
+		}
+
+	}
+	RPM_Kamau_Deltabakuban={
+		name="Kamau Deltabakuban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Kamau_Deltabakuban
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	RPM_Amau_Wimanda={
+		name="Amau Wimanda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Amau_Wimanda
+				traits = {	polemarch 	}
+		}
+
+	}
+	RPM_Tembana_Utukutimaifu={
+		name="Tembana Utukutimaifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Tembana_Utukutimaifu
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RPM_Tembana_Mjumbukwezi={
+		name="Tembana Mjumbukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Tembana_Mjumbukwezi
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	RPM_Omau_Utukutimaifu={
+		name="Omau Utukutimaifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Omau_Utukutimaifu
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	RPM_Musa_Akili={
+		name="Musa Akili"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Musa_Akili
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	RPM_Jumarakari_Wimanda={
+		name="Jumarakari Wimanda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Jumarakari_Wimanda
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	RPM_Simbana_Jeshi={
+		name="Simbana Jeshi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Simbana_Jeshi
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	RPM_Jumari_Akili={
+		name="Jumari Akili"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Jumari_Akili
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	RPM_Simbana_Mjumbukwezi={
+		name="Simbana Mjumbukwezi"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Simbana_Mjumbukwezi
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	RPM_Tembano_Akili={
+		name="Tembano Akili"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Tembano_Akili
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	RPM_Chidi_Ramli={
+		name="Chidi Ramli"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Chidi_Ramli
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	RPM_Kato_Akili={
+		name="Kato Akili"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kato_Akili
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	RPM_Bakari_Ufumbasiku={
+		name="Bakari Ufumbasiku"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Bakari_Ufumbasiku
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	RPM_Mbwanga_Lanaji={
+		name="Mbwanga Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Mbwanga_Lanaji
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	RPM_Tanga_Ramli={
+		name="Tanga Ramli"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Tanga_Ramli
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	RPM_Jumari_Utukutimaifu={
+		name="Jumari Utukutimaifu"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RPM_Sefu_Deltabakuban={
+		name="Sefu Deltabakuban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Sefu_Deltabakuban
+				traits = {	political_dancer 	}
+		}
+
+	}
+	RPM_Shakari_Jeshi={
+		name="Shakari Jeshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Shakari_Jeshi
+				traits = {	polemarch 	}
+		}
+
+	}
+	RPM_Kamari_Ramli={
+		name="Kamari Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Kamari_Ramli
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	RPM_Simbana_Ufumbasiku={
+		name="Simbana Ufumbasiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Simbana_Ufumbasiku
+				traits = {	polemarch 	}
+		}
+
+	}
+	RPM_Jumarakari_Mjumbukwezi={
+		name="Jumarakari Mjumbukwezi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Jumarakari_Mjumbukwezi
+				traits = {	infirm 	}
+		}
+
+	}
+	RPM_Lubano_Ramli={
+		name="Lubano Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Lubano_Ramli
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	RPM_Chidi_Msia={
+		name="Chidi Msia"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Chidi_Msia
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	RPM_Temba_Mjumbukwezi={
+		name="Temba Mjumbukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Temba_Mjumbukwezi
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	RPM_Temba_Akili={
+		name="Temba Akili"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Temba_Akili
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	RPM_Mbwame_Akili={
+		name="Mbwame Akili"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Mbwame_Akili
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	RPM_Omari_Utukutimaifu={
+		name="Omari Utukutimaifu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Omari_Utukutimaifu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	RPM_Kwano_Utukutimaifu={
+		name="Kwano Utukutimaifu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Kwano_Utukutimaifu
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	RPM_Nuru_Akili={
+		name="Nuru Akili"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Nuru_Akili
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	RPM_Mbwame_Jeshi={
+		name="Mbwame Jeshi"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Mbwame_Jeshi
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	RPM_Kato_Ufumbasiku={
+		name="Kato Ufumbasiku"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kato_Ufumbasiku
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	RPM_Luba_Msia={
+		name="Luba Msia"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Luba_Msia
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	RPM_Tembano_Ufumbasiku={
+		name="Tembano Ufumbasiku"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Tembano_Ufumbasiku
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	RPM_Shakari_Deltabakuban={
+		name="Shakari Deltabakuban"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Shakari_Deltabakuban
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	RPM_Simbana_Deltabakuban={
+		name="Simbana Deltabakuban"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Simbana_Deltabakuban
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	RPM_Chidi_Mjumbukwezi={
+		name="Chidi Mjumbukwezi"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Chidi_Mjumbukwezi
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	RPM_Simbana_Lanaji={
+		name="Simbana Lanaji"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RPM_Baraka_Deltabakuban={
+		name="Baraka Deltabakuban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Baraka_Deltabakuban
+				traits = {	rearmer 	}
+		}
+
+	}
+	RPM_Bari_Ramli={
+		name="Bari Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Bari_Ramli
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	RPM_Tembana_Msia={
+		name="Tembana Msia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Tembana_Msia
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	RPM_Sefu_Jeshi={
+		name="Sefu Jeshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Sefu_Jeshi
+				traits = {	the_banker 	}
+		}
+
+	}
+	RPM_Bakari_Ramli={
+		name="Bakari Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Bakari_Ramli
+				traits = {	infirm 	}
+		}
+
+	}
+	RPM_Kwame_Ufumbasiku={
+		name="Kwame Ufumbasiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RPM_Kwame_Ufumbasiku
+				traits = {	rearmer 	}
+		}
+
+	}
+	RPM_Amari_Mjumbukwezi={
+		name="Amari Mjumbukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Amari_Mjumbukwezi
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	RPM_Jumau_Wimanda={
+		name="Jumau Wimanda"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Jumau_Wimanda
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	RPM_Amau_Ufumbasiku={
+		name="Amau Ufumbasiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Amau_Ufumbasiku
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	RPM_Tana_Akili={
+		name="Tana Akili"
+
+		advisor={
+			slot = army_chief
+			idea_token = RPM_Tana_Akili
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	RPM_Baka_Utukutimaifu={
+		name="Baka Utukutimaifu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Baka_Utukutimaifu
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	RPM_Simba_Msia={
+		name="Simba Msia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RPM_Simba_Msia
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	RPM_Mbwano_Lanaji={
+		name="Mbwano Lanaji"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Mbwano_Lanaji
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	RPM_Tembano_Lanaji={
+		name="Tembano Lanaji"
+
+		advisor={
+			slot = air_chief
+			idea_token = RPM_Tembano_Lanaji
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	RPM_Kamau_Msia={
+		name="Kamau Msia"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kamau_Msia
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	RPM_Kame_Deltabakuban={
+		name="Kame Deltabakuban"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kame_Deltabakuban
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	RPM_Shaka_Jeshi={
+		name="Shaka Jeshi"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Shaka_Jeshi
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	RPM_Sefu_Lanaji={
+		name="Sefu Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Sefu_Lanaji
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	RPM_Omau_Lanaji={
+		name="Omau Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Omau_Lanaji
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	RPM_Kamau_Mjumbukwezi={
+		name="Kamau Mjumbukwezi"
+
+		advisor={
+			slot = high_command
+			idea_token = RPM_Kamau_Mjumbukwezi
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	RPM_Simbana_Msia={
+		name="Simbana Msia"
+
+		advisor={
+			slot = theorist
+			idea_token = RPM_Simbana_Msia
+				traits = {	military_theorist 	}
+		}
+
+	}
+	RPM_Tanga_Utukutimaifu={
+		name="Tanga Utukutimaifu"
+
+		advisor={
+			slot = theorist
+			idea_token = RPM_Tanga_Utukutimaifu
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	RPM_Shaka_Lanaji={
+		name="Shaka Lanaji"
+
+		advisor={
+			slot = theorist
+			idea_token = RPM_Shaka_Lanaji
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

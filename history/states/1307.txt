@@ -2,41 +2,41 @@
 state={
 	id=1307
 	name="STATE_1307"
-	manpower = 1494475
+	manpower = 1957891
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=11
 		chromium=0
-		oil=0
-		rubber=10
-		steel=0
-		tungsten=0
+		oil=4
+		rubber=23
+		steel=4
+		tungsten=13
 		coal=0
 	}
 
 	history={
-		victory_points = { 17179 6}
-		victory_points = { 17190 4}
+		victory_points = { 17472 5}
+		victory_points = { 17480 3}
 		
-		owner = QTU
+		owner = UXU
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 2
 			
-			17186 = {
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			17470 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = QTU
+		add_core_of = UXU
 	}
 
 	provinces={
-		17174 17175 17176 17177 17178 17179 17180 17181 17182 17183 17184 17185 17186 17187 17188 17189 17190 17191 17192 17193 17194 17195 17196 17197 17198 17199 17200 17201 
+		17459 17460 17461 17462 17463 17464 17465 17466 17467 17468 17469 17470 17471 17472 17473 17474 17475 17476 17477 17478 17479 17480 17481 17482 17483 17484 17485 17486 17487 17488 17489 17490 17491 17492 17493 17494 17495 17496 17497 17498 17499 
 	}
 	local_supplies=0.0 
 }

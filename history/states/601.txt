@@ -2,38 +2,37 @@
 state={
 	id=601
 	name="STATE_601"
-	manpower = 1671026
+	manpower = 395563
 	
-	state_category = large_city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=2
 	}
 
 	history={
-		victory_points = { 7948 6}
-		victory_points = { 7960 6}
+		victory_points = { 7133 1}
 		
-		owner = NAK
+		owner = YIT
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 3
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = YIT
 	}
 
 	provinces={
-		7937 7938 7939 7940 7941 7942 7943 7944 7945 7946 7947 7948 7949 7950 7951 7952 7953 7954 7955 7956 7957 7958 7959 7960 7961 7962 
+		7133 7134 7135 
 	}
 	local_supplies=0.0 
 }

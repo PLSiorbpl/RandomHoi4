@@ -2,38 +2,41 @@
 state={
 	id=899
 	name="STATE_899"
-	manpower = 1291914
+	manpower = 2203895
 	
-	state_category = city
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=7
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 12055 5}
-		victory_points = { 12070 3}
+		victory_points = { 10482 5}
+		victory_points = { 10484 9}
 		
-		owner = SVE
+		owner = PAS
 		buildings = {
 			infrastructure = 4
-			
-			arms_factory = 1
-			industrial_complex = 0
-			
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			10490 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = SVE
+		add_core_of = PAS
 	}
 
 	provinces={
-		12055 12056 12057 12058 12059 12060 12061 12062 12063 12064 12065 12066 12067 12068 12069 12070 12071 12072 12073 12074 
+		10473 10474 10475 10476 10477 10478 10479 10480 10481 10482 10483 10484 10485 10486 10487 10488 10489 10490 10491 10492 10493 10494 10495 10496 10497 10498 
 	}
 	local_supplies=0.0 
 }

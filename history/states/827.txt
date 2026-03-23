@@ -2,37 +2,37 @@
 state={
 	id=827
 	name="STATE_827"
-	manpower = 722120
+	manpower = 460289
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=0
+		steel=4
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 11090 5}
+		victory_points = { 9619 1}
 		
-		owner = YIC
+		owner = XEN
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = YIC
+		add_core_of = XEN
 	}
 
 	provinces={
-		11090 11091 11092 11093 11094 11095 11096 11097 11098 11099 
+		9616 9617 9618 9619 
 	}
 	local_supplies=0.0 
 }

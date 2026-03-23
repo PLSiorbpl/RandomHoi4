@@ -2,14 +2,14 @@
 state={
 	id=925
 	name="STATE_925"
-	manpower = 342992
+	manpower = 1659265
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 12410 1}
+		victory_points = { 10899 2}
+		victory_points = { 10902 5}
+		victory_points = { 10906 3}
 		
-		owner = ULU
+		owner = KAA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = KAA
 	}
 
 	provinces={
-		12410 12411 12412 12413 
+		10890 10891 10892 10893 10894 10895 10896 10897 10898 10899 10900 10901 10902 10903 10904 10905 10906 10907 
 	}
 	local_supplies=0.0 
 }

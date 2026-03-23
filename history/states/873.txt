@@ -2,7 +2,7 @@
 state={
 	id=873
 	name="STATE_873"
-	manpower = 897058
+	manpower = 1037423
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,30 +11,28 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=2
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11686 1}
-		victory_points = { 11688 3}
-		victory_points = { 11694 2}
+		victory_points = { 10140 6}
 		
-		owner = PON
+		owner = YAG
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = YAG
 	}
 
 	provinces={
-		11686 11687 11688 11689 11690 11691 11692 11693 11694 11695 11696 11697 11698 
+		10130 10131 10132 10133 10134 10135 10136 10137 10138 10139 10140 
 	}
 	local_supplies=0.0 
 }

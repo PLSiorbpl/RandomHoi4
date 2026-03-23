@@ -2,40 +2,39 @@
 state={
 	id=1037
 	name="STATE_1037"
-	manpower = 1214870
+	manpower = 935502
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=1
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13626 2}
-		victory_points = { 13631 2}
-		victory_points = { 13637 1}
-		victory_points = { 13644 2}
+		victory_points = { 12372 1}
+		victory_points = { 12373 1}
+		victory_points = { 12374 1}
 		
-		owner = KFM
+		owner = VAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = KFM
+		add_core_of = VAN
 	}
 
 	provinces={
-		13626 13627 13628 13629 13630 13631 13632 13633 13634 13635 13636 13637 13638 13639 13640 13641 13642 13643 13644 
+		12367 12368 12369 12370 12371 12372 12373 12374 12375 12376 12377 12378 12379 12380 
 	}
 	local_supplies=0.0 
 }

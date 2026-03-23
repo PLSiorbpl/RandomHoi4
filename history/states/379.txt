@@ -2,14 +2,14 @@
 state={
 	id=379
 	name="STATE_379"
-	manpower = 424823
+	manpower = 1664551
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 5021 2}
+		victory_points = { 4522 4}
+		victory_points = { 4524 3}
+		victory_points = { 4526 2}
 		
-		owner = FEA
+		owner = CAE
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = FEA
+		add_core_of = CAE
 	}
 
 	provinces={
-		5020 5021 5022 5023 5024 
+		4515 4516 4517 4518 4519 4520 4521 4522 4523 4524 4525 4526 4527 4528 4529 4530 4531 4532 
 	}
 	local_supplies=0.0 
 }

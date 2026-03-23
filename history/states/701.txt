@@ -2,12 +2,12 @@
 state={
 	id=701
 	name="STATE_701"
-	manpower = 1416326
+	manpower = 1403475
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=2
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 9358 4}
-		victory_points = { 9361 3}
-		victory_points = { 9373 3}
+		victory_points = { 8306 4}
+		victory_points = { 8310 2}
+		victory_points = { 8315 1}
 		
-		owner = ULU
+		owner = IKA
 		buildings = {
 			infrastructure = 4
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = IKA
 	}
 
 	provinces={
-		9355 9356 9357 9358 9359 9360 9361 9362 9363 9364 9365 9366 9367 9368 9369 9370 9371 9372 9373 9374 9375 
+		8304 8305 8306 8307 8308 8309 8310 8311 8312 8313 8314 8315 8316 8317 8318 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,326 @@
+capital = 142
+
+oob = "LCA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "LCA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "LCA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "LCA_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			photo_reconnaisance = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			early_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Geart Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Leath Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Geart Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "LCA_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			scout_plane1 = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "LCA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Leath Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "LCA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Leath Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = LCA_Liareth_Leath
+recruit_character = LCA_Quinn_Beill
+recruit_character = LCA_Bran_Trodailin
+recruit_character = LCA_Seamus_Crodanch
+recruit_character = LCA_Nialcolm_Ceith
+recruit_character = LCA_Padran_Brochais
+recruit_character = LCA_Quinn_Tigh
+recruit_character = LCA_Owen_Lioch
+recruit_character = LCA_Padran_Lioch
+recruit_character = LCA_Keiran_Geart
+recruit_character = LCA_Garaig_Beill
+recruit_character = LCA_Padraig_Brochais
+recruit_character = LCA_Bran_Ceith
+recruit_character = LCA_Aidan_Tigh
+recruit_character = LCA_Fergus_Leath
+recruit_character = LCA_Iwan_Trodailin
+recruit_character = LCA_Owen_Trodailin
+recruit_character = LCA_Niaraig_Crodanch
+recruit_character = LCA_Padraig_Ceith
+recruit_character = LCA_Niareth_Tigh
+recruit_character = LCA_Nialcolm_Geart
+recruit_character = LCA_Liamus_Tigh
+recruit_character = LCA_Ciamus_Ceith
+recruit_character = LCA_Keiran_Beill
+recruit_character = LCA_Owen_Beill
+recruit_character = LCA_Liareth_Crodanch
+recruit_character = LCA_Niaraig_Leath
+recruit_character = LCA_Fergus_Lucht
+recruit_character = LCA_Ciamus_Tigh
+recruit_character = LCA_Niaraig_Lioch
+recruit_character = LCA_Keiraig_Brochais
+recruit_character = LCA_Fergus_Tigh
+recruit_character = LCA_Ciall_Ceith
+recruit_character = LCA_Bran_Tigh
+recruit_character = LCA_Liam_Leath
+recruit_character = LCA_Seam_Beill
+recruit_character = LCA_Eoinn_Geart
+recruit_character = LCA_Seamus_Lioch
+recruit_character = LCA_Seamus_Brochais
+recruit_character = LCA_Gareth_Tigh
+recruit_character = LCA_Quinn_Ceith
+recruit_character = LCA_Aidan_Leath
+recruit_character = LCA_Taran_Lioch
+recruit_character = LCA_Liaran_Leath
+recruit_character = LCA_Gareth_Trodailin
+recruit_character = LCA_Ciaran_Crodanch
+recruit_character = LCA_Declan_Geart
+recruit_character = LCA_Quinn_Lioch
+recruit_character = LCA_Hugh_Geart
+recruit_character = LCA_Iwan_Beill
+recruit_character = LCA_Hugh_Crodanch
+recruit_character = LCA_Niaraig_Ceith
+recruit_character = LCA_Garan_Crodanch
+recruit_character = LCA_Ulrich_Trodailin
+recruit_character = LCA_Padran_Crodanch
+recruit_character = LCA_Declan_Beill
+recruit_character = LCA_Liaran_Geart
+recruit_character = LCA_Ciaran_Trodailin
+recruit_character = LCA_Rhys_Beill
+recruit_character = LCA_Malcolm_Lioch
+recruit_character = LCA_Garaig_Tigh
+recruit_character = LCA_Malcolm_Ceith
+recruit_character = LCA_Niareth_Geart
+recruit_character = LCA_Liareth_Beill
+recruit_character = LCA_Aidan_Crodanch
+recruit_character = LCA_Niaraig_Beill
+recruit_character = LCA_Taran_Ceith
+recruit_character = LCA_Liam_Geart
+recruit_character = LCA_Ulrich_Ceith
+recruit_character = LCA_Padraig_Tigh
+recruit_character = LCA_Liamus_Beill
+recruit_character = LCA_Bran_Lucht
+recruit_character = LCA_Mall_Leath
+recruit_character = LCA_Nialcolm_Trodailin
+recruit_character = LCA_Hugh_Lioch
+recruit_character = LCA_Padran_Lucht
+recruit_character = LCA_Hugh_Tigh
+recruit_character = LCA_Ciamus_Brochais
+recruit_character = LCA_Ciall_Brochais
+recruit_character = LCA_Keiran_Leath
+recruit_character = LCA_Seam_Lioch
+recruit_character = LCA_Fergus_Geart
+recruit_character = LCA_Liareth_Brochais
+recruit_character = LCA_Aidan_Beill
+recruit_character = LCA_Liaran_Trodailin
+recruit_character = LCA_Keiraig_Geart
+recruit_character = LCA_Keiran_Trodailin
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 79
+set_war_support = 53
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.4.2"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 35
+	fascism = 33
+	communism = 22
+	neutrality = 10
+}
+
+
+
+
+

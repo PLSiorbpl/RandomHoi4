@@ -1,0 +1,880 @@
+characters = {
+	QER_Coratius_Insum={
+		name="Coratius Insum"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QER_Urbanus_Strum={
+		name="Urbanus Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Urbanus_Strum
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	QER_Publius_Otium={
+		name="Publius Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Publius_Otium
+				traits = {	headstrong 	}
+		}
+
+	}
+	QER_Clavius_Equa={
+		name="Clavius Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Clavius_Equa
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	QER_Fabiusus_Strum={
+		name="Fabiusus Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Fabiusus_Strum
+				traits = {	headstrong 	}
+		}
+
+	}
+	QER_Tracchus_Poetorum={
+		name="Tracchus Poetorum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Tracchus_Poetorum
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	QER_Priscus_Arbor={
+		name="Priscus Arbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Priscus_Arbor
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	QER_Prius_Malus={
+		name="Prius Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Prius_Malus
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	QER_Remitius_Arbor={
+		name="Remitius Arbor"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Remitius_Arbor
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	QER_Nonius_Poetorum={
+		name="Nonius Poetorum"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Nonius_Poetorum
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	QER_Varcus_Malus={
+		name="Varcus Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Varcus_Malus
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	QER_Remitellianl_Feris={
+		name="Remitellianl Feris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Remitellianl_Feris
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	QER_Marcus_Aniverbis={
+		name="Marcus Aniverbis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Marcus_Aniverbis
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	QER_Priscustus_Malus={
+		name="Priscustus Malus"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Priscustus_Malus
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	QER_Horacchustus_Feris={
+		name="Horacchustus Feris"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Horacchustus_Feris
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	QER_Domitus_Otium={
+		name="Domitus Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Domitus_Otium
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	QER_Domitellus_Celerrus={
+		name="Domitellus Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Domitellus_Celerrus
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	QER_Severiscus_Otium={
+		name="Severiscus Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Severiscus_Otium
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	QER_Faus_Arbor={
+		name="Faus Arbor"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Faus_Arbor
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	QER_Drus_Equa={
+		name="Drus Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Drus_Equa
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	QER_Vibervius_Feris={
+		name="Vibervius Feris"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Vibervius_Feris
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	QER_Remitius_Otium={
+		name="Remitius Otium"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QER_Hornellus_Otium={
+		name="Hornellus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Hornellus_Otium
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	QER_Brus_Poetorum={
+		name="Brus Poetorum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Brus_Poetorum
+				traits = {	infirm 	}
+		}
+
+	}
+	QER_Gaianus_Celerrus={
+		name="Gaianus Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Gaianus_Celerrus
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	QER_Julus_Feris={
+		name="Julus Feris"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Julus_Feris
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	QER_Titius_Strum={
+		name="Titius Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Titius_Strum
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	QER_Serius_Equa={
+		name="Serius Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Serius_Equa
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	QER_Clavius_Poetorum={
+		name="Clavius Poetorum"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Clavius_Poetorum
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	QER_Maximus_Otium={
+		name="Maximus Otium"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Maximus_Otium
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	QER_Flavius_Strum={
+		name="Flavius Strum"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Flavius_Strum
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	QER_Scaevolaudiu_Strum={
+		name="Scaevolaudiu Strum"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Scaevolaudiu_Strum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	QER_Brus_Aniverbis={
+		name="Brus Aniverbis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Brus_Aniverbis
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	QER_Varcus_Feris={
+		name="Varcus Feris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Varcus_Feris
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	QER_Marcellianus_Celerrus={
+		name="Marcellianus Celerrus"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Marcellianus_Celerrus
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	QER_Coratius_Malus={
+		name="Coratius Malus"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Coratius_Malus
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	QER_Varcus_Strum={
+		name="Varcus Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Varcus_Strum
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	QER_Sextus_Poetorum={
+		name="Sextus Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Sextus_Poetorum
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	QER_Livius_Aniverbis={
+		name="Livius Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Livius_Aniverbis
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	QER_Nonius_Aniverbis={
+		name="Nonius Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Nonius_Aniverbis
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	QER_Priscus_Otium={
+		name="Priscus Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Priscus_Otium
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	QER_Silvanus_Poetorum={
+		name="Silvanus Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Silvanus_Poetorum
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	QER_Marro_Aniverbis={
+		name="Marro Aniverbis"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QER_Caius_Otium={
+		name="Caius Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Caius_Otium
+				traits = {	political_dancer 	}
+		}
+
+	}
+	QER_Lonius_Strum={
+		name="Lonius Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Lonius_Strum
+				traits = {	infirm 	}
+		}
+
+	}
+	QER_Traius_Otium={
+		name="Traius Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Traius_Otium
+				traits = {	political_dancer 	}
+		}
+
+	}
+	QER_Caianustus_Malus={
+		name="Caianustus Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Caianustus_Malus
+				traits = {	infirm 	}
+		}
+
+	}
+	QER_Cassius_Aniverbis={
+		name="Cassius Aniverbis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Cassius_Aniverbis
+				traits = {	infirm 	}
+		}
+
+	}
+	QER_Domintonginu_Malus={
+		name="Domintonginu Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Domintonginu_Malus
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	QER_Paudius_Malus={
+		name="Paudius Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Paudius_Malus
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	QER_Fabius_Malus={
+		name="Fabius Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Fabius_Malus
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	QER_Cornellius_Insum={
+		name="Cornellius Insum"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Cornellius_Insum
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	QER_Prius_Arbor={
+		name="Prius Arbor"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Prius_Arbor
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	QER_Severus_Aniverbis={
+		name="Severus Aniverbis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Severus_Aniverbis
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	QER_Priscus_Celerrus={
+		name="Priscus Celerrus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Priscus_Celerrus
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	QER_Coracchus_Otium={
+		name="Coracchus Otium"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Coracchus_Otium
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	QER_Clavius_Celerrus={
+		name="Clavius Celerrus"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Clavius_Celerrus
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	QER_Maximus_Poetorum={
+		name="Maximus Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Maximus_Poetorum
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	QER_Titius_Malus={
+		name="Titius Malus"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Titius_Malus
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	QER_Attius_Insum={
+		name="Attius Insum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Attius_Insum
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	QER_Urbanlius_Otium={
+		name="Urbanlius Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Urbanlius_Otium
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	QER_Lonius_Equa={
+		name="Lonius Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Lonius_Equa
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	QER_Antonius_Feris={
+		name="Antonius Feris"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Antonius_Feris
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	QER_Julus_Equa={
+		name="Julus Equa"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QER_Valerus_Celerrus={
+		name="Valerus Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Valerus_Celerrus
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	QER_Viberiscus_Otium={
+		name="Viberiscus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Viberiscus_Otium
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	QER_Paus_Equa={
+		name="Paus Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Paus_Equa
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	QER_Varcus_Otium={
+		name="Varcus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Varcus_Otium
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	QER_Graius_Aniverbis={
+		name="Graius Aniverbis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Graius_Aniverbis
+				traits = {	the_banker 	}
+		}
+
+	}
+	QER_Sevola_Equa={
+		name="Sevola Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QER_Sevola_Equa
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	QER_Graius_Otium={
+		name="Graius Otium"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Graius_Otium
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	QER_Scaeverius_Equa={
+		name="Scaeverius Equa"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Scaeverius_Equa
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	QER_Augulius_Feris={
+		name="Augulius Feris"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Augulius_Feris
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	QER_Hornellus_Aniverbis={
+		name="Hornellus Aniverbis"
+
+		advisor={
+			slot = army_chief
+			idea_token = QER_Hornellus_Aniverbis
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	QER_Remitellianl_Malus={
+		name="Remitellianl Malus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Remitellianl_Malus
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	QER_Cornellius_Malus={
+		name="Cornellius Malus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QER_Cornellius_Malus
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	QER_Varcus_Celerrus={
+		name="Varcus Celerrus"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Varcus_Celerrus
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	QER_Valerutus_Aniverbis={
+		name="Valerutus Aniverbis"
+
+		advisor={
+			slot = air_chief
+			idea_token = QER_Valerutus_Aniverbis
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	QER_Traius_Strum={
+		name="Traius Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Traius_Strum
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	QER_Maximustus_Equa={
+		name="Maximustus Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Maximustus_Equa
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	QER_Livius_Strum={
+		name="Livius Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Livius_Strum
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	QER_Serius_Celerrus={
+		name="Serius Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Serius_Celerrus
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	QER_Severiscus_Aniverbis={
+		name="Severiscus Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Severiscus_Aniverbis
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	QER_Aulus_Insum={
+		name="Aulus Insum"
+
+		advisor={
+			slot = high_command
+			idea_token = QER_Aulus_Insum
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	QER_Paudius_Feris={
+		name="Paudius Feris"
+
+		advisor={
+			slot = theorist
+			idea_token = QER_Paudius_Feris
+				traits = {	military_theorist 	}
+		}
+
+	}
+	QER_Paulus_Celerrus={
+		name="Paulus Celerrus"
+
+		advisor={
+			slot = theorist
+			idea_token = QER_Paulus_Celerrus
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	QER_Coratius_Otium={
+		name="Coratius Otium"
+
+		advisor={
+			slot = theorist
+			idea_token = QER_Coratius_Otium
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

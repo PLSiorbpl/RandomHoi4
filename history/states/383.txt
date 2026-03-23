@@ -2,40 +2,36 @@
 state={
 	id=383
 	name="STATE_383"
-	manpower = 1572620
+	manpower = 309368
 	
-	state_category = large_city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5052 6}
-		victory_points = { 5068 2}
-		victory_points = { 5069 2}
-		victory_points = { 5074 1}
 		
-		owner = HBA
+		owner = XEN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HBA
+		add_core_of = XEN
 	}
 
 	provinces={
-		5052 5053 5054 5055 5056 5057 5058 5059 5060 5061 5062 5063 5064 5065 5066 5067 5068 5069 5070 5071 5072 5073 5074 5075 
+		4575 4576 
 	}
 	local_supplies=0.0 
 }

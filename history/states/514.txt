@@ -2,9 +2,9 @@
 state={
 	id=514
 	name="STATE_514"
-	manpower = 521371
+	manpower = 958592
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,14 +13,13 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=31
+		coal=0
 	}
 
 	history={
-		victory_points = { 6771 1}
-		victory_points = { 6774 1}
+		victory_points = { 6173 5}
 		
-		owner = KOB
+		owner = RSM
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +28,11 @@ state={
 			
 			
 		}
-		add_core_of = KOB
+		add_core_of = RSM
 	}
 
 	provinces={
-		6770 6771 6772 6773 6774 6775 6776 
+		6172 6173 6174 6175 6176 6177 6178 6179 6180 6181 
 	}
 	local_supplies=0.0 
 }

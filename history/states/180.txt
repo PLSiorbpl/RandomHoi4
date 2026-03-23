@@ -2,36 +2,39 @@
 state={
 	id=180
 	name="STATE_180"
-	manpower = 222352
+	manpower = 2215740
 	
-	state_category = pastoral
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 2201 3}
+		victory_points = { 2207 1}
+		victory_points = { 2212 10}
 		
-		owner = SHE
+		owner = LCA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+			infrastructure = 4
+			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = SHE
+		add_core_of = LCA
 	}
 
 	provinces={
-		2548 2549 
+		2199 2200 2201 2202 2203 2204 2205 2206 2207 2208 2209 2210 2211 2212 2213 2214 2215 2216 2217 2218 2219 2220 2221 2222 
 	}
 	local_supplies=0.0 
 }

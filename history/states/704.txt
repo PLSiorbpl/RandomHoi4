@@ -2,14 +2,14 @@
 state={
 	id=704
 	name="STATE_704"
-	manpower = 884630
+	manpower = 455947
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 9410 1}
-		victory_points = { 9416 5}
+		victory_points = { 8362 1}
 		
-		owner = KUL
+		owner = IDU
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = KUL
+		add_core_of = IDU
 	}
 
 	provinces={
-		9409 9410 9411 9412 9413 9414 9415 9416 9417 9418 9419 9420 9421 
+		8359 8360 8361 8362 
 	}
 	local_supplies=0.0 
 }

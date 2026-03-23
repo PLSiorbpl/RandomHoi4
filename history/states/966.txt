@@ -2,9 +2,9 @@
 state={
 	id=966
 	name="STATE_966"
-	manpower = 832054
+	manpower = 740151
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 12915 5}
+		victory_points = { 11533 1}
+		victory_points = { 11534 2}
 		
-		owner = BRE
+		owner = KER
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
+			air_base = 2
+			arms_factory = 0
 			industrial_complex = 0
 			
-			12906 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BRE
+		add_core_of = KER
 	}
 
 	provinces={
-		12904 12905 12906 12907 12908 12909 12910 12911 12912 12913 12914 12915 
+		11533 11534 11535 11536 11537 11538 11539 
 	}
 	local_supplies=0.0 
 }

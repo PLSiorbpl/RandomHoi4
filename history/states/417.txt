@@ -2,9 +2,9 @@
 state={
 	id=417
 	name="STATE_417"
-	manpower = 852510
+	manpower = 921638
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,10 +17,11 @@ state={
 	}
 
 	history={
-		victory_points = { 5451 3}
-		victory_points = { 5455 2}
+		victory_points = { 4997 1}
+		victory_points = { 4998 2}
+		victory_points = { 4999 1}
 		
-		owner = MIA
+		owner = RQF
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +30,11 @@ state={
 			
 			
 		}
-		add_core_of = MIA
+		add_core_of = RQF
 	}
 
 	provinces={
-		5444 5445 5446 5447 5448 5449 5450 5451 5452 5453 5454 5455 
+		4997 4998 4999 5000 5001 5002 5003 5004 5005 5006 
 	}
 	local_supplies=0.0 
 }

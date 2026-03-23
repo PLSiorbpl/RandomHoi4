@@ -2,12 +2,12 @@
 state={
 	id=851
 	name="STATE_851"
-	manpower = 1403136
+	manpower = 702572
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=3
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 11426 2}
-		victory_points = { 11427 2}
-		victory_points = { 11436 3}
-		victory_points = { 11443 3}
+		victory_points = { 9877 1}
+		victory_points = { 9878 1}
 		
-		owner = CNU
+		owner = ZAP
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = CNU
+		add_core_of = ZAP
 	}
 
 	provinces={
-		11424 11425 11426 11427 11428 11429 11430 11431 11432 11433 11434 11435 11436 11437 11438 11439 11440 11441 11442 11443 11444 
+		9874 9875 9876 9877 9878 9879 9880 
 	}
 	local_supplies=0.0 
 }

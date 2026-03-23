@@ -2,9 +2,9 @@
 state={
 	id=1088
 	name="STATE_1088"
-	manpower = 421762
+	manpower = 1093573
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,26 +13,29 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=17
+		coal=0
 	}
 
 	history={
-		victory_points = { 14177 1}
+		victory_points = { 12988 2}
+		victory_points = { 12989 1}
+		victory_points = { 12995 1}
+		victory_points = { 12996 1}
 		
-		owner = XUL
+		owner = AJT
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 4
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = XUL
+		add_core_of = AJT
 	}
 
 	provinces={
-		14176 14177 14178 14179 14180 
+		12988 12989 12990 12991 12992 12993 12994 12995 12996 12997 12998 12999 
 	}
 	local_supplies=0.0 
 }

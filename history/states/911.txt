@@ -2,39 +2,40 @@
 state={
 	id=911
 	name="STATE_911"
-	manpower = 1182928
+	manpower = 1324420
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=9
-		oil=1
+		chromium=0
+		oil=0
 		rubber=0
 		steel=0
-		tungsten=3
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12270 2}
-		victory_points = { 12271 2}
-		victory_points = { 12276 3}
+		victory_points = { 10657 7}
 		
-		owner = ULU
+		owner = CAI
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
+			10655 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = ULU
+		add_core_of = CAI
 	}
 
 	provinces={
-		12263 12264 12265 12266 12267 12268 12269 12270 12271 12272 12273 12274 12275 12276 12277 12278 12279 12280 12281 12282 12283 12284 12285 12286 12287 12288 
+		10648 10649 10650 10651 10652 10653 10654 10655 10656 10657 10658 10659 10660 10661 
 	}
 	local_supplies=0.0 
 }

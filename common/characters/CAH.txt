@@ -1,0 +1,880 @@
+characters = {
+	CAH_Arjuna_Trahargai={
+		name="Arjuna Trahargai"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAH_Rambang_Kerjarama={
+		name="Rambang Kerjarama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Rambang_Kerjarama
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CAH_Ketutra_Trahargai={
+		name="Ketutra Trahargai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Ketutra_Trahargai
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CAH_Joko_Bung={
+		name="Joko Bung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Joko_Bung
+				traits = {	headstrong 	}
+		}
+
+	}
+	CAH_Joko_Suci={
+		name="Joko Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Joko_Suci
+				traits = {	headstrong 	}
+		}
+
+	}
+	CAH_Fajario_Padik={
+		name="Fajario Padik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Fajario_Padik
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	CAH_Mario_Suci={
+		name="Mario Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Mario_Suci
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CAH_Bamban_Bung={
+		name="Bamban Bung"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Bamban_Bung
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	CAH_Wayang_Mudalain={
+		name="Wayang Mudalain"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Wayang_Mudalain
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	CAH_Ketut_Trahargai={
+		name="Ketut Trahargai"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Ketut_Trahargai
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CAH_Hario_Ratani={
+		name="Hario Ratani"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Hario_Ratani
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CAH_Bama_Mudalain={
+		name="Bama Mudalain"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Bama_Mudalain
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	CAH_Fajario_Kerjarama={
+		name="Fajario Kerjarama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Fajario_Kerjarama
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CAH_Budi_Rimbahayah={
+		name="Budi Rimbahayah"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Budi_Rimbahayah
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	CAH_Mari_Bung={
+		name="Mari Bung"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Mari_Bung
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	CAH_Suryan_Kerjarama={
+		name="Suryan Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Suryan_Kerjarama
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	CAH_Rizal_Kerjarama={
+		name="Rizal Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Rizal_Kerjarama
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	CAH_Ramban_Ratani={
+		name="Ramban Ratani"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Ramban_Ratani
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	CAH_Hario_Trahargai={
+		name="Hario Trahargai"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Hario_Trahargai
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	CAH_Fajar_Pohabah={
+		name="Fajar Pohabah"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Fajar_Pohabah
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	CAH_Ketutra_Kerjarama={
+		name="Ketutra Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Ketutra_Kerjarama
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	CAH_Hari_Pohabah={
+		name="Hari Pohabah"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAH_Wayan_Padik={
+		name="Wayan Padik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Wayan_Padik
+				traits = {	generallissimo 	}
+		}
+
+	}
+	CAH_Rambang_Bung={
+		name="Rambang Bung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Rambang_Bung
+				traits = {	autokrator 	}
+		}
+
+	}
+	CAH_Budi_Pohabah={
+		name="Budi Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Budi_Pohabah
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	CAH_Dewa_Mudalain={
+		name="Dewa Mudalain"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Dewa_Mudalain
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CAH_Arjuna_Rimbahayah={
+		name="Arjuna Rimbahayah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Arjuna_Rimbahayah
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	CAH_Rambang_Ratani={
+		name="Rambang Ratani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Rambang_Ratani
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CAH_Ramban_Pohabah={
+		name="Ramban Pohabah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Ramban_Pohabah
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CAH_Waya_Bung={
+		name="Waya Bung"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Waya_Bung
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	CAH_Mari_Suci={
+		name="Mari Suci"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Mari_Suci
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	CAH_Suryan_Ratani={
+		name="Suryan Ratani"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Suryan_Ratani
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CAH_Budi_Mudalain={
+		name="Budi Mudalain"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Budi_Mudalain
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CAH_Fajar_Rimbahayah={
+		name="Fajar Rimbahayah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Fajar_Rimbahayah
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	CAH_Fajario_Ratani={
+		name="Fajario Ratani"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Fajario_Ratani
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CAH_Rama_Padik={
+		name="Rama Padik"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Rama_Padik
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	CAH_Surya_Kerjarama={
+		name="Surya Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Surya_Kerjarama
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	CAH_Joko_Ratani={
+		name="Joko Ratani"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Joko_Ratani
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	CAH_Fajar_Bung={
+		name="Fajar Bung"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Fajar_Bung
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	CAH_Ramban_Padik={
+		name="Ramban Padik"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Ramban_Padik
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	CAH_Ketutra_Bung={
+		name="Ketutra Bung"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Ketutra_Bung
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	CAH_Putfi_Taragai={
+		name="Putfi Taragai"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Putfi_Taragai
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	CAH_Ketut_Bung={
+		name="Ketut Bung"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAH_Hari_Bung={
+		name="Hari Bung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Hari_Bung
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CAH_Rambang_Suci={
+		name="Rambang Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Rambang_Suci
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CAH_Surya_Pohabah={
+		name="Surya Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Surya_Pohabah
+				traits = {	infirm 	}
+		}
+
+	}
+	CAH_Fajari_Kerjarama={
+		name="Fajari Kerjarama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Fajari_Kerjarama
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	CAH_Bamban_Padik={
+		name="Bamban Padik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Bamban_Padik
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CAH_Hario_Pohabah={
+		name="Hario Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Hario_Pohabah
+				traits = {	political_dancer 	}
+		}
+
+	}
+	CAH_Joko_Padik={
+		name="Joko Padik"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Joko_Padik
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	CAH_Putra_Mudalain={
+		name="Putra Mudalain"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Putra_Mudalain
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CAH_Budi_Kerjarama={
+		name="Budi Kerjarama"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Budi_Kerjarama
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CAH_Bambang_Suci={
+		name="Bambang Suci"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Bambang_Suci
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	CAH_Sakti_Pohabah={
+		name="Sakti Pohabah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Sakti_Pohabah
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CAH_Bambang_Kerjarama={
+		name="Bambang Kerjarama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Bambang_Kerjarama
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CAH_Wayang_Suci={
+		name="Wayang Suci"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Wayang_Suci
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	CAH_Wayan_Rimbahayah={
+		name="Wayan Rimbahayah"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Wayan_Rimbahayah
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	CAH_Sakti_Kerjarama={
+		name="Sakti Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Sakti_Kerjarama
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	CAH_Arjuna_Padik={
+		name="Arjuna Padik"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Arjuna_Padik
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CAH_Sakti_Padik={
+		name="Sakti Padik"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Sakti_Padik
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	CAH_Bamban_Rimbahayah={
+		name="Bamban Rimbahayah"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Bamban_Rimbahayah
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	CAH_Surya_Ratani={
+		name="Surya Ratani"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Surya_Ratani
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	CAH_Fajario_Taragai={
+		name="Fajario Taragai"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Fajario_Taragai
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	CAH_Bambang_Ratani={
+		name="Bambang Ratani"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAH_Rambang_Padik={
+		name="Rambang Padik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Rambang_Padik
+				traits = {	first_lady 	}
+		}
+
+	}
+	CAH_Mari_Kerjarama={
+		name="Mari Kerjarama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Mari_Kerjarama
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CAH_Fajar_Padik={
+		name="Fajar Padik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Fajar_Padik
+				traits = {	infirm 	}
+		}
+
+	}
+	CAH_Ketutra_Pohabah={
+		name="Ketutra Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Ketutra_Pohabah
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	CAH_Agus_Bung={
+		name="Agus Bung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Agus_Bung
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CAH_Rizal_Ratani={
+		name="Rizal Ratani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAH_Rizal_Ratani
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CAH_Putra_Ratani={
+		name="Putra Ratani"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Putra_Ratani
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	CAH_Mari_Ratani={
+		name="Mari Ratani"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Mari_Ratani
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CAH_Hari_Padik={
+		name="Hari Padik"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Hari_Padik
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CAH_Fajari_Mudalain={
+		name="Fajari Mudalain"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAH_Fajari_Mudalain
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CAH_Ramban_Taragai={
+		name="Ramban Taragai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Ramban_Taragai
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	CAH_Suryan_Padik={
+		name="Suryan Padik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAH_Suryan_Padik
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	CAH_Bama_Ratani={
+		name="Bama Ratani"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Bama_Ratani
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	CAH_Fajari_Taragai={
+		name="Fajari Taragai"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAH_Fajari_Taragai
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	CAH_Suryan_Rimbahayah={
+		name="Suryan Rimbahayah"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Suryan_Rimbahayah
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	CAH_Rambang_Mudalain={
+		name="Rambang Mudalain"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Rambang_Mudalain
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	CAH_Agus_Pohabah={
+		name="Agus Pohabah"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Agus_Pohabah
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	CAH_Wayan_Pohabah={
+		name="Wayan Pohabah"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Wayan_Pohabah
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	CAH_Hari_Trahargai={
+		name="Hari Trahargai"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Hari_Trahargai
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	CAH_Dewa_Trahargai={
+		name="Dewa Trahargai"
+
+		advisor={
+			slot = high_command
+			idea_token = CAH_Dewa_Trahargai
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	CAH_Mario_Rimbahayah={
+		name="Mario Rimbahayah"
+
+		advisor={
+			slot = theorist
+			idea_token = CAH_Mario_Rimbahayah
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CAH_Wayang_Pohabah={
+		name="Wayang Pohabah"
+
+		advisor={
+			slot = theorist
+			idea_token = CAH_Wayang_Pohabah
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CAH_Lutra_Pohabah={
+		name="Lutra Pohabah"
+
+		advisor={
+			slot = theorist
+			idea_token = CAH_Lutra_Pohabah
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

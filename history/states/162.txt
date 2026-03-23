@@ -2,7 +2,7 @@
 state={
 	id=162
 	name="STATE_162"
-	manpower = 873227
+	manpower = 781566
 	
 	state_category = town
 	#impassable = yes
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 2300 1}
-		victory_points = { 2301 1}
-		victory_points = { 2312 1}
+		victory_points = { 2024 1}
+		victory_points = { 2026 2}
 		
-		owner = RNT
+		owner = BXN
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = RNT
+		add_core_of = BXN
 	}
 
 	provinces={
-		2300 2301 2302 2303 2304 2305 2306 2307 2308 2309 2310 2311 2312 2313 2314 
+		2024 2025 2026 2027 2028 2029 2030 2031 
 	}
 	local_supplies=0.0 
 }

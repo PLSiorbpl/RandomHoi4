@@ -2,37 +2,39 @@
 state={
 	id=912
 	name="STATE_912"
-	manpower = 535137
+	manpower = 1229358
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
+		oil=0
 		rubber=0
-		steel=0
-		tungsten=0
+		steel=9
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 12290 2}
+		victory_points = { 10666 1}
+		victory_points = { 10668 5}
+		victory_points = { 10671 1}
 		
-		owner = ULU
+		owner = KER
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = KER
 	}
 
 	provinces={
-		12289 12290 12291 12292 12293 12294 12295 
+		10662 10663 10664 10665 10666 10667 10668 10669 10670 10671 10672 10673 10674 
 	}
 	local_supplies=0.0 
 }

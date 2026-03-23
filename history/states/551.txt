@@ -2,39 +2,39 @@
 state={
 	id=551
 	name="STATE_551"
-	manpower = 1416775
+	manpower = 1379201
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=22
-		chromium=30
+		aluminium=0
+		chromium=0
 		oil=0
 		rubber=0
-		steel=0
-		tungsten=10
+		steel=2
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7251 5}
-		victory_points = { 7255 2}
-		victory_points = { 7262 1}
+		victory_points = { 6611 3}
+		victory_points = { 6615 2}
+		victory_points = { 6617 2}
 		
-		owner = UNI
+		owner = IKA
 		buildings = {
 			infrastructure = 4
-			
+			air_base = 4
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = UNI
+		add_core_of = IKA
 	}
 
 	provinces={
-		7248 7249 7250 7251 7252 7253 7254 7255 7256 7257 7258 7259 7260 7261 7262 7263 7264 7265 7266 7267 7268 
+		6611 6612 6613 6614 6615 6616 6617 6618 6619 6620 6621 6622 6623 6624 
 	}
 	local_supplies=0.0 
 }

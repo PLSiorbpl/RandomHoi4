@@ -2,14 +2,14 @@
 state={
 	id=761
 	name="STATE_761"
-	manpower = 1621270
+	manpower = 435033
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=1
+		aluminium=0
 		chromium=0
-		oil=6
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 10219 4}
-		victory_points = { 10222 7}
-		victory_points = { 10227 1}
+		victory_points = { 8956 1}
 		
-		owner = PON
+		owner = IDU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = IDU
 	}
 
 	provinces={
-		10204 10205 10206 10207 10208 10209 10210 10211 10212 10213 10214 10215 10216 10217 10218 10219 10220 10221 10222 10223 10224 10225 10226 10227 
+		8955 8956 8957 8958 
 	}
 	local_supplies=0.0 
 }

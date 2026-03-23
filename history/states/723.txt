@@ -2,25 +2,25 @@
 state={
 	id=723
 	name="STATE_723"
-	manpower = 733400
+	manpower = 838066
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 9673 2}
-		victory_points = { 9678 3}
+		victory_points = { 8551 3}
+		victory_points = { 8552 1}
 		
-		owner = WEA
+		owner = XEN
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = WEA
+		add_core_of = XEN
 	}
 
 	provinces={
-		9672 9673 9674 9675 9676 9677 9678 9679 9680 9681 
+		8548 8549 8550 8551 8552 8553 8554 8555 
 	}
 	local_supplies=0.0 
 }

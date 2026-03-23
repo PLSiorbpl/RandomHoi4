@@ -2,14 +2,14 @@
 state={
 	id=735
 	name="STATE_735"
-	manpower = 216425
+	manpower = 2347378
 	
-	state_category = pastoral
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=5
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,21 +17,27 @@ state={
 	}
 
 	history={
+		victory_points = { 8643 8}
+		victory_points = { 8654 4}
+		victory_points = { 8655 2}
 		
-		owner = LOR
+		owner = AHC
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 2
 			
+			8662 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = LOR
+		add_core_of = AHC
 	}
 
 	provinces={
-		9841 9842 
+		8642 8643 8644 8645 8646 8647 8648 8649 8650 8651 8652 8653 8654 8655 8656 8657 8658 8659 8660 8661 8662 8663 8664 8665 8666 8667 
 	}
 	local_supplies=0.0 
 }

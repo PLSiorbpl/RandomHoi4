@@ -2,14 +2,14 @@
 state={
 	id=855
 	name="STATE_855"
-	manpower = 904324
+	manpower = 686948
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 11473 5}
+		victory_points = { 9938 3}
 		
-		owner = BHL
+		owner = SAN
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BHL
+		add_core_of = SAN
 	}
 
 	provinces={
-		11471 11472 11473 11474 11475 11476 11477 11478 11479 11480 11481 11482 11483 
+		9935 9936 9937 9938 9939 9940 
 	}
 	local_supplies=0.0 
 }

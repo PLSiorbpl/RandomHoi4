@@ -2,39 +2,40 @@
 state={
 	id=1213
 	name="STATE_1213"
-	manpower = 242317
+	manpower = 831512
 	
-	state_category = pastoral
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
+		oil=3
 		rubber=0
-		steel=0
+		steel=25
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
+		victory_points = { 15233 1}
 		
-		owner = BTC
+		owner = UFU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			
 			arms_factory = 0
 			industrial_complex = 0
 			
-			15942 = {
+			15180 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = BTC
+		add_core_of = UFU
 	}
 
 	provinces={
-		15942 15943 15944 15945 
+		15155 15156 15157 15158 15159 15160 15161 15162 15163 15164 15165 15166 15167 15168 15169 15170 15171 15172 15173 15174 15175 15176 15177 15178 15179 15180 15181 15182 15183 15184 15185 15186 15187 15188 15189 15190 15191 15192 15193 15194 15195 15196 15197 15198 15199 15200 15201 15202 15203 15204 15205 15206 15207 15208 15209 15210 15211 15212 15213 15214 15215 15216 15217 15218 15219 15220 15221 15222 15223 15224 15225 15226 15227 15228 15229 15230 15231 15232 15233 
 	}
 	local_supplies=0.0 
 }

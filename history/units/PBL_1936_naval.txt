@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Pole Fleet"			
+		naval_base = 14853
+		task_force = {
+			name = "Pole Fleet"
+			location = 14853
+			
+						ship = { name = "Yooz" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = PBL version_name = "Pole Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

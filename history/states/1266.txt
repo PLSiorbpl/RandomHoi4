@@ -2,41 +2,40 @@
 state={
 	id=1266
 	name="STATE_1266"
-	manpower = 2042663
+	manpower = 638550
 	
-	state_category = metropolis
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=5
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 16700 6}
-		victory_points = { 16713 10}
+		victory_points = { 16834 2}
 		
-		owner = RIB
+		owner = KUK
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
 			
-			arms_factory = 1
-			industrial_complex = 1
-			
-			16718 = {
+			16838 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = RIB
+		add_core_of = KUK
 	}
 
 	provinces={
-		16698 16699 16700 16701 16702 16703 16704 16705 16706 16707 16708 16709 16710 16711 16712 16713 16714 16715 16716 16717 16718 16719 16720 16721 16722 16723 16724 16725 16726 16727 16728 
+		16833 16834 16835 16836 16837 16838 
 	}
 	local_supplies=0.0 
 }

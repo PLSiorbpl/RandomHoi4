@@ -2,42 +2,38 @@
 state={
 	id=954
 	name="STATE_954"
-	manpower = 1263515
+	manpower = 1211373
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=22
+		steel=0
 		tungsten=0
-		coal=5
+		coal=12
 	}
 
 	history={
-		victory_points = { 12741 4}
-		victory_points = { 12746 4}
-		victory_points = { 12751 1}
+		victory_points = { 11356 4}
+		victory_points = { 11360 3}
 		
-		owner = QUA
+		owner = TOT
 		buildings = {
 			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
-			arms_factory = 1
-			industrial_complex = 0
-			
-			12747 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = QUA
+		add_core_of = TOT
 	}
 
 	provinces={
-		12735 12736 12737 12738 12739 12740 12741 12742 12743 12744 12745 12746 12747 12748 12749 12750 12751 12752 12753 
+		11356 11357 11358 11359 11360 11361 11362 11363 11364 11365 11366 11367 11368 
 	}
 	local_supplies=0.0 
 }

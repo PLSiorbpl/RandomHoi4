@@ -2,14 +2,14 @@
 state={
 	id=1091
 	name="STATE_1091"
-	manpower = 1196017
+	manpower = 2501312
 	
-	state_category = city
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,27 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 14214 1}
-		victory_points = { 14216 7}
-		victory_points = { 14223 1}
+		victory_points = { 13023 3}
+		victory_points = { 13032 12}
 		
-		owner = SLU
+		owner = ZGT
 		buildings = {
 			infrastructure = 4
 			
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			14218 = {
+			industrial_complex = 2
+			
+			13042 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = SLU
+		add_core_of = ZGT
 	}
 
 	provinces={
-		14210 14211 14212 14213 14214 14215 14216 14217 14218 14219 14220 14221 14222 14223 14224 14225 14226 14227 
+		13020 13021 13022 13023 13024 13025 13026 13027 13028 13029 13030 13031 13032 13033 13034 13035 13036 13037 13038 13039 13040 13041 13042 13043 13044 13045 13046 13047 
 	}
 	local_supplies=0.0 
 }

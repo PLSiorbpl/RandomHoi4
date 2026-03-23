@@ -2,25 +2,25 @@
 state={
 	id=863
 	name="STATE_863"
-	manpower = 1420533
+	manpower = 1786531
 	
 	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=3
-		oil=0
+		chromium=0
+		oil=4
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11571 5}
-		victory_points = { 11575 5}
+		victory_points = { 10048 10}
+		victory_points = { 10051 1}
 		
-		owner = NAK
+		owner = LIM
 		buildings = {
 			infrastructure = 4
 			air_base = 1
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = LIM
 	}
 
 	provinces={
-		11568 11569 11570 11571 11572 11573 11574 11575 11576 11577 11578 11579 11580 11581 11582 11583 11584 11585 11586 11587 11588 
+		10033 10034 10035 10036 10037 10038 10039 10040 10041 10042 10043 10044 10045 10046 10047 10048 10049 10050 10051 10052 
 	}
 	local_supplies=0.0 
 }

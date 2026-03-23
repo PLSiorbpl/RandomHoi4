@@ -2,7 +2,7 @@
 state={
 	id=1098
 	name="STATE_1098"
-	manpower = 1036916
+	manpower = 1043838
 	
 	state_category = large_town
 	#impassable = yes
@@ -10,31 +10,30 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=10
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14316 1}
-		victory_points = { 14317 3}
-		victory_points = { 14331 3}
+		victory_points = { 13122 4}
+		victory_points = { 13128 2}
 		
-		owner = ANI
+		owner = AJT
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ANI
+		add_core_of = AJT
 	}
 
 	provinces={
-		14316 14317 14318 14319 14320 14321 14322 14323 14324 14325 14326 14327 14328 14329 14330 14331 14332 
+		13121 13122 13123 13124 13125 13126 13127 13128 13129 13130 13131 
 	}
 	local_supplies=0.0 
 }

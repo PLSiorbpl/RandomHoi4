@@ -1,0 +1,49 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Hunar Fleet"			
+		naval_base = 17915
+		task_force = {
+			name = "Hunar Fleet"
+			location = 17915
+			
+						ship = { name = "Gren" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Gerkelle Class" } }	}
+			ship = { name = "Gren 2" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Gerkelle Class" } }	}
+			ship = { name = "Wolk" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Gerkelle Class" } }	}
+			ship = { name = "Gren 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Gren 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Gerkelle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Wolk 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Wolk 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Wolk 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Gren 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Wille" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Koen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Wille 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Gerkelle 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Koen 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Wolk 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Koen 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Wolk 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Koen 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Gren 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Koen 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HTN version_name = "Koen Class" } }	}
+			ship = { name = "Koen 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+			ship = { name = "Wille 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HTN version_name = "Wolk Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,880 @@
+characters = {
+	GIZ_Gaiur_Zubi={
+		name="Gaiur Zubi"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GIZ_Ekaitorkaiur_Itxe={
+		name="Ekaitorkaiur Itxe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Ekaitorkaiur_Itxe
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GIZ_Mikel_Herriona={
+		name="Mikel Herriona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Mikel_Herriona
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GIZ_Eneko_Herriona={
+		name="Eneko Herriona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Eneko_Herriona
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GIZ_Gaiur_Nora={
+		name="Gaiur Nora"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Gaiur_Nora
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GIZ_Eneko_Nora={
+		name="Eneko Nora"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Eneko_Nora
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	GIZ_Koldo_Oihaintasa={
+		name="Koldo Oihaintasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Koldo_Oihaintasa
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GIZ_Unat_Oihaintasa={
+		name="Unat Oihaintasa"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Unat_Oihaintasa
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	GIZ_Unat_Argitasuntzu={
+		name="Unat Argitasuntzu"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Unat_Argitasuntzu
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GIZ_Amaizkaizkai_Noraita={
+		name="Amaizkaizkai Noraita"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Amaizkaizkai_Noraita
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GIZ_Ekaitorkaiur_Argitasuntzu={
+		name="Ekaitorkaiur Argitasuntzu"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Ekaitorkaiur_Argitasuntzu
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	GIZ_Gorkaitz_Herra={
+		name="Gorkaitz Herra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Gorkaitz_Herra
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	GIZ_Mikel_Iluna={
+		name="Mikel Iluna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Mikel_Iluna
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	GIZ_Amaizkaizkai_Itxe={
+		name="Amaizkaizkai Itxe"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Amaizkaizkai_Itxe
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	GIZ_Harkaitz_Oihaintasa={
+		name="Harkaitz Oihaintasa"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Harkaitz_Oihaintasa
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	GIZ_Harkaiur_Itxe={
+		name="Harkaiur Itxe"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Harkaiur_Itxe
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	GIZ_Ekaitorkaiur_Noraita={
+		name="Ekaitorkaiur Noraita"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Ekaitorkaiur_Noraita
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	GIZ_Ibanti_Argitasuntzu={
+		name="Ibanti Argitasuntzu"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Ibanti_Argitasuntzu
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	GIZ_Benaitorkai_Argitasuntzu={
+		name="Benaitorkai Argitasuntzu"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Benaitorkai_Argitasuntzu
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	GIZ_Unat_Nora={
+		name="Unat Nora"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Unat_Nora
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	GIZ_Iker_Iluna={
+		name="Iker Iluna"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Iker_Iluna
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	GIZ_Benat_Argitasuntzu={
+		name="Benat Argitasuntzu"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GIZ_Gaiur_Arna={
+		name="Gaiur Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Gaiur_Arna
+				traits = {	warmonger 	}
+		}
+
+	}
+	GIZ_Amaizkaizkai_Iluna={
+		name="Amaizkaizkai Iluna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Amaizkaizkai_Iluna
+				traits = {	infirm 	}
+		}
+
+	}
+	GIZ_Ibai_Nora={
+		name="Ibai Nora"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Ibai_Nora
+				traits = {	infirm 	}
+		}
+
+	}
+	GIZ_Aitz_Herriona={
+		name="Aitz Herriona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Aitz_Herriona
+				traits = {	warmonger 	}
+		}
+
+	}
+	GIZ_Gorkaitz_Itxe={
+		name="Gorkaitz Itxe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Gorkaitz_Itxe
+				traits = {	polemarch 	}
+		}
+
+	}
+	GIZ_Benat_Herriona={
+		name="Benat Herriona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Benat_Herriona
+				traits = {	basileus 	}
+		}
+
+	}
+	GIZ_Aitorkaitz_Arna={
+		name="Aitorkaitz Arna"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Aitorkaitz_Arna
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GIZ_Benaitor_Itxe={
+		name="Benaitor Itxe"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Benaitor_Itxe
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	GIZ_Harkaitz_Argitasuntzu={
+		name="Harkaitz Argitasuntzu"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Harkaitz_Argitasuntzu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	GIZ_Ibaizkai_Zubi={
+		name="Ibaizkai Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Ibaizkai_Zubi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GIZ_Amai_Herriona={
+		name="Amai Herriona"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Amai_Herriona
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	GIZ_Benai_Iluna={
+		name="Benai Iluna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Benai_Iluna
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	GIZ_Gaiur_Iluna={
+		name="Gaiur Iluna"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Gaiur_Iluna
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	GIZ_Gaitorkai_Herra={
+		name="Gaitorkai Herra"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Gaitorkai_Herra
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	GIZ_Gaitorkai_Argitasuntzu={
+		name="Gaitorkai Argitasuntzu"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Gaitorkai_Argitasuntzu
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	GIZ_Ibaizkai_Itxe={
+		name="Ibaizkai Itxe"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Ibaizkai_Itxe
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	GIZ_Unaitorka_Argitasuntzu={
+		name="Unaitorka Argitasuntzu"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Unaitorka_Argitasuntzu
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	GIZ_Iban_Noraita={
+		name="Iban Noraita"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Iban_Noraita
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	GIZ_Miker_Arna={
+		name="Miker Arna"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Miker_Arna
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	GIZ_Ekaitorkaiur_Oihaintasa={
+		name="Ekaitorkaiur Oihaintasa"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Ekaitorkaiur_Oihaintasa
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	GIZ_Ibanti_Itxe={
+		name="Ibanti Itxe"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GIZ_Benai_Argitasuntzu={
+		name="Benai Argitasuntzu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Benai_Argitasuntzu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	GIZ_Harkaiur_Iluna={
+		name="Harkaiur Iluna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Harkaiur_Iluna
+				traits = {	polemarch 	}
+		}
+
+	}
+	GIZ_Aitorkaitz_Herra={
+		name="Aitorkaitz Herra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Aitorkaitz_Herra
+				traits = {	polemarch 	}
+		}
+
+	}
+	GIZ_Benaitorkai_Noraita={
+		name="Benaitorkai Noraita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Benaitorkai_Noraita
+				traits = {	infirm 	}
+		}
+
+	}
+	GIZ_Koldo_Herra={
+		name="Koldo Herra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Koldo_Herra
+				traits = {	infirm 	}
+		}
+
+	}
+	GIZ_Eder_Itxe={
+		name="Eder Itxe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Eder_Itxe
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GIZ_Koldo_Herriona={
+		name="Koldo Herriona"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Koldo_Herriona
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	GIZ_Ekai_Arna={
+		name="Ekai Arna"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Ekai_Arna
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GIZ_Ekai_Zubi={
+		name="Ekai Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Ekai_Zubi
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	GIZ_Ander_Zubi={
+		name="Ander Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Ander_Zubi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GIZ_Ibai_Arna={
+		name="Ibai Arna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Ibai_Arna
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GIZ_Iker_Arna={
+		name="Iker Arna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Iker_Arna
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	GIZ_Harkai_Noraita={
+		name="Harkai Noraita"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Harkai_Noraita
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	GIZ_Aitorkaitz_Iluna={
+		name="Aitorkaitz Iluna"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Aitorkaitz_Iluna
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	GIZ_Harkaiur_Herra={
+		name="Harkaiur Herra"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Harkaiur_Herra
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	GIZ_Gorka_Herra={
+		name="Gorka Herra"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Gorka_Herra
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	GIZ_Harka_Arna={
+		name="Harka Arna"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Harka_Arna
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	GIZ_Amai_Nora={
+		name="Amai Nora"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Amai_Nora
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	GIZ_Benai_Nora={
+		name="Benai Nora"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Benai_Nora
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	GIZ_Harkai_Arna={
+		name="Harkai Arna"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Harkai_Arna
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	GIZ_Gorka_Oihaintasa={
+		name="Gorka Oihaintasa"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GIZ_Ekaitorkaiur_Iluna={
+		name="Ekaitorkaiur Iluna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Ekaitorkaiur_Iluna
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	GIZ_Harkai_Oihaintasa={
+		name="Harkai Oihaintasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Harkai_Oihaintasa
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	GIZ_Koldo_Argitasuntzu={
+		name="Koldo Argitasuntzu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Koldo_Argitasuntzu
+				traits = {	first_lady 	}
+		}
+
+	}
+	GIZ_Benai_Noraita={
+		name="Benai Noraita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Benai_Noraita
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GIZ_Benaitor_Argitasuntzu={
+		name="Benaitor Argitasuntzu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Benaitor_Argitasuntzu
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	GIZ_Ander_Herriona={
+		name="Ander Herriona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GIZ_Ander_Herriona
+				traits = {	infirm 	}
+		}
+
+	}
+	GIZ_Benaitz_Iluna={
+		name="Benaitz Iluna"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Benaitz_Iluna
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	GIZ_Iker_Nora={
+		name="Iker Nora"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Iker_Nora
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	GIZ_Unat_Noraita={
+		name="Unat Noraita"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Unat_Noraita
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GIZ_Benat_Nora={
+		name="Benat Nora"
+
+		advisor={
+			slot = army_chief
+			idea_token = GIZ_Benat_Nora
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GIZ_Aitz_Nora={
+		name="Aitz Nora"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Aitz_Nora
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GIZ_Harka_Herra={
+		name="Harka Herra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GIZ_Harka_Herra
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	GIZ_Ekaitorkaiur_Herra={
+		name="Ekaitorkaiur Herra"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Ekaitorkaiur_Herra
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	GIZ_Eneko_Herra={
+		name="Eneko Herra"
+
+		advisor={
+			slot = air_chief
+			idea_token = GIZ_Eneko_Herra
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	GIZ_Ekaitorkaiur_Nora={
+		name="Ekaitorkaiur Nora"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Ekaitorkaiur_Nora
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	GIZ_Ikel_Nora={
+		name="Ikel Nora"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Ikel_Nora
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	GIZ_Gorkaitz_Noraita={
+		name="Gorkaitz Noraita"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Gorkaitz_Noraita
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	GIZ_Ibaizkai_Iluna={
+		name="Ibaizkai Iluna"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Ibaizkai_Iluna
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	GIZ_Asier_Itxe={
+		name="Asier Itxe"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Asier_Itxe
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	GIZ_Amaiur_Herriona={
+		name="Amaiur Herriona"
+
+		advisor={
+			slot = high_command
+			idea_token = GIZ_Amaiur_Herriona
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	GIZ_Miker_Iluna={
+		name="Miker Iluna"
+
+		advisor={
+			slot = theorist
+			idea_token = GIZ_Miker_Iluna
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GIZ_Unat_Herra={
+		name="Unat Herra"
+
+		advisor={
+			slot = theorist
+			idea_token = GIZ_Unat_Herra
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GIZ_Mikel_Oihaintasa={
+		name="Mikel Oihaintasa"
+
+		advisor={
+			slot = theorist
+			idea_token = GIZ_Mikel_Oihaintasa
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

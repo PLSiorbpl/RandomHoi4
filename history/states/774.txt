@@ -2,9 +2,9 @@
 state={
 	id=774
 	name="STATE_774"
-	manpower = 1737142
+	manpower = 825883
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,27 +13,26 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=28
 	}
 
 	history={
-		victory_points = { 10389 11}
-		victory_points = { 10392 3}
+		victory_points = { 9110 4}
 		
-		owner = BON
+		owner = RQF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = BON
+		add_core_of = RQF
 	}
 
 	provinces={
-		10389 10390 10391 10392 10393 10394 10395 10396 10397 10398 10399 10400 10401 10402 10403 10404 10405 10406 10407 10408 10409 10410 10411 10412 10413 10414 
+		9108 9109 9110 9111 9112 9113 9114 9115 
 	}
 	local_supplies=0.0 
 }

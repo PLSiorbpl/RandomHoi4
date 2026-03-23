@@ -2,9 +2,9 @@
 state={
 	id=554
 	name="STATE_554"
-	manpower = 662471
+	manpower = 1316346
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 7292 1}
-		victory_points = { 7293 3}
+		victory_points = { 6656 4}
+		victory_points = { 6664 3}
 		
-		owner = BEJ
+		owner = ZAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
-			7296 = {
+			6653 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = ZAP
 	}
 
 	provinces={
-		7290 7291 7292 7293 7294 7295 7296 7297 7298 
+		6653 6654 6655 6656 6657 6658 6659 6660 6661 6662 6663 6664 6665 6666 
 	}
 	local_supplies=0.0 
 }

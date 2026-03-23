@@ -2,7 +2,7 @@
 state={
 	id=142
 	name="STATE_142"
-	manpower = 1791634
+	manpower = 2241859
 	
 	state_category = large_city
 	#impassable = yes
@@ -11,30 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=3
-		tungsten=0
-		coal=28
+		steel=0
+		tungsten=3
+		coal=0
 	}
 
 	history={
-		victory_points = { 2042 5}
-		victory_points = { 2053 4}
-		victory_points = { 2063 5}
+		victory_points = { 1821 6}
+		victory_points = { 1829 8}
 		
-		owner = FVO
+		owner = LCA
 		buildings = {
 			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 2
+			
+			arms_factory = 1
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = FVO
+		add_core_of = LCA
 	}
 
 	provinces={
-		2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050 2051 2052 2053 2054 2055 2056 2057 2058 2059 2060 2061 2062 2063 2064 
+		1817 1818 1819 1820 1821 1822 1823 1824 1825 1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 1837 1838 1839 1840 
 	}
 	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=462
 	name="STATE_462"
-	manpower = 1339661
+	manpower = 1234494
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 5926 3}
-		victory_points = { 5932 3}
-		victory_points = { 5936 3}
+		victory_points = { 5571 2}
+		victory_points = { 5572 1}
+		victory_points = { 5573 2}
 		
-		owner = DAN
+		owner = IKA
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 2
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = DAN
+		add_core_of = IKA
 	}
 
 	provinces={
-		5917 5918 5919 5920 5921 5922 5923 5924 5925 5926 5927 5928 5929 5930 5931 5932 5933 5934 5935 5936 
+		5565 5566 5567 5568 5569 5570 5571 5572 5573 5574 5575 5576 5577 5578 5579 5580 5581 
 	}
 	local_supplies=0.0 
 }

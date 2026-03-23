@@ -2,14 +2,14 @@
 state={
 	id=393
 	name="STATE_393"
-	manpower = 223958
+	manpower = 1277100
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 5179 1}
+		victory_points = { 4746 6}
+		victory_points = { 4748 2}
 		
-		owner = TGY
+		owner = AHC
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = TGY
+		add_core_of = AHC
 	}
 
 	provinces={
-		5179 5180 
+		4735 4736 4737 4738 4739 4740 4741 4742 4743 4744 4745 4746 4747 4748 
 	}
 	local_supplies=0.0 
 }

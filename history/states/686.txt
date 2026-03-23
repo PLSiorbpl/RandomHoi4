@@ -2,14 +2,14 @@
 state={
 	id=686
 	name="STATE_686"
-	manpower = 850188
+	manpower = 869424
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 9157 2}
-		victory_points = { 9159 4}
+		victory_points = { 8130 1}
+		victory_points = { 8136 3}
 		
-		owner = ULU
+		owner = YIT
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = YIT
 	}
 
 	provinces={
-		9156 9157 9158 9159 9160 9161 9162 9163 9164 9165 9166 9167 
+		8128 8129 8130 8131 8132 8133 8134 8135 8136 
 	}
 	local_supplies=0.0 
 }

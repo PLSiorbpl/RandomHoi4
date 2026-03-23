@@ -1,0 +1,880 @@
+characters = {
+	TIK_Acab_Nohil={
+		name="Acab Nohil"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Popo_Yaxulkin={
+		name="Popo Yaxulkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Popo_Yaxulkin
+				traits = {	humble 	}
+		}
+
+	}
+	TIK_Ekchakal_Yaxulkin={
+		name="Ekchakal Yaxulkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Ekchakal_Yaxulkin
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TIK_Ekchakal_Nohil={
+		name="Ekchakal Nohil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Ekchakal_Nohil
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TIK_Ahkin_Yaxulkin={
+		name="Ahkin Yaxulkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Ahkin_Yaxulkin
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TIK_Chil_Yaxulkin={
+		name="Chil Yaxulkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Chil_Yaxulkin
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TIK_Tecun_Kate={
+		name="Tecun Kate"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Tecun_Kate
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TIK_Nacom_Balomtecab={
+		name="Nacom Balomtecab"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Nacom_Balomtecab
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TIK_Nacatl_Nohil={
+		name="Nacatl Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Nacatl_Nohil
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TIK_Kukulkanek_Tikin={
+		name="Kukulkanek Tikin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Kukulkanek_Tikin
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TIK_Yaxkin_Sayil={
+		name="Yaxkin Sayil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Yaxkin_Sayil
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TIK_Chil_Balomtecab={
+		name="Chil Balomtecab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Chil_Balomtecab
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TIK_Kukulkanek_Agual={
+		name="Kukulkanek Agual"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Kukulkanek_Agual
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TIK_Moctez_Nohil={
+		name="Moctez Nohil"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Moctez_Nohil
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TIK_Kukulkanek_Sayil={
+		name="Kukulkanek Sayil"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Kukulkanek_Sayil
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TIK_Bacom_Tzol={
+		name="Bacom Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Bacom_Tzol
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	TIK_Ekchichen_Agual={
+		name="Ekchichen Agual"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Ekchichen_Agual
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	TIK_Tohichen_Tikin={
+		name="Tohichen Tikin"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Tohichen_Tikin
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TIK_Kukulkan_Tzol={
+		name="Kukulkan Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kukulkan_Tzol
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TIK_Kukulkan_Kate={
+		name="Kukulkan Kate"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kukulkan_Kate
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TIK_Moctez_Agual={
+		name="Moctez Agual"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Moctez_Agual
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TIK_Chichen_Sayil={
+		name="Chichen Sayil"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Yaxkin_Kate={
+		name="Yaxkin Kate"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Yaxkin_Kate
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TIK_Kukulkan_Agual={
+		name="Kukulkan Agual"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kukulkan_Agual
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	TIK_Balam_Tikin={
+		name="Balam Tikin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Balam_Tikin
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TIK_Balam_Tzol={
+		name="Balam Tzol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Balam_Tzol
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TIK_Ahkin_Sayil={
+		name="Ahkin Sayil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Ahkin_Sayil
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	TIK_Ahkin_Balomtecab={
+		name="Ahkin Balomtecab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Ahkin_Balomtecab
+				traits = {	infirm 	}
+		}
+
+	}
+	TIK_Popo_Tzol={
+		name="Popo Tzol"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Popo_Tzol
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TIK_Tohichen_Kate={
+		name="Tohichen Kate"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Tohichen_Kate
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TIK_Moctez_Sayil={
+		name="Moctez Sayil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Moctez_Sayil
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TIK_Kukulkalam_Agual={
+		name="Kukulkalam Agual"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Kukulkalam_Agual
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TIK_Tohichen_Balomtecab={
+		name="Tohichen Balomtecab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Tohichen_Balomtecab
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TIK_Acab_Agual={
+		name="Acab Agual"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Acab_Agual
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TIK_Nacom_Agual={
+		name="Nacom Agual"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Nacom_Agual
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TIK_Yaxkin_Tikin={
+		name="Yaxkin Tikin"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Yaxkin_Tikin
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TIK_Pakalam_Yaxulkin={
+		name="Pakalam Yaxulkin"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Pakalam_Yaxulkin
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TIK_Nacom_Yaxulkin={
+		name="Nacom Yaxulkin"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Nacom_Yaxulkin
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	TIK_Tecun_Agual={
+		name="Tecun Agual"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Tecun_Agual
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TIK_Ekchichen_Tzol={
+		name="Ekchichen Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Ekchichen_Tzol
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TIK_Acab_Tzol={
+		name="Acab Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Acab_Tzol
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TIK_Oxib_Balomtecab={
+		name="Oxib Balomtecab"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Oxib_Balomtecab
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TIK_Ekchua_Agual={
+		name="Ekchua Agual"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Acatl_Tzol={
+		name="Acatl Tzol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Acatl_Tzol
+				traits = {	polemarch 	}
+		}
+
+	}
+	TIK_Acatl_Sayil={
+		name="Acatl Sayil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Acatl_Sayil
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TIK_Itzam_Balomtecab={
+		name="Itzam Balomtecab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Itzam_Balomtecab
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TIK_Chil_Tikin={
+		name="Chil Tikin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Chil_Tikin
+				traits = {	infirm 	}
+		}
+
+	}
+	TIK_Kukulkanek_Balomtecab={
+		name="Kukulkanek Balomtecab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kukulkanek_Balomtecab
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TIK_Yaxkin_Nohil={
+		name="Yaxkin Nohil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Yaxkin_Nohil
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TIK_Chil_Nohil={
+		name="Chil Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Chil_Nohil
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TIK_Kukulkan_Yaxulkin={
+		name="Kukulkan Yaxulkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Kukulkan_Yaxulkin
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TIK_Kukulkan_Tikin={
+		name="Kukulkan Tikin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Kukulkan_Tikin
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TIK_Tecun_Balomtecab={
+		name="Tecun Balomtecab"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Tecun_Balomtecab
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TIK_Acatl_Yaxulkin={
+		name="Acatl Yaxulkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Acatl_Yaxulkin
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TIK_Moctez_Balomtecab={
+		name="Moctez Balomtecab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Moctez_Balomtecab
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TIK_Chua_Sayil={
+		name="Chua Sayil"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Chua_Sayil
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TIK_Ahkin_Agual={
+		name="Ahkin Agual"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Ahkin_Agual
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TIK_Chua_Tzol={
+		name="Chua Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Chua_Tzol
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TIK_Chichen_Kate={
+		name="Chichen Kate"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Chichen_Kate
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TIK_Pakan_Balomtecab={
+		name="Pakan Balomtecab"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Pakan_Balomtecab
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TIK_Pakalam_Kate={
+		name="Pakalam Kate"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Pakalam_Kate
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TIK_Itzam_Tzol={
+		name="Itzam Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Itzam_Tzol
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	TIK_Popo_Balomtecab={
+		name="Popo Balomtecab"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Popo_Balomtecab
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	TIK_Chua_Tikin={
+		name="Chua Tikin"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Tecun_Tikin={
+		name="Tecun Tikin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Tecun_Tikin
+				traits = {	infirm 	}
+		}
+
+	}
+	TIK_Ekchak_Nohil={
+		name="Ekchak Nohil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Ekchak_Nohil
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TIK_Acab_Balomtecab={
+		name="Acab Balomtecab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Acab_Balomtecab
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TIK_Pakan_Kate={
+		name="Pakan Kate"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Pakan_Kate
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TIK_Chichen_Agual={
+		name="Chichen Agual"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Chichen_Agual
+				traits = {	infirm 	}
+		}
+
+	}
+	TIK_Yaxkin_Agual={
+		name="Yaxkin Agual"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Yaxkin_Agual
+				traits = {	first_lady 	}
+		}
+
+	}
+	TIK_Bacom_Balomtecab={
+		name="Bacom Balomtecab"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Bacom_Balomtecab
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TIK_Nacatl_Balomtecab={
+		name="Nacatl Balomtecab"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Nacatl_Balomtecab
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TIK_Itzam_Nohil={
+		name="Itzam Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Itzam_Nohil
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TIK_Kukulkanek_Nohil={
+		name="Kukulkanek Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Kukulkanek_Nohil
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TIK_Acab_Sayil={
+		name="Acab Sayil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Acab_Sayil
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TIK_Chichen_Yaxulkin={
+		name="Chichen Yaxulkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Chichen_Yaxulkin
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	TIK_Nacom_Tikin={
+		name="Nacom Tikin"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Nacom_Tikin
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TIK_Balam_Sayil={
+		name="Balam Sayil"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Balam_Sayil
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TIK_Ekchakal_Kate={
+		name="Ekchakal Kate"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Ekchakal_Kate
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	TIK_Nacatl_Kate={
+		name="Nacatl Kate"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Nacatl_Kate
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TIK_Pakan_Tikin={
+		name="Pakan Tikin"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Pakan_Tikin
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	TIK_Chua_Yaxulkin={
+		name="Chua Yaxulkin"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Chua_Yaxulkin
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	TIK_Pakalam_Agual={
+		name="Pakalam Agual"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Pakalam_Agual
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TIK_Tohichen_Sayil={
+		name="Tohichen Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Tohichen_Sayil
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TIK_Ekchichen_Tikin={
+		name="Ekchichen Tikin"
+
+		advisor={
+			slot = theorist
+			idea_token = TIK_Ekchichen_Tikin
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TIK_Oxib_Kate={
+		name="Oxib Kate"
+
+		advisor={
+			slot = theorist
+			idea_token = TIK_Oxib_Kate
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TIK_Ekchua_Yaxulkin={
+		name="Ekchua Yaxulkin"
+
+		advisor={
+			slot = theorist
+			idea_token = TIK_Ekchua_Yaxulkin
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

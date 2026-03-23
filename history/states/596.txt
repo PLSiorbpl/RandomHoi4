@@ -2,14 +2,14 @@
 state={
 	id=596
 	name="STATE_596"
-	manpower = 747582
+	manpower = 984496
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 7877 5}
+		victory_points = { 7058 1}
+		victory_points = { 7061 1}
+		victory_points = { 7063 1}
+		victory_points = { 7068 1}
 		
-		owner = SAH
+		owner = YIT
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 2
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			7879 = {
-				naval_base = 1
-			}
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = SAH
+		add_core_of = YIT
 	}
 
 	provinces={
-		7877 7878 7879 7880 7881 7882 7883 7884 7885 7886 
+		7058 7059 7060 7061 7062 7063 7064 7065 7066 7067 7068 7069 7070 7071 
 	}
 	local_supplies=0.0 
 }

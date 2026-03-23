@@ -2,14 +2,14 @@
 state={
 	id=595
 	name="STATE_595"
-	manpower = 218091
+	manpower = 422167
 	
 	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,21 +17,22 @@ state={
 	}
 
 	history={
+		victory_points = { 7056 1}
 		
-		owner = CPM
+		owner = BON
 		buildings = {
-			infrastructure = 1
-			
+			infrastructure = 2
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CPM
+		add_core_of = BON
 	}
 
 	provinces={
-		7869 7870 7871 7872 7873 7874 7875 7876 
+		7052 7053 7054 7055 7056 7057 
 	}
 	local_supplies=0.0 
 }

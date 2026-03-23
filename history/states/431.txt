@@ -2,9 +2,9 @@
 state={
 	id=431
 	name="STATE_431"
-	manpower = 1156946
+	manpower = 2147336
 	
-	state_category = large_town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 5622 3}
-		victory_points = { 5626 3}
-		victory_points = { 5636 1}
+		victory_points = { 5181 7}
+		victory_points = { 5189 6}
+		victory_points = { 5194 1}
 		
-		owner = ETX
+		owner = IKA
 		buildings = {
 			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ETX
+		add_core_of = IKA
 	}
 
 	provinces={
-		5622 5623 5624 5625 5626 5627 5628 5629 5630 5631 5632 5633 5634 5635 5636 5637 5638 
+		5174 5175 5176 5177 5178 5179 5180 5181 5182 5183 5184 5185 5186 5187 5188 5189 5190 5191 5192 5193 5194 5195 5196 5197 
 	}
 	local_supplies=0.0 
 }

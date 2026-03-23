@@ -2,38 +2,39 @@
 state={
 	id=991
 	name="STATE_991"
-	manpower = 713822
+	manpower = 2458500
 	
-	state_category = town
+	state_category = metropolis
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=2
 		chromium=0
 		oil=0
 		rubber=0
-		steel=2
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13209 2}
-		victory_points = { 13210 3}
+		victory_points = { 11769 7}
+		victory_points = { 11770 5}
+		victory_points = { 11780 2}
 		
-		owner = LZO
+		owner = KER
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = LZO
+		add_core_of = KER
 	}
 
 	provinces={
-		13207 13208 13209 13210 13211 13212 13213 13214 13215 13216 
+		11755 11756 11757 11758 11759 11760 11761 11762 11763 11764 11765 11766 11767 11768 11769 11770 11771 11772 11773 11774 11775 11776 11777 11778 11779 11780 11781 
 	}
 	local_supplies=0.0 
 }

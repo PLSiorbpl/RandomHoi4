@@ -2,9 +2,9 @@
 state={
 	id=195
 	name="STATE_195"
-	manpower = 1617650
+	manpower = 411412
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 2704 5}
-		victory_points = { 2717 3}
-		victory_points = { 2726 4}
+		victory_points = { 2405 1}
 		
-		owner = NXS
+		owner = CDA
 		buildings = {
-			infrastructure = 4
-			air_base = 3
-			arms_factory = 2
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NXS
+		add_core_of = CDA
 	}
 
 	provinces={
-		2703 2704 2705 2706 2707 2708 2709 2710 2711 2712 2713 2714 2715 2716 2717 2718 2719 2720 2721 2722 2723 2724 2725 2726 
+		2405 2406 2407 2408 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Banas Fleet"			
+		naval_base = 17569
+		task_force = {
+			name = "Banas Fleet"
+			location = 17569
+			
+						ship = { name = "Tuailleach" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = BXN version_name = "Lionn Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

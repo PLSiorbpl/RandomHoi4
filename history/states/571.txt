@@ -2,37 +2,38 @@
 state={
 	id=571
 	name="STATE_571"
-	manpower = 791067
+	manpower = 733063
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=6
 	}
 
 	history={
-		victory_points = { 7517 4}
+		victory_points = { 6823 1}
+		victory_points = { 6825 2}
 		
-		owner = MFN
+		owner = SAN
 		buildings = {
 			infrastructure = 3
-			air_base = 4
-			arms_factory = 0
-			industrial_complex = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = MFN
+		add_core_of = SAN
 	}
 
 	provinces={
-		7512 7513 7514 7515 7516 7517 7518 7519 7520 7521 7522 7523 
+		6819 6820 6821 6822 6823 6824 6825 
 	}
 	local_supplies=0.0 
 }

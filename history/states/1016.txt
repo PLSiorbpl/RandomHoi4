@@ -2,40 +2,38 @@
 state={
 	id=1016
 	name="STATE_1016"
-	manpower = 1544788
+	manpower = 1021194
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=6
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13379 2}
-		victory_points = { 13382 3}
-		victory_points = { 13390 4}
-		victory_points = { 13394 2}
+		victory_points = { 12091 4}
+		victory_points = { 12092 1}
 		
-		owner = LZO
+		owner = TOT
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = LZO
+		add_core_of = TOT
 	}
 
 	provinces={
-		13378 13379 13380 13381 13382 13383 13384 13385 13386 13387 13388 13389 13390 13391 13392 13393 13394 13395 13396 13397 13398 13399 13400 
+		12091 12092 12093 12094 12095 12096 12097 12098 12099 12100 
 	}
 	local_supplies=0.0 
 }

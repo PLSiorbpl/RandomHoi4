@@ -2,38 +2,39 @@
 state={
 	id=800
 	name="STATE_800"
-	manpower = 922676
+	manpower = 1168512
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=2
-		chromium=0
+		aluminium=0
+		chromium=15
 		oil=0
 		rubber=0
-		steel=11
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10800 5}
-		victory_points = { 10809 1}
+		victory_points = { 9384 2}
+		victory_points = { 9393 2}
+		victory_points = { 9394 2}
 		
-		owner = PON
+		owner = BYL
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = BYL
 	}
 
 	provinces={
-		10798 10799 10800 10801 10802 10803 10804 10805 10806 10807 10808 10809 10810 
+		9383 9384 9385 9386 9387 9388 9389 9390 9391 9392 9393 9394 9395 9396 
 	}
 	local_supplies=0.0 
 }

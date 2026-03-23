@@ -2,37 +2,38 @@
 state={
 	id=650
 	name="STATE_650"
-	manpower = 818673
+	manpower = 1040217
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=3
 		oil=0
 		rubber=0
-		steel=18
+		steel=0
 		tungsten=0
-		coal=52
+		coal=0
 	}
 
 	history={
-		victory_points = { 8683 5}
+		victory_points = { 7703 3}
+		victory_points = { 7707 3}
 		
-		owner = GHU
+		owner = BYL
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GHU
+		add_core_of = BYL
 	}
 
 	provinces={
-		8682 8683 8684 8685 8686 8687 8688 8689 8690 8691 8692 8693 8694 
+		7703 7704 7705 7706 7707 7708 7709 7710 7711 7712 7713 
 	}
 	local_supplies=0.0 
 }

@@ -2,40 +2,37 @@
 state={
 	id=849
 	name="STATE_849"
-	manpower = 1750908
+	manpower = 712391
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11389 1}
-		victory_points = { 11394 5}
-		victory_points = { 11403 6}
-		victory_points = { 11405 1}
+		victory_points = { 9861 2}
 		
-		owner = SVE
+		owner = ZAP
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = SVE
+		add_core_of = ZAP
 	}
 
 	provinces={
-		11385 11386 11387 11388 11389 11390 11391 11392 11393 11394 11395 11396 11397 11398 11399 11400 11401 11402 11403 11404 11405 11406 11407 11408 11409 11410 
+		9859 9860 9861 9862 9863 9864 9865 
 	}
 	local_supplies=0.0 
 }

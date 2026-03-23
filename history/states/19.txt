@@ -2,41 +2,38 @@
 state={
 	id=19
 	name="STATE_19"
-	manpower = 762270
+	manpower = 1517881
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=5
+		oil=3
 		rubber=0
-		steel=14
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 242 4}
-		victory_points = { 248 1}
+		victory_points = { 191 1}
+		victory_points = { 203 7}
 		
-		owner = NAZ
+		owner = BUN
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 4
+			
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			241 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = NAZ
+		add_core_of = BUN
 	}
 
 	provinces={
-		241 242 243 244 245 246 247 248 249 250 
+		190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 
 	}
 	local_supplies=0.0 
 }

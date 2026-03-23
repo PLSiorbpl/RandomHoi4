@@ -1,0 +1,291 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			mot_artillery_brigade = {  x = 3 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Witzam' Militia Division"
+		location = 11457
+		division_template = "Militia Division"
+		start_experience_factor = 0.939773
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Oxlan' Militia Division"
+		location = 12634
+		division_template = "Militia Division"
+		start_experience_factor = 0.635650
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Kanilhak' Militia Division"
+		location = 12635
+		division_template = "Militia Division"
+		start_experience_factor = 0.552958
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Witzam' Militia Division"
+		location = 11453
+		division_template = "Militia Division"
+		start_experience_factor = 0.827939
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Vazhar' Militia Division"
+		location = 13523
+		division_template = "Militia Division"
+		start_experience_factor = 0.759540
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Tzolkin' Militia Division"
+		location = 2226
+		division_template = "Militia Division"
+		start_experience_factor = 0.617775
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Oxlan' Infantry Division"
+		location = 12832
+		division_template = "Infantry Division"
+		start_experience_factor = 0.005054
+		start_equipment_factor = 0.988589
+	}
+	division= {
+		name = "1nd 'Tzolkin' Infantry Division"
+		location = 12203
+		division_template = "Infantry Division"
+		start_experience_factor = 0.567722
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Nadal' Infantry Division"
+		location = 13503
+		division_template = "Infantry Division"
+		start_experience_factor = 0.328550
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Uxun' Infantry Division"
+		location = 12152
+		division_template = "Infantry Division"
+		start_experience_factor = 0.847715
+		start_equipment_factor = 0.955418
+	}
+	division= {
+		name = "0st 'Uxun' Supported Infantry Division"
+		location = 12833
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.749869
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Tzaman' Artillery Division"
+		location = 13428
+		division_template = "Artillery Division"
+		start_experience_factor = 0.396757
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Sotznaab' Cavalry Division"
+		location = 579
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.764915
+		start_equipment_factor = 0.981794
+	}
+	division= {
+		name = "1nd 'Coba' Cavalry Division"
+		location = 3681
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.412892
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Kanilhak' Cavalry Division"
+		location = 12635
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.375612
+		start_equipment_factor = 0.991042
+	}
+	division= {
+		name = "3th 'Thogu' Cavalry Division"
+		location = 13504
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.807294
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Tikan' Cavalry Division"
+		location = 1128
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.651124
+		start_equipment_factor = 0.950345
+	}
+	division= {
+		name = "0st 'Kudran' Motorized Division"
+		location = 13508
+		division_template = "Motorized Division"
+		start_experience_factor = 0.199401
+		start_equipment_factor = 0.959798
+	}
+	division= {
+		name = "1nd 'Kizhir' Motorized Division"
+		location = 13536
+		division_template = "Motorized Division"
+		start_experience_factor = 0.502694
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Tzaman' Supported Motorized Division"
+		location = 11184
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.332645
+		start_equipment_factor = 1.000000
+	}
+
+}

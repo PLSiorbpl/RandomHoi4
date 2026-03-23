@@ -2,38 +2,40 @@
 state={
 	id=322
 	name="STATE_322"
-	manpower = 1075215
+	manpower = 2604019
 	
-	state_category = large_town
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 4337 6}
-		victory_points = { 4339 2}
+		victory_points = { 3794 4}
+		victory_points = { 3807 4}
+		victory_points = { 3814 6}
+		victory_points = { 3816 1}
 		
-		owner = HOR
+		owner = MSN
 		buildings = {
 			infrastructure = 4
-			
+			air_base = 4
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = HOR
+		add_core_of = MSN
 	}
 
 	provinces={
-		4336 4337 4338 4339 4340 4341 4342 4343 4344 4345 4346 4347 4348 4349 4350 4351 
+		3787 3788 3789 3790 3791 3792 3793 3794 3795 3796 3797 3798 3799 3800 3801 3802 3803 3804 3805 3806 3807 3808 3809 3810 3811 3812 3813 3814 3815 3816 3817 
 	}
 	local_supplies=0.0 
 }

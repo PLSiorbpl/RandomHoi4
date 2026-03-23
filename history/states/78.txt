@@ -2,9 +2,9 @@
 state={
 	id=78
 	name="STATE_78"
-	manpower = 556722
+	manpower = 1311861
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,27 +13,27 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=20
 	}
 
 	history={
-		victory_points = { 1210 1}
-		victory_points = { 1212 1}
+		victory_points = { 1036 3}
+		victory_points = { 1042 4}
 		
-		owner = RNT
+		owner = UXU
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = RNT
+		add_core_of = UXU
 	}
 
 	provinces={
-		1207 1208 1209 1210 1211 1212 1213 1214 1215 
+		1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 
 	}
 	local_supplies=0.0 
 }

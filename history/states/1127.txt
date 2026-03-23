@@ -2,43 +2,38 @@
 state={
 	id=1127
 	name="STATE_1127"
-	manpower = 2088653
+	manpower = 602046
 	
-	state_category = metropolis
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=16
+		oil=1
+		rubber=0
 		steel=0
-		tungsten=7
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14731 4}
-		victory_points = { 14736 5}
-		victory_points = { 14743 2}
-		victory_points = { 14759 4}
+		victory_points = { 13472 1}
+		victory_points = { 13473 1}
 		
-		owner = ANI
+		owner = ZGT
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 3
 			
-			14740 = {
-				naval_base = 1
-			}
+			arms_factory = 1
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = ANI
+		add_core_of = ZGT
 	}
 
 	provinces={
-		14728 14729 14730 14731 14732 14733 14734 14735 14736 14737 14738 14739 14740 14741 14742 14743 14744 14745 14746 14747 14748 14749 14750 14751 14752 14753 14754 14755 14756 14757 14758 14759 14760 14761 
+		13471 13472 13473 13474 13475 13476 
 	}
 	local_supplies=0.0 
 }

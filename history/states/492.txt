@@ -2,38 +2,37 @@
 state={
 	id=492
 	name="STATE_492"
-	manpower = 1256163
+	manpower = 1057198
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=40
 	}
 
 	history={
-		victory_points = { 6394 3}
-		victory_points = { 6395 4}
+		victory_points = { 5929 6}
 		
-		owner = MFN
+		owner = IKA
 		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MFN
+		add_core_of = IKA
 	}
 
 	provinces={
-		6394 6395 6396 6397 6398 6399 6400 6401 6402 6403 6404 6405 6406 6407 6408 6409 6410 6411 6412 6413 6414 6415 6416 6417 6418 6419 
+		5928 5929 5930 5931 5932 5933 5934 5935 5936 5937 5938 
 	}
 	local_supplies=0.0 
 }

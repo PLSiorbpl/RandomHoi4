@@ -2,42 +2,38 @@
 state={
 	id=460
 	name="STATE_460"
-	manpower = 857161
+	manpower = 1468887
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=3
+		coal=0
 	}
 
 	history={
-		victory_points = { 5887 2}
-		victory_points = { 5894 2}
-		victory_points = { 5896 1}
+		victory_points = { 5538 1}
+		victory_points = { 5544 8}
 		
-		owner = BEJ
+		owner = XEN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
-			5888 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = XEN
 	}
 
 	provinces={
-		5884 5885 5886 5887 5888 5889 5890 5891 5892 5893 5894 5895 5896 
+		5531 5532 5533 5534 5535 5536 5537 5538 5539 5540 5541 5542 5543 5544 5545 5546 
 	}
 	local_supplies=0.0 
 }

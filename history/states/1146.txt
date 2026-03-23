@@ -2,9 +2,9 @@
 state={
 	id=1146
 	name="STATE_1146"
-	manpower = 941607
+	manpower = 26204
 	
-	state_category = large_town
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 14985 2}
-		victory_points = { 14988 3}
 		
-		owner = BTC
+		owner = SEM
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
+			infrastructure = 1
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
-			14990 = {
+			13816 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = BTC
+		add_core_of = SEM
 	}
 
 	provinces={
-		14982 14983 14984 14985 14986 14987 14988 14989 14990 14991 14992 14993 14994 
+		13796 13797 13798 13799 13800 13801 13802 13803 13804 13805 13806 13807 13808 13809 13810 13811 13812 13813 13814 13815 13816 13817 13818 13819 13820 13821 13822 13823 13824 13825 13826 13827 13828 13829 
 	}
 	local_supplies=0.0 
 }

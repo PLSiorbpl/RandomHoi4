@@ -2,9 +2,9 @@
 state={
 	id=227
 	name="STATE_227"
-	manpower = 564007
+	manpower = 1265265
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,25 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 3102 2}
+		victory_points = { 2744 3}
+		victory_points = { 2745 1}
+		victory_points = { 2751 2}
 		
-		owner = ASH
+		owner = TRO
 		buildings = {
-			infrastructure = 3
-			air_base = 4
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			3100 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = ASH
+		add_core_of = TRO
 	}
 
 	provinces={
-		3100 3101 3102 3103 3104 3105 3106 3107 
+		2744 2745 2746 2747 2748 2749 2750 2751 2752 2753 2754 2755 2756 
 	}
 	local_supplies=0.0 
 }

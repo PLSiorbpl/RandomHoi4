@@ -1,0 +1,880 @@
+characters = {
+	YIT_Severus_Silicis={
+		name="Severus Silicis"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YIT_Tibiustus_Celum={
+		name="Tibiustus Celum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Tibiustus_Celum
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	YIT_Regus_Mura={
+		name="Regus Mura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Regus_Mura
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YIT_Marcellus_Famma={
+		name="Marcellus Famma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Marcellus_Famma
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YIT_Flavius_Spes={
+		name="Flavius Spes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Flavius_Spes
+				traits = {	headstrong 	}
+		}
+
+	}
+	YIT_Caius_Scium={
+		name="Caius Scium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Caius_Scium
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	YIT_Quinus_Mura={
+		name="Quinus Mura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Quinus_Mura
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	YIT_Silvanus_Celum={
+		name="Silvanus Celum"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Silvanus_Celum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	YIT_Aulus_Famma={
+		name="Aulus Famma"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Aulus_Famma
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	YIT_Faulius_Mura={
+		name="Faulius Mura"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Faulius_Mura
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YIT_Coraius_Scium={
+		name="Coraius Scium"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Coraius_Scium
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	YIT_Augulus_Spes={
+		name="Augulus Spes"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Augulus_Spes
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	YIT_Paus_Cita={
+		name="Paus Cita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Paus_Cita
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	YIT_Drusus_Celum={
+		name="Drusus Celum"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Drusus_Celum
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	YIT_Varcus_Mura={
+		name="Varcus Mura"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Varcus_Mura
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	YIT_Vitellus_Celum={
+		name="Vitellus Celum"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Vitellus_Celum
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	YIT_Atticus_Ventus={
+		name="Atticus Ventus"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Atticus_Ventus
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	YIT_Tibiustus_Aques={
+		name="Tibiustus Aques"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Tibiustus_Aques
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	YIT_Caianlius_Silicis={
+		name="Caianlius Silicis"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Caianlius_Silicis
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	YIT_Hornellius_Famma={
+		name="Hornellius Famma"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Hornellius_Famma
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	YIT_Tibervius_Mura={
+		name="Tibervius Mura"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Tibervius_Mura
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	YIT_Tiberius_Cita={
+		name="Tiberius Cita"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YIT_Caianus_Aques={
+		name="Caianus Aques"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Caianus_Aques
+				traits = {	autokrator 	}
+		}
+
+	}
+	YIT_Urbanus_Aques={
+		name="Urbanus Aques"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Urbanus_Aques
+				traits = {	autokrator 	}
+		}
+
+	}
+	YIT_Hornellius_Vertas={
+		name="Hornellius Vertas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Hornellius_Vertas
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	YIT_Noniustus_Ventus={
+		name="Noniustus Ventus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Noniustus_Ventus
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	YIT_Gemus_Vertas={
+		name="Gemus Vertas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Gemus_Vertas
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	YIT_Tibius_Ventus={
+		name="Tibius Ventus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Tibius_Ventus
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YIT_Marcellus_Silicis={
+		name="Marcellus Silicis"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Marcellus_Silicis
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YIT_Traticus_Scium={
+		name="Traticus Scium"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Traticus_Scium
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YIT_Geminus_Vertas={
+		name="Geminus Vertas"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Geminus_Vertas
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YIT_Cassius_Spes={
+		name="Cassius Spes"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Cassius_Spes
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YIT_Scaevolaus_Vertas={
+		name="Scaevolaus Vertas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Scaevolaus_Vertas
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	YIT_Scaevolaudiu_Scium={
+		name="Scaevolaudiu Scium"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Scaevolaudiu_Scium
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	YIT_Atticus_Silicis={
+		name="Atticus Silicis"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Atticus_Silicis
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YIT_Paudius_Ventus={
+		name="Paudius Ventus"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Paudius_Ventus
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YIT_Horaius_Vertas={
+		name="Horaius Vertas"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Horaius_Vertas
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	YIT_Faus_Scium={
+		name="Faus Scium"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Faus_Scium
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YIT_Scaevolaudiu_Vertas={
+		name="Scaevolaudiu Vertas"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Scaevolaudiu_Vertas
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	YIT_Traticus_Spes={
+		name="Traticus Spes"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Traticus_Spes
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	YIT_Gemus_Celum={
+		name="Gemus Celum"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Gemus_Celum
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	YIT_Attius_Cita={
+		name="Attius Cita"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Attius_Cita
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	YIT_Caianlius_Mura={
+		name="Caianlius Mura"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YIT_Attius_Mura={
+		name="Attius Mura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Attius_Mura
+				traits = {	infirm 	}
+		}
+
+	}
+	YIT_Tibius_Cita={
+		name="Tibius Cita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Tibius_Cita
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YIT_Drusus_Spes={
+		name="Drusus Spes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Drusus_Spes
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YIT_Sextus_Silicis={
+		name="Sextus Silicis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Sextus_Silicis
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YIT_Marcellus_Scium={
+		name="Marcellus Scium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Marcellus_Scium
+				traits = {	political_dancer 	}
+		}
+
+	}
+	YIT_Claustus_Silicis={
+		name="Claustus Silicis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Claustus_Silicis
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YIT_Caianusus_Famma={
+		name="Caianusus Famma"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Caianusus_Famma
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	YIT_Decimus_Vertas={
+		name="Decimus Vertas"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Decimus_Vertas
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YIT_Paudius_Silicis={
+		name="Paudius Silicis"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Paudius_Silicis
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YIT_Sextus_Aques={
+		name="Sextus Aques"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Sextus_Aques
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YIT_Horaiustus_Mura={
+		name="Horaiustus Mura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Horaiustus_Mura
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YIT_Varro_Vertas={
+		name="Varro Vertas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Varro_Vertas
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	YIT_Valerutus_Celum={
+		name="Valerutus Celum"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Valerutus_Celum
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	YIT_Regus_Scium={
+		name="Regus Scium"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Regus_Scium
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YIT_Otho_Mura={
+		name="Otho Mura"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Otho_Mura
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	YIT_Serius_Spes={
+		name="Serius Spes"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Serius_Spes
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	YIT_Drusus_Mura={
+		name="Drusus Mura"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Drusus_Mura
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	YIT_Julus_Spes={
+		name="Julus Spes"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Julus_Spes
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	YIT_Silvanus_Vertas={
+		name="Silvanus Vertas"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Silvanus_Vertas
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	YIT_Attius_Spes={
+		name="Attius Spes"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Attius_Spes
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	YIT_Marro_Aques={
+		name="Marro Aques"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YIT_Tibius_Scium={
+		name="Tibius Scium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Tibius_Scium
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YIT_Lonius_Scium={
+		name="Lonius Scium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Lonius_Scium
+				traits = {	rearmer 	}
+		}
+
+	}
+	YIT_Vibervius_Ventus={
+		name="Vibervius Ventus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Vibervius_Ventus
+				traits = {	rearmer 	}
+		}
+
+	}
+	YIT_Neriscus_Ventus={
+		name="Neriscus Ventus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Neriscus_Ventus
+				traits = {	first_lady 	}
+		}
+
+	}
+	YIT_Paus_Scium={
+		name="Paus Scium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Paus_Scium
+				traits = {	the_banker 	}
+		}
+
+	}
+	YIT_Sevola_Mura={
+		name="Sevola Mura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YIT_Sevola_Mura
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	YIT_Quinus_Silicis={
+		name="Quinus Silicis"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Quinus_Silicis
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YIT_Domintongint_Ventus={
+		name="Domintongint Ventus"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Domintongint_Ventus
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YIT_Nonius_Ventus={
+		name="Nonius Ventus"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Nonius_Ventus
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	YIT_Augulustus_Ventus={
+		name="Augulustus Ventus"
+
+		advisor={
+			slot = army_chief
+			idea_token = YIT_Augulustus_Ventus
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YIT_Domitellustu_Mura={
+		name="Domitellustu Mura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Domitellustu_Mura
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	YIT_Drusus_Scium={
+		name="Drusus Scium"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YIT_Drusus_Scium
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	YIT_Tiberius_Aques={
+		name="Tiberius Aques"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Tiberius_Aques
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YIT_Augulustus_Cita={
+		name="Augulustus Cita"
+
+		advisor={
+			slot = air_chief
+			idea_token = YIT_Augulustus_Cita
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	YIT_Flaulus_Silicis={
+		name="Flaulus Silicis"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Flaulus_Silicis
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	YIT_Tibius_Celum={
+		name="Tibius Celum"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Tibius_Celum
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	YIT_Valeriscustu_Silicis={
+		name="Valeriscustu Silicis"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Valeriscustu_Silicis
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	YIT_Vibius_Celum={
+		name="Vibius Celum"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Vibius_Celum
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	YIT_Gemus_Mura={
+		name="Gemus Mura"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Gemus_Mura
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	YIT_Faus_Mura={
+		name="Faus Mura"
+
+		advisor={
+			slot = high_command
+			idea_token = YIT_Faus_Mura
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	YIT_Augulustus_Spes={
+		name="Augulustus Spes"
+
+		advisor={
+			slot = theorist
+			idea_token = YIT_Augulustus_Spes
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YIT_Claustus_Cita={
+		name="Claustus Cita"
+
+		advisor={
+			slot = theorist
+			idea_token = YIT_Claustus_Cita
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YIT_Drus_Silicis={
+		name="Drus Silicis"
+
+		advisor={
+			slot = theorist
+			idea_token = YIT_Drus_Silicis
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

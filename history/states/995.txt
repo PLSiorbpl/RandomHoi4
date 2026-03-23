@@ -2,38 +2,38 @@
 state={
 	id=995
 	name="STATE_995"
-	manpower = 682858
+	manpower = 641957
 	
-	state_category = town
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13239 1}
-		victory_points = { 13240 3}
+		victory_points = { 11812 1}
+		victory_points = { 11814 2}
 		
-		owner = DUA
+		owner = KER
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = DUA
+		add_core_of = KER
 	}
 
 	provinces={
-		13238 13239 13240 13241 13242 13243 13244 13245 13246 13247 
+		11811 11812 11813 11814 11815 11816 
 	}
 	local_supplies=0.0 
 }

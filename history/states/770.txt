@@ -2,7 +2,7 @@
 state={
 	id=770
 	name="STATE_770"
-	manpower = 1058995
+	manpower = 1433259
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,29 +11,32 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=5
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10350 4}
-		victory_points = { 10351 3}
+		victory_points = { 9072 4}
+		victory_points = { 9075 4}
 		
-		owner = NCL
+		owner = SEM
 		buildings = {
 			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
-			arms_factory = 1
-			industrial_complex = 0
-			
+			9079 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = NCL
+		add_core_of = SEM
 	}
 
 	provinces={
-		10337 10338 10339 10340 10341 10342 10343 10344 10345 10346 10347 10348 10349 10350 10351 
+		9070 9071 9072 9073 9074 9075 9076 9077 9078 9079 9080 9081 9082 9083 9084 
 	}
 	local_supplies=0.0 
 }

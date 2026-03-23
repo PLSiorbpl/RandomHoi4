@@ -2,42 +2,38 @@
 state={
 	id=604
 	name="STATE_604"
-	manpower = 1324176
+	manpower = 1288790
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=10
 		tungsten=0
-		coal=2
+		coal=0
 	}
 
 	history={
-		victory_points = { 7992 4}
-		victory_points = { 8001 4}
-		victory_points = { 8010 1}
+		victory_points = { 7169 5}
+		victory_points = { 7179 2}
 		
-		owner = UAS
+		owner = ZAP
 		buildings = {
 			infrastructure = 4
-			air_base = 5
-			arms_factory = 0
-			industrial_complex = 1
 			
-			7993 = {
-				naval_base = 1
-			}
+			arms_factory = 1
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = UAS
+		add_core_of = ZAP
 	}
 
 	provinces={
-		7992 7993 7994 7995 7996 7997 7998 7999 8000 8001 8002 8003 8004 8005 8006 8007 8008 8009 8010 
+		7169 7170 7171 7172 7173 7174 7175 7176 7177 7178 7179 7180 7181 7182 
 	}
 	local_supplies=0.0 
 }

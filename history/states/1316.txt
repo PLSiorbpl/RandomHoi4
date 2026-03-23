@@ -2,39 +2,40 @@
 state={
 	id=1316
 	name="STATE_1316"
-	manpower = 221667
+	manpower = 468471
 	
-	state_category = small_island
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=6
+		oil=1
+		rubber=4
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 17674 1}
 		
-		owner = LQM
+		owner = TIK
 		buildings = {
 			infrastructure = 2
-			air_base = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
-			17308 = {
+			17673 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = LQM
+		add_core_of = TIK
 	}
 
 	provinces={
-		17305 17306 17307 17308 17309 
+		17670 17671 17672 17673 17674 17675 17676 
 	}
 	local_supplies=0.0 
 }

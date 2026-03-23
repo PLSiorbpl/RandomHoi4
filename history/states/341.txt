@@ -2,9 +2,9 @@
 state={
 	id=341
 	name="STATE_341"
-	manpower = 835411
+	manpower = 2078613
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,33 +12,30 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=4
 		coal=0
 	}
 
 	history={
-		victory_points = { 4571 2}
-		victory_points = { 4574 1}
-		victory_points = { 4575 1}
-		victory_points = { 4579 1}
+		victory_points = { 4020 5}
+		victory_points = { 4021 2}
+		victory_points = { 4023 4}
+		victory_points = { 4032 2}
 		
-		owner = CEI
+		owner = HAM
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 2
 			
-			4567 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = CEI
+		add_core_of = HAM
 	}
 
 	provinces={
-		4567 4568 4569 4570 4571 4572 4573 4574 4575 4576 4577 4578 4579 
+		4012 4013 4014 4015 4016 4017 4018 4019 4020 4021 4022 4023 4024 4025 4026 4027 4028 4029 4030 4031 4032 4033 4034 
 	}
 	local_supplies=0.0 
 }

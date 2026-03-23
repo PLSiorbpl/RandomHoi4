@@ -2,43 +2,43 @@
 state={
 	id=1242
 	name="STATE_1242"
-	manpower = 2244558
+	manpower = 1556380
 	
-	state_category = metropolis
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=11
+		aluminium=0
 		chromium=0
-		oil=0
-		rubber=0
+		oil=7
+		rubber=18
 		steel=0
-		tungsten=20
-		coal=17
+		tungsten=0
+		coal=0
 	}
 
 	history={
-		victory_points = { 16282 4}
-		victory_points = { 16287 4}
-		victory_points = { 16301 9}
-		victory_points = { 16309 1}
+		victory_points = { 16242 1}
+		victory_points = { 16248 1}
+		victory_points = { 16257 2}
+		victory_points = { 16259 2}
 		
-		owner = IUI
+		owner = HTN
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 2
+			
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 0
 			dockyard = 1
-			16293 = {
+			16246 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = IUI
+		add_core_of = HTN
 	}
 
 	provinces={
-		16279 16280 16281 16282 16283 16284 16285 16286 16287 16288 16289 16290 16291 16292 16293 16294 16295 16296 16297 16298 16299 16300 16301 16302 16303 16304 16305 16306 16307 16308 16309 16310 16311 16312 
+		16228 16229 16230 16231 16232 16233 16234 16235 16236 16237 16238 16239 16240 16241 16242 16243 16244 16245 16246 16247 16248 16249 16250 16251 16252 16253 16254 16255 16256 16257 16258 16259 
 	}
 	local_supplies=0.0 
 }

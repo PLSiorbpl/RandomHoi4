@@ -2,14 +2,14 @@
 state={
 	id=548
 	name="STATE_548"
-	manpower = 630357
+	manpower = 670283
 	
 	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 7206 1}
-		victory_points = { 7212 1}
-		victory_points = { 7215 1}
+		victory_points = { 6581 2}
+		victory_points = { 6582 1}
 		
-		owner = UNI
+		owner = ZAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = UNI
+		add_core_of = ZAP
 	}
 
 	provinces={
-		7205 7206 7207 7208 7209 7210 7211 7212 7213 7214 7215 7216 7217 
+		6581 6582 6583 6584 6585 6586 
 	}
 	local_supplies=0.0 
 }

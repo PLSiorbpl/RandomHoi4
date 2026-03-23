@@ -2,38 +2,40 @@
 state={
 	id=1333
 	name="STATE_1333"
-	manpower = 570888
+	manpower = 441918
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=5
 		steel=0
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
-		victory_points = { 17447 1}
-		victory_points = { 17454 2}
+		victory_points = { 17907 1}
 		
-		owner = WEA
+		owner = UXM
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 2
 			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17909 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = WEA
+		add_core_of = UXM
 	}
 
 	provinces={
-		17447 17448 17449 17450 17451 17452 17453 17454 
+		17907 17908 17909 17910 17911 17912 17913 17914 
 	}
 	local_supplies=0.0 
 }

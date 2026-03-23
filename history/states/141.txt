@@ -2,38 +2,37 @@
 state={
 	id=141
 	name="STATE_141"
-	manpower = 1904435
+	manpower = 870344
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
-		tungsten=0
+		steel=6
+		tungsten=5
 		coal=0
 	}
 
 	history={
-		victory_points = { 2014 1}
-		victory_points = { 2019 13}
+		victory_points = { 1809 3}
 		
-		owner = ETX
+		owner = HAM
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			arms_factory = 1
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ETX
+		add_core_of = HAM
 	}
 
 	provinces={
-		2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 
+		1808 1809 1810 1811 1812 1813 1814 1815 1816 
 	}
 	local_supplies=0.0 
 }

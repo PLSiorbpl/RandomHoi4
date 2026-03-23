@@ -2,41 +2,42 @@
 state={
 	id=1248
 	name="STATE_1248"
-	manpower = 890650
+	manpower = 1073664
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=3
+		oil=4
+		rubber=13
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 16407 1}
-		victory_points = { 16414 4}
+		victory_points = { 16470 1}
+		victory_points = { 16476 1}
+		victory_points = { 16483 1}
 		
-		owner = IUI
+		owner = HTN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
-			16414 = {
+			16473 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = IUI
+		add_core_of = HTN
 	}
 
 	provinces={
-		16404 16405 16406 16407 16408 16409 16410 16411 16412 16413 16414 16415 16416 16417 
+		16467 16468 16469 16470 16471 16472 16473 16474 16475 16476 16477 16478 16479 16480 16481 16482 16483 16484 16485 16486 16487 16488 
 	}
 	local_supplies=0.0 
 }

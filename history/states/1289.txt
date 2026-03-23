@@ -2,39 +2,41 @@
 state={
 	id=1289
 	name="STATE_1289"
-	manpower = 232707
+	manpower = 1532909
 	
-	state_category = pastoral
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=7
+		rubber=0
 		steel=0
 		tungsten=0
-		coal=43
+		coal=0
 	}
 
 	history={
+		victory_points = { 17055 5}
+		victory_points = { 17058 3}
 		
-		owner = PIN
+		owner = KUK
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 4
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 0
-			
-			16995 = {
+			dockyard = 1
+			17063 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = PIN
+		add_core_of = KUK
 	}
 
 	provinces={
-		16992 16993 16994 16995 16996 16997 
+		17054 17055 17056 17057 17058 17059 17060 17061 17062 17063 17064 17065 17066 17067 17068 17069 
 	}
 	local_supplies=0.0 
 }

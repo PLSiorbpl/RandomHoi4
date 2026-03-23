@@ -1,0 +1,28 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Yaxche Fleet"			
+		naval_base = 10844
+		task_force = {
+			name = "Yaxche Fleet"
+			location = 10844
+			
+						ship = { name = "Ajtzampakban" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YFX version_name = "Zotz Class" } }	}
+			ship = { name = "Zotz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YFX version_name = "Zotz Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

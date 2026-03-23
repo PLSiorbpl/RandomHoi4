@@ -2,7 +2,7 @@
 state={
 	id=564
 	name="STATE_564"
-	manpower = 882602
+	manpower = 1016835
 	
 	state_category = town
 	#impassable = yes
@@ -10,32 +10,33 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=7
-		steel=3
+		rubber=0
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7427 6}
+		victory_points = { 6768 1}
+		victory_points = { 6772 4}
 		
-		owner = LOR
+		owner = YAG
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
 			
-			7425 = {
+			6774 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = LOR
+		add_core_of = YAG
 	}
 
 	provinces={
-		7420 7421 7422 7423 7424 7425 7426 7427 7428 7429 7430 7431 7432 
+		6768 6769 6770 6771 6772 6773 6774 6775 6776 6777 
 	}
 	local_supplies=0.0 
 }

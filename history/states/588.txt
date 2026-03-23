@@ -2,38 +2,39 @@
 state={
 	id=588
 	name="STATE_588"
-	manpower = 1588393
+	manpower = 473763
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=15
-		oil=3
+		chromium=0
+		oil=0
 		rubber=0
-		steel=0
-		tungsten=3
+		steel=1
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7763 11}
-		victory_points = { 7771 1}
 		
-		owner = ULU
+		owner = LIZ
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 2
+			industrial_complex = 0
 			
+			6970 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = ULU
+		add_core_of = LIZ
 	}
 
 	provinces={
-		7763 7764 7765 7766 7767 7768 7769 7770 7771 7772 7773 7774 7775 7776 7777 7778 7779 7780 7781 7782 7783 7784 7785 7786 
+		6970 6971 6972 6973 
 	}
 	local_supplies=0.0 
 }

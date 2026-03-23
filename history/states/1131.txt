@@ -2,9 +2,9 @@
 state={
 	id=1131
 	name="STATE_1131"
-	manpower = 518300
+	manpower = 1678292
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 14791 1}
-		victory_points = { 14794 1}
+		victory_points = { 13543 5}
+		victory_points = { 13546 3}
+		victory_points = { 13547 1}
 		
-		owner = ANI
+		owner = VAN
 		buildings = {
-			infrastructure = 3
-			
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ANI
+		add_core_of = VAN
 	}
 
 	provinces={
-		14790 14791 14792 14793 14794 14795 14796 
+		13541 13542 13543 13544 13545 13546 13547 13548 13549 13550 13551 13552 13553 13554 13555 13556 13557 13558 
 	}
 	local_supplies=0.0 
 }

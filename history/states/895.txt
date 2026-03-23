@@ -2,39 +2,39 @@
 state={
 	id=895
 	name="STATE_895"
-	manpower = 1277715
+	manpower = 1050796
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=2
-		oil=0
+		chromium=0
+		oil=2
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=3
 		coal=0
 	}
 
 	history={
-		victory_points = { 11975 4}
-		victory_points = { 11981 2}
-		victory_points = { 11986 4}
+		victory_points = { 10429 2}
+		victory_points = { 10430 2}
+		victory_points = { 10434 2}
 		
-		owner = UNI
+		owner = FBR
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = UNI
+		add_core_of = FBR
 	}
 
 	provinces={
-		11972 11973 11974 11975 11976 11977 11978 11979 11980 11981 11982 11983 11984 11985 11986 11987 11988 11989 11990 
+		10425 10426 10427 10428 10429 10430 10431 10432 10433 10434 10435 
 	}
 	local_supplies=0.0 
 }

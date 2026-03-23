@@ -2,39 +2,38 @@
 state={
 	id=476
 	name="STATE_476"
-	manpower = 931662
+	manpower = 1050519
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=13
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
-		tungsten=0
+		steel=5
+		tungsten=7
 		coal=0
 	}
 
 	history={
-		victory_points = { 6149 2}
-		victory_points = { 6152 3}
-		victory_points = { 6156 1}
+		victory_points = { 5743 2}
+		victory_points = { 5744 3}
 		
-		owner = XRA
+		owner = SAN
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = XRA
+		add_core_of = SAN
 	}
 
 	provinces={
-		6149 6150 6151 6152 6153 6154 6155 6156 6157 6158 6159 6160 6161 
+		5738 5739 5740 5741 5742 5743 5744 5745 5746 5747 5748 
 	}
 	local_supplies=0.0 
 }

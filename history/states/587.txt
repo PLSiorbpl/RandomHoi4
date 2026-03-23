@@ -2,9 +2,9 @@
 state={
 	id=587
 	name="STATE_587"
-	manpower = 1071995
+	manpower = 337875
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,27 +12,26 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=6
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7747 8}
 		
-		owner = ULU
+		owner = XEN
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = XEN
 	}
 
 	provinces={
-		7747 7748 7749 7750 7751 7752 7753 7754 7755 7756 7757 7758 7759 7760 7761 7762 
+		6968 6969 
 	}
 	local_supplies=0.0 
 }

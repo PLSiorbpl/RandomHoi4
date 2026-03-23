@@ -2,14 +2,14 @@
 state={
 	id=875
 	name="STATE_875"
-	manpower = 1041379
+	manpower = 3499495
 	
-	state_category = large_town
+	state_category = megalopolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=6
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 11705 7}
+		victory_points = { 10152 5}
+		victory_points = { 10153 11}
+		victory_points = { 10163 5}
 		
-		owner = KOB
+		owner = CAE
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = KOB
+		add_core_of = CAE
 	}
 
 	provinces={
-		11702 11703 11704 11705 11706 11707 11708 11709 11710 11711 11712 11713 11714 11715 11716 
+		10149 10150 10151 10152 10153 10154 10155 10156 10157 10158 10159 10160 10161 10162 10163 10164 10165 10166 10167 10168 10169 10170 10171 10172 10173 10174 10175 10176 10177 10178 10179 10180 10181 10182 10183 10184 10185 10186 10187 
 	}
 	local_supplies=0.0 
 }

@@ -2,37 +2,40 @@
 state={
 	id=1123
 	name="STATE_1123"
-	manpower = 995984
+	manpower = 551147
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=3
-		steel=5
+		oil=1
+		rubber=0
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14696 5}
+		victory_points = { 13450 2}
 		
-		owner = PIC
+		owner = ZGT
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
 			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			13448 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = PIC
+		add_core_of = ZGT
 	}
 
 	provinces={
-		14681 14682 14683 14684 14685 14686 14687 14688 14689 14690 14691 14692 14693 14694 14695 14696 
+		13448 13449 13450 13451 13452 
 	}
 	local_supplies=0.0 
 }

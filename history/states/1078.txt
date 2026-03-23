@@ -2,14 +2,14 @@
 state={
 	id=1078
 	name="STATE_1078"
-	manpower = 640837
+	manpower = 1122029
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,10 +17,10 @@ state={
 	}
 
 	history={
-		victory_points = { 14025 1}
-		victory_points = { 14029 3}
+		victory_points = { 12903 3}
+		victory_points = { 12906 3}
 		
-		owner = KFM
+		owner = AJT
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = KFM
+		add_core_of = AJT
 	}
 
 	provinces={
-		14025 14026 14027 14028 14029 14030 14031 14032 14033 
+		12901 12902 12903 12904 12905 12906 12907 12908 12909 12910 12911 12912 
 	}
 	local_supplies=0.0 
 }

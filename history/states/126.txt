@@ -2,7 +2,7 @@
 state={
 	id=126
 	name="STATE_126"
-	manpower = 695737
+	manpower = 923582
 	
 	state_category = town
 	#impassable = yes
@@ -11,28 +11,28 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 1812 3}
+		victory_points = { 1652 4}
 		
-		owner = MIA
+		owner = CDA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = MIA
+		add_core_of = CDA
 	}
 
 	provinces={
-		1811 1812 1813 1814 1815 1816 1817 1818 1819 1820 
+		1652 1653 1654 1655 1656 1657 1658 1659 1660 1661 
 	}
 	local_supplies=0.0 
 }

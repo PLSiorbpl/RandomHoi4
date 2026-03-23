@@ -2,36 +2,38 @@
 state={
 	id=412
 	name="STATE_412"
-	manpower = 496426
+	manpower = 1277195
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
-		rubber=4
-		steel=0
+		rubber=0
+		steel=6
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 4954 3}
+		victory_points = { 4958 4}
 		
-		owner = HOR
+		owner = IKA
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = HOR
+		add_core_of = IKA
 	}
 
 	provinces={
-		5396 5397 5398 5399 5400 5401 5402 
+		4951 4952 4953 4954 4955 4956 4957 4958 4959 4960 4961 4962 4963 4964 
 	}
 	local_supplies=0.0 
 }

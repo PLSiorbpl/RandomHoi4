@@ -1,0 +1,421 @@
+capital = 371
+
+oob = "XEN_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "XEN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "XEN_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Semidex Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Strinciumbum Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Semidex Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Fonitas Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Vita Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Liberra Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "XEN_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "XEN_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "XEN_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Fulum Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "XEN_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Fulum Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = XEN_Caianus_Fulum
+recruit_character = XEN_Titelianus_Turae
+recruit_character = XEN_Caius_Turae
+recruit_character = XEN_Lucius_Vensulgus
+recruit_character = XEN_Sevola_Fulum
+recruit_character = XEN_Vitellius_Strinciumbum
+recruit_character = XEN_Lonius_Vensulgus
+recruit_character = XEN_Varcelius_Strinciumbum
+recruit_character = XEN_Atticus_Plus
+recruit_character = XEN_Julus_Plus
+recruit_character = XEN_Silvanus_Plus
+recruit_character = XEN_Seriscus_Vensulgus
+recruit_character = XEN_Nonius_Vita
+recruit_character = XEN_Tiberiscus_Vensulgus
+recruit_character = XEN_Marcellustus_Strinciumbum
+recruit_character = XEN_Serus_Fonitas
+recruit_character = XEN_Lonius_Mens
+recruit_character = XEN_Sextus_Turae
+recruit_character = XEN_Viberiustus_Vita
+recruit_character = XEN_Atticus_Fonitas
+recruit_character = XEN_Horacchus_Plus
+recruit_character = XEN_Tratius_Vensulgus
+recruit_character = XEN_Gaianustus_Liberra
+recruit_character = XEN_Fabius_Vensulgus
+recruit_character = XEN_Manus_Mens
+recruit_character = XEN_Tracchus_Fonitas
+recruit_character = XEN_Prius_Strinciumbum
+recruit_character = XEN_Seriscus_Fonitas
+recruit_character = XEN_Tiberiscus_Turae
+recruit_character = XEN_Atticus_Fulum
+recruit_character = XEN_Decius_Strinciumbum
+recruit_character = XEN_Regus_Liberra
+recruit_character = XEN_Otho_Liberra
+recruit_character = XEN_Severvius_Vita
+recruit_character = XEN_Lucius_Fulum
+recruit_character = XEN_Tiberiscus_Semidex
+recruit_character = XEN_Augus_Turae
+recruit_character = XEN_Viberiustus_Strinciumbum
+recruit_character = XEN_Gaius_Fonitas
+recruit_character = XEN_Tibius_Liberra
+recruit_character = XEN_Atticus_Turae
+recruit_character = XEN_Augulius_Fulum
+recruit_character = XEN_Julus_Fonitas
+recruit_character = XEN_Gaianus_Fulum
+recruit_character = XEN_Manus_Fonitas
+recruit_character = XEN_Drus_Turae
+recruit_character = XEN_Augus_Plus
+recruit_character = XEN_Antus_Vita
+recruit_character = XEN_Prius_Vensulgus
+recruit_character = XEN_Titustus_Plus
+recruit_character = XEN_Marro_Vita
+recruit_character = XEN_Decius_Fulum
+recruit_character = XEN_Lucius_Semidex
+recruit_character = XEN_Graticus_Strinciumbum
+recruit_character = XEN_Titellus_Vita
+recruit_character = XEN_Gaianustus_Mens
+recruit_character = XEN_Remus_Fulum
+recruit_character = XEN_Vitus_Vensulgus
+recruit_character = XEN_Manus_Vensulgus
+recruit_character = XEN_Drutus_Mens
+recruit_character = XEN_Silvanlius_Vensulgus
+recruit_character = XEN_Nero_Mens
+recruit_character = XEN_Serius_Plus
+recruit_character = XEN_Regus_Turae
+recruit_character = XEN_Otho_Plus
+recruit_character = XEN_Severvius_Liberra
+recruit_character = XEN_Sevola_Strinciumbum
+recruit_character = XEN_Tibius_Semidex
+recruit_character = XEN_Lucius_Vita
+recruit_character = XEN_Caianus_Vensulgus
+recruit_character = XEN_Varcellius_Vensulgus
+recruit_character = XEN_Viberiustus_Plus
+recruit_character = XEN_Seriscus_Liberra
+recruit_character = XEN_Fabius_Fonitas
+recruit_character = XEN_Nonius_Liberra
+recruit_character = XEN_Remus_Fonitas
+recruit_character = XEN_Drus_Mens
+recruit_character = XEN_Aulius_Fonitas
+recruit_character = XEN_Quinus_Turae
+recruit_character = XEN_Serus_Plus
+recruit_character = XEN_Gaianus_Plus
+recruit_character = XEN_Otho_Semidex
+recruit_character = XEN_Vitellius_Liberra
+recruit_character = XEN_Dominus_Vita
+recruit_character = XEN_Severvius_Fonitas
+recruit_character = XEN_Gaius_Strinciumbum
+recruit_character = XEN_Silvanus_Vita
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 68
+set_war_support = 63
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1903.1.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 36
+	fascism = 0
+	communism = 52
+	neutrality = 12
+}
+
+
+
+
+

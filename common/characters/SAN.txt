@@ -1,878 +1,878 @@
 characters = {
-	SAN_Samir_Kutub={
-		name="Samir Kutub"
+	SAN_Ilkerem_Isilik={
+		name="Ilkerem Isilik"
 
 		
 		country_leader={
 			ideology=centrism
-			traits = { staunch_constitutionalist  }
+			traits = { headstrong  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 	}
-	SAN_Zaid_Hafil={
-		name="Zaid Hafil"
+	SAN_Iskent_Yazak={
+		name="Iskent Yazak"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Zaid_Hafil
-				traits = {	socialite_connections 	}
-		}
-
-	}
-	SAN_Bilal_Sanub={
-		name="Bilal Sanub"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Bilal_Sanub
+			idea_token = SAN_Iskent_Yazak
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	SAN_Fariq_Hafil={
-		name="Fariq Hafil"
+	SAN_Mehmet_Saat={
+		name="Mehmet Saat"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Fariq_Hafil
+			idea_token = SAN_Mehmet_Saat
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SAN_Yilmazan_Isilik={
+		name="Yilmazan Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Yilmazan_Isilik
+				traits = {	headstrong 	}
+		}
+
+	}
+	SAN_Ilker_Yazak={
+		name="Ilker Yazak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Ilker_Yazak
+				traits = {	headstrong 	}
+		}
+
+	}
+	SAN_Hakan_Akgun={
+		name="Hakan Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Hakan_Akgun
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	SAN_Khamal_Shura={
-		name="Khamal Shura"
+	SAN_Cemaz_Bulu={
+		name="Cemaz Bulu"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Khamal_Shura
-				traits = {	socialite_connections 	}
+			idea_token = SAN_Cemaz_Bulu
+				traits = {	headstrong 	}
 		}
 
 	}
-	SAN_Samza_Shura={
-		name="Samza Shura"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Samza_Shura
-				traits = {	humble 	}
-		}
-
-	}
-	SAN_Mohamal_Mustan={
-		name="Mohamal Mustan"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Mohamal_Mustan
-				traits = {	celebrity_junta_leader 	}
-		}
-
-	}
-	SAN_Samir_Shura={
-		name="Samir Shura"
+	SAN_Orha_Sahirli={
+		name="Orha Sahirli"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Samir_Shura
-				traits = {	army_chief_drill_1 	}
+			idea_token = SAN_Orha_Sahirli
+				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	SAN_Sami_Shura={
-		name="Sami Shura"
+	SAN_Suat_Saat={
+		name="Suat Saat"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Sami_Shura
-				traits = {	army_chief_defensive_1 	}
+			idea_token = SAN_Suat_Saat
+				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	SAN_Khal_Sanub={
-		name="Khal Sanub"
+	SAN_Ademal_Sahirli={
+		name="Ademal Sahirli"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Khal_Sanub
+			idea_token = SAN_Ademal_Sahirli
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SAN_Sinan_Isilik={
+		name="Sinan Isilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAN_Sinan_Isilik
 				traits = {	army_chief_defensive_2 	}
 		}
 
 	}
-	SAN_Fariq_Shura={
-		name="Fariq Shura"
-
-		advisor={
-			slot = army_chief
-			idea_token = SAN_Fariq_Shura
-				traits = {	army_chief_organizational_1 	}
-		}
-
-	}
-	SAN_Mahim_Safilahr={
-		name="Mahim Safilahr"
+	SAN_Farat_Savar={
+		name="Farat Savar"
 
 		advisor={
 			slot = navy_chief
-			idea_token = SAN_Mahim_Safilahr
-				traits = {	navy_chief_old_guard_2 	}
+			idea_token = SAN_Farat_Savar
+				traits = {	navy_chief_commerce_raiding_2 	}
 		}
 
 	}
-	SAN_Mahya_Kutub={
-		name="Mahya Kutub"
+	SAN_Seremazan_Saat={
+		name="Seremazan Saat"
 
 		advisor={
 			slot = navy_chief
-			idea_token = SAN_Mahya_Kutub
-				traits = {	navy_chief_old_guard_2 	}
+			idea_token = SAN_Seremazan_Saat
+				traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 	}
-	SAN_Jamza_Hafil={
-		name="Jamza Hafil"
+	SAN_Onurat_Saat={
+		name="Onurat Saat"
 
 		advisor={
 			slot = air_chief
-			idea_token = SAN_Jamza_Hafil
-				traits = {	air_chief_night_operations_1 	}
+			idea_token = SAN_Onurat_Saat
+				traits = {	air_chief_all_weather_2 	}
 		}
 
 	}
-	SAN_Ibran_Hafil={
-		name="Ibran Hafil"
+	SAN_Hakan_Deniz={
+		name="Hakan Deniz"
 
 		advisor={
 			slot = air_chief
-			idea_token = SAN_Ibran_Hafil
-				traits = {	air_chief_safety_2 	}
+			idea_token = SAN_Hakan_Deniz
+				traits = {	air_chief_reform_2 	}
 		}
 
 	}
-	SAN_Samir_Hafil={
-		name="Samir Hafil"
+	SAN_Faran_Isilik={
+		name="Faran Isilik"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Samir_Hafil
-				traits = {	navy_naval_air_defense_1 	}
+			idea_token = SAN_Faran_Isilik
+				traits = {	air_naval_strike_1 	}
 		}
 
 	}
-	SAN_Samad_Turhayah={
-		name="Samad Turhayah"
+	SAN_Onurat_Yillik={
+		name="Onurat Yillik"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Samad_Turhayah
-				traits = {	navy_amphibious_assault_1 	}
+			idea_token = SAN_Onurat_Yillik
+				traits = {	air_close_air_support_1 	}
 		}
 
 	}
-	SAN_Fariq_Safilahr={
-		name="Fariq Safilahr"
+	SAN_Baruk_Isilik={
+		name="Baruk Isilik"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Fariq_Safilahr
+			idea_token = SAN_Baruk_Isilik
 				traits = {	air_airborne_2 	}
 		}
 
 	}
-	SAN_Anwar_Mufti={
-		name="Anwar Mufti"
+	SAN_Eminan_Isilik={
+		name="Eminan Isilik"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Anwar_Mufti
-				traits = {	army_CombinedArms_2 	}
+			idea_token = SAN_Eminan_Isilik
+				traits = {	air_airborne_1 	}
 		}
 
 	}
-	SAN_Adnan_Hafil={
-		name="Adnan Hafil"
+	SAN_Enesul_Yillik={
+		name="Enesul Yillik"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Adnan_Hafil
-				traits = {	army_radio_intelligence_1 	}
+			idea_token = SAN_Enesul_Yillik
+				traits = {	navy_anti_submarine_1 	}
 		}
 
 	}
-	SAN_Omarim_Mustan={
-		name="Omarim Mustan"
+	SAN_Kadir_Akgun={
+		name="Kadir Akgun"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Omarim_Mustan
-				traits = {	army_concealment_1 	}
+			idea_token = SAN_Kadir_Akgun
+				traits = {	air_air_superiority_2 	}
 		}
 
 	}
-	SAN_Tariq_Suwa={
-		name="Tariq Suwa"
+	SAN_Serhan_Saat={
+		name="Serhan Saat"
 
 		
 		country_leader={
 			ideology=fascism_ideology
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAN_Ademal_Yillik={
+		name="Ademal Yillik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Ademal_Yillik
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SAN_Yalilmazanes_Deniz={
+		name="Yalilmazanes Deniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Yalilmazanes_Deniz
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	SAN_Utku_Bulu={
+		name="Utku Bulu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Utku_Bulu
+				traits = {	infirm 	}
+		}
+
+	}
+	SAN_Halcinan_Isilik={
+		name="Halcinan Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Halcinan_Isilik
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SAN_Ademal_Isilik={
+		name="Ademal Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Ademal_Isilik
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SAN_Ademal_Akgun={
+		name="Ademal Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Ademal_Akgun
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	SAN_Kaaner_Orman={
+		name="Kaaner Orman"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAN_Kaaner_Orman
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SAN_Selim_Isilik={
+		name="Selim Isilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAN_Selim_Isilik
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SAN_Yilmaz_Yillik={
+		name="Yilmaz Yillik"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAN_Yilmaz_Yillik
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SAN_Halhan_Savar={
+		name="Halhan Savar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAN_Halhan_Savar
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SAN_Enesul_Saat={
+		name="Enesul Saat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAN_Enesul_Saat
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	SAN_Taylan_Bulu={
+		name="Taylan Bulu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAN_Taylan_Bulu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SAN_Cemaz_Sahirli={
+		name="Cemaz Sahirli"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAN_Cemaz_Sahirli
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SAN_Kaaner_Yillik={
+		name="Kaaner Yillik"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAN_Kaaner_Yillik
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SAN_Onurat_Isilik={
+		name="Onurat Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = SAN_Onurat_Isilik
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	SAN_Hara_Bulu={
+		name="Hara Bulu"
+
+		advisor={
+			slot = high_command
+			idea_token = SAN_Hara_Bulu
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	SAN_Ahmet_Deniz={
+		name="Ahmet Deniz"
+
+		advisor={
+			slot = high_command
+			idea_token = SAN_Ahmet_Deniz
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	SAN_Kadir_Isilik={
+		name="Kadir Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = SAN_Kadir_Isilik
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SAN_Serhan_Yillik={
+		name="Serhan Yillik"
+
+		advisor={
+			slot = high_command
+			idea_token = SAN_Serhan_Yillik
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	SAN_Halih_Deniz={
+		name="Halih Deniz"
+
+		advisor={
+			slot = high_command
+			idea_token = SAN_Halih_Deniz
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	SAN_Serem_Orman={
+		name="Serem Orman"
+
+		
+		country_leader={
+			ideology=marxism
 			traits = { polemarch  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 	}
-	SAN_Mahya_Mustan={
-		name="Mahya Mustan"
+	SAN_Zafe_Sahirli={
+		name="Zafe Sahirli"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Mahya_Mustan
-				traits = {	the_young_magnate 	}
+			idea_token = SAN_Zafe_Sahirli
+				traits = {	reluctant_stalinist 	}
 		}
 
 	}
-	SAN_Farid_Suwa={
-		name="Farid Suwa"
+	SAN_Eminan_Sahirli={
+		name="Eminan Sahirli"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Farid_Suwa
-				traits = {	basileus 	}
-		}
-
-	}
-	SAN_Adnan_Safilahr={
-		name="Adnan Safilahr"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Adnan_Safilahr
-				traits = {	inexperienced_imperialist 	}
-		}
-
-	}
-	SAN_Mahmoud_Kutub={
-		name="Mahmoud Kutub"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Mahmoud_Kutub
-				traits = {	warmonger 	}
-		}
-
-	}
-	SAN_Omarim_Sanub={
-		name="Omarim Sanub"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Omarim_Sanub
-				traits = {	basileus 	}
-		}
-
-	}
-	SAN_Yusuf_Turhayah={
-		name="Yusuf Turhayah"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Yusuf_Turhayah
-				traits = {	spirit_of_genghis 	}
-		}
-
-	}
-	SAN_Kariq_Mufti={
-		name="Kariq Mufti"
-
-		advisor={
-			slot = army_chief
-			idea_token = SAN_Kariq_Mufti
-				traits = {	army_chief_morale_1 	}
-		}
-
-	}
-	SAN_Fariq_Kutub={
-		name="Fariq Kutub"
-
-		advisor={
-			slot = army_chief
-			idea_token = SAN_Fariq_Kutub
-				traits = {	army_chief_planning_1 	}
-		}
-
-	}
-	SAN_Khammed_Shura={
-		name="Khammed Shura"
-
-		advisor={
-			slot = army_chief
-			idea_token = SAN_Khammed_Shura
-				traits = {	army_chief_morale_2 	}
-		}
-
-	}
-	SAN_Faisal_Shura={
-		name="Faisal Shura"
-
-		advisor={
-			slot = army_chief
-			idea_token = SAN_Faisal_Shura
-				traits = {	army_chief_entrenchment_1 	}
-		}
-
-	}
-	SAN_Khammed_Kutub={
-		name="Khammed Kutub"
-
-		advisor={
-			slot = navy_chief
-			idea_token = SAN_Khammed_Kutub
-				traits = {	navy_chief_old_guard_2 	}
-		}
-
-	}
-	SAN_Majid_Sanub={
-		name="Majid Sanub"
-
-		advisor={
-			slot = navy_chief
-			idea_token = SAN_Majid_Sanub
-				traits = {	navy_chief_naval_aviation_2 	}
-		}
-
-	}
-	SAN_Omar_Suwa={
-		name="Omar Suwa"
-
-		advisor={
-			slot = air_chief
-			idea_token = SAN_Omar_Suwa
-				traits = {	air_chief_safety_2 	}
-		}
-
-	}
-	SAN_Khamza_Mustan={
-		name="Khamza Mustan"
-
-		advisor={
-			slot = air_chief
-			idea_token = SAN_Khamza_Mustan
-				traits = {	air_chief_all_weather_2 	}
-		}
-
-	}
-	SAN_Ahmoud_Mustan={
-		name="Ahmoud Mustan"
-
-		advisor={
-			slot = high_command
-			idea_token = SAN_Ahmoud_Mustan
-				traits = {	army_entrenchment_2 	}
-		}
-
-	}
-	SAN_Mahya_Safilahr={
-		name="Mahya Safilahr"
-
-		advisor={
-			slot = high_command
-			idea_token = SAN_Mahya_Safilahr
-				traits = {	air_strategic_bombing_1 	}
-		}
-
-	}
-	SAN_Jamir_Kutub={
-		name="Jamir Kutub"
-
-		advisor={
-			slot = high_command
-			idea_token = SAN_Jamir_Kutub
-				traits = {	navy_carrier_1 	}
-		}
-
-	}
-	SAN_Mohal_Suwa={
-		name="Mohal Suwa"
-
-		advisor={
-			slot = high_command
-			idea_token = SAN_Mohal_Suwa
-				traits = {	air_bomber_interception_1 	}
-		}
-
-	}
-	SAN_Faisalid_Mufti={
-		name="Faisalid Mufti"
-
-		advisor={
-			slot = high_command
-			idea_token = SAN_Faisalid_Mufti
-				traits = {	army_infantry_1 	}
-		}
-
-	}
-	SAN_Imran_Safilahr={
-		name="Imran Safilahr"
-
-		advisor={
-			slot = high_command
-			idea_token = SAN_Imran_Safilahr
-				traits = {	air_air_combat_training_2 	}
-		}
-
-	}
-	SAN_Faisal_Sanub={
-		name="Faisal Sanub"
-
-		
-		country_leader={
-			ideology=leninism
-			traits = { mastermind_code_cracker  }
-			expire="1965.1.1.1"
-			id=-1
-		}
-
-	}
-	SAN_Ibran_Mustan={
-		name="Ibran Mustan"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Ibran_Mustan
+			idea_token = SAN_Eminan_Sahirli
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	SAN_Yahya_Kutub={
-		name="Yahya Kutub"
+	SAN_Taylan_Savar={
+		name="Taylan Savar"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Yahya_Kutub
-				traits = {	polemarch 	}
+			idea_token = SAN_Taylan_Savar
+				traits = {	indomitable_perseverance 	}
 		}
 
 	}
-	SAN_Nabil_Turhayah={
-		name="Nabil Turhayah"
+	SAN_Utku_Yazak={
+		name="Utku Yazak"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Nabil_Turhayah
+			idea_token = SAN_Utku_Yazak
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SAN_Seremazan_Deniz={
+		name="Seremazan Deniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Seremazan_Deniz
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	SAN_Khammed_Sanub={
-		name="Khammed Sanub"
+	SAN_Savas_Isilik={
+		name="Savas Isilik"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Khammed_Sanub
-				traits = {	indomitable_perseverance 	}
+			idea_token = SAN_Savas_Isilik
+				traits = {	reluctant_stalinist 	}
 		}
 
 	}
-	SAN_Samad_Safilahr={
-		name="Samad Safilahr"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Samad_Safilahr
-				traits = {	indomitable_perseverance 	}
-		}
-
-	}
-	SAN_Ibran_Mufti={
-		name="Ibran Mufti"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Ibran_Mufti
-				traits = {	political_dancer 	}
-		}
-
-	}
-	SAN_Jamir_Turhayah={
-		name="Jamir Turhayah"
+	SAN_Ademal_Saat={
+		name="Ademal Saat"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Jamir_Turhayah
-				traits = {	army_chief_drill_2 	}
+			idea_token = SAN_Ademal_Saat
+				traits = {	army_chief_entrenchment_2 	}
 		}
 
 	}
-	SAN_Hassan_Sanub={
-		name="Hassan Sanub"
+	SAN_Emin_Bulu={
+		name="Emin Bulu"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Hassan_Sanub
-				traits = {	army_chief_reform_2 	}
+			idea_token = SAN_Emin_Bulu
+				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	SAN_Mohamal_Safilahr={
-		name="Mohamal Safilahr"
+	SAN_Ertugrul_Sahirli={
+		name="Ertugrul Sahirli"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Mohamal_Safilahr
-				traits = {	army_chief_defensive_2 	}
+			idea_token = SAN_Ertugrul_Sahirli
+				traits = {	army_chief_entrenchment_2 	}
 		}
 
 	}
-	SAN_Nabilal_Sanub={
-		name="Nabilal Sanub"
+	SAN_Tunc_Bulu={
+		name="Tunc Bulu"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Nabilal_Sanub
-				traits = {	army_chief_planning_1 	}
+			idea_token = SAN_Tunc_Bulu
+				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	SAN_Khal_Mustan={
-		name="Khal Mustan"
+	SAN_Bekir_Yillik={
+		name="Bekir Yillik"
 
 		advisor={
 			slot = navy_chief
-			idea_token = SAN_Khal_Mustan
+			idea_token = SAN_Bekir_Yillik
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SAN_Kadir_Orman={
+		name="Kadir Orman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAN_Kadir_Orman
 				traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 	}
-	SAN_Omalid_Hafil={
-		name="Omalid Hafil"
-
-		advisor={
-			slot = navy_chief
-			idea_token = SAN_Omalid_Hafil
-				traits = {	navy_chief_reform_2 	}
-		}
-
-	}
-	SAN_Tarim_Safilahr={
-		name="Tarim Safilahr"
+	SAN_Taylan_Yillik={
+		name="Taylan Yillik"
 
 		advisor={
 			slot = air_chief
-			idea_token = SAN_Tarim_Safilahr
-				traits = {	air_chief_old_guard_1 	}
+			idea_token = SAN_Taylan_Yillik
+				traits = {	air_chief_night_operations_2 	}
 		}
 
 	}
-	SAN_Khamza_Turhayah={
-		name="Khamza Turhayah"
+	SAN_Serem_Sahirli={
+		name="Serem Sahirli"
 
 		advisor={
 			slot = air_chief
-			idea_token = SAN_Khamza_Turhayah
-				traits = {	air_chief_ground_support_1 	}
+			idea_token = SAN_Serem_Sahirli
+				traits = {	air_chief_all_weather_1 	}
 		}
 
 	}
-	SAN_Jami_Kutub={
-		name="Jami Kutub"
+	SAN_Halcin_Isilik={
+		name="Halcin Isilik"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Jami_Kutub
-				traits = {	navy_anti_submarine_1 	}
+			idea_token = SAN_Halcin_Isilik
+				traits = {	air_tactical_bombing_1 	}
 		}
 
 	}
-	SAN_Samza_Sanub={
-		name="Samza Sanub"
+	SAN_Adem_Sahirli={
+		name="Adem Sahirli"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Samza_Sanub
-				traits = {	air_air_combat_training_2 	}
+			idea_token = SAN_Adem_Sahirli
+				traits = {	army_CombinedArms_1 	}
 		}
 
 	}
-	SAN_Omar_Mufti={
-		name="Omar Mufti"
+	SAN_Halhan_Isilik={
+		name="Halhan Isilik"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Omar_Mufti
-				traits = {	army_armored_1 	}
+			idea_token = SAN_Halhan_Isilik
+				traits = {	navy_submarine_2 	}
 		}
 
 	}
-	SAN_Samir_Turhayah={
-		name="Samir Turhayah"
+	SAN_Arif_Sahirli={
+		name="Arif Sahirli"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Samir_Turhayah
-				traits = {	navy_amphibious_assault_2 	}
+			idea_token = SAN_Arif_Sahirli
+				traits = {	air_airborne_1 	}
 		}
 
 	}
-	SAN_Nabilal_Suwa={
-		name="Nabilal Suwa"
+	SAN_Seremazan_Akgun={
+		name="Seremazan Akgun"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Nabilal_Suwa
-				traits = {	air_airborne_2 	}
+			idea_token = SAN_Seremazan_Akgun
+				traits = {	navy_naval_air_defense_2 	}
 		}
 
 	}
-	SAN_Faisal_Suwa={
-		name="Faisal Suwa"
+	SAN_Orhan_Yazak={
+		name="Orhan Yazak"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Faisal_Suwa
-				traits = {	air_air_superiority_2 	}
+			idea_token = SAN_Orhan_Yazak
+				traits = {	air_tactical_bombing_2 	}
 		}
 
 	}
-	SAN_Faisal_Safilahr={
-		name="Faisal Safilahr"
+	SAN_Ilkerem_Sahirli={
+		name="Ilkerem Sahirli"
 
 		
 		country_leader={
-			ideology=conservatism
-			traits = { famous_aviator  }
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 	}
-	SAN_Imrahim_Shura={
-		name="Imrahim Shura"
+	SAN_Barun_Orman={
+		name="Barun Orman"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Imrahim_Shura
-				traits = {	rearmer 	}
+			idea_token = SAN_Barun_Orman
+				traits = {	the_banker 	}
 		}
 
 	}
-	SAN_Jammed_Kutub={
-		name="Jammed Kutub"
+	SAN_Mura_Isilik={
+		name="Mura Isilik"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Jammed_Kutub
-				traits = {	the_young_magnate 	}
+			idea_token = SAN_Mura_Isilik
+				traits = {	famous_aviator 	}
 		}
 
 	}
-	SAN_Bilal_Kutub={
-		name="Bilal Kutub"
+	SAN_Iskender_Bulu={
+		name="Iskender Bulu"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Bilal_Kutub
-				traits = {	first_lady 	}
-		}
-
-	}
-	SAN_Zaid_Sanub={
-		name="Zaid Sanub"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Zaid_Sanub
-				traits = {	conservative_grandee 	}
-		}
-
-	}
-	SAN_Samir_Mustan={
-		name="Samir Mustan"
-
-		advisor={
-			slot = political_advisor
-			idea_token = SAN_Samir_Mustan
+			idea_token = SAN_Iskender_Bulu
 				traits = {	infirm 	}
 		}
 
 	}
-	SAN_Tarim_Sanub={
-		name="Tarim Sanub"
+	SAN_Ademal_Deniz={
+		name="Ademal Deniz"
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAN_Tarim_Sanub
-				traits = {	first_lady 	}
+			idea_token = SAN_Ademal_Deniz
+				traits = {	the_young_magnate 	}
 		}
 
 	}
-	SAN_Majid_Mustan={
-		name="Majid Mustan"
+	SAN_Kaaner_Savar={
+		name="Kaaner Savar"
 
 		advisor={
-			slot = army_chief
-			idea_token = SAN_Majid_Mustan
-				traits = {	army_chief_maneuver_1 	}
+			slot = political_advisor
+			idea_token = SAN_Kaaner_Savar
+				traits = {	the_banker 	}
 		}
 
 	}
-	SAN_Hassan_Safilahr={
-		name="Hassan Safilahr"
+	SAN_Kadir_Savar={
+		name="Kadir Savar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAN_Kadir_Savar
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SAN_Yalcin_Bulu={
+		name="Yalcin Bulu"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Hassan_Safilahr
+			idea_token = SAN_Yalcin_Bulu
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SAN_Tunc_Saat={
+		name="Tunc Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAN_Tunc_Saat
 				traits = {	army_chief_drill_1 	}
 		}
 
 	}
-	SAN_Khammed_Suwa={
-		name="Khammed Suwa"
+	SAN_Eminan_Yazak={
+		name="Eminan Yazak"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Khammed_Suwa
-				traits = {	army_chief_drill_2 	}
+			idea_token = SAN_Eminan_Yazak
+				traits = {	army_chief_planning_2 	}
 		}
 
 	}
-	SAN_Tarim_Turhayah={
-		name="Tarim Turhayah"
+	SAN_Orhan_Saat={
+		name="Orhan Saat"
 
 		advisor={
 			slot = army_chief
-			idea_token = SAN_Tarim_Turhayah
-				traits = {	army_chief_drill_2 	}
+			idea_token = SAN_Orhan_Saat
+				traits = {	army_chief_drill_1 	}
 		}
 
 	}
-	SAN_Omalid_Kutub={
-		name="Omalid Kutub"
+	SAN_Eminan_Savar={
+		name="Eminan Savar"
 
 		advisor={
 			slot = navy_chief
-			idea_token = SAN_Omalid_Kutub
+			idea_token = SAN_Eminan_Savar
 				traits = {	navy_chief_decisive_battle_2 	}
 		}
 
 	}
-	SAN_Jamir_Mufti={
-		name="Jamir Mufti"
+	SAN_Orhan_Sahirli={
+		name="Orhan Sahirli"
 
 		advisor={
 			slot = navy_chief
-			idea_token = SAN_Jamir_Mufti
-				traits = {	navy_chief_decisive_battle_2 	}
+			idea_token = SAN_Orhan_Sahirli
+				traits = {	navy_chief_naval_aviation_1 	}
 		}
 
 	}
-	SAN_Mohal_Hafil={
-		name="Mohal Hafil"
+	SAN_Halcin_Bulu={
+		name="Halcin Bulu"
 
 		advisor={
 			slot = air_chief
-			idea_token = SAN_Mohal_Hafil
+			idea_token = SAN_Halcin_Bulu
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SAN_Cemaz_Yazak={
+		name="Cemaz Yazak"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAN_Cemaz_Yazak
 				traits = {	air_chief_safety_1 	}
 		}
 
 	}
-	SAN_Faisal_Mustan={
-		name="Faisal Mustan"
-
-		advisor={
-			slot = air_chief
-			idea_token = SAN_Faisal_Mustan
-				traits = {	air_chief_old_guard_1 	}
-		}
-
-	}
-	SAN_Jamza_Turhayah={
-		name="Jamza Turhayah"
+	SAN_Haruk_Yazak={
+		name="Haruk Yazak"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Jamza_Turhayah
+			idea_token = SAN_Haruk_Yazak
 				traits = {	navy_naval_air_defense_2 	}
 		}
 
 	}
-	SAN_Khamal_Sanub={
-		name="Khamal Sanub"
+	SAN_Boran_Savar={
+		name="Boran Savar"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Khamal_Sanub
-				traits = {	army_concealment_2 	}
+			idea_token = SAN_Boran_Savar
+				traits = {	navy_anti_submarine_1 	}
 		}
 
 	}
-	SAN_Yusuf_Suwa={
-		name="Yusuf Suwa"
+	SAN_Yilmazan_Yazak={
+		name="Yilmazan Yazak"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Yusuf_Suwa
-				traits = {	air_naval_strike_1 	}
+			idea_token = SAN_Yilmazan_Yazak
+				traits = {	army_CombinedArms_1 	}
 		}
 
 	}
-	SAN_Bilal_Mustan={
-		name="Bilal Mustan"
+	SAN_Yilmazan_Saat={
+		name="Yilmazan Saat"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Bilal_Mustan
-				traits = {	air_pilot_training_1 	}
+			idea_token = SAN_Yilmazan_Saat
+				traits = {	navy_carrier_2 	}
 		}
 
 	}
-	SAN_Adnan_Mufti={
-		name="Adnan Mufti"
+	SAN_Arif_Bulu={
+		name="Arif Bulu"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Adnan_Mufti
-				traits = {	air_strategic_bombing_2 	}
+			idea_token = SAN_Arif_Bulu
+				traits = {	navy_naval_air_defense_1 	}
 		}
 
 	}
-	SAN_Tariq_Safilahr={
-		name="Tariq Safilahr"
+	SAN_Hakan_Bulu={
+		name="Hakan Bulu"
 
 		advisor={
 			slot = high_command
-			idea_token = SAN_Tariq_Safilahr
-				traits = {	army_infantry_2 	}
+			idea_token = SAN_Hakan_Bulu
+				traits = {	army_radio_intelligence_1 	}
 		}
 
 	}
-	SAN_Mahmar_Mustan={
-		name="Mahmar Mustan"
+	SAN_Ener_Bulu={
+		name="Ener Bulu"
 
 		advisor={
 			slot = theorist
-			idea_token = SAN_Mahmar_Mustan
+			idea_token = SAN_Ener_Bulu
 				traits = {	military_theorist 	}
 		}
 
 	}
-	SAN_Nabil_Hafil={
-		name="Nabil Hafil"
+	SAN_Ahmet_Akgun={
+		name="Ahmet Akgun"
 
 		advisor={
 			slot = theorist
-			idea_token = SAN_Nabil_Hafil
+			idea_token = SAN_Ahmet_Akgun
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	SAN_Imran_Hafil={
-		name="Imran Hafil"
+	SAN_Emin_Isilik={
+		name="Emin Isilik"
 
 		advisor={
 			slot = theorist
-			idea_token = SAN_Imran_Hafil
+			idea_token = SAN_Emin_Isilik
 				traits = {	air_warfare_theorist 	}
 		}
 

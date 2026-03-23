@@ -2,14 +2,14 @@
 state={
 	id=808
 	name="STATE_808"
-	manpower = 685015
+	manpower = 1064881
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10912 3}
-		victory_points = { 10915 1}
+		victory_points = { 9454 3}
+		victory_points = { 9455 2}
 		
-		owner = ULU
+		owner = RQF
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = RQF
 	}
 
 	provinces={
-		10909 10910 10911 10912 10913 10914 10915 10916 10917 
+		9454 9455 9456 9457 9458 9459 9460 9461 9462 9463 9464 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=470
 	name="STATE_470"
-	manpower = 1695184
+	manpower = 1570401
 	
-	state_category = large_city
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=1
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 6064 13}
+		victory_points = { 5664 7}
+		victory_points = { 5673 2}
 		
-		owner = SAH
+		owner = XEN
 		buildings = {
 			infrastructure = 4
-			air_base = 2
-			arms_factory = 1
+			
+			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = SAH
+		add_core_of = XEN
 	}
 
 	provinces={
-		6054 6055 6056 6057 6058 6059 6060 6061 6062 6063 6064 6065 6066 6067 6068 6069 6070 6071 6072 6073 6074 6075 6076 6077 6078 6079 
+		5664 5665 5666 5667 5668 5669 5670 5671 5672 5673 5674 5675 5676 5677 5678 5679 5680 
 	}
 	local_supplies=0.0 
 }

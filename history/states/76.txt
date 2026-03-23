@@ -2,13 +2,13 @@
 state={
 	id=76
 	name="STATE_76"
-	manpower = 689872
+	manpower = 1264736
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=1
 		oil=0
 		rubber=0
 		steel=0
@@ -17,25 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 1175 1}
-		victory_points = { 1178 1}
-		victory_points = { 1179 1}
-		victory_points = { 1186 1}
+		victory_points = { 1001 2}
+		victory_points = { 1003 3}
+		victory_points = { 1006 2}
 		
-		owner = HUA
+		owner = MSN
 		buildings = {
-			infrastructure = 2
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = HUA
+		add_core_of = MSN
 	}
 
 	provinces={
-		1175 1176 1177 1178 1179 1180 1181 1182 1183 1184 1185 1186 1187 1188 1189 1190 
+		994 995 996 997 998 999 1000 1001 1002 1003 1004 1005 1006 
 	}
 	local_supplies=0.0 
 }

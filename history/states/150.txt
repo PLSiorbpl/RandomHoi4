@@ -2,38 +2,37 @@
 state={
 	id=150
 	name="STATE_150"
-	manpower = 595815
+	manpower = 915783
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=18
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2145 1}
-		victory_points = { 2148 2}
+		victory_points = { 1914 5}
 		
-		owner = GAU
+		owner = BXN
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GAU
+		add_core_of = BXN
 	}
 
 	provinces={
-		2144 2145 2146 2147 2148 2149 2150 2151 2152 
+		1912 1913 1914 1915 1916 1917 1918 1919 1920 
 	}
 	local_supplies=0.0 
 }

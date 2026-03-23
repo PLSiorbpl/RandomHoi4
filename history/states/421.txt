@@ -2,41 +2,40 @@
 state={
 	id=421
 	name="STATE_421"
-	manpower = 859776
+	manpower = 1968970
 	
-	state_category = large_town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=4
 		rubber=0
-		steel=4
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5513 2}
-		victory_points = { 5520 4}
+		victory_points = { 5063 1}
+		victory_points = { 5068 5}
+		victory_points = { 5074 3}
+		victory_points = { 5078 3}
 		
-		owner = SAN
+		owner = AHC
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			5518 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = SAN
+		add_core_of = AHC
 	}
 
 	provinces={
-		5512 5513 5514 5515 5516 5517 5518 5519 5520 5521 5522 5523 5524 
+		5057 5058 5059 5060 5061 5062 5063 5064 5065 5066 5067 5068 5069 5070 5071 5072 5073 5074 5075 5076 5077 5078 
 	}
 	local_supplies=0.0 
 }

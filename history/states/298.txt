@@ -2,36 +2,42 @@
 state={
 	id=298
 	name="STATE_298"
-	manpower = 224909
+	manpower = 1419618
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
-		rubber=6
-		steel=1
+		chromium=2
+		oil=1
+		rubber=0
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 3590 3}
+		victory_points = { 3593 3}
+		victory_points = { 3597 1}
 		
-		owner = OON
+		owner = UXU
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 4
+			air_base = 4
 			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 1
+			3600 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = OON
+		add_core_of = UXU
 	}
 
 	provinces={
-		4030 4031 4032 4033 
+		3588 3589 3590 3591 3592 3593 3594 3595 3596 3597 3598 3599 3600 3601 3602 
 	}
 	local_supplies=0.0 
 }

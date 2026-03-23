@@ -2,9 +2,9 @@
 state={
 	id=1031
 	name="STATE_1031"
-	manpower = 867211
+	manpower = 625653
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,15 +12,15 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=11
 		coal=0
 	}
 
 	history={
-		victory_points = { 13559 2}
-		victory_points = { 13568 4}
+		victory_points = { 12315 2}
+		victory_points = { 12319 1}
 		
-		owner = CXH
+		owner = GAA
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = CXH
+		add_core_of = GAA
 	}
 
 	provinces={
-		13556 13557 13558 13559 13560 13561 13562 13563 13564 13565 13566 13567 13568 
+		12315 12316 12317 12318 12319 12320 
 	}
 	local_supplies=0.0 
 }

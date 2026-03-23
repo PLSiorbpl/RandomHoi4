@@ -1,0 +1,880 @@
+characters = {
+	KQL_Hara_Yolge={
+		name="Hara Yolge"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KQL_Taylan_Koylakinda={
+		name="Taylan Koylakinda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Taylan_Koylakinda
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KQL_Zafa_Yilda={
+		name="Zafa Yilda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Zafa_Yilda
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KQL_Haran_Kalp={
+		name="Haran Kalp"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Haran_Kalp
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KQL_Harat_Gunci={
+		name="Harat Gunci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Harat_Gunci
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KQL_Mustafa_Akin={
+		name="Mustafa Akin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Mustafa_Akin
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KQL_Resulender_Yaske={
+		name="Resulender Yaske"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Resulender_Yaske
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KQL_Hara_Gunci={
+		name="Hara Gunci"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Hara_Gunci
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KQL_Ilkerkan_Yilda={
+		name="Ilkerkan Yilda"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Ilkerkan_Yilda
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KQL_Ilkender_Yilda={
+		name="Ilkender Yilda"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Ilkender_Yilda
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KQL_Murat_Yilda={
+		name="Murat Yilda"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Murat_Yilda
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KQL_Kerhan_Yaske={
+		name="Kerhan Yaske"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Kerhan_Yaske
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KQL_Orha_Yaske={
+		name="Orha Yaske"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Orha_Yaske
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KQL_Orha_Yilda={
+		name="Orha Yilda"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Orha_Yilda
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	KQL_Ahmet_Yolge={
+		name="Ahmet Yolge"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Ahmet_Yolge
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KQL_Iskendem_Yolge={
+		name="Iskendem Yolge"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Iskendem_Yolge
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	KQL_Ramalcin_Gece={
+		name="Ramalcin Gece"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Ramalcin_Gece
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	KQL_Utku_Gunci={
+		name="Utku Gunci"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Utku_Gunci
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	KQL_Kadir_Gece={
+		name="Kadir Gece"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Kadir_Gece
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	KQL_Ilkerkan_Yaske={
+		name="Ilkerkan Yaske"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Ilkerkan_Yaske
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KQL_Serhan_Ates={
+		name="Serhan Ates"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Serhan_Ates
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	KQL_Zafer_Yaske={
+		name="Zafer Yaske"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KQL_Muran_Yaske={
+		name="Muran Yaske"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Muran_Yaske
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	KQL_Murat_Kalp={
+		name="Murat Kalp"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Murat_Kalp
+				traits = {	polemarch 	}
+		}
+
+	}
+	KQL_Ramalcin_Yolge={
+		name="Ramalcin Yolge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Ramalcin_Yolge
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	KQL_Ramalcin_Kalp={
+		name="Ramalcin Kalp"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Ramalcin_Kalp
+				traits = {	warmonger 	}
+		}
+
+	}
+	KQL_Savas_Yaske={
+		name="Savas Yaske"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Savas_Yaske
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KQL_Halim_Kalp={
+		name="Halim Kalp"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Halim_Kalp
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	KQL_Musul_Yaske={
+		name="Musul Yaske"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Musul_Yaske
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KQL_Aderhat_Yolge={
+		name="Aderhat Yolge"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Aderhat_Yolge
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KQL_Mehmet_Yilda={
+		name="Mehmet Yilda"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Mehmet_Yilda
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KQL_Onurat_Yaske={
+		name="Onurat Yaske"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Onurat_Yaske
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KQL_Ahmet_Asken={
+		name="Ahmet Asken"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Ahmet_Asken
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KQL_Orha_Ates={
+		name="Orha Ates"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Orha_Ates
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KQL_Ertugrun_Asken={
+		name="Ertugrun Asken"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Ertugrun_Asken
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KQL_Bekir_Yaske={
+		name="Bekir Yaske"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Bekir_Yaske
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KQL_Talhan_Gece={
+		name="Talhan Gece"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Talhan_Gece
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	KQL_Arif_Koylakinda={
+		name="Arif Koylakinda"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Arif_Koylakinda
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KQL_Baruk_Yolge={
+		name="Baruk Yolge"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Baruk_Yolge
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KQL_Savas_Asken={
+		name="Savas Asken"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Savas_Asken
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	KQL_Aderkaner_Yilda={
+		name="Aderkaner Yilda"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Aderkaner_Yilda
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KQL_Baruk_Akin={
+		name="Baruk Akin"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Baruk_Akin
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KQL_Iskendem_Akin={
+		name="Iskendem Akin"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KQL_Arif_Akin={
+		name="Arif Akin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Arif_Akin
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KQL_Yustafa_Koylakinda={
+		name="Yustafa Koylakinda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Yustafa_Koylakinda
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KQL_Arif_Ates={
+		name="Arif Ates"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Arif_Ates
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KQL_Ahmet_Gece={
+		name="Ahmet Gece"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Ahmet_Gece
+				traits = {	polemarch 	}
+		}
+
+	}
+	KQL_Resulender_Gunci={
+		name="Resulender Gunci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Resulender_Gunci
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KQL_Harat_Gece={
+		name="Harat Gece"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Harat_Gece
+				traits = {	polemarch 	}
+		}
+
+	}
+	KQL_Selih_Yolge={
+		name="Selih Yolge"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Selih_Yolge
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KQL_Isker_Ates={
+		name="Isker Ates"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Isker_Ates
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KQL_Yustafa_Yaske={
+		name="Yustafa Yaske"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Yustafa_Yaske
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	KQL_Tunc_Gunci={
+		name="Tunc Gunci"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Tunc_Gunci
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KQL_Kerha_Gunci={
+		name="Kerha Gunci"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Kerha_Gunci
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	KQL_Baruk_Asken={
+		name="Baruk Asken"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Baruk_Asken
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KQL_Salim_Koylakinda={
+		name="Salim Koylakinda"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Salim_Koylakinda
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KQL_Salim_Akin={
+		name="Salim Akin"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Salim_Akin
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	KQL_Emin_Koylakinda={
+		name="Emin Koylakinda"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Emin_Koylakinda
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	KQL_Zafa_Akin={
+		name="Zafa Akin"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Zafa_Akin
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KQL_Arif_Asken={
+		name="Arif Asken"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Arif_Asken
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	KQL_Ilkender_Akin={
+		name="Ilkender Akin"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Ilkender_Akin
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KQL_Talhan_Kalp={
+		name="Talhan Kalp"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Talhan_Kalp
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KQL_Ilkender_Yolge={
+		name="Ilkender Yolge"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Ilkender_Yolge
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	KQL_Ertugrun_Gece={
+		name="Ertugrun Gece"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KQL_Haran_Asken={
+		name="Haran Asken"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Haran_Asken
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	KQL_Tunc_Yolge={
+		name="Tunc Yolge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Tunc_Yolge
+				traits = {	infirm 	}
+		}
+
+	}
+	KQL_Selih_Yaske={
+		name="Selih Yaske"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Selih_Yaske
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KQL_Kaan_Asken={
+		name="Kaan Asken"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Kaan_Asken
+				traits = {	infirm 	}
+		}
+
+	}
+	KQL_Cemaz_Gunci={
+		name="Cemaz Gunci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Cemaz_Gunci
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KQL_Talhan_Akin={
+		name="Talhan Akin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KQL_Talhan_Akin
+				traits = {	the_banker 	}
+		}
+
+	}
+	KQL_Resuf_Kalp={
+		name="Resuf Kalp"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Resuf_Kalp
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KQL_Ertugrul_Asken={
+		name="Ertugrul Asken"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Ertugrul_Asken
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KQL_Ilkender_Kalp={
+		name="Ilkender Kalp"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Ilkender_Kalp
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KQL_Yusuf_Gece={
+		name="Yusuf Gece"
+
+		advisor={
+			slot = army_chief
+			idea_token = KQL_Yusuf_Gece
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KQL_Yustafa_Asken={
+		name="Yustafa Asken"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Yustafa_Asken
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KQL_Suat_Yolge={
+		name="Suat Yolge"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KQL_Suat_Yolge
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	KQL_Yusuf_Yolge={
+		name="Yusuf Yolge"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Yusuf_Yolge
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	KQL_Aderhat_Gece={
+		name="Aderhat Gece"
+
+		advisor={
+			slot = air_chief
+			idea_token = KQL_Aderhat_Gece
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KQL_Selih_Kalp={
+		name="Selih Kalp"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Selih_Kalp
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	KQL_Serhan_Yolge={
+		name="Serhan Yolge"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Serhan_Yolge
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	KQL_Ertugrun_Yolge={
+		name="Ertugrun Yolge"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Ertugrun_Yolge
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KQL_Cemaz_Gece={
+		name="Cemaz Gece"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Cemaz_Gece
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KQL_Bekir_Ates={
+		name="Bekir Ates"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Bekir_Ates
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	KQL_Emin_Kalp={
+		name="Emin Kalp"
+
+		advisor={
+			slot = high_command
+			idea_token = KQL_Emin_Kalp
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	KQL_Aderkaner_Akin={
+		name="Aderkaner Akin"
+
+		advisor={
+			slot = theorist
+			idea_token = KQL_Aderkaner_Akin
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KQL_Sinan_Kalp={
+		name="Sinan Kalp"
+
+		advisor={
+			slot = theorist
+			idea_token = KQL_Sinan_Kalp
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KQL_Utku_Kalp={
+		name="Utku Kalp"
+
+		advisor={
+			slot = theorist
+			idea_token = KQL_Utku_Kalp
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

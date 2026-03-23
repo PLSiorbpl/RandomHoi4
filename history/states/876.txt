@@ -2,9 +2,9 @@
 state={
 	id=876
 	name="STATE_876"
-	manpower = 1084423
+	manpower = 967846
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,28 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 11718 1}
-		victory_points = { 11719 3}
-		victory_points = { 11720 2}
-		victory_points = { 11728 1}
+		victory_points = { 10194 5}
 		
-		owner = XRA
+		owner = RQF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
-			11729 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = XRA
+		add_core_of = RQF
 	}
 
 	provinces={
-		11717 11718 11719 11720 11721 11722 11723 11724 11725 11726 11727 11728 11729 11730 11731 11732 
+		10188 10189 10190 10191 10192 10193 10194 10195 10196 10197 
 	}
 	local_supplies=0.0 
 }

@@ -2,37 +2,41 @@
 state={
 	id=639
 	name="STATE_639"
-	manpower = 1124976
+	manpower = 620734
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
-		rubber=9
+		oil=0
+		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=2
 	}
 
 	history={
-		victory_points = { 8517 7}
+		victory_points = { 7587 2}
+		victory_points = { 7589 1}
 		
-		owner = PON
+		owner = RQF
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
+			7589 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = PON
+		add_core_of = RQF
 	}
 
 	provinces={
-		8510 8511 8512 8513 8514 8515 8516 8517 8518 8519 8520 8521 8522 8523 8524 8525 8526 8527 8528 
+		7587 7588 7589 7590 7591 7592 
 	}
 	local_supplies=0.0 
 }

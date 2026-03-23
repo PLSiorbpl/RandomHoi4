@@ -2,40 +2,40 @@
 state={
 	id=1019
 	name="STATE_1019"
-	manpower = 438586
+	manpower = 2292213
 	
-	state_category = rural
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=7
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13425 2}
+		victory_points = { 12119 3}
+		victory_points = { 12126 5}
+		victory_points = { 12129 2}
+		victory_points = { 12139 4}
 		
-		owner = QON
+		owner = KER
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 0
+			infrastructure = 4
 			
-			13428 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 2
+			
 			
 		}
-		add_core_of = QON
+		add_core_of = KER
 	}
 
 	provinces={
-		13425 13426 13427 13428 13429 13430 
+		12119 12120 12121 12122 12123 12124 12125 12126 12127 12128 12129 12130 12131 12132 12133 12134 12135 12136 12137 12138 12139 12140 12141 12142 12143 
 	}
 	local_supplies=0.0 
 }

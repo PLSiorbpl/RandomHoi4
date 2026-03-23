@@ -2,14 +2,14 @@
 state={
 	id=738
 	name="STATE_738"
-	manpower = 2603993
+	manpower = 1409783
 	
-	state_category = megalopolis
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 9864 9}
-		victory_points = { 9881 6}
-		victory_points = { 9882 4}
+		victory_points = { 8696 8}
 		
-		owner = DAN
+		owner = BON
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = DAN
+		add_core_of = BON
 	}
 
 	provinces={
-		9859 9860 9861 9862 9863 9864 9865 9866 9867 9868 9869 9870 9871 9872 9873 9874 9875 9876 9877 9878 9879 9880 9881 9882 9883 9884 9885 9886 9887 9888 9889 9890 9891 9892 9893 9894 9895 9896 9897 9898 
+		8683 8684 8685 8686 8687 8688 8689 8690 8691 8692 8693 8694 8695 8696 8697 
 	}
 	local_supplies=0.0 
 }

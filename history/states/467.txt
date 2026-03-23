@@ -2,14 +2,14 @@
 state={
 	id=467
 	name="STATE_467"
-	manpower = 1072761
+	manpower = 929510
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,24 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 6005 3}
-		victory_points = { 6008 1}
-		victory_points = { 6012 2}
+		victory_points = { 5632 5}
 		
-		owner = KUL
+		owner = YIT
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 3
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = KUL
+		add_core_of = YIT
 	}
 
 	provinces={
-		6005 6006 6007 6008 6009 6010 6011 6012 6013 6014 6015 6016 6017 6018 6019 6020 
+		5625 5626 5627 5628 5629 5630 5631 5632 5633 5634 
 	}
 	local_supplies=0.0 
 }

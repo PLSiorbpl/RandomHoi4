@@ -2,7 +2,7 @@
 state={
 	id=1301
 	name="STATE_1301"
-	manpower = 295387
+	manpower = 511070
 	
 	state_category = pastoral
 	#impassable = yes
@@ -10,29 +10,32 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
-		steel=0
+		rubber=6
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 17104 1}
+		victory_points = { 17361 1}
 		
-		owner = QTU
+		owner = HTN
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+			infrastructure = 2
+			
 			arms_factory = 0
 			industrial_complex = 0
 			
+			17361 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = QTU
+		add_core_of = HTN
 	}
 
 	provinces={
-		17104 17105 17106 
+		17355 17356 17357 17358 17359 17360 17361 17362 17363 17364 
 	}
 	local_supplies=0.0 
 }

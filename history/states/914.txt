@@ -2,37 +2,38 @@
 state={
 	id=914
 	name="STATE_914"
-	manpower = 447923
+	manpower = 1422789
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=1
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12323 1}
+		victory_points = { 10691 4}
+		victory_points = { 10699 2}
 		
-		owner = NAK
+		owner = VAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = VAN
 	}
 
 	provinces={
-		12322 12323 12324 12325 12326 12327 
+		10688 10689 10690 10691 10692 10693 10694 10695 10696 10697 10698 10699 10700 10701 10702 10703 
 	}
 	local_supplies=0.0 
 }

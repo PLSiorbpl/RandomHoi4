@@ -2,38 +2,36 @@
 state={
 	id=759
 	name="STATE_759"
-	manpower = 643428
+	manpower = 285035
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
-		aluminium=15
+		aluminium=0
 		chromium=0
-		oil=0
-		rubber=1
-		steel=1
+		oil=1
+		rubber=0
+		steel=0
 		tungsten=0
-		coal=60
+		coal=0
 	}
 
 	history={
-		victory_points = { 10188 3}
-		victory_points = { 10190 1}
 		
-		owner = PON
+		owner = AHC
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = AHC
 	}
 
 	provinces={
-		10187 10188 10189 10190 10191 10192 10193 10194 10195 
+		8951 8952 
 	}
 	local_supplies=0.0 
 }

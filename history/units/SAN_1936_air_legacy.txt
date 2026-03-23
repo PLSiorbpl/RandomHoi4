@@ -1,21 +1,60 @@
 air_wings = {
-		55 = { 								
-		fighter_equipment_0 = { owner = "SAN" amount = 21 version_name = "Sanub Mk 0" }
-fighter_equipment_0 = { owner = "SAN" amount = 19 version_name = "Mufti Mk 1" }
-nav_bomber_equipment_0 = { owner = "SAN" amount = 21 version_name = "Fariq Mk 2" }
+		398 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Orman Mk 0" }
 
 	}
-	385 = { 								
-		CAS_equipment_0 = { owner = "SAN" amount = 27 version_name = "Safilahr Mk 2" }
+	403 = { 								
+		tac_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Bulu Mk 1" }
 
 	}
-	421 = { 								
-		tac_bomber_equipment_0 = { owner = "SAN" amount = 24 version_name = "Kutub Mk 1" }
+	409 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Orman Mk 0" }
+strat_bomber_equipment_0 = { owner = "SAN" amount = 48 version_name = "Akgun Mk 0" }
 
 	}
-	20 = { 								
-		CAS_equipment_0 = { owner = "SAN" amount = 22 version_name = "Shura Mk 1" }
-nav_bomber_equipment_0 = { owner = "SAN" amount = 20 version_name = "Hafil Mk 2" }
+	476 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Deniz Mk 0" }
+tac_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Bulu Mk 1" }
+
+	}
+	525 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Orman Mk 0" }
+
+	}
+	541 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Deniz Mk 0" }
+
+	}
+	854 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Saat Mk 1" }
+
+	}
+	844 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Saat Mk 1" }
+
+	}
+	855 = { 								
+		strat_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Saat Mk 2" }
+
+	}
+	878 = { 								
+		nav_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Orman Mk 1" }
+
+	}
+	892 = { 								
+		nav_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Orman Mk 1" }
+
+	}
+	804 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Orman Mk 0" }
+
+	}
+	719 = { 								
+		strat_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Saat Mk 2" }
+
+	}
+	752 = { 								
+		nav_bomber_equipment_0 = { owner = "SAN" amount = 43 version_name = "Isilik Mk 1" }
 
 	}
 

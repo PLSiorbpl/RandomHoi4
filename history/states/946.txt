@@ -2,39 +2,42 @@
 state={
 	id=946
 	name="STATE_946"
-	manpower = 875298
+	manpower = 2622020
 	
-	state_category = large_town
+	state_category = metropolis
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=2
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12642 1}
-		victory_points = { 12643 1}
-		victory_points = { 12650 3}
+		victory_points = { 11235 6}
+		victory_points = { 11239 5}
+		victory_points = { 11261 5}
 		
-		owner = LZO
+		owner = AJT
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+			infrastructure = 4
+			
 			arms_factory = 0
 			industrial_complex = 1
-			
+			dockyard = 1
+			11239 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = LZO
+		add_core_of = AJT
 	}
 
 	provinces={
-		12639 12640 12641 12642 12643 12644 12645 12646 12647 12648 12649 12650 12651 
+		11233 11234 11235 11236 11237 11238 11239 11240 11241 11242 11243 11244 11245 11246 11247 11248 11249 11250 11251 11252 11253 11254 11255 11256 11257 11258 11259 11260 11261 
 	}
 	local_supplies=0.0 
 }

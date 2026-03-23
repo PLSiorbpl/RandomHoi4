@@ -2,12 +2,12 @@
 state={
 	id=622
 	name="STATE_622"
-	manpower = 1006251
+	manpower = 1071115
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=10
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,25 +17,27 @@ state={
 	}
 
 	history={
-		victory_points = { 8262 2}
-		victory_points = { 8263 1}
-		victory_points = { 8271 3}
-		victory_points = { 8273 1}
+		victory_points = { 7356 1}
+		victory_points = { 7359 2}
+		victory_points = { 7361 3}
 		
-		owner = NAK
+		owner = KUK
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
 			
+			7361 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = NAK
+		add_core_of = KUK
 	}
 
 	provinces={
-		8259 8260 8261 8262 8263 8264 8265 8266 8267 8268 8269 8270 8271 8272 8273 
+		7354 7355 7356 7357 7358 7359 7360 7361 7362 7363 7364 
 	}
 	local_supplies=0.0 
 }

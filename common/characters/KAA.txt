@@ -1,0 +1,880 @@
+characters = {
+	KAA_Kanek_Cozumel={
+		name="Kanek Cozumel"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAA_Bacab_Tzib={
+		name="Bacab Tzib"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Bacab_Tzib
+				traits = {	humble 	}
+		}
+
+	}
+	KAA_Pakal_Sotz={
+		name="Pakal Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Pakal_Sotz
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAA_Kanek_Sotz={
+		name="Kanek Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Kanek_Sotz
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KAA_Tecun_Sayil={
+		name="Tecun Sayil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Tecun_Sayil
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KAA_Chua_Kabah={
+		name="Chua Kabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Chua_Kabah
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KAA_Pakanek_Tzib={
+		name="Pakanek Tzib"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Pakanek_Tzib
+				traits = {	humble 	}
+		}
+
+	}
+	KAA_Ekchak_Chichel={
+		name="Ekchak Chichel"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Ekchak_Chichel
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KAA_Ekchichen_Kabah={
+		name="Ekchichen Kabah"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Ekchichen_Kabah
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAA_Nacab_Tzib={
+		name="Nacab Tzib"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Nacab_Tzib
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KAA_Bacab_Sotz={
+		name="Bacab Sotz"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Bacab_Sotz
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KAA_Kukulkan_Cozumel={
+		name="Kukulkan Cozumel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Kukulkan_Cozumel
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KAA_Acatl_Kabah={
+		name="Acatl Kabah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Acatl_Kabah
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	KAA_Tecun_Kabah={
+		name="Tecun Kabah"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Tecun_Kabah
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KAA_Chakanek_Kabah={
+		name="Chakanek Kabah"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Chakanek_Kabah
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KAA_Ekchak_Kabah={
+		name="Ekchak Kabah"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Ekchak_Kabah
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	KAA_Tohil_Chichel={
+		name="Tohil Chichel"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Tohil_Chichel
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KAA_Chil_Tzib={
+		name="Chil Tzib"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Chil_Tzib
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	KAA_Chil_Chichel={
+		name="Chil Chichel"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Chil_Chichel
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	KAA_Ekchichen_Tzib={
+		name="Ekchichen Tzib"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Ekchichen_Tzib
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	KAA_Acatl_Sotz={
+		name="Acatl Sotz"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Acatl_Sotz
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	KAA_Tecun_Chichel={
+		name="Tecun Chichel"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAA_Oxib_Tzib={
+		name="Oxib Tzib"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Oxib_Tzib
+				traits = {	autokrator 	}
+		}
+
+	}
+	KAA_Kukulkalam_Sotz={
+		name="Kukulkalam Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Kukulkalam_Sotz
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAA_Ekchua_Sayil={
+		name="Ekchua Sayil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Ekchua_Sayil
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	KAA_Pakanek_Ajpu={
+		name="Pakanek Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Pakanek_Ajpu
+				traits = {	generallissimo 	}
+		}
+
+	}
+	KAA_Bacab_Ajpu={
+		name="Bacab Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Bacab_Ajpu
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	KAA_Bacab_Tzam={
+		name="Bacab Tzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Bacab_Tzam
+				traits = {	generallissimo 	}
+		}
+
+	}
+	KAA_Acab_Chichel={
+		name="Acab Chichel"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Acab_Chichel
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KAA_Bacom_Tzam={
+		name="Bacom Tzam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Bacom_Tzam
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KAA_Acatl_Tzam={
+		name="Acatl Tzam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Acatl_Tzam
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KAA_Pakal_Tzib={
+		name="Pakal Tzib"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Pakal_Tzib
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAA_Acab_Cozumel={
+		name="Acab Cozumel"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Acab_Cozumel
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	KAA_Chil_Sotz={
+		name="Chil Sotz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Chil_Sotz
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KAA_Chakan_Kabah={
+		name="Chakan Kabah"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Chakan_Kabah
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KAA_Chichen_Cozumel={
+		name="Chichen Cozumel"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Chichen_Cozumel
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KAA_Chak_Tzam={
+		name="Chak Tzam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Chak_Tzam
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	KAA_Ekchakan_Sayil={
+		name="Ekchakan Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Ekchakan_Sayil
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KAA_Pakanek_Cozumel={
+		name="Pakanek Cozumel"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Pakanek_Cozumel
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	KAA_Pakanek_Sayil={
+		name="Pakanek Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Pakanek_Sayil
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	KAA_Ahkin_Ajpu={
+		name="Ahkin Ajpu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Ahkin_Ajpu
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KAA_Chichen_Sayil={
+		name="Chichen Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Chichen_Sayil
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KAA_Moctez_Tzib={
+		name="Moctez Tzib"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAA_Nacom_Kabah={
+		name="Nacom Kabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Nacom_Kabah
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAA_Chak_Chichel={
+		name="Chak Chichel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Chak_Chichel
+				traits = {	infirm 	}
+		}
+
+	}
+	KAA_Bacatl_Sayil={
+		name="Bacatl Sayil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Bacatl_Sayil
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KAA_Chua_Sotz={
+		name="Chua Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Chua_Sotz
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAA_Chichen_Kabah={
+		name="Chichen Kabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Chichen_Kabah
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KAA_Tohil_Kabah={
+		name="Tohil Kabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Tohil_Kabah
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KAA_Chil_Cozumel={
+		name="Chil Cozumel"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Chil_Cozumel
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KAA_Acab_Sayil={
+		name="Acab Sayil"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Acab_Sayil
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KAA_Nacom_Tzib={
+		name="Nacom Tzib"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Nacom_Tzib
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	KAA_Itzam_Chichel={
+		name="Itzam Chichel"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Itzam_Chichel
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KAA_Itzam_Sayil={
+		name="Itzam Sayil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Itzam_Sayil
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	KAA_Ekchakan_Kabah={
+		name="Ekchakan Kabah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Ekchakan_Kabah
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	KAA_Itzam_Sotz={
+		name="Itzam Sotz"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Itzam_Sotz
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KAA_Tohil_Tzib={
+		name="Tohil Tzib"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Tohil_Tzib
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	KAA_Kanek_Chichel={
+		name="Kanek Chichel"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Kanek_Chichel
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	KAA_Tecun_Tzam={
+		name="Tecun Tzam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Tecun_Tzam
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KAA_Bacom_Sayil={
+		name="Bacom Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Bacom_Sayil
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	KAA_Nacab_Kabah={
+		name="Nacab Kabah"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Nacab_Kabah
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	KAA_Ekchak_Sayil={
+		name="Ekchak Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Ekchak_Sayil
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	KAA_Chua_Sayil={
+		name="Chua Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Chua_Sayil
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	KAA_Ekchichen_Sotz={
+		name="Ekchichen Sotz"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAA_Chak_Tzib={
+		name="Chak Tzib"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Chak_Tzib
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KAA_Ekchua_Tzib={
+		name="Ekchua Tzib"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Ekchua_Tzib
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	KAA_Moctez_Sotz={
+		name="Moctez Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Moctez_Sotz
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KAA_Ekchak_Tzam={
+		name="Ekchak Tzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Ekchak_Tzam
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KAA_Chichen_Chichel={
+		name="Chichen Chichel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Chichen_Chichel
+				traits = {	the_banker 	}
+		}
+
+	}
+	KAA_Ekchil_Kabah={
+		name="Ekchil Kabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAA_Ekchil_Kabah
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KAA_Kukulkal_Sayil={
+		name="Kukulkal Sayil"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Kukulkal_Sayil
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAA_Chil_Tzam={
+		name="Chil Tzam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Chil_Tzam
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KAA_Yaxkin_Cozumel={
+		name="Yaxkin Cozumel"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Yaxkin_Cozumel
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KAA_Kukulkal_Tzam={
+		name="Kukulkal Tzam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAA_Kukulkal_Tzam
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KAA_Ekchichen_Tzam={
+		name="Ekchichen Tzam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Ekchichen_Tzam
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KAA_Popo_Kabah={
+		name="Popo Kabah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAA_Popo_Kabah
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	KAA_Pakanek_Kabah={
+		name="Pakanek Kabah"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Pakanek_Kabah
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KAA_Chichen_Sotz={
+		name="Chichen Sotz"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAA_Chichen_Sotz
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KAA_Nacom_Tzam={
+		name="Nacom Tzam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Nacom_Tzam
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KAA_Bacom_Tzib={
+		name="Bacom Tzib"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Bacom_Tzib
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	KAA_Ekchil_Sayil={
+		name="Ekchil Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Ekchil_Sayil
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KAA_Nacom_Sayil={
+		name="Nacom Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Nacom_Sayil
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KAA_Kukulkan_Sayil={
+		name="Kukulkan Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Kukulkan_Sayil
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	KAA_Oxib_Chichel={
+		name="Oxib Chichel"
+
+		advisor={
+			slot = high_command
+			idea_token = KAA_Oxib_Chichel
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	KAA_Yaxkin_Ajpu={
+		name="Yaxkin Ajpu"
+
+		advisor={
+			slot = theorist
+			idea_token = KAA_Yaxkin_Ajpu
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KAA_Ekchil_Tzib={
+		name="Ekchil Tzib"
+
+		advisor={
+			slot = theorist
+			idea_token = KAA_Ekchil_Tzib
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KAA_Popo_Tzib={
+		name="Popo Tzib"
+
+		advisor={
+			slot = theorist
+			idea_token = KAA_Popo_Tzib
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

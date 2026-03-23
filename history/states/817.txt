@@ -2,14 +2,14 @@
 state={
 	id=817
 	name="STATE_817"
-	manpower = 481413
+	manpower = 910924
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 10995 1}
+		victory_points = { 9527 1}
+		victory_points = { 9530 1}
+		victory_points = { 9535 2}
 		
-		owner = BHL
+		owner = AHC
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
+			air_base = 3
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BHL
+		add_core_of = AHC
 	}
 
 	provinces={
-		10993 10994 10995 10996 10997 10998 
+		9527 9528 9529 9530 9531 9532 9533 9534 9535 
 	}
 	local_supplies=0.0 
 }

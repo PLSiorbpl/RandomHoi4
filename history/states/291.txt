@@ -2,40 +2,41 @@
 state={
 	id=291
 	name="STATE_291"
-	manpower = 1702135
+	manpower = 573414
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=9
+		steel=0
 		tungsten=0
-		coal=0
+		coal=15
 	}
 
 	history={
-		victory_points = { 3923 3}
-		victory_points = { 3924 6}
-		victory_points = { 3934 1}
-		victory_points = { 3938 2}
+		victory_points = { 3502 1}
+		victory_points = { 3503 1}
 		
-		owner = HOR
+		owner = BXN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 1
 			
+			3503 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HOR
+		add_core_of = BXN
 	}
 
 	provinces={
-		3923 3924 3925 3926 3927 3928 3929 3930 3931 3932 3933 3934 3935 3936 3937 3938 3939 3940 3941 3942 3943 3944 3945 3946 3947 3948 
+		3501 3502 3503 3504 3505 
 	}
 	local_supplies=0.0 
 }

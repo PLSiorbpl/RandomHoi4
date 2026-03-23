@@ -2,38 +2,38 @@
 state={
 	id=619
 	name="STATE_619"
-	manpower = 1117170
+	manpower = 525251
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=1
+		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8223 5}
-		victory_points = { 8228 2}
+		victory_points = { 7324 1}
+		victory_points = { 7325 1}
 		
-		owner = KUL
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = KUL
+		add_core_of = GIZ
 	}
 
 	provinces={
-		8216 8217 8218 8219 8220 8221 8222 8223 8224 8225 8226 8227 8228 8229 8230 8231 8232 8233 8234 
+		7324 7325 7326 7327 7328 
 	}
 	local_supplies=0.0 
 }

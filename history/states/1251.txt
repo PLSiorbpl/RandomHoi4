@@ -2,42 +2,39 @@
 state={
 	id=1251
 	name="STATE_1251"
-	manpower = 956901
+	manpower = 651185
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=8
 		chromium=0
 		oil=0
-		rubber=0
-		steel=0
+		rubber=8
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 16492 2}
-		victory_points = { 16501 2}
-		victory_points = { 16504 2}
 		
-		owner = IUI
+		owner = BZA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			
 			arms_factory = 0
 			industrial_complex = 0
-			dockyard = 1
-			16492 = {
+			
+			16580 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = IUI
+		add_core_of = BZA
 	}
 
 	provinces={
-		16491 16492 16493 16494 16495 16496 16497 16498 16499 16500 16501 16502 16503 16504 
+		16574 16575 16576 16577 16578 16579 16580 16581 16582 16583 16584 16585 
 	}
 	local_supplies=0.0 
 }

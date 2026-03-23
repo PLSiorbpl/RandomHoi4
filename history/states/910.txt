@@ -2,12 +2,12 @@
 state={
 	id=910
 	name="STATE_910"
-	manpower = 713134
+	manpower = 984268
 	
 	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=5
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,28 @@ state={
 	}
 
 	history={
-		victory_points = { 12254 4}
-		victory_points = { 12258 1}
+		victory_points = { 10639 1}
+		victory_points = { 10640 1}
+		victory_points = { 10645 1}
+		victory_points = { 10647 1}
 		
-		owner = CNU
+		owner = CLA
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
+			10639 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = CNU
+		add_core_of = CLA
 	}
 
 	provinces={
-		12253 12254 12255 12256 12257 12258 12259 12260 12261 12262 
+		10638 10639 10640 10641 10642 10643 10644 10645 10646 10647 
 	}
 	local_supplies=0.0 
 }

@@ -2,37 +2,38 @@
 state={
 	id=730
 	name="STATE_730"
-	manpower = 736078
+	manpower = 854553
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=10
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=17
 	}
 
 	history={
-		victory_points = { 9751 5}
+		victory_points = { 8591 2}
+		victory_points = { 8596 2}
 		
-		owner = BEJ
+		owner = RSM
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = RSM
 	}
 
 	provinces={
-		9749 9750 9751 9752 9753 9754 9755 9756 9757 9758 
+		8590 8591 8592 8593 8594 8595 8596 8597 
 	}
 	local_supplies=0.0 
 }

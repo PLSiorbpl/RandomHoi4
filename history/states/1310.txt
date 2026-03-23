@@ -2,41 +2,42 @@
 state={
 	id=1310
 	name="STATE_1310"
-	manpower = 811023
+	manpower = 1861836
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=2
+		chromium=0
 		oil=0
-		rubber=0
+		rubber=22
 		steel=0
 		tungsten=0
-		coal=0
+		coal=80
 	}
 
 	history={
-		victory_points = { 17223 3}
-		victory_points = { 17225 1}
+		victory_points = { 17523 2}
+		victory_points = { 17528 2}
+		victory_points = { 17558 2}
 		
-		owner = RUT
+		owner = BZA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 2
 			
-			17223 = {
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			17547 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = RUT
+		add_core_of = BZA
 	}
 
 	provinces={
-		17215 17216 17217 17218 17219 17220 17221 17222 17223 17224 17225 
+		17520 17521 17522 17523 17524 17525 17526 17527 17528 17529 17530 17531 17532 17533 17534 17535 17536 17537 17538 17539 17540 17541 17542 17543 17544 17545 17546 17547 17548 17549 17550 17551 17552 17553 17554 17555 17556 17557 17558 
 	}
 	local_supplies=0.0 
 }

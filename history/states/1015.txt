@@ -2,37 +2,39 @@
 state={
 	id=1015
 	name="STATE_1015"
-	manpower = 616941
+	manpower = 1866593
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
 		rubber=0
-		steel=2
+		steel=0
 		tungsten=0
-		coal=48
+		coal=0
 	}
 
 	history={
-		victory_points = { 13374 2}
+		victory_points = { 12074 4}
+		victory_points = { 12081 3}
+		victory_points = { 12089 3}
 		
-		owner = DUA
+		owner = CLA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+			infrastructure = 4
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = DUA
+		add_core_of = CLA
 	}
 
 	provinces={
-		13370 13371 13372 13373 13374 13375 13376 13377 
+		12071 12072 12073 12074 12075 12076 12077 12078 12079 12080 12081 12082 12083 12084 12085 12086 12087 12088 12089 12090 
 	}
 	local_supplies=0.0 
 }

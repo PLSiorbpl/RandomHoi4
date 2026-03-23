@@ -2,9 +2,9 @@
 state={
 	id=151
 	name="STATE_151"
-	manpower = 1182692
+	manpower = 524702
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,28 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 2162 1}
-		victory_points = { 2164 1}
-		victory_points = { 2167 2}
-		victory_points = { 2168 3}
+		victory_points = { 1921 1}
+		victory_points = { 1924 1}
 		
-		owner = UKI
+		owner = ZER
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			2169 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = UKI
+		add_core_of = ZER
 	}
 
 	provinces={
-		2153 2154 2155 2156 2157 2158 2159 2160 2161 2162 2163 2164 2165 2166 2167 2168 2169 
+		1921 1922 1923 1924 1925 
 	}
 	local_supplies=0.0 
 }

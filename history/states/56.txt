@@ -2,13 +2,13 @@
 state={
 	id=56
 	name="STATE_56"
-	manpower = 553110
+	manpower = 2876656
 	
-	state_category = rural
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=1
 		oil=0
 		rubber=0
 		steel=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 829 1}
-		victory_points = { 831 1}
+		victory_points = { 734 6}
+		victory_points = { 744 5}
+		victory_points = { 760 8}
 		
-		owner = GDA
+		owner = EAG
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 3
 			
 			
 		}
-		add_core_of = GDA
+		add_core_of = EAG
 	}
 
 	provinces={
-		827 828 829 830 831 832 833 
+		729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 750 751 752 753 754 755 756 757 758 759 760 
 	}
 	local_supplies=0.0 
 }

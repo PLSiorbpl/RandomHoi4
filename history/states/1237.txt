@@ -2,42 +2,40 @@
 state={
 	id=1237
 	name="STATE_1237"
-	manpower = 1162811
+	manpower = 662157
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=8
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 16192 2}
-		victory_points = { 16197 2}
-		victory_points = { 16202 2}
+		victory_points = { 15870 2}
 		
-		owner = GHI
+		owner = HTN
 		buildings = {
-			infrastructure = 4
-			air_base = 2
+			infrastructure = 2
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
-			dockyard = 1
-			16190 = {
+			
+			15869 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = GHI
+		add_core_of = HTN
 	}
 
 	provinces={
-		16186 16187 16188 16189 16190 16191 16192 16193 16194 16195 16196 16197 16198 16199 16200 16201 16202 
+		15860 15861 15862 15863 15864 15865 15866 15867 15868 15869 15870 15871 15872 
 	}
 	local_supplies=0.0 
 }

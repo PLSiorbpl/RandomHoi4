@@ -2,37 +2,38 @@
 state={
 	id=280
 	name="STATE_280"
-	manpower = 392998
+	manpower = 1518849
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 3756 2}
+		victory_points = { 3368 8}
+		victory_points = { 3369 1}
 		
-		owner = HUA
+		owner = LCA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = HUA
+		add_core_of = LCA
 	}
 
 	provinces={
-		3755 3756 3757 3758 3759 
+		3365 3366 3367 3368 3369 3370 3371 3372 3373 3374 3375 3376 3377 3378 3379 3380 
 	}
 	local_supplies=0.0 
 }

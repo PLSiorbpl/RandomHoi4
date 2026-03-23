@@ -1,0 +1,880 @@
+characters = {
+	CAE_Sevolavius_Plebra={
+		name="Sevolavius Plebra"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Faudius_Terbunum={
+		name="Faudius Terbunum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Faudius_Terbunum
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CAE_Marcus_Picol={
+		name="Marcus Picol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Marcus_Picol
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	CAE_Decius_Flumentifex={
+		name="Decius Flumentifex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Decius_Flumentifex
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CAE_Augulus_Flumentifex={
+		name="Augulus Flumentifex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Augulus_Flumentifex
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CAE_Silvanus_Agrina={
+		name="Silvanus Agrina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Silvanus_Agrina
+				traits = {	humble 	}
+		}
+
+	}
+	CAE_Flaulus_Picol={
+		name="Flaulus Picol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Flaulus_Picol
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CAE_Brutus_Terbunum={
+		name="Brutus Terbunum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Brutus_Terbunum
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CAE_Valeriscustu_Sterba={
+		name="Valeriscustu Sterba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Valeriscustu_Sterba
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CAE_Regus_Flumentifex={
+		name="Regus Flumentifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Regus_Flumentifex
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CAE_Serius_Vilva={
+		name="Serius Vilva"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Serius_Vilva
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CAE_Scaeverius_Plum={
+		name="Scaeverius Plum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Scaeverius_Plum
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CAE_Flaulus_Agrina={
+		name="Flaulus Agrina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Flaulus_Agrina
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	CAE_Nerus_Flumentifex={
+		name="Nerus Flumentifex"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Nerus_Flumentifex
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CAE_Titellius_Templum={
+		name="Titellius Templum"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Titellius_Templum
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CAE_Vitellus_Agrina={
+		name="Vitellus Agrina"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Vitellus_Agrina
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	CAE_Viberius_Plebra={
+		name="Viberius Plebra"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Viberius_Plebra
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	CAE_Otho_Agrina={
+		name="Otho Agrina"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Otho_Agrina
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CAE_Antonius_Terbunum={
+		name="Antonius Terbunum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Antonius_Terbunum
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	CAE_Priscus_Picol={
+		name="Priscus Picol"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Priscus_Picol
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	CAE_Tibius_Terbunum={
+		name="Tibius Terbunum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Tibius_Terbunum
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	CAE_Sextustus_Plum={
+		name="Sextustus Plum"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Valerius_Picol={
+		name="Valerius Picol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Valerius_Picol
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	CAE_Scaevola_Plum={
+		name="Scaevola Plum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Scaevola_Plum
+				traits = {	autokrator 	}
+		}
+
+	}
+	CAE_Paudius_Templum={
+		name="Paudius Templum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Paudius_Templum
+				traits = {	autokrator 	}
+		}
+
+	}
+	CAE_Serus_Vilva={
+		name="Serus Vilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Serus_Vilva
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CAE_Nerviusus_Plum={
+		name="Nerviusus Plum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Nerviusus_Plum
+				traits = {	basileus 	}
+		}
+
+	}
+	CAE_Nonius_Sterba={
+		name="Nonius Sterba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Nonius_Sterba
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CAE_Regus_Vilva={
+		name="Regus Vilva"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Regus_Vilva
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	CAE_Coraius_Flumentifex={
+		name="Coraius Flumentifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Coraius_Flumentifex
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CAE_Brus_Sterba={
+		name="Brus Sterba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Brus_Sterba
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CAE_Regulus_Libers={
+		name="Regulus Libers"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Regulus_Libers
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CAE_Caianus_Templum={
+		name="Caianus Templum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Caianus_Templum
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	CAE_Regulus_Sterba={
+		name="Regulus Sterba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Regulus_Sterba
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	CAE_Horaticus_Picol={
+		name="Horaticus Picol"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Horaticus_Picol
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CAE_Antus_Libers={
+		name="Antus Libers"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Antus_Libers
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	CAE_Cassius_Terbunum={
+		name="Cassius Terbunum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Cassius_Terbunum
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CAE_Horaticus_Vilva={
+		name="Horaticus Vilva"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Horaticus_Vilva
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	CAE_Fausus_Agrina={
+		name="Fausus Agrina"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Fausus_Agrina
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	CAE_Urbanus_Picol={
+		name="Urbanus Picol"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Urbanus_Picol
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	CAE_Severius_Templum={
+		name="Severius Templum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Severius_Templum
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CAE_Cassius_Vilva={
+		name="Cassius Vilva"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Cassius_Vilva
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CAE_Domiticus_Plebra={
+		name="Domiticus Plebra"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Nongintonius_Vilva={
+		name="Nongintonius Vilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Nongintonius_Vilva
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CAE_Viberius_Sterba={
+		name="Viberius Sterba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Viberius_Sterba
+				traits = {	political_dancer 	}
+		}
+
+	}
+	CAE_Nerviusus_Templum={
+		name="Nerviusus Templum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Nerviusus_Templum
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CAE_Nero_Templum={
+		name="Nero Templum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Nero_Templum
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	CAE_Atticus_Vilva={
+		name="Atticus Vilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Atticus_Vilva
+				traits = {	infirm 	}
+		}
+
+	}
+	CAE_Tibervius_Terbunum={
+		name="Tibervius Terbunum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Tibervius_Terbunum
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	CAE_Priscus_Terbunum={
+		name="Priscus Terbunum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Priscus_Terbunum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CAE_Caius_Picol={
+		name="Caius Picol"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Caius_Picol
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CAE_Paus_Plum={
+		name="Paus Plum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Paus_Plum
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	CAE_Fabius_Agrina={
+		name="Fabius Agrina"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Fabius_Agrina
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CAE_Scaeverius_Picol={
+		name="Scaeverius Picol"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Scaeverius_Picol
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	CAE_Otho_Vilva={
+		name="Otho Vilva"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Otho_Vilva
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	CAE_Decius_Picol={
+		name="Decius Picol"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Decius_Picol
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	CAE_Regulus_Flumentifex={
+		name="Regulus Flumentifex"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Regulus_Flumentifex
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	CAE_Flaulus_Flumentifex={
+		name="Flaulus Flumentifex"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Flaulus_Flumentifex
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	CAE_Vibervius_Flumentifex={
+		name="Vibervius Flumentifex"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Vibervius_Flumentifex
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CAE_Vitellianust_Plum={
+		name="Vitellianust Plum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Vitellianust_Plum
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	CAE_Valerius_Sterba={
+		name="Valerius Sterba"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Valerius_Sterba
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	CAE_Manliustus_Terbunum={
+		name="Manliustus Terbunum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Manliustus_Terbunum
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	CAE_Horaticus_Agrina={
+		name="Horaticus Agrina"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Horaticus_Agrina
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	CAE_Domiticus_Sterba={
+		name="Domiticus Sterba"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Tratius_Vilva={
+		name="Tratius Vilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Tratius_Vilva
+				traits = {	rearmer 	}
+		}
+
+	}
+	CAE_Valeriscustu_Plum={
+		name="Valeriscustu Plum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Valeriscustu_Plum
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	CAE_Vitus_Libers={
+		name="Vitus Libers"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Vitus_Libers
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CAE_Marcus_Templum={
+		name="Marcus Templum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Marcus_Templum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CAE_Otho_Plum={
+		name="Otho Plum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Otho_Plum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CAE_Titellius_Flumentifex={
+		name="Titellius Flumentifex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Titellius_Flumentifex
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	CAE_Drus_Libers={
+		name="Drus Libers"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Drus_Libers
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CAE_Drus_Sterba={
+		name="Drus Sterba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Drus_Sterba
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CAE_Brutus_Libers={
+		name="Brutus Libers"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Brutus_Libers
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	CAE_Tibius_Flumentifex={
+		name="Tibius Flumentifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Tibius_Flumentifex
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CAE_Tibius_Picol={
+		name="Tibius Picol"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Tibius_Picol
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	CAE_Vibervius_Templum={
+		name="Vibervius Templum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Vibervius_Templum
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	CAE_Vibervius_Sterba={
+		name="Vibervius Sterba"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Vibervius_Sterba
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CAE_Augulus_Agrina={
+		name="Augulus Agrina"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Augulus_Agrina
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	CAE_Priscus_Sterba={
+		name="Priscus Sterba"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Priscus_Sterba
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	CAE_Fausus_Flumentifex={
+		name="Fausus Flumentifex"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Fausus_Flumentifex
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	CAE_Horaticus_Terbunum={
+		name="Horaticus Terbunum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Horaticus_Terbunum
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	CAE_Scaevola_Sterba={
+		name="Scaevola Sterba"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Scaevola_Sterba
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	CAE_Serius_Picol={
+		name="Serius Picol"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Serius_Picol
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	CAE_Scaeverius_Flumentifex={
+		name="Scaeverius Flumentifex"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Scaeverius_Flumentifex
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	CAE_Vitus_Terbunum={
+		name="Vitus Terbunum"
+
+		advisor={
+			slot = theorist
+			idea_token = CAE_Vitus_Terbunum
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CAE_Fabius_Templum={
+		name="Fabius Templum"
+
+		advisor={
+			slot = theorist
+			idea_token = CAE_Fabius_Templum
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CAE_Antonius_Sterba={
+		name="Antonius Sterba"
+
+		advisor={
+			slot = theorist
+			idea_token = CAE_Antonius_Sterba
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

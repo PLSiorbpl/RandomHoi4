@@ -2,29 +2,28 @@
 state={
 	id=403
 	name="STATE_403"
-	manpower = 1886269
+	manpower = 946412
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=13
-		tungsten=0
+		steel=0
+		tungsten=21
 		coal=0
 	}
 
 	history={
-		victory_points = { 5305 12}
-		victory_points = { 5314 3}
+		victory_points = { 4843 5}
 		
 		owner = SAN
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
 			industrial_complex = 1
 			
 			
@@ -33,7 +32,7 @@ state={
 	}
 
 	provinces={
-		5293 5294 5295 5296 5297 5298 5299 5300 5301 5302 5303 5304 5305 5306 5307 5308 5309 5310 5311 5312 5313 5314 5315 5316 5317 5318 5319 5320 5321 
+		4837 4838 4839 4840 4841 4842 4843 4844 4845 4846 
 	}
 	local_supplies=0.0 
 }

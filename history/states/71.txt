@@ -2,42 +2,39 @@
 state={
 	id=71
 	name="STATE_71"
-	manpower = 1327806
+	manpower = 928758
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 1082 2}
-		victory_points = { 1085 2}
-		victory_points = { 1090 6}
+		victory_points = { 933 1}
+		victory_points = { 936 1}
+		victory_points = { 939 2}
 		
-		owner = FEA
+		owner = BUN
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 3
+			
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			1094 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = FEA
+		add_core_of = BUN
 	}
 
 	provinces={
-		1079 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094 1095 1096 1097 1098 
+		933 934 935 936 937 938 939 940 941 942 
 	}
 	local_supplies=0.0 
 }

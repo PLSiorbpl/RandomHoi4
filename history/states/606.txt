@@ -2,9 +2,9 @@
 state={
 	id=606
 	name="STATE_606"
-	manpower = 299210
+	manpower = 517072
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,21 +17,23 @@ state={
 	}
 
 	history={
+		victory_points = { 7189 1}
+		victory_points = { 7190 1}
 		
-		owner = DAN
+		owner = IDU
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = DAN
+		add_core_of = IDU
 	}
 
 	provinces={
-		8032 8033 8034 
+		7189 7190 7191 7192 
 	}
 	local_supplies=0.0 
 }

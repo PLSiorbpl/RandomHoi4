@@ -1,0 +1,880 @@
+characters = {
+	KAM_Omau_Nyumbukumbir={
+		name="Omau Nyumbukumbir"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAM_Kame_Meli={
+		name="Kame Meli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Kame_Meli
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KAM_Taji_Kambe={
+		name="Taji Kambe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Taji_Kambe
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAM_Baka_Checho={
+		name="Baka Checho"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Baka_Checho
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KAM_Barakari_Tumbani={
+		name="Barakari Tumbani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Barakari_Tumbani
+				traits = {	humble 	}
+		}
+
+	}
+	KAM_Kwanga_Tumbani={
+		name="Kwanga Tumbani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Kwanga_Tumbani
+				traits = {	humble 	}
+		}
+
+	}
+	KAM_Barakari_Kambe={
+		name="Barakari Kambe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Barakari_Kambe
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KAM_Luba_Checho={
+		name="Luba Checho"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Luba_Checho
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KAM_Mbwamari_Checho={
+		name="Mbwamari Checho"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Mbwamari_Checho
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KAM_Baka_Meli={
+		name="Baka Meli"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Baka_Meli
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KAM_Mbwama_Ukwezi={
+		name="Mbwama Ukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Mbwama_Ukwezi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KAM_Bari_Mtifalu={
+		name="Bari Mtifalu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Bari_Mtifalu
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KAM_Amaraka_Tumbani={
+		name="Amaraka Tumbani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Amaraka_Tumbani
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KAM_Taji_Jini={
+		name="Taji Jini"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Taji_Jini
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KAM_Shakari_Ukwezi={
+		name="Shakari Ukwezi"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Shakari_Ukwezi
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KAM_Sefu_Mungaongo={
+		name="Sefu Mungaongo"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Sefu_Mungaongo
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	KAM_Mbwamari_Mungaongo={
+		name="Mbwamari Mungaongo"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Mbwamari_Mungaongo
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	KAM_Mbwamau_Nyumbukumbir={
+		name="Mbwamau Nyumbukumbir"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Mbwamau_Nyumbukumbir
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KAM_Mbwamari_Mtifalu={
+		name="Mbwamari Mtifalu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Mbwamari_Mtifalu
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	KAM_Temba_Nyumbukumbir={
+		name="Temba Nyumbukumbir"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Temba_Nyumbukumbir
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KAM_Nuru_Nyumbukumbir={
+		name="Nuru Nyumbukumbir"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Nuru_Nyumbukumbir
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	KAM_Musa_Mtifalu={
+		name="Musa Mtifalu"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAM_Temba_Tumbani={
+		name="Temba Tumbani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Temba_Tumbani
+				traits = {	generallissimo 	}
+		}
+
+	}
+	KAM_Bakari_Tumbani={
+		name="Bakari Tumbani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Bakari_Tumbani
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KAM_Shaka_Haka={
+		name="Shaka Haka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Shaka_Haka
+				traits = {	autokrator 	}
+		}
+
+	}
+	KAM_Kato_Haka={
+		name="Kato Haka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Kato_Haka
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	KAM_Kamari_Jini={
+		name="Kamari Jini"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Kamari_Jini
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	KAM_Mosi_Ukwezi={
+		name="Mosi Ukwezi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Mosi_Ukwezi
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	KAM_Omaraka_Checho={
+		name="Omaraka Checho"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Omaraka_Checho
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KAM_Simba_Ukwezi={
+		name="Simba Ukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Simba_Ukwezi
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAM_Luba_Mtifalu={
+		name="Luba Mtifalu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Luba_Mtifalu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	KAM_Shaka_Nyumbukumbir={
+		name="Shaka Nyumbukumbir"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Shaka_Nyumbukumbir
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KAM_Taji_Haka={
+		name="Taji Haka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Taji_Haka
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KAM_Shaka_Tumbani={
+		name="Shaka Tumbani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Shaka_Tumbani
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KAM_Mbwama_Haka={
+		name="Mbwama Haka"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Mbwama_Haka
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	KAM_Kwana_Nyumbukumbir={
+		name="Kwana Nyumbukumbir"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Kwana_Nyumbukumbir
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	KAM_Baka_Kambe={
+		name="Baka Kambe"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Baka_Kambe
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	KAM_Bari_Haka={
+		name="Bari Haka"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Bari_Haka
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	KAM_Amau_Haka={
+		name="Amau Haka"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Amau_Haka
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KAM_Omau_Tumbani={
+		name="Omau Tumbani"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Omau_Tumbani
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KAM_Omau_Mungaongo={
+		name="Omau Mungaongo"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Omau_Mungaongo
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	KAM_Shaka_Mungaongo={
+		name="Shaka Mungaongo"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Shaka_Mungaongo
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	KAM_Kwanga_Haka={
+		name="Kwanga Haka"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAM_Shakari_Mungaongo={
+		name="Shakari Mungaongo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Shakari_Mungaongo
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAM_Mbwano_Tumbani={
+		name="Mbwano Tumbani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Mbwano_Tumbani
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAM_Juma_Tumbani={
+		name="Juma Tumbani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Juma_Tumbani
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KAM_Sefu_Checho={
+		name="Sefu Checho"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Sefu_Checho
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAM_Bakarakari_Tumbani={
+		name="Bakarakari Tumbani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Bakarakari_Tumbani
+				traits = {	polemarch 	}
+		}
+
+	}
+	KAM_Mbwamau_Mtifalu={
+		name="Mbwamau Mtifalu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Mbwamau_Mtifalu
+				traits = {	infirm 	}
+		}
+
+	}
+	KAM_Mbwamau_Meli={
+		name="Mbwamau Meli"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Mbwamau_Meli
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAM_Kame_Tumbani={
+		name="Kame Tumbani"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Kame_Tumbani
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KAM_Barakari_Mungaongo={
+		name="Barakari Mungaongo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Barakari_Mungaongo
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAM_Mbwama_Mtifalu={
+		name="Mbwama Mtifalu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Mbwama_Mtifalu
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KAM_Simba_Meli={
+		name="Simba Meli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Simba_Meli
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KAM_Jumari_Tumbani={
+		name="Jumari Tumbani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Jumari_Tumbani
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KAM_Bakarakari_Ukwezi={
+		name="Bakarakari Ukwezi"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Bakarakari_Ukwezi
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KAM_Mbwanga_Mtifalu={
+		name="Mbwanga Mtifalu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Mbwanga_Mtifalu
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KAM_Mosi_Haka={
+		name="Mosi Haka"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Mosi_Haka
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KAM_Shaka_Meli={
+		name="Shaka Meli"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Shaka_Meli
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	KAM_Tana_Jini={
+		name="Tana Jini"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Tana_Jini
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	KAM_Kato_Nyumbukumbir={
+		name="Kato Nyumbukumbir"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Kato_Nyumbukumbir
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	KAM_Mbwamari_Kambe={
+		name="Mbwamari Kambe"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Mbwamari_Kambe
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	KAM_Tano_Tumbani={
+		name="Tano Tumbani"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Tano_Tumbani
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	KAM_Baka_Nyumbukumbir={
+		name="Baka Nyumbukumbir"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAM_Taji_Mtifalu={
+		name="Taji Mtifalu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Taji_Mtifalu
+				traits = {	the_banker 	}
+		}
+
+	}
+	KAM_Kwana_Haka={
+		name="Kwana Haka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Kwana_Haka
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KAM_Omau_Mtifalu={
+		name="Omau Mtifalu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Omau_Mtifalu
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KAM_Bakari_Nyumbukumbir={
+		name="Bakari Nyumbukumbir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Bakari_Nyumbukumbir
+				traits = {	first_lady 	}
+		}
+
+	}
+	KAM_Temba_Kambe={
+		name="Temba Kambe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Temba_Kambe
+				traits = {	rearmer 	}
+		}
+
+	}
+	KAM_Kwame_Checho={
+		name="Kwame Checho"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAM_Kwame_Checho
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KAM_Kame_Haka={
+		name="Kame Haka"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Kame_Haka
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KAM_Simba_Mtifalu={
+		name="Simba Mtifalu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Simba_Mtifalu
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KAM_Luba_Nyumbukumbir={
+		name="Luba Nyumbukumbir"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Luba_Nyumbukumbir
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KAM_Mbwano_Ukwezi={
+		name="Mbwano Ukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAM_Mbwano_Ukwezi
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KAM_Mbwanga_Checho={
+		name="Mbwanga Checho"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Mbwanga_Checho
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	KAM_Simba_Checho={
+		name="Simba Checho"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAM_Simba_Checho
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	KAM_Amau_Jini={
+		name="Amau Jini"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Amau_Jini
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KAM_Kwame_Mtifalu={
+		name="Kwame Mtifalu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAM_Kwame_Mtifalu
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KAM_Shakari_Mtifalu={
+		name="Shakari Mtifalu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Shakari_Mtifalu
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KAM_Mbwamari_Haka={
+		name="Mbwamari Haka"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Mbwamari_Haka
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	KAM_Shakari_Kambe={
+		name="Shakari Kambe"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Shakari_Kambe
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KAM_Amau_Checho={
+		name="Amau Checho"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Amau_Checho
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	KAM_Jumari_Haka={
+		name="Jumari Haka"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Jumari_Haka
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	KAM_Sefu_Nyumbukumbir={
+		name="Sefu Nyumbukumbir"
+
+		advisor={
+			slot = high_command
+			idea_token = KAM_Sefu_Nyumbukumbir
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	KAM_Jumari_Ukwezi={
+		name="Jumari Ukwezi"
+
+		advisor={
+			slot = theorist
+			idea_token = KAM_Jumari_Ukwezi
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KAM_Mosi_Jini={
+		name="Mosi Jini"
+
+		advisor={
+			slot = theorist
+			idea_token = KAM_Mosi_Jini
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KAM_Kwanga_Checho={
+		name="Kwanga Checho"
+
+		advisor={
+			slot = theorist
+			idea_token = KAM_Kwanga_Checho
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

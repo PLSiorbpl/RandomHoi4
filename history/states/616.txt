@@ -2,14 +2,14 @@
 state={
 	id=616
 	name="STATE_616"
-	manpower = 1065121
+	manpower = 888303
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 8182 2}
-		victory_points = { 8190 4}
+		victory_points = { 7298 2}
+		victory_points = { 7301 1}
+		victory_points = { 7304 1}
 		
-		owner = PON
+		owner = SAN
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 3
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = SAN
 	}
 
 	provinces={
-		8177 8178 8179 8180 8181 8182 8183 8184 8185 8186 8187 8188 8189 8190 8191 
+		7297 7298 7299 7300 7301 7302 7303 7304 7305 
 	}
 	local_supplies=0.0 
 }

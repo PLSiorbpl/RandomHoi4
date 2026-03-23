@@ -2,7 +2,7 @@
 state={
 	id=882
 	name="STATE_882"
-	manpower = 736269
+	manpower = 709809
 	
 	state_category = town
 	#impassable = yes
@@ -11,32 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11842 2}
-		victory_points = { 11850 3}
+		victory_points = { 10283 1}
+		victory_points = { 10284 2}
 		
-		owner = AIS
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			11847 = {
-				naval_base = 1
-			}
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = AIS
+		add_core_of = GIZ
 	}
 
 	provinces={
-		11842 11843 11844 11845 11846 11847 11848 11849 11850 11851 
+		10278 10279 10280 10281 10282 10283 10284 
 	}
 	local_supplies=0.0 
 }

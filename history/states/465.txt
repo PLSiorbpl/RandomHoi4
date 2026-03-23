@@ -2,38 +2,36 @@
 state={
 	id=465
 	name="STATE_465"
-	manpower = 991506
+	manpower = 452880
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5974 3}
-		victory_points = { 5988 4}
 		
-		owner = KOB
+		owner = ZAP
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = KOB
+		add_core_of = ZAP
 	}
 
 	provinces={
-		5974 5975 5976 5977 5978 5979 5980 5981 5982 5983 5984 5985 5986 5987 5988 
+		5606 5607 5608 5609 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=1038
 	name="STATE_1038"
-	manpower = 684270
+	manpower = 985478
 	
 	state_category = town
 	#impassable = yes
@@ -11,16 +11,16 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
-		tungsten=9
+		steel=7
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13646 2}
-		victory_points = { 13652 1}
+		victory_points = { 12383 2}
+		victory_points = { 12388 2}
 		
-		owner = NCL
+		owner = JAX
 		buildings = {
 			infrastructure = 3
 			
@@ -29,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = NCL
+		add_core_of = JAX
 	}
 
 	provinces={
-		13645 13646 13647 13648 13649 13650 13651 13652 13653 13654 
+		12381 12382 12383 12384 12385 12386 12387 12388 12389 12390 
 	}
 	local_supplies=0.0 
 }

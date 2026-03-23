@@ -2,38 +2,39 @@
 state={
 	id=573
 	name="STATE_573"
-	manpower = 1255127
+	manpower = 262490
 	
-	state_category = city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=1
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=1
 		coal=0
 	}
 
 	history={
-		victory_points = { 7544 4}
-		victory_points = { 7554 5}
 		
-		owner = KAV
+		owner = UFU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
+			6835 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KAV
+		add_core_of = UFU
 	}
 
 	provinces={
-		7543 7544 7545 7546 7547 7548 7549 7550 7551 7552 7553 7554 7555 7556 7557 7558 7559 7560 7561 
+		6834 6835 
 	}
 	local_supplies=0.0 
 }

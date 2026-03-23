@@ -1,0 +1,28 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ikarrioa Fleet"			
+		naval_base = 17654
+		task_force = {
+			name = "Ikarrioa Fleet"
+			location = 17654
+			
+						ship = { name = "Mena" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IKA version_name = "Hereko Class" } }	}
+			ship = { name = "Mena 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IKA version_name = "Izeantzumena Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

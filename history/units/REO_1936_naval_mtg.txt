@@ -2,32 +2,13 @@ units= {
 	##### NAVAL UNITS #####
 	
 		fleet = {
-		name = "Reoilt Fleet"			
-		naval_base = 13357
+		name = "Reolach Fleet"			
+		naval_base = 17898
 		task_force = {
-			name = "Reoilt Fleet"
-			location = 13357
+			name = "Reolach Fleet"
+			location = 17898
 			
-						ship = { name = "Talt" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = REO version_name = "Geamh Class" } }	}
-			ship = { name = "Seal" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Reoith" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Seal 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = REO version_name = "Seal Class" } }	}
-			ship = { name = "Reoith 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Geamh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REO version_name = "Reoith Class" } }	}
-			ship = { name = "Talt 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = REO version_name = "Seal Class" } }	}
-			ship = { name = "Reoith 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Talt 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Seal 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Reoith 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Reoith 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REO version_name = "Reoith Class" } }	}
-			ship = { name = "Seal 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REO version_name = "Reoith Class" } }	}
-			ship = { name = "Talt 4" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Reoith 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REO version_name = "Reoith Class" } }	}
-			ship = { name = "Seal 5" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Geamh 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-			ship = { name = "Seal 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REO version_name = "Reoith Class" } }	}
-			ship = { name = "Reoith 7" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = REO version_name = "Talt Class" } }	}
-
+			
 		}
 	}
 

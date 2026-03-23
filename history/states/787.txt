@@ -2,26 +2,25 @@
 state={
 	id=787
 	name="STATE_787"
-	manpower = 1776373
+	manpower = 2260740
 	
 	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=4
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=6
 	}
 
 	history={
-		victory_points = { 10564 1}
-		victory_points = { 10568 6}
-		victory_points = { 10578 6}
+		victory_points = { 9271 8}
+		victory_points = { 9282 7}
 		
-		owner = KOB
+		owner = UFU
 		buildings = {
 			infrastructure = 4
 			
@@ -30,11 +29,11 @@ state={
 			
 			
 		}
-		add_core_of = KOB
+		add_core_of = UFU
 	}
 
 	provinces={
-		10556 10557 10558 10559 10560 10561 10562 10563 10564 10565 10566 10567 10568 10569 10570 10571 10572 10573 10574 10575 10576 10577 10578 10579 10580 10581 10582 10583 
+		9262 9263 9264 9265 9266 9267 9268 9269 9270 9271 9272 9273 9274 9275 9276 9277 9278 9279 9280 9281 9282 9283 9284 9285 9286 
 	}
 	local_supplies=0.0 
 }

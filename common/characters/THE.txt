@@ -1,0 +1,880 @@
+characters = {
+	THE_Rajiv_Theedu={
+		name="Rajiv Theedu"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	THE_Kumarun_Veeraignam={
+		name="Kumarun Veeraignam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Kumarun_Veeraignam
+				traits = {	humble 	}
+		}
+
+	}
+	THE_Rajesh_Thai={
+		name="Rajesh Thai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Rajesh_Thai
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	THE_Rajiv_Mooli={
+		name="Rajiv Mooli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Rajiv_Mooli
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	THE_Pran_Veli={
+		name="Pran Veli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Pran_Veli
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	THE_Rajeshna_Kaam={
+		name="Rajeshna Kaam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Rajeshna_Kaam
+				traits = {	headstrong 	}
+		}
+
+	}
+	THE_Satish_Katpu={
+		name="Satish Katpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Satish_Katpu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	THE_Chav_Inbu={
+		name="Chav Inbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Chav_Inbu
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	THE_Varthik_Inbu={
+		name="Varthik Inbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Varthik_Inbu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	THE_Jagadeenthil_Thoguganthi={
+		name="Jagadeenthil Thoguganthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Jagadeenthil_Thoguganthi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	THE_Dinesh_Thai={
+		name="Dinesh Thai"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Dinesh_Thai
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	THE_Deepak_Katpu={
+		name="Deepak Katpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Deepak_Katpu
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	THE_Satishna_Veeraignam={
+		name="Satishna Veeraignam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Satishna_Veeraignam
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	THE_Ravi_Veli={
+		name="Ravi Veli"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Ravi_Veli
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	THE_Vijay_Thoguganthi={
+		name="Vijay Thoguganthi"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Vijay_Thoguganthi
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	THE_Vineshna_Veli={
+		name="Vineshna Veli"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Vineshna_Veli
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	THE_Deesh_Thai={
+		name="Deesh Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Deesh_Thai
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	THE_Kumar_Kaam={
+		name="Kumar Kaam"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Kumar_Kaam
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	THE_Prak_Veeraignam={
+		name="Prak Veeraignam"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Prak_Veeraignam
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	THE_Harun_Katpu={
+		name="Harun Katpu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Harun_Katpu
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	THE_Harish_Mooli={
+		name="Harish Mooli"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Harish_Mooli
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	THE_Kiran_Veeraignam={
+		name="Kiran Veeraignam"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	THE_Deenth_Inbu={
+		name="Deenth Inbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Deenth_Inbu
+				traits = {	polemarch 	}
+		}
+
+	}
+	THE_Vinoj_Veeraignam={
+		name="Vinoj Veeraignam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Vinoj_Veeraignam
+				traits = {	polemarch 	}
+		}
+
+	}
+	THE_Senthil_Mooli={
+		name="Senthil Mooli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Senthil_Mooli
+				traits = {	autokrator 	}
+		}
+
+	}
+	THE_Deesh_Veeraignam={
+		name="Deesh Veeraignam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Deesh_Veeraignam
+				traits = {	infirm 	}
+		}
+
+	}
+	THE_Satish_Veeraignam={
+		name="Satish Veeraignam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Satish_Veeraignam
+				traits = {	generallissimo 	}
+		}
+
+	}
+	THE_Rajeshna_Mooli={
+		name="Rajeshna Mooli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Rajeshna_Mooli
+				traits = {	warmonger 	}
+		}
+
+	}
+	THE_Senthil_Thai={
+		name="Senthil Thai"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Senthil_Thai
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	THE_Jaghan_Veeraignam={
+		name="Jaghan Veeraignam"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Jaghan_Veeraignam
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	THE_Karthil_Thai={
+		name="Karthil Thai"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Karthil_Thai
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	THE_Hari_Mooli={
+		name="Hari Mooli"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Hari_Mooli
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	THE_Ajay_Thai={
+		name="Ajay Thai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Ajay_Thai
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	THE_Deenthik_Katpu={
+		name="Deenthik Katpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Deenthik_Katpu
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	THE_Ragadeesh_Thai={
+		name="Ragadeesh Thai"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Ragadeesh_Thai
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	THE_Vinod_Theedu={
+		name="Vinod Theedu"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Vinod_Theedu
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	THE_Ajay_Veerasu={
+		name="Ajay Veerasu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Ajay_Veerasu
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	THE_Chanesh_Inbu={
+		name="Chanesh Inbu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Chanesh_Inbu
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	THE_Karthil_Theedu={
+		name="Karthil Theedu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Karthil_Theedu
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	THE_Siddhavi_Mooli={
+		name="Siddhavi Mooli"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Siddhavi_Mooli
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	THE_Anil_Inbu={
+		name="Anil Inbu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Anil_Inbu
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	THE_Bala_Kaam={
+		name="Bala Kaam"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Bala_Kaam
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	THE_Deenthik_Kaam={
+		name="Deenthik Kaam"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	THE_Kirakash_Veli={
+		name="Kirakash Veli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Kirakash_Veli
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	THE_Vinod_Inbu={
+		name="Vinod Inbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Vinod_Inbu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	THE_Varthik_Veerasu={
+		name="Varthik Veerasu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Varthik_Veerasu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	THE_Chav_Theedu={
+		name="Chav Theedu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Chav_Theedu
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	THE_Navi_Veli={
+		name="Navi Veli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Navi_Veli
+				traits = {	polemarch 	}
+		}
+
+	}
+	THE_Kumar_Thoguganthi={
+		name="Kumar Thoguganthi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Kumar_Thoguganthi
+				traits = {	infirm 	}
+		}
+
+	}
+	THE_Kari_Theedu={
+		name="Kari Theedu"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Kari_Theedu
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	THE_Satish_Thai={
+		name="Satish Thai"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Satish_Thai
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	THE_Deenth_Mooli={
+		name="Deenth Mooli"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Deenth_Mooli
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	THE_Vijay_Mooli={
+		name="Vijay Mooli"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Vijay_Mooli
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	THE_Gandrakash_Katpu={
+		name="Gandrakash Katpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Gandrakash_Katpu
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	THE_Rajesh_Veeraignam={
+		name="Rajesh Veeraignam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Rajesh_Veeraignam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	THE_Deen_Thai={
+		name="Deen Thai"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Deen_Thai
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	THE_Moharth_Mooli={
+		name="Moharth Mooli"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Moharth_Mooli
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	THE_Chanesh_Veli={
+		name="Chanesh Veli"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Chanesh_Veli
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	THE_Ragharthil_Thai={
+		name="Ragharthil Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Ragharthil_Thai
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	THE_Varth_Veerasu={
+		name="Varth Veerasu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Varth_Veerasu
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	THE_Kiran_Veerasu={
+		name="Kiran Veerasu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Kiran_Veerasu
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	THE_Deesh_Theedu={
+		name="Deesh Theedu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Deesh_Theedu
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	THE_Prakash_Veli={
+		name="Prakash Veli"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Prakash_Veli
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	THE_Varth_Kaam={
+		name="Varth Kaam"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	THE_Prakash_Katpu={
+		name="Prakash Katpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Prakash_Katpu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	THE_Chanesh_Mooli={
+		name="Chanesh Mooli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Chanesh_Mooli
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	THE_Deepak_Thoguganthi={
+		name="Deepak Thoguganthi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Deepak_Thoguganthi
+				traits = {	first_lady 	}
+		}
+
+	}
+	THE_Kari_Inbu={
+		name="Kari Inbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Kari_Inbu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	THE_Arun_Inbu={
+		name="Arun Inbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Arun_Inbu
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	THE_Harthil_Veli={
+		name="Harthil Veli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = THE_Harthil_Veli
+				traits = {	first_lady 	}
+		}
+
+	}
+	THE_Hari_Inbu={
+		name="Hari Inbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Hari_Inbu
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	THE_Ravi_Thoguganthi={
+		name="Ravi Thoguganthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Ravi_Thoguganthi
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	THE_Ravi_Kaam={
+		name="Ravi Kaam"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Ravi_Kaam
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	THE_Harish_Veerasu={
+		name="Harish Veerasu"
+
+		advisor={
+			slot = army_chief
+			idea_token = THE_Harish_Veerasu
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	THE_Dineshna_Kaam={
+		name="Dineshna Kaam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Dineshna_Kaam
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	THE_Moharun_Theedu={
+		name="Moharun Theedu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = THE_Moharun_Theedu
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	THE_Dineshna_Katpu={
+		name="Dineshna Katpu"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Dineshna_Katpu
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	THE_Varthik_Kaam={
+		name="Varthik Kaam"
+
+		advisor={
+			slot = air_chief
+			idea_token = THE_Varthik_Kaam
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	THE_Chav_Mooli={
+		name="Chav Mooli"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Chav_Mooli
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	THE_Vinesh_Kaam={
+		name="Vinesh Kaam"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Vinesh_Kaam
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	THE_Anil_Thoguganthi={
+		name="Anil Thoguganthi"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Anil_Thoguganthi
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	THE_Deenth_Theedu={
+		name="Deenth Theedu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Deenth_Theedu
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	THE_Dinoj_Mooli={
+		name="Dinoj Mooli"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Dinoj_Mooli
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	THE_Harun_Veerasu={
+		name="Harun Veerasu"
+
+		advisor={
+			slot = high_command
+			idea_token = THE_Harun_Veerasu
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	THE_Prak_Thai={
+		name="Prak Thai"
+
+		advisor={
+			slot = theorist
+			idea_token = THE_Prak_Thai
+				traits = {	military_theorist 	}
+		}
+
+	}
+	THE_Satish_Kaam={
+		name="Satish Kaam"
+
+		advisor={
+			slot = theorist
+			idea_token = THE_Satish_Kaam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	THE_Deenthik_Thai={
+		name="Deenthik Thai"
+
+		advisor={
+			slot = theorist
+			idea_token = THE_Deenthik_Thai
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -2,38 +2,36 @@
 state={
 	id=144
 	name="STATE_144"
-	manpower = 1013678
+	manpower = 337646
 	
-	state_category = large_town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2071 2}
-		victory_points = { 2072 5}
 		
-		owner = HBA
+		owner = UXM
 		buildings = {
-			infrastructure = 4
-			
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = HBA
+		add_core_of = UXM
 	}
 
 	provinces={
-		2071 2072 2073 2074 2075 2076 2077 2078 2079 2080 2081 2082 2083 2084 2085 
+		1855 1856 
 	}
 	local_supplies=0.0 
 }

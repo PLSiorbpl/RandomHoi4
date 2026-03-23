@@ -2,7 +2,7 @@
 state={
 	id=209
 	name="STATE_209"
-	manpower = 145495
+	manpower = 147807
 	
 	state_category = small_island
 	#impassable = yes
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 2880 1}
+		victory_points = { 2559 1}
 		
-		owner = HUA
+		owner = BAC
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HUA
+		add_core_of = BAC
 	}
 
 	provinces={
-		2880 
+		2559 
 	}
 	local_supplies=0.0 
 }

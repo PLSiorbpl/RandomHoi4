@@ -2,14 +2,14 @@
 state={
 	id=975
 	name="STATE_975"
-	manpower = 1731226
+	manpower = 1174559
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,27 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 12976 8}
-		victory_points = { 12980 4}
-		victory_points = { 12993 1}
+		victory_points = { 11612 2}
+		victory_points = { 11615 3}
 		
-		owner = REO
+		owner = ZGT
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 3
+			
 			arms_factory = 0
 			industrial_complex = 1
-			dockyard = 1
-			12970 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = REO
+		add_core_of = ZGT
 	}
 
 	provinces={
-		12969 12970 12971 12972 12973 12974 12975 12976 12977 12978 12979 12980 12981 12982 12983 12984 12985 12986 12987 12988 12989 12990 12991 12992 12993 12994 
+		11606 11607 11608 11609 11610 11611 11612 11613 11614 11615 11616 11617 
 	}
 	local_supplies=0.0 
 }

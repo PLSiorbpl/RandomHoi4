@@ -2,9 +2,9 @@
 state={
 	id=872
 	name="STATE_872"
-	manpower = 1698259
+	manpower = 1038270
 	
-	state_category = large_city
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -13,29 +13,29 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 11661 1}
-		victory_points = { 11666 8}
-		victory_points = { 11667 1}
-		victory_points = { 11679 2}
+		victory_points = { 10126 6}
 		
-		owner = DAN
+		owner = SUM
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 0
 			
+			10124 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = DAN
+		add_core_of = SUM
 	}
 
 	provinces={
-		11660 11661 11662 11663 11664 11665 11666 11667 11668 11669 11670 11671 11672 11673 11674 11675 11676 11677 11678 11679 11680 11681 11682 11683 11684 11685 
+		10119 10120 10121 10122 10123 10124 10125 10126 10127 10128 10129 
 	}
 	local_supplies=0.0 
 }

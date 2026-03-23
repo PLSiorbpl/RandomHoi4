@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kalp Fleet"			
+		naval_base = 8796
+		task_force = {
+			name = "Kalp Fleet"
+			location = 8796
+			
+						ship = { name = "Gunci" definition = battle_cruiser equipment = { battle_cruiser_2 = { amount = 1 owner = KQL version_name = "Ates Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

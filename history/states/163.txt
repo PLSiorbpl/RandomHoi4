@@ -2,36 +2,39 @@
 state={
 	id=163
 	name="STATE_163"
-	manpower = 239325
+	manpower = 1437504
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=2
+		oil=3
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 2036 3}
+		victory_points = { 2039 2}
+		victory_points = { 2040 1}
 		
-		owner = GAU
+		owner = BUN
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GAU
+		add_core_of = BUN
 	}
 
 	provinces={
-		2315 2316 
+		2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 
 	}
 	local_supplies=0.0 
 }

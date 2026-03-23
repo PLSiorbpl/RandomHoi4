@@ -2,41 +2,39 @@
 state={
 	id=1140
 	name="STATE_1140"
-	manpower = 733399
+	manpower = 1166322
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=18
+		aluminium=0
 		chromium=0
 		oil=0
-		rubber=6
+		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 14908 2}
-		victory_points = { 14912 2}
+		victory_points = { 13664 3}
+		victory_points = { 13667 1}
+		victory_points = { 13668 1}
 		
-		owner = ANI
+		owner = GAA
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			14909 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = ANI
+		add_core_of = GAA
 	}
 
 	provinces={
-		14908 14909 14910 14911 14912 14913 14914 14915 14916 14917 
+		13664 13665 13666 13667 13668 13669 13670 13671 13672 13673 13674 13675 13676 13677 
 	}
 	local_supplies=0.0 
 }

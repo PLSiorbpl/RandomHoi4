@@ -1,0 +1,163 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Bede' Militia Division"
+		location = 10097
+		division_template = "Militia Division"
+		start_experience_factor = 0.936080
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Ilculuk' Militia Division"
+		location = 9756
+		division_template = "Militia Division"
+		start_experience_factor = 0.673787
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Akin' Militia Division"
+		location = 9592
+		division_template = "Militia Division"
+		start_experience_factor = 0.824936
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Ulket' Infantry Division"
+		location = 9587
+		division_template = "Infantry Division"
+		start_experience_factor = 0.249061
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Ilce' Infantry Division"
+		location = 9453
+		division_template = "Infantry Division"
+		start_experience_factor = 0.455424
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Toprakildi' Infantry Division"
+		location = 6096
+		division_template = "Infantry Division"
+		start_experience_factor = 0.801216
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Guncek' Supported Infantry Division"
+		location = 9582
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.307097
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Malaini' Artillery Division"
+		location = 7191
+		division_template = "Artillery Division"
+		start_experience_factor = 0.970739
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Deli' Cavalry Division"
+		location = 5948
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.541843
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Sahtar' Cavalry Division"
+		location = 9758
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.540507
+		start_equipment_factor = 1.000000
+	}
+
+}

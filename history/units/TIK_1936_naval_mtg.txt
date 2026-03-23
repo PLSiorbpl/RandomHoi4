@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tikin Fleet"			
+		naval_base = 17685
+		task_force = {
+			name = "Tikin Fleet"
+			location = 17685
+			
+						ship = { name = "Nohil" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = TIK version_name = "Nohil Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

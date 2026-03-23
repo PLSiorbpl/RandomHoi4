@@ -2,38 +2,42 @@
 state={
 	id=552
 	name="STATE_552"
-	manpower = 858438
+	manpower = 1239799
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=2
+		oil=1
 		rubber=0
 		steel=0
-		tungsten=2
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7270 3}
-		victory_points = { 7277 3}
+		victory_points = { 6626 3}
+		victory_points = { 6627 3}
+		victory_points = { 6629 1}
 		
-		owner = BON
+		owner = SUM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
+			6630 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = BON
+		add_core_of = SUM
 	}
 
 	provinces={
-		7269 7270 7271 7272 7273 7274 7275 7276 7277 7278 7279 7280 7281 
+		6625 6626 6627 6628 6629 6630 6631 6632 6633 6634 6635 6636 6637 
 	}
 	local_supplies=0.0 
 }

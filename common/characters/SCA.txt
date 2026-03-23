@@ -1,0 +1,880 @@
+characters = {
+	SCA_Quin_Ceach={
+		name="Quin Ceach"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SCA_Ulrich_Maigh={
+		name="Ulrich Maigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Ulrich_Maigh
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SCA_Taraig_Eolamh={
+		name="Taraig Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Taraig_Eolamh
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SCA_Tareth_Ceach={
+		name="Tareth Ceach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Tareth_Ceach
+				traits = {	headstrong 	}
+		}
+
+	}
+	SCA_Nialcolm_Bunach={
+		name="Nialcolm Bunach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Nialcolm_Bunach
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	SCA_Ciareth_Tailt={
+		name="Ciareth Tailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Ciareth_Tailt
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SCA_Ulrich_Scatha={
+		name="Ulrich Scatha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Ulrich_Scatha
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SCA_Eoin_Croin={
+		name="Eoin Croin"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Eoin_Croin
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SCA_Keiraig_Talteancha={
+		name="Keiraig Talteancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Keiraig_Talteancha
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SCA_Padran_Tailt={
+		name="Padran Tailt"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Padran_Tailt
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SCA_Taraig_Talteancha={
+		name="Taraig Talteancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Taraig_Talteancha
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SCA_Iwan_Rata={
+		name="Iwan Rata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Iwan_Rata
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SCA_Mall_Croin={
+		name="Mall Croin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Mall_Croin
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SCA_Aidan_Tailt={
+		name="Aidan Tailt"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Aidan_Tailt
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SCA_Ciaran_Talteancha={
+		name="Ciaran Talteancha"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Ciaran_Talteancha
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SCA_Fergus_Talteancha={
+		name="Fergus Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Fergus_Talteancha
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SCA_Owen_Bunach={
+		name="Owen Bunach"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Owen_Bunach
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	SCA_Seam_Bunach={
+		name="Seam Bunach"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Seam_Bunach
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SCA_Niam_Failis={
+		name="Niam Failis"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Niam_Failis
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	SCA_Eoin_Maigh={
+		name="Eoin Maigh"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Eoin_Maigh
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	SCA_Ulrich_Ceach={
+		name="Ulrich Ceach"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Ulrich_Ceach
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SCA_Ciaran_Scatha={
+		name="Ciaran Scatha"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SCA_Taraig_Rata={
+		name="Taraig Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Taraig_Rata
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SCA_Rhys_Talteancha={
+		name="Rhys Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Rhys_Talteancha
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SCA_Keiran_Rata={
+		name="Keiran Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Keiran_Rata
+				traits = {	autokrator 	}
+		}
+
+	}
+	SCA_Nialcolm_Ceach={
+		name="Nialcolm Ceach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Nialcolm_Ceach
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	SCA_Ciareth_Talteancha={
+		name="Ciareth Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Ciareth_Talteancha
+				traits = {	basileus 	}
+		}
+
+	}
+	SCA_Liall_Tailt={
+		name="Liall Tailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Liall_Tailt
+				traits = {	generallissimo 	}
+		}
+
+	}
+	SCA_Padran_Croin={
+		name="Padran Croin"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Padran_Croin
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SCA_Taraig_Scatha={
+		name="Taraig Scatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Taraig_Scatha
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SCA_Eoinn_Bunach={
+		name="Eoinn Bunach"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Eoinn_Bunach
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SCA_Ciaran_Tailt={
+		name="Ciaran Tailt"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Ciaran_Tailt
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SCA_Lialcolm_Bunach={
+		name="Lialcolm Bunach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Lialcolm_Bunach
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SCA_Keiran_Eolamh={
+		name="Keiran Eolamh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Keiran_Eolamh
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SCA_Lialcolm_Failis={
+		name="Lialcolm Failis"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Lialcolm_Failis
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SCA_Eoin_Failis={
+		name="Eoin Failis"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Eoin_Failis
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SCA_Liareth_Eolamh={
+		name="Liareth Eolamh"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Liareth_Eolamh
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SCA_Hugh_Talteancha={
+		name="Hugh Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Hugh_Talteancha
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SCA_Liall_Maigh={
+		name="Liall Maigh"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Liall_Maigh
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SCA_Aidan_Eolamh={
+		name="Aidan Eolamh"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Aidan_Eolamh
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	SCA_Nialcolm_Talteancha={
+		name="Nialcolm Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Nialcolm_Talteancha
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	SCA_Fergus_Tailt={
+		name="Fergus Tailt"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Fergus_Tailt
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SCA_Owen_Ceach={
+		name="Owen Ceach"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SCA_Tareth_Rata={
+		name="Tareth Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Tareth_Rata
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SCA_Eoin_Talteancha={
+		name="Eoin Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Eoin_Talteancha
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SCA_Mall_Maigh={
+		name="Mall Maigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Mall_Maigh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SCA_Iwan_Croin={
+		name="Iwan Croin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Iwan_Croin
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SCA_Bran_Eolamh={
+		name="Bran Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Bran_Eolamh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SCA_Mall_Eolamh={
+		name="Mall Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Mall_Eolamh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SCA_Liareth_Maigh={
+		name="Liareth Maigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Liareth_Maigh
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SCA_Eoinn_Croin={
+		name="Eoinn Croin"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Eoinn_Croin
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SCA_Seamus_Talteancha={
+		name="Seamus Talteancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Seamus_Talteancha
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SCA_Aidan_Failis={
+		name="Aidan Failis"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Aidan_Failis
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SCA_Padran_Bunach={
+		name="Padran Bunach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Padran_Bunach
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SCA_Liall_Rata={
+		name="Liall Rata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Liall_Rata
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SCA_Lialcolm_Talteancha={
+		name="Lialcolm Talteancha"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Lialcolm_Talteancha
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SCA_Quin_Failis={
+		name="Quin Failis"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Quin_Failis
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SCA_Seamus_Failis={
+		name="Seamus Failis"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Seamus_Failis
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SCA_Bran_Talteancha={
+		name="Bran Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Bran_Talteancha
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	SCA_Nialcolm_Maigh={
+		name="Nialcolm Maigh"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Nialcolm_Maigh
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	SCA_Padraig_Talteancha={
+		name="Padraig Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Padraig_Talteancha
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	SCA_Seam_Talteancha={
+		name="Seam Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Seam_Talteancha
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	SCA_Mall_Scatha={
+		name="Mall Scatha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Mall_Scatha
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SCA_Niaraig_Bunach={
+		name="Niaraig Bunach"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SCA_Padran_Talteancha={
+		name="Padran Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Padran_Talteancha
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SCA_Bran_Rata={
+		name="Bran Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Bran_Rata
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SCA_Aidan_Scatha={
+		name="Aidan Scatha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Aidan_Scatha
+				traits = {	rearmer 	}
+		}
+
+	}
+	SCA_Lialcolm_Eolamh={
+		name="Lialcolm Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Lialcolm_Eolamh
+				traits = {	infirm 	}
+		}
+
+	}
+	SCA_Ulrich_Tailt={
+		name="Ulrich Tailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Ulrich_Tailt
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SCA_Malcolm_Eolamh={
+		name="Malcolm Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCA_Malcolm_Eolamh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SCA_Iwan_Eolamh={
+		name="Iwan Eolamh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Iwan_Eolamh
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SCA_Liall_Ceach={
+		name="Liall Ceach"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Liall_Ceach
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SCA_Ulrich_Rata={
+		name="Ulrich Rata"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Ulrich_Rata
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SCA_Niam_Scatha={
+		name="Niam Scatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCA_Niam_Scatha
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SCA_Rhys_Failis={
+		name="Rhys Failis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Rhys_Failis
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SCA_Iwan_Failis={
+		name="Iwan Failis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCA_Iwan_Failis
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SCA_Seam_Ceach={
+		name="Seam Ceach"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Seam_Ceach
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SCA_Seamus_Ceach={
+		name="Seamus Ceach"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCA_Seamus_Ceach
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SCA_Declan_Croin={
+		name="Declan Croin"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Declan_Croin
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	SCA_Gareth_Rata={
+		name="Gareth Rata"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Gareth_Rata
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SCA_Niaraig_Scatha={
+		name="Niaraig Scatha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Niaraig_Scatha
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	SCA_Rhys_Eolamh={
+		name="Rhys Eolamh"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Rhys_Eolamh
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	SCA_Quinn_Talteancha={
+		name="Quinn Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Quinn_Talteancha
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SCA_Niam_Bunach={
+		name="Niam Bunach"
+
+		advisor={
+			slot = high_command
+			idea_token = SCA_Niam_Bunach
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	SCA_Seam_Eolamh={
+		name="Seam Eolamh"
+
+		advisor={
+			slot = theorist
+			idea_token = SCA_Seam_Eolamh
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SCA_Eoinn_Rata={
+		name="Eoinn Rata"
+
+		advisor={
+			slot = theorist
+			idea_token = SCA_Eoinn_Rata
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SCA_Quinn_Eolamh={
+		name="Quinn Eolamh"
+
+		advisor={
+			slot = theorist
+			idea_token = SCA_Quinn_Eolamh
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

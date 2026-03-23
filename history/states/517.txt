@@ -2,14 +2,14 @@
 state={
 	id=517
 	name="STATE_517"
-	manpower = 1247509
+	manpower = 442842
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 6811 8}
+		victory_points = { 6219 1}
 		
-		owner = IMA
+		owner = LIZ
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = IMA
+		add_core_of = LIZ
 	}
 
 	provinces={
-		6807 6808 6809 6810 6811 6812 6813 6814 6815 6816 6817 6818 6819 6820 6821 6822 6823 6824 6825 
+		6219 6220 6221 6222 
 	}
 	local_supplies=0.0 
 }

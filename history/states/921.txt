@@ -2,14 +2,14 @@
 state={
 	id=921
 	name="STATE_921"
-	manpower = 148339
+	manpower = 1344739
 	
-	state_category = small_island
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=12
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,21 +17,24 @@ state={
 	}
 
 	history={
+		victory_points = { 10810 1}
+		victory_points = { 10816 5}
+		victory_points = { 10823 2}
 		
-		owner = FUL
+		owner = CLA
 		buildings = {
-			infrastructure = 2
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 4
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = FUL
+		add_core_of = CLA
 	}
 
 	provinces={
-		12377 12378 12379 
+		10810 10811 10812 10813 10814 10815 10816 10817 10818 10819 10820 10821 10822 10823 
 	}
 	local_supplies=0.0 
 }

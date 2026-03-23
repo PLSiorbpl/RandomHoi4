@@ -2,41 +2,40 @@
 state={
 	id=937
 	name="STATE_937"
-	manpower = 551962
+	manpower = 2561994
 	
-	state_category = rural
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=3
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=1
 	}
 
 	history={
-		victory_points = { 12544 2}
-		victory_points = { 12549 1}
+		victory_points = { 11108 16}
 		
-		owner = KUL
+		owner = HAM
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 2
 			
-			12545 = {
+			11099 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = KUL
+		add_core_of = HAM
 	}
 
 	provinces={
-		12543 12544 12545 12546 12547 12548 12549 
+		11097 11098 11099 11100 11101 11102 11103 11104 11105 11106 11107 11108 11109 11110 11111 11112 11113 11114 11115 11116 11117 11118 11119 11120 11121 11122 11123 11124 11125 
 	}
 	local_supplies=0.0 
 }

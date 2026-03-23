@@ -2,38 +2,38 @@
 state={
 	id=536
 	name="STATE_536"
-	manpower = 1081050
+	manpower = 1609734
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=9
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7019 3}
-		victory_points = { 7032 3}
+		victory_points = { 6453 3}
+		victory_points = { 6454 7}
 		
-		owner = NAK
+		owner = YAG
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NAK
+		add_core_of = YAG
 	}
 
 	provinces={
-		7018 7019 7020 7021 7022 7023 7024 7025 7026 7027 7028 7029 7030 7031 7032 7033 7034 
+		6447 6448 6449 6450 6451 6452 6453 6454 6455 6456 6457 6458 6459 6460 6461 6462 6463 
 	}
 	local_supplies=0.0 
 }

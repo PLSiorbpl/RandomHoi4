@@ -2,7 +2,7 @@
 state={
 	id=1048
 	name="STATE_1048"
-	manpower = 667629
+	manpower = 655269
 	
 	state_category = rural
 	#impassable = yes
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 13746 1}
-		victory_points = { 13751 2}
+		victory_points = { 12521 1}
+		victory_points = { 12525 1}
 		
-		owner = KFM
+		owner = VAN
 		buildings = {
 			infrastructure = 2
-			air_base = 3
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = KFM
+		add_core_of = VAN
 	}
 
 	provinces={
-		13742 13743 13744 13745 13746 13747 13748 13749 13750 13751 13752 13753 13754 
+		12518 12519 12520 12521 12522 12523 12524 12525 12526 
 	}
 	local_supplies=0.0 
 }

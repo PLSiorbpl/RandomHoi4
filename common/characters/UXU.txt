@@ -1,0 +1,880 @@
+characters = {
+	UXU_Ekchak_Sotzik={
+		name="Ekchak Sotzik"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UXU_Nacab_Imox={
+		name="Nacab Imox"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Nacab_Imox
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	UXU_Pakal_Xbahlampakbe={
+		name="Pakal Xbahlampakbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Pakal_Xbahlampakbe
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	UXU_Ekchua_Imox={
+		name="Ekchua Imox"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Ekchua_Imox
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	UXU_Chak_Sotzik={
+		name="Chak Sotzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Chak_Sotzik
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	UXU_Moctez_Bahpu={
+		name="Moctez Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Moctez_Bahpu
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	UXU_Chakalam_Ikabalomte={
+		name="Chakalam Ikabalomte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Chakalam_Ikabalomte
+				traits = {	headstrong 	}
+		}
+
+	}
+	UXU_Chak_Sayil={
+		name="Chak Sayil"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Chak_Sayil
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	UXU_Popo_Bahpu={
+		name="Popo Bahpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Popo_Bahpu
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	UXU_Acatl_Tzolkin={
+		name="Acatl Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Acatl_Tzolkin
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	UXU_Bacab_Imox={
+		name="Bacab Imox"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Bacab_Imox
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	UXU_Itzam_Kanil={
+		name="Itzam Kanil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Itzam_Kanil
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	UXU_Ekchichen_Sotzik={
+		name="Ekchichen Sotzik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Ekchichen_Sotzik
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	UXU_Ahkin_Xbahlampakbe={
+		name="Ahkin Xbahlampakbe"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Ahkin_Xbahlampakbe
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	UXU_Moctez_Sotzik={
+		name="Moctez Sotzik"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Moctez_Sotzik
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	UXU_Chakalam_Kanil={
+		name="Chakalam Kanil"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Chakalam_Kanil
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	UXU_Chak_Imox={
+		name="Chak Imox"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Chak_Imox
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	UXU_Kukulkan_Xbahlampakbe={
+		name="Kukulkan Xbahlampakbe"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Kukulkan_Xbahlampakbe
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	UXU_Kukulkan_Sayil={
+		name="Kukulkan Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Kukulkan_Sayil
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	UXU_Ahkin_Imox={
+		name="Ahkin Imox"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Ahkin_Imox
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	UXU_Acatl_Imox={
+		name="Acatl Imox"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Acatl_Imox
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	UXU_Tohil_Witzikalanik={
+		name="Tohil Witzikalanik"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UXU_Popo_Sotzik={
+		name="Popo Sotzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Popo_Sotzik
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	UXU_Kukulkan_Imox={
+		name="Kukulkan Imox"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Kukulkan_Imox
+				traits = {	warmonger 	}
+		}
+
+	}
+	UXU_Chak_Witzikalanik={
+		name="Chak Witzikalanik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Chak_Witzikalanik
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	UXU_Kukulkanek_Sotzik={
+		name="Kukulkanek Sotzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Kukulkanek_Sotzik
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	UXU_Bacom_Imox={
+		name="Bacom Imox"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Bacom_Imox
+				traits = {	basileus 	}
+		}
+
+	}
+	UXU_Pakanek_Imox={
+		name="Pakanek Imox"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Pakanek_Imox
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	UXU_Chua_Tzolkin={
+		name="Chua Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Chua_Tzolkin
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	UXU_Bacatl_Tzolkin={
+		name="Bacatl Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Bacatl_Tzolkin
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	UXU_Nacab_Ikabalomte={
+		name="Nacab Ikabalomte"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Nacab_Ikabalomte
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	UXU_Popo_Sayil={
+		name="Popo Sayil"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Popo_Sayil
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	UXU_Nacatl_Sayil={
+		name="Nacatl Sayil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Nacatl_Sayil
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	UXU_Bacatl_Bahpu={
+		name="Bacatl Bahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Bacatl_Bahpu
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	UXU_Chakalam_Witzikalanik={
+		name="Chakalam Witzikalanik"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Chakalam_Witzikalanik
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	UXU_Yaxkin_Kanil={
+		name="Yaxkin Kanil"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Yaxkin_Kanil
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	UXU_Tohichen_Kanil={
+		name="Tohichen Kanil"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Tohichen_Kanil
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	UXU_Chichen_Kanil={
+		name="Chichen Kanil"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Chichen_Kanil
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	UXU_Chichen_Bahpu={
+		name="Chichen Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Chichen_Bahpu
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	UXU_Pakal_Sayil={
+		name="Pakal Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Pakal_Sayil
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	UXU_Acatl_Sayil={
+		name="Acatl Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Acatl_Sayil
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	UXU_Ekchichen_Sayil={
+		name="Ekchichen Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Ekchichen_Sayil
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	UXU_Nacom_Imox={
+		name="Nacom Imox"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UXU_Acatl_Bahpu={
+		name="Acatl Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Acatl_Bahpu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	UXU_Tohil_Tzolkin={
+		name="Tohil Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Tohil_Tzolkin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	UXU_Pakal_Ikabalomte={
+		name="Pakal Ikabalomte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Pakal_Ikabalomte
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	UXU_Kukulkan_Sotzik={
+		name="Kukulkan Sotzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Kukulkan_Sotzik
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	UXU_Chil_Ikabalomte={
+		name="Chil Ikabalomte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Chil_Ikabalomte
+				traits = {	polemarch 	}
+		}
+
+	}
+	UXU_Bacab_Kanil={
+		name="Bacab Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Bacab_Kanil
+				traits = {	political_dancer 	}
+		}
+
+	}
+	UXU_Chua_Kanil={
+		name="Chua Kanil"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Chua_Kanil
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	UXU_Ekchichen_Bahpu={
+		name="Ekchichen Bahpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Ekchichen_Bahpu
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	UXU_Oxib_Kanil={
+		name="Oxib Kanil"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Oxib_Kanil
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	UXU_Acatl_Witzikalanik={
+		name="Acatl Witzikalanik"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Acatl_Witzikalanik
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	UXU_Pakanek_Sayil={
+		name="Pakanek Sayil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Pakanek_Sayil
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	UXU_Itzam_Bahpu={
+		name="Itzam Bahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Itzam_Bahpu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	UXU_Kukulkan_Witzikalanik={
+		name="Kukulkan Witzikalanik"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Kukulkan_Witzikalanik
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	UXU_Itzam_Witzikalanik={
+		name="Itzam Witzikalanik"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Itzam_Witzikalanik
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	UXU_Kukulkan_Bahpu={
+		name="Kukulkan Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Kukulkan_Bahpu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	UXU_Kukulkan_Tzolkin={
+		name="Kukulkan Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Kukulkan_Tzolkin
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	UXU_Pakal_Witzikalanik={
+		name="Pakal Witzikalanik"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Pakal_Witzikalanik
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	UXU_Ekchak_Xbahlampakbe={
+		name="Ekchak Xbahlampakbe"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Ekchak_Xbahlampakbe
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	UXU_Bacab_Xbahlampakbe={
+		name="Bacab Xbahlampakbe"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Bacab_Xbahlampakbe
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	UXU_Nacatl_Bahpu={
+		name="Nacatl Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Nacatl_Bahpu
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	UXU_Tohil_Sotzik={
+		name="Tohil Sotzik"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	UXU_Ekchak_Kanil={
+		name="Ekchak Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Ekchak_Kanil
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	UXU_Chichen_Tzolkin={
+		name="Chichen Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Chichen_Tzolkin
+				traits = {	the_banker 	}
+		}
+
+	}
+	UXU_Chil_Sayil={
+		name="Chil Sayil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Chil_Sayil
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	UXU_Nacab_Tzolkin={
+		name="Nacab Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Nacab_Tzolkin
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	UXU_Ekchak_Ikabalomte={
+		name="Ekchak Ikabalomte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Ekchak_Ikabalomte
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	UXU_Oxib_Ikabalomte={
+		name="Oxib Ikabalomte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = UXU_Oxib_Ikabalomte
+				traits = {	first_lady 	}
+		}
+
+	}
+	UXU_Acatl_Sotzik={
+		name="Acatl Sotzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Acatl_Sotzik
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	UXU_Nacab_Bahpu={
+		name="Nacab Bahpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Nacab_Bahpu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	UXU_Kukulkanek_Witzikalanik={
+		name="Kukulkanek Witzikalanik"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Kukulkanek_Witzikalanik
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	UXU_Bacatl_Imox={
+		name="Bacatl Imox"
+
+		advisor={
+			slot = army_chief
+			idea_token = UXU_Bacatl_Imox
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	UXU_Pakanek_Bahpu={
+		name="Pakanek Bahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Pakanek_Bahpu
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	UXU_Chua_Witzikalanik={
+		name="Chua Witzikalanik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = UXU_Chua_Witzikalanik
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	UXU_Oxib_Imox={
+		name="Oxib Imox"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Oxib_Imox
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	UXU_Ekchua_Kanil={
+		name="Ekchua Kanil"
+
+		advisor={
+			slot = air_chief
+			idea_token = UXU_Ekchua_Kanil
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	UXU_Chakalam_Bahpu={
+		name="Chakalam Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Chakalam_Bahpu
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	UXU_Nacatl_Tzolkin={
+		name="Nacatl Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Nacatl_Tzolkin
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	UXU_Nacom_Ikabalomte={
+		name="Nacom Ikabalomte"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Nacom_Ikabalomte
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	UXU_Bacab_Ikabalomte={
+		name="Bacab Ikabalomte"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Bacab_Ikabalomte
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	UXU_Ekchua_Bahpu={
+		name="Ekchua Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Ekchua_Bahpu
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	UXU_Nacatl_Imox={
+		name="Nacatl Imox"
+
+		advisor={
+			slot = high_command
+			idea_token = UXU_Nacatl_Imox
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	UXU_Oxib_Sotzik={
+		name="Oxib Sotzik"
+
+		advisor={
+			slot = theorist
+			idea_token = UXU_Oxib_Sotzik
+				traits = {	military_theorist 	}
+		}
+
+	}
+	UXU_Tohil_Ikabalomte={
+		name="Tohil Ikabalomte"
+
+		advisor={
+			slot = theorist
+			idea_token = UXU_Tohil_Ikabalomte
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	UXU_Pakanek_Witzikalanik={
+		name="Pakanek Witzikalanik"
+
+		advisor={
+			slot = theorist
+			idea_token = UXU_Pakanek_Witzikalanik
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

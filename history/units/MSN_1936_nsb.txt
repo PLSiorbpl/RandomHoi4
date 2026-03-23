@@ -1,0 +1,270 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			anti_air = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 0 y = 3 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			mot_artillery_brigade = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			anti_air = {  x = 1 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Suci' Militia Division"
+		location = 1079
+		division_template = "Militia Division"
+		start_experience_factor = 0.160897
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Izeantolai' Militia Division"
+		location = 217
+		division_template = "Militia Division"
+		start_experience_factor = 0.099715
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Zarats' Militia Division"
+		location = 167
+		division_template = "Militia Division"
+		start_experience_factor = 0.740658
+		start_equipment_factor = 0.982161
+	}
+	division= {
+		name = "3th 'Gria' Militia Division"
+		location = 999
+		division_template = "Militia Division"
+		start_experience_factor = 0.175924
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Mena' Militia Division"
+		location = 563
+		division_template = "Militia Division"
+		start_experience_factor = 0.497950
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Berreba' Militia Division"
+		location = 1841
+		division_template = "Militia Division"
+		start_experience_factor = 0.034147
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Egia' Infantry Division"
+		location = 1860
+		division_template = "Infantry Division"
+		start_experience_factor = 0.027496
+		start_equipment_factor = 0.996135
+	}
+	division= {
+		name = "1nd 'Zarats' Infantry Division"
+		location = 2943
+		division_template = "Infantry Division"
+		start_experience_factor = 0.818018
+		start_equipment_factor = 0.962310
+	}
+	division= {
+		name = "2rd 'Etxe' Infantry Division"
+		location = 307
+		division_template = "Infantry Division"
+		start_experience_factor = 0.781945
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Inguna' Infantry Division"
+		location = 77
+		division_template = "Infantry Division"
+		start_experience_factor = 0.695733
+		start_equipment_factor = 0.976842
+	}
+	division= {
+		name = "0st 'Argi' Supported Infantry Division"
+		location = 208
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.664308
+		start_equipment_factor = 0.956957
+	}
+	division= {
+		name = "0st 'Suci' Artillery Division"
+		location = 4097
+		division_template = "Artillery Division"
+		start_experience_factor = 0.736727
+		start_equipment_factor = 0.955182
+	}
+	division= {
+		name = "0st 'Bumbakit' Cavalry Division"
+		location = 3994
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.460012
+		start_equipment_factor = 0.988483
+	}
+	division= {
+		name = "1nd 'Sham' Cavalry Division"
+		location = 1502
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.937527
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Geach' Cavalry Division"
+		location = 3824
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.740729
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Askatasa' Motorized Division"
+		location = 3978
+		division_template = "Motorized Division"
+		start_experience_factor = 0.186237
+		start_equipment_factor = 1.000000
+	}
+
+}

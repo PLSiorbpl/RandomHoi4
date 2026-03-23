@@ -1,0 +1,880 @@
+characters = {
+	DEL_Mbwana_Ufumbasiku={
+		name="Mbwana Ufumbasiku"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DEL_Kwano_Deltabakuban={
+		name="Kwano Deltabakuban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Kwano_Deltabakuban
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	DEL_Luba_Ramli={
+		name="Luba Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Luba_Ramli
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	DEL_Jumarakari_Ramli={
+		name="Jumarakari Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Jumarakari_Ramli
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	DEL_Kwame_Wimanda={
+		name="Kwame Wimanda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Kwame_Wimanda
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	DEL_Bakari_Wimanda={
+		name="Bakari Wimanda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Bakari_Wimanda
+				traits = {	humble 	}
+		}
+
+	}
+	DEL_Mbwame_Ramli={
+		name="Mbwame Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Mbwame_Ramli
+				traits = {	headstrong 	}
+		}
+
+	}
+	DEL_Simbana_Mjumbukwezi={
+		name="Simbana Mjumbukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Simbana_Mjumbukwezi
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DEL_Mbwama_Ufumbasiku={
+		name="Mbwama Ufumbasiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Mbwama_Ufumbasiku
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DEL_Mosi_Akili={
+		name="Mosi Akili"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Mosi_Akili
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DEL_Tembana_Akili={
+		name="Tembana Akili"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Tembana_Akili
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	DEL_Kamari_Deltabakuban={
+		name="Kamari Deltabakuban"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Kamari_Deltabakuban
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	DEL_Tembano_Wimanda={
+		name="Tembano Wimanda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Tembano_Wimanda
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	DEL_Simba_Jeshi={
+		name="Simba Jeshi"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Simba_Jeshi
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	DEL_Amau_Ufumbasiku={
+		name="Amau Ufumbasiku"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Amau_Ufumbasiku
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	DEL_Jumau_Ufumbasiku={
+		name="Jumau Ufumbasiku"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Jumau_Ufumbasiku
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	DEL_Kato_Wimanda={
+		name="Kato Wimanda"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Kato_Wimanda
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	DEL_Bari_Mjumbukwezi={
+		name="Bari Mjumbukwezi"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Bari_Mjumbukwezi
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	DEL_Mbwame_Wimanda={
+		name="Mbwame Wimanda"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Mbwame_Wimanda
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	DEL_Mosi_Utukutimaifu={
+		name="Mosi Utukutimaifu"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Mosi_Utukutimaifu
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	DEL_Taji_Deltabakuban={
+		name="Taji Deltabakuban"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Taji_Deltabakuban
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	DEL_Kwame_Jeshi={
+		name="Kwame Jeshi"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DEL_Kamau_Akili={
+		name="Kamau Akili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Kamau_Akili
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	DEL_Tana_Lanaji={
+		name="Tana Lanaji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Tana_Lanaji
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	DEL_Simbano_Wimanda={
+		name="Simbano Wimanda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Simbano_Wimanda
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	DEL_Kwana_Deltabakuban={
+		name="Kwana Deltabakuban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Kwana_Deltabakuban
+				traits = {	basileus 	}
+		}
+
+	}
+	DEL_Mosi_Msia={
+		name="Mosi Msia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Mosi_Msia
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	DEL_Tana_Akili={
+		name="Tana Akili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Tana_Akili
+				traits = {	infirm 	}
+		}
+
+	}
+	DEL_Simba_Lanaji={
+		name="Simba Lanaji"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Simba_Lanaji
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	DEL_Taji_Ramli={
+		name="Taji Ramli"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Taji_Ramli
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	DEL_Kame_Deltabakuban={
+		name="Kame Deltabakuban"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Kame_Deltabakuban
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	DEL_Kwana_Utukutimaifu={
+		name="Kwana Utukutimaifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Kwana_Utukutimaifu
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	DEL_Kato_Lanaji={
+		name="Kato Lanaji"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Kato_Lanaji
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DEL_Mbwama_Jeshi={
+		name="Mbwama Jeshi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Mbwama_Jeshi
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	DEL_Kwame_Mjumbukwezi={
+		name="Kwame Mjumbukwezi"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Kwame_Mjumbukwezi
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	DEL_Taji_Ufumbasiku={
+		name="Taji Ufumbasiku"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Taji_Ufumbasiku
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	DEL_Temba_Msia={
+		name="Temba Msia"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Temba_Msia
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	DEL_Jumari_Utukutimaifu={
+		name="Jumari Utukutimaifu"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Jumari_Utukutimaifu
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	DEL_Sefu_Lanaji={
+		name="Sefu Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Sefu_Lanaji
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	DEL_Tembano_Ramli={
+		name="Tembano Ramli"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Tembano_Ramli
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	DEL_Mbwano_Deltabakuban={
+		name="Mbwano Deltabakuban"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Mbwano_Deltabakuban
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	DEL_Shakari_Mjumbukwezi={
+		name="Shakari Mjumbukwezi"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Shakari_Mjumbukwezi
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	DEL_Kwano_Utukutimaifu={
+		name="Kwano Utukutimaifu"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DEL_Kwano_Jeshi={
+		name="Kwano Jeshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Kwano_Jeshi
+				traits = {	infirm 	}
+		}
+
+	}
+	DEL_Sefu_Ufumbasiku={
+		name="Sefu Ufumbasiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Sefu_Ufumbasiku
+				traits = {	political_dancer 	}
+		}
+
+	}
+	DEL_Baraka_Deltabakuban={
+		name="Baraka Deltabakuban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Baraka_Deltabakuban
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DEL_Mbwana_Mjumbukwezi={
+		name="Mbwana Mjumbukwezi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Mbwana_Mjumbukwezi
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DEL_Tembano_Mjumbukwezi={
+		name="Tembano Mjumbukwezi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Tembano_Mjumbukwezi
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DEL_Tanga_Ramli={
+		name="Tanga Ramli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Tanga_Ramli
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	DEL_Mbwame_Msia={
+		name="Mbwame Msia"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Mbwame_Msia
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DEL_Luba_Jeshi={
+		name="Luba Jeshi"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Luba_Jeshi
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DEL_Sefu_Akili={
+		name="Sefu Akili"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Sefu_Akili
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	DEL_Kamari_Mjumbukwezi={
+		name="Kamari Mjumbukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Kamari_Mjumbukwezi
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	DEL_Baraka_Mjumbukwezi={
+		name="Baraka Mjumbukwezi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Baraka_Mjumbukwezi
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	DEL_Bakari_Ramli={
+		name="Bakari Ramli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Bakari_Ramli
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	DEL_Tana_Wimanda={
+		name="Tana Wimanda"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Tana_Wimanda
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	DEL_Mbwama_Mjumbukwezi={
+		name="Mbwama Mjumbukwezi"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Mbwama_Mjumbukwezi
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	DEL_Kwano_Lanaji={
+		name="Kwano Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Kwano_Lanaji
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	DEL_Tanga_Akili={
+		name="Tanga Akili"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Tanga_Akili
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	DEL_Musa_Deltabakuban={
+		name="Musa Deltabakuban"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Musa_Deltabakuban
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DEL_Bari_Utukutimaifu={
+		name="Bari Utukutimaifu"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Bari_Utukutimaifu
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	DEL_Kamari_Lanaji={
+		name="Kamari Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Kamari_Lanaji
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	DEL_Kwame_Akili={
+		name="Kwame Akili"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Kwame_Akili
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	DEL_Mbwanga_Ufumbasiku={
+		name="Mbwanga Ufumbasiku"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DEL_Bari_Jeshi={
+		name="Bari Jeshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Bari_Jeshi
+				traits = {	infirm 	}
+		}
+
+	}
+	DEL_Sefu_Jeshi={
+		name="Sefu Jeshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Sefu_Jeshi
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	DEL_Tana_Jeshi={
+		name="Tana Jeshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Tana_Jeshi
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DEL_Mbwanga_Akili={
+		name="Mbwanga Akili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Mbwanga_Akili
+				traits = {	infirm 	}
+		}
+
+	}
+	DEL_Tembano_Msia={
+		name="Tembano Msia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Tembano_Msia
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	DEL_Baka_Ufumbasiku={
+		name="Baka Ufumbasiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DEL_Baka_Ufumbasiku
+				traits = {	first_lady 	}
+		}
+
+	}
+	DEL_Temba_Jeshi={
+		name="Temba Jeshi"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Temba_Jeshi
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	DEL_Luba_Lanaji={
+		name="Luba Lanaji"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Luba_Lanaji
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DEL_Kwame_Msia={
+		name="Kwame Msia"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Kwame_Msia
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	DEL_Tanga_Deltabakuban={
+		name="Tanga Deltabakuban"
+
+		advisor={
+			slot = army_chief
+			idea_token = DEL_Tanga_Deltabakuban
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	DEL_Simbano_Ufumbasiku={
+		name="Simbano Ufumbasiku"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Simbano_Ufumbasiku
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	DEL_Kamari_Wimanda={
+		name="Kamari Wimanda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DEL_Kamari_Wimanda
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	DEL_Kwano_Ufumbasiku={
+		name="Kwano Ufumbasiku"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Kwano_Ufumbasiku
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DEL_Mbwame_Utukutimaifu={
+		name="Mbwame Utukutimaifu"
+
+		advisor={
+			slot = air_chief
+			idea_token = DEL_Mbwame_Utukutimaifu
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	DEL_Kamau_Lanaji={
+		name="Kamau Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Kamau_Lanaji
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DEL_Chidi_Utukutimaifu={
+		name="Chidi Utukutimaifu"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Chidi_Utukutimaifu
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	DEL_Temba_Lanaji={
+		name="Temba Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Temba_Lanaji
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	DEL_Omau_Ramli={
+		name="Omau Ramli"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Omau_Ramli
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	DEL_Luba_Ufumbasiku={
+		name="Luba Ufumbasiku"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Luba_Ufumbasiku
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	DEL_Omari_Lanaji={
+		name="Omari Lanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = DEL_Omari_Lanaji
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	DEL_Bari_Ramli={
+		name="Bari Ramli"
+
+		advisor={
+			slot = theorist
+			idea_token = DEL_Bari_Ramli
+				traits = {	military_theorist 	}
+		}
+
+	}
+	DEL_Bari_Deltabakuban={
+		name="Bari Deltabakuban"
+
+		advisor={
+			slot = theorist
+			idea_token = DEL_Bari_Deltabakuban
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	DEL_Lubano_Wimanda={
+		name="Lubano Wimanda"
+
+		advisor={
+			slot = theorist
+			idea_token = DEL_Lubano_Wimanda
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

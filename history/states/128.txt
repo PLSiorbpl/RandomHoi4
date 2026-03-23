@@ -2,14 +2,14 @@
 state={
 	id=128
 	name="STATE_128"
-	manpower = 858221
+	manpower = 989278
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,27 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 1826 1}
-		victory_points = { 1833 2}
-		victory_points = { 1835 2}
+		victory_points = { 1672 5}
 		
-		owner = FEA
+		owner = CDA
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			1823 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = FEA
+		add_core_of = CDA
 	}
 
 	provinces={
-		1823 1824 1825 1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 
+		1665 1666 1667 1668 1669 1670 1671 1672 1673 1674 
 	}
 	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=176
 	name="STATE_176"
-	manpower = 603009
+	manpower = 475176
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,21 @@ state={
 	}
 
 	history={
-		victory_points = { 2513 2}
-		victory_points = { 2519 1}
 		
-		owner = MIA
+		owner = HEI
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 2
+			
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = MIA
+		add_core_of = HEI
 	}
 
 	provinces={
-		2512 2513 2514 2515 2516 2517 2518 2519 
+		2159 2160 2161 2162 2163 2164 2165 2166 
 	}
 	local_supplies=0.0 
 }

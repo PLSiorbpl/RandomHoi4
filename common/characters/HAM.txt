@@ -1,0 +1,880 @@
+characters = {
+	HAM_Ramin_Shal={
+		name="Ramin Shal"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAM_Mossan_Root={
+		name="Mossan Root"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Mossan_Root
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HAM_Shad_Tamin={
+		name="Shad Tamin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Shad_Tamin
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HAM_Peyman_Palang={
+		name="Peyman Palang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Peyman_Palang
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HAM_Shamad_Tamin={
+		name="Shamad Tamin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Shamad_Tamin
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HAM_Hossan_Haman={
+		name="Hossan Haman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Hossan_Haman
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HAM_Hassan_Palang={
+		name="Hassan Palang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Hassan_Palang
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HAM_Reza_Hamraneshran={
+		name="Reza Hamraneshran"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Reza_Hamraneshran
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HAM_Kaveh_Shal={
+		name="Kaveh Shal"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Kaveh_Shal
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HAM_Hossein_Palang={
+		name="Hossein Palang"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Hossein_Palang
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HAM_Navehza_Yaldan={
+		name="Navehza Yaldan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Navehza_Yaldan
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	HAM_Farhahim_Anamang={
+		name="Farhahim Anamang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Farhahim_Anamang
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HAM_Hassein_Shal={
+		name="Hassein Shal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Hassein_Shal
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	HAM_Ahmal_Root={
+		name="Ahmal Root"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Ahmal_Root
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	HAM_Babak_Shal={
+		name="Babak Shal"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Babak_Shal
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	HAM_Ahmal_Anamang={
+		name="Ahmal Anamang"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Ahmal_Anamang
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	HAM_Kavid_Anamang={
+		name="Kavid Anamang"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Kavid_Anamang
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	HAM_Hossan_Root={
+		name="Hossan Root"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Hossan_Root
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	HAM_Ebramid_Palang={
+		name="Ebramid Palang"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Ebramid_Palang
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	HAM_Mehzad_Tamin={
+		name="Mehzad Tamin"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Mehzad_Tamin
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	HAM_Farhahim_Hamraneshran={
+		name="Farhahim Hamraneshran"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Farhahim_Hamraneshran
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	HAM_Ahma_Root={
+		name="Ahma Root"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAM_Kaveh_Palang={
+		name="Kaveh Palang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Kaveh_Palang
+				traits = {	basileus 	}
+		}
+
+	}
+	HAM_Farhahim_Yaldan={
+		name="Farhahim Yaldan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Farhahim_Yaldan
+				traits = {	infirm 	}
+		}
+
+	}
+	HAM_Peyma_Root={
+		name="Peyma Root"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Peyma_Root
+				traits = {	generallissimo 	}
+		}
+
+	}
+	HAM_Hassan_Shal={
+		name="Hassan Shal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Hassan_Shal
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	HAM_Parham_Goriz={
+		name="Parham Goriz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Parham_Goriz
+				traits = {	basileus 	}
+		}
+
+	}
+	HAM_Mehdi_Haman={
+		name="Mehdi Haman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Mehdi_Haman
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HAM_Babak_Root={
+		name="Babak Root"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Babak_Root
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	HAM_Omin_Tamin={
+		name="Omin Tamin"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Omin_Tamin
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HAM_Hossein_Haman={
+		name="Hossein Haman"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Hossein_Haman
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	HAM_Amin_Goriz={
+		name="Amin Goriz"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Amin_Goriz
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HAM_Ebrahimal_Anamang={
+		name="Ebrahimal Anamang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Ebrahimal_Anamang
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HAM_Mossein_Root={
+		name="Mossein Root"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Mossein_Root
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	HAM_Mostafa_Palang={
+		name="Mostafa Palang"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Mostafa_Palang
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	HAM_Shamad_Goriz={
+		name="Shamad Goriz"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Shamad_Goriz
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	HAM_Hostafa_Anamang={
+		name="Hostafa Anamang"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Hostafa_Anamang
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	HAM_Ahmal_Yaldan={
+		name="Ahmal Yaldan"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Ahmal_Yaldan
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	HAM_Mossan_Goriz={
+		name="Mossan Goriz"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Mossan_Goriz
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	HAM_Navehdi_Hamraneshran={
+		name="Navehdi Hamraneshran"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Navehdi_Hamraneshran
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	HAM_Peyman_Shal={
+		name="Peyman Shal"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Peyman_Shal
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	HAM_Armad_Rahir={
+		name="Armad Rahir"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Armad_Rahir
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	HAM_Farhahim_Shal={
+		name="Farhahim Shal"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAM_Mossein_Anamang={
+		name="Mossein Anamang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Mossein_Anamang
+				traits = {	infirm 	}
+		}
+
+	}
+	HAM_Mostafa_Goriz={
+		name="Mostafa Goriz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Mostafa_Goriz
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HAM_Arman_Tamin={
+		name="Arman Tamin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Arman_Tamin
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HAM_Navehza_Shal={
+		name="Navehza Shal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Navehza_Shal
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HAM_Peyman_Hamraneshran={
+		name="Peyman Hamraneshran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Peyman_Hamraneshran
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HAM_Ramin_Yaldan={
+		name="Ramin Yaldan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Ramin_Yaldan
+				traits = {	infirm 	}
+		}
+
+	}
+	HAM_Sham_Palang={
+		name="Sham Palang"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Sham_Palang
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HAM_Peyman_Yaldan={
+		name="Peyman Yaldan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Peyman_Yaldan
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HAM_Nimad_Goriz={
+		name="Nimad Goriz"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Nimad_Goriz
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HAM_Sham_Haman={
+		name="Sham Haman"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Sham_Haman
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HAM_Hossan_Goriz={
+		name="Hossan Goriz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Hossan_Goriz
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HAM_Hostafa_Hamraneshran={
+		name="Hostafa Hamraneshran"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Hostafa_Hamraneshran
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HAM_Ebramin_Anamang={
+		name="Ebramin Anamang"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Ebramin_Anamang
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	HAM_Omin_Palang={
+		name="Omin Palang"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Omin_Palang
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	HAM_Ahman_Haman={
+		name="Ahman Haman"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Ahman_Haman
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	HAM_Ahman_Hamraneshran={
+		name="Ahman Hamraneshran"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Ahman_Hamraneshran
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HAM_Kavid_Root={
+		name="Kavid Root"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Kavid_Root
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	HAM_Hassan_Goriz={
+		name="Hassan Goriz"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Hassan_Goriz
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	HAM_Nimad_Anamang={
+		name="Nimad Anamang"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Nimad_Anamang
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	HAM_Amir_Root={
+		name="Amir Root"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Amir_Root
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	HAM_Farhahim_Palang={
+		name="Farhahim Palang"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAM_Ebram_Tamin={
+		name="Ebram Tamin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Ebram_Tamin
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HAM_Ebrahimal_Goriz={
+		name="Ebrahimal Goriz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Ebrahimal_Goriz
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	HAM_Milad_Haman={
+		name="Milad Haman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Milad_Haman
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	HAM_Farhahim_Goriz={
+		name="Farhahim Goriz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Farhahim_Goriz
+				traits = {	infirm 	}
+		}
+
+	}
+	HAM_Kavehzad_Shal={
+		name="Kavehzad Shal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Kavehzad_Shal
+				traits = {	the_banker 	}
+		}
+
+	}
+	HAM_Hassein_Tamin={
+		name="Hassein Tamin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAM_Hassein_Tamin
+				traits = {	infirm 	}
+		}
+
+	}
+	HAM_Ebrahimal_Haman={
+		name="Ebrahimal Haman"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Ebrahimal_Haman
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HAM_Omir_Goriz={
+		name="Omir Goriz"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Omir_Goriz
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HAM_Kaman_Yaldan={
+		name="Kaman Yaldan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Kaman_Yaldan
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HAM_Ahma_Goriz={
+		name="Ahma Goriz"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAM_Ahma_Goriz
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HAM_Kaveh_Goriz={
+		name="Kaveh Goriz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Kaveh_Goriz
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	HAM_Parham_Rahir={
+		name="Parham Rahir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAM_Parham_Rahir
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	HAM_Navehza_Palang={
+		name="Navehza Palang"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Navehza_Palang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	HAM_Hassein_Goriz={
+		name="Hassein Goriz"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAM_Hassein_Goriz
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	HAM_Kaman_Anamang={
+		name="Kaman Anamang"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Kaman_Anamang
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	HAM_Farhad_Palang={
+		name="Farhad Palang"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Farhad_Palang
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	HAM_Rezad_Shal={
+		name="Rezad Shal"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Rezad_Shal
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	HAM_Ahman_Root={
+		name="Ahman Root"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Ahman_Root
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	HAM_Ahma_Rahir={
+		name="Ahma Rahir"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Ahma_Rahir
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	HAM_Hostafa_Rahir={
+		name="Hostafa Rahir"
+
+		advisor={
+			slot = high_command
+			idea_token = HAM_Hostafa_Rahir
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	HAM_Reza_Tamin={
+		name="Reza Tamin"
+
+		advisor={
+			slot = theorist
+			idea_token = HAM_Reza_Tamin
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HAM_Ebrahimal_Rahir={
+		name="Ebrahimal Rahir"
+
+		advisor={
+			slot = theorist
+			idea_token = HAM_Ebrahimal_Rahir
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HAM_Amin_Anamang={
+		name="Amin Anamang"
+
+		advisor={
+			slot = theorist
+			idea_token = HAM_Amin_Anamang
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

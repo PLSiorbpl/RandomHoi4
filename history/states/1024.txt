@@ -2,9 +2,9 @@
 state={
 	id=1024
 	name="STATE_1024"
-	manpower = 1107558
+	manpower = 2930814
 	
-	state_category = large_town
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,24 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 13469 3}
-		victory_points = { 13475 2}
-		victory_points = { 13481 2}
+		victory_points = { 12193 6}
+		victory_points = { 12216 6}
+		victory_points = { 12218 2}
+		victory_points = { 12219 3}
 		
-		owner = NCL
+		owner = BAC
 		buildings = {
 			infrastructure = 4
-			
-			arms_factory = 0
+			air_base = 1
+			arms_factory = 2
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = NCL
+		add_core_of = BAC
 	}
 
 	provinces={
-		13468 13469 13470 13471 13472 13473 13474 13475 13476 13477 13478 13479 13480 13481 13482 13483 
+		12190 12191 12192 12193 12194 12195 12196 12197 12198 12199 12200 12201 12202 12203 12204 12205 12206 12207 12208 12209 12210 12211 12212 12213 12214 12215 12216 12217 12218 12219 12220 12221 12222 
 	}
 	local_supplies=0.0 
 }

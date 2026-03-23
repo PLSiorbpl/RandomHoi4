@@ -2,37 +2,38 @@
 state={
 	id=629
 	name="STATE_629"
-	manpower = 760738
+	manpower = 781903
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=2
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8393 5}
+		victory_points = { 7427 1}
+		victory_points = { 7429 2}
 		
-		owner = ULU
+		owner = FBR
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ULU
+		add_core_of = FBR
 	}
 
 	provinces={
-		8384 8385 8386 8387 8388 8389 8390 8391 8392 8393 
+		7426 7427 7428 7429 7430 7431 7432 7433 
 	}
 	local_supplies=0.0 
 }

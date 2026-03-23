@@ -1,0 +1,880 @@
+characters = {
+	PBL_Omir_Atabz={
+		name="Omir Atabz"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBL_Amin_Mandeheshmak={
+		name="Amin Mandeheshmak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Amin_Mandeheshmak
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PBL_Armal_Yooz={
+		name="Armal Yooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Armal_Yooz
+				traits = {	headstrong 	}
+		}
+
+	}
+	PBL_Parhad_Shakh={
+		name="Parhad Shakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Parhad_Shakh
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	PBL_Amin_Mang={
+		name="Amin Mang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Amin_Mang
+				traits = {	headstrong 	}
+		}
+
+	}
+	PBL_Mossan_Shakh={
+		name="Mossan Shakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Mossan_Shakh
+				traits = {	humble 	}
+		}
+
+	}
+	PBL_Milad_Mandeheshmak={
+		name="Milad Mandeheshmak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Milad_Mandeheshmak
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PBL_Sham_Mandeheshmak={
+		name="Sham Mandeheshmak"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Sham_Mandeheshmak
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	PBL_Omin_Atang={
+		name="Omin Atang"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Omin_Atang
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PBL_Kamid_Yashrand={
+		name="Kamid Yashrand"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Kamid_Yashrand
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	PBL_Mossein_Yashrand={
+		name="Mossein Yashrand"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Mossein_Yashrand
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PBL_Farhama_Pole={
+		name="Farhama Pole"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Farhama_Pole
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	PBL_Ebram_Atang={
+		name="Ebram Atang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Ebram_Atang
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	PBL_Mossan_Mandeheshmak={
+		name="Mossan Mandeheshmak"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Mossan_Mandeheshmak
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	PBL_Shahim_Yashrand={
+		name="Shahim Yashrand"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Shahim_Yashrand
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PBL_Arman_Mang={
+		name="Arman Mang"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Arman_Mang
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	PBL_Mehdi_Atang={
+		name="Mehdi Atang"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Mehdi_Atang
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PBL_Ebramir_Mohar={
+		name="Ebramir Mohar"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Ebramir_Mohar
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	PBL_Kaveh_Yashrand={
+		name="Kaveh Yashrand"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Kaveh_Yashrand
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PBL_Farham_Atabz={
+		name="Farham Atabz"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Farham_Atabz
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	PBL_Kavehdi_Yooz={
+		name="Kavehdi Yooz"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Kavehdi_Yooz
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	PBL_Kaveh_Pole={
+		name="Kaveh Pole"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBL_Ahma_Yooz={
+		name="Ahma Yooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Ahma_Yooz
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	PBL_Hassein_Mang={
+		name="Hassein Mang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Hassein_Mang
+				traits = {	generallissimo 	}
+		}
+
+	}
+	PBL_Shahraman_Mohar={
+		name="Shahraman Mohar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Shahraman_Mohar
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBL_Shahim_Maidarmad={
+		name="Shahim Maidarmad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Shahim_Maidarmad
+				traits = {	generallissimo 	}
+		}
+
+	}
+	PBL_Peymad_Shakh={
+		name="Peymad Shakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Peymad_Shakh
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBL_Ahmal_Maidarmad={
+		name="Ahmal Maidarmad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Ahmal_Maidarmad
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	PBL_Raman_Mandeheshmak={
+		name="Raman Mandeheshmak"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Raman_Mandeheshmak
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	PBL_Raman_Atang={
+		name="Raman Atang"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Raman_Atang
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PBL_Ebraman_Mandeheshmak={
+		name="Ebraman Mandeheshmak"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Ebraman_Mandeheshmak
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PBL_Amir_Pole={
+		name="Amir Pole"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Amir_Pole
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PBL_Hassein_Atang={
+		name="Hassein Atang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Hassein_Atang
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PBL_Mossein_Maidarmad={
+		name="Mossein Maidarmad"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Mossein_Maidarmad
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	PBL_Kamid_Atang={
+		name="Kamid Atang"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Kamid_Atang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	PBL_Armal_Maidarmad={
+		name="Armal Maidarmad"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Armal_Maidarmad
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PBL_Navehdi_Mohar={
+		name="Navehdi Mohar"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Navehdi_Mohar
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	PBL_Navid_Yashrand={
+		name="Navid Yashrand"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Navid_Yashrand
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	PBL_Farhahiman_Yashrand={
+		name="Farhahiman Yashrand"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Farhahiman_Yashrand
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PBL_Hostafa_Mandeheshmak={
+		name="Hostafa Mandeheshmak"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Hostafa_Mandeheshmak
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	PBL_Navid_Shakh={
+		name="Navid Shakh"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Navid_Shakh
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	PBL_Arma_Mandeheshmak={
+		name="Arma Mandeheshmak"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Arma_Mandeheshmak
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PBL_Parhad_Pole={
+		name="Parhad Pole"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBL_Parhahim_Shakh={
+		name="Parhahim Shakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Parhahim_Shakh
+				traits = {	polemarch 	}
+		}
+
+	}
+	PBL_Parhad_Maidarmad={
+		name="Parhad Maidarmad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Parhad_Maidarmad
+				traits = {	infirm 	}
+		}
+
+	}
+	PBL_Ramad_Mohar={
+		name="Ramad Mohar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Ramad_Mohar
+				traits = {	political_dancer 	}
+		}
+
+	}
+	PBL_Armal_Atang={
+		name="Armal Atang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Armal_Atang
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	PBL_Sham_Atabz={
+		name="Sham Atabz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Sham_Atabz
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PBL_Ahma_Atabz={
+		name="Ahma Atabz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Ahma_Atabz
+				traits = {	political_dancer 	}
+		}
+
+	}
+	PBL_Ebramal_Mohar={
+		name="Ebramal Mohar"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Ebramal_Mohar
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	PBL_Amir_Yashrand={
+		name="Amir Yashrand"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Amir_Yashrand
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PBL_Ramad_Maidarmad={
+		name="Ramad Maidarmad"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Ramad_Maidarmad
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	PBL_Rezad_Mang={
+		name="Rezad Mang"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Rezad_Mang
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PBL_Raman_Pole={
+		name="Raman Pole"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Raman_Pole
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	PBL_Hassein_Yooz={
+		name="Hassein Yooz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Hassein_Yooz
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	PBL_Kamir_Atang={
+		name="Kamir Atang"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Kamir_Atang
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PBL_Kamid_Yooz={
+		name="Kamid Yooz"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Kamid_Yooz
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	PBL_Kamir_Yooz={
+		name="Kamir Yooz"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Kamir_Yooz
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	PBL_Parhad_Atang={
+		name="Parhad Atang"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Parhad_Atang
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	PBL_Kamir_Shakh={
+		name="Kamir Shakh"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Kamir_Shakh
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	PBL_Kamid_Maidarmad={
+		name="Kamid Maidarmad"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Kamid_Maidarmad
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	PBL_Nimal_Atang={
+		name="Nimal Atang"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Nimal_Atang
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	PBL_Hassein_Mohar={
+		name="Hassein Mohar"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Hassein_Mohar
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PBL_Kavehdi_Mandeheshmak={
+		name="Kavehdi Mandeheshmak"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PBL_Hossan_Mohar={
+		name="Hossan Mohar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Hossan_Mohar
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	PBL_Kaveh_Mang={
+		name="Kaveh Mang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Kaveh_Mang
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PBL_Parhad_Atabz={
+		name="Parhad Atabz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Parhad_Atabz
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	PBL_Arman_Shakh={
+		name="Arman Shakh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Arman_Shakh
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PBL_Behza_Yashrand={
+		name="Behza Yashrand"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Behza_Yashrand
+				traits = {	first_lady 	}
+		}
+
+	}
+	PBL_Kavid_Yashrand={
+		name="Kavid Yashrand"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PBL_Kavid_Yashrand
+				traits = {	rearmer 	}
+		}
+
+	}
+	PBL_Arma_Pole={
+		name="Arma Pole"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Arma_Pole
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PBL_Navid_Yooz={
+		name="Navid Yooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Navid_Yooz
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PBL_Rezad_Mandeheshmak={
+		name="Rezad Mandeheshmak"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Rezad_Mandeheshmak
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	PBL_Ahmal_Pole={
+		name="Ahmal Pole"
+
+		advisor={
+			slot = army_chief
+			idea_token = PBL_Ahmal_Pole
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	PBL_Babak_Pole={
+		name="Babak Pole"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Babak_Pole
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PBL_Ebramal_Yooz={
+		name="Ebramal Yooz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PBL_Ebramal_Yooz
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	PBL_Ebrahiman_Yashrand={
+		name="Ebrahiman Yashrand"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Ebrahiman_Yashrand
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	PBL_Ebramir_Maidarmad={
+		name="Ebramir Maidarmad"
+
+		advisor={
+			slot = air_chief
+			idea_token = PBL_Ebramir_Maidarmad
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PBL_Shahimal_Atabz={
+		name="Shahimal Atabz"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Shahimal_Atabz
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	PBL_Reza_Yooz={
+		name="Reza Yooz"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Reza_Yooz
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PBL_Hossein_Atabz={
+		name="Hossein Atabz"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Hossein_Atabz
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	PBL_Navehdi_Pole={
+		name="Navehdi Pole"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Navehdi_Pole
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	PBL_Ramad_Pole={
+		name="Ramad Pole"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Ramad_Pole
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	PBL_Shahraman_Yooz={
+		name="Shahraman Yooz"
+
+		advisor={
+			slot = high_command
+			idea_token = PBL_Shahraman_Yooz
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	PBL_Ebrahiman_Mandeheshmak={
+		name="Ebrahiman Mandeheshmak"
+
+		advisor={
+			slot = theorist
+			idea_token = PBL_Ebrahiman_Mandeheshmak
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PBL_Farham_Shakh={
+		name="Farham Shakh"
+
+		advisor={
+			slot = theorist
+			idea_token = PBL_Farham_Shakh
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PBL_Hostafa_Yashrand={
+		name="Hostafa Yashrand"
+
+		advisor={
+			slot = theorist
+			idea_token = PBL_Hostafa_Yashrand
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

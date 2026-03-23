@@ -2,37 +2,38 @@
 state={
 	id=348
 	name="STATE_348"
-	manpower = 311829
+	manpower = 817771
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=9
 		chromium=0
 		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=1
+		coal=0
 	}
 
 	history={
-		victory_points = { 4646 1}
+		victory_points = { 4093 2}
+		victory_points = { 4094 2}
 		
-		owner = GDA
+		owner = MSN
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GDA
+		add_core_of = MSN
 	}
 
 	provinces={
-		4645 4646 4647 4648 
+		4091 4092 4093 4094 4095 4096 4097 4098 
 	}
 	local_supplies=0.0 
 }

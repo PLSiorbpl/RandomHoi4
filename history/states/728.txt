@@ -2,39 +2,37 @@
 state={
 	id=728
 	name="STATE_728"
-	manpower = 707590
+	manpower = 501847
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=9
+		steel=0
 		tungsten=0
-		coal=12
+		coal=0
 	}
 
 	history={
-		victory_points = { 9735 1}
-		victory_points = { 9737 1}
-		victory_points = { 9740 1}
+		victory_points = { 8579 1}
 		
-		owner = GHU
+		owner = BYL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			air_base = 2
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GHU
+		add_core_of = BYL
 	}
 
 	provinces={
-		9735 9736 9737 9738 9739 9740 9741 9742 9743 9744 
+		8578 8579 8580 8581 8582 8583 
 	}
 	local_supplies=0.0 
 }

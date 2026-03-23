@@ -2,7 +2,7 @@
 state={
 	id=638
 	name="STATE_638"
-	manpower = 1081938
+	manpower = 1425739
 	
 	state_category = large_town
 	#impassable = yes
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 8500 5}
-		victory_points = { 8501 3}
+		victory_points = { 7578 8}
 		
-		owner = XRA
+		owner = SEM
 		buildings = {
 			infrastructure = 4
-			air_base = 3
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = XRA
+		add_core_of = SEM
 	}
 
 	provinces={
-		8494 8495 8496 8497 8498 8499 8500 8501 8502 8503 8504 8505 8506 8507 8508 8509 
+		7572 7573 7574 7575 7576 7577 7578 7579 7580 7581 7582 7583 7584 7585 7586 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=762
 	name="STATE_762"
-	manpower = 865701
+	manpower = 1042355
 	
 	state_category = large_town
 	#impassable = yes
@@ -11,28 +11,33 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 10231 6}
+		victory_points = { 8959 1}
+		victory_points = { 8960 1}
+		victory_points = { 8963 3}
 		
-		owner = PBR
+		owner = LIZ
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
+			8966 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = PBR
+		add_core_of = LIZ
 	}
 
 	provinces={
-		10228 10229 10230 10231 10232 10233 10234 10235 10236 10237 10238 10239 10240 
+		8959 8960 8961 8962 8963 8964 8965 8966 8967 8968 8969 
 	}
 	local_supplies=0.0 
 }

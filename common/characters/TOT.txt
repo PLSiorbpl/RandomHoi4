@@ -1,0 +1,880 @@
+characters = {
+	TOT_Malcolm_Faiscean={
+		name="Malcolm Faiscean"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOT_Aidan_Trodaing={
+		name="Aidan Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Aidan_Trodaing
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TOT_Ciam_Trodaing={
+		name="Ciam Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Ciam_Trodaing
+				traits = {	humble 	}
+		}
+
+	}
+	TOT_Eoinn_Snamhtirsear={
+		name="Eoinn Snamhtirsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Eoinn_Snamhtirsear
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TOT_Ciareth_Geach={
+		name="Ciareth Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Ciareth_Geach
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TOT_Ciamus_Each={
+		name="Ciamus Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Ciamus_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TOT_Ciareth_Lealas={
+		name="Ciareth Lealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Ciareth_Lealas
+				traits = {	humble 	}
+		}
+
+	}
+	TOT_Hugh_Lealas={
+		name="Hugh Lealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Hugh_Lealas
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TOT_Hugh_Tuas={
+		name="Hugh Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Hugh_Tuas
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TOT_Taran_Lealas={
+		name="Taran Lealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Taran_Lealas
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TOT_Quinn_Trodaing={
+		name="Quinn Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Quinn_Trodaing
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TOT_Aidan_Lealas={
+		name="Aidan Lealas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Aidan_Lealas
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TOT_Cialcolm_Millearg={
+		name="Cialcolm Millearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Cialcolm_Millearg
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TOT_Declan_Snamhtirsear={
+		name="Declan Snamhtirsear"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Declan_Snamhtirsear
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TOT_Eoinn_Millearg={
+		name="Eoinn Millearg"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Eoinn_Millearg
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TOT_Liall_Breim={
+		name="Liall Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Liall_Breim
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	TOT_Declan_Buna={
+		name="Declan Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Declan_Buna
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	TOT_Rhys_Faiscean={
+		name="Rhys Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Rhys_Faiscean
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TOT_Lialcolm_Geach={
+		name="Lialcolm Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Lialcolm_Geach
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	TOT_Quin_Millearg={
+		name="Quin Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Quin_Millearg
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	TOT_Liam_Trodaing={
+		name="Liam Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Liam_Trodaing
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	TOT_Braig_Lealas={
+		name="Braig Lealas"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOT_Hugh_Snamhtirsear={
+		name="Hugh Snamhtirsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Hugh_Snamhtirsear
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	TOT_Niall_Millearg={
+		name="Niall Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Niall_Millearg
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TOT_Aidan_Tuas={
+		name="Aidan Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Aidan_Tuas
+				traits = {	autokrator 	}
+		}
+
+	}
+	TOT_Keiran_Trodaing={
+		name="Keiran Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Keiran_Trodaing
+				traits = {	warmonger 	}
+		}
+
+	}
+	TOT_Lialcolm_Tuas={
+		name="Lialcolm Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Lialcolm_Tuas
+				traits = {	polemarch 	}
+		}
+
+	}
+	TOT_Quinn_Breim={
+		name="Quinn Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Quinn_Breim
+				traits = {	basileus 	}
+		}
+
+	}
+	TOT_Niam_Tuas={
+		name="Niam Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Niam_Tuas
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TOT_Ciamus_Tuas={
+		name="Ciamus Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Ciamus_Tuas
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TOT_Nialcolm_Geach={
+		name="Nialcolm Geach"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Nialcolm_Geach
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TOT_Rhys_Trodaing={
+		name="Rhys Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Rhys_Trodaing
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TOT_Fergus_Each={
+		name="Fergus Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Fergus_Each
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TOT_Ciaran_Each={
+		name="Ciaran Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Ciaran_Each
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TOT_Padran_Trodaing={
+		name="Padran Trodaing"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Padran_Trodaing
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TOT_Nialcolm_Trodaing={
+		name="Nialcolm Trodaing"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Nialcolm_Trodaing
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	TOT_Niall_Buna={
+		name="Niall Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Niall_Buna
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	TOT_Hugh_Each={
+		name="Hugh Each"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Hugh_Each
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TOT_Padran_Buna={
+		name="Padran Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Padran_Buna
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TOT_Liam_Faiscean={
+		name="Liam Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Liam_Faiscean
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TOT_Lialcolm_Buna={
+		name="Lialcolm Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Lialcolm_Buna
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TOT_Quinn_Lealas={
+		name="Quinn Lealas"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Quinn_Lealas
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	TOT_Aidan_Millearg={
+		name="Aidan Millearg"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOT_Eoin_Snamhtirsear={
+		name="Eoin Snamhtirsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Eoin_Snamhtirsear
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TOT_Ciamus_Millearg={
+		name="Ciamus Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Ciamus_Millearg
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TOT_Nialcolm_Buna={
+		name="Nialcolm Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Nialcolm_Buna
+				traits = {	polemarch 	}
+		}
+
+	}
+	TOT_Garan_Tuas={
+		name="Garan Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Garan_Tuas
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TOT_Braig_Millearg={
+		name="Braig Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Braig_Millearg
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TOT_Taran_Breim={
+		name="Taran Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Taran_Breim
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TOT_Keiran_Faiscean={
+		name="Keiran Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Keiran_Faiscean
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TOT_Tareth_Millearg={
+		name="Tareth Millearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Tareth_Millearg
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TOT_Braig_Tuas={
+		name="Braig Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Braig_Tuas
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TOT_Keiraig_Each={
+		name="Keiraig Each"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Keiraig_Each
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TOT_Seam_Faiscean={
+		name="Seam Faiscean"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Seam_Faiscean
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TOT_Taran_Trodaing={
+		name="Taran Trodaing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Taran_Trodaing
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TOT_Iwan_Geach={
+		name="Iwan Geach"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Iwan_Geach
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TOT_Tareth_Each={
+		name="Tareth Each"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Tareth_Each
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TOT_Seam_Breim={
+		name="Seam Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Seam_Breim
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	TOT_Iwan_Faiscean={
+		name="Iwan Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Iwan_Faiscean
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	TOT_Ciam_Tuas={
+		name="Ciam Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Ciam_Tuas
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	TOT_Fergus_Tuas={
+		name="Fergus Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Fergus_Tuas
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	TOT_Ciam_Millearg={
+		name="Ciam Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Ciam_Millearg
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TOT_Seamus_Breim={
+		name="Seamus Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Seamus_Breim
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TOT_Quin_Breim={
+		name="Quin Breim"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOT_Seamus_Millearg={
+		name="Seamus Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Seamus_Millearg
+				traits = {	the_banker 	}
+		}
+
+	}
+	TOT_Ciamus_Lealas={
+		name="Ciamus Lealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Ciamus_Lealas
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TOT_Quinn_Tuas={
+		name="Quinn Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Quinn_Tuas
+				traits = {	rearmer 	}
+		}
+
+	}
+	TOT_Hugh_Breim={
+		name="Hugh Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Hugh_Breim
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TOT_Garan_Each={
+		name="Garan Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Garan_Each
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TOT_Declan_Breim={
+		name="Declan Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOT_Declan_Breim
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TOT_Padran_Each={
+		name="Padran Each"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Padran_Each
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TOT_Nialcolm_Snamhtirsear={
+		name="Nialcolm Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Nialcolm_Snamhtirsear
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TOT_Malcolm_Tuas={
+		name="Malcolm Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Malcolm_Tuas
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TOT_Ciaran_Snamhtirsear={
+		name="Ciaran Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOT_Ciaran_Snamhtirsear
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TOT_Seamus_Buna={
+		name="Seamus Buna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Seamus_Buna
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TOT_Seam_Snamhtirsear={
+		name="Seam Snamhtirsear"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOT_Seam_Snamhtirsear
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TOT_Ulrich_Breim={
+		name="Ulrich Breim"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Ulrich_Breim
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TOT_Hugh_Faiscean={
+		name="Hugh Faiscean"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOT_Hugh_Faiscean
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TOT_Ciam_Faiscean={
+		name="Ciam Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Ciam_Faiscean
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TOT_Cialcolm_Tuas={
+		name="Cialcolm Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Cialcolm_Tuas
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TOT_Malcolm_Geach={
+		name="Malcolm Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Malcolm_Geach
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	TOT_Lialcolm_Each={
+		name="Lialcolm Each"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Lialcolm_Each
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	TOT_Niaran_Breim={
+		name="Niaran Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Niaran_Breim
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TOT_Ciam_Each={
+		name="Ciam Each"
+
+		advisor={
+			slot = high_command
+			idea_token = TOT_Ciam_Each
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	TOT_Keiran_Geach={
+		name="Keiran Geach"
+
+		advisor={
+			slot = theorist
+			idea_token = TOT_Keiran_Geach
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TOT_Aidan_Buna={
+		name="Aidan Buna"
+
+		advisor={
+			slot = theorist
+			idea_token = TOT_Aidan_Buna
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TOT_Seamus_Geach={
+		name="Seamus Geach"
+
+		advisor={
+			slot = theorist
+			idea_token = TOT_Seamus_Geach
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

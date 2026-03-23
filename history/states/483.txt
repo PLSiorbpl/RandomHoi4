@@ -2,42 +2,41 @@
 state={
 	id=483
 	name="STATE_483"
-	manpower = 1178043
+	manpower = 1483640
 	
-	state_category = large_town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=11
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=2
+		coal=0
 	}
 
 	history={
-		victory_points = { 6269 1}
-		victory_points = { 6276 4}
-		victory_points = { 6282 1}
+		victory_points = { 5807 3}
+		victory_points = { 5818 4}
 		
-		owner = KUL
+		owner = UFU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			6282 = {
+			industrial_complex = 1
+			
+			5814 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = KUL
+		add_core_of = UFU
 	}
 
 	provinces={
-		6259 6260 6261 6262 6263 6264 6265 6266 6267 6268 6269 6270 6271 6272 6273 6274 6275 6276 6277 6278 6279 6280 6281 6282 6283 6284 6285 6286 6287 
+		5806 5807 5808 5809 5810 5811 5812 5813 5814 5815 5816 5817 5818 5819 5820 5821 
 	}
 	local_supplies=0.0 
 }

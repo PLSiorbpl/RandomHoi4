@@ -2,37 +2,37 @@
 state={
 	id=484
 	name="STATE_484"
-	manpower = 934040
+	manpower = 1359210
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=4
+		oil=1
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 6291 6}
+		victory_points = { 5827 7}
 		
-		owner = PON
+		owner = IKA
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			air_base = 2
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = IKA
 	}
 
 	provinces={
-		6288 6289 6290 6291 6292 6293 6294 6295 6296 6297 6298 6299 6300 
+		5822 5823 5824 5825 5826 5827 5828 5829 5830 5831 5832 5833 5834 5835 5836 5837 5838 5839 
 	}
 	local_supplies=0.0 
 }

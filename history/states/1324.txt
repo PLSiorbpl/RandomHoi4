@@ -2,39 +2,42 @@
 state={
 	id=1324
 	name="STATE_1324"
-	manpower = 309960
+	manpower = 1268857
 	
-	state_category = pastoral
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=9
-		steel=7
+		rubber=15
+		steel=2
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		victory_points = { 17795 1}
+		victory_points = { 17798 2}
+		victory_points = { 17812 1}
 		
-		owner = MFN
+		owner = HTN
 		buildings = {
 			infrastructure = 2
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 0
 			
-			17381 = {
+			17808 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = MFN
+		add_core_of = HTN
 	}
 
 	provinces={
-		17377 17378 17379 17380 17381 17382 17383 17384 
+		17790 17791 17792 17793 17794 17795 17796 17797 17798 17799 17800 17801 17802 17803 17804 17805 17806 17807 17808 17809 17810 17811 17812 17813 17814 17815 
 	}
 	local_supplies=0.0 
 }

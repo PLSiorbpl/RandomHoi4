@@ -2,12 +2,12 @@
 state={
 	id=94
 	name="STATE_94"
-	manpower = 891514
+	manpower = 1337868
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=2
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 1428 5}
+		victory_points = { 1265 6}
+		victory_points = { 1270 1}
 		
-		owner = TMI
+		owner = MSN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 0
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = TMI
+		add_core_of = MSN
 	}
 
 	provinces={
-		1416 1417 1418 1419 1420 1421 1422 1423 1424 1425 1426 1427 1428 
+		1265 1266 1267 1268 1269 1270 1271 1272 1273 1274 1275 1276 1277 1278 
 	}
 	local_supplies=0.0 
 }

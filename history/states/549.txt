@@ -2,42 +2,37 @@
 state={
 	id=549
 	name="STATE_549"
-	manpower = 1345395
+	manpower = 842586
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=3
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7221 2}
-		victory_points = { 7225 4}
-		victory_points = { 7233 3}
+		victory_points = { 6592 4}
 		
-		owner = ULU
+		owner = UFU
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
 			
-			7220 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = ULU
+		add_core_of = UFU
 	}
 
 	provinces={
-		7218 7219 7220 7221 7222 7223 7224 7225 7226 7227 7228 7229 7230 7231 7232 7233 7234 7235 7236 7237 
+		6587 6588 6589 6590 6591 6592 6593 6594 
 	}
 	local_supplies=0.0 
 }

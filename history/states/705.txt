@@ -2,14 +2,14 @@
 state={
 	id=705
 	name="STATE_705"
-	manpower = 1587442
+	manpower = 541125
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,27 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 9427 4}
-		victory_points = { 9430 1}
-		victory_points = { 9443 6}
+		victory_points = { 8363 2}
 		
-		owner = MFN
+		owner = SEM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
-			arms_factory = 2
+			arms_factory = 0
 			industrial_complex = 0
 			
-			9440 = {
+			8364 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = MFN
+		add_core_of = SEM
 	}
 
 	provinces={
-		9422 9423 9424 9425 9426 9427 9428 9429 9430 9431 9432 9433 9434 9435 9436 9437 9438 9439 9440 9441 9442 9443 9444 9445 
+		8363 8364 8365 8366 8367 
 	}
 	local_supplies=0.0 
 }

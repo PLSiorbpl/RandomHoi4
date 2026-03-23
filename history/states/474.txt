@@ -2,42 +2,40 @@
 state={
 	id=474
 	name="STATE_474"
-	manpower = 1226247
+	manpower = 769148
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=8
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=11
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6114 6}
-		victory_points = { 6120 1}
-		victory_points = { 6124 2}
+		victory_points = { 5722 4}
 		
-		owner = FAB
+		owner = LIZ
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 3
 			
-			6125 = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5720 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = FAB
+		add_core_of = LIZ
 	}
 
 	provinces={
-		6113 6114 6115 6116 6117 6118 6119 6120 6121 6122 6123 6124 6125 6126 6127 6128 6129 6130 
+		5716 5717 5718 5719 5720 5721 5722 5723 
 	}
 	local_supplies=0.0 
 }

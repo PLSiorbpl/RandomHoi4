@@ -2,7 +2,7 @@
 state={
 	id=215
 	name="STATE_215"
-	manpower = 713135
+	manpower = 1022958
 	
 	state_category = town
 	#impassable = yes
@@ -13,28 +13,26 @@ state={
 		rubber=0
 		steel=0
 		tungsten=0
-		coal=0
+		coal=9
 	}
 
 	history={
-		victory_points = { 2966 2}
-		victory_points = { 2968 1}
-		victory_points = { 2975 1}
+		victory_points = { 2625 4}
 		
-		owner = GDA
+		owner = YFX
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = GDA
+		add_core_of = YFX
 	}
 
 	provinces={
-		2966 2967 2968 2969 2970 2971 2972 2973 2974 2975 
+		2625 2626 2627 2628 2629 2630 2631 2632 2633 2634 
 	}
 	local_supplies=0.0 
 }

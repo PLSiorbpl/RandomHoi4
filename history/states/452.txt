@@ -2,36 +2,38 @@
 state={
 	id=452
 	name="STATE_452"
-	manpower = 193674
+	manpower = 1004251
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=6
 		coal=0
 	}
 
 	history={
+		victory_points = { 5436 4}
+		victory_points = { 5440 1}
 		
-		owner = GDA
+		owner = XEN
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = GDA
+		add_core_of = XEN
 	}
 
 	provinces={
-		5854 5855 
+		5435 5436 5437 5438 5439 5440 5441 5442 5443 5444 
 	}
 	local_supplies=0.0 
 }

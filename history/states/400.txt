@@ -2,14 +2,14 @@
 state={
 	id=400
 	name="STATE_400"
-	manpower = 625571
+	manpower = 702559
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 5271 3}
-		victory_points = { 5274 1}
+		victory_points = { 4808 1}
+		victory_points = { 4809 2}
 		
-		owner = ETX
+		owner = AHC
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ETX
+		add_core_of = AHC
 	}
 
 	provinces={
-		5271 5272 5273 5274 5275 5276 5277 5278 
+		4806 4807 4808 4809 4810 4811 4812 
 	}
 	local_supplies=0.0 
 }

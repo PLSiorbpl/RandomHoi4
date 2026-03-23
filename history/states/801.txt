@@ -2,12 +2,12 @@
 state={
 	id=801
 	name="STATE_801"
-	manpower = 1161091
+	manpower = 516624
 	
-	state_category = city
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=6
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10814 2}
-		victory_points = { 10816 3}
-		victory_points = { 10825 1}
+		victory_points = { 9398 1}
+		victory_points = { 9399 1}
 		
-		owner = SVE
+		owner = IDU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = SVE
+		add_core_of = IDU
 	}
 
 	provinces={
-		10811 10812 10813 10814 10815 10816 10817 10818 10819 10820 10821 10822 10823 10824 10825 10826 10827 
+		9397 9398 9399 9400 
 	}
 	local_supplies=0.0 
 }

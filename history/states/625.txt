@@ -2,42 +2,38 @@
 state={
 	id=625
 	name="STATE_625"
-	manpower = 822687
+	manpower = 1374158
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
-		rubber=6
-		steel=0
-		tungsten=0
+		oil=1
+		rubber=0
+		steel=3
+		tungsten=5
 		coal=0
 	}
 
 	history={
-		victory_points = { 8305 2}
-		victory_points = { 8308 1}
-		victory_points = { 8310 1}
+		victory_points = { 7382 4}
+		victory_points = { 7384 3}
 		
-		owner = LUA
+		owner = ZAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
-			8301 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = LUA
+		add_core_of = ZAP
 	}
 
 	provinces={
-		8301 8302 8303 8304 8305 8306 8307 8308 8309 8310 8311 8312 8313 
+		7381 7382 7383 7384 7385 7386 7387 7388 7389 7390 7391 7392 7393 7394 
 	}
 	local_supplies=0.0 
 }

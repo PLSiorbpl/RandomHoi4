@@ -2,9 +2,9 @@
 state={
 	id=854
 	name="STATE_854"
-	manpower = 456177
+	manpower = 1512777
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 11466 1}
-		victory_points = { 11470 1}
+		victory_points = { 9920 7}
+		victory_points = { 9928 1}
 		
-		owner = NCL
+		owner = SAN
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			11465 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = NCL
+		add_core_of = SAN
 	}
 
 	provinces={
-		11465 11466 11467 11468 11469 11470 
+		9919 9920 9921 9922 9923 9924 9925 9926 9927 9928 9929 9930 9931 9932 9933 9934 
 	}
 	local_supplies=0.0 
 }

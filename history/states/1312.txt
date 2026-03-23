@@ -2,9 +2,9 @@
 state={
 	id=1312
 	name="STATE_1312"
-	manpower = 633026
+	manpower = 37250
 	
-	state_category = town
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,31 +12,29 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=18
 		coal=0
 	}
 
 	history={
-		victory_points = { 17236 2}
-		victory_points = { 17238 2}
 		
-		owner = RUT
+		owner = BYL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			17236 = {
+			17622 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = RUT
+		add_core_of = BYL
 	}
 
 	provinces={
-		17235 17236 17237 17238 17239 17240 17241 17242 
+		17605 17606 17607 17608 17609 17610 17611 17612 17613 17614 17615 17616 17617 17618 17619 17620 17621 17622 17623 17624 17625 17626 17627 17628 17629 17630 
 	}
 	local_supplies=0.0 
 }

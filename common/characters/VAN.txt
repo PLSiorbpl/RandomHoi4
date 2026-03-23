@@ -1,0 +1,880 @@
+characters = {
+	VAN_Varth_Thoguppu={
+		name="Varth Thoguppu"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Satish_Kadam={
+		name="Satish Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Satish_Kadam
+				traits = {	humble 	}
+		}
+
+	}
+	VAN_Deenthik_Vanthakku={
+		name="Deenthik Vanthakku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Deenthik_Vanthakku
+				traits = {	humble 	}
+		}
+
+	}
+	VAN_Siddharth_Kazhanneer={
+		name="Siddharth Kazhanneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Siddharth_Kazhanneer
+				traits = {	headstrong 	}
+		}
+
+	}
+	VAN_Deesh_Kadam={
+		name="Deesh Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Deesh_Kadam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	VAN_Jagadeenth_Thenjil={
+		name="Jagadeenth Thenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Jagadeenth_Thenjil
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	VAN_Mandranesh_Kurai={
+		name="Mandranesh Kurai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Mandranesh_Kurai
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	VAN_Vinoj_Thul={
+		name="Vinoj Thul"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Vinoj_Thul
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	VAN_Varun_Siranamai={
+		name="Varun Siranamai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Varun_Siranamai
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	VAN_Chan_Thenjil={
+		name="Chan Thenjil"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Chan_Thenjil
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VAN_Manod_Thul={
+		name="Manod Thul"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Manod_Thul
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	VAN_Ajay_Kadam={
+		name="Ajay Kadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Ajay_Kadam
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	VAN_Chandrak_Kazhanneer={
+		name="Chandrak Kazhanneer"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Chandrak_Kazhanneer
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	VAN_Vijay_Vanthakku={
+		name="Vijay Vanthakku"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Vijay_Vanthakku
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	VAN_Dinod_Vanthakku={
+		name="Dinod Vanthakku"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Dinod_Vanthakku
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	VAN_Harish_Siranamai={
+		name="Harish Siranamai"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Harish_Siranamai
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	VAN_Surem_Kazhanneer={
+		name="Surem Kazhanneer"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Surem_Kazhanneer
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	VAN_Raghavi_Siranamai={
+		name="Raghavi Siranamai"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Raghavi_Siranamai
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	VAN_Raghan_Thenjil={
+		name="Raghan Thenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Raghan_Thenjil
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	VAN_Mandranesh_Paadiyal={
+		name="Mandranesh Paadiyal"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Mandranesh_Paadiyal
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	VAN_Deepak_Kurai={
+		name="Deepak Kurai"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Deepak_Kurai
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	VAN_Siddhandran_Siranamai={
+		name="Siddhandran Siranamai"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Pranod_Kadam={
+		name="Pranod Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Pranod_Kadam
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	VAN_Jagadeepakas_Kazhanneer={
+		name="Jagadeepakas Kazhanneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Jagadeepakas_Kazhanneer
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	VAN_Dinoj_Paadiyal={
+		name="Dinoj Paadiyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Dinoj_Paadiyal
+				traits = {	basileus 	}
+		}
+
+	}
+	VAN_Mohavi_Thoguppu={
+		name="Mohavi Thoguppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Mohavi_Thoguppu
+				traits = {	basileus 	}
+		}
+
+	}
+	VAN_Dinod_Kadam={
+		name="Dinod Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Dinod_Kadam
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	VAN_Ragharish_Siranamai={
+		name="Ragharish Siranamai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Ragharish_Siranamai
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	VAN_Chan_Vanthakku={
+		name="Chan Vanthakku"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Chan_Vanthakku
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	VAN_Kumar_Vanthakku={
+		name="Kumar Vanthakku"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Kumar_Vanthakku
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	VAN_Suresh_Siranamai={
+		name="Suresh Siranamai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Suresh_Siranamai
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	VAN_Suresh_Kadam={
+		name="Suresh Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Suresh_Kadam
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VAN_Ganoj_Siranamai={
+		name="Ganoj Siranamai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Ganoj_Siranamai
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	VAN_Deenthik_Thoguppu={
+		name="Deenthik Thoguppu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Deenthik_Thoguppu
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	VAN_Prakash_Thenjil={
+		name="Prakash Thenjil"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Prakash_Thenjil
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	VAN_Raghanod_Kurai={
+		name="Raghanod Kurai"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Raghanod_Kurai
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	VAN_Raghavi_Vanthakku={
+		name="Raghavi Vanthakku"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Raghavi_Vanthakku
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	VAN_Raghav_Kurai={
+		name="Raghav Kurai"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Raghav_Kurai
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	VAN_Ganoj_Thenjil={
+		name="Ganoj Thenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Ganoj_Thenjil
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	VAN_Deepak_Kazhanneer={
+		name="Deepak Kazhanneer"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Deepak_Kazhanneer
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	VAN_Deesh_Thenjil={
+		name="Deesh Thenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Deesh_Thenjil
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	VAN_Harun_Siranamai={
+		name="Harun Siranamai"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Harun_Siranamai
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	VAN_Chandrak_Siranamai={
+		name="Chandrak Siranamai"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Chandrak_Kadam={
+		name="Chandrak Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Chandrak_Kadam
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	VAN_Satish_Thoguppu={
+		name="Satish Thoguppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Satish_Thoguppu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	VAN_Ragadeesh_Kazhanneer={
+		name="Ragadeesh Kazhanneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Ragadeesh_Kazhanneer
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	VAN_Kirandran_Siranamai={
+		name="Kirandran Siranamai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Kirandran_Siranamai
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	VAN_Dinod_Siranamai={
+		name="Dinod Siranamai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Dinod_Siranamai
+				traits = {	infirm 	}
+		}
+
+	}
+	VAN_Harun_Thoguppu={
+		name="Harun Thoguppu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Harun_Thoguppu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	VAN_Deesh_Kurai={
+		name="Deesh Kurai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Deesh_Kurai
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	VAN_Chav_Kurai={
+		name="Chav Kurai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Chav_Kurai
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VAN_Mohan_Kazhanneer={
+		name="Mohan Kazhanneer"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Mohan_Kazhanneer
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	VAN_Harthil_Siranamai={
+		name="Harthil Siranamai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Harthil_Siranamai
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	VAN_Manod_Kadam={
+		name="Manod Kadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Manod_Kadam
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	VAN_Dinoj_Kadam={
+		name="Dinoj Kadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Dinoj_Kadam
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	VAN_Siddhandran_Kadam={
+		name="Siddhandran Kadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Siddhandran_Kadam
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	VAN_Raghan_Kadam={
+		name="Raghan Kadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Raghan_Kadam
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	VAN_Jagadeenth_Kazhanneer={
+		name="Jagadeenth Kazhanneer"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Jagadeenth_Kazhanneer
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	VAN_Surem_Thoguppu={
+		name="Surem Thoguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Surem_Thoguppu
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	VAN_Kirandran_Thul={
+		name="Kirandran Thul"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Kirandran_Thul
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	VAN_Arun_Thoguppu={
+		name="Arun Thoguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Arun_Thoguppu
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	VAN_Jagadeeshna_Thul={
+		name="Jagadeeshna Thul"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Jagadeeshna_Thul
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	VAN_Vinoj_Kazhanneer={
+		name="Vinoj Kazhanneer"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Vinoj_Kazhanneer
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	VAN_Jagadeenth_Paadiyal={
+		name="Jagadeenth Paadiyal"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Jagadeeshna_Pudhurugal={
+		name="Jagadeeshna Pudhurugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Jagadeeshna_Pudhurugal
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	VAN_Prem_Paadiyal={
+		name="Prem Paadiyal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Prem_Paadiyal
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	VAN_Pran_Pudhurugal={
+		name="Pran Pudhurugal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Pran_Pudhurugal
+				traits = {	infirm 	}
+		}
+
+	}
+	VAN_Moharun_Kurai={
+		name="Moharun Kurai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Moharun_Kurai
+				traits = {	rearmer 	}
+		}
+
+	}
+	VAN_Kiranod_Thenjil={
+		name="Kiranod Thenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Kiranod_Thenjil
+				traits = {	rearmer 	}
+		}
+
+	}
+	VAN_Raghavi_Kazhanneer={
+		name="Raghavi Kazhanneer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Raghavi_Kazhanneer
+				traits = {	rearmer 	}
+		}
+
+	}
+	VAN_Siddhan_Pudhurugal={
+		name="Siddhan Pudhurugal"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Siddhan_Pudhurugal
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	VAN_Ragadeesh_Kurai={
+		name="Ragadeesh Kurai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Ragadeesh_Kurai
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	VAN_Siddhanod_Paadiyal={
+		name="Siddhanod Paadiyal"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Siddhanod_Paadiyal
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	VAN_Vinoj_Kadam={
+		name="Vinoj Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Vinoj_Kadam
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	VAN_Vinesh_Kazhanneer={
+		name="Vinesh Kazhanneer"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Vinesh_Kazhanneer
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	VAN_Kiranod_Thul={
+		name="Kiranod Thul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Kiranod_Thul
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	VAN_Anil_Thoguppu={
+		name="Anil Thoguppu"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Anil_Thoguppu
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	VAN_Bala_Kazhanneer={
+		name="Bala Kazhanneer"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Bala_Kazhanneer
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	VAN_Chan_Thul={
+		name="Chan Thul"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Chan_Thul
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	VAN_Deesh_Pudhurugal={
+		name="Deesh Pudhurugal"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Deesh_Pudhurugal
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	VAN_Siddhandran_Thoguppu={
+		name="Siddhandran Thoguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Siddhandran_Thoguppu
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	VAN_Prakash_Thoguppu={
+		name="Prakash Thoguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Prakash_Thoguppu
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	VAN_Rajiv_Thoguppu={
+		name="Rajiv Thoguppu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Rajiv_Thoguppu
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	VAN_Presh_Vanthakku={
+		name="Presh Vanthakku"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Presh_Vanthakku
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	VAN_Dinoj_Kazhanneer={
+		name="Dinoj Kazhanneer"
+
+		advisor={
+			slot = theorist
+			idea_token = VAN_Dinoj_Kazhanneer
+				traits = {	military_theorist 	}
+		}
+
+	}
+	VAN_Surem_Thenjil={
+		name="Surem Thenjil"
+
+		advisor={
+			slot = theorist
+			idea_token = VAN_Surem_Thenjil
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	VAN_Siddhan_Kurai={
+		name="Siddhan Kurai"
+
+		advisor={
+			slot = theorist
+			idea_token = VAN_Siddhan_Kurai
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

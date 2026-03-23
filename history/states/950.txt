@@ -2,7 +2,7 @@
 state={
 	id=950
 	name="STATE_950"
-	manpower = 379093
+	manpower = 831633
 	
 	state_category = rural
 	#impassable = yes
@@ -17,25 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 12715 1}
+		victory_points = { 11305 1}
+		victory_points = { 11312 1}
+		victory_points = { 11314 1}
 		
-		owner = BRE
+		owner = GAA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 2
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
-			12713 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BRE
+		add_core_of = GAA
 	}
 
 	provinces={
-		12712 12713 12714 12715 
+		11304 11305 11306 11307 11308 11309 11310 11311 11312 11313 11314 11315 11316 11317 
 	}
 	local_supplies=0.0 
 }

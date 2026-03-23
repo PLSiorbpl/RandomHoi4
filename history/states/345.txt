@@ -2,9 +2,9 @@
 state={
 	id=345
 	name="STATE_345"
-	manpower = 1085954
+	manpower = 848408
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 4608 4}
-		victory_points = { 4609 4}
+		victory_points = { 4055 1}
+		victory_points = { 4056 3}
 		
-		owner = TGY
+		owner = YFX
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = TGY
+		add_core_of = YFX
 	}
 
 	provinces={
-		4606 4607 4608 4609 4610 4611 4612 4613 4614 4615 4616 4617 4618 4619 4620 4621 
+		4052 4053 4054 4055 4056 4057 4058 4059 
 	}
 	local_supplies=0.0 
 }

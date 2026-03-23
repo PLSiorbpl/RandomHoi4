@@ -1,0 +1,880 @@
+characters = {
+	SEM_Gorkai_Birataso={
+		name="Gorkai Birataso"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEM_Ibai_Birataso={
+		name="Ibai Birataso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ibai_Birataso
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	SEM_Ibaitorka_Ikua={
+		name="Ibaitorka Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ibaitorka_Ikua
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SEM_Gaitz_Odola={
+		name="Gaitz Odola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Gaitz_Odola
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SEM_Unat_Ikua={
+		name="Unat Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Unat_Ikua
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SEM_Ibai_Treko={
+		name="Ibai Treko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ibai_Treko
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SEM_Miker_Ikua={
+		name="Miker Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Miker_Ikua
+				traits = {	humble 	}
+		}
+
+	}
+	SEM_Eder_Hotzua={
+		name="Eder Hotzua"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Eder_Hotzua
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SEM_Miker_Treko={
+		name="Miker Treko"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Miker_Treko
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SEM_Unaizkaiur_Odola={
+		name="Unaizkaiur Odola"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Unaizkaiur_Odola
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SEM_Ekaitz_Eguna={
+		name="Ekaitz Eguna"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Ekaitz_Eguna
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SEM_Eneko_Odola={
+		name="Eneko Odola"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Eneko_Odola
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SEM_Gorkaiur_Hotzua={
+		name="Gorkaiur Hotzua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Gorkaiur_Hotzua
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SEM_Harka_Eguna={
+		name="Harka Eguna"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Harka_Eguna
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SEM_Unaitz_Eguna={
+		name="Unaitz Eguna"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Unaitz_Eguna
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SEM_Gorka_Ikuna={
+		name="Gorka Ikuna"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Gorka_Ikuna
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	SEM_Xabier_Hotzua={
+		name="Xabier Hotzua"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Xabier_Hotzua
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SEM_Ikel_Odola={
+		name="Ikel Odola"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Ikel_Odola
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	SEM_Benat_Ikua={
+		name="Benat Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Benat_Ikua
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SEM_Unaizkaiur_Birataso={
+		name="Unaizkaiur Birataso"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Unaizkaiur_Birataso
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SEM_Ekai_Hotzua={
+		name="Ekai Hotzua"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Ekai_Hotzua
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	SEM_Gorkaiur_Erra={
+		name="Gorkaiur Erra"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEM_Ibai_Erra={
+		name="Ibai Erra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ibai_Erra
+				traits = {	warmonger 	}
+		}
+
+	}
+	SEM_Eneko_Ikua={
+		name="Eneko Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Eneko_Ikua
+				traits = {	generallissimo 	}
+		}
+
+	}
+	SEM_Harka_Hotzua={
+		name="Harka Hotzua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Harka_Hotzua
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	SEM_Benat_Eguna={
+		name="Benat Eguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Benat_Eguna
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	SEM_Aitz_Arna={
+		name="Aitz Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Aitz_Arna
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	SEM_Ekai_Semendargia={
+		name="Ekai Semendargia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ekai_Semendargia
+				traits = {	basileus 	}
+		}
+
+	}
+	SEM_Unaitz_Treko={
+		name="Unaitz Treko"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Unaitz_Treko
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SEM_Xabier_Semendargia={
+		name="Xabier Semendargia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Xabier_Semendargia
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SEM_Ander_Ikua={
+		name="Ander Ikua"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Ander_Ikua
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SEM_Eder_Semendargia={
+		name="Eder Semendargia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Eder_Semendargia
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SEM_Ibaiur_Hotzua={
+		name="Ibaiur Hotzua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Ibaiur_Hotzua
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SEM_Mikel_Ikua={
+		name="Mikel Ikua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Mikel_Ikua
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	SEM_Harkaitorkai_Semendargia={
+		name="Harkaitorkai Semendargia"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Harkaitorkai_Semendargia
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SEM_Gorka_Birataso={
+		name="Gorka Birataso"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Gorka_Birataso
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	SEM_Benai_Ikua={
+		name="Benai Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Benai_Ikua
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SEM_Gaitz_Birataso={
+		name="Gaitz Birataso"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Gaitz_Birataso
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	SEM_Koldo_Eguna={
+		name="Koldo Eguna"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Koldo_Eguna
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SEM_Unat_Semendargia={
+		name="Unat Semendargia"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Unat_Semendargia
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SEM_Ikel_Treko={
+		name="Ikel Treko"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Ikel_Treko
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	SEM_Unaitz_Ikua={
+		name="Unaitz Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Unaitz_Ikua
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	SEM_Gorka_Semendargia={
+		name="Gorka Semendargia"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEM_Eder_Arna={
+		name="Eder Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Eder_Arna
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SEM_Unat_Arna={
+		name="Unat Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Unat_Arna
+				traits = {	polemarch 	}
+		}
+
+	}
+	SEM_Miker_Odola={
+		name="Miker Odola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Miker_Odola
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SEM_Ikel_Erra={
+		name="Ikel Erra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ikel_Erra
+				traits = {	polemarch 	}
+		}
+
+	}
+	SEM_Amaiur_Erra={
+		name="Amaiur Erra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Amaiur_Erra
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SEM_Aitor_Treko={
+		name="Aitor Treko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Aitor_Treko
+				traits = {	polemarch 	}
+		}
+
+	}
+	SEM_Ikel_Birataso={
+		name="Ikel Birataso"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Ikel_Birataso
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SEM_Eneko_Semendargia={
+		name="Eneko Semendargia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Eneko_Semendargia
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SEM_Ekai_Erra={
+		name="Ekai Erra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Ekai_Erra
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SEM_Unaizkaiur_Ikua={
+		name="Unaizkaiur Ikua"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Unaizkaiur_Ikua
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SEM_Eder_Birataso={
+		name="Eder Birataso"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Eder_Birataso
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	SEM_Aitor_Ikuna={
+		name="Aitor Ikuna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Aitor_Ikuna
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	SEM_Unaizkaiur_Treko={
+		name="Unaizkaiur Treko"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Unaizkaiur_Treko
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SEM_Iker_Semendargia={
+		name="Iker Semendargia"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Iker_Semendargia
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SEM_Iban_Eguna={
+		name="Iban Eguna"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Iban_Eguna
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	SEM_Ekai_Treko={
+		name="Ekai Treko"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Ekai_Treko
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	SEM_Harkai_Erra={
+		name="Harkai Erra"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Harkai_Erra
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SEM_Gaiur_Treko={
+		name="Gaiur Treko"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Gaiur_Treko
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	SEM_Amaizkaitork_Ikua={
+		name="Amaizkaitork Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Amaizkaitork_Ikua
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	SEM_Amaizkaitork_Eguna={
+		name="Amaizkaitork Eguna"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Amaizkaitork_Eguna
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	SEM_Harkaitorkai_Hotzua={
+		name="Harkaitorkai Hotzua"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEM_Amaiur_Odola={
+		name="Amaiur Odola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Amaiur_Odola
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SEM_Miker_Hotzua={
+		name="Miker Hotzua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Miker_Hotzua
+				traits = {	first_lady 	}
+		}
+
+	}
+	SEM_Asier_Ikuna={
+		name="Asier Ikuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Asier_Ikuna
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SEM_Miker_Eguna={
+		name="Miker Eguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Miker_Eguna
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SEM_Ikel_Ikuna={
+		name="Ikel Ikuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ikel_Ikuna
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SEM_Ander_Hotzua={
+		name="Ander Hotzua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEM_Ander_Hotzua
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SEM_Harkai_Arna={
+		name="Harkai Arna"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Harkai_Arna
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SEM_Iban_Ikua={
+		name="Iban Ikua"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Iban_Ikua
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SEM_Harkaitz_Odola={
+		name="Harkaitz Odola"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Harkaitz_Odola
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SEM_Unaitz_Ikuna={
+		name="Unaitz Ikuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEM_Unaitz_Ikuna
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SEM_Mikel_Erra={
+		name="Mikel Erra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Mikel_Erra
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SEM_Gaiur_Semendargia={
+		name="Gaiur Semendargia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEM_Gaiur_Semendargia
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SEM_Gaitz_Ikua={
+		name="Gaitz Ikua"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Gaitz_Ikua
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	SEM_Ibaitorka_Erra={
+		name="Ibaitorka Erra"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEM_Ibaitorka_Erra
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	SEM_Ibaitorka_Ikuna={
+		name="Ibaitorka Ikuna"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Ibaitorka_Ikuna
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	SEM_Harkai_Hotzua={
+		name="Harkai Hotzua"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Harkai_Hotzua
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	SEM_Asier_Arna={
+		name="Asier Arna"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Asier_Arna
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	SEM_Gaizka_Semendargia={
+		name="Gaizka Semendargia"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Gaizka_Semendargia
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SEM_Mikel_Odola={
+		name="Mikel Odola"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Mikel_Odola
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	SEM_Gaizka_Erra={
+		name="Gaizka Erra"
+
+		advisor={
+			slot = high_command
+			idea_token = SEM_Gaizka_Erra
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	SEM_Unai_Eguna={
+		name="Unai Eguna"
+
+		advisor={
+			slot = theorist
+			idea_token = SEM_Unai_Eguna
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SEM_Eneko_Treko={
+		name="Eneko Treko"
+
+		advisor={
+			slot = theorist
+			idea_token = SEM_Eneko_Treko
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SEM_Iban_Ikuna={
+		name="Iban Ikuna"
+
+		advisor={
+			slot = theorist
+			idea_token = SEM_Iban_Ikuna
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

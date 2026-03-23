@@ -2,13 +2,13 @@
 state={
 	id=283
 	name="STATE_283"
-	manpower = 321914
+	manpower = 977563
 	
-	state_category = pastoral
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=0
+		aluminium=1
+		chromium=1
 		oil=0
 		rubber=0
 		steel=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 3816 1}
+		victory_points = { 3419 1}
+		victory_points = { 3420 3}
 		
-		owner = HUA
+		owner = MSN
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HUA
+		add_core_of = MSN
 	}
 
 	provinces={
-		3816 3817 3818 3819 
+		3419 3420 3421 3422 3423 3424 3425 3426 3427 3428 
 	}
 	local_supplies=0.0 
 }

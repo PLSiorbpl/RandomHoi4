@@ -2,9 +2,9 @@
 state={
 	id=130
 	name="STATE_130"
-	manpower = 1570745
+	manpower = 2553318
 	
-	state_category = city
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 1842 1}
-		victory_points = { 1845 3}
-		victory_points = { 1854 1}
-		victory_points = { 1861 3}
-		victory_points = { 1863 2}
+		victory_points = { 1689 5}
+		victory_points = { 1706 11}
 		
-		owner = MPI
+		owner = HAM
 		buildings = {
-			infrastructure = 3
-			air_base = 5
-			arms_factory = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MPI
+		add_core_of = HAM
 	}
 
 	provinces={
-		1842 1843 1844 1845 1846 1847 1848 1849 1850 1851 1852 1853 1854 1855 1856 1857 1858 1859 1860 1861 1862 1863 1864 1865 1866 1867 
+		1684 1685 1686 1687 1688 1689 1690 1691 1692 1693 1694 1695 1696 1697 1698 1699 1700 1701 1702 1703 1704 1705 1706 1707 1708 1709 1710 1711 1712 
 	}
 	local_supplies=0.0 
 }

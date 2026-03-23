@@ -2,39 +2,39 @@
 state={
 	id=671
 	name="STATE_671"
-	manpower = 755004
+	manpower = 1287213
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
-		steel=0
+		steel=16
 		tungsten=0
-		coal=0
+		coal=8
 	}
 
 	history={
-		victory_points = { 8940 2}
-		victory_points = { 8941 1}
-		victory_points = { 8947 1}
+		victory_points = { 7984 3}
+		victory_points = { 7986 1}
+		victory_points = { 7991 2}
 		
-		owner = YIC
+		owner = UFU
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
-			industrial_complex = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = YIC
+		add_core_of = UFU
 	}
 
 	provinces={
-		8938 8939 8940 8941 8942 8943 8944 8945 8946 8947 
+		7978 7979 7980 7981 7982 7983 7984 7985 7986 7987 7988 7989 7990 7991 
 	}
 	local_supplies=0.0 
 }

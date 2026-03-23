@@ -2,14 +2,14 @@
 state={
 	id=889
 	name="STATE_889"
-	manpower = 691338
+	manpower = 1976608
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=3
+		oil=0
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 11909 2}
-		victory_points = { 11915 2}
+		victory_points = { 10345 2}
+		victory_points = { 10349 5}
+		victory_points = { 10353 2}
+		victory_points = { 10354 4}
 		
-		owner = MFN
+		owner = IKA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 2
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = MFN
+		add_core_of = IKA
 	}
 
 	provinces={
-		11909 11910 11911 11912 11913 11914 11915 11916 11917 11918 
+		10339 10340 10341 10342 10343 10344 10345 10346 10347 10348 10349 10350 10351 10352 10353 10354 10355 10356 10357 10358 10359 10360 
 	}
 	local_supplies=0.0 
 }

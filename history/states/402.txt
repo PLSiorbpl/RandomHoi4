@@ -2,7 +2,7 @@
 state={
 	id=402
 	name="STATE_402"
-	manpower = 635223
+	manpower = 1004648
 	
 	state_category = town
 	#impassable = yes
@@ -10,33 +10,30 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=5
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5286 2}
-		victory_points = { 5288 2}
+		victory_points = { 4833 2}
+		victory_points = { 4834 3}
 		
-		owner = FUA
+		owner = RSM
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
 			
-			5292 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = FUA
+		add_core_of = RSM
 	}
 
 	provinces={
-		5284 5285 5286 5287 5288 5289 5290 5291 5292 
+		4827 4828 4829 4830 4831 4832 4833 4834 4835 4836 
 	}
 	local_supplies=0.0 
 }

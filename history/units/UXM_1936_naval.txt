@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Uxman Fleet"			
+		naval_base = 17909
+		task_force = {
+			name = "Uxman Fleet"
+			location = 17909
+			
+						ship = { name = "Yaxul" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = UXM version_name = "Chichen Class" } }	}
+			ship = { name = "Benque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UXM version_name = "Uxman Class" } }	}
+			ship = { name = "Chichen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UXM version_name = "Chol Class" } }	}
+			ship = { name = "Benque 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UXM version_name = "Chol Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

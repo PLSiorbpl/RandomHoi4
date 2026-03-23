@@ -1,0 +1,880 @@
+characters = {
+	LIM_Selih_Koprak={
+		name="Selih Koprak"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIM_Enesulent_Golge={
+		name="Enesulent Golge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Enesulent_Golge
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	LIM_Savas_Yurt={
+		name="Savas Yurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Savas_Yurt
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	LIM_Boran_Buzgarimane={
+		name="Boran Buzgarimane"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Boran_Buzgarimane
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LIM_Selim_Golge={
+		name="Selim Golge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Selim_Golge
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	LIM_Boran_Sicak={
+		name="Boran Sicak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Boran_Sicak
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LIM_Suat_Yilik={
+		name="Suat Yilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Suat_Yilik
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LIM_Ertugrun_Yilik={
+		name="Ertugrun Yilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Ertugrun_Yilik
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	LIM_Ahmet_Koprak={
+		name="Ahmet Koprak"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Ahmet_Koprak
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LIM_Kadir_Sanlilik={
+		name="Kadir Sanlilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Kadir_Sanlilik
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	LIM_Ener_Sanlilik={
+		name="Ener Sanlilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Ener_Sanlilik
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	LIM_Enerem_Limsek={
+		name="Enerem Limsek"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Enerem_Limsek
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	LIM_Enesulent_Limsek={
+		name="Enesulent Limsek"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Enesulent_Limsek
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	LIM_Sinanerkan_Sanlilik={
+		name="Sinanerkan Sanlilik"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Sinanerkan_Sanlilik
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	LIM_Faruk_Yilik={
+		name="Faruk Yilik"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Faruk_Yilik
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	LIM_Yalhat_Sanlilik={
+		name="Yalhat Sanlilik"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Yalhat_Sanlilik
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	LIM_Musuf_Yilik={
+		name="Musuf Yilik"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Musuf_Yilik
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	LIM_Halih_Golge={
+		name="Halih Golge"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Halih_Golge
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	LIM_Salih_Koprak={
+		name="Salih Koprak"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Salih_Koprak
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	LIM_Orhan_Buzgarimane={
+		name="Orhan Buzgarimane"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Orhan_Buzgarimane
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	LIM_Utku_Buzgarimane={
+		name="Utku Buzgarimane"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Utku_Buzgarimane
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	LIM_Emir_Koylu={
+		name="Emir Koylu"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIM_Selil_Koprak={
+		name="Selil Koprak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Selil_Koprak
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	LIM_Isker_Sanlilik={
+		name="Isker Sanlilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Isker_Sanlilik
+				traits = {	polemarch 	}
+		}
+
+	}
+	LIM_Hakaner_Oyku={
+		name="Hakaner Oyku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Hakaner_Oyku
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	LIM_Selil_Sicak={
+		name="Selil Sicak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Selil_Sicak
+				traits = {	warmonger 	}
+		}
+
+	}
+	LIM_Adem_Sanlilik={
+		name="Adem Sanlilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Adem_Sanlilik
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	LIM_Emin_Sanlilik={
+		name="Emin Sanlilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Emin_Sanlilik
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	LIM_Ertuhat_Yurt={
+		name="Ertuhat Yurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Ertuhat_Yurt
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	LIM_Ertuhan_Sicak={
+		name="Ertuhan Sicak"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Ertuhan_Sicak
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LIM_Selil_Golge={
+		name="Selil Golge"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Selil_Golge
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LIM_Boran_Koylu={
+		name="Boran Koylu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Boran_Koylu
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	LIM_Orhan_Koylu={
+		name="Orhan Koylu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Orhan_Koylu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	LIM_Ertuhat_Golge={
+		name="Ertuhat Golge"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Ertuhat_Golge
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	LIM_Iskent_Koprak={
+		name="Iskent Koprak"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Iskent_Koprak
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	LIM_Faruk_Koylu={
+		name="Faruk Koylu"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Faruk_Koylu
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	LIM_Hakaner_Yurt={
+		name="Hakaner Yurt"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Hakaner_Yurt
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	LIM_Orhanesul_Koylu={
+		name="Orhanesul Koylu"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Orhanesul_Koylu
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	LIM_Yalhat_Buzgarimane={
+		name="Yalhat Buzgarimane"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Yalhat_Buzgarimane
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	LIM_Ramaz_Koprak={
+		name="Ramaz Koprak"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Ramaz_Koprak
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	LIM_Isker_Yilik={
+		name="Isker Yilik"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Isker_Yilik
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	LIM_Eferkan_Yilik={
+		name="Eferkan Yilik"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Eferkan_Yilik
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	LIM_Resul_Limsek={
+		name="Resul Limsek"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIM_Suat_Limsek={
+		name="Suat Limsek"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Suat_Limsek
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LIM_Faruk_Limsek={
+		name="Faruk Limsek"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Faruk_Limsek
+				traits = {	polemarch 	}
+		}
+
+	}
+	LIM_Salil_Sanlilik={
+		name="Salil Sanlilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Salil_Sanlilik
+				traits = {	political_dancer 	}
+		}
+
+	}
+	LIM_Mustafe_Buzgarimane={
+		name="Mustafe Buzgarimane"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Mustafe_Buzgarimane
+				traits = {	infirm 	}
+		}
+
+	}
+	LIM_Mustafa_Limsek={
+		name="Mustafa Limsek"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Mustafa_Limsek
+				traits = {	political_dancer 	}
+		}
+
+	}
+	LIM_Zaferkan_Sanlilik={
+		name="Zaferkan Sanlilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Zaferkan_Sanlilik
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LIM_Cemalhanes_Koprak={
+		name="Cemalhanes Koprak"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Cemalhanes_Koprak
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LIM_Arif_Sanlilik={
+		name="Arif Sanlilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Arif_Sanlilik
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	LIM_Adem_Buzgarimane={
+		name="Adem Buzgarimane"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Adem_Buzgarimane
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LIM_Yusuf_Yilik={
+		name="Yusuf Yilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Yusuf_Yilik
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	LIM_Orhanesul_Koprak={
+		name="Orhanesul Koprak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Orhanesul_Koprak
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	LIM_Sinanerkan_Koylu={
+		name="Sinanerkan Koylu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Sinanerkan_Koylu
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LIM_Ahmet_Oyku={
+		name="Ahmet Oyku"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Ahmet_Oyku
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	LIM_Halih_Sanlilik={
+		name="Halih Sanlilik"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Halih_Sanlilik
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	LIM_Bulent_Koprak={
+		name="Bulent Koprak"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Bulent_Koprak
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	LIM_Musuf_Koprak={
+		name="Musuf Koprak"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Musuf_Koprak
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	LIM_Yustafa_Buzgarimane={
+		name="Yustafa Buzgarimane"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Yustafa_Buzgarimane
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	LIM_Tunc_Yurt={
+		name="Tunc Yurt"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Tunc_Yurt
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	LIM_Arif_Oyku={
+		name="Arif Oyku"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Arif_Oyku
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	LIM_Selil_Buzgarimane={
+		name="Selil Buzgarimane"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Selil_Buzgarimane
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	LIM_Kerkan_Sicak={
+		name="Kerkan Sicak"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIM_Adem_Oyku={
+		name="Adem Oyku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Adem_Oyku
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	LIM_Enerem_Buzgarimane={
+		name="Enerem Buzgarimane"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Enerem_Buzgarimane
+				traits = {	first_lady 	}
+		}
+
+	}
+	LIM_Cemalhanes_Sicak={
+		name="Cemalhanes Sicak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Cemalhanes_Sicak
+				traits = {	the_banker 	}
+		}
+
+	}
+	LIM_Ener_Yilik={
+		name="Ener Yilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Ener_Yilik
+				traits = {	first_lady 	}
+		}
+
+	}
+	LIM_Tunc_Koprak={
+		name="Tunc Koprak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Tunc_Koprak
+				traits = {	rearmer 	}
+		}
+
+	}
+	LIM_Halcin_Yurt={
+		name="Halcin Yurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIM_Halcin_Yurt
+				traits = {	infirm 	}
+		}
+
+	}
+	LIM_Salim_Koylu={
+		name="Salim Koylu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Salim_Koylu
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LIM_Hakanesul_Koylu={
+		name="Hakanesul Koylu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Hakanesul_Koylu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	LIM_Ilkerha_Limsek={
+		name="Ilkerha Limsek"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Ilkerha_Limsek
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	LIM_Yilmalilmali_Limsek={
+		name="Yilmalilmali Limsek"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIM_Yilmalilmali_Limsek
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	LIM_Enerem_Sanlilik={
+		name="Enerem Sanlilik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Enerem_Sanlilik
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	LIM_Yilmalilmali_Yurt={
+		name="Yilmalilmali Yurt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIM_Yilmalilmali_Yurt
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	LIM_Yilmalilmali_Oyku={
+		name="Yilmalilmali Oyku"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Yilmalilmali_Oyku
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	LIM_Taylan_Yurt={
+		name="Taylan Yurt"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIM_Taylan_Yurt
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	LIM_Kerkan_Sanlilik={
+		name="Kerkan Sanlilik"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Kerkan_Sanlilik
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	LIM_Faruk_Yurt={
+		name="Faruk Yurt"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Faruk_Yurt
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	LIM_Yusuf_Sanlilik={
+		name="Yusuf Sanlilik"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Yusuf_Sanlilik
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	LIM_Salil_Sicak={
+		name="Salil Sicak"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Salil_Sicak
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	LIM_Enes_Yilik={
+		name="Enes Yilik"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Enes_Yilik
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	LIM_Bulent_Golge={
+		name="Bulent Golge"
+
+		advisor={
+			slot = high_command
+			idea_token = LIM_Bulent_Golge
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	LIM_Sinanerkan_Yurt={
+		name="Sinanerkan Yurt"
+
+		advisor={
+			slot = theorist
+			idea_token = LIM_Sinanerkan_Yurt
+				traits = {	military_theorist 	}
+		}
+
+	}
+	LIM_Emin_Sicak={
+		name="Emin Sicak"
+
+		advisor={
+			slot = theorist
+			idea_token = LIM_Emin_Sicak
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	LIM_Eminan_Buzgarimane={
+		name="Eminan Buzgarimane"
+
+		advisor={
+			slot = theorist
+			idea_token = LIM_Eminan_Buzgarimane
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

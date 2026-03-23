@@ -2,13 +2,13 @@
 state={
 	id=286
 	name="STATE_286"
-	manpower = 572037
+	manpower = 1218015
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=7
-		chromium=0
+		aluminium=0
+		chromium=4
 		oil=0
 		rubber=0
 		steel=0
@@ -17,26 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 3866 1}
-		victory_points = { 3873 1}
+		victory_points = { 3453 1}
+		victory_points = { 3455 1}
+		victory_points = { 3459 4}
 		
-		owner = GDA
+		owner = BXN
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
 			
-			3866 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = GDA
+		add_core_of = BXN
 	}
 
 	provinces={
-		3866 3867 3868 3869 3870 3871 3872 3873 
+		3449 3450 3451 3452 3453 3454 3455 3456 3457 3458 3459 3460 3461 
 	}
 	local_supplies=0.0 
 }

@@ -2,38 +2,39 @@
 state={
 	id=74
 	name="STATE_74"
-	manpower = 1369487
+	manpower = 992341
 	
-	state_category = city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
-		steel=27
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 1147 7}
-		victory_points = { 1156 3}
+		victory_points = { 963 1}
+		victory_points = { 969 1}
+		victory_points = { 971 2}
 		
-		owner = NAZ
+		owner = FRO
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NAZ
+		add_core_of = FRO
 	}
 
 	provinces={
-		1142 1143 1144 1145 1146 1147 1148 1149 1150 1151 1152 1153 1154 1155 1156 1157 1158 1159 1160 1161 
+		962 963 964 965 966 967 968 969 970 971 
 	}
 	local_supplies=0.0 
 }

@@ -2,12 +2,12 @@
 state={
 	id=261
 	name="STATE_261"
-	manpower = 1597195
+	manpower = 605982
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=11
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,22 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 3548 12}
+		victory_points = { 3094 2}
+		victory_points = { 3095 1}
 		
-		owner = HUA
+		owner = MSN
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = HUA
+		add_core_of = MSN
 	}
 
 	provinces={
-		3532 3533 3534 3535 3536 3537 3538 3539 3540 3541 3542 3543 3544 3545 3546 3547 3548 3549 3550 3551 3552 3553 3554 3555 
+		3093 3094 3095 3096 3097 3098 
 	}
 	local_supplies=0.0 
 }

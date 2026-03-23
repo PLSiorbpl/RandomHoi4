@@ -2,9 +2,9 @@
 state={
 	id=700
 	name="STATE_700"
-	manpower = 916175
+	manpower = 472927
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,26 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 9344 2}
-		victory_points = { 9349 4}
 		
-		owner = NAK
+		owner = SUM
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
-			9343 = {
+			8300 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = NAK
+		add_core_of = SUM
 	}
 
 	provinces={
-		9342 9343 9344 9345 9346 9347 9348 9349 9350 9351 9352 9353 9354 
+		8300 8301 8302 8303 
 	}
 	local_supplies=0.0 
 }

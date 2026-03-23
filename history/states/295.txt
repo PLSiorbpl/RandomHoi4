@@ -2,9 +2,9 @@
 state={
 	id=295
 	name="STATE_295"
-	manpower = 668193
+	manpower = 1232005
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,22 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 3990 4}
+		victory_points = { 3550 4}
+		victory_points = { 3553 3}
 		
-		owner = HUA
+		owner = MSN
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 4
+			
 			arms_factory = 0
 			industrial_complex = 1
 			
+			3555 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = HUA
+		add_core_of = MSN
 	}
 
 	provinces={
-		3986 3987 3988 3989 3990 3991 3992 3993 3994 
+		3550 3551 3552 3553 3554 3555 3556 3557 3558 3559 3560 3561 3562 
 	}
 	local_supplies=0.0 
 }

@@ -2,41 +2,39 @@
 state={
 	id=680
 	name="STATE_680"
-	manpower = 587524
+	manpower = 1270088
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
-		steel=0
-		tungsten=0
-		coal=0
+		steel=2
+		tungsten=2
+		coal=9
 	}
 
 	history={
-		victory_points = { 9073 2}
-		victory_points = { 9074 1}
+		victory_points = { 8064 2}
+		victory_points = { 8074 1}
+		victory_points = { 8076 3}
 		
-		owner = BEJ
+		owner = SAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			
-			arms_factory = 1
-			industrial_complex = 0
+			arms_factory = 0
+			industrial_complex = 1
 			
-			9079 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = BEJ
+		add_core_of = SAN
 	}
 
 	provinces={
-		9073 9074 9075 9076 9077 9078 9079 9080 
+		8064 8065 8066 8067 8068 8069 8070 8071 8072 8073 8074 8075 8076 8077 
 	}
 	local_supplies=0.0 
 }

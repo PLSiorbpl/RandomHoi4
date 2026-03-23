@@ -2,14 +2,14 @@
 state={
 	id=764
 	name="STATE_764"
-	manpower = 1071804
+	manpower = 702405
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 10256 2}
-		victory_points = { 10258 2}
-		victory_points = { 10265 1}
-		victory_points = { 10267 3}
+		victory_points = { 8987 1}
+		victory_points = { 8991 2}
 		
-		owner = PBR
+		owner = AKI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = PBR
+		add_core_of = AKI
 	}
 
 	provinces={
-		10254 10255 10256 10257 10258 10259 10260 10261 10262 10263 10264 10265 10266 10267 10268 10269 
+		8985 8986 8987 8988 8989 8990 8991 
 	}
 	local_supplies=0.0 
 }

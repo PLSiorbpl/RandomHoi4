@@ -1,0 +1,207 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			recon = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			mot_artillery_brigade = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Hewango' Militia Division"
+		location = 5441
+		division_template = "Militia Division"
+		start_experience_factor = 0.139324
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Sara' Militia Division"
+		location = 8325
+		division_template = "Militia Division"
+		start_experience_factor = 0.357790
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Ukwelika' Militia Division"
+		location = 8338
+		division_template = "Militia Division"
+		start_experience_factor = 0.320109
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Uwango' Infantry Division"
+		location = 5767
+		division_template = "Infantry Division"
+		start_experience_factor = 0.320752
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Liberra' Infantry Division"
+		location = 8550
+		division_template = "Infantry Division"
+		start_experience_factor = 0.437682
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Fonitas' Infantry Division"
+		location = 8549
+		division_template = "Infantry Division"
+		start_experience_factor = 0.906666
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Wano' Supported Infantry Division"
+		location = 10111
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.303940
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Chulima' Artillery Division"
+		location = 8319
+		division_template = "Artillery Division"
+		start_experience_factor = 0.950492
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Saria' Cavalry Division"
+		location = 5542
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.579059
+		start_equipment_factor = 1.000000
+	}
+
+}

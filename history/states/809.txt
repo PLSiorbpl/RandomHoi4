@@ -2,12 +2,12 @@
 state={
 	id=809
 	name="STATE_809"
-	manpower = 516784
+	manpower = 461843
 	
 	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=1
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 10918 1}
-		victory_points = { 10919 1}
+		victory_points = { 9465 1}
 		
-		owner = CNU
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
-			air_base = 2
-			arms_factory = 0
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CNU
+		add_core_of = GIZ
 	}
 
 	provinces={
-		10918 10919 10920 10921 10922 10923 10924 
+		9465 9466 9467 9468 
 	}
 	local_supplies=0.0 
 }

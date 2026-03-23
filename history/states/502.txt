@@ -2,12 +2,12 @@
 state={
 	id=502
 	name="STATE_502"
-	manpower = 1241966
+	manpower = 2192335
 	
-	state_category = city
+	state_category = large_city
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=3
 		chromium=0
 		oil=1
 		rubber=0
@@ -17,24 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 6579 4}
-		victory_points = { 6582 3}
-		victory_points = { 6584 1}
+		victory_points = { 6056 3}
+		victory_points = { 6063 10}
 		
-		owner = PON
+		owner = KUK
 		buildings = {
 			infrastructure = 4
-			air_base = 1
+			
 			arms_factory = 1
-			industrial_complex = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = PON
+		add_core_of = KUK
 	}
 
 	provinces={
-		6579 6580 6581 6582 6583 6584 6585 6586 6587 6588 6589 6590 6591 6592 6593 6594 6595 6596 
+		6055 6056 6057 6058 6059 6060 6061 6062 6063 6064 6065 6066 6067 6068 6069 6070 6071 6072 6073 6074 6075 6076 6077 6078 
 	}
 	local_supplies=0.0 
 }

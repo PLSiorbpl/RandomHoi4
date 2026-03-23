@@ -2,9 +2,9 @@
 state={
 	id=1133
 	name="STATE_1133"
-	manpower = 234421
+	manpower = 1451397
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,21 +17,22 @@ state={
 	}
 
 	history={
+		victory_points = { 13586 8}
 		
-		owner = SLU
+		owner = VAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = SLU
+		add_core_of = VAN
 	}
 
 	provinces={
-		14806 14807 14808 14809 
+		13573 13574 13575 13576 13577 13578 13579 13580 13581 13582 13583 13584 13585 13586 13587 13588 
 	}
 	local_supplies=0.0 
 }

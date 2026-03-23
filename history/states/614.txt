@@ -2,14 +2,14 @@
 state={
 	id=614
 	name="STATE_614"
-	manpower = 441837
+	manpower = 401947
 	
-	state_category = rural
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 8163 1}
-		victory_points = { 8164 1}
+		victory_points = { 7288 1}
 		
-		owner = CPM
+		owner = KQL
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 0
+			air_base = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CPM
+		add_core_of = KQL
 	}
 
 	provinces={
-		8163 8164 8165 8166 8167 8168 
+		7288 7289 7290 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,880 @@
+characters = {
+	HEI_Ulrich_Teithann={
+		name="Ulrich Teithann"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HEI_Garan_Dolasacharch={
+		name="Garan Dolasacharch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Garan_Dolasacharch
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HEI_Ciaran_Teithann={
+		name="Ciaran Teithann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Ciaran_Teithann
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HEI_Lialcolm_Seanbh={
+		name="Lialcolm Seanbh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Lialcolm_Seanbh
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	HEI_Declan_Aisle={
+		name="Declan Aisle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Declan_Aisle
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HEI_Niaraig_Fioras={
+		name="Niaraig Fioras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Niaraig_Fioras
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HEI_Liam_Maigh={
+		name="Liam Maigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Liam_Maigh
+				traits = {	humble 	}
+		}
+
+	}
+	HEI_Seamus_Dolasacharch={
+		name="Seamus Dolasacharch"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Seamus_Dolasacharch
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HEI_Hugh_Dora={
+		name="Hugh Dora"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Hugh_Dora
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HEI_Padran_Dora={
+		name="Padran Dora"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Padran_Dora
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	HEI_Keiran_Laoite={
+		name="Keiran Laoite"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Keiran_Laoite
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	HEI_Nialcolm_Dolasacharch={
+		name="Nialcolm Dolasacharch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Nialcolm_Dolasacharch
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HEI_Quinn_Dolasacharch={
+		name="Quinn Dolasacharch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Quinn_Dolasacharch
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HEI_Gareth_Fioras={
+		name="Gareth Fioras"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Gareth_Fioras
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HEI_Iwan_Dora={
+		name="Iwan Dora"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Iwan_Dora
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HEI_Cialcolm_Laisleatarc={
+		name="Cialcolm Laisleatarc"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Cialcolm_Laisleatarc
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	HEI_Ciam_Dora={
+		name="Ciam Dora"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Ciam_Dora
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	HEI_Taran_Seanbh={
+		name="Taran Seanbh"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Taran_Seanbh
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HEI_Quin_Seanbh={
+		name="Quin Seanbh"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Quin_Seanbh
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	HEI_Taran_Teithann={
+		name="Taran Teithann"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Taran_Teithann
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HEI_Ciam_Aisle={
+		name="Ciam Aisle"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Ciam_Aisle
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HEI_Aidan_Fioras={
+		name="Aidan Fioras"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HEI_Tareth_Fioras={
+		name="Tareth Fioras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Tareth_Fioras
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	HEI_Ciam_Tuar={
+		name="Ciam Tuar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Ciam_Tuar
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	HEI_Iwan_Aisle={
+		name="Iwan Aisle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Iwan_Aisle
+				traits = {	infirm 	}
+		}
+
+	}
+	HEI_Niaraig_Aisle={
+		name="Niaraig Aisle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Niaraig_Aisle
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	HEI_Tareth_Laoite={
+		name="Tareth Laoite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Tareth_Laoite
+				traits = {	warmonger 	}
+		}
+
+	}
+	HEI_Owen_Tuar={
+		name="Owen Tuar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Owen_Tuar
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	HEI_Owen_Seanbh={
+		name="Owen Seanbh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Owen_Seanbh
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HEI_Padran_Aisle={
+		name="Padran Aisle"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Padran_Aisle
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HEI_Gareth_Laoite={
+		name="Gareth Laoite"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Gareth_Laoite
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	HEI_Liam_Aisle={
+		name="Liam Aisle"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Liam_Aisle
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HEI_Iwan_Maigh={
+		name="Iwan Maigh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Iwan_Maigh
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	HEI_Ulrich_Seanbh={
+		name="Ulrich Seanbh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Ulrich_Seanbh
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	HEI_Quinn_Teithann={
+		name="Quinn Teithann"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Quinn_Teithann
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	HEI_Mall_Tuar={
+		name="Mall Tuar"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Mall_Tuar
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	HEI_Quinn_Laoite={
+		name="Quinn Laoite"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Quinn_Laoite
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	HEI_Padran_Laoite={
+		name="Padran Laoite"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Padran_Laoite
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	HEI_Ulrich_Tuar={
+		name="Ulrich Tuar"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Ulrich_Tuar
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	HEI_Seam_Aisle={
+		name="Seam Aisle"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Seam_Aisle
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	HEI_Bran_Aisle={
+		name="Bran Aisle"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Bran_Aisle
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	HEI_Eoin_Dora={
+		name="Eoin Dora"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Eoin_Dora
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	HEI_Seamus_Tuar={
+		name="Seamus Tuar"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HEI_Nialcolm_Laisleatarc={
+		name="Nialcolm Laisleatarc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Nialcolm_Laisleatarc
+				traits = {	polemarch 	}
+		}
+
+	}
+	HEI_Keiran_Dolasacharch={
+		name="Keiran Dolasacharch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Keiran_Dolasacharch
+				traits = {	polemarch 	}
+		}
+
+	}
+	HEI_Bran_Dolasacharch={
+		name="Bran Dolasacharch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Bran_Dolasacharch
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HEI_Nialcolm_Seanbh={
+		name="Nialcolm Seanbh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Nialcolm_Seanbh
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HEI_Garan_Fioras={
+		name="Garan Fioras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Garan_Fioras
+				traits = {	polemarch 	}
+		}
+
+	}
+	HEI_Nialcolm_Tuar={
+		name="Nialcolm Tuar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Nialcolm_Tuar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HEI_Gareth_Dora={
+		name="Gareth Dora"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Gareth_Dora
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HEI_Bran_Dora={
+		name="Bran Dora"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Bran_Dora
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HEI_Ciaran_Maigh={
+		name="Ciaran Maigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Ciaran_Maigh
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	HEI_Padran_Fioras={
+		name="Padran Fioras"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Padran_Fioras
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	HEI_Nialcolm_Aisle={
+		name="Nialcolm Aisle"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Nialcolm_Aisle
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	HEI_Braig_Laoite={
+		name="Braig Laoite"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Braig_Laoite
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	HEI_Lialcolm_Fioras={
+		name="Lialcolm Fioras"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Lialcolm_Fioras
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	HEI_Nialcolm_Laoite={
+		name="Nialcolm Laoite"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Nialcolm_Laoite
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	HEI_Hugh_Teithann={
+		name="Hugh Teithann"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Hugh_Teithann
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	HEI_Aidan_Teithann={
+		name="Aidan Teithann"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Aidan_Teithann
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	HEI_Padran_Tuar={
+		name="Padran Tuar"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Padran_Tuar
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	HEI_Declan_Seanbh={
+		name="Declan Seanbh"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Declan_Seanbh
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	HEI_Seamus_Fioras={
+		name="Seamus Fioras"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Seamus_Fioras
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	HEI_Seam_Fioras={
+		name="Seam Fioras"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Seam_Fioras
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	HEI_Quin_Tuar={
+		name="Quin Tuar"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HEI_Declan_Dolasacharch={
+		name="Declan Dolasacharch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Declan_Dolasacharch
+				traits = {	first_lady 	}
+		}
+
+	}
+	HEI_Fergus_Dora={
+		name="Fergus Dora"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Fergus_Dora
+				traits = {	first_lady 	}
+		}
+
+	}
+	HEI_Mall_Dolasacharch={
+		name="Mall Dolasacharch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Mall_Dolasacharch
+				traits = {	the_banker 	}
+		}
+
+	}
+	HEI_Ciam_Seanbh={
+		name="Ciam Seanbh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Ciam_Seanbh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HEI_Ciaran_Dora={
+		name="Ciaran Dora"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Ciaran_Dora
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	HEI_Quinn_Aisle={
+		name="Quinn Aisle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HEI_Quinn_Aisle
+				traits = {	infirm 	}
+		}
+
+	}
+	HEI_Cialcolm_Dora={
+		name="Cialcolm Dora"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Cialcolm_Dora
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	HEI_Ciaran_Seanbh={
+		name="Ciaran Seanbh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Ciaran_Seanbh
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	HEI_Nialcolm_Fioras={
+		name="Nialcolm Fioras"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Nialcolm_Fioras
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HEI_Aidan_Dolasacharch={
+		name="Aidan Dolasacharch"
+
+		advisor={
+			slot = army_chief
+			idea_token = HEI_Aidan_Dolasacharch
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	HEI_Mall_Laisleatarc={
+		name="Mall Laisleatarc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Mall_Laisleatarc
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	HEI_Taran_Dolasacharch={
+		name="Taran Dolasacharch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HEI_Taran_Dolasacharch
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	HEI_Lialcolm_Dora={
+		name="Lialcolm Dora"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Lialcolm_Dora
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	HEI_Tareth_Dora={
+		name="Tareth Dora"
+
+		advisor={
+			slot = air_chief
+			idea_token = HEI_Tareth_Dora
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	HEI_Niaraig_Tuar={
+		name="Niaraig Tuar"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Niaraig_Tuar
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	HEI_Quin_Teithann={
+		name="Quin Teithann"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Quin_Teithann
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HEI_Ciam_Maigh={
+		name="Ciam Maigh"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Ciam_Maigh
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	HEI_Fergus_Seanbh={
+		name="Fergus Seanbh"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Fergus_Seanbh
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	HEI_Cialcolm_Dolasacharch={
+		name="Cialcolm Dolasacharch"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Cialcolm_Dolasacharch
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	HEI_Rhys_Laisleatarc={
+		name="Rhys Laisleatarc"
+
+		advisor={
+			slot = high_command
+			idea_token = HEI_Rhys_Laisleatarc
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	HEI_Aidan_Seanbh={
+		name="Aidan Seanbh"
+
+		advisor={
+			slot = theorist
+			idea_token = HEI_Aidan_Seanbh
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HEI_Rhys_Teithann={
+		name="Rhys Teithann"
+
+		advisor={
+			slot = theorist
+			idea_token = HEI_Rhys_Teithann
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HEI_Tareth_Teithann={
+		name="Tareth Teithann"
+
+		advisor={
+			slot = theorist
+			idea_token = HEI_Tareth_Teithann
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

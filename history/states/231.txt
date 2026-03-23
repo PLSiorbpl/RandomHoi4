@@ -2,13 +2,13 @@
 state={
 	id=231
 	name="STATE_231"
-	manpower = 1028403
+	manpower = 166735
 	
-	state_category = large_town
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=4
 		oil=0
 		rubber=0
 		steel=0
@@ -17,24 +17,25 @@ state={
 	}
 
 	history={
-		victory_points = { 3134 1}
-		victory_points = { 3137 2}
-		victory_points = { 3147 3}
+		victory_points = { 2786 1}
 		
-		owner = TMI
+		owner = UXU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
+			2786 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = TMI
+		add_core_of = UXU
 	}
 
 	provinces={
-		3134 3135 3136 3137 3138 3139 3140 3141 3142 3143 3144 3145 3146 3147 3148 
+		2786 
 	}
 	local_supplies=0.0 
 }

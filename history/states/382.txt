@@ -2,38 +2,39 @@
 state={
 	id=382
 	name="STATE_382"
-	manpower = 408953
+	manpower = 2367712
 	
-	state_category = rural
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=28
 		oil=0
 		rubber=0
-		steel=3
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 5047 1}
-		victory_points = { 5048 1}
+		victory_points = { 4549 3}
+		victory_points = { 4563 3}
+		victory_points = { 4570 7}
 		
-		owner = FUA
+		owner = BYL
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = FUA
+		add_core_of = BYL
 	}
 
 	provinces={
-		5047 5048 5049 5050 5051 
+		4549 4550 4551 4552 4553 4554 4555 4556 4557 4558 4559 4560 4561 4562 4563 4564 4565 4566 4567 4568 4569 4570 4571 4572 4573 4574 
 	}
 	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=161
 	name="STATE_161"
-	manpower = 333815
+	manpower = 703129
 	
-	state_category = rural
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,30 +12,28 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=1
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2299 1}
+		victory_points = { 2018 1}
+		victory_points = { 2020 2}
 		
-		owner = CEI
+		owner = HAM
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			2296 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = CEI
+		add_core_of = HAM
 	}
 
 	provinces={
-		2296 2297 2298 2299 
+		2017 2018 2019 2020 2021 2022 2023 
 	}
 	local_supplies=0.0 
 }

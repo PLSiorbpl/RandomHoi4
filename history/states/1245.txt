@@ -2,42 +2,41 @@
 state={
 	id=1245
 	name="STATE_1245"
-	manpower = 945811
+	manpower = 2920377
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
-		rubber=0
-		steel=0
-		tungsten=0
+		oil=2
+		rubber=35
+		steel=1
+		tungsten=37
 		coal=0
 	}
 
 	history={
-		victory_points = { 16341 1}
-		victory_points = { 16347 2}
-		victory_points = { 16350 2}
+		victory_points = { 16355 5}
+		victory_points = { 16369 7}
 		
-		owner = YTZ
+		owner = HTN
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
+			infrastructure = 2
+			
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			16347 = {
+			
+			16369 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = YTZ
+		add_core_of = HTN
 	}
 
 	provinces={
-		16339 16340 16341 16342 16343 16344 16345 16346 16347 16348 16349 16350 16351 16352 
+		16346 16347 16348 16349 16350 16351 16352 16353 16354 16355 16356 16357 16358 16359 16360 16361 16362 16363 16364 16365 16366 16367 16368 16369 16370 16371 16372 16373 16374 16375 16376 16377 16378 16379 16380 16381 16382 16383 16384 16385 16386 16387 16388 16389 16390 16391 16392 16393 16394 16395 16396 16397 16398 16399 16400 16401 16402 16403 16404 16405 16406 16407 
 	}
 	local_supplies=0.0 
 }

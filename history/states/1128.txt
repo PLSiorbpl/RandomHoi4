@@ -2,7 +2,7 @@
 state={
 	id=1128
 	name="STATE_1128"
-	manpower = 661515
+	manpower = 870142
 	
 	state_category = town
 	#impassable = yes
@@ -11,29 +11,32 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
-		tungsten=1
+		steel=1
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 14767 1}
-		victory_points = { 14770 1}
+		victory_points = { 13477 2}
+		victory_points = { 13480 2}
 		
-		owner = ANI
+		owner = CAH
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
+			13482 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = ANI
+		add_core_of = CAH
 	}
 
 	provinces={
-		14762 14763 14764 14765 14766 14767 14768 14769 14770 
+		13477 13478 13479 13480 13481 13482 13483 13484 13485 
 	}
 	local_supplies=0.0 
 }

@@ -1,0 +1,353 @@
+capital = 603
+
+oob = "GIZ_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GIZ_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GIZ_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GIZ_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			armor_piercing_bombs = 1
+			basic_small_airframe = 1
+			basic_large_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Argitasuntzu Mk 0"
+			type = small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Noraita Mk 1"
+			type = small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Argitasuntzu Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Herriona Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Itxe Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "GIZ_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "GIZ_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Nora Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "GIZ_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Nora Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = GIZ_Gaiur_Zubi
+recruit_character = GIZ_Ekaitorkaiur_Itxe
+recruit_character = GIZ_Mikel_Herriona
+recruit_character = GIZ_Eneko_Herriona
+recruit_character = GIZ_Gaiur_Nora
+recruit_character = GIZ_Eneko_Nora
+recruit_character = GIZ_Koldo_Oihaintasa
+recruit_character = GIZ_Unat_Oihaintasa
+recruit_character = GIZ_Unat_Argitasuntzu
+recruit_character = GIZ_Amaizkaizkai_Noraita
+recruit_character = GIZ_Ekaitorkaiur_Argitasuntzu
+recruit_character = GIZ_Gorkaitz_Herra
+recruit_character = GIZ_Mikel_Iluna
+recruit_character = GIZ_Amaizkaizkai_Itxe
+recruit_character = GIZ_Harkaitz_Oihaintasa
+recruit_character = GIZ_Harkaiur_Itxe
+recruit_character = GIZ_Ekaitorkaiur_Noraita
+recruit_character = GIZ_Ibanti_Argitasuntzu
+recruit_character = GIZ_Benaitorkai_Argitasuntzu
+recruit_character = GIZ_Unat_Nora
+recruit_character = GIZ_Iker_Iluna
+recruit_character = GIZ_Benat_Argitasuntzu
+recruit_character = GIZ_Gaiur_Arna
+recruit_character = GIZ_Amaizkaizkai_Iluna
+recruit_character = GIZ_Ibai_Nora
+recruit_character = GIZ_Aitz_Herriona
+recruit_character = GIZ_Gorkaitz_Itxe
+recruit_character = GIZ_Benat_Herriona
+recruit_character = GIZ_Aitorkaitz_Arna
+recruit_character = GIZ_Benaitor_Itxe
+recruit_character = GIZ_Harkaitz_Argitasuntzu
+recruit_character = GIZ_Ibaizkai_Zubi
+recruit_character = GIZ_Amai_Herriona
+recruit_character = GIZ_Benai_Iluna
+recruit_character = GIZ_Gaiur_Iluna
+recruit_character = GIZ_Gaitorkai_Herra
+recruit_character = GIZ_Gaitorkai_Argitasuntzu
+recruit_character = GIZ_Ibaizkai_Itxe
+recruit_character = GIZ_Unaitorka_Argitasuntzu
+recruit_character = GIZ_Iban_Noraita
+recruit_character = GIZ_Miker_Arna
+recruit_character = GIZ_Ekaitorkaiur_Oihaintasa
+recruit_character = GIZ_Ibanti_Itxe
+recruit_character = GIZ_Benai_Argitasuntzu
+recruit_character = GIZ_Harkaiur_Iluna
+recruit_character = GIZ_Aitorkaitz_Herra
+recruit_character = GIZ_Benaitorkai_Noraita
+recruit_character = GIZ_Koldo_Herra
+recruit_character = GIZ_Eder_Itxe
+recruit_character = GIZ_Koldo_Herriona
+recruit_character = GIZ_Ekai_Arna
+recruit_character = GIZ_Ekai_Zubi
+recruit_character = GIZ_Ander_Zubi
+recruit_character = GIZ_Ibai_Arna
+recruit_character = GIZ_Iker_Arna
+recruit_character = GIZ_Harkai_Noraita
+recruit_character = GIZ_Aitorkaitz_Iluna
+recruit_character = GIZ_Harkaiur_Herra
+recruit_character = GIZ_Gorka_Herra
+recruit_character = GIZ_Harka_Arna
+recruit_character = GIZ_Amai_Nora
+recruit_character = GIZ_Benai_Nora
+recruit_character = GIZ_Harkai_Arna
+recruit_character = GIZ_Gorka_Oihaintasa
+recruit_character = GIZ_Ekaitorkaiur_Iluna
+recruit_character = GIZ_Harkai_Oihaintasa
+recruit_character = GIZ_Koldo_Argitasuntzu
+recruit_character = GIZ_Benai_Noraita
+recruit_character = GIZ_Benaitor_Argitasuntzu
+recruit_character = GIZ_Ander_Herriona
+recruit_character = GIZ_Benaitz_Iluna
+recruit_character = GIZ_Iker_Nora
+recruit_character = GIZ_Unat_Noraita
+recruit_character = GIZ_Benat_Nora
+recruit_character = GIZ_Aitz_Nora
+recruit_character = GIZ_Harka_Herra
+recruit_character = GIZ_Ekaitorkaiur_Herra
+recruit_character = GIZ_Eneko_Herra
+recruit_character = GIZ_Ekaitorkaiur_Nora
+recruit_character = GIZ_Ikel_Nora
+recruit_character = GIZ_Gorkaitz_Noraita
+recruit_character = GIZ_Ibaizkai_Iluna
+recruit_character = GIZ_Asier_Itxe
+recruit_character = GIZ_Amaiur_Herriona
+recruit_character = GIZ_Miker_Iluna
+recruit_character = GIZ_Unat_Herra
+recruit_character = GIZ_Mikel_Oihaintasa
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 1
+set_war_support = 25
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1918.7.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 19
+	fascism = 11
+	communism = 31
+	neutrality = 39
+}
+
+
+
+
+

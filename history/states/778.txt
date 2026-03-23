@@ -2,12 +2,12 @@
 state={
 	id=778
 	name="STATE_778"
-	manpower = 640099
+	manpower = 1172660
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=1
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 10442 3}
-		victory_points = { 10446 1}
+		victory_points = { 9148 3}
+		victory_points = { 9152 3}
 		
-		owner = KOB
+		owner = IDU
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
+			9151 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = KOB
+		add_core_of = IDU
 	}
 
 	provinces={
-		10441 10442 10443 10444 10445 10446 10447 10448 
+		9144 9145 9146 9147 9148 9149 9150 9151 9152 9153 9154 9155 
 	}
 	local_supplies=0.0 
 }

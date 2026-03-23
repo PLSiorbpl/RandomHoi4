@@ -2,9 +2,9 @@
 state={
 	id=241
 	name="STATE_241"
-	manpower = 1668123
+	manpower = 728089
 	
-	state_category = large_city
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -12,28 +12,28 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=6
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 3318 2}
-		victory_points = { 3328 11}
+		victory_points = { 2868 2}
+		victory_points = { 2871 1}
 		
-		owner = MIA
+		owner = CDA
 		buildings = {
-			infrastructure = 4
-			air_base = 2
-			arms_factory = 2
-			industrial_complex = 0
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MIA
+		add_core_of = CDA
 	}
 
 	provinces={
-		3307 3308 3309 3310 3311 3312 3313 3314 3315 3316 3317 3318 3319 3320 3321 3322 3323 3324 3325 3326 3327 3328 3329 3330 3331 
+		2865 2866 2867 2868 2869 2870 2871 
 	}
 	local_supplies=0.0 
 }

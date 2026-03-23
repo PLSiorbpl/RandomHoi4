@@ -1,878 +1,878 @@
 characters = {
-	REO_Eoin_Seal={
-		name="Eoin Seal"
+	REO_Liaraig_Ceinn={
+		name="Liaraig Ceinn"
 
 		
 		country_leader={
-			ideology=despotism
-			traits = { headstrong  }
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 	}
-	REO_Aidan_Dorg={
-		name="Aidan Dorg"
+	REO_Nialcolm_Luch={
+		name="Nialcolm Luch"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Aidan_Dorg
-				traits = {	staunch_constitutionalist 	}
+			idea_token = REO_Nialcolm_Luch
+				traits = {	inexperienced_monarch 	}
 		}
 
 	}
-	REO_Eoinn_Fiochainn={
-		name="Eoinn Fiochainn"
+	REO_Bran_Glaighdearg={
+		name="Bran Glaighdearg"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Eoinn_Fiochainn
-				traits = {	headstrong 	}
+			idea_token = REO_Bran_Glaighdearg
+				traits = {	socialite_connections 	}
 		}
 
 	}
-	REO_Niareth_Bois={
-		name="Niareth Bois"
+	REO_Cialcolm_Luch={
+		name="Cialcolm Luch"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Niareth_Bois
-				traits = {	headstrong 	}
+			idea_token = REO_Cialcolm_Luch
+				traits = {	socialite_connections 	}
 		}
 
 	}
-	REO_Ciaraig_Bois={
-		name="Ciaraig Bois"
+	REO_Bran_Sabh={
+		name="Bran Sabh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Ciaraig_Bois
-				traits = {	staunch_constitutionalist 	}
+			idea_token = REO_Bran_Sabh
+				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	REO_Garan_Failte={
-		name="Garan Failte"
+	REO_Ciaran_Sabh={
+		name="Ciaran Sabh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Garan_Failte
-				traits = {	celebrity_junta_leader 	}
+			idea_token = REO_Ciaran_Sabh
+				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	REO_Ciamus_Reoith={
-		name="Ciamus Reoith"
+	REO_Braig_Luch={
+		name="Braig Luch"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Ciamus_Reoith
-				traits = {	celebrity_junta_leader 	}
+			idea_token = REO_Braig_Luch
+				traits = {	humble 	}
 		}
 
 	}
-	REO_Quinn_Talt={
-		name="Quinn Talt"
+	REO_Fergus_Glaighdearg={
+		name="Fergus Glaighdearg"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Quinn_Talt
-				traits = {	army_chief_morale_1 	}
+			idea_token = REO_Fergus_Glaighdearg
+				traits = {	army_chief_drill_2 	}
 		}
 
 	}
-	REO_Lialcolm_Dorg={
-		name="Lialcolm Dorg"
+	REO_Iwan_Luchar={
+		name="Iwan Luchar"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Lialcolm_Dorg
-				traits = {	army_chief_offensive_2 	}
+			idea_token = REO_Iwan_Luchar
+				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	REO_Taran_Seal={
-		name="Taran Seal"
+	REO_Eoin_Reolach={
+		name="Eoin Reolach"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Taran_Seal
-				traits = {	army_chief_maneuver_2 	}
+			idea_token = REO_Eoin_Reolach
+				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	REO_Iwan_Reoith={
-		name="Iwan Reoith"
+	REO_Keiraig_Ceinn={
+		name="Keiraig Ceinn"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Iwan_Reoith
-				traits = {	army_chief_defensive_2 	}
-		}
-
-	}
-	REO_Keiran_Reoith={
-		name="Keiran Reoith"
-
-		advisor={
-			slot = navy_chief
-			idea_token = REO_Keiran_Reoith
-				traits = {	navy_chief_commerce_raiding_2 	}
-		}
-
-	}
-	REO_Owen_Geamh={
-		name="Owen Geamh"
-
-		advisor={
-			slot = navy_chief
-			idea_token = REO_Owen_Geamh
-				traits = {	navy_chief_naval_aviation_1 	}
-		}
-
-	}
-	REO_Liaran_Bois={
-		name="Liaran Bois"
-
-		advisor={
-			slot = air_chief
-			idea_token = REO_Liaran_Bois
-				traits = {	air_chief_all_weather_1 	}
-		}
-
-	}
-	REO_Seam_Bois={
-		name="Seam Bois"
-
-		advisor={
-			slot = air_chief
-			idea_token = REO_Seam_Bois
-				traits = {	air_chief_all_weather_2 	}
-		}
-
-	}
-	REO_Ulrich_Fiochainn={
-		name="Ulrich Fiochainn"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Ulrich_Fiochainn
-				traits = {	army_radio_intelligence_2 	}
-		}
-
-	}
-	REO_Declan_Failte={
-		name="Declan Failte"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Declan_Failte
-				traits = {	navy_fleet_logistics_2 	}
-		}
-
-	}
-	REO_Niaran_Torm={
-		name="Niaran Torm"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Niaran_Torm
-				traits = {	air_naval_strike_2 	}
-		}
-
-	}
-	REO_Eoinn_Dorg={
-		name="Eoinn Dorg"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Eoinn_Dorg
-				traits = {	army_logistics_1 	}
-		}
-
-	}
-	REO_Malcolm_Geamh={
-		name="Malcolm Geamh"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Malcolm_Geamh
-				traits = {	navy_carrier_1 	}
-		}
-
-	}
-	REO_Ciam_Failte={
-		name="Ciam Failte"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Ciam_Failte
-				traits = {	navy_anti_submarine_1 	}
-		}
-
-	}
-	REO_Fergus_Geamh={
-		name="Fergus Geamh"
-
-		
-		country_leader={
-			ideology=rexism
-			traits = { generallissimo  }
-			expire="1965.1.1.1"
-			id=-1
-		}
-
-	}
-	REO_Seamus_Seal={
-		name="Seamus Seal"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Seamus_Seal
-				traits = {	generallissimo 	}
-		}
-
-	}
-	REO_Taran_Torm={
-		name="Taran Torm"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Taran_Torm
-				traits = {	collaborator_king 	}
-		}
-
-	}
-	REO_Seamus_Reoith={
-		name="Seamus Reoith"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Seamus_Reoith
-				traits = {	spirit_of_genghis 	}
-		}
-
-	}
-	REO_Liaran_Talt={
-		name="Liaran Talt"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Liaran_Talt
-				traits = {	generallissimo 	}
-		}
-
-	}
-	REO_Nialcolm_Fiochainn={
-		name="Nialcolm Fiochainn"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Nialcolm_Fiochainn
-				traits = {	autocratic_imperialist 	}
-		}
-
-	}
-	REO_Iwan_Dorg={
-		name="Iwan Dorg"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Iwan_Dorg
-				traits = {	autokrator 	}
-		}
-
-	}
-	REO_Eoin_Bois={
-		name="Eoin Bois"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Eoin_Bois
-				traits = {	army_chief_reform_1 	}
-		}
-
-	}
-	REO_Mall_Dorg={
-		name="Mall Dorg"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Mall_Dorg
-				traits = {	army_chief_reform_2 	}
-		}
-
-	}
-	REO_Malcolm_Failte={
-		name="Malcolm Failte"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Malcolm_Failte
-				traits = {	army_chief_morale_1 	}
-		}
-
-	}
-	REO_Ciamus_Failte={
-		name="Ciamus Failte"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Ciamus_Failte
-				traits = {	army_chief_entrenchment_1 	}
-		}
-
-	}
-	REO_Garaig_Seal={
-		name="Garaig Seal"
-
-		advisor={
-			slot = navy_chief
-			idea_token = REO_Garaig_Seal
-				traits = {	navy_chief_commerce_raiding_2 	}
-		}
-
-	}
-	REO_Ulrich_Reoith={
-		name="Ulrich Reoith"
-
-		advisor={
-			slot = navy_chief
-			idea_token = REO_Ulrich_Reoith
-				traits = {	navy_chief_commerce_raiding_2 	}
-		}
-
-	}
-	REO_Mall_Torm={
-		name="Mall Torm"
-
-		advisor={
-			slot = air_chief
-			idea_token = REO_Mall_Torm
-				traits = {	air_chief_ground_support_2 	}
-		}
-
-	}
-	REO_Taran_Dorg={
-		name="Taran Dorg"
-
-		advisor={
-			slot = air_chief
-			idea_token = REO_Taran_Dorg
-				traits = {	air_chief_night_operations_2 	}
-		}
-
-	}
-	REO_Fergus_Bois={
-		name="Fergus Bois"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Fergus_Bois
-				traits = {	air_pilot_training_1 	}
-		}
-
-	}
-	REO_Eoin_Geamh={
-		name="Eoin Geamh"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Eoin_Geamh
-				traits = {	navy_submarine_1 	}
-		}
-
-	}
-	REO_Tareth_Talt={
-		name="Tareth Talt"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Tareth_Talt
-				traits = {	air_tactical_bombing_1 	}
-		}
-
-	}
-	REO_Garan_Talt={
-		name="Garan Talt"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Garan_Talt
-				traits = {	navy_naval_air_defense_1 	}
-		}
-
-	}
-	REO_Taran_Reoith={
-		name="Taran Reoith"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Taran_Reoith
-				traits = {	army_logistics_2 	}
-		}
-
-	}
-	REO_Liamus_Torm={
-		name="Liamus Torm"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Liamus_Torm
-				traits = {	army_infantry_2 	}
-		}
-
-	}
-	REO_Rhys_Seal={
-		name="Rhys Seal"
-
-		
-		country_leader={
-			ideology=marxism
-			traits = { reluctant_stalinist  }
-			expire="1965.1.1.1"
-			id=-1
-		}
-
-	}
-	REO_Hugh_Bois={
-		name="Hugh Bois"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Hugh_Bois
-				traits = {	polemarch 	}
-		}
-
-	}
-	REO_Bran_Failte={
-		name="Bran Failte"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Bran_Failte
-				traits = {	indomitable_perseverance 	}
-		}
-
-	}
-	REO_Ulrich_Geamh={
-		name="Ulrich Geamh"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Ulrich_Geamh
-				traits = {	mastermind_code_cracker 	}
-		}
-
-	}
-	REO_Gareth_Bois={
-		name="Gareth Bois"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Gareth_Bois
-				traits = {	polemarch 	}
-		}
-
-	}
-	REO_Ulrich_Seal={
-		name="Ulrich Seal"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Ulrich_Seal
-				traits = {	political_dancer 	}
-		}
-
-	}
-	REO_Niaran_Dorg={
-		name="Niaran Dorg"
-
-		advisor={
-			slot = political_advisor
-			idea_token = REO_Niaran_Dorg
-				traits = {	indomitable_perseverance 	}
-		}
-
-	}
-	REO_Owen_Cileart={
-		name="Owen Cileart"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Owen_Cileart
-				traits = {	army_chief_planning_1 	}
-		}
-
-	}
-	REO_Bran_Bois={
-		name="Bran Bois"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Bran_Bois
-				traits = {	army_chief_morale_1 	}
-		}
-
-	}
-	REO_Quin_Dorg={
-		name="Quin Dorg"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Quin_Dorg
-				traits = {	army_chief_drill_1 	}
-		}
-
-	}
-	REO_Ciaraig_Cileart={
-		name="Ciaraig Cileart"
-
-		advisor={
-			slot = army_chief
-			idea_token = REO_Ciaraig_Cileart
+			idea_token = REO_Keiraig_Ceinn
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	REO_Quinn_Failte={
-		name="Quinn Failte"
+	REO_Seam_Luch={
+		name="Seam Luch"
 
 		advisor={
 			slot = navy_chief
-			idea_token = REO_Quinn_Failte
-				traits = {	navy_chief_decisive_battle_2 	}
+			idea_token = REO_Seam_Luch
+				traits = {	navy_chief_maneuver_2 	}
 		}
 
 	}
-	REO_Ulrich_Bois={
-		name="Ulrich Bois"
+	REO_Rhys_Cort={
+		name="Rhys Cort"
 
 		advisor={
 			slot = navy_chief
-			idea_token = REO_Ulrich_Bois
-				traits = {	navy_chief_commerce_raiding_2 	}
+			idea_token = REO_Rhys_Cort
+				traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 	}
-	REO_Padran_Cileart={
-		name="Padran Cileart"
+	REO_Nialcolm_Sabh={
+		name="Nialcolm Sabh"
 
 		advisor={
 			slot = air_chief
-			idea_token = REO_Padran_Cileart
-				traits = {	air_chief_safety_2 	}
+			idea_token = REO_Nialcolm_Sabh
+				traits = {	air_chief_night_operations_1 	}
 		}
 
 	}
-	REO_Mall_Seal={
-		name="Mall Seal"
+	REO_Quinn_Sabh={
+		name="Quinn Sabh"
 
 		advisor={
 			slot = air_chief
-			idea_token = REO_Mall_Seal
-				traits = {	air_chief_reform_2 	}
+			idea_token = REO_Quinn_Sabh
+				traits = {	air_chief_ground_support_1 	}
 		}
 
 	}
-	REO_Taran_Geamh={
-		name="Taran Geamh"
+	REO_Cialcolm_Sabh={
+		name="Cialcolm Sabh"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Taran_Geamh
-				traits = {	army_commando_1 	}
+			idea_token = REO_Cialcolm_Sabh
+				traits = {	air_air_combat_training_1 	}
 		}
 
 	}
-	REO_Aidan_Failte={
-		name="Aidan Failte"
+	REO_Iwan_Reolach={
+		name="Iwan Reolach"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Aidan_Failte
-				traits = {	army_commando_1 	}
+			idea_token = REO_Iwan_Reolach
+				traits = {	army_armored_2 	}
 		}
 
 	}
-	REO_Lialcolm_Talt={
-		name="Lialcolm Talt"
+	REO_Eoinn_Luch={
+		name="Eoinn Luch"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Lialcolm_Talt
+			idea_token = REO_Eoinn_Luch
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	REO_Taraig_Luchar={
+		name="Taraig Luchar"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Taraig_Luchar
 				traits = {	army_radio_intelligence_1 	}
 		}
 
 	}
-	REO_Quinn_Cileart={
-		name="Quinn Cileart"
+	REO_Quinn_Ceinn={
+		name="Quinn Ceinn"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Quinn_Cileart
-				traits = {	navy_carrier_2 	}
+			idea_token = REO_Quinn_Ceinn
+				traits = {	army_armored_2 	}
 		}
 
 	}
-	REO_Keiran_Cileart={
-		name="Keiran Cileart"
+	REO_Fergus_Luch={
+		name="Fergus Luch"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Keiran_Cileart
-				traits = {	navy_carrier_1 	}
-		}
-
-	}
-	REO_Ciaraig_Geamh={
-		name="Ciaraig Geamh"
-
-		advisor={
-			slot = high_command
-			idea_token = REO_Ciaraig_Geamh
+			idea_token = REO_Fergus_Luch
 				traits = {	army_concealment_1 	}
 		}
 
 	}
-	REO_Ciaraig_Failte={
-		name="Ciaraig Failte"
+	REO_Niall_Reolach={
+		name="Niall Reolach"
 
 		
 		country_leader={
-			ideology=conservatism
-			traits = { staunch_constitutionalist  }
+			ideology=fascism_ideology
+			traits = { autokrator  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
 	}
-	REO_Nialcolm_Torm={
-		name="Nialcolm Torm"
+	REO_Ciaran_Luch={
+		name="Ciaran Luch"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Nialcolm_Torm
-				traits = {	infirm 	}
+			idea_token = REO_Ciaran_Luch
+				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	REO_Mall_Fiochainn={
-		name="Mall Fiochainn"
+	REO_Fergus_Dolainnta={
+		name="Fergus Dolainnta"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Mall_Fiochainn
-				traits = {	liberal_democratic_paragon 	}
+			idea_token = REO_Fergus_Dolainnta
+				traits = {	basileus 	}
 		}
 
 	}
-	REO_Declan_Reoith={
-		name="Declan Reoith"
+	REO_Liaraig_Sabh={
+		name="Liaraig Sabh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Declan_Reoith
-				traits = {	the_banker 	}
+			idea_token = REO_Liaraig_Sabh
+				traits = {	archon_basileus 	}
 		}
 
 	}
-	REO_Liaraig_Torm={
-		name="Liaraig Torm"
+	REO_Eoin_Ceinn={
+		name="Eoin Ceinn"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Liaraig_Torm
-				traits = {	rearmer 	}
+			idea_token = REO_Eoin_Ceinn
+				traits = {	archon_basileus 	}
 		}
 
 	}
-	REO_Gareth_Fiochainn={
-		name="Gareth Fiochainn"
+	REO_Iwan_Luch={
+		name="Iwan Luch"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Gareth_Fiochainn
-				traits = {	infirm 	}
+			idea_token = REO_Iwan_Luch
+				traits = {	archon_basileus 	}
 		}
 
 	}
-	REO_Padran_Bois={
-		name="Padran Bois"
+	REO_Braig_Reolach={
+		name="Braig Reolach"
 
 		advisor={
 			slot = political_advisor
-			idea_token = REO_Padran_Bois
-				traits = {	staunch_constitutionalist 	}
+			idea_token = REO_Braig_Reolach
+				traits = {	inexperienced_imperialist 	}
 		}
 
 	}
-	REO_Malcolm_Talt={
-		name="Malcolm Talt"
+	REO_Gareth_Cort={
+		name="Gareth Cort"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Malcolm_Talt
+			idea_token = REO_Gareth_Cort
 				traits = {	army_chief_entrenchment_1 	}
 		}
 
 	}
-	REO_Rhys_Cileart={
-		name="Rhys Cileart"
+	REO_Lialcolm_Luchar={
+		name="Lialcolm Luchar"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Rhys_Cileart
-				traits = {	army_chief_reform_1 	}
+			idea_token = REO_Lialcolm_Luchar
+				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	REO_Gareth_Torm={
-		name="Gareth Torm"
+	REO_Liaraig_Geann={
+		name="Liaraig Geann"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Gareth_Torm
-				traits = {	army_chief_entrenchment_2 	}
+			idea_token = REO_Liaraig_Geann
+				traits = {	army_chief_drill_2 	}
 		}
 
 	}
-	REO_Ciaran_Cileart={
-		name="Ciaran Cileart"
+	REO_Keiraig_Glaighdearg={
+		name="Keiraig Glaighdearg"
 
 		advisor={
 			slot = army_chief
-			idea_token = REO_Ciaran_Cileart
-				traits = {	army_chief_maneuver_2 	}
+			idea_token = REO_Keiraig_Glaighdearg
+				traits = {	army_chief_entrenchment_1 	}
 		}
 
 	}
-	REO_Seamus_Failte={
-		name="Seamus Failte"
+	REO_Owen_Breing={
+		name="Owen Breing"
 
 		advisor={
 			slot = navy_chief
-			idea_token = REO_Seamus_Failte
+			idea_token = REO_Owen_Breing
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	REO_Gareth_Geann={
+		name="Gareth Geann"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REO_Gareth_Geann
 				traits = {	navy_chief_maneuver_2 	}
 		}
 
 	}
-	REO_Malcolm_Torm={
-		name="Malcolm Torm"
-
-		advisor={
-			slot = navy_chief
-			idea_token = REO_Malcolm_Torm
-				traits = {	navy_chief_maneuver_1 	}
-		}
-
-	}
-	REO_Malcolm_Cileart={
-		name="Malcolm Cileart"
+	REO_Liaraig_Dolainnta={
+		name="Liaraig Dolainnta"
 
 		advisor={
 			slot = air_chief
-			idea_token = REO_Malcolm_Cileart
-				traits = {	air_chief_reform_2 	}
-		}
-
-	}
-	REO_Niareth_Talt={
-		name="Niareth Talt"
-
-		advisor={
-			slot = air_chief
-			idea_token = REO_Niareth_Talt
+			idea_token = REO_Liaraig_Dolainnta
 				traits = {	air_chief_night_operations_2 	}
 		}
 
 	}
-	REO_Seam_Cileart={
-		name="Seam Cileart"
+	REO_Rhys_Luch={
+		name="Rhys Luch"
+
+		advisor={
+			slot = air_chief
+			idea_token = REO_Rhys_Luch
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	REO_Quin_Luchar={
+		name="Quin Luchar"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Seam_Cileart
+			idea_token = REO_Quin_Luchar
 				traits = {	army_infantry_1 	}
 		}
 
 	}
-	REO_Liam_Reoith={
-		name="Liam Reoith"
+	REO_Hugh_Sabh={
+		name="Hugh Sabh"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Liam_Reoith
-				traits = {	navy_screen_1 	}
+			idea_token = REO_Hugh_Sabh
+				traits = {	navy_fleet_logistics_2 	}
 		}
 
 	}
-	REO_Malcolm_Fiochainn={
-		name="Malcolm Fiochainn"
+	REO_Seamus_Luchar={
+		name="Seamus Luchar"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Malcolm_Fiochainn
-				traits = {	navy_capital_ship_1 	}
+			idea_token = REO_Seamus_Luchar
+				traits = {	air_air_superiority_2 	}
 		}
 
 	}
-	REO_Seam_Seal={
-		name="Seam Seal"
+	REO_Taraig_Sabh={
+		name="Taraig Sabh"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Seam_Seal
-				traits = {	navy_carrier_2 	}
+			idea_token = REO_Taraig_Sabh
+				traits = {	air_close_air_support_2 	}
 		}
 
 	}
-	REO_Eoinn_Seal={
-		name="Eoinn Seal"
+	REO_Niall_Geann={
+		name="Niall Geann"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Eoinn_Seal
-				traits = {	navy_anti_submarine_2 	}
+			idea_token = REO_Niall_Geann
+				traits = {	navy_screen_2 	}
 		}
 
 	}
-	REO_Liam_Seal={
-		name="Liam Seal"
+	REO_Aidan_Sabh={
+		name="Aidan Sabh"
 
 		advisor={
 			slot = high_command
-			idea_token = REO_Liam_Seal
+			idea_token = REO_Aidan_Sabh
 				traits = {	navy_naval_air_defense_2 	}
 		}
 
 	}
-	REO_Lialcolm_Geamh={
-		name="Lialcolm Geamh"
+	REO_Ciam_Cort={
+		name="Ciam Cort"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	REO_Bran_Ceinn={
+		name="Bran Ceinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Bran_Ceinn
+				traits = {	political_dancer 	}
+		}
+
+	}
+	REO_Quin_Luch={
+		name="Quin Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Quin_Luch
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	REO_Owen_Glaighdearg={
+		name="Owen Glaighdearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Owen_Glaighdearg
+				traits = {	polemarch 	}
+		}
+
+	}
+	REO_Tareth_Ceinn={
+		name="Tareth Ceinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Tareth_Ceinn
+				traits = {	polemarch 	}
+		}
+
+	}
+	REO_Tareth_Luchar={
+		name="Tareth Luchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Tareth_Luchar
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	REO_Keiran_Cort={
+		name="Keiran Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Keiran_Cort
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	REO_Bran_Dolainnta={
+		name="Bran Dolainnta"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Bran_Dolainnta
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	REO_Bran_Geann={
+		name="Bran Geann"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Bran_Geann
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	REO_Keiran_Geann={
+		name="Keiran Geann"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Keiran_Geann
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	REO_Nialcolm_Reolach={
+		name="Nialcolm Reolach"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Nialcolm_Reolach
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	REO_Braig_Glaighdearg={
+		name="Braig Glaighdearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REO_Braig_Glaighdearg
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	REO_Ciaran_Glaighdearg={
+		name="Ciaran Glaighdearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REO_Ciaran_Glaighdearg
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	REO_Eoinn_Ceinn={
+		name="Eoinn Ceinn"
+
+		advisor={
+			slot = air_chief
+			idea_token = REO_Eoinn_Ceinn
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	REO_Braig_Dolainnta={
+		name="Braig Dolainnta"
+
+		advisor={
+			slot = air_chief
+			idea_token = REO_Braig_Dolainnta
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	REO_Gareth_Luchar={
+		name="Gareth Luchar"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Gareth_Luchar
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	REO_Gareth_Breing={
+		name="Gareth Breing"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Gareth_Breing
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	REO_Hugh_Luch={
+		name="Hugh Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Hugh_Luch
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	REO_Mall_Dolainnta={
+		name="Mall Dolainnta"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Mall_Dolainnta
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	REO_Quin_Breing={
+		name="Quin Breing"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Quin_Breing
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	REO_Taraig_Geann={
+		name="Taraig Geann"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Taraig_Geann
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	REO_Quin_Ceinn={
+		name="Quin Ceinn"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	REO_Mall_Cort={
+		name="Mall Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Mall_Cort
+				traits = {	infirm 	}
+		}
+
+	}
+	REO_Liaran_Cort={
+		name="Liaran Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Liaran_Cort
+				traits = {	infirm 	}
+		}
+
+	}
+	REO_Garan_Sabh={
+		name="Garan Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Garan_Sabh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	REO_Malcolm_Geann={
+		name="Malcolm Geann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Malcolm_Geann
+				traits = {	the_banker 	}
+		}
+
+	}
+	REO_Mall_Luch={
+		name="Mall Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Mall_Luch
+				traits = {	the_banker 	}
+		}
+
+	}
+	REO_Bran_Luch={
+		name="Bran Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REO_Bran_Luch
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	REO_Liaran_Luch={
+		name="Liaran Luch"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Liaran_Luch
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	REO_Garan_Dolainnta={
+		name="Garan Dolainnta"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Garan_Dolainnta
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	REO_Liaran_Luchar={
+		name="Liaran Luchar"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Liaran_Luchar
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	REO_Liaran_Glaighdearg={
+		name="Liaran Glaighdearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = REO_Liaran_Glaighdearg
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	REO_Cialcolm_Breing={
+		name="Cialcolm Breing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REO_Cialcolm_Breing
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	REO_Ciaran_Reolach={
+		name="Ciaran Reolach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REO_Ciaran_Reolach
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	REO_Declan_Breing={
+		name="Declan Breing"
+
+		advisor={
+			slot = air_chief
+			idea_token = REO_Declan_Breing
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	REO_Nialcolm_Breing={
+		name="Nialcolm Breing"
+
+		advisor={
+			slot = air_chief
+			idea_token = REO_Nialcolm_Breing
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	REO_Quinn_Breing={
+		name="Quinn Breing"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Quinn_Breing
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	REO_Taran_Ceinn={
+		name="Taran Ceinn"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Taran_Ceinn
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	REO_Eoin_Luch={
+		name="Eoin Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Eoin_Luch
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	REO_Malcolm_Ceinn={
+		name="Malcolm Ceinn"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Malcolm_Ceinn
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	REO_Ulrich_Ceinn={
+		name="Ulrich Ceinn"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Ulrich_Ceinn
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	REO_Liaraig_Luch={
+		name="Liaraig Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = REO_Liaraig_Luch
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	REO_Quinn_Dolainnta={
+		name="Quinn Dolainnta"
 
 		advisor={
 			slot = theorist
-			idea_token = REO_Lialcolm_Geamh
+			idea_token = REO_Quinn_Dolainnta
 				traits = {	military_theorist 	}
 		}
 
 	}
-	REO_Ciaraig_Fiochainn={
-		name="Ciaraig Fiochainn"
+	REO_Aidan_Breing={
+		name="Aidan Breing"
 
 		advisor={
 			slot = theorist
-			idea_token = REO_Ciaraig_Fiochainn
+			idea_token = REO_Aidan_Breing
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	REO_Liamus_Talt={
-		name="Liamus Talt"
+	REO_Liaran_Geann={
+		name="Liaran Geann"
 
 		advisor={
 			slot = theorist
-			idea_token = REO_Liamus_Talt
+			idea_token = REO_Liaran_Geann
 				traits = {	air_warfare_theorist 	}
 		}
 

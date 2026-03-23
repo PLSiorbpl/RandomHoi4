@@ -2,37 +2,38 @@
 state={
 	id=1070
 	name="STATE_1070"
-	manpower = 728853
+	manpower = 2747422
 	
-	state_category = town
+	state_category = metropolis
 	#impassable = yes
 	resources={
-		aluminium=0
+		aluminium=16
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13966 4}
+		victory_points = { 12798 7}
+		victory_points = { 12822 10}
 		
-		owner = KFM
+		owner = ZGT
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 2
 			
 			
 		}
-		add_core_of = KFM
+		add_core_of = ZGT
 	}
 
 	provinces={
-		13959 13960 13961 13962 13963 13964 13965 13966 13967 13968 13969 
+		12797 12798 12799 12800 12801 12802 12803 12804 12805 12806 12807 12808 12809 12810 12811 12812 12813 12814 12815 12816 12817 12818 12819 12820 12821 12822 12823 12824 12825 12826 12827 
 	}
 	local_supplies=0.0 
 }

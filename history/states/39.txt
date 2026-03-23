@@ -2,9 +2,9 @@
 state={
 	id=39
 	name="STATE_39"
-	manpower = 648592
+	manpower = 1677652
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,29 @@ state={
 	}
 
 	history={
-		victory_points = { 514 1}
-		victory_points = { 525 1}
+		victory_points = { 530 1}
+		victory_points = { 534 1}
+		victory_points = { 535 3}
+		victory_points = { 537 2}
+		victory_points = { 542 2}
 		
-		owner = AMI
+		owner = UXM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 0
 			industrial_complex = 0
-			
+			dockyard = 1
+			540 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = AMI
+		add_core_of = UXM
 	}
 
 	provinces={
-		514 515 516 517 518 519 520 521 522 523 524 525 526 
+		525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 
 	}
 	local_supplies=0.0 
 }

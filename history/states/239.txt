@@ -2,9 +2,9 @@
 state={
 	id=239
 	name="STATE_239"
-	manpower = 892661
+	manpower = 695567
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 3275 3}
-		victory_points = { 3283 2}
+		victory_points = { 2852 3}
 		
-		owner = MZI
+		owner = MSN
 		buildings = {
 			infrastructure = 3
-			
-			arms_factory = 1
-			industrial_complex = 0
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = MZI
+		add_core_of = MSN
 	}
 
 	provinces={
-		3273 3274 3275 3276 3277 3278 3279 3280 3281 3282 3283 3284 3285 
+		2852 2853 2854 2855 2856 2857 2858 
 	}
 	local_supplies=0.0 
 }

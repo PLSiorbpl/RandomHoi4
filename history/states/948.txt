@@ -2,42 +2,38 @@
 state={
 	id=948
 	name="STATE_948"
-	manpower = 2770816
+	manpower = 1094742
 	
-	state_category = megalopolis
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=9
+		chromium=0
 		oil=0
-		rubber=21
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12671 11}
-		victory_points = { 12676 1}
-		victory_points = { 12681 9}
+		victory_points = { 11284 3}
+		victory_points = { 11289 1}
 		
-		owner = REO
+		owner = AJT
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 3
+			air_base = 2
 			arms_factory = 0
-			industrial_complex = 2
-			dockyard = 1
-			12684 = {
-				naval_base = 1
-			}
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = REO
+		add_core_of = AJT
 	}
 
 	provinces={
-		12663 12664 12665 12666 12667 12668 12669 12670 12671 12672 12673 12674 12675 12676 12677 12678 12679 12680 12681 12682 12683 12684 12685 12686 12687 12688 12689 12690 12691 12692 12693 12694 12695 12696 12697 12698 12699 12700 12701 12702 12703 12704 12705 12706 12707 
+		11280 11281 11282 11283 11284 11285 11286 11287 11288 11289 11290 11291 
 	}
 	local_supplies=0.0 
 }

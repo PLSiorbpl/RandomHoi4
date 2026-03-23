@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Caes Fleet"			
+		naval_base = 10468
+		task_force = {
+			name = "Caes Fleet"
+			location = 10468
+			
+						ship = { name = "Vilva" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAE version_name = "Flumentifex Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

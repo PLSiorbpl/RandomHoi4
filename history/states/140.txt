@@ -2,40 +2,38 @@
 state={
 	id=140
 	name="STATE_140"
-	manpower = 1830267
+	manpower = 667453
 	
-	state_category = large_city
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=3
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 1985 6}
-		victory_points = { 1988 2}
-		victory_points = { 1992 3}
-		victory_points = { 1998 2}
+		victory_points = { 1801 2}
+		victory_points = { 1804 1}
 		
-		owner = ETX
+		owner = BUN
 		buildings = {
-			infrastructure = 4
-			air_base = 4
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = ETX
+		add_core_of = BUN
 	}
 
 	provinces={
-		1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 
+		1801 1802 1803 1804 1805 1806 1807 
 	}
 	local_supplies=0.0 
 }

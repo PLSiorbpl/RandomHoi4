@@ -2,14 +2,14 @@
 state={
 	id=60
 	name="STATE_60"
-	manpower = 919796
+	manpower = 347111
 	
-	state_category = town
+	state_category = pastoral
 	#impassable = yes
 	resources={
-		aluminium=5
+		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 896 3}
-		victory_points = { 899 3}
+		victory_points = { 808 2}
 		
-		owner = OON
+		owner = HAM
 		buildings = {
 			infrastructure = 3
-			
+			air_base = 1
 			arms_factory = 0
-			industrial_complex = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = OON
+		add_core_of = HAM
 	}
 
 	provinces={
-		887 888 889 890 891 892 893 894 895 896 897 898 899 900 901 
+		808 809 810 
 	}
 	local_supplies=0.0 
 }

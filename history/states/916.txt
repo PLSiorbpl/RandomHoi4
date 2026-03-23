@@ -2,37 +2,40 @@
 state={
 	id=916
 	name="STATE_916"
-	manpower = 460574
+	manpower = 2804999
 	
-	state_category = rural
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=3
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 12356 1}
+		victory_points = { 10746 18}
 		
-		owner = BHL
+		owner = KAA
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 1
 			arms_factory = 1
-			industrial_complex = 0
+			industrial_complex = 2
 			
+			10751 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = BHL
+		add_core_of = KAA
 	}
 
 	provinces={
-		12354 12355 12356 12357 12358 12359 
+		10725 10726 10727 10728 10729 10730 10731 10732 10733 10734 10735 10736 10737 10738 10739 10740 10741 10742 10743 10744 10745 10746 10747 10748 10749 10750 10751 10752 10753 10754 10755 
 	}
 	local_supplies=0.0 
 }

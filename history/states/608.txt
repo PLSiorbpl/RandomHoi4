@@ -2,39 +2,38 @@
 state={
 	id=608
 	name="STATE_608"
-	manpower = 1306539
+	manpower = 1322526
 	
-	state_category = city
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=6
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=1
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 8059 4}
-		victory_points = { 8068 5}
-		victory_points = { 8073 1}
+		victory_points = { 7200 1}
+		victory_points = { 7206 6}
 		
-		owner = KOB
+		owner = IKA
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = KOB
+		add_core_of = IKA
 	}
 
 	provinces={
-		8057 8058 8059 8060 8061 8062 8063 8064 8065 8066 8067 8068 8069 8070 8071 8072 8073 8074 8075 
+		7199 7200 7201 7202 7203 7204 7205 7206 7207 7208 7209 7210 7211 7212 7213 7214 
 	}
 	local_supplies=0.0 
 }

@@ -2,7 +2,7 @@
 state={
 	id=13
 	name="STATE_13"
-	manpower = 781198
+	manpower = 897422
 	
 	state_category = town
 	#impassable = yes
@@ -12,27 +12,32 @@ state={
 		oil=0
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 133 5}
+		victory_points = { 109 1}
+		victory_points = { 111 3}
+		victory_points = { 113 1}
 		
-		owner = GDA
+		owner = BXN
 		buildings = {
 			infrastructure = 3
 			
 			arms_factory = 0
 			industrial_complex = 1
 			
+			109 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = GDA
+		add_core_of = BXN
 	}
 
 	provinces={
-		128 129 130 131 132 133 134 135 136 137 138 
+		105 106 107 108 109 110 111 112 113 
 	}
 	local_supplies=0.0 
 }

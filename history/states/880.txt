@@ -2,41 +2,39 @@
 state={
 	id=880
 	name="STATE_880"
-	manpower = 2110355
+	manpower = 1522888
 	
-	state_category = metropolis
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
-		steel=2
-		tungsten=5
+		steel=3
+		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 11811 6}
-		victory_points = { 11814 11}
+		victory_points = { 10227 1}
+		victory_points = { 10235 6}
+		victory_points = { 10237 1}
 		
-		owner = SAH
+		owner = AHC
 		buildings = {
 			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 2
 			
-			11814 = {
-				naval_base = 1
-			}
+			arms_factory = 1
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = SAH
+		add_core_of = AHC
 	}
 
 	provinces={
-		11802 11803 11804 11805 11806 11807 11808 11809 11810 11811 11812 11813 11814 11815 11816 11817 11818 11819 11820 11821 11822 11823 11824 11825 11826 11827 11828 11829 11830 11831 11832 11833 
+		10225 10226 10227 10228 10229 10230 10231 10232 10233 10234 10235 10236 10237 10238 10239 10240 
 	}
 	local_supplies=0.0 
 }

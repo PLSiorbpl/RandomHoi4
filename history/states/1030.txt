@@ -2,7 +2,7 @@
 state={
 	id=1030
 	name="STATE_1030"
-	manpower = 1120940
+	manpower = 1590541
 	
 	state_category = city
 	#impassable = yes
@@ -11,33 +11,29 @@ state={
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=22
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 13540 1}
-		victory_points = { 13544 3}
-		victory_points = { 13548 3}
+		victory_points = { 12298 2}
+		victory_points = { 12307 7}
 		
-		owner = NCL
+		owner = BAC
 		buildings = {
 			infrastructure = 4
-			
-			arms_factory = 0
+			air_base = 1
+			arms_factory = 1
 			industrial_complex = 0
-			dockyard = 1
-			13544 = {
-				naval_base = 1
-			}
+			
 			
 		}
-		add_core_of = NCL
+		add_core_of = BAC
 	}
 
 	provinces={
-		13539 13540 13541 13542 13543 13544 13545 13546 13547 13548 13549 13550 13551 13552 13553 13554 13555 
+		12298 12299 12300 12301 12302 12303 12304 12305 12306 12307 12308 12309 12310 12311 12312 12313 12314 
 	}
 	local_supplies=0.0 
 }

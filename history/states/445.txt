@@ -2,42 +2,42 @@
 state={
 	id=445
 	name="STATE_445"
-	manpower = 878838
+	manpower = 1550999
 	
-	state_category = town
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
-		tungsten=0
+		tungsten=2
 		coal=0
 	}
 
 	history={
-		victory_points = { 5782 1}
-		victory_points = { 5786 3}
-		victory_points = { 5789 2}
+		victory_points = { 5328 7}
+		victory_points = { 5332 1}
+		victory_points = { 5337 1}
 		
-		owner = LIN
+		owner = SAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 1
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			5791 = {
+			industrial_complex = 1
+			
+			5333 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = LIN
+		add_core_of = SAN
 	}
 
 	provinces={
-		5779 5780 5781 5782 5783 5784 5785 5786 5787 5788 5789 5790 5791 5792 
+		5325 5326 5327 5328 5329 5330 5331 5332 5333 5334 5335 5336 5337 5338 5339 5340 
 	}
 	local_supplies=0.0 
 }

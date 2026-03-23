@@ -2,9 +2,9 @@
 state={
 	id=984
 	name="STATE_984"
-	manpower = 2734379
+	manpower = 689611
 	
-	state_category = megalopolis
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,28 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 13076 6}
-		victory_points = { 13081 9}
-		victory_points = { 13087 5}
-		victory_points = { 13098 2}
+		victory_points = { 11705 1}
+		victory_points = { 11706 1}
+		victory_points = { 11708 1}
 		
-		owner = TSL
+		owner = KAA
 		buildings = {
-			infrastructure = 5
-			air_base = 2
-			arms_factory = 1
-			industrial_complex = 2
+			infrastructure = 3
 			
-			13104 = {
-				naval_base = 1
-			}
+			arms_factory = 1
+			industrial_complex = 0
+			
 			
 		}
-		add_core_of = TSL
+		add_core_of = KAA
 	}
 
 	provinces={
-		13074 13075 13076 13077 13078 13079 13080 13081 13082 13083 13084 13085 13086 13087 13088 13089 13090 13091 13092 13093 13094 13095 13096 13097 13098 13099 13100 13101 13102 13103 13104 13105 13106 13107 13108 13109 13110 13111 13112 13113 13114 13115 
+		11705 11706 11707 11708 11709 11710 
 	}
 	local_supplies=0.0 
 }

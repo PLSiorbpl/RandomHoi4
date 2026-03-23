@@ -2,13 +2,13 @@
 state={
 	id=951
 	name="STATE_951"
-	manpower = 681969
+	manpower = 2083305
 	
-	state_category = town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=1
+		chromium=0
 		oil=0
 		rubber=0
 		steel=0
@@ -17,27 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 12717 2}
-		victory_points = { 12719 1}
-		victory_points = { 12723 1}
+		victory_points = { 11328 1}
+		victory_points = { 11331 11}
 		
-		owner = BRE
+		owner = TOT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			12721 = {
-				naval_base = 1
-			}
+			industrial_complex = 2
+			
 			
 		}
-		add_core_of = BRE
+		add_core_of = TOT
 	}
 
 	provinces={
-		12716 12717 12718 12719 12720 12721 12722 12723 12724 
+		11318 11319 11320 11321 11322 11323 11324 11325 11326 11327 11328 11329 11330 11331 11332 11333 11334 11335 11336 11337 11338 11339 11340 
 	}
 	local_supplies=0.0 
 }

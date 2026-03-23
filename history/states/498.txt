@@ -2,38 +2,36 @@
 state={
 	id=498
 	name="STATE_498"
-	manpower = 1601396
+	manpower = 475845
 	
-	state_category = large_city
+	state_category = pastoral
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6529 7}
-		victory_points = { 6534 4}
 		
-		owner = BON
+		owner = JNI
 		buildings = {
-			infrastructure = 4
-			
-			arms_factory = 0
-			industrial_complex = 2
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
 			
 			
 		}
-		add_core_of = BON
+		add_core_of = JNI
 	}
 
 	provinces={
-		6515 6516 6517 6518 6519 6520 6521 6522 6523 6524 6525 6526 6527 6528 6529 6530 6531 6532 6533 6534 6535 6536 6537 6538 
+		5999 6000 6001 6002 6003 6004 6005 
 	}
 	local_supplies=0.0 
 }

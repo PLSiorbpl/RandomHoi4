@@ -2,12 +2,12 @@
 state={
 	id=494
 	name="STATE_494"
-	manpower = 897824
+	manpower = 837961
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
-		aluminium=10
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,26 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 6448 4}
-		victory_points = { 6453 1}
+		victory_points = { 5950 1}
+		victory_points = { 5951 2}
+		victory_points = { 5952 1}
 		
-		owner = IMA
+		owner = IDU
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
-			6460 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = IMA
+		add_core_of = IDU
 	}
 
 	provinces={
-		6448 6449 6450 6451 6452 6453 6454 6455 6456 6457 6458 6459 6460 
+		5948 5949 5950 5951 5952 5953 5954 5955 
 	}
 	local_supplies=0.0 
 }

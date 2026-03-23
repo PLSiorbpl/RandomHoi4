@@ -2,38 +2,37 @@
 state={
 	id=206
 	name="STATE_206"
-	manpower = 1184549
+	manpower = 949195
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=9
+		rubber=0
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 2846 2}
-		victory_points = { 2851 5}
+		victory_points = { 2529 5}
 		
-		owner = KET
+		owner = UXU
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			arms_factory = 1
-			industrial_complex = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
 			
 			
 		}
-		add_core_of = KET
+		add_core_of = UXU
 	}
 
 	provinces={
-		2836 2837 2838 2839 2840 2841 2842 2843 2844 2845 2846 2847 2848 2849 2850 2851 2852 2853 2854 
+		2522 2523 2524 2525 2526 2527 2528 2529 2530 2531 
 	}
 	local_supplies=0.0 
 }

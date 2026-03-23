@@ -2,41 +2,38 @@
 state={
 	id=599
 	name="STATE_599"
-	manpower = 947149
+	manpower = 3975567
 	
-	state_category = large_town
+	state_category = megalopolis
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
-		oil=0
+		chromium=5
+		oil=8
 		rubber=0
-		steel=0
+		steel=25
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 7911 4}
-		victory_points = { 7915 3}
+		victory_points = { 7082 24}
+		victory_points = { 7103 2}
 		
-		owner = FAB
+		owner = CAE
 		buildings = {
-			infrastructure = 4
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 1
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 2
+			industrial_complex = 2
 			
-			7922 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = FAB
+		add_core_of = CAE
 	}
 
 	provinces={
-		7910 7911 7912 7913 7914 7915 7916 7917 7918 7919 7920 7921 7922 7923 
+		7082 7083 7084 7085 7086 7087 7088 7089 7090 7091 7092 7093 7094 7095 7096 7097 7098 7099 7100 7101 7102 7103 7104 7105 7106 7107 7108 7109 7110 7111 7112 7113 7114 7115 7116 7117 7118 7119 7120 7121 7122 7123 7124 7125 7126 
 	}
 	local_supplies=0.0 
 }

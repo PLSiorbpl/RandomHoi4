@@ -2,14 +2,14 @@
 state={
 	id=768
 	name="STATE_768"
-	manpower = 977165
+	manpower = 2308966
 	
-	state_category = large_town
+	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
+		oil=4
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,28 @@ state={
 	}
 
 	history={
-		victory_points = { 10318 4}
-		victory_points = { 10324 3}
+		victory_points = { 9038 2}
+		victory_points = { 9045 1}
+		victory_points = { 9048 6}
+		victory_points = { 9062 5}
 		
-		owner = WEA
+		owner = AHC
 		buildings = {
 			infrastructure = 4
-			air_base = 1
-			arms_factory = 1
-			industrial_complex = 0
 			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			9045 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = WEA
+		add_core_of = AHC
 	}
 
 	provinces={
-		10316 10317 10318 10319 10320 10321 10322 10323 10324 10325 10326 10327 10328 10329 
+		9037 9038 9039 9040 9041 9042 9043 9044 9045 9046 9047 9048 9049 9050 9051 9052 9053 9054 9055 9056 9057 9058 9059 9060 9061 9062 
 	}
 	local_supplies=0.0 
 }

@@ -2,12 +2,12 @@
 state={
 	id=630
 	name="STATE_630"
-	manpower = 587141
+	manpower = 1159279
 	
-	state_category = town
+	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=4
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -17,23 +17,24 @@ state={
 	}
 
 	history={
-		victory_points = { 8397 1}
-		victory_points = { 8399 1}
+		victory_points = { 7434 2}
+		victory_points = { 7437 1}
+		victory_points = { 7438 2}
 		
-		owner = CNU
+		owner = GIZ
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
+			
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = CNU
+		add_core_of = GIZ
 	}
 
 	provinces={
-		8394 8395 8396 8397 8398 8399 8400 8401 
+		7434 7435 7436 7437 7438 7439 7440 7441 7442 7443 7444 7445 
 	}
 	local_supplies=0.0 
 }

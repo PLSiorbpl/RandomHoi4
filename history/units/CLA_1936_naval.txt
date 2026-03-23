@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Clamhas Fleet"			
+		naval_base = 17283
+		task_force = {
+			name = "Clamhas Fleet"
+			location = 17283
+			
+						ship = { name = "Lorg" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CLA version_name = "Tuarnadhaill Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

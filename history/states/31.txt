@@ -2,14 +2,14 @@
 state={
 	id=31
 	name="STATE_31"
-	manpower = 554495
+	manpower = 1620313
 	
-	state_category = rural
+	state_category = city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 396 1}
+		victory_points = { 394 3}
+		victory_points = { 410 7}
 		
-		owner = BXR
+		owner = MSN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 1
-			arms_factory = 0
+			arms_factory = 1
 			industrial_complex = 0
 			
+			400 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = BXR
+		add_core_of = MSN
 	}
 
 	provinces={
-		393 394 395 396 397 398 399 400 401 402 403 404 405 406 
+		394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 
 	}
 	local_supplies=0.0 
 }

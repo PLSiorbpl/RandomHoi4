@@ -2,14 +2,14 @@
 state={
 	id=401
 	name="STATE_401"
-	manpower = 388113
+	manpower = 1298083
 	
-	state_category = rural
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=3
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,25 +17,22 @@ state={
 	}
 
 	history={
-		victory_points = { 5282 1}
+		victory_points = { 4821 7}
 		
-		owner = GDA
+		owner = KQL
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 4
+			air_base = 3
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
-			5279 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = GDA
+		add_core_of = KQL
 	}
 
 	provinces={
-		5279 5280 5281 5282 5283 
+		4813 4814 4815 4816 4817 4818 4819 4820 4821 4822 4823 4824 4825 4826 
 	}
 	local_supplies=0.0 
 }

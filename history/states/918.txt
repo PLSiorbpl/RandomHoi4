@@ -2,9 +2,9 @@
 state={
 	id=918
 	name="STATE_918"
-	manpower = 84697
+	manpower = 665786
 	
-	state_category = small_island
+	state_category = rural
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,25 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 12368 1}
+		victory_points = { 10774 1}
+		victory_points = { 10777 1}
 		
-		owner = BEJ
+		owner = GAA
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			arms_factory = 0
-			industrial_complex = 0
 			
-			12368 = {
-				naval_base = 1
-			}
+			arms_factory = 0
+			industrial_complex = 1
+			
 			
 		}
-		add_core_of = BEJ
+		add_core_of = GAA
 	}
 
 	provinces={
-		12368 
+		10774 10775 10776 10777 10778 10779 10780 
 	}
 	local_supplies=0.0 
 }

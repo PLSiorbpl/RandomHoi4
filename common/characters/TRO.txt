@@ -1,0 +1,880 @@
+characters = {
+	TRO_Ciall_Slam={
+		name="Ciall Slam"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRO_Bran_Cluath={
+		name="Bran Cluath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Bran_Cluath
+				traits = {	headstrong 	}
+		}
+
+	}
+	TRO_Declan_Cnoch={
+		name="Declan Cnoch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Declan_Cnoch
+				traits = {	headstrong 	}
+		}
+
+	}
+	TRO_Padraig_Slam={
+		name="Padraig Slam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Padraig_Slam
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TRO_Taran_Boglas={
+		name="Taran Boglas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Taran_Boglas
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TRO_Keiraig_Laoc={
+		name="Keiraig Laoc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Keiraig_Laoc
+				traits = {	headstrong 	}
+		}
+
+	}
+	TRO_Eoinn_Boglas={
+		name="Eoinn Boglas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Eoinn_Boglas
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TRO_Liamus_Boglas={
+		name="Liamus Boglas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Liamus_Boglas
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TRO_Ulrich_Cluath={
+		name="Ulrich Cluath"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Ulrich_Cluath
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TRO_Quin_Aighdeanchea={
+		name="Quin Aighdeanchea"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Quin_Aighdeanchea
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TRO_Ulrich_Scathas={
+		name="Ulrich Scathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Ulrich_Scathas
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TRO_Eoin_Troinn={
+		name="Eoin Troinn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Eoin_Troinn
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TRO_Eoinn_Ceill={
+		name="Eoinn Ceill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Eoinn_Ceill
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TRO_Quin_Boglas={
+		name="Quin Boglas"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Quin_Boglas
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TRO_Keiran_Scathas={
+		name="Keiran Scathas"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Keiran_Scathas
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TRO_Niam_Ceill={
+		name="Niam Ceill"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Niam_Ceill
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	TRO_Declan_Slam={
+		name="Declan Slam"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Declan_Slam
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TRO_Liamus_Slam={
+		name="Liamus Slam"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Liamus_Slam
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	TRO_Liareth_Cluath={
+		name="Liareth Cluath"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Liareth_Cluath
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TRO_Bran_Tigheal={
+		name="Bran Tigheal"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Bran_Tigheal
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TRO_Tareth_Cluath={
+		name="Tareth Cluath"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Tareth_Cluath
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	TRO_Ciam_Slam={
+		name="Ciam Slam"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRO_Keiraig_Slam={
+		name="Keiraig Slam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Keiraig_Slam
+				traits = {	basileus 	}
+		}
+
+	}
+	TRO_Niam_Tigheal={
+		name="Niam Tigheal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Niam_Tigheal
+				traits = {	basileus 	}
+		}
+
+	}
+	TRO_Owen_Ceill={
+		name="Owen Ceill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Owen_Ceill
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TRO_Garan_Tigheal={
+		name="Garan Tigheal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Garan_Tigheal
+				traits = {	infirm 	}
+		}
+
+	}
+	TRO_Padraig_Ceill={
+		name="Padraig Ceill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Padraig_Ceill
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TRO_Rhys_Cluath={
+		name="Rhys Cluath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Rhys_Cluath
+				traits = {	warmonger 	}
+		}
+
+	}
+	TRO_Garan_Boglas={
+		name="Garan Boglas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Garan_Boglas
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TRO_Tareth_Aighdeanchea={
+		name="Tareth Aighdeanchea"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Tareth_Aighdeanchea
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TRO_Lialcolm_Cnoch={
+		name="Lialcolm Cnoch"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Lialcolm_Cnoch
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TRO_Liamus_Cluath={
+		name="Liamus Cluath"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Liamus_Cluath
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TRO_Owen_Slam={
+		name="Owen Slam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Owen_Slam
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TRO_Padran_Cluath={
+		name="Padran Cluath"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Padran_Cluath
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TRO_Lialcolm_Laoc={
+		name="Lialcolm Laoc"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Lialcolm_Laoc
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TRO_Declan_Troinn={
+		name="Declan Troinn"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Declan_Troinn
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TRO_Liaran_Ceill={
+		name="Liaran Ceill"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Liaran_Ceill
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TRO_Niam_Aighdeanchea={
+		name="Niam Aighdeanchea"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Niam_Aighdeanchea
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TRO_Keiraig_Cluath={
+		name="Keiraig Cluath"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Keiraig_Cluath
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	TRO_Tareth_Slam={
+		name="Tareth Slam"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Tareth_Slam
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TRO_Quin_Cluath={
+		name="Quin Cluath"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Quin_Cluath
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TRO_Keiraig_Tigheal={
+		name="Keiraig Tigheal"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Keiraig_Tigheal
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TRO_Fergus_Cnoch={
+		name="Fergus Cnoch"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRO_Taran_Tigheal={
+		name="Taran Tigheal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Taran_Tigheal
+				traits = {	polemarch 	}
+		}
+
+	}
+	TRO_Quin_Slam={
+		name="Quin Slam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Quin_Slam
+				traits = {	infirm 	}
+		}
+
+	}
+	TRO_Liamus_Tigheal={
+		name="Liamus Tigheal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Liamus_Tigheal
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TRO_Liaran_Boglas={
+		name="Liaran Boglas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Liaran_Boglas
+				traits = {	infirm 	}
+		}
+
+	}
+	TRO_Iwan_Tigheal={
+		name="Iwan Tigheal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Iwan_Tigheal
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TRO_Iwan_Ceill={
+		name="Iwan Ceill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Iwan_Ceill
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TRO_Fergus_Troinn={
+		name="Fergus Troinn"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Fergus_Troinn
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TRO_Keiran_Boglas={
+		name="Keiran Boglas"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Keiran_Boglas
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TRO_Garan_Cnoch={
+		name="Garan Cnoch"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Garan_Cnoch
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TRO_Eoinn_Slam={
+		name="Eoinn Slam"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Eoinn_Slam
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TRO_Ciareth_Cnoch={
+		name="Ciareth Cnoch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Ciareth_Cnoch
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TRO_Garaig_Cnoch={
+		name="Garaig Cnoch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Garaig_Cnoch
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TRO_Garaig_Laoc={
+		name="Garaig Laoc"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Garaig_Laoc
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TRO_Ciall_Boglas={
+		name="Ciall Boglas"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Ciall_Boglas
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TRO_Eoinn_Cnoch={
+		name="Eoinn Cnoch"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Eoinn_Cnoch
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TRO_Garaig_Scathas={
+		name="Garaig Scathas"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Garaig_Scathas
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	TRO_Bran_Cnoch={
+		name="Bran Cnoch"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Bran_Cnoch
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TRO_Liaran_Cluath={
+		name="Liaran Cluath"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Liaran_Cluath
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	TRO_Liareth_Slam={
+		name="Liareth Slam"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Liareth_Slam
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TRO_Declan_Boglas={
+		name="Declan Boglas"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Declan_Boglas
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TRO_Ciall_Cluath={
+		name="Ciall Cluath"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRO_Niam_Slam={
+		name="Niam Slam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Niam_Slam
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TRO_Quinn_Aighdeanchea={
+		name="Quinn Aighdeanchea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Quinn_Aighdeanchea
+				traits = {	infirm 	}
+		}
+
+	}
+	TRO_Iwan_Troinn={
+		name="Iwan Troinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Iwan_Troinn
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TRO_Garaig_Ceill={
+		name="Garaig Ceill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Garaig_Ceill
+				traits = {	the_banker 	}
+		}
+
+	}
+	TRO_Ciam_Cnoch={
+		name="Ciam Cnoch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Ciam_Cnoch
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TRO_Aidan_Troinn={
+		name="Aidan Troinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRO_Aidan_Troinn
+				traits = {	infirm 	}
+		}
+
+	}
+	TRO_Tareth_Troinn={
+		name="Tareth Troinn"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Tareth_Troinn
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TRO_Fergus_Ceill={
+		name="Fergus Ceill"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Fergus_Ceill
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TRO_Keiran_Aighdeanchea={
+		name="Keiran Aighdeanchea"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Keiran_Aighdeanchea
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TRO_Fergus_Tigheal={
+		name="Fergus Tigheal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRO_Fergus_Tigheal
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TRO_Liaran_Troinn={
+		name="Liaran Troinn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Liaran_Troinn
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TRO_Liaran_Cnoch={
+		name="Liaran Cnoch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRO_Liaran_Cnoch
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	TRO_Owen_Aighdeanchea={
+		name="Owen Aighdeanchea"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Owen_Aighdeanchea
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	TRO_Ciareth_Slam={
+		name="Ciareth Slam"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRO_Ciareth_Slam
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TRO_Eoin_Cnoch={
+		name="Eoin Cnoch"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Eoin_Cnoch
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TRO_Rhys_Aighdeanchea={
+		name="Rhys Aighdeanchea"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Rhys_Aighdeanchea
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	TRO_Owen_Tigheal={
+		name="Owen Tigheal"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Owen_Tigheal
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	TRO_Ciam_Tigheal={
+		name="Ciam Tigheal"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Ciam_Tigheal
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	TRO_Niam_Boglas={
+		name="Niam Boglas"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Niam_Boglas
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TRO_Keiraig_Troinn={
+		name="Keiraig Troinn"
+
+		advisor={
+			slot = high_command
+			idea_token = TRO_Keiraig_Troinn
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TRO_Ciam_Laoc={
+		name="Ciam Laoc"
+
+		advisor={
+			slot = theorist
+			idea_token = TRO_Ciam_Laoc
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TRO_Rhys_Slam={
+		name="Rhys Slam"
+
+		advisor={
+			slot = theorist
+			idea_token = TRO_Rhys_Slam
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TRO_Owen_Scathas={
+		name="Owen Scathas"
+
+		advisor={
+			slot = theorist
+			idea_token = TRO_Owen_Scathas
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

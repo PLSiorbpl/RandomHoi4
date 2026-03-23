@@ -2,38 +2,37 @@
 state={
 	id=472
 	name="STATE_472"
-	manpower = 765202
+	manpower = 1010992
 	
 	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
-		steel=20
+		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6099 1}
-		victory_points = { 6103 3}
+		victory_points = { 5691 5}
 		
-		owner = KAV
+		owner = YIT
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			air_base = 1
 			arms_factory = 0
 			industrial_complex = 1
 			
 			
 		}
-		add_core_of = KAV
+		add_core_of = YIT
 	}
 
 	provinces={
-		6095 6096 6097 6098 6099 6100 6101 6102 6103 6104 
+		5689 5690 5691 5692 5693 5694 5695 5696 5697 5698 
 	}
 	local_supplies=0.0 
 }

@@ -2,41 +2,37 @@
 state={
 	id=482
 	name="STATE_482"
-	manpower = 968754
+	manpower = 526069
 	
-	state_category = large_town
+	state_category = rural
 	#impassable = yes
 	resources={
-		aluminium=6
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
-		steel=0
+		steel=5
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 6246 1}
-		victory_points = { 6253 5}
+		victory_points = { 5802 2}
 		
-		owner = YIC
+		owner = GIZ
 		buildings = {
-			infrastructure = 4
-			
+			infrastructure = 3
+			air_base = 1
 			arms_factory = 1
 			industrial_complex = 0
 			
-			6255 = {
-				naval_base = 1
-			}
 			
 		}
-		add_core_of = YIC
+		add_core_of = GIZ
 	}
 
 	provinces={
-		6245 6246 6247 6248 6249 6250 6251 6252 6253 6254 6255 6256 6257 6258 
+		5801 5802 5803 5804 5805 
 	}
 	local_supplies=0.0 
 }

@@ -2,14 +2,14 @@
 state={
 	id=375
 	name="STATE_375"
-	manpower = 220198
+	manpower = 1141818
 	
-	state_category = pastoral
+	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=2
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,22 +17,26 @@ state={
 	}
 
 	history={
-		victory_points = { 4992 1}
+		victory_points = { 4484 4}
+		victory_points = { 4486 2}
 		
-		owner = TGY
+		owner = QER
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 			arms_factory = 0
-			industrial_complex = 0
+			industrial_complex = 1
 			
+			4481 = {
+				naval_base = 1
+			}
 			
 		}
-		add_core_of = TGY
+		add_core_of = QER
 	}
 
 	provinces={
-		4992 4993 
+		4479 4480 4481 4482 4483 4484 4485 4486 4487 4488 4489 4490 
 	}
 	local_supplies=0.0 
 }

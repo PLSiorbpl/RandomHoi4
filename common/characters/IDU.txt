@@ -1,0 +1,880 @@
+characters = {
+	IDU_Boran_Toprakildi={
+		name="Boran Toprakildi"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IDU_Ramalcinan_Akgun={
+		name="Ramalcinan Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Ramalcinan_Akgun
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	IDU_Onuran_Toprakildi={
+		name="Onuran Toprakildi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Onuran_Toprakildi
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	IDU_Onurat_Toprakildi={
+		name="Onurat Toprakildi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Onurat_Toprakildi
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	IDU_Sinaner_Bede={
+		name="Sinaner Bede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Sinaner_Bede
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	IDU_Ilker_Yolden={
+		name="Ilker Yolden"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Ilker_Yolden
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	IDU_Cemazan_Ilce={
+		name="Cemazan Ilce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Cemazan_Ilce
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	IDU_Yilmalcinan_Toprakildi={
+		name="Yilmalcinan Toprakildi"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Yilmalcinan_Toprakildi
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	IDU_Eminan_Bede={
+		name="Eminan Bede"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Eminan_Bede
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	IDU_Talcin_Koplul={
+		name="Talcin Koplul"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Talcin_Koplul
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	IDU_Mura_Toprakildi={
+		name="Mura Toprakildi"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Mura_Toprakildi
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	IDU_Ilkenderhan_Aksaris={
+		name="Ilkenderhan Aksaris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Ilkenderhan_Aksaris
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	IDU_Cemazan_Yolden={
+		name="Cemazan Yolden"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Cemazan_Yolden
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IDU_Sinan_Akgun={
+		name="Sinan Akgun"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Sinan_Akgun
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	IDU_Halilmaz_Bede={
+		name="Halilmaz Bede"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Halilmaz_Bede
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	IDU_Ertuhan_Aksaris={
+		name="Ertuhan Aksaris"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Ertuhan_Aksaris
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	IDU_Seremaz_Koplul={
+		name="Seremaz Koplul"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Seremaz_Koplul
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	IDU_Zafa_Bede={
+		name="Zafa Bede"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Zafa_Bede
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	IDU_Efer_Aksaris={
+		name="Efer Aksaris"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Efer_Aksaris
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	IDU_Hara_Yolden={
+		name="Hara Yolden"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Hara_Yolden
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	IDU_Zafe_Gululutlutlu={
+		name="Zafe Gululutlutlu"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Zafe_Gululutlutlu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	IDU_Hakan_Yolden={
+		name="Hakan Yolden"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IDU_Mehmet_Aksaris={
+		name="Mehmet Aksaris"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Mehmet_Aksaris
+				traits = {	infirm 	}
+		}
+
+	}
+	IDU_Ertuhan_Sehirin={
+		name="Ertuhan Sehirin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Ertuhan_Sehirin
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	IDU_Orhanesul_Ilce={
+		name="Orhanesul Ilce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Orhanesul_Ilce
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	IDU_Cemazanes_Gululutlutlu={
+		name="Cemazanes Gululutlutlu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Cemazanes_Gululutlutlu
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	IDU_Onurat_Ilce={
+		name="Onurat Ilce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Onurat_Ilce
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	IDU_Barun_Asikarla={
+		name="Barun Asikarla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Barun_Asikarla
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	IDU_Muran_Koplul={
+		name="Muran Koplul"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Muran_Koplul
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	IDU_Bulent_Sehirin={
+		name="Bulent Sehirin"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Bulent_Sehirin
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	IDU_Orhan_Yolden={
+		name="Orhan Yolden"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Orhan_Yolden
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	IDU_Yalcinan_Ilce={
+		name="Yalcinan Ilce"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Yalcinan_Ilce
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	IDU_Orhanesul_Sehirin={
+		name="Orhanesul Sehirin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Orhanesul_Sehirin
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	IDU_Isker_Bede={
+		name="Isker Bede"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Isker_Bede
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	IDU_Ramazan_Yolden={
+		name="Ramazan Yolden"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Ramazan_Yolden
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	IDU_Muran_Sehirin={
+		name="Muran Sehirin"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Muran_Sehirin
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	IDU_Emir_Yolden={
+		name="Emir Yolden"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Emir_Yolden
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	IDU_Ramalcinan_Asikarla={
+		name="Ramalcinan Asikarla"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Ramalcinan_Asikarla
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	IDU_Eminan_Gululutlutlu={
+		name="Eminan Gululutlutlu"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Eminan_Gululutlutlu
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	IDU_Efer_Bede={
+		name="Efer Bede"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Efer_Bede
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	IDU_Ramalcinan_Bede={
+		name="Ramalcinan Bede"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Ramalcinan_Bede
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	IDU_Ener_Gululutlutlu={
+		name="Ener Gululutlutlu"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Ener_Gululutlutlu
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	IDU_Orhan_Gululutlutlu={
+		name="Orhan Gululutlutlu"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IDU_Suatuha_Toprakildi={
+		name="Suatuha Toprakildi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Suatuha_Toprakildi
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	IDU_Halilmaz_Gululutlutlu={
+		name="Halilmaz Gululutlutlu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Halilmaz_Gululutlutlu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	IDU_Kerhanerkan_Sehirin={
+		name="Kerhanerkan Sehirin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Kerhanerkan_Sehirin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	IDU_Ademazan_Ilce={
+		name="Ademazan Ilce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Ademazan_Ilce
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	IDU_Onur_Sehirin={
+		name="Onur Sehirin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Onur_Sehirin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	IDU_Sinan_Yolden={
+		name="Sinan Yolden"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Sinan_Yolden
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	IDU_Musuf_Toprakildi={
+		name="Musuf Toprakildi"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Musuf_Toprakildi
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	IDU_Ramazan_Koplul={
+		name="Ramazan Koplul"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Ramazan_Koplul
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IDU_Yustafa_Ilce={
+		name="Yustafa Ilce"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Yustafa_Ilce
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	IDU_Barun_Ilce={
+		name="Barun Ilce"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Barun_Ilce
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	IDU_Yalhat_Aksaris={
+		name="Yalhat Aksaris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Yalhat_Aksaris
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IDU_Savas_Toprakildi={
+		name="Savas Toprakildi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Savas_Toprakildi
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	IDU_Yalhat_Asikarla={
+		name="Yalhat Asikarla"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Yalhat_Asikarla
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	IDU_Zafer_Akgun={
+		name="Zafer Akgun"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Zafer_Akgun
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	IDU_Muran_Akgun={
+		name="Muran Akgun"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Muran_Akgun
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	IDU_Cemazanes_Yolden={
+		name="Cemazanes Yolden"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Cemazanes_Yolden
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	IDU_Utku_Ilce={
+		name="Utku Ilce"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Utku_Ilce
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	IDU_Yalcinan_Gululutlutlu={
+		name="Yalcinan Gululutlutlu"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Yalcinan_Gululutlutlu
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	IDU_Yalcinan_Yolden={
+		name="Yalcinan Yolden"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Yalcinan_Yolden
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	IDU_Hara_Asikarla={
+		name="Hara Asikarla"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Hara_Asikarla
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	IDU_Musuf_Bede={
+		name="Musuf Bede"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IDU_Mehmet_Asikarla={
+		name="Mehmet Asikarla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Mehmet_Asikarla
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	IDU_Cemalilmaz_Yolden={
+		name="Cemalilmaz Yolden"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Cemalilmaz_Yolden
+				traits = {	rearmer 	}
+		}
+
+	}
+	IDU_Suat_Asikarla={
+		name="Suat Asikarla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Suat_Asikarla
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	IDU_Yalcinan_Koplul={
+		name="Yalcinan Koplul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Yalcinan_Koplul
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	IDU_Ilker_Bede={
+		name="Ilker Bede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Ilker_Bede
+				traits = {	rearmer 	}
+		}
+
+	}
+	IDU_Suat_Akgun={
+		name="Suat Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IDU_Suat_Akgun
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	IDU_Bulendemalha_Gululutlutlu={
+		name="Bulendemalha Gululutlutlu"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Bulendemalha_Gululutlutlu
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	IDU_Orhanesul_Gululutlutlu={
+		name="Orhanesul Gululutlutlu"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Orhanesul_Gululutlutlu
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IDU_Emin_Yolden={
+		name="Emin Yolden"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Emin_Yolden
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	IDU_Ilker_Aksaris={
+		name="Ilker Aksaris"
+
+		advisor={
+			slot = army_chief
+			idea_token = IDU_Ilker_Aksaris
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	IDU_Taylan_Bede={
+		name="Taylan Bede"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Taylan_Bede
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	IDU_Ademazan_Sehirin={
+		name="Ademazan Sehirin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IDU_Ademazan_Sehirin
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	IDU_Zafe_Akgun={
+		name="Zafe Akgun"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Zafe_Akgun
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	IDU_Selim_Koplul={
+		name="Selim Koplul"
+
+		advisor={
+			slot = air_chief
+			idea_token = IDU_Selim_Koplul
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	IDU_Talcin_Asikarla={
+		name="Talcin Asikarla"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Talcin_Asikarla
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	IDU_Suatuha_Aksaris={
+		name="Suatuha Aksaris"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Suatuha_Aksaris
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	IDU_Utku_Toprakildi={
+		name="Utku Toprakildi"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Utku_Toprakildi
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	IDU_Mura_Yolden={
+		name="Mura Yolden"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Mura_Yolden
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	IDU_Hakan_Koplul={
+		name="Hakan Koplul"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Hakan_Koplul
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	IDU_Sinan_Gululutlutlu={
+		name="Sinan Gululutlutlu"
+
+		advisor={
+			slot = high_command
+			idea_token = IDU_Sinan_Gululutlutlu
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	IDU_Ilkender_Koplul={
+		name="Ilkender Koplul"
+
+		advisor={
+			slot = theorist
+			idea_token = IDU_Ilkender_Koplul
+				traits = {	military_theorist 	}
+		}
+
+	}
+	IDU_Ertuhatugruk_Bede={
+		name="Ertuhatugruk Bede"
+
+		advisor={
+			slot = theorist
+			idea_token = IDU_Ertuhatugruk_Bede
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	IDU_Ademazan_Toprakildi={
+		name="Ademazan Toprakildi"
+
+		advisor={
+			slot = theorist
+			idea_token = IDU_Ademazan_Toprakildi
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

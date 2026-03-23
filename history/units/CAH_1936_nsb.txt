@@ -1,0 +1,177 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			engineer = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Tamadar' Militia Division"
+		location = 12936
+		division_template = "Militia Division"
+		start_experience_factor = 0.880729
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Pohabah' Militia Division"
+		location = 12412
+		division_template = "Militia Division"
+		start_experience_factor = 0.130443
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Mudalain' Militia Division"
+		location = 11575
+		division_template = "Militia Division"
+		start_experience_factor = 0.967481
+		start_equipment_factor = 0.993053
+	}
+	division= {
+		name = "3th 'Giahtar' Militia Division"
+		location = 12927
+		division_template = "Militia Division"
+		start_experience_factor = 0.861252
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Jani' Infantry Division"
+		location = 13480
+		division_template = "Infantry Division"
+		start_experience_factor = 0.093137
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Trahargai' Infantry Division"
+		location = 12421
+		division_template = "Infantry Division"
+		start_experience_factor = 0.347354
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Trahargai' Infantry Division"
+		location = 12422
+		division_template = "Infantry Division"
+		start_experience_factor = 0.867930
+		start_equipment_factor = 0.946148
+	}
+	division= {
+		name = "3th 'Padik' Infantry Division"
+		location = 12416
+		division_template = "Infantry Division"
+		start_experience_factor = 0.477239
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Rimbahayah' Infantry Division"
+		location = 12405
+		division_template = "Infantry Division"
+		start_experience_factor = 0.284060
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Lair' Supported Infantry Division"
+		location = 13463
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.502325
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Taragai' Cavalry Division"
+		location = 12423
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.372678
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Pertasung' Cavalry Division"
+		location = 12702
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.693182
+		start_equipment_factor = 0.988863
+	}
+	division= {
+		name = "2rd 'Magnasach' Cavalry Division"
+		location = 12356
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.082873
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Damang' Cavalry Division"
+		location = 11657
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.017759
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Laochean' Cavalry Division"
+		location = 11741
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.569842
+		start_equipment_factor = 0.951032
+	}
+
+}

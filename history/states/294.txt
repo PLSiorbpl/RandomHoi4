@@ -2,14 +2,14 @@
 state={
 	id=294
 	name="STATE_294"
-	manpower = 1030891
+	manpower = 1176321
 	
 	state_category = large_town
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=1
 		rubber=0
 		steel=0
 		tungsten=0
@@ -17,23 +17,23 @@ state={
 	}
 
 	history={
-		victory_points = { 3977 6}
-		victory_points = { 3981 1}
+		victory_points = { 3540 3}
+		victory_points = { 3548 2}
 		
-		owner = NAZ
+		owner = YFX
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			
 			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
-		add_core_of = NAZ
+		add_core_of = YFX
 	}
 
 	provinces={
-		3971 3972 3973 3974 3975 3976 3977 3978 3979 3980 3981 3982 3983 3984 3985 
+		3538 3539 3540 3541 3542 3543 3544 3545 3546 3547 3548 3549 
 	}
 	local_supplies=0.0 
 }

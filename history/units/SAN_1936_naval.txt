@@ -2,13 +2,13 @@ units= {
 	##### NAVAL UNITS #####
 	
 		fleet = {
-		name = "Sanub Fleet"			
-		naval_base = 5518
+		name = "Sanlilik Fleet"			
+		naval_base = 6925
 		task_force = {
-			name = "Sanub Fleet"
-			location = 5518
+			name = "Sanlilik Fleet"
+			location = 6925
 			
-						ship = { name = "Fariq" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SAN version_name = "Hafil Class" } }	}
+						ship = { name = "Deniz" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SAN version_name = "Deniz Class" } }	}
 
 		}
 	}

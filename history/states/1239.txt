@@ -2,40 +2,39 @@
 state={
 	id=1239
 	name="STATE_1239"
-	manpower = 326346
+	manpower = 201405
 	
-	state_category = pastoral
+	state_category = small_island
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=1
-		rubber=0
+		oil=0
+		rubber=2
 		steel=0
 		tungsten=0
 		coal=0
 	}
 
 	history={
-		victory_points = { 16238 1}
 		
-		owner = BTC
+		owner = HTN
 		buildings = {
 			infrastructure = 2
-			air_base = 1
+			
 			arms_factory = 0
 			industrial_complex = 0
 			
-			16244 = {
+			15933 = {
 				naval_base = 1
 			}
 			
 		}
-		add_core_of = BTC
+		add_core_of = HTN
 	}
 
 	provinces={
-		16237 16238 16239 16240 16241 16242 16243 16244 
+		15931 15932 15933 
 	}
 	local_supplies=0.0 
 }

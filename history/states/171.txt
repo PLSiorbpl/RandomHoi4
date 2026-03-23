@@ -2,9 +2,9 @@
 state={
 	id=171
 	name="STATE_171"
-	manpower = 826128
+	manpower = 716187
 	
-	state_category = large_town
+	state_category = town
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -17,10 +17,9 @@ state={
 	}
 
 	history={
-		victory_points = { 2455 2}
-		victory_points = { 2458 4}
+		victory_points = { 2136 3}
 		
-		owner = HUA
+		owner = YFX
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -29,11 +28,11 @@ state={
 			
 			
 		}
-		add_core_of = HUA
+		add_core_of = YFX
 	}
 
 	provinces={
-		2447 2448 2449 2450 2451 2452 2453 2454 2455 2456 2457 2458 
+		2134 2135 2136 2137 2138 2139 2140 
 	}
 	local_supplies=0.0 
 }
