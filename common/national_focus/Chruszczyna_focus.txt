@@ -19,6 +19,16 @@
 
     completion_reward = {
        add_political_power = -50
+
+            country_event = { id = zap.war.1 days = 5 }
     }
+ }
+ focus = {
+   id = ZAP_focus_2
+   icon = GFX_surrender_tiny_flag
+   cost = x
+   x = x
+   y = x
+   completion_reward = { }
  }
 }
