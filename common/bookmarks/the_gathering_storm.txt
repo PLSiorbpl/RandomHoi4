@@ -8,7 +8,7 @@ bookmarks = {
 		
 		
 		IKA={
-			history = "generic_GATHERING_STORM_DESC"
+			history = "Donosy_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 			}
@@ -16,7 +16,7 @@ bookmarks = {
 			}
 		}
 		ZAP={
-			history = "generic_GATHERING_STORM_DESC"
+			history = "Chruszczyna_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 			}
@@ -24,8 +24,16 @@ bookmarks = {
 			}
 		}
 		KOB={
-			history = "generic_GATHERING_STORM_DESC"
+			history = "Kobylniki_GATHERING_STORM_DESC"
 			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PRO={
+			history = "Probolowice_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
