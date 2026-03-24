@@ -1,0 +1,341 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			engineer = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			mot_artillery_brigade = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Kudran' Militia Division"
+		location = 153
+		division_template = "Militia Division"
+		start_experience_factor = 0.086764
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Veli' Militia Division"
+		location = 12867
+		division_template = "Militia Division"
+		start_experience_factor = 0.487370
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Ragbadargah' Militia Division"
+		location = 237
+		division_template = "Militia Division"
+		start_experience_factor = 0.833617
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Rahir' Militia Division"
+		location = 1389
+		division_template = "Militia Division"
+		start_experience_factor = 0.510351
+		start_equipment_factor = 0.994951
+	}
+	division= {
+		name = "4th 'Rahir' Militia Division"
+		location = 1776
+		division_template = "Militia Division"
+		start_experience_factor = 0.023565
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Ashrahnargar' Militia Division"
+		location = 3639
+		division_template = "Militia Division"
+		start_experience_factor = 0.013332
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Then' Militia Division"
+		location = 2612
+		division_template = "Militia Division"
+		start_experience_factor = 0.355213
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Miveh' Militia Division"
+		location = 1359
+		division_template = "Militia Division"
+		start_experience_factor = 0.702772
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Proan' Infantry Division"
+		location = 1380
+		division_template = "Infantry Division"
+		start_experience_factor = 0.312934
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Kudran' Infantry Division"
+		location = 3623
+		division_template = "Infantry Division"
+		start_experience_factor = 0.645478
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Shal' Infantry Division"
+		location = 1020
+		division_template = "Infantry Division"
+		start_experience_factor = 0.937389
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Bahah' Infantry Division"
+		location = 2666
+		division_template = "Infantry Division"
+		start_experience_factor = 0.545049
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Thiraiar' Infantry Division"
+		location = 11125
+		division_template = "Infantry Division"
+		start_experience_factor = 0.320862
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Rahir' Infantry Division"
+		location = 2397
+		division_template = "Infantry Division"
+		start_experience_factor = 0.001053
+		start_equipment_factor = 0.983947
+	}
+	division= {
+		name = "0st 'Vazhar' Supported Infantry Division"
+		location = 11011
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.453658
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Isai' Supported Infantry Division"
+		location = 12875
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.055310
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Hunar' Artillery Division"
+		location = 4025
+		division_template = "Artillery Division"
+		start_experience_factor = 0.515205
+		start_equipment_factor = 0.982013
+	}
+	division= {
+		name = "1nd 'Shoma' Artillery Division"
+		location = 1812
+		division_template = "Artillery Division"
+		start_experience_factor = 0.281922
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Thoppu' Cavalry Division"
+		location = 11590
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.647036
+		start_equipment_factor = 0.986397
+	}
+	division= {
+		name = "1nd 'Nestayehesh' Cavalry Division"
+		location = 3566
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.106032
+		start_equipment_factor = 0.995520
+	}
+	division= {
+		name = "2rd 'Hunam' Cavalry Division"
+		location = 605
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.988425
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3th 'Tamad' Cavalry Division"
+		location = 600
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.594289
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Shoma' Motorized Division"
+		location = 1993
+		division_template = "Motorized Division"
+		start_experience_factor = 0.456356
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Tamad' Motorized Division"
+		location = 3172
+		division_template = "Motorized Division"
+		start_experience_factor = 0.982571
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Suvam' Motorized Division"
+		location = 11592
+		division_template = "Motorized Division"
+		start_experience_factor = 0.736119
+		start_equipment_factor = 0.954074
+	}
+	division= {
+		name = "0st 'Isai' Motorized Artillery Division"
+		location = 11583
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.597146
+		start_equipment_factor = 1.000000
+	}
+
+}
