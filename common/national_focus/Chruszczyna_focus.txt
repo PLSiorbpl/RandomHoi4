@@ -1,0 +1,11 @@
+ focus_tree = {
+    id = Chruszczyna_focus
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = ZAP
+        }
+    }
+ }
