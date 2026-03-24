@@ -1,0 +1,10 @@
+add_namespace = zap.war
+ country_event = {
+	id = zap.war.1
+	title = "Stalemate"
+	desc = "Nie udalo nam sie ich pokonac"
+
+	option = {
+		name = ok
+	}
+ }

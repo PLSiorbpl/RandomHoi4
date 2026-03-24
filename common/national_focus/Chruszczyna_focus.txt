@@ -8,4 +8,17 @@
             tag = ZAP
         }
     }
+
+ focus = {
+    id = ZAP_focus_1
+    icon = GFX_SOV_carry_revolution_east_ccp_2d_sov_compatibility
+
+    x = 1
+    y = 0
+    cost = 5
+
+    completion_reward = {
+       add_political_power = -50
+    }
  }
+}
