@@ -2,13 +2,13 @@ units= {
 	##### NAVAL UNITS #####
 	
 		fleet = {
-		name = "Hamraneshran Fleet"			
+		name = "Proraneshran Fleet"			
 		naval_base = 11099
 		task_force = {
-			name = "Hamraneshran Fleet"
+			name = "Proraneshran Fleet"
 			location = 11099
 			
-						ship = { name = "Haman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HAM version_name = "Anamang Class" } }	}
+						ship = { name = "Proman" definition = battleship equipment = { battleship_1 = { amount = 1 owner = HAM version_name = "Anamang Class" } }	}
 
 		}
 	}
