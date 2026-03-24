@@ -24,14 +24,17 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
-	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+BEL = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 251 222 10 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+HOL = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}
+CZE = {
+	color = rgb { 54 167 156 }
+	color_ui = rgb { 70 217 203 }
 }
 POL = {
 	color = rgb { 214 102 139 }
@@ -1192,24 +1195,18 @@ XIC = {
 	color = rgb { 43 92 181 }
 	color_ui = rgb { 45 100 190 } 
 }
-
 RNG = {
 	color = rgb { 255 191 0 }
 	color_ui = rgb { 204 153 0 } 
 }
-
 PSR = {
 	color = rgb { 31 31 122 }
 	color_ui = rgb { 16 16 61 }
 }
-
 HBC = {
 	color = rgb { 156 27 22 }
 	color_ui = rgb { 94 17 14 }
 }
-
-
-
 AHC = {
 	color = rgb { 235 47 9 }
 	color_ui = rgb { 235 47 9 }
@@ -1294,7 +1291,7 @@ GIZ = {
 	color = rgb { 136 106 16 }
 	color_ui = rgb { 136 106 16 }
 }
-HAM = {
+PRO = {
 	color = rgb { 98 144 162 }
 	color_ui = rgb { 98 144 162 }
 }
