@@ -1,19 +1,19 @@
 capital = 932
 
-oob = "HAM_1936"
+oob = "PRO_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "HAM_1936"
+	set_oob = "PRO_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "HAM_1936_nsb"
+	set_oob = "PRO_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -101,7 +101,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Haman Mk 1"
+		name = "PROan Mk 1"
 		type = heavy_tank_chassis_1
 		parent_version = 1
 		show_position = no
@@ -214,7 +214,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "HAM_1936_air_bba"
+		set_air_oob = "PRO_1936_air_bba"
 		set_technology = {
 			bba_early_transport_plane = 1
 			iw_small_airframe = 1
@@ -231,7 +231,7 @@ if = {
 			
 		}
 		create_equipment_variant = {
-			name = "Hamraneshran Mk 1"
+			name = "PROraneshran Mk 1"
 			type = small_plane_cas_airframe_0
 			modules = {
 							engine_type_slot = engine_1_1x
@@ -272,7 +272,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "HAM_1936_air_legacy"
+		set_air_oob = "PRO_1936_air_legacy"
 		set_technology = {
 			early_transport_plane = 1
 			early_fighter = 1
@@ -299,7 +299,7 @@ if = {
 	early_destroyer = 1
 	
 	}
-	set_naval_oob = "HAM_1936_naval"
+	set_naval_oob = "PRO_1936_naval"
 }
 
 ### Ship Variants ###
@@ -368,7 +368,7 @@ if = {
 	submarine_mine_laying = 1
 	
 	}
-	set_naval_oob = "HAM_1936_naval_mtg"
+	set_naval_oob = "PRO_1936_naval_mtg"
 }
 
 	if = {
@@ -444,93 +444,93 @@ if = {
 	}
 
 
-recruit_character = HAM_Ramin_Shal
-recruit_character = HAM_Mossan_Root
-recruit_character = HAM_Shad_Tamin
-recruit_character = HAM_Peyman_Palang
-recruit_character = HAM_Shamad_Tamin
-recruit_character = HAM_Hossan_Haman
-recruit_character = HAM_Hassan_Palang
-recruit_character = HAM_Reza_Hamraneshran
-recruit_character = HAM_Kaveh_Shal
-recruit_character = HAM_Hossein_Palang
-recruit_character = HAM_Navehza_Yaldan
-recruit_character = HAM_Farhahim_Anamang
-recruit_character = HAM_Hassein_Shal
-recruit_character = HAM_Ahmal_Root
-recruit_character = HAM_Babak_Shal
-recruit_character = HAM_Ahmal_Anamang
-recruit_character = HAM_Kavid_Anamang
-recruit_character = HAM_Hossan_Root
-recruit_character = HAM_Ebramid_Palang
-recruit_character = HAM_Mehzad_Tamin
-recruit_character = HAM_Farhahim_Hamraneshran
-recruit_character = HAM_Ahma_Root
-recruit_character = HAM_Kaveh_Palang
-recruit_character = HAM_Farhahim_Yaldan
-recruit_character = HAM_Peyma_Root
-recruit_character = HAM_Hassan_Shal
-recruit_character = HAM_Parham_Goriz
-recruit_character = HAM_Mehdi_Haman
-recruit_character = HAM_Babak_Root
-recruit_character = HAM_Omin_Tamin
-recruit_character = HAM_Hossein_Haman
-recruit_character = HAM_Amin_Goriz
-recruit_character = HAM_Ebrahimal_Anamang
-recruit_character = HAM_Mossein_Root
-recruit_character = HAM_Mostafa_Palang
-recruit_character = HAM_Shamad_Goriz
-recruit_character = HAM_Hostafa_Anamang
-recruit_character = HAM_Ahmal_Yaldan
-recruit_character = HAM_Mossan_Goriz
-recruit_character = HAM_Navehdi_Hamraneshran
-recruit_character = HAM_Peyman_Shal
-recruit_character = HAM_Armad_Rahir
-recruit_character = HAM_Farhahim_Shal
-recruit_character = HAM_Mossein_Anamang
-recruit_character = HAM_Mostafa_Goriz
-recruit_character = HAM_Arman_Tamin
-recruit_character = HAM_Navehza_Shal
-recruit_character = HAM_Peyman_Hamraneshran
-recruit_character = HAM_Ramin_Yaldan
-recruit_character = HAM_Sham_Palang
-recruit_character = HAM_Peyman_Yaldan
-recruit_character = HAM_Nimad_Goriz
-recruit_character = HAM_Sham_Haman
-recruit_character = HAM_Hossan_Goriz
-recruit_character = HAM_Hostafa_Hamraneshran
-recruit_character = HAM_Ebramin_Anamang
-recruit_character = HAM_Omin_Palang
-recruit_character = HAM_Ahman_Haman
-recruit_character = HAM_Ahman_Hamraneshran
-recruit_character = HAM_Kavid_Root
-recruit_character = HAM_Hassan_Goriz
-recruit_character = HAM_Nimad_Anamang
-recruit_character = HAM_Amir_Root
-recruit_character = HAM_Farhahim_Palang
-recruit_character = HAM_Ebram_Tamin
-recruit_character = HAM_Ebrahimal_Goriz
-recruit_character = HAM_Milad_Haman
-recruit_character = HAM_Farhahim_Goriz
-recruit_character = HAM_Kavehzad_Shal
-recruit_character = HAM_Hassein_Tamin
-recruit_character = HAM_Ebrahimal_Haman
-recruit_character = HAM_Omir_Goriz
-recruit_character = HAM_Kaman_Yaldan
-recruit_character = HAM_Ahma_Goriz
-recruit_character = HAM_Kaveh_Goriz
-recruit_character = HAM_Parham_Rahir
-recruit_character = HAM_Navehza_Palang
-recruit_character = HAM_Hassein_Goriz
-recruit_character = HAM_Kaman_Anamang
-recruit_character = HAM_Farhad_Palang
-recruit_character = HAM_Rezad_Shal
-recruit_character = HAM_Ahman_Root
-recruit_character = HAM_Ahma_Rahir
-recruit_character = HAM_Hostafa_Rahir
-recruit_character = HAM_Reza_Tamin
-recruit_character = HAM_Ebrahimal_Rahir
-recruit_character = HAM_Amin_Anamang
+recruit_character = PRO_Ramin_Shal
+recruit_character = PRO_Mossan_Root
+recruit_character = PRO_Shad_Tamin
+recruit_character = PRO_Peyman_Palang
+recruit_character = PRO_SPROad_Tamin
+recruit_character = PRO_Hossan_PROan
+recruit_character = PRO_Hassan_Palang
+recruit_character = PRO_Reza_PROraneshran
+recruit_character = PRO_Kaveh_Shal
+recruit_character = PRO_Hossein_Palang
+recruit_character = PRO_Navehza_Yaldan
+recruit_character = PRO_Farhahim_Anamang
+recruit_character = PRO_Hassein_Shal
+recruit_character = PRO_Ahmal_Root
+recruit_character = PRO_Babak_Shal
+recruit_character = PRO_Ahmal_Anamang
+recruit_character = PRO_Kavid_Anamang
+recruit_character = PRO_Hossan_Root
+recruit_character = PRO_Ebramid_Palang
+recruit_character = PRO_Mehzad_Tamin
+recruit_character = PRO_Farhahim_PROraneshran
+recruit_character = PRO_Ahma_Root
+recruit_character = PRO_Kaveh_Palang
+recruit_character = PRO_Farhahim_Yaldan
+recruit_character = PRO_Peyma_Root
+recruit_character = PRO_Hassan_Shal
+recruit_character = PRO_ParPRO_Goriz
+recruit_character = PRO_Mehdi_PROan
+recruit_character = PRO_Babak_Root
+recruit_character = PRO_Omin_Tamin
+recruit_character = PRO_Hossein_PROan
+recruit_character = PRO_Amin_Goriz
+recruit_character = PRO_Ebrahimal_Anamang
+recruit_character = PRO_Mossein_Root
+recruit_character = PRO_Mostafa_Palang
+recruit_character = PRO_SPROad_Goriz
+recruit_character = PRO_Hostafa_Anamang
+recruit_character = PRO_Ahmal_Yaldan
+recruit_character = PRO_Mossan_Goriz
+recruit_character = PRO_Navehdi_PROraneshran
+recruit_character = PRO_Peyman_Shal
+recruit_character = PRO_Armad_Rahir
+recruit_character = PRO_Farhahim_Shal
+recruit_character = PRO_Mossein_Anamang
+recruit_character = PRO_Mostafa_Goriz
+recruit_character = PRO_Arman_Tamin
+recruit_character = PRO_Navehza_Shal
+recruit_character = PRO_Peyman_PROraneshran
+recruit_character = PRO_Ramin_Yaldan
+recruit_character = PRO_SPRO_Palang
+recruit_character = PRO_Peyman_Yaldan
+recruit_character = PRO_Nimad_Goriz
+recruit_character = PRO_SPRO_PROan
+recruit_character = PRO_Hossan_Goriz
+recruit_character = PRO_Hostafa_PROraneshran
+recruit_character = PRO_Ebramin_Anamang
+recruit_character = PRO_Omin_Palang
+recruit_character = PRO_Ahman_PROan
+recruit_character = PRO_Ahman_PROraneshran
+recruit_character = PRO_Kavid_Root
+recruit_character = PRO_Hassan_Goriz
+recruit_character = PRO_Nimad_Anamang
+recruit_character = PRO_Amir_Root
+recruit_character = PRO_Farhahim_Palang
+recruit_character = PRO_Ebram_Tamin
+recruit_character = PRO_Ebrahimal_Goriz
+recruit_character = PRO_Milad_PROan
+recruit_character = PRO_Farhahim_Goriz
+recruit_character = PRO_Kavehzad_Shal
+recruit_character = PRO_Hassein_Tamin
+recruit_character = PRO_Ebrahimal_PROan
+recruit_character = PRO_Omir_Goriz
+recruit_character = PRO_Kaman_Yaldan
+recruit_character = PRO_Ahma_Goriz
+recruit_character = PRO_Kaveh_Goriz
+recruit_character = PRO_ParPRO_Rahir
+recruit_character = PRO_Navehza_Palang
+recruit_character = PRO_Hassein_Goriz
+recruit_character = PRO_Kaman_Anamang
+recruit_character = PRO_Farhad_Palang
+recruit_character = PRO_Rezad_Shal
+recruit_character = PRO_Ahman_Root
+recruit_character = PRO_Ahma_Rahir
+recruit_character = PRO_Hostafa_Rahir
+recruit_character = PRO_Reza_Tamin
+recruit_character = PRO_Ebrahimal_Rahir
+recruit_character = PRO_Amin_Anamang
 
 
 if = {
