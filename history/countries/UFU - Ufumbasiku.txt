@@ -1,4 +1,4 @@
-capital = 787
+capital = 707
 
 oob = "UFU_1936"
 if = {
@@ -692,15 +692,15 @@ set_stability = 91
 set_war_support = 58
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1930.11.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 9
-	fascism = 42
-	communism = 39
+	fascism = 39
+	communism = 42
 	neutrality = 10
 }
 
