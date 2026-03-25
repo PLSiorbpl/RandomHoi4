@@ -1,0 +1,96 @@
+focus_tree = {
+    id = Kobylniki
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = KOB
+        }
+    }
+    # -------------------------------------------------------------------------
+    # Polityka
+    focus = {
+        id = KOB_Przygotowania_Swiento_ziemniaka_0
+        icon = GFX_surrender_tiny_flag
+        cost = 10
+        x = 10
+        y = 0
+        completion_reward = {
+            add_political_power = 100
+            add_war_support = 0.05
+            add_dynamic_modifier = {
+                days = 120
+                modifier = Przygotowania_Na_Swiento_Ziemniaka
+                # Konstrukcja + na 120 dni
+                # 20% infrastruktura
+                # 10% cywilki
+            }
+        }
+    }
+    focus = {
+        id = KOB_Inwestycje_na_placu_zabaw_0
+        icon = GFX_surrender_tiny_flag
+        prerequisite = {
+            focus = KOB_Przygotowania_Swiento_ziemniaka_0
+        }
+        relative_position_id = KOB_Przygotowania_Swiento_ziemniaka_0
+        cost = 5
+        x = 0
+        y = 1
+        completion_reward = {
+            add_stability = 0.05
+        }
+    }
+    focus = {
+        id = KOB_Swiento_Ziemniaka
+        icon = GFX_surrender_tiny_flag
+        prerequisite = {
+            focus = KOB_Inwestycje_na_placu_zabaw_0
+        }
+        relative_position_id = KOB_Inwestycje_na_placu_zabaw_0
+        cost = 5
+        x = 0
+        y = 1
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    # Tragiczne Zbiory Ziemniakow
+    focus = {
+        id = KOB_Tragiczne_Zbiory_Ziemniakow
+        icon = GFX_surrender_tiny_flag
+        prerequisite = {
+            focus = KOB_Swiento_Ziemniaka
+        }
+        relative_position_id = KOB_Swiento_Ziemniaka
+        cost = 5
+        x = -2
+        y = 1
+        completion_reward = {
+            add_ideas = Nieudane_Zbiory_Ziemniakow
+        }
+    }
+    # Odejscie Proboszcza
+    focus = {
+        id = KOB_Odejscie_Proboszcza
+        icon = GFX_surrender_tiny_flag
+        prerequisite = {
+            focus = KOB_Swiento_Ziemniaka
+        }
+        relative_position_id = KOB_Swiento_Ziemniaka
+        cost = 5
+        x = 2
+        y = 1
+        completion_reward = {
+            add_stability = -0.1
+        }
+    }
+
+}

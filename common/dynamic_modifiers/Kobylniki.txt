@@ -1,0 +1,10 @@
+Przygotowania_Na_Swiento_Ziemniaka = {
+    icon = GFX_goal_generic_construct_infrastructure
+
+    enable = {
+		always = yes
+	}
+	
+	production_speed_industrial_complex_factor = 0.1
+    production_speed_infrastructure_factor = 0.2
+}
