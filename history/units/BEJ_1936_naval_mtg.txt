@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Eagna Fleet"			
+		naval_base = 3946
+		task_force = {
+			name = "Eagna Fleet"
+			location = 3946
+			
+						ship = { name = "Tigh" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = EAG version_name = "Crodanch Class" } }	}
+			ship = { name = "Leath" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EAG version_name = "Lucht Class" } }	}
+			ship = { name = "Tigh 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EAG version_name = "Leath Class" } }	}
+			ship = { name = "Crodanch" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = EAG version_name = "Tigh Class" } }	}
+			ship = { name = "Leath 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EAG version_name = "Lucht Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################
