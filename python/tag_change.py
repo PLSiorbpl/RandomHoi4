@@ -32,9 +32,9 @@ countries = os.path.join(root, f"countries/{old_file}")
 new_countries = os.path.join(root, f"countries/{new_file}")
 if not os.path.exists(countries):
     print(f"Nie ma ścieżki: {countries}")
-    #exit(0)
+    exit(0)
 
-#os.rename(countries, new_countries)
+os.rename(countries, new_countries)
 print("Zakończono: common/countries")
 
 
@@ -43,9 +43,9 @@ ideas = os.path.join(root, f"ideas/{old_file}")
 new_ideas = os.path.join(root, f"ideas/{new_file}")
 if not os.path.exists(ideas):
     print(f"Nie ma ścieżki: {ideas}")
-    #exit(0)
+    exit(0)
 
-#os.rename(ideas, new_ideas)
+os.rename(ideas, new_ideas)
 print("Zakończono: common/ideas")
 
 
@@ -54,14 +54,14 @@ characters = os.path.join(root, f"characters/{old_tag}.txt")
 new_characters = os.path.join(root, f"characters/{new_tag}.txt")
 if not os.path.exists(characters):
     print(f"Nie ma ścieżki: {characters}")
-    #exit(0)
+    exit(0)
 
-#os.rename(characters, new_characters)
-pattern = re.compile(rf"\b{old_tag}\b")
+os.rename(characters, new_characters)
+pattern = re.compile(rf"{old_tag}_")
 with open(new_characters, "r", encoding="utf-8") as f:
     text = f.read()
 
-text = pattern.sub(new_tag, text)
+text = pattern.sub(f"{new_tag}_", text)
 
 with open(new_characters, "w", encoding="utf-8") as f:
     f.write(text)
@@ -72,7 +72,7 @@ print("Zakończono: common/characters")
 countries = os.path.join(root, f"countries/colors.txt")
 if not os.path.exists(countries):
     print(f"Nie ma ścieżki: {countries}")
-    #exit(0)
+    exit(0)
 
 pattern = re.compile(rf"^(\s*){old_tag}(\s*=)", re.MULTILINE)
 with open(countries, "r", encoding="utf-8") as f:
@@ -89,7 +89,7 @@ print("Zakończono: common/countries/colors.txt")
 names = os.path.join(root, f"names/00_names.txt")
 if not os.path.exists(names):
     print(f"Nie ma ścieżki: {names}")
-    #exit(0)
+    exit(0)
 
 pattern = re.compile(rf"^(\s*){old_tag}(\s*=)", re.MULTILINE)
 with open(names, "r", encoding="utf-8") as f:
@@ -176,6 +176,76 @@ else:
             new_path = os.path.join(folder, new_file)
 
             os.rename(old_path, new_path)
-            print(f"{old_path} → {new_path}")
 
+            pattern = re.compile(rf"{old_tag}")
+            with open(new_path, "r", encoding="utf-8") as f:
+                text = f.read()
+
+            text = pattern.sub(new_tag, text)
+
+            with open(new_path, "w", encoding="utf-8") as f:
+                f.write(text)
 print("Zakończono: history/units")
+
+
+# history/countries
+folder = "history/countries"
+history_countries = os.path.join(folder, f"{old_tag} - {old_file}")
+new_history_countries = os.path.join(folder, f"{new_tag} - {new_file}")
+if not os.path.exists(history_countries):
+    print(f"Nie ma ścieżki: {history_countries}")
+    exit(0)
+
+os.rename(history_countries, new_history_countries)
+pattern = re.compile(rf"{old_tag}_")
+with open(new_history_countries, "r", encoding="utf-8") as f:
+    text = f.read()
+
+text = pattern.sub(f"{new_tag}_", text)
+
+with open(new_history_countries, "w", encoding="utf-8") as f:
+    f.write(text)
+print("Zakończono: history/countries")
+
+
+# localisation/english/countries_l_english.yml
+folder = "localisation"
+laguages = ["english/countries_l_english.yml", "polish/countries_l_polish.yml"]
+for lan in laguages:
+    localisation = os.path.join(folder, lan)
+    if not os.path.exists(localisation):
+        print(f"Nie ma ścieżki: {localisation}")
+        exit(0)
+
+    pattern = re.compile(rf"{old_tag}_")
+    with open(localisation, "r", encoding="utf-8") as f:
+        text = f.read()
+
+    text = pattern.sub(f"{new_tag}_", text)
+
+    with open(localisation, "w", encoding="utf-8") as f:
+        f.write(text)
+    print(f"Zakończono: {localisation}")
+
+
+# history/states
+folder = "history/states"
+if not os.path.exists(folder):
+    print(f"Nie ma ścieżki: {folder}")
+    exit(0)
+
+pattern = re.compile(rf"(?<=\=\s){old_tag}\b")
+for state in os.listdir(folder):
+    if not file.endswith(".txt"):
+        continue
+
+    path = os.path.join(folder, state)
+
+    with open(path, "r", encoding="utf-8") as f:
+        text = f.read()
+
+    text = pattern.sub(new_tag, text)
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+print(f"Zakończono: {folder}")

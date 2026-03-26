@@ -1,0 +1,880 @@
+characters = {
+	BIE_Niamus_Aonn={
+		name="Niamus Aonn"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BIE_Seamus_Sean={
+		name="Seamus Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Seamus_Sean
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BIE_Ulrich_Mailleamha={
+		name="Ulrich Mailleamha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Ulrich_Mailleamha
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	BIE_Keiraig_Mailleamha={
+		name="Keiraig Mailleamha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Keiraig_Mailleamha
+				traits = {	headstrong 	}
+		}
+
+	}
+	BIE_Cialcolm_Tuailleach={
+		name="Cialcolm Tuailleach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Cialcolm_Tuailleach
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BIE_Aidan_Dorm={
+		name="Aidan Dorm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Aidan_Dorm
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	BIE_Niall_Lionn={
+		name="Niall Lionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Niall_Lionn
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	BIE_Seamus_Leann={
+		name="Seamus Leann"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Seamus_Leann
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	BIE_Padran_Aonn={
+		name="Padran Aonn"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Padran_Aonn
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BIE_Rhys_Banas={
+		name="Rhys Banas"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Rhys_Banas
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BIE_Quin_Corg={
+		name="Quin Corg"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Quin_Corg
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	BIE_Aidan_Lionn={
+		name="Aidan Lionn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Aidan_Lionn
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	BIE_Niam_Leann={
+		name="Niam Leann"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Niam_Leann
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	BIE_Liaran_Dorm={
+		name="Liaran Dorm"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Liaran_Dorm
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BIE_Eoin_Tuailleach={
+		name="Eoin Tuailleach"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Eoin_Tuailleach
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BIE_Tareth_Ruail={
+		name="Tareth Ruail"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Tareth_Ruail
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	BIE_Quin_Leann={
+		name="Quin Leann"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Quin_Leann
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	BIE_Niam_Corg={
+		name="Niam Corg"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Niam_Corg
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	BIE_Seam_Sean={
+		name="Seam Sean"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Seam_Sean
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	BIE_Liall_Sean={
+		name="Liall Sean"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Liall_Sean
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	BIE_Padraig_Sean={
+		name="Padraig Sean"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Padraig_Sean
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	BIE_Taraig_Aonn={
+		name="Taraig Aonn"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BIE_Garan_Mailleamha={
+		name="Garan Mailleamha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Garan_Mailleamha
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	BIE_Ulrich_Tuailleach={
+		name="Ulrich Tuailleach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Ulrich_Tuailleach
+				traits = {	basileus 	}
+		}
+
+	}
+	BIE_Niamus_Tuailleach={
+		name="Niamus Tuailleach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Niamus_Tuailleach
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	BIE_Gareth_Lionn={
+		name="Gareth Lionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Gareth_Lionn
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BIE_Keiran_Leann={
+		name="Keiran Leann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Keiran_Leann
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BIE_Quin_Lionn={
+		name="Quin Lionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Quin_Lionn
+				traits = {	basileus 	}
+		}
+
+	}
+	BIE_Niall_Ruail={
+		name="Niall Ruail"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Niall_Ruail
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BIE_Rhys_Dorm={
+		name="Rhys Dorm"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Rhys_Dorm
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	BIE_Hugh_Leann={
+		name="Hugh Leann"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Hugh_Leann
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	BIE_Seam_Tuailleach={
+		name="Seam Tuailleach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Seam_Tuailleach
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	BIE_Eoin_Aonn={
+		name="Eoin Aonn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Eoin_Aonn
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BIE_Garan_Lionn={
+		name="Garan Lionn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Garan_Lionn
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	BIE_Bran_Tuailleach={
+		name="Bran Tuailleach"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Bran_Tuailleach
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	BIE_Liall_Leann={
+		name="Liall Leann"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Liall_Leann
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	BIE_Garan_Sean={
+		name="Garan Sean"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Garan_Sean
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	BIE_Keiraig_Aonn={
+		name="Keiraig Aonn"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Keiraig_Aonn
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	BIE_Gareth_Dorm={
+		name="Gareth Dorm"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Gareth_Dorm
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	BIE_Ulrich_Corg={
+		name="Ulrich Corg"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Ulrich_Corg
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	BIE_Seamus_Ruail={
+		name="Seamus Ruail"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Seamus_Ruail
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	BIE_Seam_Banas={
+		name="Seam Banas"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Seam_Banas
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	BIE_Liaran_Mailleamha={
+		name="Liaran Mailleamha"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BIE_Niamus_Lionn={
+		name="Niamus Lionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Niamus_Lionn
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	BIE_Liaran_Leann={
+		name="Liaran Leann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Liaran_Leann
+				traits = {	polemarch 	}
+		}
+
+	}
+	BIE_Seamus_Dorm={
+		name="Seamus Dorm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Seamus_Dorm
+				traits = {	infirm 	}
+		}
+
+	}
+	BIE_Iwan_Mailleamha={
+		name="Iwan Mailleamha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Iwan_Mailleamha
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	BIE_Ciaran_Ruail={
+		name="Ciaran Ruail"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Ciaran_Ruail
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	BIE_Quin_Banas={
+		name="Quin Banas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Quin_Banas
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	BIE_Garan_Banas={
+		name="Garan Banas"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Garan_Banas
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	BIE_Owen_Leann={
+		name="Owen Leann"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Owen_Leann
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BIE_Owen_Tuailleach={
+		name="Owen Tuailleach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Owen_Tuailleach
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BIE_Taraig_Tuailleach={
+		name="Taraig Tuailleach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Taraig_Tuailleach
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BIE_Gareth_Leann={
+		name="Gareth Leann"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Gareth_Leann
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	BIE_Keiran_Mailleamha={
+		name="Keiran Mailleamha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Keiran_Mailleamha
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BIE_Taraig_Ruail={
+		name="Taraig Ruail"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Taraig_Ruail
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	BIE_Bran_Lionn={
+		name="Bran Lionn"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Bran_Lionn
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	BIE_Malcolm_Leann={
+		name="Malcolm Leann"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Malcolm_Leann
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	BIE_Eoin_Leann={
+		name="Eoin Leann"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Eoin_Leann
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	BIE_Gareth_Sean={
+		name="Gareth Sean"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Gareth_Sean
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	BIE_Declan_Lionn={
+		name="Declan Lionn"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Declan_Lionn
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	BIE_Fergus_Banas={
+		name="Fergus Banas"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Fergus_Banas
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	BIE_Keiraig_Tuailleach={
+		name="Keiraig Tuailleach"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Keiraig_Tuailleach
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	BIE_Ciam_Corg={
+		name="Ciam Corg"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BIE_Lialcolm_Tuailleach={
+		name="Lialcolm Tuailleach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Lialcolm_Tuailleach
+				traits = {	the_banker 	}
+		}
+
+	}
+	BIE_Padran_Sean={
+		name="Padran Sean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Padran_Sean
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	BIE_Taran_Lionn={
+		name="Taran Lionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Taran_Lionn
+				traits = {	the_banker 	}
+		}
+
+	}
+	BIE_Ciaran_Leann={
+		name="Ciaran Leann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Ciaran_Leann
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	BIE_Niam_Tuailleach={
+		name="Niam Tuailleach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Niam_Tuailleach
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BIE_Eoin_Dorm={
+		name="Eoin Dorm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BIE_Eoin_Dorm
+				traits = {	rearmer 	}
+		}
+
+	}
+	BIE_Niam_Sean={
+		name="Niam Sean"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Niam_Sean
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BIE_Seamus_Mailleamha={
+		name="Seamus Mailleamha"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Seamus_Mailleamha
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	BIE_Bran_Corg={
+		name="Bran Corg"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Bran_Corg
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	BIE_Padraig_Tuailleach={
+		name="Padraig Tuailleach"
+
+		advisor={
+			slot = army_chief
+			idea_token = BIE_Padraig_Tuailleach
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BIE_Taraig_Dorm={
+		name="Taraig Dorm"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Taraig_Dorm
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	BIE_Gareth_Banas={
+		name="Gareth Banas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BIE_Gareth_Banas
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	BIE_Bran_Leann={
+		name="Bran Leann"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Bran_Leann
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	BIE_Keiran_Dorm={
+		name="Keiran Dorm"
+
+		advisor={
+			slot = air_chief
+			idea_token = BIE_Keiran_Dorm
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	BIE_Lialcolm_Dorm={
+		name="Lialcolm Dorm"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Lialcolm_Dorm
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	BIE_Garan_Corg={
+		name="Garan Corg"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Garan_Corg
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	BIE_Declan_Ruail={
+		name="Declan Ruail"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Declan_Ruail
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	BIE_Mall_Tuailleach={
+		name="Mall Tuailleach"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Mall_Tuailleach
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	BIE_Taraig_Mailleamha={
+		name="Taraig Mailleamha"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Taraig_Mailleamha
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	BIE_Lialcolm_Mailleamha={
+		name="Lialcolm Mailleamha"
+
+		advisor={
+			slot = high_command
+			idea_token = BIE_Lialcolm_Mailleamha
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BIE_Liall_Banas={
+		name="Liall Banas"
+
+		advisor={
+			slot = theorist
+			idea_token = BIE_Liall_Banas
+				traits = {	military_theorist 	}
+		}
+
+	}
+	BIE_Niall_Mailleamha={
+		name="Niall Mailleamha"
+
+		advisor={
+			slot = theorist
+			idea_token = BIE_Niall_Mailleamha
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	BIE_Garan_Aonn={
+		name="Garan Aonn"
+
+		advisor={
+			slot = theorist
+			idea_token = BIE_Garan_Aonn
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
