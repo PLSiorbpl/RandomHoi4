@@ -67,7 +67,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = daniel1
-			focus = ksiadz1
+			focus = rada1
 		}
 		cost = 1
 		completion_reward = {
@@ -96,7 +96,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = kgw1
-			focus = ksiadz1
+			focus = rada1
 		}
 		cost = 1
 		completion_reward = {
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ksiadz1
+		id = rada1
 		icon = GFX_SOV_annex_tannu_tuva_ccp_2d_sov_compatibility
 		relative_position_id = polityka3
 		x = 3

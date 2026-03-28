@@ -7,12 +7,53 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology = conservatism
 			traits = { headstrong  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 
+	}
+	PRO_Rada={
+		name="Rada Probolowicka"
+		portraits={
+			civilian={
+				large="GFX_portrait_POL_the_sejm"
+			}
+		}
+		country_leader={
+			ideology = centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRO_Daniel={
+		name="Daniel Piotrowski"
+		portraits={
+			civilian={
+				large="GFX_portrait_PRO_daniel"
+			}
+		}
+		country_leader={
+			ideology = falangism
+			traits = { popular_figurehead silent_workhorse  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRO_Kgw={
+		name="Kolo gospodyn wiejskich"
+		portraits={
+			civilian={
+				large="GFX_portrait_PRO_kgw"
+			}
+		}
+		country_leader={
+			ideology = marxism
+			traits = { the_dutch_nobleman hawk  }
+			expire="1965.1.1.1"
+		}
 	}
 	PRO_Mossan_Root={
 		name="Mossan Root"
