@@ -48,7 +48,7 @@ focus_tree = {
 		}
 		cost = 1
 		completion_reward = {
-			add_stability = -0.2
+			country_event = { id = pro_event.1}
 		}
 	}
 
@@ -58,6 +58,10 @@ focus_tree = {
 		relative_position_id = polityka3
 		x = -3
 		y = 1
+
+		available = {
+			has_country_flag = path_communist
+		}
 		prerequisite = {
 			focus = polityka3
 		}
@@ -69,10 +73,11 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_stability = -0.05
-			add_popularity = {
-        		ideology = communism #  democratic, communism, neutrality
-        		popularity = 0.5  # 50%
-    		}
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			
 		}
 	}
 	
@@ -82,6 +87,10 @@ focus_tree = {
 		relative_position_id = polityka3
 		x = 0
 		y = 1
+
+		available = {
+			has_country_flag = path_fascist
+		}
 		prerequisite = {
 			focus = polityka3
 		}
@@ -92,11 +101,12 @@ focus_tree = {
 		cost = 1
 		completion_reward = {
 			add_political_power = 100
-			add_stability = 0.25
-			add_popularity = {
-        		ideology = fascism #  democratic, communism, neutrality
-        		popularity = 0.5  # 50%
-    		}
+			add_stability = 0.05
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			
 		}
 	}
 
@@ -106,6 +116,10 @@ focus_tree = {
 		relative_position_id = polityka3
 		x = 3
 		y = 1
+
+		available = {
+			has_country_flag = path_neutral
+		}
 		prerequisite = {
 			focus = polityka3
 		}
@@ -117,10 +131,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.25
-			add_popularity = {
-        		ideology = neutrality #  democratic, communism, neutrality
-        		popularity = 0.5  # 50%
-    		}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
 		}
 	}
 
