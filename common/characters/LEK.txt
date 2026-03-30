@@ -1,0 +1,880 @@
+characters = {
+	LEK_Oxib_Cozumel={
+		name="Oxib Cozumel"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEK_Nacom_Coba={
+		name="Nacom Coba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Nacom_Coba
+				traits = {	headstrong 	}
+		}
+
+	}
+	LEK_Chil_Sotz={
+		name="Chil Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Chil_Sotz
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	LEK_Acatl_Coba={
+		name="Acatl Coba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Acatl_Coba
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	LEK_Pakalam_Tikan={
+		name="Pakalam Tikan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Pakalam_Tikan
+				traits = {	headstrong 	}
+		}
+
+	}
+	LEK_Moctez_Tzolkin={
+		name="Moctez Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Moctez_Tzolkin
+				traits = {	humble 	}
+		}
+
+	}
+	LEK_Chakal_Sotz={
+		name="Chakal Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Chakal_Sotz
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	LEK_Kukulkalam_Tzolkin={
+		name="Kukulkalam Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Kukulkalam_Tzolkin
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	LEK_Tohichen_Ajtzal={
+		name="Tohichen Ajtzal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Tohichen_Ajtzal
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	LEK_Pakalam_Naaj={
+		name="Pakalam Naaj"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Pakalam_Naaj
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	LEK_Ekchua_Tikan={
+		name="Ekchua Tikan"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Ekchua_Tikan
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	LEK_Ahkin_Ajtzal={
+		name="Ahkin Ajtzal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Ahkin_Ajtzal
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	LEK_Chil_Coba={
+		name="Chil Coba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Chil_Coba
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	LEK_Kanek_Coba={
+		name="Kanek Coba"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Kanek_Coba
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	LEK_Kukulkal_Tzolkin={
+		name="Kukulkal Tzolkin"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Kukulkal_Tzolkin
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	LEK_Tohil_Coba={
+		name="Tohil Coba"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Tohil_Coba
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	LEK_Pakanek_Naaj={
+		name="Pakanek Naaj"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Pakanek_Naaj
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	LEK_Acab_Witzam={
+		name="Acab Witzam"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Acab_Witzam
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	LEK_Chakal_Tikan={
+		name="Chakal Tikan"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Chakal_Tikan
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	LEK_Bacab_Witzam={
+		name="Bacab Witzam"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Bacab_Witzam
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	LEK_Kukulkanek_Coba={
+		name="Kukulkanek Coba"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Kukulkanek_Coba
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	LEK_Nacab_Ajtzal={
+		name="Nacab Ajtzal"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEK_Moctez_Ajtzal={
+		name="Moctez Ajtzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Moctez_Ajtzal
+				traits = {	polemarch 	}
+		}
+
+	}
+	LEK_Itzam_Uxun={
+		name="Itzam Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Itzam_Uxun
+				traits = {	infirm 	}
+		}
+
+	}
+	LEK_Popo_Naaj={
+		name="Popo Naaj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Popo_Naaj
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	LEK_Itzam_Tikan={
+		name="Itzam Tikan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Itzam_Tikan
+				traits = {	polemarch 	}
+		}
+
+	}
+	LEK_Acab_Coba={
+		name="Acab Coba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Acab_Coba
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	LEK_Tohichen_Sotz={
+		name="Tohichen Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Tohichen_Sotz
+				traits = {	generallissimo 	}
+		}
+
+	}
+	LEK_Kukulkanek_Tzolkin={
+		name="Kukulkanek Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Kukulkanek_Tzolkin
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	LEK_Ekchakalam_Uxun={
+		name="Ekchakalam Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Ekchakalam_Uxun
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	LEK_Bacom_Coba={
+		name="Bacom Coba"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Bacom_Coba
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	LEK_Ekchakalam_Sotz={
+		name="Ekchakalam Sotz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Ekchakalam_Sotz
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	LEK_Kukulkalam_Uxun={
+		name="Kukulkalam Uxun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Kukulkalam_Uxun
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	LEK_Kukulkalam_Witzam={
+		name="Kukulkalam Witzam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Kukulkalam_Witzam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	LEK_Nacom_Witzam={
+		name="Nacom Witzam"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Nacom_Witzam
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	LEK_Itzam_Naaj={
+		name="Itzam Naaj"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Itzam_Naaj
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	LEK_Bacab_Cozumel={
+		name="Bacab Cozumel"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Bacab_Cozumel
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	LEK_Bacab_Ajtzal={
+		name="Bacab Ajtzal"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Bacab_Ajtzal
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	LEK_Tohil_Sotz={
+		name="Tohil Sotz"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Tohil_Sotz
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	LEK_Ahkin_Cozumel={
+		name="Ahkin Cozumel"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Ahkin_Cozumel
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	LEK_Popo_Tzolkin={
+		name="Popo Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Popo_Tzolkin
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	LEK_Tecun_Naaj={
+		name="Tecun Naaj"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Tecun_Naaj
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	LEK_Nacom_Cozumel={
+		name="Nacom Cozumel"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEK_Acab_Ajtzal={
+		name="Acab Ajtzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Acab_Ajtzal
+				traits = {	polemarch 	}
+		}
+
+	}
+	LEK_Kanek_Tikan={
+		name="Kanek Tikan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Kanek_Tikan
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	LEK_Chak_Witzam={
+		name="Chak Witzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Chak_Witzam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LEK_Balam_Tzolkin={
+		name="Balam Tzolkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Balam_Tzolkin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	LEK_Tohil_Cozumel={
+		name="Tohil Cozumel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Tohil_Cozumel
+				traits = {	polemarch 	}
+		}
+
+	}
+	LEK_Kukulkal_Witzam={
+		name="Kukulkal Witzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Kukulkal_Witzam
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	LEK_Chak_Tzolkin={
+		name="Chak Tzolkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Chak_Tzolkin
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	LEK_Bacom_Uxun={
+		name="Bacom Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Bacom_Uxun
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	LEK_Bacom_Cozumel={
+		name="Bacom Cozumel"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Bacom_Cozumel
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	LEK_Nacab_Naaj={
+		name="Nacab Naaj"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Nacab_Naaj
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	LEK_Bacom_Naaj={
+		name="Bacom Naaj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Bacom_Naaj
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	LEK_Ekchakalam_Coba={
+		name="Ekchakalam Coba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Ekchakalam_Coba
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	LEK_Kanek_Witzam={
+		name="Kanek Witzam"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Kanek_Witzam
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	LEK_Chak_Coba={
+		name="Chak Coba"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Chak_Coba
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	LEK_Kukulkal_Uxun={
+		name="Kukulkal Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Kukulkal_Uxun
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	LEK_Ekchakan_Sotz={
+		name="Ekchakan Sotz"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Ekchakan_Sotz
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	LEK_Pakanek_Ajtzal={
+		name="Pakanek Ajtzal"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Pakanek_Ajtzal
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	LEK_Ahkin_Coba={
+		name="Ahkin Coba"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Ahkin_Coba
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	LEK_Nacatl_Tikan={
+		name="Nacatl Tikan"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Nacatl_Tikan
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	LEK_Tecun_Ajtzal={
+		name="Tecun Ajtzal"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Tecun_Ajtzal
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	LEK_Bacab_Tikan={
+		name="Bacab Tikan"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEK_Kanek_Naaj={
+		name="Kanek Naaj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Kanek_Naaj
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	LEK_Acatl_Sotz={
+		name="Acatl Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Acatl_Sotz
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	LEK_Acab_Cozumel={
+		name="Acab Cozumel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Acab_Cozumel
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	LEK_Tecun_Uxun={
+		name="Tecun Uxun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Tecun_Uxun
+				traits = {	infirm 	}
+		}
+
+	}
+	LEK_Kukulkalam_Tikan={
+		name="Kukulkalam Tikan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Kukulkalam_Tikan
+				traits = {	first_lady 	}
+		}
+
+	}
+	LEK_Chak_Tikan={
+		name="Chak Tikan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEK_Chak_Tikan
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	LEK_Ekchakan_Uxun={
+		name="Ekchakan Uxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Ekchakan_Uxun
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LEK_Chak_Sotz={
+		name="Chak Sotz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Chak_Sotz
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	LEK_Itzam_Ajtzal={
+		name="Itzam Ajtzal"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Itzam_Ajtzal
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	LEK_Nacab_Sotz={
+		name="Nacab Sotz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEK_Nacab_Sotz
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	LEK_Nacom_Ajtzal={
+		name="Nacom Ajtzal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Nacom_Ajtzal
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	LEK_Chakal_Naaj={
+		name="Chakal Naaj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEK_Chakal_Naaj
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	LEK_Oxib_Tikan={
+		name="Oxib Tikan"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Oxib_Tikan
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	LEK_Ekchakan_Tzolkin={
+		name="Ekchakan Tzolkin"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEK_Ekchakan_Tzolkin
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	LEK_Tohil_Uxun={
+		name="Tohil Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Tohil_Uxun
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	LEK_Ekchua_Uxun={
+		name="Ekchua Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Ekchua_Uxun
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	LEK_Chil_Tikan={
+		name="Chil Tikan"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Chil_Tikan
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	LEK_Moctez_Sotz={
+		name="Moctez Sotz"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Moctez_Sotz
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	LEK_Nacom_Tzolkin={
+		name="Nacom Tzolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Nacom_Tzolkin
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	LEK_Balam_Uxun={
+		name="Balam Uxun"
+
+		advisor={
+			slot = high_command
+			idea_token = LEK_Balam_Uxun
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	LEK_Kanek_Uxun={
+		name="Kanek Uxun"
+
+		advisor={
+			slot = theorist
+			idea_token = LEK_Kanek_Uxun
+				traits = {	military_theorist 	}
+		}
+
+	}
+	LEK_Ekchakalam_Cozumel={
+		name="Ekchakalam Cozumel"
+
+		advisor={
+			slot = theorist
+			idea_token = LEK_Ekchakalam_Cozumel
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	LEK_Ekchua_Ajtzal={
+		name="Ekchua Ajtzal"
+
+		advisor={
+			slot = theorist
+			idea_token = LEK_Ekchua_Ajtzal
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

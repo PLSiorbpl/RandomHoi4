@@ -67,7 +67,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = daniel1
-			focus = ksiadz1
+			focus = rada1
 		}
 		cost = 1
 		completion_reward = {
@@ -96,7 +96,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = kgw1
-			focus = ksiadz1
+			focus = rada1
 		}
 		cost = 1
 		completion_reward = {
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ksiadz1
+		id = rada1
 		icon = GFX_SOV_annex_tannu_tuva_ccp_2d_sov_compatibility
 		relative_position_id = polityka3
 		x = 3
@@ -137,6 +137,118 @@ focus_tree = {
 			}
 		}
 	}
-
-	
+	focus = {
+		id = industry1
+		icon = GFX_SOV_heavy_industry_ccp_2d_sov_compatibility
+		x = 10
+		y = 0
+		cost = 1
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = industry2
+		icon = GFX_SOV_heavy_industry_ccp_2d_sov_compatibility
+		relative_position_id = industry1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = industry1
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+			}
+		}
+	}
+	focus = {
+		id = military1
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 20
+		y = 0
+		cost = 1
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = piechota1
+		icon = GFX_SOV_depoliticize_the_military_ccp_2d_sov_compatibility
+		relative_position_id = military1
+		x = -4
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = military1
+		}
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 25
+		}
+	}
+	focus = {
+		id = samoloty1
+		icon = GFX_SOV_transpolar_flights_ccp_2d_sov_compatibility
+		relative_position_id = military1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = military1
+		}
+		completion_reward = {
+			add_command_power = 25
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = flota1
+		icon = GFX_SOV_rebuild_the_far_eastern_fleet_ccp_2d_sov_compatibility
+		relative_position_id = military1
+		x = 4
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = military1
+		}
+		completion_reward = {
+			navy_experience = 25
+			add_command_power = 25
+		}
+	}
 }
