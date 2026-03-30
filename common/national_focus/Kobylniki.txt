@@ -8,11 +8,14 @@ focus_tree = {
             tag = KOB
         }
     }
+
+    continuous_focus_position = { x = 1500 y = 1500 }
+
     # -------------------------------------------------------------------------
     # Polityka
     focus = {
         id = KOB_Przygotowania_Swiento_ziemniaka_0
-        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        icon = GFX_SOV_reverse_the_collectivization_process_ccp_2d_sov_compatibility
         cost = 10
         x = 10
         y = 0
@@ -28,13 +31,17 @@ focus_tree = {
             }
         }
     }
+
+    # Inwestycje na placu zabaw
     focus = {
         id = KOB_Inwestycje_na_placu_zabaw_0
-        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        icon = GFX_focus_generic_road_investment
+        relative_position_id = KOB_Przygotowania_Swiento_ziemniaka_0
+
         prerequisite = {
             focus = KOB_Przygotowania_Swiento_ziemniaka_0
         }
-        relative_position_id = KOB_Przygotowania_Swiento_ziemniaka_0
+
         cost = 5
         x = 0
         y = 1
@@ -42,6 +49,8 @@ focus_tree = {
             add_stability = 0.05
             add_political_power = 50
             
+            # 4 infrastruktury
+            # 1 cywilka
             random_owned_controlled_state = {
                 add_building_construction = {
                     type = infrastructure
@@ -63,24 +72,35 @@ focus_tree = {
             }
         }
     }
+
+    # Święto ziemniaka
     focus = {
         id = KOB_Swiento_Ziemniaka
-        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        icon = GFX_SOV_capital_of_the_tsars_ccp_2d_sov_compatibility
         prerequisite = {
             focus = KOB_Inwestycje_na_placu_zabaw_0
         }
         relative_position_id = KOB_Inwestycje_na_placu_zabaw_0
-        cost = 5
+        cost = 2
         x = 0
         y = 1
         completion_reward = {
-            
+            # chyba dodaje nie wiem
+            add_popularity = {
+                ideology = democratic
+                popularity = 0.2 # 20%
+            }
+            add_political_power = 50
+            add_stability = 0.1 # 10%
+            add_war_support = -0.1 # -10%
         }
     }
+
+    # -------------------------------------------------------------------------------------------------
     # Tragiczne Zbiory Ziemniakow
     focus = {
         id = KOB_Tragiczne_Zbiory_Ziemniakow
-        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        icon = GFX_focus_RAJ_bathe_in_hellfire
         prerequisite = {
             focus = KOB_Swiento_Ziemniaka
         }
@@ -94,10 +114,42 @@ focus_tree = {
             # -40% production efficiency
         }
     }
+
+    focus = {
+        id = KOB_Zalamanie_Rynku
+        icon = GFX_focus_BRA_coffee_crisis
+        prerequisite = {
+            focus = KOB_Tragiczne_Zbiory_Ziemniakow
+        }
+        relative_position_id = KOB_Tragiczne_Zbiory_Ziemniakow
+        cost = 3
+        x = 0
+        y = 1
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = KOB_Zamkniencie_Sklepu
+        icon = GFX_focus_ARG_anti_corruption_policies
+        prerequisite = {
+            focus = KOB_Zalamanie_Rynku
+        }
+        relative_position_id = KOB_Zalamanie_Rynku
+        cost = 2
+        x = 0
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    # -------------------------------------------------------------------------------------------------
     # Odejscie Proboszcza
     focus = {
         id = KOB_Odejscie_Proboszcza
-        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        icon = GFX_focus_mex_triumph_over_the_cristeros
         prerequisite = {
             focus = KOB_Swiento_Ziemniaka
         }
@@ -106,8 +158,170 @@ focus_tree = {
         x = 2
         y = 1
         completion_reward = {
-            add_stability = -0.1
+            country_event = {
+                id = kob_proboszcz.1
+            }
         }
     }
 
+    focus = {
+        id = KOB_Nowy_Proboszcz
+        icon = GFX_focus_generic_pope
+        prerequisite = {
+            focus = KOB_Odejscie_Proboszcza
+        }
+        relative_position_id = KOB_Odejscie_Proboszcza
+        cost = 10
+        x = 0
+        y = 1
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = KOB_Wyrzucenie_Ministrantow
+        icon = GFX_focus_generic_population_growth
+        prerequisite = {
+            focus = KOB_Nowy_Proboszcz
+        }
+        relative_position_id = KOB_Nowy_Proboszcz
+        cost = 2
+        x = 0
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = KOB_Tymczasowe_Lagodzenie_Buntow
+        icon = GFX_focus_POL_resistance
+        prerequisite = {
+            focus = KOB_Wyrzucenie_Ministrantow
+        }
+        relative_position_id = KOB_Wyrzucenie_Ministrantow
+        cost = 5
+        x = 1
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    # -------------------------------------------------------------------------------------------------
+    # Zebranie u Sołtysa
+    focus = {
+        id = KOB_Zebranie_U_Soltysa
+        icon = GFX_focus_CHL_sociedad_caupolican_defensora_de_la_araucania
+        prerequisite = {
+            focus = KOB_Wyrzucenie_Ministrantow
+        }
+        prerequisite = {
+            focus = KOB_Zamkniencie_Sklepu
+        }
+        relative_position_id = KOB_Wyrzucenie_Ministrantow
+        cost = 10
+        x = -2
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = KOB_Klotnie_O_Budzet
+        icon = GFX_focus_FIN_increase_military_budget
+        prerequisite = {
+            focus = KOB_Zebranie_U_Soltysa
+        }
+        relative_position_id = KOB_Zebranie_U_Soltysa
+        cost = 5
+        x = 0
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = KOB_Odejscie_Soltysa_Na_Emeryture
+        icon = GFX_focus_ARG_alvears_democracy
+        prerequisite = {
+            focus = KOB_Klotnie_O_Budzet
+        }
+        relative_position_id = KOB_Klotnie_O_Budzet
+        cost = 2
+        x = 0
+        y = 3
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = KOB_Wielkie_Dotacje_Unii
+        icon = GFX_focus_generic_the_council_of_europe
+        prerequisite = {
+            focus = KOB_Klotnie_O_Budzet
+        }
+        relative_position_id = KOB_Klotnie_O_Budzet
+        cost = 5
+        x = 2
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = KOB_Internet_TrzyG
+        icon = GFX_focus_generic_radio_communication
+        prerequisite = {
+            focus = KOB_Wielkie_Dotacje_Unii
+        }
+        relative_position_id = KOB_Wielkie_Dotacje_Unii
+        cost = 3
+        x = 2
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = KOB_Podpiencie_pod_siec_elek
+        icon = GFX_focus_generic_electrification
+        prerequisite = {
+            focus = KOB_Internet_TrzyG
+        }
+        relative_position_id = KOB_Internet_TrzyG
+        cost = 3
+        x = 0
+        y = 1
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = KOB_Wielkie_Wybory
+        icon = GFX_focus_AFG_pashtunistan_referendum
+        prerequisite = {
+            focus = KOB_Wielkie_Dotacje_Unii
+        }
+        prerequisite = {
+            focus = KOB_Podpiencie_pod_siec_elek
+        }
+        prerequisite = {
+            focus = KOB_Odejscie_Soltysa_Na_Emeryture
+        }
+        relative_position_id = KOB_Wielkie_Dotacje_Unii
+        cost = 10
+        x = 0
+        y = 3
+        completion_reward = {
+            
+        }
+    }
 }
