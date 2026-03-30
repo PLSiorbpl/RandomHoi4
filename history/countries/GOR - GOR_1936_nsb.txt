@@ -1,19 +1,19 @@
 capital = 265
 
-oob = "KUK_1936"
+oob = "GOR_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "KUK_1936"
+	set_oob = "GOR_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "KUK_1936_nsb"
+	set_oob = "GOR_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -71,7 +71,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "KUK_1936_air_bba"
+		set_air_oob = "GOR_1936_air_bba"
 		set_technology = {
 			bba_early_transport_plane = 1
 			iw_small_airframe = 1
@@ -139,7 +139,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "KUK_1936_air_legacy"
+		set_air_oob = "GOR_1936_air_legacy"
 		set_technology = {
 			early_transport_plane = 1
 			early_fighter = 1
@@ -174,7 +174,7 @@ if = {
 	early_submarine = 1
 	
 	}
-	set_naval_oob = "KUK_1936_naval"
+	set_naval_oob = "GOR_1936_naval"
 }
 
 ### Ship Variants ###
@@ -340,7 +340,7 @@ if = {
 	submarine_mine_laying = 1
 	
 	}
-	set_naval_oob = "KUK_1936_naval_mtg"
+	set_naval_oob = "GOR_1936_naval_mtg"
 }
 
 	if = {
@@ -531,93 +531,93 @@ if = {
 	}
 
 
-recruit_character = KUK_Chakan_Ajtz
-recruit_character = KUK_Tohichen_Ajtz
-recruit_character = KUK_Ekchua_Chuwen
-recruit_character = KUK_Chakal_Benque
-recruit_character = KUK_Ekchichen_Aguatunil
-recruit_character = KUK_Tecun_Benque
-recruit_character = KUK_Acatl_Aguatunil
-recruit_character = KUK_Nacatl_Ajtz
-recruit_character = KUK_Acab_Yaxul
-recruit_character = KUK_Kukulkalam_Uxman
-recruit_character = KUK_Bacatl_Ajtz
-recruit_character = KUK_Tecun_Ajtz
-recruit_character = KUK_Chil_Aguatunil
-recruit_character = KUK_Kukulkanek_Uxman
-recruit_character = KUK_Tohichen_Uxman
-recruit_character = KUK_Chakalam_Yaxul
-recruit_character = KUK_Ekchakal_Chuwen
-recruit_character = KUK_Tohil_Benque
-recruit_character = KUK_Oxib_Aguatunil
-recruit_character = KUK_Chak_Benque
-recruit_character = KUK_Bacom_Yaxul
-recruit_character = KUK_Chakan_Chuwen
-recruit_character = KUK_Pakal_Chuwen
-recruit_character = KUK_Tohil_Chuwen
-recruit_character = KUK_Pakal_Uxman
-recruit_character = KUK_Acatl_Ajtz
-recruit_character = KUK_Chil_Yaxul
-recruit_character = KUK_Ekchichen_Lampaktunil
-recruit_character = KUK_Popo_Yaxul
-recruit_character = KUK_Acatl_Uxman
-recruit_character = KUK_Ahkin_Uxman
-recruit_character = KUK_Oxib_Benque
-recruit_character = KUK_Ekchua_Aguatunil
-recruit_character = KUK_Chakal_Uxman
-recruit_character = KUK_Nacatl_Aguatunil
-recruit_character = KUK_Chakalam_Uxman
-recruit_character = KUK_Itzam_Benque
-recruit_character = KUK_Popo_Ajtz
-recruit_character = KUK_Chakal_Ajtz
-recruit_character = KUK_Nacom_Aguatunil
-recruit_character = KUK_Yaxkin_Lampaktunil
-recruit_character = KUK_Bacatl_Lampaktunil
-recruit_character = KUK_Itzam_Uxman
-recruit_character = KUK_Ekchil_Ajtz
-recruit_character = KUK_Chak_Ajtz
-recruit_character = KUK_Ekchakal_Uxman
-recruit_character = KUK_Chakal_Chuwen
-recruit_character = KUK_Ekchichen_Yaxul
-recruit_character = KUK_Pakan_Lampaktunil
-recruit_character = KUK_Acab_Uxman
-recruit_character = KUK_Ahkin_Yaxul
-recruit_character = KUK_Bacom_Uxman
-recruit_character = KUK_Tohil_Lampaktunil
-recruit_character = KUK_Popo_Lampaktunil
-recruit_character = KUK_Chua_Ajtz
-recruit_character = KUK_Bacatl_Uxman
-recruit_character = KUK_Nacom_Lampaktunil
-recruit_character = KUK_Acab_Benque
-recruit_character = KUK_Kanek_Ajtz
-recruit_character = KUK_Kukulkan_Yaxul
-recruit_character = KUK_Kukulkalam_Yaxul
-recruit_character = KUK_Ekchil_Uxman
-recruit_character = KUK_Itzam_Ajtz
-recruit_character = KUK_Ekchil_Yaxul
-recruit_character = KUK_Chichen_Uxman
-recruit_character = KUK_Pakanek_Lampaktunil
-recruit_character = KUK_Nacatl_Lampaktunil
-recruit_character = KUK_Nacom_Chuwen
-recruit_character = KUK_Chakan_Uxman
-recruit_character = KUK_Kanek_Chuwen
-recruit_character = KUK_Chakan_Yaxul
-recruit_character = KUK_Chakal_Yaxul
-recruit_character = KUK_Ekchua_Ajtz
-recruit_character = KUK_Bacab_Chuwen
-recruit_character = KUK_Chakalam_Ajtz
-recruit_character = KUK_Balam_Lampaktunil
-recruit_character = KUK_Bacab_Benque
-recruit_character = KUK_Yaxkin_Aguatunil
-recruit_character = KUK_Kukulkan_Benque
-recruit_character = KUK_Kukulkanek_Chuwen
-recruit_character = KUK_Bacatl_Benque
-recruit_character = KUK_Balam_Benque
-recruit_character = KUK_Yaxkin_Uxman
-recruit_character = KUK_Acatl_Chuwen
-recruit_character = KUK_Chua_Benque
-recruit_character = KUK_Tohil_Yaxul
-recruit_character = KUK_Pakanek_Ajtz
+recruit_character = GOR_Chakan_Ajtz
+recruit_character = GOR_Tohichen_Ajtz
+recruit_character = GOR_Ekchua_Chuwen
+recruit_character = GOR_Chakal_Benque
+recruit_character = GOR_Ekchichen_Aguatunil
+recruit_character = GOR_Tecun_Benque
+recruit_character = GOR_Acatl_Aguatunil
+recruit_character = GOR_Nacatl_Ajtz
+recruit_character = GOR_Acab_Yaxul
+recruit_character = GOR_Kukulkalam_Uxman
+recruit_character = GOR_Bacatl_Ajtz
+recruit_character = GOR_Tecun_Ajtz
+recruit_character = GOR_Chil_Aguatunil
+recruit_character = GOR_Kukulkanek_Uxman
+recruit_character = GOR_Tohichen_Uxman
+recruit_character = GOR_Chakalam_Yaxul
+recruit_character = GOR_Ekchakal_Chuwen
+recruit_character = GOR_Tohil_Benque
+recruit_character = GOR_Oxib_Aguatunil
+recruit_character = GOR_Chak_Benque
+recruit_character = GOR_Bacom_Yaxul
+recruit_character = GOR_Chakan_Chuwen
+recruit_character = GOR_Pakal_Chuwen
+recruit_character = GOR_Tohil_Chuwen
+recruit_character = GOR_Pakal_Uxman
+recruit_character = GOR_Acatl_Ajtz
+recruit_character = GOR_Chil_Yaxul
+recruit_character = GOR_Ekchichen_Lampaktunil
+recruit_character = GOR_Popo_Yaxul
+recruit_character = GOR_Acatl_Uxman
+recruit_character = GOR_Ahkin_Uxman
+recruit_character = GOR_Oxib_Benque
+recruit_character = GOR_Ekchua_Aguatunil
+recruit_character = GOR_Chakal_Uxman
+recruit_character = GOR_Nacatl_Aguatunil
+recruit_character = GOR_Chakalam_Uxman
+recruit_character = GOR_Itzam_Benque
+recruit_character = GOR_Popo_Ajtz
+recruit_character = GOR_Chakal_Ajtz
+recruit_character = GOR_Nacom_Aguatunil
+recruit_character = GOR_Yaxkin_Lampaktunil
+recruit_character = GOR_Bacatl_Lampaktunil
+recruit_character = GOR_Itzam_Uxman
+recruit_character = GOR_Ekchil_Ajtz
+recruit_character = GOR_Chak_Ajtz
+recruit_character = GOR_Ekchakal_Uxman
+recruit_character = GOR_Chakal_Chuwen
+recruit_character = GOR_Ekchichen_Yaxul
+recruit_character = GOR_Pakan_Lampaktunil
+recruit_character = GOR_Acab_Uxman
+recruit_character = GOR_Ahkin_Yaxul
+recruit_character = GOR_Bacom_Uxman
+recruit_character = GOR_Tohil_Lampaktunil
+recruit_character = GOR_Popo_Lampaktunil
+recruit_character = GOR_Chua_Ajtz
+recruit_character = GOR_Bacatl_Uxman
+recruit_character = GOR_Nacom_Lampaktunil
+recruit_character = GOR_Acab_Benque
+recruit_character = GOR_Kanek_Ajtz
+recruit_character = GOR_Kukulkan_Yaxul
+recruit_character = GOR_Kukulkalam_Yaxul
+recruit_character = GOR_Ekchil_Uxman
+recruit_character = GOR_Itzam_Ajtz
+recruit_character = GOR_Ekchil_Yaxul
+recruit_character = GOR_Chichen_Uxman
+recruit_character = GOR_Pakanek_Lampaktunil
+recruit_character = GOR_Nacatl_Lampaktunil
+recruit_character = GOR_Nacom_Chuwen
+recruit_character = GOR_Chakan_Uxman
+recruit_character = GOR_Kanek_Chuwen
+recruit_character = GOR_Chakan_Yaxul
+recruit_character = GOR_Chakal_Yaxul
+recruit_character = GOR_Ekchua_Ajtz
+recruit_character = GOR_Bacab_Chuwen
+recruit_character = GOR_Chakalam_Ajtz
+recruit_character = GOR_Balam_Lampaktunil
+recruit_character = GOR_Bacab_Benque
+recruit_character = GOR_Yaxkin_Aguatunil
+recruit_character = GOR_Kukulkan_Benque
+recruit_character = GOR_Kukulkanek_Chuwen
+recruit_character = GOR_Bacatl_Benque
+recruit_character = GOR_Balam_Benque
+recruit_character = GOR_Yaxkin_Uxman
+recruit_character = GOR_Acatl_Chuwen
+recruit_character = GOR_Chua_Benque
+recruit_character = GOR_Tohil_Yaxul
+recruit_character = GOR_Pakanek_Ajtz
 
 
 if = {

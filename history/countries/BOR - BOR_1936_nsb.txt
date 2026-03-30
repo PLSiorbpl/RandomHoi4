@@ -1,19 +1,19 @@
 capital = 1214
 
-oob = "KAM_1936"
+oob = "BOR_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "KAM_1936"
+	set_oob = "BOR_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "KAM_1936_nsb"
+	set_oob = "BOR_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -64,7 +64,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "KAM_1936_air_bba"
+		set_air_oob = "BOR_1936_air_bba"
 		set_technology = {
 			bba_early_transport_plane = 1
 			iw_small_airframe = 1
@@ -107,7 +107,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "KAM_1936_air_legacy"
+		set_air_oob = "BOR_1936_air_legacy"
 		set_technology = {
 			early_transport_plane = 1
 			early_fighter = 1
@@ -138,7 +138,7 @@ if = {
 	early_light_cruiser = 1
 	
 	}
-	set_naval_oob = "KAM_1936_naval"
+	set_naval_oob = "BOR_1936_naval"
 }
 
 ### Ship Variants ###
@@ -266,7 +266,7 @@ if = {
 	submarine_mine_laying = 1
 	
 	}
-	set_naval_oob = "KAM_1936_naval_mtg"
+	set_naval_oob = "BOR_1936_naval_mtg"
 }
 
 	if = {
@@ -424,93 +424,93 @@ if = {
 	}
 
 
-recruit_character = KAM_Omau_Nyumbukumbir
-recruit_character = KAM_Kame_Meli
-recruit_character = KAM_Taji_Kambe
-recruit_character = KAM_Baka_Checho
-recruit_character = KAM_Barakari_Tumbani
-recruit_character = KAM_Kwanga_Tumbani
-recruit_character = KAM_Barakari_Kambe
-recruit_character = KAM_Luba_Checho
-recruit_character = KAM_Mbwamari_Checho
-recruit_character = KAM_Baka_Meli
-recruit_character = KAM_Mbwama_Ukwezi
-recruit_character = KAM_Bari_Mtifalu
-recruit_character = KAM_Amaraka_Tumbani
-recruit_character = KAM_Taji_Jini
-recruit_character = KAM_Shakari_Ukwezi
-recruit_character = KAM_Sefu_Mungaongo
-recruit_character = KAM_Mbwamari_Mungaongo
-recruit_character = KAM_Mbwamau_Nyumbukumbir
-recruit_character = KAM_Mbwamari_Mtifalu
-recruit_character = KAM_Temba_Nyumbukumbir
-recruit_character = KAM_Nuru_Nyumbukumbir
-recruit_character = KAM_Musa_Mtifalu
-recruit_character = KAM_Temba_Tumbani
-recruit_character = KAM_Bakari_Tumbani
-recruit_character = KAM_Shaka_Haka
-recruit_character = KAM_Kato_Haka
-recruit_character = KAM_Kamari_Jini
-recruit_character = KAM_Mosi_Ukwezi
-recruit_character = KAM_Omaraka_Checho
-recruit_character = KAM_Simba_Ukwezi
-recruit_character = KAM_Luba_Mtifalu
-recruit_character = KAM_Shaka_Nyumbukumbir
-recruit_character = KAM_Taji_Haka
-recruit_character = KAM_Shaka_Tumbani
-recruit_character = KAM_Mbwama_Haka
-recruit_character = KAM_Kwana_Nyumbukumbir
-recruit_character = KAM_Baka_Kambe
-recruit_character = KAM_Bari_Haka
-recruit_character = KAM_Amau_Haka
-recruit_character = KAM_Omau_Tumbani
-recruit_character = KAM_Omau_Mungaongo
-recruit_character = KAM_Shaka_Mungaongo
-recruit_character = KAM_Kwanga_Haka
-recruit_character = KAM_Shakari_Mungaongo
-recruit_character = KAM_Mbwano_Tumbani
-recruit_character = KAM_Juma_Tumbani
-recruit_character = KAM_Sefu_Checho
-recruit_character = KAM_Bakarakari_Tumbani
-recruit_character = KAM_Mbwamau_Mtifalu
-recruit_character = KAM_Mbwamau_Meli
-recruit_character = KAM_Kame_Tumbani
-recruit_character = KAM_Barakari_Mungaongo
-recruit_character = KAM_Mbwama_Mtifalu
-recruit_character = KAM_Simba_Meli
-recruit_character = KAM_Jumari_Tumbani
-recruit_character = KAM_Bakarakari_Ukwezi
-recruit_character = KAM_Mbwanga_Mtifalu
-recruit_character = KAM_Mosi_Haka
-recruit_character = KAM_Shaka_Meli
-recruit_character = KAM_Tana_Jini
-recruit_character = KAM_Kato_Nyumbukumbir
-recruit_character = KAM_Mbwamari_Kambe
-recruit_character = KAM_Tano_Tumbani
-recruit_character = KAM_Baka_Nyumbukumbir
-recruit_character = KAM_Taji_Mtifalu
-recruit_character = KAM_Kwana_Haka
-recruit_character = KAM_Omau_Mtifalu
-recruit_character = KAM_Bakari_Nyumbukumbir
-recruit_character = KAM_Temba_Kambe
-recruit_character = KAM_Kwame_Checho
-recruit_character = KAM_Kame_Haka
-recruit_character = KAM_Simba_Mtifalu
-recruit_character = KAM_Luba_Nyumbukumbir
-recruit_character = KAM_Mbwano_Ukwezi
-recruit_character = KAM_Mbwanga_Checho
-recruit_character = KAM_Simba_Checho
-recruit_character = KAM_Amau_Jini
-recruit_character = KAM_Kwame_Mtifalu
-recruit_character = KAM_Shakari_Mtifalu
-recruit_character = KAM_Mbwamari_Haka
-recruit_character = KAM_Shakari_Kambe
-recruit_character = KAM_Amau_Checho
-recruit_character = KAM_Jumari_Haka
-recruit_character = KAM_Sefu_Nyumbukumbir
-recruit_character = KAM_Jumari_Ukwezi
-recruit_character = KAM_Mosi_Jini
-recruit_character = KAM_Kwanga_Checho
+recruit_character = BOR_Omau_Nyumbukumbir
+recruit_character = BOR_Kame_Meli
+recruit_character = BOR_Taji_Kambe
+recruit_character = BOR_Baka_Checho
+recruit_character = BOR_Barakari_Tumbani
+recruit_character = BOR_Kwanga_Tumbani
+recruit_character = BOR_Barakari_Kambe
+recruit_character = BOR_Luba_Checho
+recruit_character = BOR_Mbwamari_Checho
+recruit_character = BOR_Baka_Meli
+recruit_character = BOR_Mbwama_Ukwezi
+recruit_character = BOR_Bari_Mtifalu
+recruit_character = BOR_Amaraka_Tumbani
+recruit_character = BOR_Taji_Jini
+recruit_character = BOR_Shakari_Ukwezi
+recruit_character = BOR_Sefu_Mungaongo
+recruit_character = BOR_Mbwamari_Mungaongo
+recruit_character = BOR_Mbwamau_Nyumbukumbir
+recruit_character = BOR_Mbwamari_Mtifalu
+recruit_character = BOR_Temba_Nyumbukumbir
+recruit_character = BOR_Nuru_Nyumbukumbir
+recruit_character = BOR_Musa_Mtifalu
+recruit_character = BOR_Temba_Tumbani
+recruit_character = BOR_Bakari_Tumbani
+recruit_character = BOR_Shaka_Haka
+recruit_character = BOR_Kato_Haka
+recruit_character = BOR_Kamari_Jini
+recruit_character = BOR_Mosi_Ukwezi
+recruit_character = BOR_Omaraka_Checho
+recruit_character = BOR_Simba_Ukwezi
+recruit_character = BOR_Luba_Mtifalu
+recruit_character = BOR_Shaka_Nyumbukumbir
+recruit_character = BOR_Taji_Haka
+recruit_character = BOR_Shaka_Tumbani
+recruit_character = BOR_Mbwama_Haka
+recruit_character = BOR_Kwana_Nyumbukumbir
+recruit_character = BOR_Baka_Kambe
+recruit_character = BOR_Bari_Haka
+recruit_character = BOR_Amau_Haka
+recruit_character = BOR_Omau_Tumbani
+recruit_character = BOR_Omau_Mungaongo
+recruit_character = BOR_Shaka_Mungaongo
+recruit_character = BOR_Kwanga_Haka
+recruit_character = BOR_Shakari_Mungaongo
+recruit_character = BOR_Mbwano_Tumbani
+recruit_character = BOR_Juma_Tumbani
+recruit_character = BOR_Sefu_Checho
+recruit_character = BOR_Bakarakari_Tumbani
+recruit_character = BOR_Mbwamau_Mtifalu
+recruit_character = BOR_Mbwamau_Meli
+recruit_character = BOR_Kame_Tumbani
+recruit_character = BOR_Barakari_Mungaongo
+recruit_character = BOR_Mbwama_Mtifalu
+recruit_character = BOR_Simba_Meli
+recruit_character = BOR_Jumari_Tumbani
+recruit_character = BOR_Bakarakari_Ukwezi
+recruit_character = BOR_Mbwanga_Mtifalu
+recruit_character = BOR_Mosi_Haka
+recruit_character = BOR_Shaka_Meli
+recruit_character = BOR_Tana_Jini
+recruit_character = BOR_Kato_Nyumbukumbir
+recruit_character = BOR_Mbwamari_Kambe
+recruit_character = BOR_Tano_Tumbani
+recruit_character = BOR_Baka_Nyumbukumbir
+recruit_character = BOR_Taji_Mtifalu
+recruit_character = BOR_Kwana_Haka
+recruit_character = BOR_Omau_Mtifalu
+recruit_character = BOR_Bakari_Nyumbukumbir
+recruit_character = BOR_Temba_Kambe
+recruit_character = BOR_Kwame_Checho
+recruit_character = BOR_Kame_Haka
+recruit_character = BOR_Simba_Mtifalu
+recruit_character = BOR_Luba_Nyumbukumbir
+recruit_character = BOR_Mbwano_Ukwezi
+recruit_character = BOR_Mbwanga_Checho
+recruit_character = BOR_Simba_Checho
+recruit_character = BOR_Amau_Jini
+recruit_character = BOR_Kwame_Mtifalu
+recruit_character = BOR_Shakari_Mtifalu
+recruit_character = BOR_Mbwamari_Haka
+recruit_character = BOR_Shakari_Kambe
+recruit_character = BOR_Amau_Checho
+recruit_character = BOR_Jumari_Haka
+recruit_character = BOR_Sefu_Nyumbukumbir
+recruit_character = BOR_Jumari_Ukwezi
+recruit_character = BOR_Mosi_Jini
+recruit_character = BOR_Kwanga_Checho
 
 
 if = {

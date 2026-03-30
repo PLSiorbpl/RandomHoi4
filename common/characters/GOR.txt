@@ -1,5 +1,5 @@
 characters = {
-	KUK_Chakan_Ajtz={
+	GOR_Chakan_Ajtz={
 		name="Chakan Ajtz"
 
 		
@@ -11,207 +11,207 @@ characters = {
 		}
 
 	}
-	KUK_Tohichen_Ajtz={
+	GOR_Tohichen_Ajtz={
 		name="Tohichen Ajtz"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Tohichen_Ajtz
+			idea_token = GOR_Tohichen_Ajtz
 				traits = {	inexperienced_monarch 	}
 		}
 
 	}
-	KUK_Ekchua_Chuwen={
+	GOR_Ekchua_Chuwen={
 		name="Ekchua Chuwen"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Ekchua_Chuwen
+			idea_token = GOR_Ekchua_Chuwen
 				traits = {	headstrong 	}
 		}
 
 	}
-	KUK_Chakal_Benque={
+	GOR_Chakal_Benque={
 		name="Chakal Benque"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Chakal_Benque
+			idea_token = GOR_Chakal_Benque
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	KUK_Ekchichen_Aguatunil={
+	GOR_Ekchichen_Aguatunil={
 		name="Ekchichen Aguatunil"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Ekchichen_Aguatunil
+			idea_token = GOR_Ekchichen_Aguatunil
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	KUK_Tecun_Benque={
+	GOR_Tecun_Benque={
 		name="Tecun Benque"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Tecun_Benque
+			idea_token = GOR_Tecun_Benque
 				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	KUK_Acatl_Aguatunil={
+	GOR_Acatl_Aguatunil={
 		name="Acatl Aguatunil"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Acatl_Aguatunil
+			idea_token = GOR_Acatl_Aguatunil
 				traits = {	headstrong 	}
 		}
 
 	}
-	KUK_Nacatl_Ajtz={
+	GOR_Nacatl_Ajtz={
 		name="Nacatl Ajtz"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Nacatl_Ajtz
+			idea_token = GOR_Nacatl_Ajtz
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	KUK_Acab_Yaxul={
+	GOR_Acab_Yaxul={
 		name="Acab Yaxul"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Acab_Yaxul
+			idea_token = GOR_Acab_Yaxul
 				traits = {	army_chief_reform_1 	}
 		}
 
 	}
-	KUK_Kukulkalam_Uxman={
+	GOR_Kukulkalam_Uxman={
 		name="Kukulkalam Uxman"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Kukulkalam_Uxman
+			idea_token = GOR_Kukulkalam_Uxman
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	KUK_Bacatl_Ajtz={
+	GOR_Bacatl_Ajtz={
 		name="Bacatl Ajtz"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Bacatl_Ajtz
+			idea_token = GOR_Bacatl_Ajtz
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	KUK_Tecun_Ajtz={
+	GOR_Tecun_Ajtz={
 		name="Tecun Ajtz"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Tecun_Ajtz
+			idea_token = GOR_Tecun_Ajtz
 				traits = {	navy_chief_reform_1 	}
 		}
 
 	}
-	KUK_Chil_Aguatunil={
+	GOR_Chil_Aguatunil={
 		name="Chil Aguatunil"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Chil_Aguatunil
+			idea_token = GOR_Chil_Aguatunil
 				traits = {	navy_chief_old_guard_2 	}
 		}
 
 	}
-	KUK_Kukulkanek_Uxman={
+	GOR_Kukulkanek_Uxman={
 		name="Kukulkanek Uxman"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Kukulkanek_Uxman
+			idea_token = GOR_Kukulkanek_Uxman
 				traits = {	air_chief_safety_1 	}
 		}
 
 	}
-	KUK_Tohichen_Uxman={
+	GOR_Tohichen_Uxman={
 		name="Tohichen Uxman"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Tohichen_Uxman
+			idea_token = GOR_Tohichen_Uxman
 				traits = {	air_chief_ground_support_1 	}
 		}
 
 	}
-	KUK_Chakalam_Yaxul={
+	GOR_Chakalam_Yaxul={
 		name="Chakalam Yaxul"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Chakalam_Yaxul
+			idea_token = GOR_Chakalam_Yaxul
 				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	KUK_Ekchakal_Chuwen={
+	GOR_Ekchakal_Chuwen={
 		name="Ekchakal Chuwen"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Ekchakal_Chuwen
+			idea_token = GOR_Ekchakal_Chuwen
 				traits = {	army_artillery_2 	}
 		}
 
 	}
-	KUK_Tohil_Benque={
+	GOR_Tohil_Benque={
 		name="Tohil Benque"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Tohil_Benque
+			idea_token = GOR_Tohil_Benque
 				traits = {	air_naval_strike_1 	}
 		}
 
 	}
-	KUK_Oxib_Aguatunil={
+	GOR_Oxib_Aguatunil={
 		name="Oxib Aguatunil"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Oxib_Aguatunil
+			idea_token = GOR_Oxib_Aguatunil
 				traits = {	army_CombinedArms_1 	}
 		}
 
 	}
-	KUK_Chak_Benque={
+	GOR_Chak_Benque={
 		name="Chak Benque"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Chak_Benque
+			idea_token = GOR_Chak_Benque
 				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	KUK_Bacom_Yaxul={
+	GOR_Bacom_Yaxul={
 		name="Bacom Yaxul"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Bacom_Yaxul
+			idea_token = GOR_Bacom_Yaxul
 				traits = {	army_logistics_1 	}
 		}
 
 	}
-	KUK_Chakan_Chuwen={
+	GOR_Chakan_Chuwen={
 		name="Chakan Chuwen"
 
 		
@@ -223,207 +223,207 @@ characters = {
 		}
 
 	}
-	KUK_Pakal_Chuwen={
+	GOR_Pakal_Chuwen={
 		name="Pakal Chuwen"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Pakal_Chuwen
+			idea_token = GOR_Pakal_Chuwen
 				traits = {	polemarch 	}
 		}
 
 	}
-	KUK_Tohil_Chuwen={
+	GOR_Tohil_Chuwen={
 		name="Tohil Chuwen"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Tohil_Chuwen
+			idea_token = GOR_Tohil_Chuwen
 				traits = {	warmonger 	}
 		}
 
 	}
-	KUK_Pakal_Uxman={
+	GOR_Pakal_Uxman={
 		name="Pakal Uxman"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Pakal_Uxman
+			idea_token = GOR_Pakal_Uxman
 				traits = {	infirm 	}
 		}
 
 	}
-	KUK_Acatl_Ajtz={
+	GOR_Acatl_Ajtz={
 		name="Acatl Ajtz"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Acatl_Ajtz
+			idea_token = GOR_Acatl_Ajtz
 				traits = {	inexperienced_imperialist 	}
 		}
 
 	}
-	KUK_Chil_Yaxul={
+	GOR_Chil_Yaxul={
 		name="Chil Yaxul"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Chil_Yaxul
+			idea_token = GOR_Chil_Yaxul
 				traits = {	autocratic_imperialist 	}
 		}
 
 	}
-	KUK_Ekchichen_Lampaktunil={
+	GOR_Ekchichen_Lampaktunil={
 		name="Ekchichen Lampaktunil"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Ekchichen_Lampaktunil
+			idea_token = GOR_Ekchichen_Lampaktunil
 				traits = {	archon_basileus 	}
 		}
 
 	}
-	KUK_Popo_Yaxul={
+	GOR_Popo_Yaxul={
 		name="Popo Yaxul"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Popo_Yaxul
+			idea_token = GOR_Popo_Yaxul
 				traits = {	army_chief_reform_2 	}
 		}
 
 	}
-	KUK_Acatl_Uxman={
+	GOR_Acatl_Uxman={
 		name="Acatl Uxman"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Acatl_Uxman
+			idea_token = GOR_Acatl_Uxman
 				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	KUK_Ahkin_Uxman={
+	GOR_Ahkin_Uxman={
 		name="Ahkin Uxman"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Ahkin_Uxman
+			idea_token = GOR_Ahkin_Uxman
 				traits = {	army_chief_drill_1 	}
 		}
 
 	}
-	KUK_Oxib_Benque={
+	GOR_Oxib_Benque={
 		name="Oxib Benque"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Oxib_Benque
+			idea_token = GOR_Oxib_Benque
 				traits = {	army_chief_entrenchment_1 	}
 		}
 
 	}
-	KUK_Ekchua_Aguatunil={
+	GOR_Ekchua_Aguatunil={
 		name="Ekchua Aguatunil"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Ekchua_Aguatunil
+			idea_token = GOR_Ekchua_Aguatunil
 				traits = {	navy_chief_maneuver_1 	}
 		}
 
 	}
-	KUK_Chakal_Uxman={
+	GOR_Chakal_Uxman={
 		name="Chakal Uxman"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Chakal_Uxman
+			idea_token = GOR_Chakal_Uxman
 				traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 	}
-	KUK_Nacatl_Aguatunil={
+	GOR_Nacatl_Aguatunil={
 		name="Nacatl Aguatunil"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Nacatl_Aguatunil
+			idea_token = GOR_Nacatl_Aguatunil
 				traits = {	air_chief_ground_support_1 	}
 		}
 
 	}
-	KUK_Chakalam_Uxman={
+	GOR_Chakalam_Uxman={
 		name="Chakalam Uxman"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Chakalam_Uxman
+			idea_token = GOR_Chakalam_Uxman
 				traits = {	air_chief_ground_support_1 	}
 		}
 
 	}
-	KUK_Itzam_Benque={
+	GOR_Itzam_Benque={
 		name="Itzam Benque"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Itzam_Benque
+			idea_token = GOR_Itzam_Benque
 				traits = {	army_radio_intelligence_2 	}
 		}
 
 	}
-	KUK_Popo_Ajtz={
+	GOR_Popo_Ajtz={
 		name="Popo Ajtz"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Popo_Ajtz
+			idea_token = GOR_Popo_Ajtz
 				traits = {	air_pilot_training_1 	}
 		}
 
 	}
-	KUK_Chakal_Ajtz={
+	GOR_Chakal_Ajtz={
 		name="Chakal Ajtz"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Chakal_Ajtz
+			idea_token = GOR_Chakal_Ajtz
 				traits = {	air_airborne_2 	}
 		}
 
 	}
-	KUK_Nacom_Aguatunil={
+	GOR_Nacom_Aguatunil={
 		name="Nacom Aguatunil"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Nacom_Aguatunil
+			idea_token = GOR_Nacom_Aguatunil
 				traits = {	army_entrenchment_2 	}
 		}
 
 	}
-	KUK_Yaxkin_Lampaktunil={
+	GOR_Yaxkin_Lampaktunil={
 		name="Yaxkin Lampaktunil"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Yaxkin_Lampaktunil
+			idea_token = GOR_Yaxkin_Lampaktunil
 				traits = {	army_armored_2 	}
 		}
 
 	}
-	KUK_Bacatl_Lampaktunil={
+	GOR_Bacatl_Lampaktunil={
 		name="Bacatl Lampaktunil"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Bacatl_Lampaktunil
+			idea_token = GOR_Bacatl_Lampaktunil
 				traits = {	air_air_combat_training_2 	}
 		}
 
 	}
-	KUK_Itzam_Uxman={
+	GOR_Itzam_Uxman={
 		name="Itzam Uxman"
 
 		
@@ -435,207 +435,207 @@ characters = {
 		}
 
 	}
-	KUK_Ekchil_Ajtz={
+	GOR_Ekchil_Ajtz={
 		name="Ekchil Ajtz"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Ekchil_Ajtz
+			idea_token = GOR_Ekchil_Ajtz
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	KUK_Chak_Ajtz={
+	GOR_Chak_Ajtz={
 		name="Chak Ajtz"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Chak_Ajtz
+			idea_token = GOR_Chak_Ajtz
 				traits = {	polemarch 	}
 		}
 
 	}
-	KUK_Ekchakal_Uxman={
+	GOR_Ekchakal_Uxman={
 		name="Ekchakal Uxman"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Ekchakal_Uxman
+			idea_token = GOR_Ekchakal_Uxman
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	KUK_Chakal_Chuwen={
+	GOR_Chakal_Chuwen={
 		name="Chakal Chuwen"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Chakal_Chuwen
+			idea_token = GOR_Chakal_Chuwen
 				traits = {	infirm 	}
 		}
 
 	}
-	KUK_Ekchichen_Yaxul={
+	GOR_Ekchichen_Yaxul={
 		name="Ekchichen Yaxul"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Ekchichen_Yaxul
+			idea_token = GOR_Ekchichen_Yaxul
 				traits = {	reluctant_stalinist 	}
 		}
 
 	}
-	KUK_Pakan_Lampaktunil={
+	GOR_Pakan_Lampaktunil={
 		name="Pakan Lampaktunil"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Pakan_Lampaktunil
+			idea_token = GOR_Pakan_Lampaktunil
 				traits = {	polemarch 	}
 		}
 
 	}
-	KUK_Acab_Uxman={
+	GOR_Acab_Uxman={
 		name="Acab Uxman"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Acab_Uxman
+			idea_token = GOR_Acab_Uxman
 				traits = {	army_chief_maneuver_1 	}
 		}
 
 	}
-	KUK_Ahkin_Yaxul={
+	GOR_Ahkin_Yaxul={
 		name="Ahkin Yaxul"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Ahkin_Yaxul
+			idea_token = GOR_Ahkin_Yaxul
 				traits = {	army_chief_maneuver_2 	}
 		}
 
 	}
-	KUK_Bacom_Uxman={
+	GOR_Bacom_Uxman={
 		name="Bacom Uxman"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Bacom_Uxman
+			idea_token = GOR_Bacom_Uxman
 				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	KUK_Tohil_Lampaktunil={
+	GOR_Tohil_Lampaktunil={
 		name="Tohil Lampaktunil"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Tohil_Lampaktunil
+			idea_token = GOR_Tohil_Lampaktunil
 				traits = {	army_chief_planning_1 	}
 		}
 
 	}
-	KUK_Popo_Lampaktunil={
+	GOR_Popo_Lampaktunil={
 		name="Popo Lampaktunil"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Popo_Lampaktunil
+			idea_token = GOR_Popo_Lampaktunil
 				traits = {	navy_chief_reform_2 	}
 		}
 
 	}
-	KUK_Chua_Ajtz={
+	GOR_Chua_Ajtz={
 		name="Chua Ajtz"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Chua_Ajtz
+			idea_token = GOR_Chua_Ajtz
 				traits = {	navy_chief_commerce_raiding_1 	}
 		}
 
 	}
-	KUK_Bacatl_Uxman={
+	GOR_Bacatl_Uxman={
 		name="Bacatl Uxman"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Bacatl_Uxman
+			idea_token = GOR_Bacatl_Uxman
 				traits = {	air_chief_old_guard_2 	}
 		}
 
 	}
-	KUK_Nacom_Lampaktunil={
+	GOR_Nacom_Lampaktunil={
 		name="Nacom Lampaktunil"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Nacom_Lampaktunil
+			idea_token = GOR_Nacom_Lampaktunil
 				traits = {	air_chief_reform_2 	}
 		}
 
 	}
-	KUK_Acab_Benque={
+	GOR_Acab_Benque={
 		name="Acab Benque"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Acab_Benque
+			idea_token = GOR_Acab_Benque
 				traits = {	army_cavalry_2 	}
 		}
 
 	}
-	KUK_Kanek_Ajtz={
+	GOR_Kanek_Ajtz={
 		name="Kanek Ajtz"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Kanek_Ajtz
+			idea_token = GOR_Kanek_Ajtz
 				traits = {	navy_capital_ship_2 	}
 		}
 
 	}
-	KUK_Kukulkan_Yaxul={
+	GOR_Kukulkan_Yaxul={
 		name="Kukulkan Yaxul"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Kukulkan_Yaxul
+			idea_token = GOR_Kukulkan_Yaxul
 				traits = {	air_air_superiority_1 	}
 		}
 
 	}
-	KUK_Kukulkalam_Yaxul={
+	GOR_Kukulkalam_Yaxul={
 		name="Kukulkalam Yaxul"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Kukulkalam_Yaxul
+			idea_token = GOR_Kukulkalam_Yaxul
 				traits = {	air_air_superiority_2 	}
 		}
 
 	}
-	KUK_Ekchil_Uxman={
+	GOR_Ekchil_Uxman={
 		name="Ekchil Uxman"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Ekchil_Uxman
+			idea_token = GOR_Ekchil_Uxman
 				traits = {	army_entrenchment_1 	}
 		}
 
 	}
-	KUK_Itzam_Ajtz={
+	GOR_Itzam_Ajtz={
 		name="Itzam Ajtz"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Itzam_Ajtz
+			idea_token = GOR_Itzam_Ajtz
 				traits = {	army_CombinedArms_1 	}
 		}
 
 	}
-	KUK_Ekchil_Yaxul={
+	GOR_Ekchil_Yaxul={
 		name="Ekchil Yaxul"
 
 		
@@ -647,232 +647,232 @@ characters = {
 		}
 
 	}
-	KUK_Chichen_Uxman={
+	GOR_Chichen_Uxman={
 		name="Chichen Uxman"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Chichen_Uxman
+			idea_token = GOR_Chichen_Uxman
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	KUK_Pakanek_Lampaktunil={
+	GOR_Pakanek_Lampaktunil={
 		name="Pakanek Lampaktunil"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Pakanek_Lampaktunil
+			idea_token = GOR_Pakanek_Lampaktunil
 				traits = {	rearmer 	}
 		}
 
 	}
-	KUK_Nacatl_Lampaktunil={
+	GOR_Nacatl_Lampaktunil={
 		name="Nacatl Lampaktunil"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Nacatl_Lampaktunil
+			idea_token = GOR_Nacatl_Lampaktunil
 				traits = {	liberal_democratic_paragon 	}
 		}
 
 	}
-	KUK_Nacom_Chuwen={
+	GOR_Nacom_Chuwen={
 		name="Nacom Chuwen"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Nacom_Chuwen
+			idea_token = GOR_Nacom_Chuwen
 				traits = {	the_banker 	}
 		}
 
 	}
-	KUK_Chakan_Uxman={
+	GOR_Chakan_Uxman={
 		name="Chakan Uxman"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Chakan_Uxman
+			idea_token = GOR_Chakan_Uxman
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	KUK_Kanek_Chuwen={
+	GOR_Kanek_Chuwen={
 		name="Kanek Chuwen"
 
 		advisor={
 			slot = political_advisor
-			idea_token = KUK_Kanek_Chuwen
+			idea_token = GOR_Kanek_Chuwen
 				traits = {	infirm 	}
 		}
 
 	}
-	KUK_Chakan_Yaxul={
+	GOR_Chakan_Yaxul={
 		name="Chakan Yaxul"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Chakan_Yaxul
+			idea_token = GOR_Chakan_Yaxul
 				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	KUK_Chakal_Yaxul={
+	GOR_Chakal_Yaxul={
 		name="Chakal Yaxul"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Chakal_Yaxul
+			idea_token = GOR_Chakal_Yaxul
 				traits = {	army_chief_defensive_2 	}
 		}
 
 	}
-	KUK_Ekchua_Ajtz={
+	GOR_Ekchua_Ajtz={
 		name="Ekchua Ajtz"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Ekchua_Ajtz
+			idea_token = GOR_Ekchua_Ajtz
 				traits = {	army_chief_offensive_2 	}
 		}
 
 	}
-	KUK_Bacab_Chuwen={
+	GOR_Bacab_Chuwen={
 		name="Bacab Chuwen"
 
 		advisor={
 			slot = army_chief
-			idea_token = KUK_Bacab_Chuwen
+			idea_token = GOR_Bacab_Chuwen
 				traits = {	army_chief_offensive_2 	}
 		}
 
 	}
-	KUK_Chakalam_Ajtz={
+	GOR_Chakalam_Ajtz={
 		name="Chakalam Ajtz"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Chakalam_Ajtz
+			idea_token = GOR_Chakalam_Ajtz
 				traits = {	navy_chief_decisive_battle_2 	}
 		}
 
 	}
-	KUK_Balam_Lampaktunil={
+	GOR_Balam_Lampaktunil={
 		name="Balam Lampaktunil"
 
 		advisor={
 			slot = navy_chief
-			idea_token = KUK_Balam_Lampaktunil
+			idea_token = GOR_Balam_Lampaktunil
 				traits = {	navy_chief_decisive_battle_2 	}
 		}
 
 	}
-	KUK_Bacab_Benque={
+	GOR_Bacab_Benque={
 		name="Bacab Benque"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Bacab_Benque
+			idea_token = GOR_Bacab_Benque
 				traits = {	air_chief_old_guard_1 	}
 		}
 
 	}
-	KUK_Yaxkin_Aguatunil={
+	GOR_Yaxkin_Aguatunil={
 		name="Yaxkin Aguatunil"
 
 		advisor={
 			slot = air_chief
-			idea_token = KUK_Yaxkin_Aguatunil
+			idea_token = GOR_Yaxkin_Aguatunil
 				traits = {	air_chief_night_operations_1 	}
 		}
 
 	}
-	KUK_Kukulkan_Benque={
+	GOR_Kukulkan_Benque={
 		name="Kukulkan Benque"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Kukulkan_Benque
+			idea_token = GOR_Kukulkan_Benque
 				traits = {	army_infantry_2 	}
 		}
 
 	}
-	KUK_Kukulkanek_Chuwen={
+	GOR_Kukulkanek_Chuwen={
 		name="Kukulkanek Chuwen"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Kukulkanek_Chuwen
+			idea_token = GOR_Kukulkanek_Chuwen
 				traits = {	air_air_superiority_1 	}
 		}
 
 	}
-	KUK_Bacatl_Benque={
+	GOR_Bacatl_Benque={
 		name="Bacatl Benque"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Bacatl_Benque
+			idea_token = GOR_Bacatl_Benque
 				traits = {	army_cavalry_2 	}
 		}
 
 	}
-	KUK_Balam_Benque={
+	GOR_Balam_Benque={
 		name="Balam Benque"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Balam_Benque
+			idea_token = GOR_Balam_Benque
 				traits = {	air_air_superiority_1 	}
 		}
 
 	}
-	KUK_Yaxkin_Uxman={
+	GOR_Yaxkin_Uxman={
 		name="Yaxkin Uxman"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Yaxkin_Uxman
+			idea_token = GOR_Yaxkin_Uxman
 				traits = {	air_air_combat_training_2 	}
 		}
 
 	}
-	KUK_Acatl_Chuwen={
+	GOR_Acatl_Chuwen={
 		name="Acatl Chuwen"
 
 		advisor={
 			slot = high_command
-			idea_token = KUK_Acatl_Chuwen
+			idea_token = GOR_Acatl_Chuwen
 				traits = {	air_pilot_training_1 	}
 		}
 
 	}
-	KUK_Chua_Benque={
+	GOR_Chua_Benque={
 		name="Chua Benque"
 
 		advisor={
 			slot = theorist
-			idea_token = KUK_Chua_Benque
+			idea_token = GOR_Chua_Benque
 				traits = {	military_theorist 	}
 		}
 
 	}
-	KUK_Tohil_Yaxul={
+	GOR_Tohil_Yaxul={
 		name="Tohil Yaxul"
 
 		advisor={
 			slot = theorist
-			idea_token = KUK_Tohil_Yaxul
+			idea_token = GOR_Tohil_Yaxul
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	KUK_Pakanek_Ajtz={
+	GOR_Pakanek_Ajtz={
 		name="Pakanek Ajtz"
 
 		advisor={
 			slot = theorist
-			idea_token = KUK_Pakanek_Ajtz
+			idea_token = GOR_Pakanek_Ajtz
 				traits = {	air_warfare_theorist 	}
 		}
 
