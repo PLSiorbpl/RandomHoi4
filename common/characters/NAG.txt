@@ -1,0 +1,880 @@
+characters = {
+	NAG_Gorkai_Birataso={
+		name="Gorkai Birataso"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAG_Ibai_Birataso={
+		name="Ibai Birataso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ibai_Birataso
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	NAG_Ibaitorka_Ikua={
+		name="Ibaitorka Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ibaitorka_Ikua
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	NAG_Gaitz_Odola={
+		name="Gaitz Odola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Gaitz_Odola
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	NAG_Unat_Ikua={
+		name="Unat Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Unat_Ikua
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	NAG_Ibai_Treko={
+		name="Ibai Treko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ibai_Treko
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	NAG_Miker_Ikua={
+		name="Miker Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Miker_Ikua
+				traits = {	humble 	}
+		}
+
+	}
+	NAG_Eder_Hotzua={
+		name="Eder Hotzua"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Eder_Hotzua
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	NAG_Miker_Treko={
+		name="Miker Treko"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Miker_Treko
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	NAG_Unaizkaiur_Odola={
+		name="Unaizkaiur Odola"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Unaizkaiur_Odola
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	NAG_Ekaitz_Eguna={
+		name="Ekaitz Eguna"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Ekaitz_Eguna
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	NAG_Eneko_Odola={
+		name="Eneko Odola"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Eneko_Odola
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	NAG_Gorkaiur_Hotzua={
+		name="Gorkaiur Hotzua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Gorkaiur_Hotzua
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	NAG_Harka_Eguna={
+		name="Harka Eguna"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Harka_Eguna
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	NAG_Unaitz_Eguna={
+		name="Unaitz Eguna"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Unaitz_Eguna
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	NAG_Gorka_Ikuna={
+		name="Gorka Ikuna"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Gorka_Ikuna
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	NAG_Xabier_Hotzua={
+		name="Xabier Hotzua"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Xabier_Hotzua
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	NAG_Ikel_Odola={
+		name="Ikel Odola"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Ikel_Odola
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	NAG_Benat_Ikua={
+		name="Benat Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Benat_Ikua
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	NAG_Unaizkaiur_Birataso={
+		name="Unaizkaiur Birataso"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Unaizkaiur_Birataso
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	NAG_Ekai_Hotzua={
+		name="Ekai Hotzua"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Ekai_Hotzua
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	NAG_Gorkaiur_Erra={
+		name="Gorkaiur Erra"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAG_Ibai_Erra={
+		name="Ibai Erra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ibai_Erra
+				traits = {	warmonger 	}
+		}
+
+	}
+	NAG_Eneko_Ikua={
+		name="Eneko Ikua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Eneko_Ikua
+				traits = {	generallissimo 	}
+		}
+
+	}
+	NAG_Harka_Hotzua={
+		name="Harka Hotzua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Harka_Hotzua
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	NAG_Benat_Eguna={
+		name="Benat Eguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Benat_Eguna
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	NAG_Aitz_Arna={
+		name="Aitz Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Aitz_Arna
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	NAG_Ekai_Semendargia={
+		name="Ekai Semendargia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ekai_Semendargia
+				traits = {	basileus 	}
+		}
+
+	}
+	NAG_Unaitz_Treko={
+		name="Unaitz Treko"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Unaitz_Treko
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	NAG_Xabier_Semendargia={
+		name="Xabier Semendargia"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Xabier_Semendargia
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	NAG_Ander_Ikua={
+		name="Ander Ikua"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Ander_Ikua
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	NAG_Eder_Semendargia={
+		name="Eder Semendargia"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Eder_Semendargia
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	NAG_Ibaiur_Hotzua={
+		name="Ibaiur Hotzua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Ibaiur_Hotzua
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	NAG_Mikel_Ikua={
+		name="Mikel Ikua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Mikel_Ikua
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	NAG_Harkaitorkai_Semendargia={
+		name="Harkaitorkai Semendargia"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Harkaitorkai_Semendargia
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	NAG_Gorka_Birataso={
+		name="Gorka Birataso"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Gorka_Birataso
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	NAG_Benai_Ikua={
+		name="Benai Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Benai_Ikua
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	NAG_Gaitz_Birataso={
+		name="Gaitz Birataso"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Gaitz_Birataso
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	NAG_Koldo_Eguna={
+		name="Koldo Eguna"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Koldo_Eguna
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	NAG_Unat_Semendargia={
+		name="Unat Semendargia"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Unat_Semendargia
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	NAG_Ikel_Treko={
+		name="Ikel Treko"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Ikel_Treko
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	NAG_Unaitz_Ikua={
+		name="Unaitz Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Unaitz_Ikua
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	NAG_Gorka_Semendargia={
+		name="Gorka Semendargia"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAG_Eder_Arna={
+		name="Eder Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Eder_Arna
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	NAG_Unat_Arna={
+		name="Unat Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Unat_Arna
+				traits = {	polemarch 	}
+		}
+
+	}
+	NAG_Miker_Odola={
+		name="Miker Odola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Miker_Odola
+				traits = {	political_dancer 	}
+		}
+
+	}
+	NAG_Ikel_Erra={
+		name="Ikel Erra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ikel_Erra
+				traits = {	polemarch 	}
+		}
+
+	}
+	NAG_Amaiur_Erra={
+		name="Amaiur Erra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Amaiur_Erra
+				traits = {	political_dancer 	}
+		}
+
+	}
+	NAG_Aitor_Treko={
+		name="Aitor Treko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Aitor_Treko
+				traits = {	polemarch 	}
+		}
+
+	}
+	NAG_Ikel_Birataso={
+		name="Ikel Birataso"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Ikel_Birataso
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	NAG_Eneko_Semendargia={
+		name="Eneko Semendargia"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Eneko_Semendargia
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	NAG_Ekai_Erra={
+		name="Ekai Erra"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Ekai_Erra
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	NAG_Unaizkaiur_Ikua={
+		name="Unaizkaiur Ikua"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Unaizkaiur_Ikua
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	NAG_Eder_Birataso={
+		name="Eder Birataso"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Eder_Birataso
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	NAG_Aitor_Ikuna={
+		name="Aitor Ikuna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Aitor_Ikuna
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	NAG_Unaizkaiur_Treko={
+		name="Unaizkaiur Treko"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Unaizkaiur_Treko
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	NAG_Iker_Semendargia={
+		name="Iker Semendargia"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Iker_Semendargia
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	NAG_Iban_Eguna={
+		name="Iban Eguna"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Iban_Eguna
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	NAG_Ekai_Treko={
+		name="Ekai Treko"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Ekai_Treko
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	NAG_Harkai_Erra={
+		name="Harkai Erra"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Harkai_Erra
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	NAG_Gaiur_Treko={
+		name="Gaiur Treko"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Gaiur_Treko
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	NAG_Amaizkaitork_Ikua={
+		name="Amaizkaitork Ikua"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Amaizkaitork_Ikua
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	NAG_Amaizkaitork_Eguna={
+		name="Amaizkaitork Eguna"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Amaizkaitork_Eguna
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	NAG_Harkaitorkai_Hotzua={
+		name="Harkaitorkai Hotzua"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAG_Amaiur_Odola={
+		name="Amaiur Odola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Amaiur_Odola
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	NAG_Miker_Hotzua={
+		name="Miker Hotzua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Miker_Hotzua
+				traits = {	first_lady 	}
+		}
+
+	}
+	NAG_Asier_Ikuna={
+		name="Asier Ikuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Asier_Ikuna
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	NAG_Miker_Eguna={
+		name="Miker Eguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Miker_Eguna
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	NAG_Ikel_Ikuna={
+		name="Ikel Ikuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ikel_Ikuna
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	NAG_Ander_Hotzua={
+		name="Ander Hotzua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAG_Ander_Hotzua
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	NAG_Harkai_Arna={
+		name="Harkai Arna"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Harkai_Arna
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	NAG_Iban_Ikua={
+		name="Iban Ikua"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Iban_Ikua
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	NAG_Harkaitz_Odola={
+		name="Harkaitz Odola"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Harkaitz_Odola
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	NAG_Unaitz_Ikuna={
+		name="Unaitz Ikuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAG_Unaitz_Ikuna
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	NAG_Mikel_Erra={
+		name="Mikel Erra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Mikel_Erra
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	NAG_Gaiur_Semendargia={
+		name="Gaiur Semendargia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAG_Gaiur_Semendargia
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	NAG_Gaitz_Ikua={
+		name="Gaitz Ikua"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Gaitz_Ikua
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	NAG_Ibaitorka_Erra={
+		name="Ibaitorka Erra"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAG_Ibaitorka_Erra
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	NAG_Ibaitorka_Ikuna={
+		name="Ibaitorka Ikuna"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Ibaitorka_Ikuna
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	NAG_Harkai_Hotzua={
+		name="Harkai Hotzua"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Harkai_Hotzua
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	NAG_Asier_Arna={
+		name="Asier Arna"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Asier_Arna
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	NAG_Gaizka_Semendargia={
+		name="Gaizka Semendargia"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Gaizka_Semendargia
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	NAG_Mikel_Odola={
+		name="Mikel Odola"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Mikel_Odola
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	NAG_Gaizka_Erra={
+		name="Gaizka Erra"
+
+		advisor={
+			slot = high_command
+			idea_token = NAG_Gaizka_Erra
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	NAG_Unai_Eguna={
+		name="Unai Eguna"
+
+		advisor={
+			slot = theorist
+			idea_token = NAG_Unai_Eguna
+				traits = {	military_theorist 	}
+		}
+
+	}
+	NAG_Eneko_Treko={
+		name="Eneko Treko"
+
+		advisor={
+			slot = theorist
+			idea_token = NAG_Eneko_Treko
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	NAG_Iban_Ikuna={
+		name="Iban Ikuna"
+
+		advisor={
+			slot = theorist
+			idea_token = NAG_Iban_Ikuna
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

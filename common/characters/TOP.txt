@@ -1,0 +1,880 @@
+characters = {
+	TOP_Mall_Cnuach={
+		name="Mall Cnuach"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOP_Fergus_Tuachaine={
+		name="Fergus Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Fergus_Tuachaine
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TOP_Ciaran_Tuachaine={
+		name="Ciaran Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Ciaran_Tuachaine
+				traits = {	headstrong 	}
+		}
+
+	}
+	TOP_Keiran_Tuachaine={
+		name="Keiran Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Keiran_Tuachaine
+				traits = {	headstrong 	}
+		}
+
+	}
+	TOP_Seam_Feite={
+		name="Seam Feite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Seam_Feite
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TOP_Padraig_Liath={
+		name="Padraig Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Padraig_Liath
+				traits = {	humble 	}
+		}
+
+	}
+	TOP_Taran_Bearchaine={
+		name="Taran Bearchaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Taran_Bearchaine
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TOP_Cialcolm_Feite={
+		name="Cialcolm Feite"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Cialcolm_Feite
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TOP_Keiraig_Neach={
+		name="Keiraig Neach"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Keiraig_Neach
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TOP_Quin_Leal={
+		name="Quin Leal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Quin_Leal
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TOP_Iwan_Spioc={
+		name="Iwan Spioc"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Iwan_Spioc
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TOP_Hugh_Tuachaine={
+		name="Hugh Tuachaine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Hugh_Tuachaine
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TOP_Liaran_Buas={
+		name="Liaran Buas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Liaran_Buas
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TOP_Hugh_Feite={
+		name="Hugh Feite"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Hugh_Feite
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TOP_Eoin_Buas={
+		name="Eoin Buas"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Eoin_Buas
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TOP_Ciaran_Spioc={
+		name="Ciaran Spioc"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Ciaran_Spioc
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TOP_Mall_Liath={
+		name="Mall Liath"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Mall_Liath
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	TOP_Ciamus_Faiche={
+		name="Ciamus Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Ciamus_Faiche
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	TOP_Liaran_Neach={
+		name="Liaran Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Liaran_Neach
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	TOP_Ciaran_Faiche={
+		name="Ciaran Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Ciaran_Faiche
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TOP_Eoin_Neach={
+		name="Eoin Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Eoin_Neach
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	TOP_Keiraig_Spioc={
+		name="Keiraig Spioc"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOP_Fergus_Spioc={
+		name="Fergus Spioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Fergus_Spioc
+				traits = {	warmonger 	}
+		}
+
+	}
+	TOP_Padran_Leal={
+		name="Padran Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Padran_Leal
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TOP_Declan_Liath={
+		name="Declan Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Declan_Liath
+				traits = {	warmonger 	}
+		}
+
+	}
+	TOP_Quin_Neach={
+		name="Quin Neach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Quin_Neach
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	TOP_Padran_Spioc={
+		name="Padran Spioc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Padran_Spioc
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	TOP_Ciamus_Liath={
+		name="Ciamus Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Ciamus_Liath
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TOP_Eoinn_Feite={
+		name="Eoinn Feite"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Eoinn_Feite
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TOP_Seamus_Cnuach={
+		name="Seamus Cnuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Seamus_Cnuach
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TOP_Malcolm_Spioc={
+		name="Malcolm Spioc"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Malcolm_Spioc
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TOP_Ciall_Liath={
+		name="Ciall Liath"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Ciall_Liath
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TOP_Liam_Feite={
+		name="Liam Feite"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Liam_Feite
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TOP_Ciaran_Cnuach={
+		name="Ciaran Cnuach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Ciaran_Cnuach
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TOP_Declan_Neach={
+		name="Declan Neach"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Declan_Neach
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TOP_Ulrich_Leal={
+		name="Ulrich Leal"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Ulrich_Leal
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TOP_Quinn_Bearchaine={
+		name="Quinn Bearchaine"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Quinn_Bearchaine
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TOP_Nialcolm_Faiche={
+		name="Nialcolm Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Nialcolm_Faiche
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TOP_Ciamus_Bearchaine={
+		name="Ciamus Bearchaine"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Ciamus_Bearchaine
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TOP_Malcolm_Leal={
+		name="Malcolm Leal"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Malcolm_Leal
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	TOP_Tareth_Tuachaine={
+		name="Tareth Tuachaine"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Tareth_Tuachaine
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TOP_Ciamus_Buas={
+		name="Ciamus Buas"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Ciamus_Buas
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TOP_Niareth_Neach={
+		name="Niareth Neach"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOP_Owen_Faiche={
+		name="Owen Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Owen_Faiche
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TOP_Declan_Faiche={
+		name="Declan Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Declan_Faiche
+				traits = {	polemarch 	}
+		}
+
+	}
+	TOP_Bran_Faiche={
+		name="Bran Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Bran_Faiche
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TOP_Declan_Buas={
+		name="Declan Buas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Declan_Buas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TOP_Ciall_Neach={
+		name="Ciall Neach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Ciall_Neach
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TOP_Liam_Leal={
+		name="Liam Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Liam_Leal
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TOP_Niareth_Bearchaine={
+		name="Niareth Bearchaine"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Niareth_Bearchaine
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TOP_Ciall_Cnuach={
+		name="Ciall Cnuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Ciall_Cnuach
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TOP_Garan_Feite={
+		name="Garan Feite"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Garan_Feite
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TOP_Garan_Bearchaine={
+		name="Garan Bearchaine"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Garan_Bearchaine
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TOP_Ciam_Liath={
+		name="Ciam Liath"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Ciam_Liath
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TOP_Malcolm_Tuachaine={
+		name="Malcolm Tuachaine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Malcolm_Tuachaine
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TOP_Padran_Liath={
+		name="Padran Liath"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Padran_Liath
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	TOP_Eoin_Spioc={
+		name="Eoin Spioc"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Eoin_Spioc
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TOP_Padran_Buas={
+		name="Padran Buas"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Padran_Buas
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TOP_Ciamus_Neach={
+		name="Ciamus Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Ciamus_Neach
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	TOP_Liaran_Bearchaine={
+		name="Liaran Bearchaine"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Liaran_Bearchaine
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	TOP_Seamus_Liath={
+		name="Seamus Liath"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Seamus_Liath
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TOP_Declan_Feite={
+		name="Declan Feite"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Declan_Feite
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	TOP_Seamus_Feite={
+		name="Seamus Feite"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Seamus_Feite
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	TOP_Padraig_Faiche={
+		name="Padraig Faiche"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOP_Iwan_Tuachaine={
+		name="Iwan Tuachaine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Iwan_Tuachaine
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TOP_Keiran_Liath={
+		name="Keiran Liath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Keiran_Liath
+				traits = {	the_banker 	}
+		}
+
+	}
+	TOP_Keiran_Leal={
+		name="Keiran Leal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Keiran_Leal
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TOP_Cialcolm_Faiche={
+		name="Cialcolm Faiche"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Cialcolm_Faiche
+				traits = {	the_banker 	}
+		}
+
+	}
+	TOP_Niaraig_Cnuach={
+		name="Niaraig Cnuach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Niaraig_Cnuach
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TOP_Ulrich_Neach={
+		name="Ulrich Neach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOP_Ulrich_Neach
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TOP_Ciall_Leal={
+		name="Ciall Leal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Ciall_Leal
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TOP_Ulrich_Faiche={
+		name="Ulrich Faiche"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Ulrich_Faiche
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TOP_Eoinn_Cnuach={
+		name="Eoinn Cnuach"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Eoinn_Cnuach
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TOP_Rhys_Neach={
+		name="Rhys Neach"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOP_Rhys_Neach
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TOP_Niamus_Faiche={
+		name="Niamus Faiche"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Niamus_Faiche
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TOP_Ciaran_Liath={
+		name="Ciaran Liath"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOP_Ciaran_Liath
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TOP_Aidan_Cnuach={
+		name="Aidan Cnuach"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Aidan_Cnuach
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TOP_Iwan_Faiche={
+		name="Iwan Faiche"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOP_Iwan_Faiche
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TOP_Padraig_Spioc={
+		name="Padraig Spioc"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Padraig_Spioc
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TOP_Fergus_Faiche={
+		name="Fergus Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Fergus_Faiche
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	TOP_Garan_Cnuach={
+		name="Garan Cnuach"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Garan_Cnuach
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TOP_Malcolm_Neach={
+		name="Malcolm Neach"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Malcolm_Neach
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	TOP_Quin_Faiche={
+		name="Quin Faiche"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Quin_Faiche
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TOP_Bran_Leal={
+		name="Bran Leal"
+
+		advisor={
+			slot = high_command
+			idea_token = TOP_Bran_Leal
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TOP_Ulrich_Bearchaine={
+		name="Ulrich Bearchaine"
+
+		advisor={
+			slot = theorist
+			idea_token = TOP_Ulrich_Bearchaine
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TOP_Seamus_Leal={
+		name="Seamus Leal"
+
+		advisor={
+			slot = theorist
+			idea_token = TOP_Seamus_Leal
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TOP_Ciam_Buas={
+		name="Ciam Buas"
+
+		advisor={
+			slot = theorist
+			idea_token = TOP_Ciam_Buas
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

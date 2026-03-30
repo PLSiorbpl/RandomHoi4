@@ -1,0 +1,880 @@
+characters = {
+	BUS_Isker_Duyguk={
+		name="Isker Duyguk"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUS_Mehmet_Efsan={
+		name="Mehmet Efsan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Mehmet_Efsan
+				traits = {	headstrong 	}
+		}
+
+	}
+	BUS_Yusuf_Anat={
+		name="Yusuf Anat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Yusuf_Anat
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BUS_Ertuhan_Servarinda={
+		name="Ertuhan Servarinda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Ertuhan_Servarinda
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	BUS_Selim_Anat={
+		name="Selim Anat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Selim_Anat
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BUS_Yusuf_Efsan={
+		name="Yusuf Efsan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Yusuf_Efsan
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BUS_Salilmaz_Kopru={
+		name="Salilmaz Kopru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Salilmaz_Kopru
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BUS_Salilmaz_Saat={
+		name="Salilmaz Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Salilmaz_Saat
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BUS_Serhan_Yagmutlut={
+		name="Serhan Yagmutlut"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Serhan_Yagmutlut
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	BUS_Iskerkan_Servarinda={
+		name="Iskerkan Servarinda"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Iskerkan_Servarinda
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BUS_Harulent_Duyguk={
+		name="Harulent Duyguk"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Harulent_Duyguk
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	BUS_Yustafe_Limdir={
+		name="Yustafe Limdir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Yustafe_Limdir
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	BUS_Talha_Duyguk={
+		name="Talha Duyguk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Talha_Duyguk
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	BUS_Faran_Yagmurt={
+		name="Faran Yagmurt"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Faran_Yagmurt
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	BUS_Iskerkan_Limdir={
+		name="Iskerkan Limdir"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Iskerkan_Limdir
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BUS_Kaan_Golge={
+		name="Kaan Golge"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Kaan_Golge
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	BUS_Ramalhatugru_Yagmutlut={
+		name="Ramalhatugru Yagmutlut"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Ramalhatugru_Yagmutlut
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	BUS_Muran_Efsan={
+		name="Muran Efsan"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Muran_Efsan
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	BUS_Faran_Anat={
+		name="Faran Anat"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Faran_Anat
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	BUS_Batugrunc_Efsan={
+		name="Batugrunc Efsan"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Batugrunc_Efsan
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	BUS_Talha_Kopru={
+		name="Talha Kopru"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Talha_Kopru
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	BUS_Salilmazan_Yagmutlut={
+		name="Salilmazan Yagmutlut"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUS_Ramaz_Yagmutlut={
+		name="Ramaz Yagmutlut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Ramaz_Yagmutlut
+				traits = {	warmonger 	}
+		}
+
+	}
+	BUS_Eneremazan_Efsan={
+		name="Eneremazan Efsan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Eneremazan_Efsan
+				traits = {	warmonger 	}
+		}
+
+	}
+	BUS_Barun_Efsan={
+		name="Barun Efsan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Barun_Efsan
+				traits = {	warmonger 	}
+		}
+
+	}
+	BUS_Salilmaz_Anat={
+		name="Salilmaz Anat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Salilmaz_Anat
+				traits = {	polemarch 	}
+		}
+
+	}
+	BUS_Selim_Duyguk={
+		name="Selim Duyguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Selim_Duyguk
+				traits = {	basileus 	}
+		}
+
+	}
+	BUS_Utku_Anat={
+		name="Utku Anat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Utku_Anat
+				traits = {	warmonger 	}
+		}
+
+	}
+	BUS_Enerha_Limdir={
+		name="Enerha Limdir"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Enerha_Limdir
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	BUS_Taylanerkan_Servarinda={
+		name="Taylanerkan Servarinda"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Taylanerkan_Servarinda
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	BUS_Farunc_Kopru={
+		name="Farunc Kopru"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Farunc_Kopru
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BUS_Halim_Anat={
+		name="Halim Anat"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Halim_Anat
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BUS_Salilmazan_Saat={
+		name="Salilmazan Saat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Salilmazan_Saat
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	BUS_Utku_Kopru={
+		name="Utku Kopru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Utku_Kopru
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	BUS_Yusuf_Saat={
+		name="Yusuf Saat"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Yusuf_Saat
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BUS_Yilmaz_Saat={
+		name="Yilmaz Saat"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Yilmaz_Saat
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BUS_Selim_Efsan={
+		name="Selim Efsan"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Selim_Efsan
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	BUS_Orhat_Golge={
+		name="Orhat Golge"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Orhat_Golge
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	BUS_Salilmaz_Golge={
+		name="Salilmaz Golge"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Salilmaz_Golge
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	BUS_Farunc_Yagmutlut={
+		name="Farunc Yagmutlut"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Farunc_Yagmutlut
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	BUS_Kadir_Limdir={
+		name="Kadir Limdir"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Kadir_Limdir
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	BUS_Kadir_Servarinda={
+		name="Kadir Servarinda"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Kadir_Servarinda
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	BUS_Barul_Limdir={
+		name="Barul Limdir"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUS_Cemalcinan_Saat={
+		name="Cemalcinan Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Cemalcinan_Saat
+				traits = {	infirm 	}
+		}
+
+	}
+	BUS_Sinan_Yagmurt={
+		name="Sinan Yagmurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Sinan_Yagmurt
+				traits = {	infirm 	}
+		}
+
+	}
+	BUS_Adem_Saat={
+		name="Adem Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Adem_Saat
+				traits = {	infirm 	}
+		}
+
+	}
+	BUS_Talhan_Yagmurt={
+		name="Talhan Yagmurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Talhan_Yagmurt
+				traits = {	polemarch 	}
+		}
+
+	}
+	BUS_Muran_Limdir={
+		name="Muran Limdir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Muran_Limdir
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BUS_Baruk_Limdir={
+		name="Baruk Limdir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Baruk_Limdir
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BUS_Musulent_Kopru={
+		name="Musulent Kopru"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Musulent_Kopru
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	BUS_Cemalcinan_Kopru={
+		name="Cemalcinan Kopru"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Cemalcinan_Kopru
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BUS_Barul_Anat={
+		name="Barul Anat"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Barul_Anat
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	BUS_Orhat_Saat={
+		name="Orhat Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Orhat_Saat
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BUS_Taylanerkan_Golge={
+		name="Taylanerkan Golge"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Taylanerkan_Golge
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	BUS_Yustafe_Yagmurt={
+		name="Yustafe Yagmurt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Yustafe_Yagmurt
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	BUS_Farunc_Servarinda={
+		name="Farunc Servarinda"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Farunc_Servarinda
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	BUS_Muranerhat_Kopru={
+		name="Muranerhat Kopru"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Muranerhat_Kopru
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BUS_Farat_Golge={
+		name="Farat Golge"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Farat_Golge
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	BUS_Salilmazan_Anat={
+		name="Salilmazan Anat"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Salilmazan_Anat
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	BUS_Selilmazan_Limdir={
+		name="Selilmazan Limdir"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Selilmazan_Limdir
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	BUS_Ramazan_Yagmurt={
+		name="Ramazan Yagmurt"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Ramazan_Yagmurt
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	BUS_Orha_Saat={
+		name="Orha Saat"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Orha_Saat
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	BUS_Iskendem_Saat={
+		name="Iskendem Saat"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Iskendem_Saat
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	BUS_Hakan_Saat={
+		name="Hakan Saat"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUS_Isker_Saat={
+		name="Isker Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Isker_Saat
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	BUS_Mehmet_Golge={
+		name="Mehmet Golge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Mehmet_Golge
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	BUS_Selim_Golge={
+		name="Selim Golge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Selim_Golge
+				traits = {	infirm 	}
+		}
+
+	}
+	BUS_Haruk_Yagmurt={
+		name="Haruk Yagmurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Haruk_Yagmurt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BUS_Cemalcinan_Efsan={
+		name="Cemalcinan Efsan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Cemalcinan_Efsan
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	BUS_Suat_Yagmutlut={
+		name="Suat Yagmutlut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUS_Suat_Yagmutlut
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	BUS_Serhan_Anat={
+		name="Serhan Anat"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Serhan_Anat
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BUS_Taylanerkan_Yagmurt={
+		name="Taylanerkan Yagmurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Taylanerkan_Yagmurt
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BUS_Ertuhan_Efsan={
+		name="Ertuhan Efsan"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Ertuhan_Efsan
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BUS_Ramazanerema_Saat={
+		name="Ramazanerema Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUS_Ramazanerema_Saat
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BUS_Enerha_Efsan={
+		name="Enerha Efsan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Enerha_Efsan
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	BUS_Iskerkan_Yagmutlut={
+		name="Iskerkan Yagmutlut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUS_Iskerkan_Yagmutlut
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	BUS_Emin_Duyguk={
+		name="Emin Duyguk"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Emin_Duyguk
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BUS_Orhat_Duyguk={
+		name="Orhat Duyguk"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUS_Orhat_Duyguk
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	BUS_Selilmazan_Yagmutlut={
+		name="Selilmazan Yagmutlut"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Selilmazan_Yagmutlut
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	BUS_Eneremazan_Saat={
+		name="Eneremazan Saat"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Eneremazan_Saat
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BUS_Selim_Servarinda={
+		name="Selim Servarinda"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Selim_Servarinda
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	BUS_Efer_Efsan={
+		name="Efer Efsan"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Efer_Efsan
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	BUS_Serhan_Duyguk={
+		name="Serhan Duyguk"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Serhan_Duyguk
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	BUS_Yilmaz_Duyguk={
+		name="Yilmaz Duyguk"
+
+		advisor={
+			slot = high_command
+			idea_token = BUS_Yilmaz_Duyguk
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	BUS_Halim_Efsan={
+		name="Halim Efsan"
+
+		advisor={
+			slot = theorist
+			idea_token = BUS_Halim_Efsan
+				traits = {	military_theorist 	}
+		}
+
+	}
+	BUS_Tunc_Servarinda={
+		name="Tunc Servarinda"
+
+		advisor={
+			slot = theorist
+			idea_token = BUS_Tunc_Servarinda
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	BUS_Muran_Duyguk={
+		name="Muran Duyguk"
+
+		advisor={
+			slot = theorist
+			idea_token = BUS_Muran_Duyguk
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,880 @@
+characters = {
+	BRO_Salcinaner_Gele={
+		name="Salcinaner Gele"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRO_Taylan_Bahil={
+		name="Taylan Bahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Taylan_Bahil
+				traits = {	humble 	}
+		}
+
+	}
+	BRO_Ilkendem_Sogac={
+		name="Ilkendem Sogac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Ilkendem_Sogac
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BRO_Taylan_Gele={
+		name="Taylan Gele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Taylan_Gele
+				traits = {	headstrong 	}
+		}
+
+	}
+	BRO_Hara_Sonbaharim={
+		name="Hara Sonbaharim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Hara_Sonbaharim
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	BRO_Barulent_Yaglilik={
+		name="Barulent Yaglilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Barulent_Yaglilik
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	BRO_Yalhatugrule_Sonbaharim={
+		name="Yalhatugrule Sonbaharim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Yalhatugrule_Sonbaharim
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BRO_Ilkent_Yaglilik={
+		name="Ilkent Yaglilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Ilkent_Yaglilik
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BRO_Yalcinan_Ruzgar={
+		name="Yalcinan Ruzgar"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Yalcinan_Ruzgar
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BRO_Selih_Yaglilik={
+		name="Selih Yaglilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Selih_Yaglilik
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BRO_Kerkan_Yazakinli={
+		name="Kerkan Yazakinli"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Kerkan_Yazakinli
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	BRO_Salcinaner_Bahil={
+		name="Salcinaner Bahil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Salcinaner_Bahil
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BRO_Halim_Bahil={
+		name="Halim Bahil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Halim_Bahil
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	BRO_Ahmet_Duvan={
+		name="Ahmet Duvan"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Ahmet_Duvan
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	BRO_Ahmet_Bahil={
+		name="Ahmet Bahil"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Ahmet_Bahil
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	BRO_Ertugruk_Duvan={
+		name="Ertugruk Duvan"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Ertugruk_Duvan
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	BRO_Eminan_Ruzgar={
+		name="Eminan Ruzgar"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Eminan_Ruzgar
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	BRO_Serhan_Ruzgar={
+		name="Serhan Ruzgar"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Serhan_Ruzgar
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	BRO_Haran_Yazakinli={
+		name="Haran Yazakinli"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Haran_Yazakinli
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	BRO_Bara_Duvan={
+		name="Bara Duvan"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Bara_Duvan
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	BRO_Ilkendem_Ruzgar={
+		name="Ilkendem Ruzgar"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Ilkendem_Ruzgar
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	BRO_Haruk_Gele={
+		name="Haruk Gele"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRO_Harul_Yaglilik={
+		name="Harul Yaglilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Harul_Yaglilik
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BRO_Eferem_Yaglilik={
+		name="Eferem Yaglilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Eferem_Yaglilik
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	BRO_Harun_Ruzgar={
+		name="Harun Ruzgar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Harun_Ruzgar
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	BRO_Kadir_Sogac={
+		name="Kadir Sogac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Kadir_Sogac
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	BRO_Isker_Ruzgar={
+		name="Isker Ruzgar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Isker_Ruzgar
+				traits = {	basileus 	}
+		}
+
+	}
+	BRO_Halilmazan_Akguk={
+		name="Halilmazan Akguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Halilmazan_Akguk
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BRO_Zafer_Duvan={
+		name="Zafer Duvan"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Zafer_Duvan
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	BRO_Haran_Sonbaharim={
+		name="Haran Sonbaharim"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Haran_Sonbaharim
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BRO_Yalhatugrule_Yazakinli={
+		name="Yalhatugrule Yazakinli"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Yalhatugrule_Yazakinli
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	BRO_Resuf_Duvan={
+		name="Resuf Duvan"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Resuf_Duvan
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	BRO_Serhan_Yazakinli={
+		name="Serhan Yazakinli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Serhan_Yazakinli
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	BRO_Barulent_Yazakinli={
+		name="Barulent Yazakinli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Barulent_Yazakinli
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	BRO_Onur_Bahil={
+		name="Onur Bahil"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Onur_Bahil
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BRO_Halim_Sogac={
+		name="Halim Sogac"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Halim_Sogac
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	BRO_Fara_Gele={
+		name="Fara Gele"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Fara_Gele
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	BRO_Selim_Akguk={
+		name="Selim Akguk"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Selim_Akguk
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	BRO_Orhat_Gele={
+		name="Orhat Gele"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Orhat_Gele
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	BRO_Yalcinan_Yaglilik={
+		name="Yalcinan Yaglilik"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Yalcinan_Yaglilik
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	BRO_Mustafa_Gele={
+		name="Mustafa Gele"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Mustafa_Gele
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	BRO_Harun_Sonbaharim={
+		name="Harun Sonbaharim"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Harun_Sonbaharim
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	BRO_Savas_Ruzgar={
+		name="Savas Ruzgar"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRO_Ahmet_Ruzgar={
+		name="Ahmet Ruzgar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Ahmet_Ruzgar
+				traits = {	infirm 	}
+		}
+
+	}
+	BRO_Adem_Sogac={
+		name="Adem Sogac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Adem_Sogac
+				traits = {	infirm 	}
+		}
+
+	}
+	BRO_Harul_Duvan={
+		name="Harul Duvan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Harul_Duvan
+				traits = {	infirm 	}
+		}
+
+	}
+	BRO_Bara_Bahil={
+		name="Bara Bahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Bara_Bahil
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	BRO_Haruk_Yazakinli={
+		name="Haruk Yazakinli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Haruk_Yazakinli
+				traits = {	infirm 	}
+		}
+
+	}
+	BRO_Talih_Duvan={
+		name="Talih Duvan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Talih_Duvan
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BRO_Suat_Bahil={
+		name="Suat Bahil"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Suat_Bahil
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	BRO_Salcinaner_Ruzgar={
+		name="Salcinaner Ruzgar"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Salcinaner_Ruzgar
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BRO_Arif_Sogac={
+		name="Arif Sogac"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Arif_Sogac
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BRO_Eferkan_Bahil={
+		name="Eferkan Bahil"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Eferkan_Bahil
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BRO_Talih_Sogac={
+		name="Talih Sogac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Talih_Sogac
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	BRO_Eferhan_Yaglilik={
+		name="Eferhan Yaglilik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Eferhan_Yaglilik
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	BRO_Taylan_Yaglilik={
+		name="Taylan Yaglilik"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Taylan_Yaglilik
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	BRO_Mehmet_Bahil={
+		name="Mehmet Bahil"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Mehmet_Bahil
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BRO_Boran_Ruzgar={
+		name="Boran Ruzgar"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Boran_Ruzgar
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	BRO_Barulent_Duvan={
+		name="Barulent Duvan"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Barulent_Duvan
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BRO_Talilmalcina_Yaglilik={
+		name="Talilmalcina Yaglilik"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Talilmalcina_Yaglilik
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	BRO_Ilkendem_Akguk={
+		name="Ilkendem Akguk"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Ilkendem_Akguk
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	BRO_Barunc_Akguk={
+		name="Barunc Akguk"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Barunc_Akguk
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BRO_Farul_Yazakinli={
+		name="Farul Yazakinli"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Farul_Yazakinli
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	BRO_Mustafa_Sonbaharim={
+		name="Mustafa Sonbaharim"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRO_Serem_Yazakinli={
+		name="Serem Yazakinli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Serem_Yazakinli
+				traits = {	infirm 	}
+		}
+
+	}
+	BRO_Isker_Akguk={
+		name="Isker Akguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Isker_Akguk
+				traits = {	first_lady 	}
+		}
+
+	}
+	BRO_Yilmazan_Duvan={
+		name="Yilmazan Duvan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Yilmazan_Duvan
+				traits = {	infirm 	}
+		}
+
+	}
+	BRO_Kaan_Yaglilik={
+		name="Kaan Yaglilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Kaan_Yaglilik
+				traits = {	infirm 	}
+		}
+
+	}
+	BRO_Salih_Sonbaharim={
+		name="Salih Sonbaharim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Salih_Sonbaharim
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	BRO_Halim_Akguk={
+		name="Halim Akguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRO_Halim_Akguk
+				traits = {	first_lady 	}
+		}
+
+	}
+	BRO_Savas_Bahil={
+		name="Savas Bahil"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Savas_Bahil
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BRO_Fara_Yazakinli={
+		name="Fara Yazakinli"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Fara_Yazakinli
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	BRO_Kerkan_Gele={
+		name="Kerkan Gele"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Kerkan_Gele
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BRO_Zaferhan_Duvan={
+		name="Zaferhan Duvan"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRO_Zaferhan_Duvan
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BRO_Resul_Akguk={
+		name="Resul Akguk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Resul_Akguk
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	BRO_Bekir_Yaglilik={
+		name="Bekir Yaglilik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRO_Bekir_Yaglilik
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	BRO_Talilmalcina_Gele={
+		name="Talilmalcina Gele"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Talilmalcina_Gele
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	BRO_Serem_Sonbaharim={
+		name="Serem Sonbaharim"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRO_Serem_Sonbaharim
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	BRO_Halilmazan_Duvan={
+		name="Halilmazan Duvan"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Halilmazan_Duvan
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	BRO_Fara_Sogac={
+		name="Fara Sogac"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Fara_Sogac
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	BRO_Boran_Gele={
+		name="Boran Gele"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Boran_Gele
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	BRO_Boran_Bahil={
+		name="Boran Bahil"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Boran_Bahil
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BRO_Halilmaz_Ruzgar={
+		name="Halilmaz Ruzgar"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Halilmaz_Ruzgar
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	BRO_Talilmalcina_Ruzgar={
+		name="Talilmalcina Ruzgar"
+
+		advisor={
+			slot = high_command
+			idea_token = BRO_Talilmalcina_Ruzgar
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	BRO_Cemaz_Sogac={
+		name="Cemaz Sogac"
+
+		advisor={
+			slot = theorist
+			idea_token = BRO_Cemaz_Sogac
+				traits = {	military_theorist 	}
+		}
+
+	}
+	BRO_Adem_Akguk={
+		name="Adem Akguk"
+
+		advisor={
+			slot = theorist
+			idea_token = BRO_Adem_Akguk
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	BRO_Eminan_Sogac={
+		name="Eminan Sogac"
+
+		advisor={
+			slot = theorist
+			idea_token = BRO_Eminan_Sogac
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
