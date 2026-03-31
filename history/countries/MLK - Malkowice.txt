@@ -1,19 +1,19 @@
 capital = 783
 
-oob = "MAL_1936"
+oob = "MLK_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "MAL_1936"
+	set_oob = "MLK_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "MAL_1936_nsb"
+	set_oob = "MLK_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -183,7 +183,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "MAL_1936_air_bba"
+		set_air_oob = "MLK_1936_air_bba"
 		set_technology = {
 			bba_early_transport_plane = 1
 			iw_small_airframe = 1
@@ -284,7 +284,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "MAL_1936_air_legacy"
+		set_air_oob = "MLK_1936_air_legacy"
 		set_technology = {
 			early_transport_plane = 1
 			early_fighter = 1
@@ -320,7 +320,7 @@ if = {
 	early_submarine = 1
 	
 	}
-	set_naval_oob = "MAL_1936_naval"
+	set_naval_oob = "MLK_1936_naval"
 }
 
 ### Ship Variants ###
@@ -478,7 +478,7 @@ if = {
 	submarine_mine_laying = 1
 	
 	}
-	set_naval_oob = "MAL_1936_naval_mtg"
+	set_naval_oob = "MLK_1936_naval_mtg"
 }
 
 	if = {
@@ -671,93 +671,93 @@ if = {
 	}
 
 
-recruit_character = MAL_Publius_Aniverbis
-recruit_character = MAL_Graius_Arbor
-recruit_character = MAL_Silvanus_Aniverbis
-recruit_character = MAL_Otho_Equa
-recruit_character = MAL_Viberiscus_Celerrus
-recruit_character = MAL_Priscus_Insum
-recruit_character = MAL_Silvanus_Otium
-recruit_character = MAL_Aulus_Strum
-recruit_character = MAL_Gaianus_Arbor
-recruit_character = MAL_Paulus_Poetorum
-recruit_character = MAL_Cornellius_Equa
-recruit_character = MAL_Maximus_Poetorum
-recruit_character = MAL_Servius_Strum
-recruit_character = MAL_Brus_Feris
-recruit_character = MAL_Paudius_Insum
-recruit_character = MAL_Nervius_Aniverbis
-recruit_character = MAL_Severiscus_Aniverbis
-recruit_character = MAL_Vibervius_Celerrus
-recruit_character = MAL_Otho_Feris
-recruit_character = MAL_Noniustus_Insum
-recruit_character = MAL_Serius_Arbor
-recruit_character = MAL_Marcellianus_Celerrus
-recruit_character = MAL_Horacchustus_Arbor
-recruit_character = MAL_Valerutus_Poetorum
-recruit_character = MAL_Tracchus_Insum
-recruit_character = MAL_Augulius_Aniverbis
-recruit_character = MAL_Paus_Celerrus
-recruit_character = MAL_Remitius_Otium
-recruit_character = MAL_Remitellianl_Malus
-recruit_character = MAL_Caianustus_Otium
-recruit_character = MAL_Servius_Otium
-recruit_character = MAL_Scaevolaudiu_Equa
-recruit_character = MAL_Priscustus_Strum
-recruit_character = MAL_Priscus_Otium
-recruit_character = MAL_Vibervius_Poetorum
-recruit_character = MAL_Titius_Aniverbis
-recruit_character = MAL_Antonius_Strum
-recruit_character = MAL_Valerutus_Celerrus
-recruit_character = MAL_Brus_Poetorum
-recruit_character = MAL_Antonius_Otium
-recruit_character = MAL_Brus_Celerrus
-recruit_character = MAL_Clavius_Aniverbis
-recruit_character = MAL_Coracchus_Insum
-recruit_character = MAL_Caianustus_Equa
-recruit_character = MAL_Augulius_Celerrus
-recruit_character = MAL_Varcus_Malus
-recruit_character = MAL_Clavius_Arbor
-recruit_character = MAL_Tracchus_Malus
-recruit_character = MAL_Scaevolavius_Celerrus
-recruit_character = MAL_Fabiusus_Insum
-recruit_character = MAL_Caianustus_Malus
-recruit_character = MAL_Clavius_Malus
-recruit_character = MAL_Urbanlius_Otium
-recruit_character = MAL_Lucius_Strum
-recruit_character = MAL_Graius_Feris
-recruit_character = MAL_Lonius_Feris
-recruit_character = MAL_Lucius_Equa
-recruit_character = MAL_Cassius_Poetorum
-recruit_character = MAL_Traius_Aniverbis
-recruit_character = MAL_Horacchustus_Strum
-recruit_character = MAL_Remitellianl_Otium
-recruit_character = MAL_Gaianus_Aniverbis
-recruit_character = MAL_Aulus_Celerrus
-recruit_character = MAL_Silvanus_Strum
-recruit_character = MAL_Valerus_Otium
-recruit_character = MAL_Scaevolavius_Strum
-recruit_character = MAL_Nervius_Feris
-recruit_character = MAL_Priscustus_Arbor
-recruit_character = MAL_Lonius_Equa
-recruit_character = MAL_Aulus_Equa
-recruit_character = MAL_Maximus_Strum
-recruit_character = MAL_Remus_Insum
-recruit_character = MAL_Brus_Malus
-recruit_character = MAL_Coracchus_Feris
-recruit_character = MAL_Priscus_Aniverbis
-recruit_character = MAL_Domitellus_Equa
-recruit_character = MAL_Valerus_Strum
-recruit_character = MAL_Livius_Celerrus
-recruit_character = MAL_Livius_Equa
-recruit_character = MAL_Attius_Celerrus
-recruit_character = MAL_Coracchus_Celerrus
-recruit_character = MAL_Fabius_Insum
-recruit_character = MAL_Maximustus_Strum
-recruit_character = MAL_Lonius_Insum
-recruit_character = MAL_Quinus_Equa
-recruit_character = MAL_Prius_Equa
-recruit_character = MAL_Vibervius_Malus
+recruit_character = MLK_Publius_Aniverbis
+recruit_character = MLK_Graius_Arbor
+recruit_character = MLK_Silvanus_Aniverbis
+recruit_character = MLK_Otho_Equa
+recruit_character = MLK_Viberiscus_Celerrus
+recruit_character = MLK_Priscus_Insum
+recruit_character = MLK_Silvanus_Otium
+recruit_character = MLK_Aulus_Strum
+recruit_character = MLK_Gaianus_Arbor
+recruit_character = MLK_Paulus_Poetorum
+recruit_character = MLK_Cornellius_Equa
+recruit_character = MLK_Maximus_Poetorum
+recruit_character = MLK_Servius_Strum
+recruit_character = MLK_Brus_Feris
+recruit_character = MLK_Paudius_Insum
+recruit_character = MLK_Nervius_Aniverbis
+recruit_character = MLK_Severiscus_Aniverbis
+recruit_character = MLK_Vibervius_Celerrus
+recruit_character = MLK_Otho_Feris
+recruit_character = MLK_Noniustus_Insum
+recruit_character = MLK_Serius_Arbor
+recruit_character = MLK_Marcellianus_Celerrus
+recruit_character = MLK_Horacchustus_Arbor
+recruit_character = MLK_Valerutus_Poetorum
+recruit_character = MLK_Tracchus_Insum
+recruit_character = MLK_Augulius_Aniverbis
+recruit_character = MLK_Paus_Celerrus
+recruit_character = MLK_Remitius_Otium
+recruit_character = MLK_Remitellianl_Malus
+recruit_character = MLK_Caianustus_Otium
+recruit_character = MLK_Servius_Otium
+recruit_character = MLK_Scaevolaudiu_Equa
+recruit_character = MLK_Priscustus_Strum
+recruit_character = MLK_Priscus_Otium
+recruit_character = MLK_Vibervius_Poetorum
+recruit_character = MLK_Titius_Aniverbis
+recruit_character = MLK_Antonius_Strum
+recruit_character = MLK_Valerutus_Celerrus
+recruit_character = MLK_Brus_Poetorum
+recruit_character = MLK_Antonius_Otium
+recruit_character = MLK_Brus_Celerrus
+recruit_character = MLK_Clavius_Aniverbis
+recruit_character = MLK_Coracchus_Insum
+recruit_character = MLK_Caianustus_Equa
+recruit_character = MLK_Augulius_Celerrus
+recruit_character = MLK_Varcus_Malus
+recruit_character = MLK_Clavius_Arbor
+recruit_character = MLK_Tracchus_Malus
+recruit_character = MLK_Scaevolavius_Celerrus
+recruit_character = MLK_Fabiusus_Insum
+recruit_character = MLK_Caianustus_Malus
+recruit_character = MLK_Clavius_Malus
+recruit_character = MLK_Urbanlius_Otium
+recruit_character = MLK_Lucius_Strum
+recruit_character = MLK_Graius_Feris
+recruit_character = MLK_Lonius_Feris
+recruit_character = MLK_Lucius_Equa
+recruit_character = MLK_Cassius_Poetorum
+recruit_character = MLK_Traius_Aniverbis
+recruit_character = MLK_Horacchustus_Strum
+recruit_character = MLK_Remitellianl_Otium
+recruit_character = MLK_Gaianus_Aniverbis
+recruit_character = MLK_Aulus_Celerrus
+recruit_character = MLK_Silvanus_Strum
+recruit_character = MLK_Valerus_Otium
+recruit_character = MLK_Scaevolavius_Strum
+recruit_character = MLK_Nervius_Feris
+recruit_character = MLK_Priscustus_Arbor
+recruit_character = MLK_Lonius_Equa
+recruit_character = MLK_Aulus_Equa
+recruit_character = MLK_Maximus_Strum
+recruit_character = MLK_Remus_Insum
+recruit_character = MLK_Brus_Malus
+recruit_character = MLK_Coracchus_Feris
+recruit_character = MLK_Priscus_Aniverbis
+recruit_character = MLK_Domitellus_Equa
+recruit_character = MLK_Valerus_Strum
+recruit_character = MLK_Livius_Celerrus
+recruit_character = MLK_Livius_Equa
+recruit_character = MLK_Attius_Celerrus
+recruit_character = MLK_Coracchus_Celerrus
+recruit_character = MLK_Fabius_Insum
+recruit_character = MLK_Maximustus_Strum
+recruit_character = MLK_Lonius_Insum
+recruit_character = MLK_Quinus_Equa
+recruit_character = MLK_Prius_Equa
+recruit_character = MLK_Vibervius_Malus
 
 
 if = {
