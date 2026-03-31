@@ -146,10 +146,10 @@ focus_tree = {
 		completion_reward = {
 			random_owned_state = {
 				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 			}
 		}
 	}
@@ -166,10 +166,10 @@ focus_tree = {
 		completion_reward = {
 			random_owned_state = {
 				add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
-					}
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -210,7 +210,7 @@ focus_tree = {
 		id = piechota1
 		icon = GFX_SOV_depoliticize_the_military_ccp_2d_sov_compatibility
 		relative_position_id = military1
-		x = -4
+		x = -6
 		y = 1
 		cost = 1
 		prerequisite = {
@@ -219,6 +219,80 @@ focus_tree = {
 		completion_reward = {
 			add_command_power = 25
 			army_experience = 25
+		}
+	}
+	focus = {
+		id = psychopaci
+		icon = GFX_SOV_depoliticize_the_military_ccp_2d_sov_compatibility
+		relative_position_id = piechota1
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = piechota1
+		}
+		mutually_exclusive = {
+			focus = arta
+		}
+		completion_reward = {
+			add_command_power = 30
+		}
+	}
+	focus = {
+		id = psychopaci2
+		icon = GFX_SOV_depoliticize_the_military_ccp_2d_sov_compatibility
+		relative_position_id = psychopaci
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = psychopaci
+		}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = FRA_mechanized_focus
+				bonus = 1.0
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+	focus = {
+		id = arta
+		icon = GFX_SOV_depoliticize_the_military_ccp_2d_sov_compatibility
+		relative_position_id = piechota1
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = piechota1
+		}
+		mutually_exclusive = {
+			focus = psychopaci
+		}
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+	focus = {
+		id = arta2
+		icon = GFX_SOV_depoliticize_the_military_ccp_2d_sov_compatibility
+		relative_position_id = arta
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = arta
+		}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = FRA_artillery_focus
+				bonus = 1.0
+				uses = 1
+				category = artillery
+			}
 		}
 	}
 	focus = {
@@ -237,15 +311,149 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = fightery1
+		icon = GFX_SOV_transpolar_flights_ccp_2d_sov_compatibility
+		relative_position_id = samoloty1
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = samoloty1
+		}
+		mutually_exclusive = {
+			focus = casy1
+		}
+		completion_reward = {
+			add_ideas = { FRA_air_dominance }
+		}
+	}
+	focus = {
+		id = fightery2
+		icon = GFX_SOV_transpolar_flights_ccp_2d_sov_compatibility
+		relative_position_id = fightery1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = fightery1
+		}
+		completion_reward = {
+			add_ideas = { FRA_air_dominance }
+		}
+	}
+	focus = {
+		id = casy1
+		icon = GFX_SOV_transpolar_flights_ccp_2d_sov_compatibility
+		relative_position_id = samoloty1
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = samoloty1
+		}
+		mutually_exclusive = {
+			focus = fightery1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = FRA_cas_focus
+				bonus = 1.0
+				uses = 2
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = casy2
+		icon = GFX_SOV_transpolar_flights_ccp_2d_sov_compatibility
+		relative_position_id = casy1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = casy1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = FRA_cas_focus
+				bonus = 1.0
+				uses = 2
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
 		id = flota1
 		icon = GFX_SOV_rebuild_the_far_eastern_fleet_ccp_2d_sov_compatibility
 		relative_position_id = military1
-		x = 4
+		x = 6
 		y = 1
 		cost = 1
 		prerequisite = {
 			focus = military1
 		}
+		completion_reward = {
+			navy_experience = 25
+			add_command_power = 25
+		}
+	}
+	focus = {
+		id = destroyery1
+		icon = GFX_SOV_rebuild_the_far_eastern_fleet_ccp_2d_sov_compatibility
+		relative_position_id = flota1
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = flota1
+		}
+		completion_reward = {
+			navy_experience = 25
+			add_command_power = 25
+		}
+	}
+	focus = {
+		id = destroyery2
+		icon = GFX_SOV_rebuild_the_far_eastern_fleet_ccp_2d_sov_compatibility
+		relative_position_id = destroyery1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = destroyery1
+		}
+		completion_reward = {
+			navy_experience = 25
+			add_command_power = 25
+		}
+	}
+	focus = {
+		id = suby1
+		icon = GFX_SOV_rebuild_the_far_eastern_fleet_ccp_2d_sov_compatibility
+		relative_position_id = flota1
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = flota1
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_command_power = 25
+		}
+	}
+	focus = {
+		id = suby2
+		icon = GFX_SOV_rebuild_the_far_eastern_fleet_ccp_2d_sov_compatibility
+		relative_position_id = suby1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = suby1
+		}
+		
 		completion_reward = {
 			navy_experience = 25
 			add_command_power = 25
