@@ -171,9 +171,9 @@ else:
             continue
 
         if file.startswith(f"{old_tag}_"):
-            new_file = file.replace(f"{old_tag}_", f"{new_tag}_", 1)
+            new_file2 = file.replace(f"{old_tag}_", f"{new_tag}_", 1)
             old_path = os.path.join(folder, file)
-            new_path = os.path.join(folder, new_file)
+            new_path = os.path.join(folder, new_file2)
 
             os.rename(old_path, new_path)
 
