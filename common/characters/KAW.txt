@@ -1,0 +1,880 @@
+characters = {
+	KAW_Ilkerem_Isilik={
+		name="Ilkerem Isilik"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAW_Iskent_Yazak={
+		name="Iskent Yazak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Iskent_Yazak
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KAW_Mehmet_Saat={
+		name="Mehmet Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Mehmet_Saat
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KAW_Yilmazan_Isilik={
+		name="Yilmazan Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Yilmazan_Isilik
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAW_Ilker_Yazak={
+		name="Ilker Yazak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Ilker_Yazak
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAW_Hakan_Akgun={
+		name="Hakan Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Hakan_Akgun
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KAW_Cemaz_Bulu={
+		name="Cemaz Bulu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Cemaz_Bulu
+				traits = {	headstrong 	}
+		}
+
+	}
+	KAW_Orha_Sahirli={
+		name="Orha Sahirli"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Orha_Sahirli
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAW_Suat_Saat={
+		name="Suat Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Suat_Saat
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAW_Ademal_Sahirli={
+		name="Ademal Sahirli"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Ademal_Sahirli
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KAW_Sinan_Isilik={
+		name="Sinan Isilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Sinan_Isilik
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	KAW_Farat_Savar={
+		name="Farat Savar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Farat_Savar
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KAW_Seremazan_Saat={
+		name="Seremazan Saat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Seremazan_Saat
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KAW_Onurat_Saat={
+		name="Onurat Saat"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Onurat_Saat
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KAW_Hakan_Deniz={
+		name="Hakan Deniz"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Hakan_Deniz
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	KAW_Faran_Isilik={
+		name="Faran Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Faran_Isilik
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	KAW_Onurat_Yillik={
+		name="Onurat Yillik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Onurat_Yillik
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	KAW_Baruk_Isilik={
+		name="Baruk Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Baruk_Isilik
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	KAW_Eminan_Isilik={
+		name="Eminan Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Eminan_Isilik
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	KAW_Enesul_Yillik={
+		name="Enesul Yillik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Enesul_Yillik
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	KAW_Kadir_Akgun={
+		name="Kadir Akgun"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Kadir_Akgun
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	KAW_Serhan_Saat={
+		name="Serhan Saat"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAW_Ademal_Yillik={
+		name="Ademal Yillik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Ademal_Yillik
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KAW_Yalilmazanes_Deniz={
+		name="Yalilmazanes Deniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Yalilmazanes_Deniz
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	KAW_Utku_Bulu={
+		name="Utku Bulu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Utku_Bulu
+				traits = {	infirm 	}
+		}
+
+	}
+	KAW_Halcinan_Isilik={
+		name="Halcinan Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Halcinan_Isilik
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KAW_Ademal_Isilik={
+		name="Ademal Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Ademal_Isilik
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KAW_Ademal_Akgun={
+		name="Ademal Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Ademal_Akgun
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	KAW_Kaaner_Orman={
+		name="Kaaner Orman"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Kaaner_Orman
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAW_Selim_Isilik={
+		name="Selim Isilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Selim_Isilik
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KAW_Yilmaz_Yillik={
+		name="Yilmaz Yillik"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Yilmaz_Yillik
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KAW_Halhan_Savar={
+		name="Halhan Savar"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Halhan_Savar
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KAW_Enesul_Saat={
+		name="Enesul Saat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Enesul_Saat
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	KAW_Taylan_Bulu={
+		name="Taylan Bulu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Taylan_Bulu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	KAW_Cemaz_Sahirli={
+		name="Cemaz Sahirli"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Cemaz_Sahirli
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	KAW_Kaaner_Yillik={
+		name="Kaaner Yillik"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Kaaner_Yillik
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KAW_Onurat_Isilik={
+		name="Onurat Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Onurat_Isilik
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	KAW_Hara_Bulu={
+		name="Hara Bulu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Hara_Bulu
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	KAW_Ahmet_Deniz={
+		name="Ahmet Deniz"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Ahmet_Deniz
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	KAW_Kadir_Isilik={
+		name="Kadir Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Kadir_Isilik
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	KAW_Serhan_Yillik={
+		name="Serhan Yillik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Serhan_Yillik
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	KAW_Halih_Deniz={
+		name="Halih Deniz"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Halih_Deniz
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	KAW_Serem_Orman={
+		name="Serem Orman"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAW_Zafe_Sahirli={
+		name="Zafe Sahirli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Zafe_Sahirli
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KAW_Eminan_Sahirli={
+		name="Eminan Sahirli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Eminan_Sahirli
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KAW_Taylan_Savar={
+		name="Taylan Savar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Taylan_Savar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KAW_Utku_Yazak={
+		name="Utku Yazak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Utku_Yazak
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KAW_Seremazan_Deniz={
+		name="Seremazan Deniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Seremazan_Deniz
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KAW_Savas_Isilik={
+		name="Savas Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Savas_Isilik
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KAW_Ademal_Saat={
+		name="Ademal Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Ademal_Saat
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	KAW_Emin_Bulu={
+		name="Emin Bulu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Emin_Bulu
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KAW_Ertugrul_Sahirli={
+		name="Ertugrul Sahirli"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Ertugrul_Sahirli
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	KAW_Tunc_Bulu={
+		name="Tunc Bulu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Tunc_Bulu
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KAW_Bekir_Yillik={
+		name="Bekir Yillik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Bekir_Yillik
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KAW_Kadir_Orman={
+		name="Kadir Orman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Kadir_Orman
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KAW_Taylan_Yillik={
+		name="Taylan Yillik"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Taylan_Yillik
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KAW_Serem_Sahirli={
+		name="Serem Sahirli"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Serem_Sahirli
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	KAW_Halcin_Isilik={
+		name="Halcin Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Halcin_Isilik
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	KAW_Adem_Sahirli={
+		name="Adem Sahirli"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Adem_Sahirli
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KAW_Halhan_Isilik={
+		name="Halhan Isilik"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Halhan_Isilik
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	KAW_Arif_Sahirli={
+		name="Arif Sahirli"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Arif_Sahirli
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	KAW_Seremazan_Akgun={
+		name="Seremazan Akgun"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Seremazan_Akgun
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KAW_Orhan_Yazak={
+		name="Orhan Yazak"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Orhan_Yazak
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	KAW_Ilkerem_Sahirli={
+		name="Ilkerem Sahirli"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAW_Barun_Orman={
+		name="Barun Orman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Barun_Orman
+				traits = {	the_banker 	}
+		}
+
+	}
+	KAW_Mura_Isilik={
+		name="Mura Isilik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Mura_Isilik
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KAW_Iskender_Bulu={
+		name="Iskender Bulu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Iskender_Bulu
+				traits = {	infirm 	}
+		}
+
+	}
+	KAW_Ademal_Deniz={
+		name="Ademal Deniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Ademal_Deniz
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KAW_Kaaner_Savar={
+		name="Kaaner Savar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Kaaner_Savar
+				traits = {	the_banker 	}
+		}
+
+	}
+	KAW_Kadir_Savar={
+		name="Kadir Savar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAW_Kadir_Savar
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	KAW_Yalcin_Bulu={
+		name="Yalcin Bulu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Yalcin_Bulu
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KAW_Tunc_Saat={
+		name="Tunc Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Tunc_Saat
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KAW_Eminan_Yazak={
+		name="Eminan Yazak"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Eminan_Yazak
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KAW_Orhan_Saat={
+		name="Orhan Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAW_Orhan_Saat
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KAW_Eminan_Savar={
+		name="Eminan Savar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Eminan_Savar
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KAW_Orhan_Sahirli={
+		name="Orhan Sahirli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAW_Orhan_Sahirli
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KAW_Halcin_Bulu={
+		name="Halcin Bulu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Halcin_Bulu
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	KAW_Cemaz_Yazak={
+		name="Cemaz Yazak"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAW_Cemaz_Yazak
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KAW_Haruk_Yazak={
+		name="Haruk Yazak"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Haruk_Yazak
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KAW_Boran_Savar={
+		name="Boran Savar"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Boran_Savar
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	KAW_Yilmazan_Yazak={
+		name="Yilmazan Yazak"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Yilmazan_Yazak
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KAW_Yilmazan_Saat={
+		name="Yilmazan Saat"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Yilmazan_Saat
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	KAW_Arif_Bulu={
+		name="Arif Bulu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Arif_Bulu
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KAW_Hakan_Bulu={
+		name="Hakan Bulu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAW_Hakan_Bulu
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	KAW_Ener_Bulu={
+		name="Ener Bulu"
+
+		advisor={
+			slot = theorist
+			idea_token = KAW_Ener_Bulu
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KAW_Ahmet_Akgun={
+		name="Ahmet Akgun"
+
+		advisor={
+			slot = theorist
+			idea_token = KAW_Ahmet_Akgun
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KAW_Emin_Isilik={
+		name="Emin Isilik"
+
+		advisor={
+			slot = theorist
+			idea_token = KAW_Emin_Isilik
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
