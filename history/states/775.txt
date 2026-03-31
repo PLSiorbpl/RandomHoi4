@@ -10,7 +10,7 @@ state={
 		aluminium=0
 		chromium=0
 		oil=0
-		rubber=0
+		rubber=999999
 		steel=0
 		tungsten=0
 		coal=0
@@ -20,7 +20,7 @@ state={
 		victory_points = { 9117 1}
 		victory_points = { 9118 3}
 		
-		owner = RQF
+		owner = RSM
 		buildings = {
 			infrastructure = 3
 			
@@ -29,7 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = RQF
+		add_core_of = RSM
 	}
 
 	provinces={
