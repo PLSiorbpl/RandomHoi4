@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		Nieudane_Zbiory_Ziemniakow = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.4
+				#industrial_capacity_factory_factor = -0.4
+			}
+		}
+	}
+}

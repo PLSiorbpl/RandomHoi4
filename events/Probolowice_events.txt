@@ -1,0 +1,38 @@
+add_namespace = pro_event
+
+country_event = {
+	id = pro_event.1
+	title = pro_event.1.t
+	desc = pro_event.1.d
+	picture = GFX_report_event_generic_politics
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = pro_event.1.a
+		set_politics = {
+        ruling_party = neutrality
+        elections_allowed = no
+    	}
+		set_country_flag = path_neutral
+	}
+
+	option = {
+		name = pro_event.1.b
+		set_politics = {
+        ruling_party = neutrality
+        elections_allowed = no
+    	}
+		set_country_flag = path_fascist
+	}
+
+	option = {
+		name = pro_event.1.c
+		set_politics = {
+        ruling_party = neutrality
+        elections_allowed = no
+    	}
+		set_country_flag = path_communist
+	}
+}

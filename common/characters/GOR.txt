@@ -1,0 +1,880 @@
+characters = {
+	GOR_Chakan_Ajtz={
+		name="Chakan Ajtz"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOR_Tohichen_Ajtz={
+		name="Tohichen Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Tohichen_Ajtz
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GOR_Ekchua_Chuwen={
+		name="Ekchua Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Ekchua_Chuwen
+				traits = {	headstrong 	}
+		}
+
+	}
+	GOR_Chakal_Benque={
+		name="Chakal Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Chakal_Benque
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GOR_Ekchichen_Aguatunil={
+		name="Ekchichen Aguatunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Ekchichen_Aguatunil
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	GOR_Tecun_Benque={
+		name="Tecun Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Tecun_Benque
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GOR_Acatl_Aguatunil={
+		name="Acatl Aguatunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Acatl_Aguatunil
+				traits = {	headstrong 	}
+		}
+
+	}
+	GOR_Nacatl_Ajtz={
+		name="Nacatl Ajtz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Nacatl_Ajtz
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GOR_Acab_Yaxul={
+		name="Acab Yaxul"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Acab_Yaxul
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GOR_Kukulkalam_Uxman={
+		name="Kukulkalam Uxman"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Kukulkalam_Uxman
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GOR_Bacatl_Ajtz={
+		name="Bacatl Ajtz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Bacatl_Ajtz
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GOR_Tecun_Ajtz={
+		name="Tecun Ajtz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Tecun_Ajtz
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	GOR_Chil_Aguatunil={
+		name="Chil Aguatunil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Chil_Aguatunil
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	GOR_Kukulkanek_Uxman={
+		name="Kukulkanek Uxman"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Kukulkanek_Uxman
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	GOR_Tohichen_Uxman={
+		name="Tohichen Uxman"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Tohichen_Uxman
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	GOR_Chakalam_Yaxul={
+		name="Chakalam Yaxul"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Chakalam_Yaxul
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	GOR_Ekchakal_Chuwen={
+		name="Ekchakal Chuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Ekchakal_Chuwen
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	GOR_Tohil_Benque={
+		name="Tohil Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Tohil_Benque
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	GOR_Oxib_Aguatunil={
+		name="Oxib Aguatunil"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Oxib_Aguatunil
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	GOR_Chak_Benque={
+		name="Chak Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Chak_Benque
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	GOR_Bacom_Yaxul={
+		name="Bacom Yaxul"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Bacom_Yaxul
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	GOR_Chakan_Chuwen={
+		name="Chakan Chuwen"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOR_Pakal_Chuwen={
+		name="Pakal Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Pakal_Chuwen
+				traits = {	polemarch 	}
+		}
+
+	}
+	GOR_Tohil_Chuwen={
+		name="Tohil Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Tohil_Chuwen
+				traits = {	warmonger 	}
+		}
+
+	}
+	GOR_Pakal_Uxman={
+		name="Pakal Uxman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Pakal_Uxman
+				traits = {	infirm 	}
+		}
+
+	}
+	GOR_Acatl_Ajtz={
+		name="Acatl Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Acatl_Ajtz
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	GOR_Chil_Yaxul={
+		name="Chil Yaxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Chil_Yaxul
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	GOR_Ekchichen_Lampaktunil={
+		name="Ekchichen Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Ekchichen_Lampaktunil
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	GOR_Popo_Yaxul={
+		name="Popo Yaxul"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Popo_Yaxul
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	GOR_Acatl_Uxman={
+		name="Acatl Uxman"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Acatl_Uxman
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	GOR_Ahkin_Uxman={
+		name="Ahkin Uxman"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Ahkin_Uxman
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	GOR_Oxib_Benque={
+		name="Oxib Benque"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Oxib_Benque
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	GOR_Ekchua_Aguatunil={
+		name="Ekchua Aguatunil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Ekchua_Aguatunil
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GOR_Chakal_Uxman={
+		name="Chakal Uxman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Chakal_Uxman
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	GOR_Nacatl_Aguatunil={
+		name="Nacatl Aguatunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Nacatl_Aguatunil
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	GOR_Chakalam_Uxman={
+		name="Chakalam Uxman"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Chakalam_Uxman
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	GOR_Itzam_Benque={
+		name="Itzam Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Itzam_Benque
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	GOR_Popo_Ajtz={
+		name="Popo Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Popo_Ajtz
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	GOR_Chakal_Ajtz={
+		name="Chakal Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Chakal_Ajtz
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	GOR_Nacom_Aguatunil={
+		name="Nacom Aguatunil"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Nacom_Aguatunil
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	GOR_Yaxkin_Lampaktunil={
+		name="Yaxkin Lampaktunil"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Yaxkin_Lampaktunil
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	GOR_Bacatl_Lampaktunil={
+		name="Bacatl Lampaktunil"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Bacatl_Lampaktunil
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	GOR_Itzam_Uxman={
+		name="Itzam Uxman"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOR_Ekchil_Ajtz={
+		name="Ekchil Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Ekchil_Ajtz
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GOR_Chak_Ajtz={
+		name="Chak Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Chak_Ajtz
+				traits = {	polemarch 	}
+		}
+
+	}
+	GOR_Ekchakal_Uxman={
+		name="Ekchakal Uxman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Ekchakal_Uxman
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GOR_Chakal_Chuwen={
+		name="Chakal Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Chakal_Chuwen
+				traits = {	infirm 	}
+		}
+
+	}
+	GOR_Ekchichen_Yaxul={
+		name="Ekchichen Yaxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Ekchichen_Yaxul
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	GOR_Pakan_Lampaktunil={
+		name="Pakan Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Pakan_Lampaktunil
+				traits = {	polemarch 	}
+		}
+
+	}
+	GOR_Acab_Uxman={
+		name="Acab Uxman"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Acab_Uxman
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	GOR_Ahkin_Yaxul={
+		name="Ahkin Yaxul"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Ahkin_Yaxul
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	GOR_Bacom_Uxman={
+		name="Bacom Uxman"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Bacom_Uxman
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GOR_Tohil_Lampaktunil={
+		name="Tohil Lampaktunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Tohil_Lampaktunil
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GOR_Popo_Lampaktunil={
+		name="Popo Lampaktunil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Popo_Lampaktunil
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	GOR_Chua_Ajtz={
+		name="Chua Ajtz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Chua_Ajtz
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	GOR_Bacatl_Uxman={
+		name="Bacatl Uxman"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Bacatl_Uxman
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	GOR_Nacom_Lampaktunil={
+		name="Nacom Lampaktunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Nacom_Lampaktunil
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	GOR_Acab_Benque={
+		name="Acab Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Acab_Benque
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	GOR_Kanek_Ajtz={
+		name="Kanek Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Kanek_Ajtz
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	GOR_Kukulkan_Yaxul={
+		name="Kukulkan Yaxul"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Kukulkan_Yaxul
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	GOR_Kukulkalam_Yaxul={
+		name="Kukulkalam Yaxul"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Kukulkalam_Yaxul
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	GOR_Ekchil_Uxman={
+		name="Ekchil Uxman"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Ekchil_Uxman
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	GOR_Itzam_Ajtz={
+		name="Itzam Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Itzam_Ajtz
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	GOR_Ekchil_Yaxul={
+		name="Ekchil Yaxul"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOR_Chichen_Uxman={
+		name="Chichen Uxman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Chichen_Uxman
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GOR_Pakanek_Lampaktunil={
+		name="Pakanek Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Pakanek_Lampaktunil
+				traits = {	rearmer 	}
+		}
+
+	}
+	GOR_Nacatl_Lampaktunil={
+		name="Nacatl Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Nacatl_Lampaktunil
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	GOR_Nacom_Chuwen={
+		name="Nacom Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Nacom_Chuwen
+				traits = {	the_banker 	}
+		}
+
+	}
+	GOR_Chakan_Uxman={
+		name="Chakan Uxman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Chakan_Uxman
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GOR_Kanek_Chuwen={
+		name="Kanek Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOR_Kanek_Chuwen
+				traits = {	infirm 	}
+		}
+
+	}
+	GOR_Chakan_Yaxul={
+		name="Chakan Yaxul"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Chakan_Yaxul
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	GOR_Chakal_Yaxul={
+		name="Chakal Yaxul"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Chakal_Yaxul
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GOR_Ekchua_Ajtz={
+		name="Ekchua Ajtz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Ekchua_Ajtz
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	GOR_Bacab_Chuwen={
+		name="Bacab Chuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOR_Bacab_Chuwen
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	GOR_Chakalam_Ajtz={
+		name="Chakalam Ajtz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Chakalam_Ajtz
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	GOR_Balam_Lampaktunil={
+		name="Balam Lampaktunil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOR_Balam_Lampaktunil
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	GOR_Bacab_Benque={
+		name="Bacab Benque"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Bacab_Benque
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	GOR_Yaxkin_Aguatunil={
+		name="Yaxkin Aguatunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOR_Yaxkin_Aguatunil
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	GOR_Kukulkan_Benque={
+		name="Kukulkan Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Kukulkan_Benque
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	GOR_Kukulkanek_Chuwen={
+		name="Kukulkanek Chuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Kukulkanek_Chuwen
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	GOR_Bacatl_Benque={
+		name="Bacatl Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Bacatl_Benque
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	GOR_Balam_Benque={
+		name="Balam Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Balam_Benque
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	GOR_Yaxkin_Uxman={
+		name="Yaxkin Uxman"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Yaxkin_Uxman
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	GOR_Acatl_Chuwen={
+		name="Acatl Chuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = GOR_Acatl_Chuwen
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	GOR_Chua_Benque={
+		name="Chua Benque"
+
+		advisor={
+			slot = theorist
+			idea_token = GOR_Chua_Benque
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GOR_Tohil_Yaxul={
+		name="Tohil Yaxul"
+
+		advisor={
+			slot = theorist
+			idea_token = GOR_Tohil_Yaxul
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GOR_Pakanek_Ajtz={
+		name="Pakanek Ajtz"
+
+		advisor={
+			slot = theorist
+			idea_token = GOR_Pakanek_Ajtz
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

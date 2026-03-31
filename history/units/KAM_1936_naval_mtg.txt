@@ -2,13 +2,14 @@ units= {
 	##### NAVAL UNITS #####
 	
 		fleet = {
-		name = "Kambe Fleet"			
-		naval_base = 17868
+		name = "Toot Fleet"			
+		naval_base = 15025
 		task_force = {
-			name = "Kambe Fleet"
-			location = 17868
+			name = "Toot Fleet"
+			location = 15025
 			
-			
+						ship = { name = "Toot" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KAM version_name = "Toot Class" } }	}
+
 		}
 	}
 

@@ -1,0 +1,33 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Bungagaib Fleet"			
+		naval_base = 3396
+		task_force = {
+			name = "Bungagaib Fleet"
+			location = 3396
+			
+						ship = { name = "Menjaga" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWO version_name = "Menjaga Class" } }	}
+			ship = { name = "Mensirmasa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWO version_name = "Bulam Class" } }	}
+			ship = { name = "Menjaga 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWO version_name = "Suci Class" } }	}
+			ship = { name = "Mimbatuarang" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWO version_name = "Bulam Class" } }	}
+			ship = { name = "Bulam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWO version_name = "Bulam Class" } }	}
+			ship = { name = "Suci" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWO version_name = "Bulam Class" } }	}
+			ship = { name = "Mensirmasa 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWO version_name = "Suci Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

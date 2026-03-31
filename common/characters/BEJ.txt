@@ -1,0 +1,880 @@
+characters = {
+	BEJ_Liaran_Geart={
+		name="Liaran Geart"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BEJ_Niareth_Beill={
+		name="Niareth Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Niareth_Beill
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BEJ_Malcolm_Ceith={
+		name="Malcolm Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Malcolm_Ceith
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	BEJ_Gareth_Beill={
+		name="Gareth Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Gareth_Beill
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	BEJ_Liamus_Crodanch={
+		name="Liamus Crodanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Liamus_Crodanch
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BEJ_Hugh_Trodailin={
+		name="Hugh Trodailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Hugh_Trodailin
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BEJ_Liaran_Lioch={
+		name="Liaran Lioch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Liaran_Lioch
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BEJ_Rhys_Ceith={
+		name="Rhys Ceith"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Rhys_Ceith
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	BEJ_Nialcolm_Geart={
+		name="Nialcolm Geart"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Nialcolm_Geart
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BEJ_Taran_Lioch={
+		name="Taran Lioch"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Taran_Lioch
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	BEJ_Fergus_Brochais={
+		name="Fergus Brochais"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Fergus_Brochais
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	BEJ_Seam_Ceith={
+		name="Seam Ceith"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Seam_Ceith
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BEJ_Padraig_Trodailin={
+		name="Padraig Trodailin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Padraig_Trodailin
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	BEJ_Liamus_Beill={
+		name="Liamus Beill"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Liamus_Beill
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	BEJ_Keiran_Ceith={
+		name="Keiran Ceith"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Keiran_Ceith
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	BEJ_Ciall_Lioch={
+		name="Ciall Lioch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Ciall_Lioch
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	BEJ_Malcolm_Crodanch={
+		name="Malcolm Crodanch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Malcolm_Crodanch
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	BEJ_Liareth_Brochais={
+		name="Liareth Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Liareth_Brochais
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	BEJ_Ciall_Brochais={
+		name="Ciall Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Ciall_Brochais
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	BEJ_Liaran_Tigh={
+		name="Liaran Tigh"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Liaran_Tigh
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	BEJ_Liaran_Crodanch={
+		name="Liaran Crodanch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Liaran_Crodanch
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	BEJ_Gareth_Ceith={
+		name="Gareth Ceith"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BEJ_Malcolm_Beill={
+		name="Malcolm Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Malcolm_Beill
+				traits = {	polemarch 	}
+		}
+
+	}
+	BEJ_Ciaran_Ceith={
+		name="Ciaran Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Ciaran_Ceith
+				traits = {	basileus 	}
+		}
+
+	}
+	BEJ_Padran_Crodanch={
+		name="Padran Crodanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Padran_Crodanch
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	BEJ_Owen_Ceith={
+		name="Owen Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Owen_Ceith
+				traits = {	generallissimo 	}
+		}
+
+	}
+	BEJ_Ciall_Leath={
+		name="Ciall Leath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Ciall_Leath
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BEJ_Ciamus_Crodanch={
+		name="Ciamus Crodanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Ciamus_Crodanch
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	BEJ_Liareth_Ceith={
+		name="Liareth Ceith"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Liareth_Ceith
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BEJ_Niareth_Lucht={
+		name="Niareth Lucht"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Niareth_Lucht
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BEJ_Ciamus_Brochais={
+		name="Ciamus Brochais"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Ciamus_Brochais
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	BEJ_Declan_Crodanch={
+		name="Declan Crodanch"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Declan_Crodanch
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	BEJ_Keiran_Crodanch={
+		name="Keiran Crodanch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Keiran_Crodanch
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	BEJ_Hugh_Beill={
+		name="Hugh Beill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Hugh_Beill
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	BEJ_Malcolm_Leath={
+		name="Malcolm Leath"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Malcolm_Leath
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	BEJ_Bran_Beill={
+		name="Bran Beill"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Bran_Beill
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	BEJ_Aidan_Lioch={
+		name="Aidan Lioch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Aidan_Lioch
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	BEJ_Garan_Lioch={
+		name="Garan Lioch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Garan_Lioch
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	BEJ_Niareth_Crodanch={
+		name="Niareth Crodanch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Niareth_Crodanch
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	BEJ_Eoin_Brochais={
+		name="Eoin Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Eoin_Brochais
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	BEJ_Ciamus_Ceith={
+		name="Ciamus Ceith"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Ciamus_Ceith
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	BEJ_Niaraig_Crodanch={
+		name="Niaraig Crodanch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Niaraig_Crodanch
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	BEJ_Quinn_Ceith={
+		name="Quinn Ceith"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BEJ_Keiraig_Beill={
+		name="Keiraig Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Keiraig_Beill
+				traits = {	infirm 	}
+		}
+
+	}
+	BEJ_Aidan_Lucht={
+		name="Aidan Lucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Aidan_Lucht
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BEJ_Mall_Trodailin={
+		name="Mall Trodailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Mall_Trodailin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	BEJ_Liaran_Lucht={
+		name="Liaran Lucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Liaran_Lucht
+				traits = {	political_dancer 	}
+		}
+
+	}
+	BEJ_Bran_Ceith={
+		name="Bran Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Bran_Ceith
+				traits = {	infirm 	}
+		}
+
+	}
+	BEJ_Seamus_Beill={
+		name="Seamus Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Seamus_Beill
+				traits = {	infirm 	}
+		}
+
+	}
+	BEJ_Liaran_Beill={
+		name="Liaran Beill"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Liaran_Beill
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BEJ_Nialcolm_Crodanch={
+		name="Nialcolm Crodanch"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Nialcolm_Crodanch
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BEJ_Liamus_Lioch={
+		name="Liamus Lioch"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Liamus_Lioch
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BEJ_Gareth_Leath={
+		name="Gareth Leath"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Gareth_Leath
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BEJ_Quinn_Trodailin={
+		name="Quinn Trodailin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Quinn_Trodailin
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BEJ_Liareth_Geart={
+		name="Liareth Geart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Liareth_Geart
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	BEJ_Mall_Crodanch={
+		name="Mall Crodanch"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Mall_Crodanch
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	BEJ_Declan_Geart={
+		name="Declan Geart"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Declan_Geart
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BEJ_Padraig_Leath={
+		name="Padraig Leath"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Padraig_Leath
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	BEJ_Niareth_Trodailin={
+		name="Niareth Trodailin"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Niareth_Trodailin
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	BEJ_Eoin_Ceith={
+		name="Eoin Ceith"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Eoin_Ceith
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	BEJ_Seamus_Lioch={
+		name="Seamus Lioch"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Seamus_Lioch
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	BEJ_Liam_Brochais={
+		name="Liam Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Liam_Brochais
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	BEJ_Mall_Brochais={
+		name="Mall Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Mall_Brochais
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	BEJ_Niareth_Ceith={
+		name="Niareth Ceith"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BEJ_Ciamus_Beill={
+		name="Ciamus Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Ciamus_Beill
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	BEJ_Keiraig_Brochais={
+		name="Keiraig Brochais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Keiraig_Brochais
+				traits = {	the_banker 	}
+		}
+
+	}
+	BEJ_Taran_Lucht={
+		name="Taran Lucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Taran_Lucht
+				traits = {	infirm 	}
+		}
+
+	}
+	BEJ_Liaraig_Trodailin={
+		name="Liaraig Trodailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Liaraig_Trodailin
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	BEJ_Owen_Lucht={
+		name="Owen Lucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Owen_Lucht
+				traits = {	first_lady 	}
+		}
+
+	}
+	BEJ_Mall_Beill={
+		name="Mall Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BEJ_Mall_Beill
+				traits = {	infirm 	}
+		}
+
+	}
+	BEJ_Padran_Ceith={
+		name="Padran Ceith"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Padran_Ceith
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	BEJ_Quinn_Beill={
+		name="Quinn Beill"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Quinn_Beill
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BEJ_Liaraig_Lioch={
+		name="Liaraig Lioch"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Liaraig_Lioch
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BEJ_Liaraig_Lucht={
+		name="Liaraig Lucht"
+
+		advisor={
+			slot = army_chief
+			idea_token = BEJ_Liaraig_Lucht
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	BEJ_Nialcolm_Lioch={
+		name="Nialcolm Lioch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Nialcolm_Lioch
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	BEJ_Malcolm_Lucht={
+		name="Malcolm Lucht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BEJ_Malcolm_Lucht
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BEJ_Padran_Beill={
+		name="Padran Beill"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Padran_Beill
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	BEJ_Fergus_Leath={
+		name="Fergus Leath"
+
+		advisor={
+			slot = air_chief
+			idea_token = BEJ_Fergus_Leath
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	BEJ_Declan_Trodailin={
+		name="Declan Trodailin"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Declan_Trodailin
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	BEJ_Liareth_Leath={
+		name="Liareth Leath"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Liareth_Leath
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	BEJ_Iwan_Tigh={
+		name="Iwan Tigh"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Iwan_Tigh
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	BEJ_Iwan_Beill={
+		name="Iwan Beill"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Iwan_Beill
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	BEJ_Mall_Tigh={
+		name="Mall Tigh"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Mall_Tigh
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	BEJ_Ciamus_Geart={
+		name="Ciamus Geart"
+
+		advisor={
+			slot = high_command
+			idea_token = BEJ_Ciamus_Geart
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	BEJ_Liam_Beill={
+		name="Liam Beill"
+
+		advisor={
+			slot = theorist
+			idea_token = BEJ_Liam_Beill
+				traits = {	military_theorist 	}
+		}
+
+	}
+	BEJ_Mall_Ceith={
+		name="Mall Ceith"
+
+		advisor={
+			slot = theorist
+			idea_token = BEJ_Mall_Ceith
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	BEJ_Iwan_Leath={
+		name="Iwan Leath"
+
+		advisor={
+			slot = theorist
+			idea_token = BEJ_Iwan_Leath
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

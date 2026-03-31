@@ -1,0 +1,880 @@
+characters = {
+	KSZ_Caianus_Fulum={
+		name="Caianus Fulum"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KSZ_Titelianus_Turae={
+		name="Titelianus Turae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Titelianus_Turae
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KSZ_Caius_Turae={
+		name="Caius Turae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Caius_Turae
+				traits = {	humble 	}
+		}
+
+	}
+	KSZ_Lucius_Vensulgus={
+		name="Lucius Vensulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Lucius_Vensulgus
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KSZ_Sevola_Fulum={
+		name="Sevola Fulum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Sevola_Fulum
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KSZ_Vitellius_Strinciumbum={
+		name="Vitellius Strinciumbum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Vitellius_Strinciumbum
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KSZ_Lonius_Vensulgus={
+		name="Lonius Vensulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Lonius_Vensulgus
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KSZ_Varcelius_Strinciumbum={
+		name="Varcelius Strinciumbum"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Varcelius_Strinciumbum
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KSZ_Atticus_Plus={
+		name="Atticus Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Atticus_Plus
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KSZ_Julus_Plus={
+		name="Julus Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Julus_Plus
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KSZ_Silvanus_Plus={
+		name="Silvanus Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Silvanus_Plus
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KSZ_Seriscus_Vensulgus={
+		name="Seriscus Vensulgus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Seriscus_Vensulgus
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KSZ_Nonius_Vita={
+		name="Nonius Vita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Nonius_Vita
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KSZ_Tiberiscus_Vensulgus={
+		name="Tiberiscus Vensulgus"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Tiberiscus_Vensulgus
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KSZ_Marcellustus_Strinciumbum={
+		name="Marcellustus Strinciumbum"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Marcellustus_Strinciumbum
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	KSZ_Serus_Fonitas={
+		name="Serus Fonitas"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Serus_Fonitas
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	KSZ_Lonius_Mens={
+		name="Lonius Mens"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Lonius_Mens
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KSZ_Sextus_Turae={
+		name="Sextus Turae"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Sextus_Turae
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	KSZ_Viberiustus_Vita={
+		name="Viberiustus Vita"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Viberiustus_Vita
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KSZ_Atticus_Fonitas={
+		name="Atticus Fonitas"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Atticus_Fonitas
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	KSZ_Horacchus_Plus={
+		name="Horacchus Plus"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Horacchus_Plus
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	KSZ_Tratius_Vensulgus={
+		name="Tratius Vensulgus"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KSZ_Gaianustus_Liberra={
+		name="Gaianustus Liberra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Gaianustus_Liberra
+				traits = {	infirm 	}
+		}
+
+	}
+	KSZ_Fabius_Vensulgus={
+		name="Fabius Vensulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Fabius_Vensulgus
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	KSZ_Manus_Mens={
+		name="Manus Mens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Manus_Mens
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	KSZ_Tracchus_Fonitas={
+		name="Tracchus Fonitas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Tracchus_Fonitas
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KSZ_Prius_Strinciumbum={
+		name="Prius Strinciumbum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Prius_Strinciumbum
+				traits = {	autokrator 	}
+		}
+
+	}
+	KSZ_Seriscus_Fonitas={
+		name="Seriscus Fonitas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Seriscus_Fonitas
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	KSZ_Tiberiscus_Turae={
+		name="Tiberiscus Turae"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Tiberiscus_Turae
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KSZ_Atticus_Fulum={
+		name="Atticus Fulum"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Atticus_Fulum
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KSZ_Decius_Strinciumbum={
+		name="Decius Strinciumbum"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Decius_Strinciumbum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KSZ_Regus_Liberra={
+		name="Regus Liberra"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Regus_Liberra
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KSZ_Otho_Liberra={
+		name="Otho Liberra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Otho_Liberra
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	KSZ_Severvius_Vita={
+		name="Severvius Vita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Severvius_Vita
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KSZ_Lucius_Fulum={
+		name="Lucius Fulum"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Lucius_Fulum
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KSZ_Tiberiscus_Semidex={
+		name="Tiberiscus Semidex"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Tiberiscus_Semidex
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	KSZ_Augus_Turae={
+		name="Augus Turae"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Augus_Turae
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	KSZ_Viberiustus_Strinciumbum={
+		name="Viberiustus Strinciumbum"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Viberiustus_Strinciumbum
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	KSZ_Gaius_Fonitas={
+		name="Gaius Fonitas"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Gaius_Fonitas
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	KSZ_Tibius_Liberra={
+		name="Tibius Liberra"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Tibius_Liberra
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	KSZ_Atticus_Turae={
+		name="Atticus Turae"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Atticus_Turae
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	KSZ_Augulius_Fulum={
+		name="Augulius Fulum"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Augulius_Fulum
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	KSZ_Julus_Fonitas={
+		name="Julus Fonitas"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KSZ_Gaianus_Fulum={
+		name="Gaianus Fulum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Gaianus_Fulum
+				traits = {	infirm 	}
+		}
+
+	}
+	KSZ_Manus_Fonitas={
+		name="Manus Fonitas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Manus_Fonitas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KSZ_Drus_Turae={
+		name="Drus Turae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Drus_Turae
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KSZ_Augus_Plus={
+		name="Augus Plus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Augus_Plus
+				traits = {	polemarch 	}
+		}
+
+	}
+	KSZ_Antus_Vita={
+		name="Antus Vita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Antus_Vita
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KSZ_Prius_Vensulgus={
+		name="Prius Vensulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Prius_Vensulgus
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KSZ_Titustus_Plus={
+		name="Titustus Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Titustus_Plus
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KSZ_Marro_Vita={
+		name="Marro Vita"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Marro_Vita
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	KSZ_Decius_Fulum={
+		name="Decius Fulum"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Decius_Fulum
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KSZ_Lucius_Semidex={
+		name="Lucius Semidex"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Lucius_Semidex
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KSZ_Graticus_Strinciumbum={
+		name="Graticus Strinciumbum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Graticus_Strinciumbum
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KSZ_Titellus_Vita={
+		name="Titellus Vita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Titellus_Vita
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KSZ_Gaianustus_Mens={
+		name="Gaianustus Mens"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Gaianustus_Mens
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KSZ_Remus_Fulum={
+		name="Remus Fulum"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Remus_Fulum
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KSZ_Vitus_Vensulgus={
+		name="Vitus Vensulgus"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Vitus_Vensulgus
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	KSZ_Manus_Vensulgus={
+		name="Manus Vensulgus"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Manus_Vensulgus
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	KSZ_Drutus_Mens={
+		name="Drutus Mens"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Drutus_Mens
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	KSZ_Silvanlius_Vensulgus={
+		name="Silvanlius Vensulgus"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Silvanlius_Vensulgus
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	KSZ_Nero_Mens={
+		name="Nero Mens"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Nero_Mens
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	KSZ_Serius_Plus={
+		name="Serius Plus"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Serius_Plus
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KSZ_Regus_Turae={
+		name="Regus Turae"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KSZ_Otho_Plus={
+		name="Otho Plus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Otho_Plus
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	KSZ_Severvius_Liberra={
+		name="Severvius Liberra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Severvius_Liberra
+				traits = {	first_lady 	}
+		}
+
+	}
+	KSZ_Sevola_Strinciumbum={
+		name="Sevola Strinciumbum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Sevola_Strinciumbum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KSZ_Tibius_Semidex={
+		name="Tibius Semidex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Tibius_Semidex
+				traits = {	infirm 	}
+		}
+
+	}
+	KSZ_Lucius_Vita={
+		name="Lucius Vita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Lucius_Vita
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	KSZ_Caianus_Vensulgus={
+		name="Caianus Vensulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KSZ_Caianus_Vensulgus
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	KSZ_Varcellius_Vensulgus={
+		name="Varcellius Vensulgus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Varcellius_Vensulgus
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KSZ_Viberiustus_Plus={
+		name="Viberiustus Plus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Viberiustus_Plus
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KSZ_Seriscus_Liberra={
+		name="Seriscus Liberra"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Seriscus_Liberra
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KSZ_Fabius_Fonitas={
+		name="Fabius Fonitas"
+
+		advisor={
+			slot = army_chief
+			idea_token = KSZ_Fabius_Fonitas
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KSZ_Nonius_Liberra={
+		name="Nonius Liberra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Nonius_Liberra
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	KSZ_Remus_Fonitas={
+		name="Remus Fonitas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KSZ_Remus_Fonitas
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	KSZ_Drus_Mens={
+		name="Drus Mens"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Drus_Mens
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	KSZ_Aulius_Fonitas={
+		name="Aulius Fonitas"
+
+		advisor={
+			slot = air_chief
+			idea_token = KSZ_Aulius_Fonitas
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KSZ_Quinus_Turae={
+		name="Quinus Turae"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Quinus_Turae
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	KSZ_Serus_Plus={
+		name="Serus Plus"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Serus_Plus
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	KSZ_Gaianus_Plus={
+		name="Gaianus Plus"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Gaianus_Plus
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	KSZ_Otho_Semidex={
+		name="Otho Semidex"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Otho_Semidex
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	KSZ_Vitellius_Liberra={
+		name="Vitellius Liberra"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Vitellius_Liberra
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KSZ_Dominus_Vita={
+		name="Dominus Vita"
+
+		advisor={
+			slot = high_command
+			idea_token = KSZ_Dominus_Vita
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	KSZ_Severvius_Fonitas={
+		name="Severvius Fonitas"
+
+		advisor={
+			slot = theorist
+			idea_token = KSZ_Severvius_Fonitas
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KSZ_Gaius_Strinciumbum={
+		name="Gaius Strinciumbum"
+
+		advisor={
+			slot = theorist
+			idea_token = KSZ_Gaius_Strinciumbum
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KSZ_Silvanus_Vita={
+		name="Silvanus Vita"
+
+		advisor={
+			slot = theorist
+			idea_token = KSZ_Silvanus_Vita
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

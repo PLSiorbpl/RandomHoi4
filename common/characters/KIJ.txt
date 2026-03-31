@@ -1,0 +1,880 @@
+characters = {
+	KIJ_Liaraig_Ceinn={
+		name="Liaraig Ceinn"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIJ_Nialcolm_Luch={
+		name="Nialcolm Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Nialcolm_Luch
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KIJ_Bran_Glaighdearg={
+		name="Bran Glaighdearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Bran_Glaighdearg
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KIJ_Cialcolm_Luch={
+		name="Cialcolm Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Cialcolm_Luch
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KIJ_Bran_Sabh={
+		name="Bran Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Bran_Sabh
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KIJ_Ciaran_Sabh={
+		name="Ciaran Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Ciaran_Sabh
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KIJ_Braig_Luch={
+		name="Braig Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Braig_Luch
+				traits = {	humble 	}
+		}
+
+	}
+	KIJ_Fergus_Glaighdearg={
+		name="Fergus Glaighdearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Fergus_Glaighdearg
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KIJ_Iwan_Luchar={
+		name="Iwan Luchar"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Iwan_Luchar
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KIJ_Eoin_Reolach={
+		name="Eoin Reolach"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Eoin_Reolach
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KIJ_Keiraig_Ceinn={
+		name="Keiraig Ceinn"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Keiraig_Ceinn
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KIJ_Seam_Luch={
+		name="Seam Luch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Seam_Luch
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KIJ_Rhys_Cort={
+		name="Rhys Cort"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Rhys_Cort
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KIJ_Nialcolm_Sabh={
+		name="Nialcolm Sabh"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Nialcolm_Sabh
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	KIJ_Quinn_Sabh={
+		name="Quinn Sabh"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Quinn_Sabh
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KIJ_Cialcolm_Sabh={
+		name="Cialcolm Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Cialcolm_Sabh
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	KIJ_Iwan_Reolach={
+		name="Iwan Reolach"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Iwan_Reolach
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	KIJ_Eoinn_Luch={
+		name="Eoinn Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Eoinn_Luch
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	KIJ_Taraig_Luchar={
+		name="Taraig Luchar"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Taraig_Luchar
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	KIJ_Quinn_Ceinn={
+		name="Quinn Ceinn"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Quinn_Ceinn
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	KIJ_Fergus_Luch={
+		name="Fergus Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Fergus_Luch
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KIJ_Niall_Reolach={
+		name="Niall Reolach"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIJ_Ciaran_Luch={
+		name="Ciaran Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Ciaran_Luch
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KIJ_Fergus_Dolainnta={
+		name="Fergus Dolainnta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Fergus_Dolainnta
+				traits = {	basileus 	}
+		}
+
+	}
+	KIJ_Liaraig_Sabh={
+		name="Liaraig Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Liaraig_Sabh
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	KIJ_Eoin_Ceinn={
+		name="Eoin Ceinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Eoin_Ceinn
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	KIJ_Iwan_Luch={
+		name="Iwan Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Iwan_Luch
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	KIJ_Braig_Reolach={
+		name="Braig Reolach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Braig_Reolach
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	KIJ_Gareth_Cort={
+		name="Gareth Cort"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Gareth_Cort
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KIJ_Lialcolm_Luchar={
+		name="Lialcolm Luchar"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Lialcolm_Luchar
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KIJ_Liaraig_Geann={
+		name="Liaraig Geann"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Liaraig_Geann
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	KIJ_Keiraig_Glaighdearg={
+		name="Keiraig Glaighdearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Keiraig_Glaighdearg
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KIJ_Owen_Breing={
+		name="Owen Breing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Owen_Breing
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	KIJ_Gareth_Geann={
+		name="Gareth Geann"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Gareth_Geann
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KIJ_Liaraig_Dolainnta={
+		name="Liaraig Dolainnta"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Liaraig_Dolainnta
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KIJ_Rhys_Luch={
+		name="Rhys Luch"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Rhys_Luch
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KIJ_Quin_Luchar={
+		name="Quin Luchar"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Quin_Luchar
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	KIJ_Hugh_Sabh={
+		name="Hugh Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Hugh_Sabh
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	KIJ_Seamus_Luchar={
+		name="Seamus Luchar"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Seamus_Luchar
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	KIJ_Taraig_Sabh={
+		name="Taraig Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Taraig_Sabh
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	KIJ_Niall_Geann={
+		name="Niall Geann"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Niall_Geann
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	KIJ_Aidan_Sabh={
+		name="Aidan Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Aidan_Sabh
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KIJ_Ciam_Cort={
+		name="Ciam Cort"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIJ_Bran_Ceinn={
+		name="Bran Ceinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Bran_Ceinn
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KIJ_Quin_Luch={
+		name="Quin Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Quin_Luch
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	KIJ_Owen_Glaighdearg={
+		name="Owen Glaighdearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Owen_Glaighdearg
+				traits = {	polemarch 	}
+		}
+
+	}
+	KIJ_Tareth_Ceinn={
+		name="Tareth Ceinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Tareth_Ceinn
+				traits = {	polemarch 	}
+		}
+
+	}
+	KIJ_Tareth_Luchar={
+		name="Tareth Luchar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Tareth_Luchar
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KIJ_Keiran_Cort={
+		name="Keiran Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Keiran_Cort
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KIJ_Bran_Dolainnta={
+		name="Bran Dolainnta"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Bran_Dolainnta
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KIJ_Bran_Geann={
+		name="Bran Geann"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Bran_Geann
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KIJ_Keiran_Geann={
+		name="Keiran Geann"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Keiran_Geann
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KIJ_Nialcolm_Reolach={
+		name="Nialcolm Reolach"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Nialcolm_Reolach
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KIJ_Braig_Glaighdearg={
+		name="Braig Glaighdearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Braig_Glaighdearg
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KIJ_Ciaran_Glaighdearg={
+		name="Ciaran Glaighdearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Ciaran_Glaighdearg
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	KIJ_Eoinn_Ceinn={
+		name="Eoinn Ceinn"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Eoinn_Ceinn
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KIJ_Braig_Dolainnta={
+		name="Braig Dolainnta"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Braig_Dolainnta
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KIJ_Gareth_Luchar={
+		name="Gareth Luchar"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Gareth_Luchar
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	KIJ_Gareth_Breing={
+		name="Gareth Breing"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Gareth_Breing
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	KIJ_Hugh_Luch={
+		name="Hugh Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Hugh_Luch
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	KIJ_Mall_Dolainnta={
+		name="Mall Dolainnta"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Mall_Dolainnta
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	KIJ_Quin_Breing={
+		name="Quin Breing"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Quin_Breing
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KIJ_Taraig_Geann={
+		name="Taraig Geann"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Taraig_Geann
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	KIJ_Quin_Ceinn={
+		name="Quin Ceinn"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIJ_Mall_Cort={
+		name="Mall Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Mall_Cort
+				traits = {	infirm 	}
+		}
+
+	}
+	KIJ_Liaran_Cort={
+		name="Liaran Cort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Liaran_Cort
+				traits = {	infirm 	}
+		}
+
+	}
+	KIJ_Garan_Sabh={
+		name="Garan Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Garan_Sabh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KIJ_Malcolm_Geann={
+		name="Malcolm Geann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Malcolm_Geann
+				traits = {	the_banker 	}
+		}
+
+	}
+	KIJ_Mall_Luch={
+		name="Mall Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Mall_Luch
+				traits = {	the_banker 	}
+		}
+
+	}
+	KIJ_Bran_Luch={
+		name="Bran Luch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIJ_Bran_Luch
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KIJ_Liaran_Luch={
+		name="Liaran Luch"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Liaran_Luch
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KIJ_Garan_Dolainnta={
+		name="Garan Dolainnta"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Garan_Dolainnta
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KIJ_Liaran_Luchar={
+		name="Liaran Luchar"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Liaran_Luchar
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KIJ_Liaran_Glaighdearg={
+		name="Liaran Glaighdearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIJ_Liaran_Glaighdearg
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KIJ_Cialcolm_Breing={
+		name="Cialcolm Breing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Cialcolm_Breing
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	KIJ_Ciaran_Reolach={
+		name="Ciaran Reolach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIJ_Ciaran_Reolach
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KIJ_Declan_Breing={
+		name="Declan Breing"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Declan_Breing
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KIJ_Nialcolm_Breing={
+		name="Nialcolm Breing"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIJ_Nialcolm_Breing
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	KIJ_Quinn_Breing={
+		name="Quinn Breing"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Quinn_Breing
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	KIJ_Taran_Ceinn={
+		name="Taran Ceinn"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Taran_Ceinn
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KIJ_Eoin_Luch={
+		name="Eoin Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Eoin_Luch
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	KIJ_Malcolm_Ceinn={
+		name="Malcolm Ceinn"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Malcolm_Ceinn
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	KIJ_Ulrich_Ceinn={
+		name="Ulrich Ceinn"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Ulrich_Ceinn
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KIJ_Liaraig_Luch={
+		name="Liaraig Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = KIJ_Liaraig_Luch
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	KIJ_Quinn_Dolainnta={
+		name="Quinn Dolainnta"
+
+		advisor={
+			slot = theorist
+			idea_token = KIJ_Quinn_Dolainnta
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KIJ_Aidan_Breing={
+		name="Aidan Breing"
+
+		advisor={
+			slot = theorist
+			idea_token = KIJ_Aidan_Breing
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KIJ_Liaran_Geann={
+		name="Liaran Geann"
+
+		advisor={
+			slot = theorist
+			idea_token = KIJ_Liaran_Geann
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

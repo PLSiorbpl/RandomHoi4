@@ -17,7 +17,6 @@ if = {
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
-starting_truck_buffer = 0.8
 
 # Starting tech
 set_technology = {
@@ -690,8 +689,6 @@ if = {
 			modules = {
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_armor_slot = empty
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_engine_slot = carrier_ship_engine_1
 				fixed_ship_radar_slot = empty
 				fixed_ship_secondaries_slot = ship_secondaries_1
@@ -706,8 +703,6 @@ if = {
 			modules = {
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_armor_slot = empty
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_engine_slot = carrier_ship_engine_2
 				fixed_ship_radar_slot = empty
 				fixed_ship_secondaries_slot = ship_secondaries_1
@@ -836,22 +831,22 @@ if = {
 		armored_car1 = 1
 	}
 }
-set_research_slots = 5
-set_convoys = 126
-set_stability = 88
-set_war_support = 43
+set_research_slots = 2
+set_convoys = 30
+set_stability = 70
+set_war_support = 40
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1885.10.3"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 12
-	fascism = 33
-	communism = 21
-	neutrality = 34
+	democratic = 40
+	fascism = 10
+	communism = 30
+	neutrality = 20
 }
 
 

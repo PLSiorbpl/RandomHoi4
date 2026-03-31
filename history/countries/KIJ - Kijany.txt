@@ -1,0 +1,531 @@
+capital = 1241
+
+oob = "KIJ_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "KIJ_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "KIJ_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "KIJ_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			armor_piercing_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Dolainnta Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "KIJ_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_carrier = 1
+	basic_destroyer = 1
+	basic_submarine = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "KIJ_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Luch Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Glaighdearg Class"
+			type = destroyer_2
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Reolach Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Reolach Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Luch Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Dolainnta Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Dolainnta Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ceinn Class"
+			type = carrier_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Dolainnta Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Reolach Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_depth_charges = 1
+	basic_light_battery = 1
+	basic_ship_hull_carrier = 1
+	basic_ship_hull_light = 1
+	basic_ship_hull_submarine = 1
+	basic_torpedo = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	improved_depth_charges = 1
+	improved_ship_torpedo_launcher = 1
+	mtg_transport = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "KIJ_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Luch Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_torpedo_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Glaighdearg Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_torpedo_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Reolach Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Reolach Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Luch Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Dolainnta Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Dolainnta Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_deck_space
+				mid_1_custom_slot = ship_armor_carrier_deck
+			}
+		}
+		create_equipment_variant = {
+			name = "Ceinn Class"
+			type = ship_hull_carrier_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_deck_space
+				mid_1_custom_slot = ship_deck_space
+			}
+		}
+		create_equipment_variant = {
+			name = "Dolainnta Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Reolach Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub_2
+			}
+		}
+
+	}
+
+
+recruit_character = KIJ_Liaraig_Ceinn
+recruit_character = KIJ_Nialcolm_Luch
+recruit_character = KIJ_Bran_Glaighdearg
+recruit_character = KIJ_Cialcolm_Luch
+recruit_character = KIJ_Bran_Sabh
+recruit_character = KIJ_Ciaran_Sabh
+recruit_character = KIJ_Braig_Luch
+recruit_character = KIJ_Fergus_Glaighdearg
+recruit_character = KIJ_Iwan_Luchar
+recruit_character = KIJ_Eoin_Reolach
+recruit_character = KIJ_Keiraig_Ceinn
+recruit_character = KIJ_Seam_Luch
+recruit_character = KIJ_Rhys_Cort
+recruit_character = KIJ_Nialcolm_Sabh
+recruit_character = KIJ_Quinn_Sabh
+recruit_character = KIJ_Cialcolm_Sabh
+recruit_character = KIJ_Iwan_Reolach
+recruit_character = KIJ_Eoinn_Luch
+recruit_character = KIJ_Taraig_Luchar
+recruit_character = KIJ_Quinn_Ceinn
+recruit_character = KIJ_Fergus_Luch
+recruit_character = KIJ_Niall_Reolach
+recruit_character = KIJ_Ciaran_Luch
+recruit_character = KIJ_Fergus_Dolainnta
+recruit_character = KIJ_Liaraig_Sabh
+recruit_character = KIJ_Eoin_Ceinn
+recruit_character = KIJ_Iwan_Luch
+recruit_character = KIJ_Braig_Reolach
+recruit_character = KIJ_Gareth_Cort
+recruit_character = KIJ_Lialcolm_Luchar
+recruit_character = KIJ_Liaraig_Geann
+recruit_character = KIJ_Keiraig_Glaighdearg
+recruit_character = KIJ_Owen_Breing
+recruit_character = KIJ_Gareth_Geann
+recruit_character = KIJ_Liaraig_Dolainnta
+recruit_character = KIJ_Rhys_Luch
+recruit_character = KIJ_Quin_Luchar
+recruit_character = KIJ_Hugh_Sabh
+recruit_character = KIJ_Seamus_Luchar
+recruit_character = KIJ_Taraig_Sabh
+recruit_character = KIJ_Niall_Geann
+recruit_character = KIJ_Aidan_Sabh
+recruit_character = KIJ_Ciam_Cort
+recruit_character = KIJ_Bran_Ceinn
+recruit_character = KIJ_Quin_Luch
+recruit_character = KIJ_Owen_Glaighdearg
+recruit_character = KIJ_Tareth_Ceinn
+recruit_character = KIJ_Tareth_Luchar
+recruit_character = KIJ_Keiran_Cort
+recruit_character = KIJ_Bran_Dolainnta
+recruit_character = KIJ_Bran_Geann
+recruit_character = KIJ_Keiran_Geann
+recruit_character = KIJ_Nialcolm_Reolach
+recruit_character = KIJ_Braig_Glaighdearg
+recruit_character = KIJ_Ciaran_Glaighdearg
+recruit_character = KIJ_Eoinn_Ceinn
+recruit_character = KIJ_Braig_Dolainnta
+recruit_character = KIJ_Gareth_Luchar
+recruit_character = KIJ_Gareth_Breing
+recruit_character = KIJ_Hugh_Luch
+recruit_character = KIJ_Mall_Dolainnta
+recruit_character = KIJ_Quin_Breing
+recruit_character = KIJ_Taraig_Geann
+recruit_character = KIJ_Quin_Ceinn
+recruit_character = KIJ_Mall_Cort
+recruit_character = KIJ_Liaran_Cort
+recruit_character = KIJ_Garan_Sabh
+recruit_character = KIJ_Malcolm_Geann
+recruit_character = KIJ_Mall_Luch
+recruit_character = KIJ_Bran_Luch
+recruit_character = KIJ_Liaran_Luch
+recruit_character = KIJ_Garan_Dolainnta
+recruit_character = KIJ_Liaran_Luchar
+recruit_character = KIJ_Liaran_Glaighdearg
+recruit_character = KIJ_Cialcolm_Breing
+recruit_character = KIJ_Ciaran_Reolach
+recruit_character = KIJ_Declan_Breing
+recruit_character = KIJ_Nialcolm_Breing
+recruit_character = KIJ_Quinn_Breing
+recruit_character = KIJ_Taran_Ceinn
+recruit_character = KIJ_Eoin_Luch
+recruit_character = KIJ_Malcolm_Ceinn
+recruit_character = KIJ_Ulrich_Ceinn
+recruit_character = KIJ_Liaraig_Luch
+recruit_character = KIJ_Quinn_Dolainnta
+recruit_character = KIJ_Aidan_Breing
+recruit_character = KIJ_Liaran_Geann
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 18
+set_war_support = 54
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1900.10.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 18
+	fascism = 23
+	communism = 36
+	neutrality = 23
+}
+
+
+
+
+
