@@ -7,28 +7,54 @@
             add = 10
             tag = ZAP
         }
-    }
+      }
 
  focus = {
     id = ZAP_focus_1
-    icon = GFX_SOV_carry_revolution_east_ccp_2d_sov_compatibility
+    icon = GFX_focus_generic_workers_and_farmers_rise
 
     x = 1
     y = 0
-    cost = 5
+    cost = 3
 
     completion_reward = {
        add_political_power = -50
 
-            country_event = { id = zap.war.1 days = 5 }
+            country_event = { id = zap.war.1 days = 1 }
     }
  }
  focus = {
    id = ZAP_focus_2
-   icon = GFX_surrender_tiny_flag
-   cost = x
-   x = x
-   y = x
-   completion_reward = { }
+   icon = GFX_SOV_barrier_troops_ccp_2d_sov_compatibility
+   cost = 3
+   x = 1   
+   y = 1
+   prerequisite = {
+      focus = ZAP_focus_1
+   }
+   completion_reward = {
+      add_equipment_to_stockpile = {
+         type = infantry_equipment
+         amount = -500
+      }
+      add_party_popularity = {
+         ideology = democratic
+         amount = -0.05
+      }
+   }
+ }
+ focus = {
+    id = ZAP_focus_1
+    icon = GFX_focus_generic_workers_and_farmers_rise
+
+    x = 1
+    y = 0
+    cost = 3
+
+    completion_reward = {
+       add_political_power = -50
+
+            country_event = { id = zap.war.1 days = 1 }
+    }
  }
 }

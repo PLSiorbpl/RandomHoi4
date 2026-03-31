@@ -1,15 +1,18 @@
-add_namespace = zap.war
- country_event = {
+add_namespace = zap.war 
+
+country_event = {
 	id = zap.war.1
-	title = "Unrest in the Wielgus region"
-	desc = "Our counter inteligence has reported that there is a growing unrest in the Wielgus region. The local population is unhappy with the current government and there are rumors of a possible uprising. We need to take action to prevent this from happening."
+	title = "Intensified chaos in the Wielgus region."
+	desc = "Military has failed to contain the situation. Protestoers are demanding voting rights and fair treatment. They are even starting to attack the local military garrisons."
+	picture = GFX_report_event_war
 
-	option = {
-		name = "Let's investigate the situation"
-		add_stability = -5
+	trigger = {
+		tag = ZAP
 	}
-
+	option = {
+		name = "What is going on?!"
+		add_political_power = -50
+		add_stability = -0.10
+	}
 	fire_only_once = yes
-
-
- }
+}
