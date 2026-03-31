@@ -1,0 +1,49 @@
+add_namespace = kob_proboszcz
+ country_event = {
+	id = kob_proboszcz.1
+
+	title = "kob_proboszcz.1.t"
+	desc = "kob_proboszcz.1.d"
+
+	picture = GFX_report_event_generic_read_write
+
+	option = {
+		name = "kob_proboszcz.1.a"
+		if = {
+			limit = { has_political_power > 99 } # Wymaganie
+
+			add_stability = 0.1
+			add_war_support = -0.05
+			add_political_power = -100
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
+	}
+	option = {
+		name = "kob_proboszcz.1.b"
+		add_stability = -0.1
+		add_war_support = -0.1
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+	}
+	option = {
+		name = "kob_proboszcz.1.c"
+		if = {
+			limit = { has_political_power > 14 } # Wymaganie
+
+			add_stability = -0.05
+			add_war_support = -0.1
+			add_political_power = -25
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+		}
+	}
+
+	fire_only_once = yes
+ }
