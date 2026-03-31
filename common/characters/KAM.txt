@@ -1,5 +1,5 @@
 characters = {
-	COO_Omin_Gofarq={
+	KAM_Omin_Gofarq={
 		name="Omin Gofarq"
 
 		
@@ -11,207 +11,207 @@ characters = {
 		}
 
 	}
-	COO_Peyman_Ragbarvazes={
+	KAM_Peyman_Ragbarvazes={
 		name="Peyman Ragbarvazes"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Peyman_Ragbarvazes
+			idea_token = KAM_Peyman_Ragbarvazes
 				traits = {	headstrong 	}
 		}
 
 	}
-	COO_Ahmad_Kavir={
+	KAM_Ahmad_Kavir={
 		name="Ahmad Kavir"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Ahmad_Kavir
+			idea_token = KAM_Ahmad_Kavir
 				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	COO_Ramir_Ragbarvazes={
+	KAM_Ramir_Ragbarvazes={
 		name="Ramir Ragbarvazes"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Ramir_Ragbarvazes
+			idea_token = KAM_Ramir_Ragbarvazes
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	COO_Navid_Kavir={
+	KAM_Navid_Kavir={
 		name="Navid Kavir"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Navid_Kavir
+			idea_token = KAM_Navid_Kavir
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	COO_Mehza_Gofarq={
+	KAM_Mehza_Gofarq={
 		name="Mehza Gofarq"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Mehza_Gofarq
+			idea_token = KAM_Mehza_Gofarq
 				traits = {	headstrong 	}
 		}
 
 	}
-	COO_Kaveh_Ketayeh={
+	KAM_Kaveh_Ketayeh={
 		name="Kaveh Ketayeh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Kaveh_Ketayeh
+			idea_token = KAM_Kaveh_Ketayeh
 				traits = {	socialite_connections 	}
 		}
 
 	}
-	COO_Amir_Darya={
+	KAM_Amir_Darya={
 		name="Amir Darya"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Amir_Darya
+			idea_token = KAM_Amir_Darya
 				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	COO_Ahma_Dustar={
+	KAM_Ahma_Dustar={
 		name="Ahma Dustar"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Ahma_Dustar
+			idea_token = KAM_Ahma_Dustar
 				traits = {	army_chief_reform_1 	}
 		}
 
 	}
-	COO_Parhaman_Roofanin={
+	KAM_Parhaman_Roofanin={
 		name="Parhaman Roofanin"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Parhaman_Roofanin
+			idea_token = KAM_Parhaman_Roofanin
 				traits = {	army_chief_maneuver_1 	}
 		}
 
 	}
-	COO_Ebramir_Dustar={
+	KAM_Ebramir_Dustar={
 		name="Ebramir Dustar"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Ebramir_Dustar
+			idea_token = KAM_Ebramir_Dustar
 				traits = {	army_chief_maneuver_1 	}
 		}
 
 	}
-	COO_Kavehdi_Ragbarvazes={
+	KAM_Kavehdi_Ragbarvazes={
 		name="Kavehdi Ragbarvazes"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Kavehdi_Ragbarvazes
+			idea_token = KAM_Kavehdi_Ragbarvazes
 				traits = {	navy_chief_reform_2 	}
 		}
 
 	}
-	COO_Parhamir_Ketayeh={
+	KAM_Parhamir_Ketayeh={
 		name="Parhamir Ketayeh"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Parhamir_Ketayeh
+			idea_token = KAM_Parhamir_Ketayeh
 				traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 	}
-	COO_Kamin_Gofarq={
+	KAM_Kamin_Gofarq={
 		name="Kamin Gofarq"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Kamin_Gofarq
+			idea_token = KAM_Kamin_Gofarq
 				traits = {	air_chief_all_weather_1 	}
 		}
 
 	}
-	COO_Saeed_Toot={
+	KAM_Saeed_Toot={
 		name="Saeed Toot"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Saeed_Toot
+			idea_token = KAM_Saeed_Toot
 				traits = {	air_chief_all_weather_2 	}
 		}
 
 	}
-	COO_Navehdi_Ketayeh={
+	KAM_Navehdi_Ketayeh={
 		name="Navehdi Ketayeh"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Navehdi_Ketayeh
+			idea_token = KAM_Navehdi_Ketayeh
 				traits = {	navy_carrier_1 	}
 		}
 
 	}
-	COO_Peyma_Roofanin={
+	KAM_Peyma_Roofanin={
 		name="Peyma Roofanin"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Peyma_Roofanin
+			idea_token = KAM_Peyma_Roofanin
 				traits = {	navy_amphibious_assault_2 	}
 		}
 
 	}
-	COO_Parhamir_Nest={
+	KAM_Parhamir_Nest={
 		name="Parhamir Nest"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Parhamir_Nest
+			idea_token = KAM_Parhamir_Nest
 				traits = {	air_air_combat_training_1 	}
 		}
 
 	}
-	COO_Amid_Ragbarvazes={
+	KAM_Amid_Ragbarvazes={
 		name="Amid Ragbarvazes"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Amid_Ragbarvazes
+			idea_token = KAM_Amid_Ragbarvazes
 				traits = {	navy_carrier_2 	}
 		}
 
 	}
-	COO_Shaman_Nest={
+	KAM_Shaman_Nest={
 		name="Shaman Nest"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Shaman_Nest
+			idea_token = KAM_Shaman_Nest
 				traits = {	navy_submarine_1 	}
 		}
 
 	}
-	COO_Peyman_Ketayeh={
+	KAM_Peyman_Ketayeh={
 		name="Peyman Ketayeh"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Peyman_Ketayeh
+			idea_token = KAM_Peyman_Ketayeh
 				traits = {	navy_submarine_2 	}
 		}
 
 	}
-	COO_Farham_Kavir={
+	KAM_Farham_Kavir={
 		name="Farham Kavir"
 
 		
@@ -223,207 +223,207 @@ characters = {
 		}
 
 	}
-	COO_Amin_Darya={
+	KAM_Amin_Darya={
 		name="Amin Darya"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Amin_Darya
+			idea_token = KAM_Amin_Darya
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	COO_Kaman_Toot={
+	KAM_Kaman_Toot={
 		name="Kaman Toot"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Kaman_Toot
+			idea_token = KAM_Kaman_Toot
 				traits = {	autocratic_imperialist 	}
 		}
 
 	}
-	COO_Mehza_Miveh={
+	KAM_Mehza_Miveh={
 		name="Mehza Miveh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Mehza_Miveh
+			idea_token = KAM_Mehza_Miveh
 				traits = {	collaborator_king 	}
 		}
 
 	}
-	COO_Ebram_Gofarq={
+	KAM_Ebram_Gofarq={
 		name="Ebram Gofarq"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Ebram_Gofarq
+			idea_token = KAM_Ebram_Gofarq
 				traits = {	autocratic_imperialist 	}
 		}
 
 	}
-	COO_Armal_Nest={
+	KAM_Armal_Nest={
 		name="Armal Nest"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Armal_Nest
+			idea_token = KAM_Armal_Nest
 				traits = {	polemarch 	}
 		}
 
 	}
-	COO_Kamin_Miveh={
+	KAM_Kamin_Miveh={
 		name="Kamin Miveh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Kamin_Miveh
+			idea_token = KAM_Kamin_Miveh
 				traits = {	warmonger 	}
 		}
 
 	}
-	COO_Naveh_Roofanin={
+	KAM_Naveh_Roofanin={
 		name="Naveh Roofanin"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Naveh_Roofanin
+			idea_token = KAM_Naveh_Roofanin
 				traits = {	army_chief_reform_2 	}
 		}
 
 	}
-	COO_Armal_Miveh={
+	KAM_Armal_Miveh={
 		name="Armal Miveh"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Armal_Miveh
+			idea_token = KAM_Armal_Miveh
 				traits = {	army_chief_maneuver_2 	}
 		}
 
 	}
-	COO_Amir_Ragbarvazes={
+	KAM_Amir_Ragbarvazes={
 		name="Amir Ragbarvazes"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Amir_Ragbarvazes
+			idea_token = KAM_Amir_Ragbarvazes
 				traits = {	army_chief_morale_1 	}
 		}
 
 	}
-	COO_Peymad_Toot={
+	KAM_Peymad_Toot={
 		name="Peymad Toot"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Peymad_Toot
+			idea_token = KAM_Peymad_Toot
 				traits = {	army_chief_morale_1 	}
 		}
 
 	}
-	COO_Milad_Kavir={
+	KAM_Milad_Kavir={
 		name="Milad Kavir"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Milad_Kavir
+			idea_token = KAM_Milad_Kavir
 				traits = {	navy_chief_reform_1 	}
 		}
 
 	}
-	COO_Peyman_Gofarq={
+	KAM_Peyman_Gofarq={
 		name="Peyman Gofarq"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Peyman_Gofarq
+			idea_token = KAM_Peyman_Gofarq
 				traits = {	navy_chief_decisive_battle_2 	}
 		}
 
 	}
-	COO_Ebram_Ketayeh={
+	KAM_Ebram_Ketayeh={
 		name="Ebram Ketayeh"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Ebram_Ketayeh
+			idea_token = KAM_Ebram_Ketayeh
 				traits = {	air_chief_night_operations_1 	}
 		}
 
 	}
-	COO_Arman_Ragbarvazes={
+	KAM_Arman_Ragbarvazes={
 		name="Arman Ragbarvazes"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Arman_Ragbarvazes
+			idea_token = KAM_Arman_Ragbarvazes
 				traits = {	air_chief_all_weather_1 	}
 		}
 
 	}
-	COO_Kavid_Ketayeh={
+	KAM_Kavid_Ketayeh={
 		name="Kavid Ketayeh"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Kavid_Ketayeh
+			idea_token = KAM_Kavid_Ketayeh
 				traits = {	navy_amphibious_assault_1 	}
 		}
 
 	}
-	COO_Mossein_Gofarq={
+	KAM_Mossein_Gofarq={
 		name="Mossein Gofarq"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Mossein_Gofarq
+			idea_token = KAM_Mossein_Gofarq
 				traits = {	air_air_combat_training_1 	}
 		}
 
 	}
-	COO_Ebrahramad_Toot={
+	KAM_Ebrahramad_Toot={
 		name="Ebrahramad Toot"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Ebrahramad_Toot
+			idea_token = KAM_Ebrahramad_Toot
 				traits = {	navy_screen_2 	}
 		}
 
 	}
-	COO_Amin_Gofarq={
+	KAM_Amin_Gofarq={
 		name="Amin Gofarq"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Amin_Gofarq
+			idea_token = KAM_Amin_Gofarq
 				traits = {	army_radio_intelligence_1 	}
 		}
 
 	}
-	COO_Peyman_Nest={
+	KAM_Peyman_Nest={
 		name="Peyman Nest"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Peyman_Nest
+			idea_token = KAM_Peyman_Nest
 				traits = {	air_bomber_interception_2 	}
 		}
 
 	}
-	COO_Naveh_Ketayeh={
+	KAM_Naveh_Ketayeh={
 		name="Naveh Ketayeh"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Naveh_Ketayeh
+			idea_token = KAM_Naveh_Ketayeh
 				traits = {	navy_carrier_2 	}
 		}
 
 	}
-	COO_Ahmad_Miveh={
+	KAM_Ahmad_Miveh={
 		name="Ahmad Miveh"
 
 		
@@ -435,207 +435,207 @@ characters = {
 		}
 
 	}
-	COO_Mossein_Dustar={
+	KAM_Mossein_Dustar={
 		name="Mossein Dustar"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Mossein_Dustar
+			idea_token = KAM_Mossein_Dustar
 				traits = {	political_dancer 	}
 		}
 
 	}
-	COO_Peyma_Miveh={
+	KAM_Peyma_Miveh={
 		name="Peyma Miveh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Peyma_Miveh
+			idea_token = KAM_Peyma_Miveh
 				traits = {	indomitable_perseverance 	}
 		}
 
 	}
-	COO_Armad_Gofarq={
+	KAM_Armad_Gofarq={
 		name="Armad Gofarq"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Armad_Gofarq
+			idea_token = KAM_Armad_Gofarq
 				traits = {	polemarch 	}
 		}
 
 	}
-	COO_Kavid_Darya={
+	KAM_Kavid_Darya={
 		name="Kavid Darya"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Kavid_Darya
+			idea_token = KAM_Kavid_Darya
 				traits = {	political_dancer 	}
 		}
 
 	}
-	COO_Kavid_Nest={
+	KAM_Kavid_Nest={
 		name="Kavid Nest"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Kavid_Nest
+			idea_token = KAM_Kavid_Nest
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	COO_Ebramal_Dustar={
+	KAM_Ebramal_Dustar={
 		name="Ebramal Dustar"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Ebramal_Dustar
+			idea_token = KAM_Ebramal_Dustar
 				traits = {	infirm 	}
 		}
 
 	}
-	COO_Farhad_Kavir={
+	KAM_Farhad_Kavir={
 		name="Farhad Kavir"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Farhad_Kavir
+			idea_token = KAM_Farhad_Kavir
 				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	COO_Milad_Darya={
+	KAM_Milad_Darya={
 		name="Milad Darya"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Milad_Darya
+			idea_token = KAM_Milad_Darya
 				traits = {	army_chief_reform_2 	}
 		}
 
 	}
-	COO_Ramir_Miveh={
+	KAM_Ramir_Miveh={
 		name="Ramir Miveh"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Ramir_Miveh
+			idea_token = KAM_Ramir_Miveh
 				traits = {	army_chief_reform_1 	}
 		}
 
 	}
-	COO_Hassein_Kavir={
+	KAM_Hassein_Kavir={
 		name="Hassein Kavir"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Hassein_Kavir
+			idea_token = KAM_Hassein_Kavir
 				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	COO_Ebram_Kavir={
+	KAM_Ebram_Kavir={
 		name="Ebram Kavir"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Ebram_Kavir
+			idea_token = KAM_Ebram_Kavir
 				traits = {	navy_chief_old_guard_1 	}
 		}
 
 	}
-	COO_Shamal_Kavir={
+	KAM_Shamal_Kavir={
 		name="Shamal Kavir"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Shamal_Kavir
+			idea_token = KAM_Shamal_Kavir
 				traits = {	navy_chief_commerce_raiding_1 	}
 		}
 
 	}
-	COO_Parhaman_Kavir={
+	KAM_Parhaman_Kavir={
 		name="Parhaman Kavir"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Parhaman_Kavir
+			idea_token = KAM_Parhaman_Kavir
 				traits = {	air_chief_reform_2 	}
 		}
 
 	}
-	COO_Mehdi_Ketayeh={
+	KAM_Mehdi_Ketayeh={
 		name="Mehdi Ketayeh"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Mehdi_Ketayeh
+			idea_token = KAM_Mehdi_Ketayeh
 				traits = {	air_chief_night_operations_1 	}
 		}
 
 	}
-	COO_Peymad_Miveh={
+	KAM_Peymad_Miveh={
 		name="Peymad Miveh"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Peymad_Miveh
+			idea_token = KAM_Peymad_Miveh
 				traits = {	air_tactical_bombing_2 	}
 		}
 
 	}
-	COO_Peymad_Kavir={
+	KAM_Peymad_Kavir={
 		name="Peymad Kavir"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Peymad_Kavir
+			idea_token = KAM_Peymad_Kavir
 				traits = {	navy_amphibious_assault_2 	}
 		}
 
 	}
-	COO_Ebramal_Gofarq={
+	KAM_Ebramal_Gofarq={
 		name="Ebramal Gofarq"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Ebramal_Gofarq
+			idea_token = KAM_Ebramal_Gofarq
 				traits = {	air_bomber_interception_1 	}
 		}
 
 	}
-	COO_Omin_Ketayeh={
+	KAM_Omin_Ketayeh={
 		name="Omin Ketayeh"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Omin_Ketayeh
+			idea_token = KAM_Omin_Ketayeh
 				traits = {	air_strategic_bombing_1 	}
 		}
 
 	}
-	COO_Omin_Roofanin={
+	KAM_Omin_Roofanin={
 		name="Omin Roofanin"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Omin_Roofanin
+			idea_token = KAM_Omin_Roofanin
 				traits = {	navy_amphibious_assault_1 	}
 		}
 
 	}
-	COO_Amin_Roofanin={
+	KAM_Amin_Roofanin={
 		name="Amin Roofanin"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Amin_Roofanin
+			idea_token = KAM_Amin_Roofanin
 				traits = {	air_airborne_1 	}
 		}
 
 	}
-	COO_Saeed_Miveh={
+	KAM_Saeed_Miveh={
 		name="Saeed Miveh"
 
 		
@@ -647,232 +647,232 @@ characters = {
 		}
 
 	}
-	COO_Hostafa_Nest={
+	KAM_Hostafa_Nest={
 		name="Hostafa Nest"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Hostafa_Nest
+			idea_token = KAM_Hostafa_Nest
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	COO_Ahma_Miveh={
+	KAM_Ahma_Miveh={
 		name="Ahma Miveh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Ahma_Miveh
+			idea_token = KAM_Ahma_Miveh
 				traits = {	conservative_grandee 	}
 		}
 
 	}
-	COO_Hossein_Ragbarvazes={
+	KAM_Hossein_Ragbarvazes={
 		name="Hossein Ragbarvazes"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Hossein_Ragbarvazes
+			idea_token = KAM_Hossein_Ragbarvazes
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	COO_Ebrahramad_Ragbarvazes={
+	KAM_Ebrahramad_Ragbarvazes={
 		name="Ebrahramad Ragbarvazes"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Ebrahramad_Ragbarvazes
+			idea_token = KAM_Ebrahramad_Ragbarvazes
 				traits = {	first_lady 	}
 		}
 
 	}
-	COO_Saeed_Nest={
+	KAM_Saeed_Nest={
 		name="Saeed Nest"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Saeed_Nest
+			idea_token = KAM_Saeed_Nest
 				traits = {	first_lady 	}
 		}
 
 	}
-	COO_Farhaman_Darya={
+	KAM_Farhaman_Darya={
 		name="Farhaman Darya"
 
 		advisor={
 			slot = political_advisor
-			idea_token = COO_Farhaman_Darya
+			idea_token = KAM_Farhaman_Darya
 				traits = {	liberal_democratic_paragon 	}
 		}
 
 	}
-	COO_Kavid_Miveh={
+	KAM_Kavid_Miveh={
 		name="Kavid Miveh"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Kavid_Miveh
+			idea_token = KAM_Kavid_Miveh
 				traits = {	army_chief_entrenchment_1 	}
 		}
 
 	}
-	COO_Ahma_Kavir={
+	KAM_Ahma_Kavir={
 		name="Ahma Kavir"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Ahma_Kavir
+			idea_token = KAM_Ahma_Kavir
 				traits = {	army_chief_defensive_2 	}
 		}
 
 	}
-	COO_Shamal_Nest={
+	KAM_Shamal_Nest={
 		name="Shamal Nest"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Shamal_Nest
+			idea_token = KAM_Shamal_Nest
 				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	COO_Ramin_Toot={
+	KAM_Ramin_Toot={
 		name="Ramin Toot"
 
 		advisor={
 			slot = army_chief
-			idea_token = COO_Ramin_Toot
+			idea_token = KAM_Ramin_Toot
 				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	COO_Ramir_Darya={
+	KAM_Ramir_Darya={
 		name="Ramir Darya"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Ramir_Darya
+			idea_token = KAM_Ramir_Darya
 				traits = {	navy_chief_reform_1 	}
 		}
 
 	}
-	COO_Parham_Toot={
+	KAM_Parham_Toot={
 		name="Parham Toot"
 
 		advisor={
 			slot = navy_chief
-			idea_token = COO_Parham_Toot
+			idea_token = KAM_Parham_Toot
 				traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 	}
-	COO_Omid_Miveh={
+	KAM_Omid_Miveh={
 		name="Omid Miveh"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Omid_Miveh
+			idea_token = KAM_Omid_Miveh
 				traits = {	air_chief_safety_1 	}
 		}
 
 	}
-	COO_Babak_Kavir={
+	KAM_Babak_Kavir={
 		name="Babak Kavir"
 
 		advisor={
 			slot = air_chief
-			idea_token = COO_Babak_Kavir
+			idea_token = KAM_Babak_Kavir
 				traits = {	air_chief_all_weather_1 	}
 		}
 
 	}
-	COO_Navehdi_Roofanin={
+	KAM_Navehdi_Roofanin={
 		name="Navehdi Roofanin"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Navehdi_Roofanin
+			idea_token = KAM_Navehdi_Roofanin
 				traits = {	army_regrouping_2 	}
 		}
 
 	}
-	COO_Ebramir_Gofarq={
+	KAM_Ebramir_Gofarq={
 		name="Ebramir Gofarq"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Ebramir_Gofarq
+			idea_token = KAM_Ebramir_Gofarq
 				traits = {	air_tactical_bombing_1 	}
 		}
 
 	}
-	COO_Mostafa_Ragbarvazes={
+	KAM_Mostafa_Ragbarvazes={
 		name="Mostafa Ragbarvazes"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Mostafa_Ragbarvazes
+			idea_token = KAM_Mostafa_Ragbarvazes
 				traits = {	army_radio_intelligence_2 	}
 		}
 
 	}
-	COO_Kavehdi_Gofarq={
+	KAM_Kavehdi_Gofarq={
 		name="Kavehdi Gofarq"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Kavehdi_Gofarq
+			idea_token = KAM_Kavehdi_Gofarq
 				traits = {	army_infantry_2 	}
 		}
 
 	}
-	COO_Parhamir_Gofarq={
+	KAM_Parhamir_Gofarq={
 		name="Parhamir Gofarq"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Parhamir_Gofarq
+			idea_token = KAM_Parhamir_Gofarq
 				traits = {	army_entrenchment_2 	}
 		}
 
 	}
-	COO_Kavehza_Toot={
+	KAM_Kavehza_Toot={
 		name="Kavehza Toot"
 
 		advisor={
 			slot = high_command
-			idea_token = COO_Kavehza_Toot
+			idea_token = KAM_Kavehza_Toot
 				traits = {	army_entrenchment_1 	}
 		}
 
 	}
-	COO_Hossein_Miveh={
+	KAM_Hossein_Miveh={
 		name="Hossein Miveh"
 
 		advisor={
 			slot = theorist
-			idea_token = COO_Hossein_Miveh
+			idea_token = KAM_Hossein_Miveh
 				traits = {	military_theorist 	}
 		}
 
 	}
-	COO_Mossein_Miveh={
+	KAM_Mossein_Miveh={
 		name="Mossein Miveh"
 
 		advisor={
 			slot = theorist
-			idea_token = COO_Mossein_Miveh
+			idea_token = KAM_Mossein_Miveh
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	COO_Shamal_Gofarq={
+	KAM_Shamal_Gofarq={
 		name="Shamal Gofarq"
 
 		advisor={
 			slot = theorist
-			idea_token = COO_Shamal_Gofarq
+			idea_token = KAM_Shamal_Gofarq
 				traits = {	air_warfare_theorist 	}
 		}
 

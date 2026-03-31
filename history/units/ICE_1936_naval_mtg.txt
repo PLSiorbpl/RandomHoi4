@@ -8,7 +8,7 @@ units= {
 			name = "Ahcan Fleet"
 			location = 9045
 			
-						ship = { name = "Balam" definition = battleship equipment = { battleship_2 = { amount = 1 owner = AHC version_name = "Benque Class" } }	}
+						ship = { name = "Balam" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ICE version_name = "Benque Class" } }	}
 
 		}
 	}

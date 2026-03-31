@@ -1,5 +1,5 @@
 characters = {
-	FBR_Publius_Aniverbis={
+	_Publius_Aniverbis={
 		name="Publius Aniverbis"
 
 		
@@ -11,207 +11,207 @@ characters = {
 		}
 
 	}
-	FBR_Graius_Arbor={
+	_Graius_Arbor={
 		name="Graius Arbor"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Graius_Arbor
+			idea_token = _Graius_Arbor
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	FBR_Silvanus_Aniverbis={
+	_Silvanus_Aniverbis={
 		name="Silvanus Aniverbis"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Silvanus_Aniverbis
+			idea_token = _Silvanus_Aniverbis
 				traits = {	headstrong 	}
 		}
 
 	}
-	FBR_Otho_Equa={
+	_Otho_Equa={
 		name="Otho Equa"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Otho_Equa
+			idea_token = _Otho_Equa
 				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	FBR_Viberiscus_Celerrus={
+	_Viberiscus_Celerrus={
 		name="Viberiscus Celerrus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Viberiscus_Celerrus
+			idea_token = _Viberiscus_Celerrus
 				traits = {	headstrong 	}
 		}
 
 	}
-	FBR_Priscus_Insum={
+	_Priscus_Insum={
 		name="Priscus Insum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Priscus_Insum
+			idea_token = _Priscus_Insum
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	FBR_Silvanus_Otium={
+	_Silvanus_Otium={
 		name="Silvanus Otium"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Silvanus_Otium
+			idea_token = _Silvanus_Otium
 				traits = {	headstrong 	}
 		}
 
 	}
-	FBR_Aulus_Strum={
+	_Aulus_Strum={
 		name="Aulus Strum"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Aulus_Strum
+			idea_token = _Aulus_Strum
 				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	FBR_Gaianus_Arbor={
+	_Gaianus_Arbor={
 		name="Gaianus Arbor"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Gaianus_Arbor
+			idea_token = _Gaianus_Arbor
 				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	FBR_Paulus_Poetorum={
+	_Paulus_Poetorum={
 		name="Paulus Poetorum"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Paulus_Poetorum
+			idea_token = _Paulus_Poetorum
 				traits = {	army_chief_morale_1 	}
 		}
 
 	}
-	FBR_Cornellius_Equa={
+	_Cornellius_Equa={
 		name="Cornellius Equa"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Cornellius_Equa
+			idea_token = _Cornellius_Equa
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	FBR_Maximus_Poetorum={
+	_Maximus_Poetorum={
 		name="Maximus Poetorum"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Maximus_Poetorum
+			idea_token = _Maximus_Poetorum
 				traits = {	navy_chief_reform_2 	}
 		}
 
 	}
-	FBR_Servius_Strum={
+	_Servius_Strum={
 		name="Servius Strum"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Servius_Strum
+			idea_token = _Servius_Strum
 				traits = {	navy_chief_naval_aviation_2 	}
 		}
 
 	}
-	FBR_Brus_Feris={
+	_Brus_Feris={
 		name="Brus Feris"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Brus_Feris
+			idea_token = _Brus_Feris
 				traits = {	air_chief_all_weather_2 	}
 		}
 
 	}
-	FBR_Paudius_Insum={
+	_Paudius_Insum={
 		name="Paudius Insum"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Paudius_Insum
+			idea_token = _Paudius_Insum
 				traits = {	air_chief_old_guard_2 	}
 		}
 
 	}
-	FBR_Nervius_Aniverbis={
+	_Nervius_Aniverbis={
 		name="Nervius Aniverbis"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Nervius_Aniverbis
+			idea_token = _Nervius_Aniverbis
 				traits = {	air_air_combat_training_1 	}
 		}
 
 	}
-	FBR_Severiscus_Aniverbis={
+	_Severiscus_Aniverbis={
 		name="Severiscus Aniverbis"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Severiscus_Aniverbis
+			idea_token = _Severiscus_Aniverbis
 				traits = {	army_infantry_2 	}
 		}
 
 	}
-	FBR_Vibervius_Celerrus={
+	_Vibervius_Celerrus={
 		name="Vibervius Celerrus"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Vibervius_Celerrus
+			idea_token = _Vibervius_Celerrus
 				traits = {	army_regrouping_2 	}
 		}
 
 	}
-	FBR_Otho_Feris={
+	_Otho_Feris={
 		name="Otho Feris"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Otho_Feris
+			idea_token = _Otho_Feris
 				traits = {	navy_carrier_2 	}
 		}
 
 	}
-	FBR_Noniustus_Insum={
+	_Noniustus_Insum={
 		name="Noniustus Insum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Noniustus_Insum
+			idea_token = _Noniustus_Insum
 				traits = {	air_bomber_interception_2 	}
 		}
 
 	}
-	FBR_Serius_Arbor={
+	_Serius_Arbor={
 		name="Serius Arbor"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Serius_Arbor
+			idea_token = _Serius_Arbor
 				traits = {	army_regrouping_1 	}
 		}
 
 	}
-	FBR_Marcellianus_Celerrus={
+	_Marcellianus_Celerrus={
 		name="Marcellianus Celerrus"
 
 		
@@ -223,207 +223,207 @@ characters = {
 		}
 
 	}
-	FBR_Horacchustus_Arbor={
+	_Horacchustus_Arbor={
 		name="Horacchustus Arbor"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Horacchustus_Arbor
+			idea_token = _Horacchustus_Arbor
 				traits = {	collaborator_king 	}
 		}
 
 	}
-	FBR_Valerutus_Poetorum={
+	_Valerutus_Poetorum={
 		name="Valerutus Poetorum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Valerutus_Poetorum
+			idea_token = _Valerutus_Poetorum
 				traits = {	archon_basileus 	}
 		}
 
 	}
-	FBR_Tracchus_Insum={
+	_Tracchus_Insum={
 		name="Tracchus Insum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Tracchus_Insum
+			idea_token = _Tracchus_Insum
 				traits = {	basileus 	}
 		}
 
 	}
-	FBR_Augulius_Aniverbis={
+	_Augulius_Aniverbis={
 		name="Augulius Aniverbis"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Augulius_Aniverbis
+			idea_token = _Augulius_Aniverbis
 				traits = {	warmonger 	}
 		}
 
 	}
-	FBR_Paus_Celerrus={
+	_Paus_Celerrus={
 		name="Paus Celerrus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Paus_Celerrus
+			idea_token = _Paus_Celerrus
 				traits = {	warmonger 	}
 		}
 
 	}
-	FBR_Remitius_Otium={
+	_Remitius_Otium={
 		name="Remitius Otium"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Remitius_Otium
+			idea_token = _Remitius_Otium
 				traits = {	warmonger 	}
 		}
 
 	}
-	FBR_Remitellianl_Malus={
+	_Remitellianl_Malus={
 		name="Remitellianl Malus"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Remitellianl_Malus
+			idea_token = _Remitellianl_Malus
 				traits = {	army_chief_maneuver_2 	}
 		}
 
 	}
-	FBR_Caianustus_Otium={
+	_Caianustus_Otium={
 		name="Caianustus Otium"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Caianustus_Otium
+			idea_token = _Caianustus_Otium
 				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	FBR_Servius_Otium={
+	_Servius_Otium={
 		name="Servius Otium"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Servius_Otium
+			idea_token = _Servius_Otium
 				traits = {	army_chief_planning_2 	}
 		}
 
 	}
-	FBR_Scaevolaudiu_Equa={
+	_Scaevolaudiu_Equa={
 		name="Scaevolaudiu Equa"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Scaevolaudiu_Equa
+			idea_token = _Scaevolaudiu_Equa
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	FBR_Priscustus_Strum={
+	_Priscustus_Strum={
 		name="Priscustus Strum"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Priscustus_Strum
+			idea_token = _Priscustus_Strum
 				traits = {	navy_chief_reform_1 	}
 		}
 
 	}
-	FBR_Priscus_Otium={
+	_Priscus_Otium={
 		name="Priscus Otium"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Priscus_Otium
+			idea_token = _Priscus_Otium
 				traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 	}
-	FBR_Vibervius_Poetorum={
+	_Vibervius_Poetorum={
 		name="Vibervius Poetorum"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Vibervius_Poetorum
+			idea_token = _Vibervius_Poetorum
 				traits = {	air_chief_safety_1 	}
 		}
 
 	}
-	FBR_Titius_Aniverbis={
+	_Titius_Aniverbis={
 		name="Titius Aniverbis"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Titius_Aniverbis
+			idea_token = _Titius_Aniverbis
 				traits = {	air_chief_all_weather_2 	}
 		}
 
 	}
-	FBR_Antonius_Strum={
+	_Antonius_Strum={
 		name="Antonius Strum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Antonius_Strum
+			idea_token = _Antonius_Strum
 				traits = {	army_concealment_2 	}
 		}
 
 	}
-	FBR_Valerutus_Celerrus={
+	_Valerutus_Celerrus={
 		name="Valerutus Celerrus"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Valerutus_Celerrus
+			idea_token = _Valerutus_Celerrus
 				traits = {	army_commando_2 	}
 		}
 
 	}
-	FBR_Brus_Poetorum={
+	_Brus_Poetorum={
 		name="Brus Poetorum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Brus_Poetorum
+			idea_token = _Brus_Poetorum
 				traits = {	air_pilot_training_2 	}
 		}
 
 	}
-	FBR_Antonius_Otium={
+	_Antonius_Otium={
 		name="Antonius Otium"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Antonius_Otium
+			idea_token = _Antonius_Otium
 				traits = {	air_air_superiority_2 	}
 		}
 
 	}
-	FBR_Brus_Celerrus={
+	_Brus_Celerrus={
 		name="Brus Celerrus"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Brus_Celerrus
+			idea_token = _Brus_Celerrus
 				traits = {	air_bomber_interception_1 	}
 		}
 
 	}
-	FBR_Clavius_Aniverbis={
+	_Clavius_Aniverbis={
 		name="Clavius Aniverbis"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Clavius_Aniverbis
+			idea_token = _Clavius_Aniverbis
 				traits = {	navy_carrier_1 	}
 		}
 
 	}
-	FBR_Coracchus_Insum={
+	_Coracchus_Insum={
 		name="Coracchus Insum"
 
 		
@@ -435,207 +435,207 @@ characters = {
 		}
 
 	}
-	FBR_Caianustus_Equa={
+	_Caianustus_Equa={
 		name="Caianustus Equa"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Caianustus_Equa
+			idea_token = _Caianustus_Equa
 				traits = {	polemarch 	}
 		}
 
 	}
-	FBR_Augulius_Celerrus={
+	_Augulius_Celerrus={
 		name="Augulius Celerrus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Augulius_Celerrus
+			idea_token = _Augulius_Celerrus
 				traits = {	infirm 	}
 		}
 
 	}
-	FBR_Varcus_Malus={
+	_Varcus_Malus={
 		name="Varcus Malus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Varcus_Malus
+			idea_token = _Varcus_Malus
 				traits = {	indomitable_perseverance 	}
 		}
 
 	}
-	FBR_Clavius_Arbor={
+	_Clavius_Arbor={
 		name="Clavius Arbor"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Clavius_Arbor
+			idea_token = _Clavius_Arbor
 				traits = {	political_dancer 	}
 		}
 
 	}
-	FBR_Tracchus_Malus={
+	_Tracchus_Malus={
 		name="Tracchus Malus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Tracchus_Malus
+			idea_token = _Tracchus_Malus
 				traits = {	reluctant_stalinist 	}
 		}
 
 	}
-	FBR_Scaevolavius_Celerrus={
+	_Scaevolavius_Celerrus={
 		name="Scaevolavius Celerrus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Scaevolavius_Celerrus
+			idea_token = _Scaevolavius_Celerrus
 				traits = {	indomitable_perseverance 	}
 		}
 
 	}
-	FBR_Fabiusus_Insum={
+	_Fabiusus_Insum={
 		name="Fabiusus Insum"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Fabiusus_Insum
+			idea_token = _Fabiusus_Insum
 				traits = {	army_chief_maneuver_1 	}
 		}
 
 	}
-	FBR_Caianustus_Malus={
+	_Caianustus_Malus={
 		name="Caianustus Malus"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Caianustus_Malus
+			idea_token = _Caianustus_Malus
 				traits = {	army_chief_reform_2 	}
 		}
 
 	}
-	FBR_Clavius_Malus={
+	_Clavius_Malus={
 		name="Clavius Malus"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Clavius_Malus
+			idea_token = _Clavius_Malus
 				traits = {	army_chief_reform_1 	}
 		}
 
 	}
-	FBR_Urbanlius_Otium={
+	_Urbanlius_Otium={
 		name="Urbanlius Otium"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Urbanlius_Otium
+			idea_token = _Urbanlius_Otium
 				traits = {	army_chief_entrenchment_2 	}
 		}
 
 	}
-	FBR_Lucius_Strum={
+	_Lucius_Strum={
 		name="Lucius Strum"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Lucius_Strum
+			idea_token = _Lucius_Strum
 				traits = {	navy_chief_reform_2 	}
 		}
 
 	}
-	FBR_Graius_Feris={
+	_Graius_Feris={
 		name="Graius Feris"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Graius_Feris
+			idea_token = _Graius_Feris
 				traits = {	navy_chief_decisive_battle_2 	}
 		}
 
 	}
-	FBR_Lonius_Feris={
+	_Lonius_Feris={
 		name="Lonius Feris"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Lonius_Feris
+			idea_token = _Lonius_Feris
 				traits = {	air_chief_safety_1 	}
 		}
 
 	}
-	FBR_Lucius_Equa={
+	_Lucius_Equa={
 		name="Lucius Equa"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Lucius_Equa
+			idea_token = _Lucius_Equa
 				traits = {	air_chief_reform_1 	}
 		}
 
 	}
-	FBR_Cassius_Poetorum={
+	_Cassius_Poetorum={
 		name="Cassius Poetorum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Cassius_Poetorum
+			idea_token = _Cassius_Poetorum
 				traits = {	army_infantry_2 	}
 		}
 
 	}
-	FBR_Traius_Aniverbis={
+	_Traius_Aniverbis={
 		name="Traius Aniverbis"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Traius_Aniverbis
+			idea_token = _Traius_Aniverbis
 				traits = {	air_bomber_interception_2 	}
 		}
 
 	}
-	FBR_Horacchustus_Strum={
+	_Horacchustus_Strum={
 		name="Horacchustus Strum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Horacchustus_Strum
+			idea_token = _Horacchustus_Strum
 				traits = {	navy_submarine_2 	}
 		}
 
 	}
-	FBR_Remitellianl_Otium={
+	_Remitellianl_Otium={
 		name="Remitellianl Otium"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Remitellianl_Otium
+			idea_token = _Remitellianl_Otium
 				traits = {	air_pilot_training_2 	}
 		}
 
 	}
-	FBR_Gaianus_Aniverbis={
+	_Gaianus_Aniverbis={
 		name="Gaianus Aniverbis"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Gaianus_Aniverbis
+			idea_token = _Gaianus_Aniverbis
 				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	FBR_Aulus_Celerrus={
+	_Aulus_Celerrus={
 		name="Aulus Celerrus"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Aulus_Celerrus
+			idea_token = _Aulus_Celerrus
 				traits = {	army_commando_2 	}
 		}
 
 	}
-	FBR_Silvanus_Strum={
+	_Silvanus_Strum={
 		name="Silvanus Strum"
 
 		
@@ -647,232 +647,232 @@ characters = {
 		}
 
 	}
-	FBR_Valerus_Otium={
+	_Valerus_Otium={
 		name="Valerus Otium"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Valerus_Otium
+			idea_token = _Valerus_Otium
 				traits = {	the_banker 	}
 		}
 
 	}
-	FBR_Scaevolavius_Strum={
+	_Scaevolavius_Strum={
 		name="Scaevolavius Strum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Scaevolavius_Strum
+			idea_token = _Scaevolavius_Strum
 				traits = {	rearmer 	}
 		}
 
 	}
-	FBR_Nervius_Feris={
+	_Nervius_Feris={
 		name="Nervius Feris"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Nervius_Feris
+			idea_token = _Nervius_Feris
 				traits = {	conservative_grandee 	}
 		}
 
 	}
-	FBR_Priscustus_Arbor={
+	_Priscustus_Arbor={
 		name="Priscustus Arbor"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Priscustus_Arbor
+			idea_token = _Priscustus_Arbor
 				traits = {	first_lady 	}
 		}
 
 	}
-	FBR_Lonius_Equa={
+	_Lonius_Equa={
 		name="Lonius Equa"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Lonius_Equa
+			idea_token = _Lonius_Equa
 				traits = {	rearmer 	}
 		}
 
 	}
-	FBR_Aulus_Equa={
+	_Aulus_Equa={
 		name="Aulus Equa"
 
 		advisor={
 			slot = political_advisor
-			idea_token = FBR_Aulus_Equa
+			idea_token = _Aulus_Equa
 				traits = {	conservative_grandee 	}
 		}
 
 	}
-	FBR_Maximus_Strum={
+	_Maximus_Strum={
 		name="Maximus Strum"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Maximus_Strum
+			idea_token = _Maximus_Strum
 				traits = {	army_chief_drill_1 	}
 		}
 
 	}
-	FBR_Remus_Insum={
+	_Remus_Insum={
 		name="Remus Insum"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Remus_Insum
+			idea_token = _Remus_Insum
 				traits = {	army_chief_offensive_2 	}
 		}
 
 	}
-	FBR_Brus_Malus={
+	_Brus_Malus={
 		name="Brus Malus"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Brus_Malus
+			idea_token = _Brus_Malus
 				traits = {	army_chief_planning_1 	}
 		}
 
 	}
-	FBR_Coracchus_Feris={
+	_Coracchus_Feris={
 		name="Coracchus Feris"
 
 		advisor={
 			slot = army_chief
-			idea_token = FBR_Coracchus_Feris
+			idea_token = _Coracchus_Feris
 				traits = {	army_chief_planning_1 	}
 		}
 
 	}
-	FBR_Priscus_Aniverbis={
+	_Priscus_Aniverbis={
 		name="Priscus Aniverbis"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Priscus_Aniverbis
+			idea_token = _Priscus_Aniverbis
 				traits = {	navy_chief_reform_2 	}
 		}
 
 	}
-	FBR_Domitellus_Equa={
+	_Domitellus_Equa={
 		name="Domitellus Equa"
 
 		advisor={
 			slot = navy_chief
-			idea_token = FBR_Domitellus_Equa
+			idea_token = _Domitellus_Equa
 				traits = {	navy_chief_maneuver_1 	}
 		}
 
 	}
-	FBR_Valerus_Strum={
+	_Valerus_Strum={
 		name="Valerus Strum"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Valerus_Strum
+			idea_token = _Valerus_Strum
 				traits = {	air_chief_old_guard_1 	}
 		}
 
 	}
-	FBR_Livius_Celerrus={
+	_Livius_Celerrus={
 		name="Livius Celerrus"
 
 		advisor={
 			slot = air_chief
-			idea_token = FBR_Livius_Celerrus
+			idea_token = _Livius_Celerrus
 				traits = {	air_chief_night_operations_2 	}
 		}
 
 	}
-	FBR_Livius_Equa={
+	_Livius_Equa={
 		name="Livius Equa"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Livius_Equa
+			idea_token = _Livius_Equa
 				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	FBR_Attius_Celerrus={
+	_Attius_Celerrus={
 		name="Attius Celerrus"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Attius_Celerrus
+			idea_token = _Attius_Celerrus
 				traits = {	navy_screen_2 	}
 		}
 
 	}
-	FBR_Coracchus_Celerrus={
+	_Coracchus_Celerrus={
 		name="Coracchus Celerrus"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Coracchus_Celerrus
+			idea_token = _Coracchus_Celerrus
 				traits = {	army_entrenchment_2 	}
 		}
 
 	}
-	FBR_Fabius_Insum={
+	_Fabius_Insum={
 		name="Fabius Insum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Fabius_Insum
+			idea_token = _Fabius_Insum
 				traits = {	air_pilot_training_2 	}
 		}
 
 	}
-	FBR_Maximustus_Strum={
+	_Maximustus_Strum={
 		name="Maximustus Strum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Maximustus_Strum
+			idea_token = _Maximustus_Strum
 				traits = {	navy_fleet_logistics_2 	}
 		}
 
 	}
-	FBR_Lonius_Insum={
+	_Lonius_Insum={
 		name="Lonius Insum"
 
 		advisor={
 			slot = high_command
-			idea_token = FBR_Lonius_Insum
+			idea_token = _Lonius_Insum
 				traits = {	army_CombinedArms_1 	}
 		}
 
 	}
-	FBR_Quinus_Equa={
+	_Quinus_Equa={
 		name="Quinus Equa"
 
 		advisor={
 			slot = theorist
-			idea_token = FBR_Quinus_Equa
+			idea_token = _Quinus_Equa
 				traits = {	military_theorist 	}
 		}
 
 	}
-	FBR_Prius_Equa={
+	_Prius_Equa={
 		name="Prius Equa"
 
 		advisor={
 			slot = theorist
-			idea_token = FBR_Prius_Equa
+			idea_token = _Prius_Equa
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	FBR_Vibervius_Malus={
+	_Vibervius_Malus={
 		name="Vibervius Malus"
 
 		advisor={
 			slot = theorist
-			idea_token = FBR_Vibervius_Malus
+			idea_token = _Vibervius_Malus
 				traits = {	air_warfare_theorist 	}
 		}
 

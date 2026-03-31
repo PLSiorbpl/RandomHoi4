@@ -1,19 +1,19 @@
 capital = 1241
 
-oob = "REO_1936"
+oob = "KIJ_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "REO_1936"
+	set_oob = "KIJ_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "REO_1936_nsb"
+	set_oob = "KIJ_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -61,7 +61,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "REO_1936_air_bba"
+		set_air_oob = "KIJ_1936_air_bba"
 		set_technology = {
 			bba_early_transport_plane = 1
 			iw_medium_airframe = 1
@@ -84,7 +84,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "REO_1936_air_legacy"
+		set_air_oob = "KIJ_1936_air_legacy"
 		set_technology = {
 			early_transport_plane = 1
 			early_bomber = 1
@@ -115,7 +115,7 @@ if = {
 	early_submarine = 1
 	
 	}
-	set_naval_oob = "REO_1936_naval"
+	set_naval_oob = "KIJ_1936_naval"
 }
 
 ### Ship Variants ###
@@ -251,7 +251,7 @@ if = {
 	submarine_mine_laying = 1
 	
 	}
-	set_naval_oob = "REO_1936_naval_mtg"
+	set_naval_oob = "KIJ_1936_naval_mtg"
 }
 
 	if = {
@@ -410,93 +410,93 @@ if = {
 	}
 
 
-recruit_character = REO_Liaraig_Ceinn
-recruit_character = REO_Nialcolm_Luch
-recruit_character = REO_Bran_Glaighdearg
-recruit_character = REO_Cialcolm_Luch
-recruit_character = REO_Bran_Sabh
-recruit_character = REO_Ciaran_Sabh
-recruit_character = REO_Braig_Luch
-recruit_character = REO_Fergus_Glaighdearg
-recruit_character = REO_Iwan_Luchar
-recruit_character = REO_Eoin_Reolach
-recruit_character = REO_Keiraig_Ceinn
-recruit_character = REO_Seam_Luch
-recruit_character = REO_Rhys_Cort
-recruit_character = REO_Nialcolm_Sabh
-recruit_character = REO_Quinn_Sabh
-recruit_character = REO_Cialcolm_Sabh
-recruit_character = REO_Iwan_Reolach
-recruit_character = REO_Eoinn_Luch
-recruit_character = REO_Taraig_Luchar
-recruit_character = REO_Quinn_Ceinn
-recruit_character = REO_Fergus_Luch
-recruit_character = REO_Niall_Reolach
-recruit_character = REO_Ciaran_Luch
-recruit_character = REO_Fergus_Dolainnta
-recruit_character = REO_Liaraig_Sabh
-recruit_character = REO_Eoin_Ceinn
-recruit_character = REO_Iwan_Luch
-recruit_character = REO_Braig_Reolach
-recruit_character = REO_Gareth_Cort
-recruit_character = REO_Lialcolm_Luchar
-recruit_character = REO_Liaraig_Geann
-recruit_character = REO_Keiraig_Glaighdearg
-recruit_character = REO_Owen_Breing
-recruit_character = REO_Gareth_Geann
-recruit_character = REO_Liaraig_Dolainnta
-recruit_character = REO_Rhys_Luch
-recruit_character = REO_Quin_Luchar
-recruit_character = REO_Hugh_Sabh
-recruit_character = REO_Seamus_Luchar
-recruit_character = REO_Taraig_Sabh
-recruit_character = REO_Niall_Geann
-recruit_character = REO_Aidan_Sabh
-recruit_character = REO_Ciam_Cort
-recruit_character = REO_Bran_Ceinn
-recruit_character = REO_Quin_Luch
-recruit_character = REO_Owen_Glaighdearg
-recruit_character = REO_Tareth_Ceinn
-recruit_character = REO_Tareth_Luchar
-recruit_character = REO_Keiran_Cort
-recruit_character = REO_Bran_Dolainnta
-recruit_character = REO_Bran_Geann
-recruit_character = REO_Keiran_Geann
-recruit_character = REO_Nialcolm_Reolach
-recruit_character = REO_Braig_Glaighdearg
-recruit_character = REO_Ciaran_Glaighdearg
-recruit_character = REO_Eoinn_Ceinn
-recruit_character = REO_Braig_Dolainnta
-recruit_character = REO_Gareth_Luchar
-recruit_character = REO_Gareth_Breing
-recruit_character = REO_Hugh_Luch
-recruit_character = REO_Mall_Dolainnta
-recruit_character = REO_Quin_Breing
-recruit_character = REO_Taraig_Geann
-recruit_character = REO_Quin_Ceinn
-recruit_character = REO_Mall_Cort
-recruit_character = REO_Liaran_Cort
-recruit_character = REO_Garan_Sabh
-recruit_character = REO_Malcolm_Geann
-recruit_character = REO_Mall_Luch
-recruit_character = REO_Bran_Luch
-recruit_character = REO_Liaran_Luch
-recruit_character = REO_Garan_Dolainnta
-recruit_character = REO_Liaran_Luchar
-recruit_character = REO_Liaran_Glaighdearg
-recruit_character = REO_Cialcolm_Breing
-recruit_character = REO_Ciaran_Reolach
-recruit_character = REO_Declan_Breing
-recruit_character = REO_Nialcolm_Breing
-recruit_character = REO_Quinn_Breing
-recruit_character = REO_Taran_Ceinn
-recruit_character = REO_Eoin_Luch
-recruit_character = REO_Malcolm_Ceinn
-recruit_character = REO_Ulrich_Ceinn
-recruit_character = REO_Liaraig_Luch
-recruit_character = REO_Quinn_Dolainnta
-recruit_character = REO_Aidan_Breing
-recruit_character = REO_Liaran_Geann
+recruit_character = KIJ_Liaraig_Ceinn
+recruit_character = KIJ_Nialcolm_Luch
+recruit_character = KIJ_Bran_Glaighdearg
+recruit_character = KIJ_Cialcolm_Luch
+recruit_character = KIJ_Bran_Sabh
+recruit_character = KIJ_Ciaran_Sabh
+recruit_character = KIJ_Braig_Luch
+recruit_character = KIJ_Fergus_Glaighdearg
+recruit_character = KIJ_Iwan_Luchar
+recruit_character = KIJ_Eoin_Reolach
+recruit_character = KIJ_Keiraig_Ceinn
+recruit_character = KIJ_Seam_Luch
+recruit_character = KIJ_Rhys_Cort
+recruit_character = KIJ_Nialcolm_Sabh
+recruit_character = KIJ_Quinn_Sabh
+recruit_character = KIJ_Cialcolm_Sabh
+recruit_character = KIJ_Iwan_Reolach
+recruit_character = KIJ_Eoinn_Luch
+recruit_character = KIJ_Taraig_Luchar
+recruit_character = KIJ_Quinn_Ceinn
+recruit_character = KIJ_Fergus_Luch
+recruit_character = KIJ_Niall_Reolach
+recruit_character = KIJ_Ciaran_Luch
+recruit_character = KIJ_Fergus_Dolainnta
+recruit_character = KIJ_Liaraig_Sabh
+recruit_character = KIJ_Eoin_Ceinn
+recruit_character = KIJ_Iwan_Luch
+recruit_character = KIJ_Braig_Reolach
+recruit_character = KIJ_Gareth_Cort
+recruit_character = KIJ_Lialcolm_Luchar
+recruit_character = KIJ_Liaraig_Geann
+recruit_character = KIJ_Keiraig_Glaighdearg
+recruit_character = KIJ_Owen_Breing
+recruit_character = KIJ_Gareth_Geann
+recruit_character = KIJ_Liaraig_Dolainnta
+recruit_character = KIJ_Rhys_Luch
+recruit_character = KIJ_Quin_Luchar
+recruit_character = KIJ_Hugh_Sabh
+recruit_character = KIJ_Seamus_Luchar
+recruit_character = KIJ_Taraig_Sabh
+recruit_character = KIJ_Niall_Geann
+recruit_character = KIJ_Aidan_Sabh
+recruit_character = KIJ_Ciam_Cort
+recruit_character = KIJ_Bran_Ceinn
+recruit_character = KIJ_Quin_Luch
+recruit_character = KIJ_Owen_Glaighdearg
+recruit_character = KIJ_Tareth_Ceinn
+recruit_character = KIJ_Tareth_Luchar
+recruit_character = KIJ_Keiran_Cort
+recruit_character = KIJ_Bran_Dolainnta
+recruit_character = KIJ_Bran_Geann
+recruit_character = KIJ_Keiran_Geann
+recruit_character = KIJ_Nialcolm_Reolach
+recruit_character = KIJ_Braig_Glaighdearg
+recruit_character = KIJ_Ciaran_Glaighdearg
+recruit_character = KIJ_Eoinn_Ceinn
+recruit_character = KIJ_Braig_Dolainnta
+recruit_character = KIJ_Gareth_Luchar
+recruit_character = KIJ_Gareth_Breing
+recruit_character = KIJ_Hugh_Luch
+recruit_character = KIJ_Mall_Dolainnta
+recruit_character = KIJ_Quin_Breing
+recruit_character = KIJ_Taraig_Geann
+recruit_character = KIJ_Quin_Ceinn
+recruit_character = KIJ_Mall_Cort
+recruit_character = KIJ_Liaran_Cort
+recruit_character = KIJ_Garan_Sabh
+recruit_character = KIJ_Malcolm_Geann
+recruit_character = KIJ_Mall_Luch
+recruit_character = KIJ_Bran_Luch
+recruit_character = KIJ_Liaran_Luch
+recruit_character = KIJ_Garan_Dolainnta
+recruit_character = KIJ_Liaran_Luchar
+recruit_character = KIJ_Liaran_Glaighdearg
+recruit_character = KIJ_Cialcolm_Breing
+recruit_character = KIJ_Ciaran_Reolach
+recruit_character = KIJ_Declan_Breing
+recruit_character = KIJ_Nialcolm_Breing
+recruit_character = KIJ_Quinn_Breing
+recruit_character = KIJ_Taran_Ceinn
+recruit_character = KIJ_Eoin_Luch
+recruit_character = KIJ_Malcolm_Ceinn
+recruit_character = KIJ_Ulrich_Ceinn
+recruit_character = KIJ_Liaraig_Luch
+recruit_character = KIJ_Quinn_Dolainnta
+recruit_character = KIJ_Aidan_Breing
+recruit_character = KIJ_Liaran_Geann
 
 
 if = {

@@ -1,5 +1,5 @@
 characters = {
-	XEN_Caianus_Fulum={
+	KSZ_Caianus_Fulum={
 		name="Caianus Fulum"
 
 		
@@ -11,207 +11,207 @@ characters = {
 		}
 
 	}
-	XEN_Titelianus_Turae={
+	KSZ_Titelianus_Turae={
 		name="Titelianus Turae"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Titelianus_Turae
+			idea_token = KSZ_Titelianus_Turae
 				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	XEN_Caius_Turae={
+	KSZ_Caius_Turae={
 		name="Caius Turae"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Caius_Turae
+			idea_token = KSZ_Caius_Turae
 				traits = {	humble 	}
 		}
 
 	}
-	XEN_Lucius_Vensulgus={
+	KSZ_Lucius_Vensulgus={
 		name="Lucius Vensulgus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Lucius_Vensulgus
+			idea_token = KSZ_Lucius_Vensulgus
 				traits = {	cabinet_crisis 	}
 		}
 
 	}
-	XEN_Sevola_Fulum={
+	KSZ_Sevola_Fulum={
 		name="Sevola Fulum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Sevola_Fulum
+			idea_token = KSZ_Sevola_Fulum
 				traits = {	inexperienced_monarch 	}
 		}
 
 	}
-	XEN_Vitellius_Strinciumbum={
+	KSZ_Vitellius_Strinciumbum={
 		name="Vitellius Strinciumbum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Vitellius_Strinciumbum
+			idea_token = KSZ_Vitellius_Strinciumbum
 				traits = {	inexperienced_monarch 	}
 		}
 
 	}
-	XEN_Lonius_Vensulgus={
+	KSZ_Lonius_Vensulgus={
 		name="Lonius Vensulgus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Lonius_Vensulgus
+			idea_token = KSZ_Lonius_Vensulgus
 				traits = {	socialite_connections 	}
 		}
 
 	}
-	XEN_Varcelius_Strinciumbum={
+	KSZ_Varcelius_Strinciumbum={
 		name="Varcelius Strinciumbum"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Varcelius_Strinciumbum
+			idea_token = KSZ_Varcelius_Strinciumbum
 				traits = {	army_chief_planning_1 	}
 		}
 
 	}
-	XEN_Atticus_Plus={
+	KSZ_Atticus_Plus={
 		name="Atticus Plus"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Atticus_Plus
+			idea_token = KSZ_Atticus_Plus
 				traits = {	army_chief_defensive_1 	}
 		}
 
 	}
-	XEN_Julus_Plus={
+	KSZ_Julus_Plus={
 		name="Julus Plus"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Julus_Plus
+			idea_token = KSZ_Julus_Plus
 				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	XEN_Silvanus_Plus={
+	KSZ_Silvanus_Plus={
 		name="Silvanus Plus"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Silvanus_Plus
+			idea_token = KSZ_Silvanus_Plus
 				traits = {	army_chief_drill_1 	}
 		}
 
 	}
-	XEN_Seriscus_Vensulgus={
+	KSZ_Seriscus_Vensulgus={
 		name="Seriscus Vensulgus"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Seriscus_Vensulgus
+			idea_token = KSZ_Seriscus_Vensulgus
 				traits = {	navy_chief_reform_1 	}
 		}
 
 	}
-	XEN_Nonius_Vita={
+	KSZ_Nonius_Vita={
 		name="Nonius Vita"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Nonius_Vita
+			idea_token = KSZ_Nonius_Vita
 				traits = {	navy_chief_commerce_raiding_1 	}
 		}
 
 	}
-	XEN_Tiberiscus_Vensulgus={
+	KSZ_Tiberiscus_Vensulgus={
 		name="Tiberiscus Vensulgus"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Tiberiscus_Vensulgus
+			idea_token = KSZ_Tiberiscus_Vensulgus
 				traits = {	air_chief_night_operations_2 	}
 		}
 
 	}
-	XEN_Marcellustus_Strinciumbum={
+	KSZ_Marcellustus_Strinciumbum={
 		name="Marcellustus Strinciumbum"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Marcellustus_Strinciumbum
+			idea_token = KSZ_Marcellustus_Strinciumbum
 				traits = {	air_chief_all_weather_1 	}
 		}
 
 	}
-	XEN_Serus_Fonitas={
+	KSZ_Serus_Fonitas={
 		name="Serus Fonitas"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Serus_Fonitas
+			idea_token = KSZ_Serus_Fonitas
 				traits = {	army_infantry_1 	}
 		}
 
 	}
-	XEN_Lonius_Mens={
+	KSZ_Lonius_Mens={
 		name="Lonius Mens"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Lonius_Mens
+			idea_token = KSZ_Lonius_Mens
 				traits = {	army_CombinedArms_1 	}
 		}
 
 	}
-	XEN_Sextus_Turae={
+	KSZ_Sextus_Turae={
 		name="Sextus Turae"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Sextus_Turae
+			idea_token = KSZ_Sextus_Turae
 				traits = {	navy_screen_2 	}
 		}
 
 	}
-	XEN_Viberiustus_Vita={
+	KSZ_Viberiustus_Vita={
 		name="Viberiustus Vita"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Viberiustus_Vita
+			idea_token = KSZ_Viberiustus_Vita
 				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	XEN_Atticus_Fonitas={
+	KSZ_Atticus_Fonitas={
 		name="Atticus Fonitas"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Atticus_Fonitas
+			idea_token = KSZ_Atticus_Fonitas
 				traits = {	navy_submarine_1 	}
 		}
 
 	}
-	XEN_Horacchus_Plus={
+	KSZ_Horacchus_Plus={
 		name="Horacchus Plus"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Horacchus_Plus
+			idea_token = KSZ_Horacchus_Plus
 				traits = {	navy_amphibious_assault_1 	}
 		}
 
 	}
-	XEN_Tratius_Vensulgus={
+	KSZ_Tratius_Vensulgus={
 		name="Tratius Vensulgus"
 
 		
@@ -223,207 +223,207 @@ characters = {
 		}
 
 	}
-	XEN_Gaianustus_Liberra={
+	KSZ_Gaianustus_Liberra={
 		name="Gaianustus Liberra"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Gaianustus_Liberra
+			idea_token = KSZ_Gaianustus_Liberra
 				traits = {	infirm 	}
 		}
 
 	}
-	XEN_Fabius_Vensulgus={
+	KSZ_Fabius_Vensulgus={
 		name="Fabius Vensulgus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Fabius_Vensulgus
+			idea_token = KSZ_Fabius_Vensulgus
 				traits = {	collaborator_king 	}
 		}
 
 	}
-	XEN_Manus_Mens={
+	KSZ_Manus_Mens={
 		name="Manus Mens"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Manus_Mens
+			idea_token = KSZ_Manus_Mens
 				traits = {	inexperienced_imperialist 	}
 		}
 
 	}
-	XEN_Tracchus_Fonitas={
+	KSZ_Tracchus_Fonitas={
 		name="Tracchus Fonitas"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Tracchus_Fonitas
+			idea_token = KSZ_Tracchus_Fonitas
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	XEN_Prius_Strinciumbum={
+	KSZ_Prius_Strinciumbum={
 		name="Prius Strinciumbum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Prius_Strinciumbum
+			idea_token = KSZ_Prius_Strinciumbum
 				traits = {	autokrator 	}
 		}
 
 	}
-	XEN_Seriscus_Fonitas={
+	KSZ_Seriscus_Fonitas={
 		name="Seriscus Fonitas"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Seriscus_Fonitas
+			idea_token = KSZ_Seriscus_Fonitas
 				traits = {	autocratic_imperialist 	}
 		}
 
 	}
-	XEN_Tiberiscus_Turae={
+	KSZ_Tiberiscus_Turae={
 		name="Tiberiscus Turae"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Tiberiscus_Turae
+			idea_token = KSZ_Tiberiscus_Turae
 				traits = {	army_chief_morale_1 	}
 		}
 
 	}
-	XEN_Atticus_Fulum={
+	KSZ_Atticus_Fulum={
 		name="Atticus Fulum"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Atticus_Fulum
+			idea_token = KSZ_Atticus_Fulum
 				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	XEN_Decius_Strinciumbum={
+	KSZ_Decius_Strinciumbum={
 		name="Decius Strinciumbum"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Decius_Strinciumbum
+			idea_token = KSZ_Decius_Strinciumbum
 				traits = {	army_chief_morale_1 	}
 		}
 
 	}
-	XEN_Regus_Liberra={
+	KSZ_Regus_Liberra={
 		name="Regus Liberra"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Regus_Liberra
+			idea_token = KSZ_Regus_Liberra
 				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	XEN_Otho_Liberra={
+	KSZ_Otho_Liberra={
 		name="Otho Liberra"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Otho_Liberra
+			idea_token = KSZ_Otho_Liberra
 				traits = {	navy_chief_old_guard_2 	}
 		}
 
 	}
-	XEN_Severvius_Vita={
+	KSZ_Severvius_Vita={
 		name="Severvius Vita"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Severvius_Vita
+			idea_token = KSZ_Severvius_Vita
 				traits = {	navy_chief_commerce_raiding_1 	}
 		}
 
 	}
-	XEN_Lucius_Fulum={
+	KSZ_Lucius_Fulum={
 		name="Lucius Fulum"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Lucius_Fulum
+			idea_token = KSZ_Lucius_Fulum
 				traits = {	air_chief_night_operations_1 	}
 		}
 
 	}
-	XEN_Tiberiscus_Semidex={
+	KSZ_Tiberiscus_Semidex={
 		name="Tiberiscus Semidex"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Tiberiscus_Semidex
+			idea_token = KSZ_Tiberiscus_Semidex
 				traits = {	air_chief_all_weather_1 	}
 		}
 
 	}
-	XEN_Augus_Turae={
+	KSZ_Augus_Turae={
 		name="Augus Turae"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Augus_Turae
+			idea_token = KSZ_Augus_Turae
 				traits = {	army_logistics_1 	}
 		}
 
 	}
-	XEN_Viberiustus_Strinciumbum={
+	KSZ_Viberiustus_Strinciumbum={
 		name="Viberiustus Strinciumbum"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Viberiustus_Strinciumbum
+			idea_token = KSZ_Viberiustus_Strinciumbum
 				traits = {	air_tactical_bombing_2 	}
 		}
 
 	}
-	XEN_Gaius_Fonitas={
+	KSZ_Gaius_Fonitas={
 		name="Gaius Fonitas"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Gaius_Fonitas
+			idea_token = KSZ_Gaius_Fonitas
 				traits = {	air_airborne_1 	}
 		}
 
 	}
-	XEN_Tibius_Liberra={
+	KSZ_Tibius_Liberra={
 		name="Tibius Liberra"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Tibius_Liberra
+			idea_token = KSZ_Tibius_Liberra
 				traits = {	army_commando_2 	}
 		}
 
 	}
-	XEN_Atticus_Turae={
+	KSZ_Atticus_Turae={
 		name="Atticus Turae"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Atticus_Turae
+			idea_token = KSZ_Atticus_Turae
 				traits = {	navy_submarine_2 	}
 		}
 
 	}
-	XEN_Augulius_Fulum={
+	KSZ_Augulius_Fulum={
 		name="Augulius Fulum"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Augulius_Fulum
+			idea_token = KSZ_Augulius_Fulum
 				traits = {	army_regrouping_1 	}
 		}
 
 	}
-	XEN_Julus_Fonitas={
+	KSZ_Julus_Fonitas={
 		name="Julus Fonitas"
 
 		
@@ -435,207 +435,207 @@ characters = {
 		}
 
 	}
-	XEN_Gaianus_Fulum={
+	KSZ_Gaianus_Fulum={
 		name="Gaianus Fulum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Gaianus_Fulum
+			idea_token = KSZ_Gaianus_Fulum
 				traits = {	infirm 	}
 		}
 
 	}
-	XEN_Manus_Fonitas={
+	KSZ_Manus_Fonitas={
 		name="Manus Fonitas"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Manus_Fonitas
+			idea_token = KSZ_Manus_Fonitas
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	XEN_Drus_Turae={
+	KSZ_Drus_Turae={
 		name="Drus Turae"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Drus_Turae
+			idea_token = KSZ_Drus_Turae
 				traits = {	reluctant_stalinist 	}
 		}
 
 	}
-	XEN_Augus_Plus={
+	KSZ_Augus_Plus={
 		name="Augus Plus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Augus_Plus
+			idea_token = KSZ_Augus_Plus
 				traits = {	polemarch 	}
 		}
 
 	}
-	XEN_Antus_Vita={
+	KSZ_Antus_Vita={
 		name="Antus Vita"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Antus_Vita
+			idea_token = KSZ_Antus_Vita
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	XEN_Prius_Vensulgus={
+	KSZ_Prius_Vensulgus={
 		name="Prius Vensulgus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Prius_Vensulgus
+			idea_token = KSZ_Prius_Vensulgus
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	XEN_Titustus_Plus={
+	KSZ_Titustus_Plus={
 		name="Titustus Plus"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Titustus_Plus
+			idea_token = KSZ_Titustus_Plus
 				traits = {	army_chief_defensive_1 	}
 		}
 
 	}
-	XEN_Marro_Vita={
+	KSZ_Marro_Vita={
 		name="Marro Vita"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Marro_Vita
+			idea_token = KSZ_Marro_Vita
 				traits = {	army_chief_defensive_1 	}
 		}
 
 	}
-	XEN_Decius_Fulum={
+	KSZ_Decius_Fulum={
 		name="Decius Fulum"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Decius_Fulum
+			idea_token = KSZ_Decius_Fulum
 				traits = {	army_chief_planning_2 	}
 		}
 
 	}
-	XEN_Lucius_Semidex={
+	KSZ_Lucius_Semidex={
 		name="Lucius Semidex"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Lucius_Semidex
+			idea_token = KSZ_Lucius_Semidex
 				traits = {	army_chief_entrenchment_1 	}
 		}
 
 	}
-	XEN_Graticus_Strinciumbum={
+	KSZ_Graticus_Strinciumbum={
 		name="Graticus Strinciumbum"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Graticus_Strinciumbum
+			idea_token = KSZ_Graticus_Strinciumbum
 				traits = {	navy_chief_commerce_raiding_2 	}
 		}
 
 	}
-	XEN_Titellus_Vita={
+	KSZ_Titellus_Vita={
 		name="Titellus Vita"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Titellus_Vita
+			idea_token = KSZ_Titellus_Vita
 				traits = {	navy_chief_commerce_raiding_2 	}
 		}
 
 	}
-	XEN_Gaianustus_Mens={
+	KSZ_Gaianustus_Mens={
 		name="Gaianustus Mens"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Gaianustus_Mens
+			idea_token = KSZ_Gaianustus_Mens
 				traits = {	air_chief_ground_support_1 	}
 		}
 
 	}
-	XEN_Remus_Fulum={
+	KSZ_Remus_Fulum={
 		name="Remus Fulum"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Remus_Fulum
+			idea_token = KSZ_Remus_Fulum
 				traits = {	air_chief_ground_support_2 	}
 		}
 
 	}
-	XEN_Vitus_Vensulgus={
+	KSZ_Vitus_Vensulgus={
 		name="Vitus Vensulgus"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Vitus_Vensulgus
+			idea_token = KSZ_Vitus_Vensulgus
 				traits = {	air_air_combat_training_2 	}
 		}
 
 	}
-	XEN_Manus_Vensulgus={
+	KSZ_Manus_Vensulgus={
 		name="Manus Vensulgus"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Manus_Vensulgus
+			idea_token = KSZ_Manus_Vensulgus
 				traits = {	navy_anti_submarine_1 	}
 		}
 
 	}
-	XEN_Drutus_Mens={
+	KSZ_Drutus_Mens={
 		name="Drutus Mens"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Drutus_Mens
+			idea_token = KSZ_Drutus_Mens
 				traits = {	navy_amphibious_assault_1 	}
 		}
 
 	}
-	XEN_Silvanlius_Vensulgus={
+	KSZ_Silvanlius_Vensulgus={
 		name="Silvanlius Vensulgus"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Silvanlius_Vensulgus
+			idea_token = KSZ_Silvanlius_Vensulgus
 				traits = {	army_regrouping_1 	}
 		}
 
 	}
-	XEN_Nero_Mens={
+	KSZ_Nero_Mens={
 		name="Nero Mens"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Nero_Mens
+			idea_token = KSZ_Nero_Mens
 				traits = {	army_artillery_2 	}
 		}
 
 	}
-	XEN_Serius_Plus={
+	KSZ_Serius_Plus={
 		name="Serius Plus"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Serius_Plus
+			idea_token = KSZ_Serius_Plus
 				traits = {	navy_naval_air_defense_2 	}
 		}
 
 	}
-	XEN_Regus_Turae={
+	KSZ_Regus_Turae={
 		name="Regus Turae"
 
 		
@@ -647,232 +647,232 @@ characters = {
 		}
 
 	}
-	XEN_Otho_Plus={
+	KSZ_Otho_Plus={
 		name="Otho Plus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Otho_Plus
+			idea_token = KSZ_Otho_Plus
 				traits = {	conservative_grandee 	}
 		}
 
 	}
-	XEN_Severvius_Liberra={
+	KSZ_Severvius_Liberra={
 		name="Severvius Liberra"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Severvius_Liberra
+			idea_token = KSZ_Severvius_Liberra
 				traits = {	first_lady 	}
 		}
 
 	}
-	XEN_Sevola_Strinciumbum={
+	KSZ_Sevola_Strinciumbum={
 		name="Sevola Strinciumbum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Sevola_Strinciumbum
+			idea_token = KSZ_Sevola_Strinciumbum
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	XEN_Tibius_Semidex={
+	KSZ_Tibius_Semidex={
 		name="Tibius Semidex"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Tibius_Semidex
+			idea_token = KSZ_Tibius_Semidex
 				traits = {	infirm 	}
 		}
 
 	}
-	XEN_Lucius_Vita={
+	KSZ_Lucius_Vita={
 		name="Lucius Vita"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Lucius_Vita
+			idea_token = KSZ_Lucius_Vita
 				traits = {	liberal_democratic_paragon 	}
 		}
 
 	}
-	XEN_Caianus_Vensulgus={
+	KSZ_Caianus_Vensulgus={
 		name="Caianus Vensulgus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = XEN_Caianus_Vensulgus
+			idea_token = KSZ_Caianus_Vensulgus
 				traits = {	liberal_democratic_paragon 	}
 		}
 
 	}
-	XEN_Varcellius_Vensulgus={
+	KSZ_Varcellius_Vensulgus={
 		name="Varcellius Vensulgus"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Varcellius_Vensulgus
+			idea_token = KSZ_Varcellius_Vensulgus
 				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	XEN_Viberiustus_Plus={
+	KSZ_Viberiustus_Plus={
 		name="Viberiustus Plus"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Viberiustus_Plus
+			idea_token = KSZ_Viberiustus_Plus
 				traits = {	army_chief_maneuver_2 	}
 		}
 
 	}
-	XEN_Seriscus_Liberra={
+	KSZ_Seriscus_Liberra={
 		name="Seriscus Liberra"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Seriscus_Liberra
+			idea_token = KSZ_Seriscus_Liberra
 				traits = {	army_chief_drill_1 	}
 		}
 
 	}
-	XEN_Fabius_Fonitas={
+	KSZ_Fabius_Fonitas={
 		name="Fabius Fonitas"
 
 		advisor={
 			slot = army_chief
-			idea_token = XEN_Fabius_Fonitas
+			idea_token = KSZ_Fabius_Fonitas
 				traits = {	army_chief_offensive_2 	}
 		}
 
 	}
-	XEN_Nonius_Liberra={
+	KSZ_Nonius_Liberra={
 		name="Nonius Liberra"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Nonius_Liberra
+			idea_token = KSZ_Nonius_Liberra
 				traits = {	navy_chief_maneuver_1 	}
 		}
 
 	}
-	XEN_Remus_Fonitas={
+	KSZ_Remus_Fonitas={
 		name="Remus Fonitas"
 
 		advisor={
 			slot = navy_chief
-			idea_token = XEN_Remus_Fonitas
+			idea_token = KSZ_Remus_Fonitas
 				traits = {	navy_chief_old_guard_1 	}
 		}
 
 	}
-	XEN_Drus_Mens={
+	KSZ_Drus_Mens={
 		name="Drus Mens"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Drus_Mens
+			idea_token = KSZ_Drus_Mens
 				traits = {	air_chief_old_guard_1 	}
 		}
 
 	}
-	XEN_Aulius_Fonitas={
+	KSZ_Aulius_Fonitas={
 		name="Aulius Fonitas"
 
 		advisor={
 			slot = air_chief
-			idea_token = XEN_Aulius_Fonitas
+			idea_token = KSZ_Aulius_Fonitas
 				traits = {	air_chief_night_operations_1 	}
 		}
 
 	}
-	XEN_Quinus_Turae={
+	KSZ_Quinus_Turae={
 		name="Quinus Turae"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Quinus_Turae
+			idea_token = KSZ_Quinus_Turae
 				traits = {	navy_carrier_1 	}
 		}
 
 	}
-	XEN_Serus_Plus={
+	KSZ_Serus_Plus={
 		name="Serus Plus"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Serus_Plus
+			idea_token = KSZ_Serus_Plus
 				traits = {	army_logistics_2 	}
 		}
 
 	}
-	XEN_Gaianus_Plus={
+	KSZ_Gaianus_Plus={
 		name="Gaianus Plus"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Gaianus_Plus
+			idea_token = KSZ_Gaianus_Plus
 				traits = {	air_bomber_interception_2 	}
 		}
 
 	}
-	XEN_Otho_Semidex={
+	KSZ_Otho_Semidex={
 		name="Otho Semidex"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Otho_Semidex
+			idea_token = KSZ_Otho_Semidex
 				traits = {	army_entrenchment_2 	}
 		}
 
 	}
-	XEN_Vitellius_Liberra={
+	KSZ_Vitellius_Liberra={
 		name="Vitellius Liberra"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Vitellius_Liberra
+			idea_token = KSZ_Vitellius_Liberra
 				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	XEN_Dominus_Vita={
+	KSZ_Dominus_Vita={
 		name="Dominus Vita"
 
 		advisor={
 			slot = high_command
-			idea_token = XEN_Dominus_Vita
+			idea_token = KSZ_Dominus_Vita
 				traits = {	army_logistics_1 	}
 		}
 
 	}
-	XEN_Severvius_Fonitas={
+	KSZ_Severvius_Fonitas={
 		name="Severvius Fonitas"
 
 		advisor={
 			slot = theorist
-			idea_token = XEN_Severvius_Fonitas
+			idea_token = KSZ_Severvius_Fonitas
 				traits = {	military_theorist 	}
 		}
 
 	}
-	XEN_Gaius_Strinciumbum={
+	KSZ_Gaius_Strinciumbum={
 		name="Gaius Strinciumbum"
 
 		advisor={
 			slot = theorist
-			idea_token = XEN_Gaius_Strinciumbum
+			idea_token = KSZ_Gaius_Strinciumbum
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	XEN_Silvanus_Vita={
+	KSZ_Silvanus_Vita={
 		name="Silvanus Vita"
 
 		advisor={
 			slot = theorist
-			idea_token = XEN_Silvanus_Vita
+			idea_token = KSZ_Silvanus_Vita
 				traits = {	air_warfare_theorist 	}
 		}
 

@@ -1,19 +1,19 @@
 capital = 735
 
-oob = "AHC_1936"
+oob = "ICE_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "AHC_1936"
+	set_oob = "ICE_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "AHC_1936_nsb"
+	set_oob = "ICE_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -213,7 +213,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "AHC_1936_air_bba"
+		set_air_oob = "ICE_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			iw_medium_airframe = 1
@@ -284,7 +284,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "AHC_1936_air_legacy"
+		set_air_oob = "ICE_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -316,7 +316,7 @@ if = {
 	early_submarine = 1
 	
 	}
-	set_naval_oob = "AHC_1936_naval"
+	set_naval_oob = "ICE_1936_naval"
 }
 
 ### Ship Variants ###
@@ -438,7 +438,7 @@ if = {
 	submarine_mine_laying = 1
 	
 	}
-	set_naval_oob = "AHC_1936_naval_mtg"
+	set_naval_oob = "ICE_1936_naval_mtg"
 }
 
 	if = {
@@ -590,93 +590,93 @@ if = {
 	}
 
 
-recruit_character = AHC_Kukulkanek_Mutal
-recruit_character = AHC_Yaxkin_Ajtzib
-recruit_character = AHC_Bacab_Mutal
-recruit_character = AHC_Kukulkan_Ajtzib
-recruit_character = AHC_Moctez_Ahcan
-recruit_character = AHC_Kukulkanek_Benque
-recruit_character = AHC_Popo_Tzib
-recruit_character = AHC_Chua_Ahcan
-recruit_character = AHC_Kanek_Chun
-recruit_character = AHC_Chua_Chun
-recruit_character = AHC_Bacom_Coban
-recruit_character = AHC_Chak_Tzib
-recruit_character = AHC_Ahkin_Chun
-recruit_character = AHC_Tohichen_Bonai
-recruit_character = AHC_Kukulkal_Benque
-recruit_character = AHC_Ekchak_Tzib
-recruit_character = AHC_Yaxkin_Ahcan
-recruit_character = AHC_Oxib_Chun
-recruit_character = AHC_Ekchua_Ajtzib
-recruit_character = AHC_Nacom_Mutal
-recruit_character = AHC_Chichen_Tzib
-recruit_character = AHC_Popo_Ajtzib
-recruit_character = AHC_Nacatl_Bonai
-recruit_character = AHC_Kukulkal_Tzib
-recruit_character = AHC_Acab_Chun
-recruit_character = AHC_Nacatl_Coban
-recruit_character = AHC_Chakan_Mutal
-recruit_character = AHC_Moctez_Mutal
-recruit_character = AHC_Popo_Ahcan
-recruit_character = AHC_Chua_Ajtzib
-recruit_character = AHC_Balam_Tzib
-recruit_character = AHC_Acab_Mutal
-recruit_character = AHC_Balam_Coban
-recruit_character = AHC_Bacom_Benque
-recruit_character = AHC_Pakan_Chun
-recruit_character = AHC_Nacab_Benque
-recruit_character = AHC_Chakan_Tzib
-recruit_character = AHC_Bacom_Chun
-recruit_character = AHC_Ekchak_Benque
-recruit_character = AHC_Bacom_Ajtzib
-recruit_character = AHC_Nacab_Chun
-recruit_character = AHC_Moctez_Benque
-recruit_character = AHC_Ekchak_Bonai
-recruit_character = AHC_Chil_Tzib
-recruit_character = AHC_Yaxkin_Mutal
-recruit_character = AHC_Bacatl_Tzib
-recruit_character = AHC_Kukulkan_Coban
-recruit_character = AHC_Bacab_Chun
-recruit_character = AHC_Kukulkan_Mutal
-recruit_character = AHC_Bacatl_Bonai
-recruit_character = AHC_Balam_Ajtzib
-recruit_character = AHC_Ekchakalam_Chun
-recruit_character = AHC_Ekchua_Coban
-recruit_character = AHC_Nacab_Ajtzib
-recruit_character = AHC_Tohil_Benque
-recruit_character = AHC_Nacab_Mutal
-recruit_character = AHC_Kukulkan_Ahcan
-recruit_character = AHC_Kukulkanek_Bonai
-recruit_character = AHC_Tecun_Tzib
-recruit_character = AHC_Chichen_Mutal
-recruit_character = AHC_Tohil_Mutal
-recruit_character = AHC_Tohil_Coban
-recruit_character = AHC_Tohil_Bonai
-recruit_character = AHC_Moctez_Tzib
-recruit_character = AHC_Oxib_Ajtzib
-recruit_character = AHC_Bacatl_Benque
-recruit_character = AHC_Tecun_Ahcan
-recruit_character = AHC_Chichen_Benque
-recruit_character = AHC_Bacatl_Chun
-recruit_character = AHC_Ekchua_Tzib
-recruit_character = AHC_Nacom_Coban
-recruit_character = AHC_Yaxkin_Tzib
-recruit_character = AHC_Tecun_Coban
-recruit_character = AHC_Pakan_Ajtzib
-recruit_character = AHC_Ekchakalam_Ajtzib
-recruit_character = AHC_Kukulkanek_Ajtzib
-recruit_character = AHC_Nacom_Ahcan
-recruit_character = AHC_Yaxkin_Benque
-recruit_character = AHC_Ahkin_Ahcan
-recruit_character = AHC_Chil_Ajtzib
-recruit_character = AHC_Tecun_Bonai
-recruit_character = AHC_Moctez_Chun
-recruit_character = AHC_Popo_Benque
-recruit_character = AHC_Pakan_Bonai
-recruit_character = AHC_Ahkin_Ajtzib
-recruit_character = AHC_Tohichen_Mutal
-recruit_character = AHC_Kukulkan_Chun
+recruit_character = ICE_Kukulkanek_Mutal
+recruit_character = ICE_Yaxkin_Ajtzib
+recruit_character = ICE_Bacab_Mutal
+recruit_character = ICE_Kukulkan_Ajtzib
+recruit_character = ICE_Moctez_Ahcan
+recruit_character = ICE_Kukulkanek_Benque
+recruit_character = ICE_Popo_Tzib
+recruit_character = ICE_Chua_Ahcan
+recruit_character = ICE_Kanek_Chun
+recruit_character = ICE_Chua_Chun
+recruit_character = ICE_Bacom_Coban
+recruit_character = ICE_Chak_Tzib
+recruit_character = ICE_Ahkin_Chun
+recruit_character = ICE_Tohichen_Bonai
+recruit_character = ICE_Kukulkal_Benque
+recruit_character = ICE_Ekchak_Tzib
+recruit_character = ICE_Yaxkin_Ahcan
+recruit_character = ICE_Oxib_Chun
+recruit_character = ICE_Ekchua_Ajtzib
+recruit_character = ICE_Nacom_Mutal
+recruit_character = ICE_Chichen_Tzib
+recruit_character = ICE_Popo_Ajtzib
+recruit_character = ICE_Nacatl_Bonai
+recruit_character = ICE_Kukulkal_Tzib
+recruit_character = ICE_Acab_Chun
+recruit_character = ICE_Nacatl_Coban
+recruit_character = ICE_Chakan_Mutal
+recruit_character = ICE_Moctez_Mutal
+recruit_character = ICE_Popo_Ahcan
+recruit_character = ICE_Chua_Ajtzib
+recruit_character = ICE_Balam_Tzib
+recruit_character = ICE_Acab_Mutal
+recruit_character = ICE_Balam_Coban
+recruit_character = ICE_Bacom_Benque
+recruit_character = ICE_Pakan_Chun
+recruit_character = ICE_Nacab_Benque
+recruit_character = ICE_Chakan_Tzib
+recruit_character = ICE_Bacom_Chun
+recruit_character = ICE_Ekchak_Benque
+recruit_character = ICE_Bacom_Ajtzib
+recruit_character = ICE_Nacab_Chun
+recruit_character = ICE_Moctez_Benque
+recruit_character = ICE_Ekchak_Bonai
+recruit_character = ICE_Chil_Tzib
+recruit_character = ICE_Yaxkin_Mutal
+recruit_character = ICE_Bacatl_Tzib
+recruit_character = ICE_Kukulkan_Coban
+recruit_character = ICE_Bacab_Chun
+recruit_character = ICE_Kukulkan_Mutal
+recruit_character = ICE_Bacatl_Bonai
+recruit_character = ICE_Balam_Ajtzib
+recruit_character = ICE_Ekchakalam_Chun
+recruit_character = ICE_Ekchua_Coban
+recruit_character = ICE_Nacab_Ajtzib
+recruit_character = ICE_Tohil_Benque
+recruit_character = ICE_Nacab_Mutal
+recruit_character = ICE_Kukulkan_Ahcan
+recruit_character = ICE_Kukulkanek_Bonai
+recruit_character = ICE_Tecun_Tzib
+recruit_character = ICE_Chichen_Mutal
+recruit_character = ICE_Tohil_Mutal
+recruit_character = ICE_Tohil_Coban
+recruit_character = ICE_Tohil_Bonai
+recruit_character = ICE_Moctez_Tzib
+recruit_character = ICE_Oxib_Ajtzib
+recruit_character = ICE_Bacatl_Benque
+recruit_character = ICE_Tecun_Ahcan
+recruit_character = ICE_Chichen_Benque
+recruit_character = ICE_Bacatl_Chun
+recruit_character = ICE_Ekchua_Tzib
+recruit_character = ICE_Nacom_Coban
+recruit_character = ICE_Yaxkin_Tzib
+recruit_character = ICE_Tecun_Coban
+recruit_character = ICE_Pakan_Ajtzib
+recruit_character = ICE_Ekchakalam_Ajtzib
+recruit_character = ICE_Kukulkanek_Ajtzib
+recruit_character = ICE_Nacom_Ahcan
+recruit_character = ICE_Yaxkin_Benque
+recruit_character = ICE_Ahkin_Ahcan
+recruit_character = ICE_Chil_Ajtzib
+recruit_character = ICE_Tecun_Bonai
+recruit_character = ICE_Moctez_Chun
+recruit_character = ICE_Popo_Benque
+recruit_character = ICE_Pakan_Bonai
+recruit_character = ICE_Ahkin_Ajtzib
+recruit_character = ICE_Tohichen_Mutal
+recruit_character = ICE_Kukulkan_Chun
 
 
 if = {
