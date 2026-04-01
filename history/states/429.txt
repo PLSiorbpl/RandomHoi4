@@ -2,7 +2,7 @@
 state={
 	id=429
 	name="STATE_429"
-	manpower = 917742
+	manpower = 2
 	
 	state_category = town
 	#impassable = yes
@@ -20,7 +20,7 @@ state={
 		victory_points = { 5162 3}
 		victory_points = { 5164 1}
 		
-		owner = RQF
+		owner = RSM
 		buildings = {
 			infrastructure = 3
 			
@@ -29,7 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = RQF
+		add_core_of = RSM
 	}
 
 	provinces={
