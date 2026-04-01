@@ -69,22 +69,30 @@
    icon = GFX_focus_GER_loyalty_to_the_fuhrer
    cost = 3
    x = 0
-   y = 3
-   completion_reward = { }
-   prerequisite = {
-      focus = ZAP_focus_3
+   y = 6
+   available = {
+      KAA = { has_capitulated = yes }
    }
+   
+   prerequisite = {
+      focus = ZAP_focus_8 
+   }
+   
    mutually_exclusive = {
       focus = ZAP_focus_5
    }
- }
+   
+   completion_reward = { 
+   }
+}
  focus = {
    id = ZAP_focus_5
    icon = GFX_focus_generic_full_social_mobilization
    cost = 3
    x = 2
-   y = 3
+   y = 6
    completion_reward = {
+      white_peace = KAA
       country_event = {
          id = zap.war.3
       }
@@ -93,22 +101,49 @@
       focus = ZAP_focus_4
    }
    prerequisite = {
-      focus = ZAP_focus_3
+      focus = ZAP_focus_8  
    }
  }
  focus = {
    id = ZAP_focus_6
    icon = GFX_surrender_tiny_flag
    cost = 3
-   x = 2
+   x = 1
    y = 4
-   completion_reward = { 
-      country_event = {
-         id = zap.war
-      }
-    }
    prerequisite = {
-      focus = ZAP_focus_5
+      focus = ZAP_focus_7
+   }
+     completion_reward = {
+      country_event = {
+         id = zap.war.5
+      }
+   }
+}
+   
+   focus = {
+      id = ZAP_focus_7
+   icon = GFX_focus_GER_loyalty_to_the_fuhrer
+   cost = 3
+   x = 1
+   y = 3
+   completion_reward = { country_event = { id = zap.war.5 } }
+   prerequisite = {
+      focus = ZAP_focus_3
+   }
+ }
+ focus = {
+   id = ZAP_focus_8
+   icon = GFX_SOV_barrier_troops_ccp_2d_sov_compatibility
+   cost = 3
+   x = 1
+   y = 5
+   prerequisite = {
+      focus = ZAP_focus_6
+   }
+   completion_reward = {
+      country_event = {
+         id = zap.war.6
+      }
    }
  }
 }
