@@ -7,9 +7,17 @@ bookmarks = {
 		default = yes
 		
 		
-		IKA={
-			history = "Donosy_GATHERING_STORM_DESC"
+		HTN={
+			history = "Proszowice_GATHERING_STORM_DESC"
 			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		KAW={
+			history = "KW_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
@@ -25,7 +33,7 @@ bookmarks = {
 		}
 		KOB={
 			history = "Kobylniki_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
