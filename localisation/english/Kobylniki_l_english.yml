@@ -1,30 +1,116 @@
 ﻿l_english:
+ #-----------------------------------------------------------------------------------------------------------------
+ # Polityka
  Kobylniki:0 "Kobylniki Tree"
-
-# Polityka
  KOB_Przygotowania_Swiento_ziemniaka_0:0 "Preparation for Potato Festival"
- KOB_Przygotowania_Swiento_ziemniaka_0_desc:0 "The village head invests in a playground because yes"
- KOB_Przygotowania_Swiento_ziemniaka_0_tt:0 "The village head invests in a playground because yes"
+ KOB_Przygotowania_Swiento_ziemniaka_0_desc:0 "Prepare for big Potato Festival"
+ KOB_Przygotowania_Swiento_ziemniaka_0_tt:0 "Get lots of potatoes"
 
  KOB_Inwestycje_na_placu_zabaw_0:0 "Investments in the playground"
- KOB_Inwestycje_na_placu_zabaw_0_desc:0 "Soltys head invests in a playground because yes"
- KOB_Inwestycje_na_placu_zabaw_0_tt:0 "Soltys head invests in a playground because yes"
+ KOB_Inwestycje_na_placu_zabaw_0_desc:0 "Soltys invests in a playground to make child happy"
+ KOB_Inwestycje_na_placu_zabaw_0_tt:0 "Everything for kids"
 
  KOB_Swiento_Ziemniaka:0 "Potato Festival"
- KOB_Swiento_Ziemniaka_desc:0 "Potato Festival"
- KOB_Swiento_Ziemniaka_tt:0 "Potato Festival"
+ KOB_Swiento_Ziemniaka_desc:0 "Every year Potato Festival is organized for people!"
+ KOB_Swiento_Ziemniaka_tt:0 "Everyone FREE potatoes!!"
+
 
  KOB_Tragiczne_Zbiory_Ziemniakow:0 "Tragic potato harvest"
- KOB_Tragiczne_Zbiory_Ziemniakow_desc:0 "Tragic potato harvest"
- KOB_Tragiczne_Zbiory_Ziemniakow_tt:0 "Tragic potato harvest"
+ KOB_Tragiczne_Zbiory_Ziemniakow_desc:0 "This year was hot and dry resulting in small crops yealds"
+ KOB_Tragiczne_Zbiory_Ziemniakow_tt:0 "Deal with it later"
 
- KOB_Odejscie_Proboszcza:0 "Parish priest is leaving"
- KOB_Odejscie_Proboszcza_desc:0 "Parish priest Marian Fatyga is leaving our parish"
+ KOB_Zalamanie_Rynku:0 "The Market collapse"
+ KOB_Zalamanie_Rynku_desc:0 "Potato prices are sky high resulting in people having nothing to eat"
+ KOB_Zalamanie_Rynku_tt:0 "Buy potatoes from abroad"
+
+ KOB_Zamkniencie_Sklepu:0 "The last store closed"
+ KOB_Zamkniencie_Sklepu_desc:0 "People cant afford anything in stores so they closed"
+ KOB_Zamkniencie_Sklepu_tt:0 "You cant do anything with it"
+
+
+ KOB_Odejscie_Proboszcza:0 "Proboszcz is leaving"
+ KOB_Odejscie_Proboszcza_desc:0 "Proboszcz Marian Fatyga is leaving our parish"
  KOB_Odejscie_Proboszcza_tt:0 "Choose wisely"
 
-# Kobylniki Eventy
- kob_proboszcz.1.t: "Parish priest Marian Fatyga is leaving"
- kob_proboszcz.1.d: "For years, Parish Priest Marian Fatyga has been a pillar of stability in our community. A calm voice in times of unrestand a quiet but firm influence on local affairs.\n You must take a side to guarantee your party's victory"
+ KOB_Nowy_Proboszcz:0 "New Proboszcz"
+ KOB_Nowy_Proboszcz_desc:0 "New Proboszcz came to Kobylniki to replace old one"
+ KOB_Nowy_Proboszcz_tt:0 "What do you think about it?"
+
+ KOB_Wyrzucenie_Ministrantow:0 "Expulsion of the Ministranci"
+ KOB_Wyrzucenie_Ministrantow_desc:0 "Ministranci had to leave church because Proboszcz wants firefighters"
+ KOB_Wyrzucenie_Ministrantow_tt:0 "People are not happy"
+
+ KOB_Tymczasowe_Lagodzenie_Buntow:0 "Mitigating rebellions"
+ KOB_Tymczasowe_Lagodzenie_Buntow_desc:0 "Try to calm the situation"
+ KOB_Tymczasowe_Lagodzenie_Buntow_tt:0 "Fire is rising"
+
+
+ KOB_Zebranie_U_Soltysa:0 "Meeting at the Soltys House"
+ KOB_Zebranie_U_Soltysa_desc:0 "Soltys needs to discuss current situation with others"
+ KOB_Zebranie_U_Soltysa_tt:0 "give it a moment"
+
+ KOB_Klotnie_O_Budzet:0 "The Budget problem"
+ KOB_Klotnie_O_Budzet_desc:0 "Soltys adreses Budget problems that country is deeling with"
+ KOB_Klotnie_O_Budzet_tt:0 "Bad things happening"
+
+ KOB_Odejscie_Soltysa_Na_Emeryture:0 "Soltys is retiring"
+ KOB_Odejscie_Soltysa_Na_Emeryture_desc:0 "After 45 years Soltys is retiring"
+ KOB_Odejscie_Soltysa_Na_Emeryture_tt:0 "Such a great Soltys"
+
+ KOB_Male_Dotacje_KW:0 "Small Kazmieza Wielka Grants"
+ KOB_Male_Dotacje_KW_desc:0 "Kazmieza Wielka gives us small Donation"
+ KOB_Male_Dotacje_KW_tt:0 "Thanks!"
+
+ KOB_Internet_TrzyG:0 "3G Internet"
+ KOB_Internet_TrzyG_desc:0 "2G was too slow we needed upgrade long ago"
+ KOB_Internet_TrzyG_tt:0 "With 3G we can watch Youtube!"
+
+ KOB_Podpiencie_pod_siec_elek:0 "Connecting to power grid"
+ KOB_Podpiencie_pod_siec_elek_desc:0 "Current power grid wasnt enough for entire Kobylniki"
+ KOB_Podpiencie_pod_siec_elek_tt:0 "Upgrade!"
+
+ KOB_Wielkie_Wybory:0 "Massive Elections"
+ KOB_Wielkie_Wybory_desc:0 "REPLACE_ME"
+ KOB_Wielkie_Wybory_tt:0 "REPLACE_ME"
+
+ KOB_Komunizm:0 "Mat. Dictator"
+ KOB_Komunizm_desc:0 "REPLACE_ME"
+ KOB_Komunizm_tt:0 "REPLACE_ME"
+
+ KOB_Demokracja:0 "Wiesiek's rule"
+ KOB_Demokracja_desc:0 "REPLACE_ME"
+ KOB_Demokracja_tt:0 "REPLACE_ME"
+
+ KOB_Non_Aligned:0 "REPLACE_ME"
+ KOB_Non_Aligned_desc:0 "REPLACE_ME"
+ KOB_Non_Aligned_tt:0 "REPLACE_ME"
+
+ #-----------------------------------------------------------------------------------------------------------------
+ # Kobylniki Eventy
+ kob_proboszcz.1.t: "Proboszcz Marian Fatyga is leaving"
+ kob_proboszcz.1.d: "For years, Proboszcz Marian Fatyga has been a pillar of stability in our community. A calm voice in times of unrestand a quiet but firm influence on local affairs.\n You must take a side to guarantee your party's victory"
  kob_proboszcz.1.a: "Mourning in the country"
  kob_proboszcz.1.b: "I didn't like him anyway"
  kob_proboszcz.1.c: "I have no opinion on this"
+
+ kob_Soltys.1.t:0 "Soltys of Kobylniki is retiring"
+ kob_Soltys.1.d:0 "After 45 years of continious rulling Soltys finally retires. He was one of the most beloved Soltys in entire Kobylniki History. He builded Kaplica and funded small primary school in his early years."
+ kob_Soltys.1.a:0 "Make situation good for your party"
+ kob_Soltys.1.b:0 "Organize day off from work"
+ kob_Soltys.1.c:0 "He was really good Soltys"
+ kob_Soltys.1.e:0 "We didnt like him really"
+
+ #-----------------------------------------------------------------------------------------------------------------
+ # Kobylniki Idee
+ Nieudane_Zbiory_Ziemniakow_1:0 "Tragic Potato harvest"
+ Nieudane_Zbiory_Ziemniakow_1_desc:0 "Tragic Potato harvest"
+ Nieudane_Zbiory_Ziemniakow_2:0 "Tragic Potato harvest"
+ Nieudane_Zbiory_Ziemniakow_2_desc:0 "Tragic Potato harvest"
+ Nieudane_Zbiory_Ziemniakow_3:0 "Tragic Potato harvest"
+ Nieudane_Zbiory_Ziemniakow_3_desc:0 "Tragic Potato harvest"
+
+ Klotnie_O_Budzet_1:0 "The Budget problem"
+ Klotnie_O_Budzet_1_desc:0 "The Budget problem"
+
+ Brak_Wladzy:0 "No ruler"
+ Brak_Wladzy_desc:0 "No ruler"

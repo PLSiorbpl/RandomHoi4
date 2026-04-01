@@ -1,5 +1,5 @@
 characters = {
-	JNI_Silvanustus_Deus={
+	GUN_Silvanustus_Deus={
 		name="Silvanustus Deus"
 
 		
@@ -11,207 +11,207 @@ characters = {
 		}
 
 	}
-	JNI_Livius_Tima={
+	GUN_Livius_Tima={
 		name="Livius Tima"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Livius_Tima
+			idea_token = GUN_Livius_Tima
 				traits = {	headstrong 	}
 		}
 
 	}
-	JNI_Livius_Anivia={
+	GUN_Livius_Anivia={
 		name="Livius Anivia"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Livius_Anivia
+			idea_token = GUN_Livius_Anivia
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	JNI_Marcellus_Bella={
+	GUN_Marcellus_Bella={
 		name="Marcellus Bella"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Marcellus_Bella
+			idea_token = GUN_Marcellus_Bella
 				traits = {	humble 	}
 		}
 
 	}
-	JNI_Aulus_Anivia={
+	GUN_Aulus_Anivia={
 		name="Aulus Anivia"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Aulus_Anivia
+			idea_token = GUN_Aulus_Anivia
 				traits = {	headstrong 	}
 		}
 
 	}
-	JNI_Regus_Laculgus={
+	GUN_Regus_Laculgus={
 		name="Regus Laculgus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Regus_Laculgus
+			idea_token = GUN_Regus_Laculgus
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	JNI_Silvanustus_Cammalum={
+	GUN_Silvanustus_Cammalum={
 		name="Silvanustus Cammalum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Silvanustus_Cammalum
+			idea_token = GUN_Silvanustus_Cammalum
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	JNI_Faudius_Mena={
+	GUN_Faudius_Mena={
 		name="Faudius Mena"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Faudius_Mena
+			idea_token = GUN_Faudius_Mena
 				traits = {	army_chief_entrenchment_1 	}
 		}
 
 	}
-	JNI_Flavius_Impus={
+	GUN_Flavius_Impus={
 		name="Flavius Impus"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Flavius_Impus
+			idea_token = GUN_Flavius_Impus
 				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	JNI_Julus_Fama={
+	GUN_Julus_Fama={
 		name="Julus Fama"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Julus_Fama
+			idea_token = GUN_Julus_Fama
 				traits = {	army_chief_entrenchment_1 	}
 		}
 
 	}
-	JNI_Spurius_Bella={
+	GUN_Spurius_Bella={
 		name="Spurius Bella"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Spurius_Bella
+			idea_token = GUN_Spurius_Bella
 				traits = {	army_chief_organizational_2 	}
 		}
 
 	}
-	JNI_Spurius_Impus={
+	GUN_Spurius_Impus={
 		name="Spurius Impus"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Spurius_Impus
+			idea_token = GUN_Spurius_Impus
 				traits = {	navy_chief_maneuver_2 	}
 		}
 
 	}
-	JNI_Aulius_Cammalum={
+	GUN_Aulius_Cammalum={
 		name="Aulius Cammalum"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Aulius_Cammalum
+			idea_token = GUN_Aulius_Cammalum
 				traits = {	navy_chief_commerce_raiding_1 	}
 		}
 
 	}
-	JNI_Traianlius_Anivia={
+	GUN_Traianlius_Anivia={
 		name="Traianlius Anivia"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Traianlius_Anivia
+			idea_token = GUN_Traianlius_Anivia
 				traits = {	air_chief_ground_support_2 	}
 		}
 
 	}
-	JNI_Silvanustus_Nator={
+	GUN_Silvanustus_Nator={
 		name="Silvanustus Nator"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Silvanustus_Nator
+			idea_token = GUN_Silvanustus_Nator
 				traits = {	air_chief_reform_2 	}
 		}
 
 	}
-	JNI_Aulus_Fama={
+	GUN_Aulus_Fama={
 		name="Aulus Fama"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Aulus_Fama
+			idea_token = GUN_Aulus_Fama
 				traits = {	air_pilot_training_1 	}
 		}
 
 	}
-	JNI_Cornellius_Mena={
+	GUN_Cornellius_Mena={
 		name="Cornellius Mena"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Cornellius_Mena
+			idea_token = GUN_Cornellius_Mena
 				traits = {	air_strategic_bombing_2 	}
 		}
 
 	}
-	JNI_Graius_Bella={
+	GUN_Graius_Bella={
 		name="Graius Bella"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Graius_Bella
+			idea_token = GUN_Graius_Bella
 				traits = {	air_close_air_support_1 	}
 		}
 
 	}
-	JNI_Titus_Impus={
+	GUN_Titus_Impus={
 		name="Titus Impus"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Titus_Impus
+			idea_token = GUN_Titus_Impus
 				traits = {	navy_submarine_1 	}
 		}
 
 	}
-	JNI_Flaulus_Anivia={
+	GUN_Flaulus_Anivia={
 		name="Flaulus Anivia"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Flaulus_Anivia
+			idea_token = GUN_Flaulus_Anivia
 				traits = {	army_concealment_2 	}
 		}
 
 	}
-	JNI_Traianlius_Mena={
+	GUN_Traianlius_Mena={
 		name="Traianlius Mena"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Traianlius_Mena
+			idea_token = GUN_Traianlius_Mena
 				traits = {	air_close_air_support_1 	}
 		}
 
 	}
-	JNI_Flaulus_Tima={
+	GUN_Flaulus_Tima={
 		name="Flaulus Tima"
 
 		
@@ -223,207 +223,207 @@ characters = {
 		}
 
 	}
-	JNI_Aulius_Impus={
+	GUN_Aulius_Impus={
 		name="Aulius Impus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Aulius_Impus
+			idea_token = GUN_Aulius_Impus
 				traits = {	polemarch 	}
 		}
 
 	}
-	JNI_Lucimus_Mena={
+	GUN_Lucimus_Mena={
 		name="Lucimus Mena"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Lucimus_Mena
+			idea_token = GUN_Lucimus_Mena
 				traits = {	warmonger 	}
 		}
 
 	}
-	JNI_Cassius_Tima={
+	GUN_Cassius_Tima={
 		name="Cassius Tima"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Cassius_Tima
+			idea_token = GUN_Cassius_Tima
 				traits = {	polemarch 	}
 		}
 
 	}
-	JNI_Julus_Anivia={
+	GUN_Julus_Anivia={
 		name="Julus Anivia"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Julus_Anivia
+			idea_token = GUN_Julus_Anivia
 				traits = {	polemarch 	}
 		}
 
 	}
-	JNI_Fabius_Cammalum={
+	GUN_Fabius_Cammalum={
 		name="Fabius Cammalum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Fabius_Cammalum
+			idea_token = GUN_Fabius_Cammalum
 				traits = {	celebrity_junta_leader 	}
 		}
 
 	}
-	JNI_Marcus_Laculgus={
+	GUN_Marcus_Laculgus={
 		name="Marcus Laculgus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Marcus_Laculgus
+			idea_token = GUN_Marcus_Laculgus
 				traits = {	inexperienced_imperialist 	}
 		}
 
 	}
-	JNI_Maximus_Nator={
+	GUN_Maximus_Nator={
 		name="Maximus Nator"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Maximus_Nator
+			idea_token = GUN_Maximus_Nator
 				traits = {	army_chief_planning_2 	}
 		}
 
 	}
-	JNI_Sero_Deus={
+	GUN_Sero_Deus={
 		name="Sero Deus"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Sero_Deus
+			idea_token = GUN_Sero_Deus
 				traits = {	army_chief_morale_2 	}
 		}
 
 	}
-	JNI_Silvanlius_Nator={
+	GUN_Silvanlius_Nator={
 		name="Silvanlius Nator"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Silvanlius_Nator
+			idea_token = GUN_Silvanlius_Nator
 				traits = {	army_chief_drill_1 	}
 		}
 
 	}
-	JNI_Domitus_Tima={
+	GUN_Domitus_Tima={
 		name="Domitus Tima"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Domitus_Tima
+			idea_token = GUN_Domitus_Tima
 				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	JNI_Silvanlius_Impus={
+	GUN_Silvanlius_Impus={
 		name="Silvanlius Impus"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Silvanlius_Impus
+			idea_token = GUN_Silvanlius_Impus
 				traits = {	navy_chief_maneuver_1 	}
 		}
 
 	}
-	JNI_Domitellus_Fama={
+	GUN_Domitellus_Fama={
 		name="Domitellus Fama"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Domitellus_Fama
+			idea_token = GUN_Domitellus_Fama
 				traits = {	navy_chief_naval_aviation_2 	}
 		}
 
 	}
-	JNI_Servius_Fama={
+	GUN_Servius_Fama={
 		name="Servius Fama"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Servius_Fama
+			idea_token = GUN_Servius_Fama
 				traits = {	air_chief_night_operations_1 	}
 		}
 
 	}
-	JNI_Julus_Laculgus={
+	GUN_Julus_Laculgus={
 		name="Julus Laculgus"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Julus_Laculgus
+			idea_token = GUN_Julus_Laculgus
 				traits = {	air_chief_old_guard_1 	}
 		}
 
 	}
-	JNI_Viberius_Bella={
+	GUN_Viberius_Bella={
 		name="Viberius Bella"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Viberius_Bella
+			idea_token = GUN_Viberius_Bella
 				traits = {	navy_amphibious_assault_1 	}
 		}
 
 	}
-	JNI_Domitellus_Tima={
+	GUN_Domitellus_Tima={
 		name="Domitellus Tima"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Domitellus_Tima
+			idea_token = GUN_Domitellus_Tima
 				traits = {	navy_fleet_logistics_2 	}
 		}
 
 	}
-	JNI_Manus_Nator={
+	GUN_Manus_Nator={
 		name="Manus Nator"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Manus_Nator
+			idea_token = GUN_Manus_Nator
 				traits = {	air_strategic_bombing_2 	}
 		}
 
 	}
-	JNI_Marcusus_Anivia={
+	GUN_Marcusus_Anivia={
 		name="Marcusus Anivia"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Marcusus_Anivia
+			idea_token = GUN_Marcusus_Anivia
 				traits = {	navy_anti_submarine_2 	}
 		}
 
 	}
-	JNI_Gaius_Cammalum={
+	GUN_Gaius_Cammalum={
 		name="Gaius Cammalum"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Gaius_Cammalum
+			idea_token = GUN_Gaius_Cammalum
 				traits = {	air_air_combat_training_1 	}
 		}
 
 	}
-	JNI_Aulius_Tima={
+	GUN_Aulius_Tima={
 		name="Aulius Tima"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Aulius_Tima
+			idea_token = GUN_Aulius_Tima
 				traits = {	navy_naval_air_defense_1 	}
 		}
 
 	}
-	JNI_Gracchus_Mena={
+	GUN_Gracchus_Mena={
 		name="Gracchus Mena"
 
 		
@@ -435,207 +435,207 @@ characters = {
 		}
 
 	}
-	JNI_Sero_Bella={
+	GUN_Sero_Bella={
 		name="Sero Bella"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Sero_Bella
+			idea_token = GUN_Sero_Bella
 				traits = {	political_dancer 	}
 		}
 
 	}
-	JNI_Marcelianliu_Fama={
+	GUN_Marcelianliu_Fama={
 		name="Marcelianliu Fama"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Marcelianliu_Fama
+			idea_token = GUN_Marcelianliu_Fama
 				traits = {	polemarch 	}
 		}
 
 	}
-	JNI_Valerutus_Anivia={
+	GUN_Valerutus_Anivia={
 		name="Valerutus Anivia"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Valerutus_Anivia
+			idea_token = GUN_Valerutus_Anivia
 				traits = {	polemarch 	}
 		}
 
 	}
-	JNI_Julus_Impus={
+	GUN_Julus_Impus={
 		name="Julus Impus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Julus_Impus
+			idea_token = GUN_Julus_Impus
 				traits = {	polemarch 	}
 		}
 
 	}
-	JNI_Valerutus_Deus={
+	GUN_Valerutus_Deus={
 		name="Valerutus Deus"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Valerutus_Deus
+			idea_token = GUN_Valerutus_Deus
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	JNI_Varcelius_Fama={
+	GUN_Varcelius_Fama={
 		name="Varcelius Fama"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Varcelius_Fama
+			idea_token = GUN_Varcelius_Fama
 				traits = {	mastermind_code_cracker 	}
 		}
 
 	}
-	JNI_Varro_Cammalum={
+	GUN_Varro_Cammalum={
 		name="Varro Cammalum"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Varro_Cammalum
+			idea_token = GUN_Varro_Cammalum
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	JNI_Quintonius_Anivia={
+	GUN_Quintonius_Anivia={
 		name="Quintonius Anivia"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Quintonius_Anivia
+			idea_token = GUN_Quintonius_Anivia
 				traits = {	army_chief_offensive_2 	}
 		}
 
 	}
-	JNI_Claus_Deus={
+	GUN_Claus_Deus={
 		name="Claus Deus"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Claus_Deus
+			idea_token = GUN_Claus_Deus
 				traits = {	army_chief_organizational_1 	}
 		}
 
 	}
-	JNI_Marro_Tima={
+	GUN_Marro_Tima={
 		name="Marro Tima"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Marro_Tima
+			idea_token = GUN_Marro_Tima
 				traits = {	army_chief_reform_2 	}
 		}
 
 	}
-	JNI_Valerutus_Nator={
+	GUN_Valerutus_Nator={
 		name="Valerutus Nator"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Valerutus_Nator
+			idea_token = GUN_Valerutus_Nator
 				traits = {	navy_chief_naval_aviation_2 	}
 		}
 
 	}
-	JNI_Varcelius_Laculgus={
+	GUN_Varcelius_Laculgus={
 		name="Varcelius Laculgus"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Varcelius_Laculgus
+			idea_token = GUN_Varcelius_Laculgus
 				traits = {	navy_chief_commerce_raiding_2 	}
 		}
 
 	}
-	JNI_Viberius_Impus={
+	GUN_Viberius_Impus={
 		name="Viberius Impus"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Viberius_Impus
+			idea_token = GUN_Viberius_Impus
 				traits = {	air_chief_old_guard_2 	}
 		}
 
 	}
-	JNI_Scaeverius_Laculgus={
+	GUN_Scaeverius_Laculgus={
 		name="Scaeverius Laculgus"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Scaeverius_Laculgus
+			idea_token = GUN_Scaeverius_Laculgus
 				traits = {	air_chief_ground_support_1 	}
 		}
 
 	}
-	JNI_Flaulus_Mena={
+	GUN_Flaulus_Mena={
 		name="Flaulus Mena"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Flaulus_Mena
+			idea_token = GUN_Flaulus_Mena
 				traits = {	navy_carrier_1 	}
 		}
 
 	}
-	JNI_Viberius_Laculgus={
+	GUN_Viberius_Laculgus={
 		name="Viberius Laculgus"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Viberius_Laculgus
+			idea_token = GUN_Viberius_Laculgus
 				traits = {	navy_screen_2 	}
 		}
 
 	}
-	JNI_Domitus_Mena={
+	GUN_Domitus_Mena={
 		name="Domitus Mena"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Domitus_Mena
+			idea_token = GUN_Domitus_Mena
 				traits = {	navy_carrier_1 	}
 		}
 
 	}
-	JNI_Otho_Impus={
+	GUN_Otho_Impus={
 		name="Otho Impus"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Otho_Impus
+			idea_token = GUN_Otho_Impus
 				traits = {	army_cavalry_1 	}
 		}
 
 	}
-	JNI_Flavius_Mena={
+	GUN_Flavius_Mena={
 		name="Flavius Mena"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Flavius_Mena
+			idea_token = GUN_Flavius_Mena
 				traits = {	navy_amphibious_assault_2 	}
 		}
 
 	}
-	JNI_Sextus_Tima={
+	GUN_Sextus_Tima={
 		name="Sextus Tima"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Sextus_Tima
+			idea_token = GUN_Sextus_Tima
 				traits = {	army_radio_intelligence_1 	}
 		}
 
 	}
-	JNI_Regulus_Fama={
+	GUN_Regulus_Fama={
 		name="Regulus Fama"
 
 		
@@ -647,232 +647,232 @@ characters = {
 		}
 
 	}
-	JNI_Otho_Bella={
+	GUN_Otho_Bella={
 		name="Otho Bella"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Otho_Bella
+			idea_token = GUN_Otho_Bella
 				traits = {	the_young_magnate 	}
 		}
 
 	}
-	JNI_Antus_Cammalum={
+	GUN_Antus_Cammalum={
 		name="Antus Cammalum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Antus_Cammalum
+			idea_token = GUN_Antus_Cammalum
 				traits = {	the_banker 	}
 		}
 
 	}
-	JNI_Lonius_Cammalum={
+	GUN_Lonius_Cammalum={
 		name="Lonius Cammalum"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Lonius_Cammalum
+			idea_token = GUN_Lonius_Cammalum
 				traits = {	famous_aviator 	}
 		}
 
 	}
-	JNI_Paulus_Anivia={
+	GUN_Paulus_Anivia={
 		name="Paulus Anivia"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Paulus_Anivia
+			idea_token = GUN_Paulus_Anivia
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	JNI_Brutus_Tima={
+	GUN_Brutus_Tima={
 		name="Brutus Tima"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Brutus_Tima
+			idea_token = GUN_Brutus_Tima
 				traits = {	staunch_constitutionalist 	}
 		}
 
 	}
-	JNI_Fabius_Mena={
+	GUN_Fabius_Mena={
 		name="Fabius Mena"
 
 		advisor={
 			slot = political_advisor
-			idea_token = JNI_Fabius_Mena
+			idea_token = GUN_Fabius_Mena
 				traits = {	conservative_grandee 	}
 		}
 
 	}
-	JNI_Varcelius_Nator={
+	GUN_Varcelius_Nator={
 		name="Varcelius Nator"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Varcelius_Nator
+			idea_token = GUN_Varcelius_Nator
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	JNI_Flavius_Deus={
+	GUN_Flavius_Deus={
 		name="Flavius Deus"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Flavius_Deus
+			idea_token = GUN_Flavius_Deus
 				traits = {	army_chief_offensive_1 	}
 		}
 
 	}
-	JNI_Varcellius_Cammalum={
+	GUN_Varcellius_Cammalum={
 		name="Varcellius Cammalum"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Varcellius_Cammalum
+			idea_token = GUN_Varcellius_Cammalum
 				traits = {	army_chief_maneuver_1 	}
 		}
 
 	}
-	JNI_Silvanustus_Mena={
+	GUN_Silvanustus_Mena={
 		name="Silvanustus Mena"
 
 		advisor={
 			slot = army_chief
-			idea_token = JNI_Silvanustus_Mena
+			idea_token = GUN_Silvanustus_Mena
 				traits = {	army_chief_maneuver_2 	}
 		}
 
 	}
-	JNI_Marro_Impus={
+	GUN_Marro_Impus={
 		name="Marro Impus"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Marro_Impus
+			idea_token = GUN_Marro_Impus
 				traits = {	navy_chief_commerce_raiding_2 	}
 		}
 
 	}
-	JNI_Varro_Mena={
+	GUN_Varro_Mena={
 		name="Varro Mena"
 
 		advisor={
 			slot = navy_chief
-			idea_token = JNI_Varro_Mena
+			idea_token = GUN_Varro_Mena
 				traits = {	navy_chief_maneuver_1 	}
 		}
 
 	}
-	JNI_Livius_Laculgus={
+	GUN_Livius_Laculgus={
 		name="Livius Laculgus"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Livius_Laculgus
+			idea_token = GUN_Livius_Laculgus
 				traits = {	air_chief_ground_support_2 	}
 		}
 
 	}
-	JNI_Quinus_Nator={
+	GUN_Quinus_Nator={
 		name="Quinus Nator"
 
 		advisor={
 			slot = air_chief
-			idea_token = JNI_Quinus_Nator
+			idea_token = GUN_Quinus_Nator
 				traits = {	air_chief_old_guard_2 	}
 		}
 
 	}
-	JNI_Faudius_Fama={
+	GUN_Faudius_Fama={
 		name="Faudius Fama"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Faudius_Fama
+			idea_token = GUN_Faudius_Fama
 				traits = {	air_pilot_training_1 	}
 		}
 
 	}
-	JNI_Gemus_Anivia={
+	GUN_Gemus_Anivia={
 		name="Gemus Anivia"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Gemus_Anivia
+			idea_token = GUN_Gemus_Anivia
 				traits = {	army_cavalry_2 	}
 		}
 
 	}
-	JNI_Scaeverius_Deus={
+	GUN_Scaeverius_Deus={
 		name="Scaeverius Deus"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Scaeverius_Deus
+			idea_token = GUN_Scaeverius_Deus
 				traits = {	navy_carrier_1 	}
 		}
 
 	}
-	JNI_Regus_Tima={
+	GUN_Regus_Tima={
 		name="Regus Tima"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Regus_Tima
+			idea_token = GUN_Regus_Tima
 				traits = {	air_close_air_support_1 	}
 		}
 
 	}
-	JNI_Horatius_Cammalum={
+	GUN_Horatius_Cammalum={
 		name="Horatius Cammalum"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Horatius_Cammalum
+			idea_token = GUN_Horatius_Cammalum
 				traits = {	army_CombinedArms_1 	}
 		}
 
 	}
-	JNI_Faulius_Mena={
+	GUN_Faulius_Mena={
 		name="Faulius Mena"
 
 		advisor={
 			slot = high_command
-			idea_token = JNI_Faulius_Mena
+			idea_token = GUN_Faulius_Mena
 				traits = {	air_air_combat_training_1 	}
 		}
 
 	}
-	JNI_Cassius_Anivia={
+	GUN_Cassius_Anivia={
 		name="Cassius Anivia"
 
 		advisor={
 			slot = theorist
-			idea_token = JNI_Cassius_Anivia
+			idea_token = GUN_Cassius_Anivia
 				traits = {	military_theorist 	}
 		}
 
 	}
-	JNI_Gemus_Fama={
+	GUN_Gemus_Fama={
 		name="Gemus Fama"
 
 		advisor={
 			slot = theorist
-			idea_token = JNI_Gemus_Fama
+			idea_token = GUN_Gemus_Fama
 				traits = {	naval_theorist 	}
 		}
 
 	}
-	JNI_Prius_Cammalum={
+	GUN_Prius_Cammalum={
 		name="Prius Cammalum"
 
 		advisor={
 			slot = theorist
-			idea_token = JNI_Prius_Cammalum
+			idea_token = GUN_Prius_Cammalum
 				traits = {	air_warfare_theorist 	}
 		}
 

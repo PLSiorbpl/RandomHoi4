@@ -1,5 +1,12 @@
 capital = 384
 
+overlord = KAW
+
+set_autonomy = {
+    target = KAW
+    autonomy_state = autonomy_puppet
+}
+
 oob = "BUS_1936"
 if = {
 	limit = {

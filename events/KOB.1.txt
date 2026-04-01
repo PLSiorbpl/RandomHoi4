@@ -47,3 +47,49 @@ add_namespace = kob_proboszcz
 
 	fire_only_once = yes
  }
+add_namespace = kob_Soltys
+ news_event = {
+	id = kob_Soltys.1
+
+	title = "kob_Soltys.1.t"
+	desc = "kob_Soltys.1.d"
+
+	picture = GFX_report_event_IRQ_ghazi_i_death
+
+	option = {
+		name = "kob_Soltys.1.a"
+		trigger = { tag = KOB }
+
+		add_stability = -0.05
+		add_war_support = -0.05
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+	}
+	option = {
+		name = "kob_Soltys.1.b"
+		trigger = { tag = KOB }
+
+		add_stability = 0.1
+		add_war_support = 0.05
+		add_political_power = 25
+	}
+	option = {
+		name = "kob_Soltys.1.c"
+		trigger = { NOT = { tag = KOB } }
+
+		add_opinion_modifier = {
+			target = KOB
+			modifier = improve_relation
+		}
+	}
+	option = {
+		name = "kob_Soltys.1.e"
+		trigger = { NOT = { tag = KOB } }
+
+		add_political_power = 10
+	}
+
+	fire_only_once = yes
+ }

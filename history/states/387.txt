@@ -2,18 +2,18 @@
 state={
 	id=387
 	name="STATE_387"
-	manpower = 14524432451456
+	manpower = 1583542
 	
 	state_category = city
 	#impassable = yes
 	resources={
-		aluminium=1000
-		chromium=1000
-		oil=1000
-		rubber=1000
-		steel=1000
-		tungsten=1000
-		coal=1000
+		aluminium=2
+		chromium=3
+		oil=0
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=4
 	}
 
 	history={
@@ -21,7 +21,7 @@ state={
 		victory_points = { 4642 2}
 		victory_points = { 4643 1}
 		
-		owner = RSM
+		owner = KAW
 		buildings = {
 			infrastructure = 4
 			air_base = 4
@@ -30,7 +30,7 @@ state={
 			
 			
 		}
-		add_core_of = RSM
+		add_core_of = KAW
 	}
 
 	provinces={

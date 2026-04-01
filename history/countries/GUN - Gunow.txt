@@ -1,19 +1,19 @@
 capital = 766
 
-oob = "JNI_1936"
+oob = "GUN_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "JNI_1936"
+	set_oob = "GUN_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "JNI_1936_nsb"
+	set_oob = "GUN_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -189,7 +189,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "JNI_1936_air_bba"
+		set_air_oob = "GUN_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			iw_medium_airframe = 1
@@ -232,7 +232,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "JNI_1936_air_legacy"
+		set_air_oob = "GUN_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -255,7 +255,7 @@ if = {
 	early_destroyer = 1
 	
 	}
-	set_naval_oob = "JNI_1936_naval"
+	set_naval_oob = "GUN_1936_naval"
 }
 
 ### Ship Variants ###
@@ -289,7 +289,7 @@ if = {
 	sonar = 1
 	
 	}
-	set_naval_oob = "JNI_1936_naval_mtg"
+	set_naval_oob = "GUN_1936_naval_mtg"
 }
 
 	if = {
@@ -315,93 +315,93 @@ if = {
 	}
 
 
-recruit_character = JNI_Silvanustus_Deus
-recruit_character = JNI_Livius_Tima
-recruit_character = JNI_Livius_Anivia
-recruit_character = JNI_Marcellus_Bella
-recruit_character = JNI_Aulus_Anivia
-recruit_character = JNI_Regus_Laculgus
-recruit_character = JNI_Silvanustus_Cammalum
-recruit_character = JNI_Faudius_Mena
-recruit_character = JNI_Flavius_Impus
-recruit_character = JNI_Julus_Fama
-recruit_character = JNI_Spurius_Bella
-recruit_character = JNI_Spurius_Impus
-recruit_character = JNI_Aulius_Cammalum
-recruit_character = JNI_Traianlius_Anivia
-recruit_character = JNI_Silvanustus_Nator
-recruit_character = JNI_Aulus_Fama
-recruit_character = JNI_Cornellius_Mena
-recruit_character = JNI_Graius_Bella
-recruit_character = JNI_Titus_Impus
-recruit_character = JNI_Flaulus_Anivia
-recruit_character = JNI_Traianlius_Mena
-recruit_character = JNI_Flaulus_Tima
-recruit_character = JNI_Aulius_Impus
-recruit_character = JNI_Lucimus_Mena
-recruit_character = JNI_Cassius_Tima
-recruit_character = JNI_Julus_Anivia
-recruit_character = JNI_Fabius_Cammalum
-recruit_character = JNI_Marcus_Laculgus
-recruit_character = JNI_Maximus_Nator
-recruit_character = JNI_Sero_Deus
-recruit_character = JNI_Silvanlius_Nator
-recruit_character = JNI_Domitus_Tima
-recruit_character = JNI_Silvanlius_Impus
-recruit_character = JNI_Domitellus_Fama
-recruit_character = JNI_Servius_Fama
-recruit_character = JNI_Julus_Laculgus
-recruit_character = JNI_Viberius_Bella
-recruit_character = JNI_Domitellus_Tima
-recruit_character = JNI_Manus_Nator
-recruit_character = JNI_Marcusus_Anivia
-recruit_character = JNI_Gaius_Cammalum
-recruit_character = JNI_Aulius_Tima
-recruit_character = JNI_Gracchus_Mena
-recruit_character = JNI_Sero_Bella
-recruit_character = JNI_Marcelianliu_Fama
-recruit_character = JNI_Valerutus_Anivia
-recruit_character = JNI_Julus_Impus
-recruit_character = JNI_Valerutus_Deus
-recruit_character = JNI_Varcelius_Fama
-recruit_character = JNI_Varro_Cammalum
-recruit_character = JNI_Quintonius_Anivia
-recruit_character = JNI_Claus_Deus
-recruit_character = JNI_Marro_Tima
-recruit_character = JNI_Valerutus_Nator
-recruit_character = JNI_Varcelius_Laculgus
-recruit_character = JNI_Viberius_Impus
-recruit_character = JNI_Scaeverius_Laculgus
-recruit_character = JNI_Flaulus_Mena
-recruit_character = JNI_Viberius_Laculgus
-recruit_character = JNI_Domitus_Mena
-recruit_character = JNI_Otho_Impus
-recruit_character = JNI_Flavius_Mena
-recruit_character = JNI_Sextus_Tima
-recruit_character = JNI_Regulus_Fama
-recruit_character = JNI_Otho_Bella
-recruit_character = JNI_Antus_Cammalum
-recruit_character = JNI_Lonius_Cammalum
-recruit_character = JNI_Paulus_Anivia
-recruit_character = JNI_Brutus_Tima
-recruit_character = JNI_Fabius_Mena
-recruit_character = JNI_Varcelius_Nator
-recruit_character = JNI_Flavius_Deus
-recruit_character = JNI_Varcellius_Cammalum
-recruit_character = JNI_Silvanustus_Mena
-recruit_character = JNI_Marro_Impus
-recruit_character = JNI_Varro_Mena
-recruit_character = JNI_Livius_Laculgus
-recruit_character = JNI_Quinus_Nator
-recruit_character = JNI_Faudius_Fama
-recruit_character = JNI_Gemus_Anivia
-recruit_character = JNI_Scaeverius_Deus
-recruit_character = JNI_Regus_Tima
-recruit_character = JNI_Horatius_Cammalum
-recruit_character = JNI_Faulius_Mena
-recruit_character = JNI_Cassius_Anivia
-recruit_character = JNI_Gemus_Fama
-recruit_character = JNI_Prius_Cammalum
+recruit_character = GUN_Silvanustus_Deus
+recruit_character = GUN_Livius_Tima
+recruit_character = GUN_Livius_Anivia
+recruit_character = GUN_Marcellus_Bella
+recruit_character = GUN_Aulus_Anivia
+recruit_character = GUN_Regus_Laculgus
+recruit_character = GUN_Silvanustus_Cammalum
+recruit_character = GUN_Faudius_Mena
+recruit_character = GUN_Flavius_Impus
+recruit_character = GUN_Julus_Fama
+recruit_character = GUN_Spurius_Bella
+recruit_character = GUN_Spurius_Impus
+recruit_character = GUN_Aulius_Cammalum
+recruit_character = GUN_Traianlius_Anivia
+recruit_character = GUN_Silvanustus_Nator
+recruit_character = GUN_Aulus_Fama
+recruit_character = GUN_Cornellius_Mena
+recruit_character = GUN_Graius_Bella
+recruit_character = GUN_Titus_Impus
+recruit_character = GUN_Flaulus_Anivia
+recruit_character = GUN_Traianlius_Mena
+recruit_character = GUN_Flaulus_Tima
+recruit_character = GUN_Aulius_Impus
+recruit_character = GUN_Lucimus_Mena
+recruit_character = GUN_Cassius_Tima
+recruit_character = GUN_Julus_Anivia
+recruit_character = GUN_Fabius_Cammalum
+recruit_character = GUN_Marcus_Laculgus
+recruit_character = GUN_Maximus_Nator
+recruit_character = GUN_Sero_Deus
+recruit_character = GUN_Silvanlius_Nator
+recruit_character = GUN_Domitus_Tima
+recruit_character = GUN_Silvanlius_Impus
+recruit_character = GUN_Domitellus_Fama
+recruit_character = GUN_Servius_Fama
+recruit_character = GUN_Julus_Laculgus
+recruit_character = GUN_Viberius_Bella
+recruit_character = GUN_Domitellus_Tima
+recruit_character = GUN_Manus_Nator
+recruit_character = GUN_Marcusus_Anivia
+recruit_character = GUN_Gaius_Cammalum
+recruit_character = GUN_Aulius_Tima
+recruit_character = GUN_Gracchus_Mena
+recruit_character = GUN_Sero_Bella
+recruit_character = GUN_Marcelianliu_Fama
+recruit_character = GUN_Valerutus_Anivia
+recruit_character = GUN_Julus_Impus
+recruit_character = GUN_Valerutus_Deus
+recruit_character = GUN_Varcelius_Fama
+recruit_character = GUN_Varro_Cammalum
+recruit_character = GUN_Quintonius_Anivia
+recruit_character = GUN_Claus_Deus
+recruit_character = GUN_Marro_Tima
+recruit_character = GUN_Valerutus_Nator
+recruit_character = GUN_Varcelius_Laculgus
+recruit_character = GUN_Viberius_Impus
+recruit_character = GUN_Scaeverius_Laculgus
+recruit_character = GUN_Flaulus_Mena
+recruit_character = GUN_Viberius_Laculgus
+recruit_character = GUN_Domitus_Mena
+recruit_character = GUN_Otho_Impus
+recruit_character = GUN_Flavius_Mena
+recruit_character = GUN_Sextus_Tima
+recruit_character = GUN_Regulus_Fama
+recruit_character = GUN_Otho_Bella
+recruit_character = GUN_Antus_Cammalum
+recruit_character = GUN_Lonius_Cammalum
+recruit_character = GUN_Paulus_Anivia
+recruit_character = GUN_Brutus_Tima
+recruit_character = GUN_Fabius_Mena
+recruit_character = GUN_Varcelius_Nator
+recruit_character = GUN_Flavius_Deus
+recruit_character = GUN_Varcellius_Cammalum
+recruit_character = GUN_Silvanustus_Mena
+recruit_character = GUN_Marro_Impus
+recruit_character = GUN_Varro_Mena
+recruit_character = GUN_Livius_Laculgus
+recruit_character = GUN_Quinus_Nator
+recruit_character = GUN_Faudius_Fama
+recruit_character = GUN_Gemus_Anivia
+recruit_character = GUN_Scaeverius_Deus
+recruit_character = GUN_Regus_Tima
+recruit_character = GUN_Horatius_Cammalum
+recruit_character = GUN_Faulius_Mena
+recruit_character = GUN_Cassius_Anivia
+recruit_character = GUN_Gemus_Fama
+recruit_character = GUN_Prius_Cammalum
 
 
 if = {
