@@ -57,3 +57,28 @@ country_event = {
 		name = "Meet with thier leaders."
 	}
 }
+country_event = {
+	id = zap.war.5
+	title = "Ninja Rises."
+	desc = "Stopy."
+	picture = GFX_report_event_czech_soldiers_01
+
+	   is_triggered_only = yes
+	option = {
+		name = "Send reinforcements!"
+		KAA = {
+			release_on_controled = yes
+			save_event_target_as = KAA
+			615 = { add_core_of = KAA }
+			319 = { add_core_of = KAA }
+
+			ROOT = {
+				declare_war_on = KAA
+				type_of_war = annexation
+			}
+		}
+
+	}
+	fire_only_once = yes
+
+}
