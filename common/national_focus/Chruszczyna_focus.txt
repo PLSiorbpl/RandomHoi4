@@ -20,9 +20,11 @@
     completion_reward = {
        add_political_power = -50
 
-            country_event = { id = zap.war.1 days = 1 }
+            country_event = {
+               id = zap.war.1
+            }
     }
- }
+ } 
  focus = {
    id = ZAP_focus_2
    icon = GFX_SOV_barrier_troops_ccp_2d_sov_compatibility
@@ -44,17 +46,69 @@
    }
  }
  focus = {
-    id = ZAP_focus_1
-    icon = GFX_focus_generic_workers_and_farmers_rise
+    id = ZAP_focus_3
+    icon = GFX_SOV_annex_tannu_tuva_ccp_2d_sov_compatibility
 
+    prerequisite = {
+         focus = ZAP_focus_2  
+    }
     x = 1
-    y = 0
+    y = 2
     cost = 3
 
     completion_reward = {
-       add_political_power = -50
-
-            country_event = { id = zap.war.1 days = 1 }
+       add_party_popularity = {
+          ideology = democratic
+          amount = -0.20
+       }
+       country_event = { id = zap.war.2 }
     }
+ }
+ focus = {
+   id = ZAP_focus_4
+   icon = GFX_focus_GER_loyalty_to_the_fuhrer
+   cost = 3
+   x = 0
+   y = 3
+   completion_reward = { }
+   prerequisite = {
+      focus = ZAP_focus_3
+   }
+   mutually_exclusive = {
+      focus = ZAP_focus_5
+   }
+ }
+ focus = {
+   id = ZAP_focus_5
+   icon = GFX_focus_generic_full_social_mobilization
+   cost = 3
+   x = 2
+   y = 3
+   completion_reward = {
+      country_event = {
+         id = zap.war.3
+      }
+   }
+   mutually_exclusive = {
+      focus = ZAP_focus_4
+   }
+   prerequisite = {
+      focus = ZAP_focus_3
+   }
+ }
+ focus = {
+   id = ZAP_focus_6
+   icon = GFX_surrender_tiny_flag
+   cost = 3
+   x = 2
+   y = 4
+   completion_reward = { 
+      country_event = {
+         id = zap.war
+      }
+    }
+   prerequisite = {
+      focus = ZAP_focus_5
+   }
  }
 }
