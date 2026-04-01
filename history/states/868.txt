@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0f
+		aluminium=0
 		chromium=0
 		oil=0
 		rubber=0
@@ -20,7 +20,7 @@ state={
 		victory_points = { 10083 4}
 		victory_points = { 10088 3}
 		
-		owner = RSM
+		owner = KAW
 		buildings = {
 			infrastructure = 4
 			
@@ -29,7 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = RSM
+		add_core_of = KAW
 	}
 
 	provinces={
