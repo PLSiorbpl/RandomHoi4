@@ -1,0 +1,11 @@
+ideas = {
+    country = {
+        PRO_factory_output = {
+            picture = generic_production_bonus #  domyślna ikonkę fabryki
+            
+            modifier = {
+                industrial_capacity_factory = 0.05 #  5% bonusu do wydajności fabryk
+            }
+        }
+    }
+}
