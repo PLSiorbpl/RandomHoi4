@@ -1,13 +1,43 @@
 ideas = {
 	country = {
-		Nieudane_Zbiory_Ziemniakow = {
+		Nieudane_Zbiory_Ziemniakow_1 = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.2
+				#industrial_capacity_factory_factor = -0.4
+			}
+		}
+		Nieudane_Zbiory_Ziemniakow_2 = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.3
+				political_power_gain = -0.1
+			}
+		}
+		Nieudane_Zbiory_Ziemniakow_3 = {
 			allowed = {
 				always = yes
 			}
 			modifier = {
 				consumer_goods_factor = 0.4
 				production_speed_buildings_factor = -0.4
-				#industrial_capacity_factory_factor = -0.4
+				political_power_gain = -0.15
+			}
+		}
+		Klotnie_O_Budzet_1 = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				army_org_factor = -0.05
+				consumer_goods_factor = 0.05
+				political_advisor_cost_factor = 0.25
 			}
 		}
 	}
