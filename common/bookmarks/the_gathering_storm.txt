@@ -5,6 +5,7 @@ bookmarks = {
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default = yes
+		default_country = KAW
 		
 		
 		HTN={
@@ -42,6 +43,22 @@ bookmarks = {
 		PRO={
 			history = "Probolowice_GATHERING_STORM_DESC"
 			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MLK={
+			history = "Malkowice_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		IKA = {
+			history = "Donosy_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
