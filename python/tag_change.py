@@ -237,10 +237,11 @@ pattern = re.compile(rf"(?<=\=\s){old_tag}\b")
 for state in os.listdir(folder_states):
     if not state.endswith(".txt"):
         continue
-    if not os.path.isfile(path):
-        continue
 
     path = os.path.join(folder_states, state)
+    
+    if not os.path.isfile(path):
+        continue
 
     with open(path, "r", encoding="utf-8") as f:
         text = f.read()
