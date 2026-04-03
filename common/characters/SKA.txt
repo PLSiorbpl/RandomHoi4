@@ -1,0 +1,880 @@
+characters = {
+	SKA_Malcolm_Faiscean={
+		name="Malcolm Faiscean"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SKA_Aidan_Trodaing={
+		name="Aidan Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Aidan_Trodaing
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SKA_Ciam_Trodaing={
+		name="Ciam Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Ciam_Trodaing
+				traits = {	humble 	}
+		}
+
+	}
+	SKA_Eoinn_Snamhtirsear={
+		name="Eoinn Snamhtirsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Eoinn_Snamhtirsear
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SKA_Ciareth_Geach={
+		name="Ciareth Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Ciareth_Geach
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SKA_Ciamus_Each={
+		name="Ciamus Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Ciamus_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SKA_Ciareth_Lealas={
+		name="Ciareth Lealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Ciareth_Lealas
+				traits = {	humble 	}
+		}
+
+	}
+	SKA_Hugh_Lealas={
+		name="Hugh Lealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Hugh_Lealas
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SKA_Hugh_Tuas={
+		name="Hugh Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Hugh_Tuas
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SKA_Taran_Lealas={
+		name="Taran Lealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Taran_Lealas
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SKA_Quinn_Trodaing={
+		name="Quinn Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Quinn_Trodaing
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SKA_Aidan_Lealas={
+		name="Aidan Lealas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Aidan_Lealas
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SKA_Cialcolm_Millearg={
+		name="Cialcolm Millearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Cialcolm_Millearg
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SKA_Declan_Snamhtirsear={
+		name="Declan Snamhtirsear"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Declan_Snamhtirsear
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SKA_Eoinn_Millearg={
+		name="Eoinn Millearg"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Eoinn_Millearg
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SKA_Liall_Breim={
+		name="Liall Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Liall_Breim
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	SKA_Declan_Buna={
+		name="Declan Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Declan_Buna
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SKA_Rhys_Faiscean={
+		name="Rhys Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Rhys_Faiscean
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	SKA_Lialcolm_Geach={
+		name="Lialcolm Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Lialcolm_Geach
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	SKA_Quin_Millearg={
+		name="Quin Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Quin_Millearg
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	SKA_Liam_Trodaing={
+		name="Liam Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Liam_Trodaing
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	SKA_Braig_Lealas={
+		name="Braig Lealas"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SKA_Hugh_Snamhtirsear={
+		name="Hugh Snamhtirsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Hugh_Snamhtirsear
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	SKA_Niall_Millearg={
+		name="Niall Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Niall_Millearg
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SKA_Aidan_Tuas={
+		name="Aidan Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Aidan_Tuas
+				traits = {	autokrator 	}
+		}
+
+	}
+	SKA_Keiran_Trodaing={
+		name="Keiran Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Keiran_Trodaing
+				traits = {	warmonger 	}
+		}
+
+	}
+	SKA_Lialcolm_Tuas={
+		name="Lialcolm Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Lialcolm_Tuas
+				traits = {	polemarch 	}
+		}
+
+	}
+	SKA_Quinn_Breim={
+		name="Quinn Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Quinn_Breim
+				traits = {	basileus 	}
+		}
+
+	}
+	SKA_Niam_Tuas={
+		name="Niam Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Niam_Tuas
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SKA_Ciamus_Tuas={
+		name="Ciamus Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Ciamus_Tuas
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SKA_Nialcolm_Geach={
+		name="Nialcolm Geach"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Nialcolm_Geach
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SKA_Rhys_Trodaing={
+		name="Rhys Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Rhys_Trodaing
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SKA_Fergus_Each={
+		name="Fergus Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Fergus_Each
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SKA_Ciaran_Each={
+		name="Ciaran Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Ciaran_Each
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SKA_Padran_Trodaing={
+		name="Padran Trodaing"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Padran_Trodaing
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	SKA_Nialcolm_Trodaing={
+		name="Nialcolm Trodaing"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Nialcolm_Trodaing
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SKA_Niall_Buna={
+		name="Niall Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Niall_Buna
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	SKA_Hugh_Each={
+		name="Hugh Each"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Hugh_Each
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	SKA_Padran_Buna={
+		name="Padran Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Padran_Buna
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	SKA_Liam_Faiscean={
+		name="Liam Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Liam_Faiscean
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SKA_Lialcolm_Buna={
+		name="Lialcolm Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Lialcolm_Buna
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SKA_Quinn_Lealas={
+		name="Quinn Lealas"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Quinn_Lealas
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SKA_Aidan_Millearg={
+		name="Aidan Millearg"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SKA_Eoin_Snamhtirsear={
+		name="Eoin Snamhtirsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Eoin_Snamhtirsear
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SKA_Ciamus_Millearg={
+		name="Ciamus Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Ciamus_Millearg
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SKA_Nialcolm_Buna={
+		name="Nialcolm Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Nialcolm_Buna
+				traits = {	polemarch 	}
+		}
+
+	}
+	SKA_Garan_Tuas={
+		name="Garan Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Garan_Tuas
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SKA_Braig_Millearg={
+		name="Braig Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Braig_Millearg
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SKA_Taran_Breim={
+		name="Taran Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Taran_Breim
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SKA_Keiran_Faiscean={
+		name="Keiran Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Keiran_Faiscean
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SKA_Tareth_Millearg={
+		name="Tareth Millearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Tareth_Millearg
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SKA_Braig_Tuas={
+		name="Braig Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Braig_Tuas
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SKA_Keiraig_Each={
+		name="Keiraig Each"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Keiraig_Each
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SKA_Seam_Faiscean={
+		name="Seam Faiscean"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Seam_Faiscean
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SKA_Taran_Trodaing={
+		name="Taran Trodaing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Taran_Trodaing
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SKA_Iwan_Geach={
+		name="Iwan Geach"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Iwan_Geach
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SKA_Tareth_Each={
+		name="Tareth Each"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Tareth_Each
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SKA_Seam_Breim={
+		name="Seam Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Seam_Breim
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	SKA_Iwan_Faiscean={
+		name="Iwan Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Iwan_Faiscean
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SKA_Ciam_Tuas={
+		name="Ciam Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Ciam_Tuas
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SKA_Fergus_Tuas={
+		name="Fergus Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Fergus_Tuas
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	SKA_Ciam_Millearg={
+		name="Ciam Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Ciam_Millearg
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	SKA_Seamus_Breim={
+		name="Seamus Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Seamus_Breim
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SKA_Quin_Breim={
+		name="Quin Breim"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SKA_Seamus_Millearg={
+		name="Seamus Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Seamus_Millearg
+				traits = {	the_banker 	}
+		}
+
+	}
+	SKA_Ciamus_Lealas={
+		name="Ciamus Lealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Ciamus_Lealas
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SKA_Quinn_Tuas={
+		name="Quinn Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Quinn_Tuas
+				traits = {	rearmer 	}
+		}
+
+	}
+	SKA_Hugh_Breim={
+		name="Hugh Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Hugh_Breim
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SKA_Garan_Each={
+		name="Garan Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Garan_Each
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	SKA_Declan_Breim={
+		name="Declan Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKA_Declan_Breim
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SKA_Padran_Each={
+		name="Padran Each"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Padran_Each
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SKA_Nialcolm_Snamhtirsear={
+		name="Nialcolm Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Nialcolm_Snamhtirsear
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SKA_Malcolm_Tuas={
+		name="Malcolm Tuas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Malcolm_Tuas
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SKA_Ciaran_Snamhtirsear={
+		name="Ciaran Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = SKA_Ciaran_Snamhtirsear
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SKA_Seamus_Buna={
+		name="Seamus Buna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Seamus_Buna
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SKA_Seam_Snamhtirsear={
+		name="Seam Snamhtirsear"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SKA_Seam_Snamhtirsear
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SKA_Ulrich_Breim={
+		name="Ulrich Breim"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Ulrich_Breim
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SKA_Hugh_Faiscean={
+		name="Hugh Faiscean"
+
+		advisor={
+			slot = air_chief
+			idea_token = SKA_Hugh_Faiscean
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SKA_Ciam_Faiscean={
+		name="Ciam Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Ciam_Faiscean
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	SKA_Cialcolm_Tuas={
+		name="Cialcolm Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Cialcolm_Tuas
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	SKA_Malcolm_Geach={
+		name="Malcolm Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Malcolm_Geach
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SKA_Lialcolm_Each={
+		name="Lialcolm Each"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Lialcolm_Each
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SKA_Niaran_Breim={
+		name="Niaran Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Niaran_Breim
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	SKA_Ciam_Each={
+		name="Ciam Each"
+
+		advisor={
+			slot = high_command
+			idea_token = SKA_Ciam_Each
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	SKA_Keiran_Geach={
+		name="Keiran Geach"
+
+		advisor={
+			slot = theorist
+			idea_token = SKA_Keiran_Geach
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SKA_Aidan_Buna={
+		name="Aidan Buna"
+
+		advisor={
+			slot = theorist
+			idea_token = SKA_Aidan_Buna
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SKA_Seamus_Geach={
+		name="Seamus Geach"
+
+		advisor={
+			slot = theorist
+			idea_token = SKA_Seamus_Geach
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
