@@ -1,0 +1,880 @@
+characters = {
+	KWA_Kanek_Yaxul={
+		name="Kanek Yaxul"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KWA_Tohil_Lampaktunil={
+		name="Tohil Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Tohil_Lampaktunil
+				traits = {	humble 	}
+		}
+
+	}
+	KWA_Pakanek_Ajtz={
+		name="Pakanek Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Pakanek_Ajtz
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KWA_Kukulkanek_Uxman={
+		name="Kukulkanek Uxman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Kukulkanek_Uxman
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KWA_Kanek_Benque={
+		name="Kanek Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Kanek_Benque
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KWA_Chakalam_Yaxul={
+		name="Chakalam Yaxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Chakalam_Yaxul
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KWA_Bacom_Yaxul={
+		name="Bacom Yaxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Bacom_Yaxul
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KWA_Oxib_Uxman={
+		name="Oxib Uxman"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Oxib_Uxman
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KWA_Bacatl_Chuwen={
+		name="Bacatl Chuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Bacatl_Chuwen
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KWA_Ekchil_Benque={
+		name="Ekchil Benque"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Ekchil_Benque
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KWA_Ekchua_Benque={
+		name="Ekchua Benque"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Ekchua_Benque
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KWA_Nacom_Chuwen={
+		name="Nacom Chuwen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Nacom_Chuwen
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	KWA_Acatl_Uxman={
+		name="Acatl Uxman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Acatl_Uxman
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KWA_Pakan_Yaxul={
+		name="Pakan Yaxul"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Pakan_Yaxul
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KWA_Acatl_Benque={
+		name="Acatl Benque"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Acatl_Benque
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	KWA_Bacab_Yaxul={
+		name="Bacab Yaxul"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Bacab_Yaxul
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	KWA_Tohil_Benque={
+		name="Tohil Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Tohil_Benque
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	KWA_Ekchakal_Benque={
+		name="Ekchakal Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Ekchakal_Benque
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	KWA_Ekchua_Uxman={
+		name="Ekchua Uxman"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Ekchua_Uxman
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	KWA_Acab_Lampaktunil={
+		name="Acab Lampaktunil"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Acab_Lampaktunil
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	KWA_Ahkin_Chuwen={
+		name="Ahkin Chuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Ahkin_Chuwen
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	KWA_Yaxkin_Uxman={
+		name="Yaxkin Uxman"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KWA_Ekchil_Aguatunil={
+		name="Ekchil Aguatunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Ekchil_Aguatunil
+				traits = {	infirm 	}
+		}
+
+	}
+	KWA_Acab_Chuwen={
+		name="Acab Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Acab_Chuwen
+				traits = {	generallissimo 	}
+		}
+
+	}
+	KWA_Chakalam_Lampaktunil={
+		name="Chakalam Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Chakalam_Lampaktunil
+				traits = {	warmonger 	}
+		}
+
+	}
+	KWA_Acab_Benque={
+		name="Acab Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Acab_Benque
+				traits = {	autokrator 	}
+		}
+
+	}
+	KWA_Nacom_Yaxul={
+		name="Nacom Yaxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Nacom_Yaxul
+				traits = {	autokrator 	}
+		}
+
+	}
+	KWA_Bacab_Benque={
+		name="Bacab Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Bacab_Benque
+				traits = {	generallissimo 	}
+		}
+
+	}
+	KWA_Tohichen_Benque={
+		name="Tohichen Benque"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Tohichen_Benque
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KWA_Ekchakal_Chuwen={
+		name="Ekchakal Chuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Ekchakal_Chuwen
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KWA_Pakan_Ajtz={
+		name="Pakan Ajtz"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Pakan_Ajtz
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KWA_Kanek_Ajtz={
+		name="Kanek Ajtz"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Kanek_Ajtz
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KWA_Tohil_Ajtz={
+		name="Tohil Ajtz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Tohil_Ajtz
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KWA_Popo_Yaxul={
+		name="Popo Yaxul"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Popo_Yaxul
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KWA_Chakalam_Benque={
+		name="Chakalam Benque"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Chakalam_Benque
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	KWA_Itzam_Lampaktunil={
+		name="Itzam Lampaktunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Itzam_Lampaktunil
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	KWA_Chakal_Chuwen={
+		name="Chakal Chuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Chakal_Chuwen
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	KWA_Ekchichen_Uxman={
+		name="Ekchichen Uxman"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Ekchichen_Uxman
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	KWA_Chak_Benque={
+		name="Chak Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Chak_Benque
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	KWA_Kukulkan_Chuwen={
+		name="Kukulkan Chuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Kukulkan_Chuwen
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	KWA_Tecun_Ajtz={
+		name="Tecun Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Tecun_Ajtz
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	KWA_Chakalam_Chuwen={
+		name="Chakalam Chuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Chakalam_Chuwen
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	KWA_Kanek_Lampaktunil={
+		name="Kanek Lampaktunil"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KWA_Moctez_Lampaktunil={
+		name="Moctez Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Moctez_Lampaktunil
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KWA_Pakanek_Lampaktunil={
+		name="Pakanek Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Pakanek_Lampaktunil
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KWA_Chil_Chuwen={
+		name="Chil Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Chil_Chuwen
+				traits = {	polemarch 	}
+		}
+
+	}
+	KWA_Oxib_Benque={
+		name="Oxib Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Oxib_Benque
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KWA_Balam_Lampaktunil={
+		name="Balam Lampaktunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Balam_Lampaktunil
+				traits = {	polemarch 	}
+		}
+
+	}
+	KWA_Pakan_Aguatunil={
+		name="Pakan Aguatunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Pakan_Aguatunil
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KWA_Bacom_Ajtz={
+		name="Bacom Ajtz"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Bacom_Ajtz
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KWA_Tohichen_Chuwen={
+		name="Tohichen Chuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Tohichen_Chuwen
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KWA_Chil_Ajtz={
+		name="Chil Ajtz"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Chil_Ajtz
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KWA_Kukulkanek_Aguatunil={
+		name="Kukulkanek Aguatunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Kukulkanek_Aguatunil
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KWA_Balam_Chuwen={
+		name="Balam Chuwen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Balam_Chuwen
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KWA_Chakan_Uxman={
+		name="Chakan Uxman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Chakan_Uxman
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	KWA_Pakan_Chuwen={
+		name="Pakan Chuwen"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Pakan_Chuwen
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KWA_Acatl_Aguatunil={
+		name="Acatl Aguatunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Acatl_Aguatunil
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	KWA_Tohil_Yaxul={
+		name="Tohil Yaxul"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Tohil_Yaxul
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	KWA_Balam_Benque={
+		name="Balam Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Balam_Benque
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	KWA_Pakal_Benque={
+		name="Pakal Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Pakal_Benque
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	KWA_Acatl_Ajtz={
+		name="Acatl Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Acatl_Ajtz
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KWA_Ekchichen_Ajtz={
+		name="Ekchichen Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Ekchichen_Ajtz
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	KWA_Chil_Yaxul={
+		name="Chil Yaxul"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Chil_Yaxul
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	KWA_Kanek_Aguatunil={
+		name="Kanek Aguatunil"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KWA_Ahkin_Ajtz={
+		name="Ahkin Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Ahkin_Ajtz
+				traits = {	the_banker 	}
+		}
+
+	}
+	KWA_Chak_Yaxul={
+		name="Chak Yaxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Chak_Yaxul
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	KWA_Ekchil_Chuwen={
+		name="Ekchil Chuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Ekchil_Chuwen
+				traits = {	infirm 	}
+		}
+
+	}
+	KWA_Bacab_Ajtz={
+		name="Bacab Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Bacab_Ajtz
+				traits = {	infirm 	}
+		}
+
+	}
+	KWA_Bacom_Benque={
+		name="Bacom Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Bacom_Benque
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	KWA_Tohil_Aguatunil={
+		name="Tohil Aguatunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KWA_Tohil_Aguatunil
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	KWA_Moctez_Aguatunil={
+		name="Moctez Aguatunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Moctez_Aguatunil
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KWA_Chua_Lampaktunil={
+		name="Chua Lampaktunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Chua_Lampaktunil
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KWA_Pakanek_Chuwen={
+		name="Pakanek Chuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Pakanek_Chuwen
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KWA_Kanek_Chuwen={
+		name="Kanek Chuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = KWA_Kanek_Chuwen
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KWA_Pakan_Benque={
+		name="Pakan Benque"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Pakan_Benque
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KWA_Kukulkanek_Chuwen={
+		name="Kukulkanek Chuwen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KWA_Kukulkanek_Chuwen
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	KWA_Balam_Uxman={
+		name="Balam Uxman"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Balam_Uxman
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KWA_Ekchua_Aguatunil={
+		name="Ekchua Aguatunil"
+
+		advisor={
+			slot = air_chief
+			idea_token = KWA_Ekchua_Aguatunil
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KWA_Kukulkalam_Ajtz={
+		name="Kukulkalam Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Kukulkalam_Ajtz
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	KWA_Chil_Uxman={
+		name="Chil Uxman"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Chil_Uxman
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	KWA_Chakan_Benque={
+		name="Chakan Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Chakan_Benque
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	KWA_Kukulkan_Benque={
+		name="Kukulkan Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Kukulkan_Benque
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	KWA_Nacom_Benque={
+		name="Nacom Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Nacom_Benque
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	KWA_Chak_Uxman={
+		name="Chak Uxman"
+
+		advisor={
+			slot = high_command
+			idea_token = KWA_Chak_Uxman
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	KWA_Bacatl_Lampaktunil={
+		name="Bacatl Lampaktunil"
+
+		advisor={
+			slot = theorist
+			idea_token = KWA_Bacatl_Lampaktunil
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KWA_Kukulkalam_Yaxul={
+		name="Kukulkalam Yaxul"
+
+		advisor={
+			slot = theorist
+			idea_token = KWA_Kukulkalam_Yaxul
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KWA_Chakalam_Ajtz={
+		name="Chakalam Ajtz"
+
+		advisor={
+			slot = theorist
+			idea_token = KWA_Chakalam_Ajtz
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
