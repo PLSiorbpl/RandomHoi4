@@ -235,7 +235,9 @@ for lan in laguages:
 # history/states
 pattern = re.compile(rf"(?<=\=\s){old_tag}\b")
 for state in os.listdir(folder):
-    if not file.endswith(".txt"):
+    if not state.endswith(".txt"):
+        continue
+    if not os.path.isfile(path):
         continue
 
     path = os.path.join(folder, state)
