@@ -1,0 +1,880 @@
+characters = {
+	SED_Coratius_Insum={
+		name="Coratius Insum"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SED_Urbanus_Strum={
+		name="Urbanus Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Urbanus_Strum
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SED_Publius_Otium={
+		name="Publius Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Publius_Otium
+				traits = {	headstrong 	}
+		}
+
+	}
+	SED_Clavius_Equa={
+		name="Clavius Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Clavius_Equa
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SED_Fabiusus_Strum={
+		name="Fabiusus Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Fabiusus_Strum
+				traits = {	headstrong 	}
+		}
+
+	}
+	SED_Tracchus_Poetorum={
+		name="Tracchus Poetorum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Tracchus_Poetorum
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SED_Priscus_Arbor={
+		name="Priscus Arbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Priscus_Arbor
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SED_Prius_Malus={
+		name="Prius Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Prius_Malus
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SED_Remitius_Arbor={
+		name="Remitius Arbor"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Remitius_Arbor
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SED_Nonius_Poetorum={
+		name="Nonius Poetorum"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Nonius_Poetorum
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SED_Varcus_Malus={
+		name="Varcus Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Varcus_Malus
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SED_Remitellianl_Feris={
+		name="Remitellianl Feris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Remitellianl_Feris
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SED_Marcus_Aniverbis={
+		name="Marcus Aniverbis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Marcus_Aniverbis
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SED_Priscustus_Malus={
+		name="Priscustus Malus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Priscustus_Malus
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	SED_Horacchustus_Feris={
+		name="Horacchustus Feris"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Horacchustus_Feris
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	SED_Domitus_Otium={
+		name="Domitus Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Domitus_Otium
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SED_Domitellus_Celerrus={
+		name="Domitellus Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Domitellus_Celerrus
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SED_Severiscus_Otium={
+		name="Severiscus Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Severiscus_Otium
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	SED_Faus_Arbor={
+		name="Faus Arbor"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Faus_Arbor
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	SED_Drus_Equa={
+		name="Drus Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Drus_Equa
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	SED_Vibervius_Feris={
+		name="Vibervius Feris"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Vibervius_Feris
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	SED_Remitius_Otium={
+		name="Remitius Otium"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SED_Hornellus_Otium={
+		name="Hornellus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Hornellus_Otium
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SED_Brus_Poetorum={
+		name="Brus Poetorum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Brus_Poetorum
+				traits = {	infirm 	}
+		}
+
+	}
+	SED_Gaianus_Celerrus={
+		name="Gaianus Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Gaianus_Celerrus
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	SED_Julus_Feris={
+		name="Julus Feris"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Julus_Feris
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SED_Titius_Strum={
+		name="Titius Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Titius_Strum
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	SED_Serius_Equa={
+		name="Serius Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Serius_Equa
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SED_Clavius_Poetorum={
+		name="Clavius Poetorum"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Clavius_Poetorum
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SED_Maximus_Otium={
+		name="Maximus Otium"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Maximus_Otium
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SED_Flavius_Strum={
+		name="Flavius Strum"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Flavius_Strum
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SED_Scaevolaudiu_Strum={
+		name="Scaevolaudiu Strum"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Scaevolaudiu_Strum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SED_Brus_Aniverbis={
+		name="Brus Aniverbis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Brus_Aniverbis
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	SED_Varcus_Feris={
+		name="Varcus Feris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Varcus_Feris
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SED_Marcellianus_Celerrus={
+		name="Marcellianus Celerrus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Marcellianus_Celerrus
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SED_Coratius_Malus={
+		name="Coratius Malus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Coratius_Malus
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SED_Varcus_Strum={
+		name="Varcus Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Varcus_Strum
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	SED_Sextus_Poetorum={
+		name="Sextus Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Sextus_Poetorum
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SED_Livius_Aniverbis={
+		name="Livius Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Livius_Aniverbis
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SED_Nonius_Aniverbis={
+		name="Nonius Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Nonius_Aniverbis
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	SED_Priscus_Otium={
+		name="Priscus Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Priscus_Otium
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	SED_Silvanus_Poetorum={
+		name="Silvanus Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Silvanus_Poetorum
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	SED_Marro_Aniverbis={
+		name="Marro Aniverbis"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SED_Caius_Otium={
+		name="Caius Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Caius_Otium
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SED_Lonius_Strum={
+		name="Lonius Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Lonius_Strum
+				traits = {	infirm 	}
+		}
+
+	}
+	SED_Traius_Otium={
+		name="Traius Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Traius_Otium
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SED_Caianustus_Malus={
+		name="Caianustus Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Caianustus_Malus
+				traits = {	infirm 	}
+		}
+
+	}
+	SED_Cassius_Aniverbis={
+		name="Cassius Aniverbis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Cassius_Aniverbis
+				traits = {	infirm 	}
+		}
+
+	}
+	SED_Domintonginu_Malus={
+		name="Domintonginu Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Domintonginu_Malus
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SED_Paudius_Malus={
+		name="Paudius Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Paudius_Malus
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SED_Fabius_Malus={
+		name="Fabius Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Fabius_Malus
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SED_Cornellius_Insum={
+		name="Cornellius Insum"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Cornellius_Insum
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SED_Prius_Arbor={
+		name="Prius Arbor"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Prius_Arbor
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SED_Severus_Aniverbis={
+		name="Severus Aniverbis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Severus_Aniverbis
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SED_Priscus_Celerrus={
+		name="Priscus Celerrus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Priscus_Celerrus
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SED_Coracchus_Otium={
+		name="Coracchus Otium"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Coracchus_Otium
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SED_Clavius_Celerrus={
+		name="Clavius Celerrus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Clavius_Celerrus
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SED_Maximus_Poetorum={
+		name="Maximus Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Maximus_Poetorum
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SED_Titius_Malus={
+		name="Titius Malus"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Titius_Malus
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SED_Attius_Insum={
+		name="Attius Insum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Attius_Insum
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	SED_Urbanlius_Otium={
+		name="Urbanlius Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Urbanlius_Otium
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SED_Lonius_Equa={
+		name="Lonius Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Lonius_Equa
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	SED_Antonius_Feris={
+		name="Antonius Feris"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Antonius_Feris
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SED_Julus_Equa={
+		name="Julus Equa"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SED_Valerus_Celerrus={
+		name="Valerus Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Valerus_Celerrus
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SED_Viberiscus_Otium={
+		name="Viberiscus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Viberiscus_Otium
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SED_Paus_Equa={
+		name="Paus Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Paus_Equa
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SED_Varcus_Otium={
+		name="Varcus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Varcus_Otium
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SED_Graius_Aniverbis={
+		name="Graius Aniverbis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Graius_Aniverbis
+				traits = {	the_banker 	}
+		}
+
+	}
+	SED_Sevola_Equa={
+		name="Sevola Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SED_Sevola_Equa
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	SED_Graius_Otium={
+		name="Graius Otium"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Graius_Otium
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SED_Scaeverius_Equa={
+		name="Scaeverius Equa"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Scaeverius_Equa
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SED_Augulius_Feris={
+		name="Augulius Feris"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Augulius_Feris
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SED_Hornellus_Aniverbis={
+		name="Hornellus Aniverbis"
+
+		advisor={
+			slot = army_chief
+			idea_token = SED_Hornellus_Aniverbis
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	SED_Remitellianl_Malus={
+		name="Remitellianl Malus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Remitellianl_Malus
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SED_Cornellius_Malus={
+		name="Cornellius Malus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SED_Cornellius_Malus
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SED_Varcus_Celerrus={
+		name="Varcus Celerrus"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Varcus_Celerrus
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	SED_Valerutus_Aniverbis={
+		name="Valerutus Aniverbis"
+
+		advisor={
+			slot = air_chief
+			idea_token = SED_Valerutus_Aniverbis
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SED_Traius_Strum={
+		name="Traius Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Traius_Strum
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SED_Maximustus_Equa={
+		name="Maximustus Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Maximustus_Equa
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	SED_Livius_Strum={
+		name="Livius Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Livius_Strum
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SED_Serius_Celerrus={
+		name="Serius Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Serius_Celerrus
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	SED_Severiscus_Aniverbis={
+		name="Severiscus Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Severiscus_Aniverbis
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	SED_Aulus_Insum={
+		name="Aulus Insum"
+
+		advisor={
+			slot = high_command
+			idea_token = SED_Aulus_Insum
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	SED_Paudius_Feris={
+		name="Paudius Feris"
+
+		advisor={
+			slot = theorist
+			idea_token = SED_Paudius_Feris
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SED_Paulus_Celerrus={
+		name="Paulus Celerrus"
+
+		advisor={
+			slot = theorist
+			idea_token = SED_Paulus_Celerrus
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SED_Coratius_Otium={
+		name="Coratius Otium"
+
+		advisor={
+			slot = theorist
+			idea_token = SED_Coratius_Otium
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
