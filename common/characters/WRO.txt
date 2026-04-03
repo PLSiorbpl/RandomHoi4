@@ -1,0 +1,880 @@
+characters = {
+	WRO_Yane_Tamday={
+		name="Yane Tamday"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WRO_Tafsut_Tifasnaska={
+		name="Tafsut Tifasnaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Tafsut_Tifasnaska
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	WRO_Aselmaren_Ayurawenzagh={
+		name="Aselmaren Ayurawenzagh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Aselmaren_Ayurawenzagh
+				traits = {	humble 	}
+		}
+
+	}
+	WRO_Mokrannissin_Tamurt={
+		name="Mokrannissin Tamurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Mokrannissin_Tamurt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	WRO_Yannissinis_Tamurt={
+		name="Yannissinis Tamurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Yannissinis_Tamurt
+				traits = {	headstrong 	}
+		}
+
+	}
+	WRO_Iskarimokran_Takhmilt={
+		name="Iskarimokran Takhmilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Iskarimokran_Takhmilt
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	WRO_Aselmaren_Tamday={
+		name="Aselmaren Tamday"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Aselmaren_Tamday
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	WRO_Iskarimokran_Tifelt={
+		name="Iskarimokran Tifelt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Iskarimokran_Tifelt
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	WRO_Massa_Akal={
+		name="Massa Akal"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Massa_Akal
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	WRO_Tahariq_Ayurawenzagh={
+		name="Tahariq Ayurawenzagh"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Tahariq_Ayurawenzagh
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	WRO_Sifax_Takhmilt={
+		name="Sifax Takhmilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Sifax_Takhmilt
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	WRO_Amar_Azegzagza={
+		name="Amar Azegzagza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Amar_Azegzagza
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	WRO_Taren_Afraw={
+		name="Taren Afraw"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Taren_Afraw
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	WRO_Tahar_Ayurawenzagh={
+		name="Tahar Ayurawenzagh"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Tahar_Ayurawenzagh
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	WRO_Saidi_Azegzagza={
+		name="Saidi Azegzagza"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Saidi_Azegzagza
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	WRO_Amaren_Tamurt={
+		name="Amaren Tamurt"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Amaren_Tamurt
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	WRO_Zirim_Akal={
+		name="Zirim Akal"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Zirim_Akal
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	WRO_Karim_Ayurawenzagh={
+		name="Karim Ayurawenzagh"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Karim_Ayurawenzagh
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	WRO_Karen_Azegzagza={
+		name="Karen Azegzagza"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Karen_Azegzagza
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	WRO_Tafsut_Takhmilt={
+		name="Tafsut Takhmilt"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Tafsut_Takhmilt
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	WRO_Aselmaren_Azegzagza={
+		name="Aselmaren Azegzagza"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Aselmaren_Azegzagza
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	WRO_Massinis_Ayurawenzagh={
+		name="Massinis Ayurawenzagh"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WRO_Amaren_Afraw={
+		name="Amaren Afraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Amaren_Afraw
+				traits = {	infirm 	}
+		}
+
+	}
+	WRO_Amaren_Akal={
+		name="Amaren Akal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Amaren_Akal
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	WRO_Tariq_Tamurt={
+		name="Tariq Tamurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Tariq_Tamurt
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	WRO_Amarim_Afraw={
+		name="Amarim Afraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Amarim_Afraw
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	WRO_Tahar_Tamday={
+		name="Tahar Tamday"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Tahar_Tamday
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	WRO_Amaren_Tifasnaska={
+		name="Amaren Tifasnaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Amaren_Tifasnaska
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	WRO_Massa_Tifasnaska={
+		name="Massa Tifasnaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Massa_Tifasnaska
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	WRO_Mokrannissin_Tifelt={
+		name="Mokrannissin Tifelt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Mokrannissin_Tifelt
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	WRO_Saidi_Afraw={
+		name="Saidi Afraw"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Saidi_Afraw
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	WRO_Ziri_Ayurawenzagh={
+		name="Ziri Ayurawenzagh"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Ziri_Ayurawenzagh
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	WRO_Yannissinis_Tifasnaska={
+		name="Yannissinis Tifasnaska"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Yannissinis_Tifasnaska
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	WRO_Ziri_Tamday={
+		name="Ziri Tamday"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Ziri_Tamday
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	WRO_Aziannissini_Tamurt={
+		name="Aziannissini Tamurt"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Aziannissini_Tamurt
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	WRO_Yuba_Ayurawenzagh={
+		name="Yuba Ayurawenzagh"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Yuba_Ayurawenzagh
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	WRO_Aziz_Azegzagza={
+		name="Aziz Azegzagza"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Aziz_Azegzagza
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	WRO_Ziriq_Ayurawenzagh={
+		name="Ziriq Ayurawenzagh"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Ziriq_Ayurawenzagh
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	WRO_Aselmad_Ayurawenzagh={
+		name="Aselmad Ayurawenzagh"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Aselmad_Ayurawenzagh
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	WRO_Karen_Tifelt={
+		name="Karen Tifelt"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Karen_Tifelt
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	WRO_Mimoun_Tifasnaska={
+		name="Mimoun Tifasnaska"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Mimoun_Tifasnaska
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	WRO_Ziriq_Afraw={
+		name="Ziriq Afraw"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Ziriq_Afraw
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	WRO_Mokrannissin_Akal={
+		name="Mokrannissin Akal"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WRO_Aselmaren_Afraw={
+		name="Aselmaren Afraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Aselmaren_Afraw
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	WRO_Tarim_Afraw={
+		name="Tarim Afraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Tarim_Afraw
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	WRO_Amokrane_Afraw={
+		name="Amokrane Afraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Amokrane_Afraw
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	WRO_Taren_Takhmilt={
+		name="Taren Takhmilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Taren_Takhmilt
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	WRO_Tahariq_Tifasnaska={
+		name="Tahariq Tifasnaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Tahariq_Tifasnaska
+				traits = {	polemarch 	}
+		}
+
+	}
+	WRO_Tahariq_Tifelt={
+		name="Tahariq Tifelt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Tahariq_Tifelt
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	WRO_Iskar_Tamday={
+		name="Iskar Tamday"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Iskar_Tamday
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	WRO_Zirim_Azegzagza={
+		name="Zirim Azegzagza"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Zirim_Azegzagza
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	WRO_Taharim_Tamurt={
+		name="Taharim Tamurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Taharim_Tamurt
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	WRO_Amokran_Tamurt={
+		name="Amokran Tamurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Amokran_Tamurt
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	WRO_Meziane_Tamurt={
+		name="Meziane Tamurt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Meziane_Tamurt
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	WRO_Amarim_Takhmilt={
+		name="Amarim Takhmilt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Amarim_Takhmilt
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	WRO_Amarim_Tamurt={
+		name="Amarim Tamurt"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Amarim_Tamurt
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	WRO_Taharim_Akal={
+		name="Taharim Akal"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Taharim_Akal
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	WRO_Tariq_Tifasnaska={
+		name="Tariq Tifasnaska"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Tariq_Tifasnaska
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	WRO_Amokran_Takhmilt={
+		name="Amokran Takhmilt"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Amokran_Takhmilt
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	WRO_Aziannissa_Tifasnaska={
+		name="Aziannissa Tifasnaska"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Aziannissa_Tifasnaska
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	WRO_Tariq_Akal={
+		name="Tariq Akal"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Tariq_Akal
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	WRO_Tarim_Tifasnaska={
+		name="Tarim Tifasnaska"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Tarim_Tifasnaska
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	WRO_Yane_Tifasnaska={
+		name="Yane Tifasnaska"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Yane_Tifasnaska
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	WRO_Mokrannis_Tamday={
+		name="Mokrannis Tamday"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WRO_Yannissinis_Tamday={
+		name="Yannissinis Tamday"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Yannissinis_Tamday
+				traits = {	infirm 	}
+		}
+
+	}
+	WRO_Meziz_Tamurt={
+		name="Meziz Tamurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Meziz_Tamurt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	WRO_Taharim_Afraw={
+		name="Taharim Afraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Taharim_Afraw
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	WRO_Iskar_Azegzagza={
+		name="Iskar Azegzagza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Iskar_Azegzagza
+				traits = {	the_banker 	}
+		}
+
+	}
+	WRO_Mokrannis_Azegzagza={
+		name="Mokrannis Azegzagza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Mokrannis_Azegzagza
+				traits = {	the_banker 	}
+		}
+
+	}
+	WRO_Aziz_Ayurawenzagh={
+		name="Aziz Ayurawenzagh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WRO_Aziz_Ayurawenzagh
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	WRO_Tariq_Takhmilt={
+		name="Tariq Takhmilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Tariq_Takhmilt
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	WRO_Karim_Takhmilt={
+		name="Karim Takhmilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Karim_Takhmilt
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	WRO_Yannissinis_Azegzagza={
+		name="Yannissinis Azegzagza"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Yannissinis_Azegzagza
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	WRO_Ziri_Tifelt={
+		name="Ziri Tifelt"
+
+		advisor={
+			slot = army_chief
+			idea_token = WRO_Ziri_Tifelt
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	WRO_Karen_Tamday={
+		name="Karen Tamday"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Karen_Tamday
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	WRO_Meziz_Afraw={
+		name="Meziz Afraw"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WRO_Meziz_Afraw
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	WRO_Iderfan_Takhmilt={
+		name="Iderfan Takhmilt"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Iderfan_Takhmilt
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	WRO_Tahar_Takhmilt={
+		name="Tahar Takhmilt"
+
+		advisor={
+			slot = air_chief
+			idea_token = WRO_Tahar_Takhmilt
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	WRO_Amoun_Akal={
+		name="Amoun Akal"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Amoun_Akal
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	WRO_Amokrane_Ayurawenzagh={
+		name="Amokrane Ayurawenzagh"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Amokrane_Ayurawenzagh
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	WRO_Aziannissini_Akal={
+		name="Aziannissini Akal"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Aziannissini_Akal
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	WRO_Sifax_Tifelt={
+		name="Sifax Tifelt"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Sifax_Tifelt
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	WRO_Aselmar_Tifelt={
+		name="Aselmar Tifelt"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Aselmar_Tifelt
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	WRO_Tarim_Tamday={
+		name="Tarim Tamday"
+
+		advisor={
+			slot = high_command
+			idea_token = WRO_Tarim_Tamday
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	WRO_Mezian_Tifelt={
+		name="Mezian Tifelt"
+
+		advisor={
+			slot = theorist
+			idea_token = WRO_Mezian_Tifelt
+				traits = {	military_theorist 	}
+		}
+
+	}
+	WRO_Amokrannissa_Afraw={
+		name="Amokrannissa Afraw"
+
+		advisor={
+			slot = theorist
+			idea_token = WRO_Amokrannissa_Afraw
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	WRO_Mokrannis_Akal={
+		name="Mokrannis Akal"
+
+		advisor={
+			slot = theorist
+			idea_token = WRO_Mokrannis_Akal
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

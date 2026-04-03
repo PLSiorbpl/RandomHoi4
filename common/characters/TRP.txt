@@ -1,0 +1,880 @@
+characters = {
+	TRP_Iban_Etxeko={
+		name="Iban Etxeko"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRP_Harka_Etxeko={
+		name="Harka Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Harka_Etxeko
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TRP_Ander_Kantu={
+		name="Ander Kantu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Ander_Kantu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TRP_Iban_Aintza={
+		name="Iban Aintza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Iban_Aintza
+				traits = {	headstrong 	}
+		}
+
+	}
+	TRP_Unai_Etxeko={
+		name="Unai Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Unai_Etxeko
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TRP_Miker_Aintza={
+		name="Miker Aintza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Miker_Aintza
+				traits = {	headstrong 	}
+		}
+
+	}
+	TRP_Unat_Balmugazkina={
+		name="Unat Balmugazkina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Unat_Balmugazkina
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TRP_Ikel_Hitza={
+		name="Ikel Hitza"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Ikel_Hitza
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	TRP_Gorkaitorka_Etxeko={
+		name="Gorkaitorka Etxeko"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Gorkaitorka_Etxeko
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TRP_Gorkaizka_Etxeko={
+		name="Gorkaizka Etxeko"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Gorkaizka_Etxeko
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TRP_Gorkaitorkai_Gaurra={
+		name="Gorkaitorkai Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Gorkaitorkai_Gaurra
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TRP_Ekaitz_Berri={
+		name="Ekaitz Berri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Ekaitz_Berri
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TRP_Gaizka_Gaurra={
+		name="Gaizka Gaurra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Gaizka_Gaurra
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	TRP_Gorkaitorkai_Zubi={
+		name="Gorkaitorkai Zubi"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Gorkaitorkai_Zubi
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TRP_Ibanti_Bizea={
+		name="Ibanti Bizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Ibanti_Bizea
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TRP_Mikel_Gaurra={
+		name="Mikel Gaurra"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Mikel_Gaurra
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	TRP_Unaitz_Aintza={
+		name="Unaitz Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Unaitz_Aintza
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	TRP_Amai_Aintza={
+		name="Amai Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Amai_Aintza
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TRP_Amaiur_Etxeko={
+		name="Amaiur Etxeko"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Amaiur_Etxeko
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	TRP_Gorka_Aintza={
+		name="Gorka Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Gorka_Aintza
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	TRP_Gorkaizka_Aintza={
+		name="Gorkaizka Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Gorkaizka_Aintza
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TRP_Eneko_Hitza={
+		name="Eneko Hitza"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRP_Iker_Zubi={
+		name="Iker Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Iker_Zubi
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TRP_Aitor_Gaurra={
+		name="Aitor Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Aitor_Gaurra
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TRP_Ikel_Semena={
+		name="Ikel Semena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Ikel_Semena
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TRP_Unat_Gaurra={
+		name="Unat Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Unat_Gaurra
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TRP_Ibanti_Zubi={
+		name="Ibanti Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Ibanti_Zubi
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TRP_Gorkaitorkai_Balmugazkina={
+		name="Gorkaitorkai Balmugazkina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Gorkaitorkai_Balmugazkina
+				traits = {	polemarch 	}
+		}
+
+	}
+	TRP_Benat_Gaurra={
+		name="Benat Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Benat_Gaurra
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TRP_Xanti_Berri={
+		name="Xanti Berri"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Xanti_Berri
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TRP_Eder_Hitza={
+		name="Eder Hitza"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Eder_Hitza
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TRP_Ikel_Zubi={
+		name="Ikel Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Ikel_Zubi
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TRP_Asier_Bizea={
+		name="Asier Bizea"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Asier_Bizea
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TRP_Harkai_Aintza={
+		name="Harkai Aintza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Harkai_Aintza
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TRP_Mikel_Bizea={
+		name="Mikel Bizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Mikel_Bizea
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	TRP_Miker_Berri={
+		name="Miker Berri"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Miker_Berri
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	TRP_Aitorkaizka_Berri={
+		name="Aitorkaizka Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Aitorkaizka_Berri
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TRP_Mikel_Kantu={
+		name="Mikel Kantu"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Mikel_Kantu
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	TRP_Amaiur_Bizea={
+		name="Amaiur Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Amaiur_Bizea
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	TRP_Ekaitz_Etxeko={
+		name="Ekaitz Etxeko"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Ekaitz_Etxeko
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TRP_Ander_Bizea={
+		name="Ander Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Ander_Bizea
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	TRP_Aitorkaizka_Aintza={
+		name="Aitorkaizka Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Aitorkaizka_Aintza
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TRP_Iker_Aintza={
+		name="Iker Aintza"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRP_Gaizka_Etxeko={
+		name="Gaizka Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Gaizka_Etxeko
+				traits = {	infirm 	}
+		}
+
+	}
+	TRP_Unat_Aintza={
+		name="Unat Aintza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Unat_Aintza
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TRP_Ander_Gaurra={
+		name="Ander Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Ander_Gaurra
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TRP_Miker_Balmugazkina={
+		name="Miker Balmugazkina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Miker_Balmugazkina
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TRP_Harkai_Etxeko={
+		name="Harkai Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Harkai_Etxeko
+				traits = {	polemarch 	}
+		}
+
+	}
+	TRP_Iban_Gaurra={
+		name="Iban Gaurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Iban_Gaurra
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TRP_Ekaitz_Balmugazkina={
+		name="Ekaitz Balmugazkina"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Ekaitz_Balmugazkina
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TRP_Eder_Aintza={
+		name="Eder Aintza"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Eder_Aintza
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TRP_Amaiur_Berri={
+		name="Amaiur Berri"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Amaiur_Berri
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TRP_Benaitz_Gaurra={
+		name="Benaitz Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Benaitz_Gaurra
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	TRP_Amaitz_Hitza={
+		name="Amaitz Hitza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Amaitz_Hitza
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	TRP_Unat_Semena={
+		name="Unat Semena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Unat_Semena
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TRP_Iban_Bizea={
+		name="Iban Bizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Iban_Bizea
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	TRP_Harkai_Balmugazkina={
+		name="Harkai Balmugazkina"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Harkai_Balmugazkina
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TRP_Eneko_Bizea={
+		name="Eneko Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Eneko_Bizea
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TRP_Ibai_Berri={
+		name="Ibai Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Ibai_Berri
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	TRP_Harka_Hitza={
+		name="Harka Hitza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Harka_Hitza
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	TRP_Xabier_Aintza={
+		name="Xabier Aintza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Xabier_Aintza
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	TRP_Aitz_Gaurra={
+		name="Aitz Gaurra"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Aitz_Gaurra
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TRP_Amai_Berri={
+		name="Amai Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Amai_Berri
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TRP_Koldo_Etxeko={
+		name="Koldo Etxeko"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TRP_Unaitor_Etxeko={
+		name="Unaitor Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Unaitor_Etxeko
+				traits = {	rearmer 	}
+		}
+
+	}
+	TRP_Ekaiur_Etxeko={
+		name="Ekaiur Etxeko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Ekaiur_Etxeko
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TRP_Gorkaizka_Bizea={
+		name="Gorkaizka Bizea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Gorkaizka_Bizea
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TRP_Iban_Zubi={
+		name="Iban Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Iban_Zubi
+				traits = {	the_banker 	}
+		}
+
+	}
+	TRP_Gorkaitorkai_Berri={
+		name="Gorkaitorkai Berri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Gorkaitorkai_Berri
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TRP_Amaitz_Zubi={
+		name="Amaitz Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TRP_Amaitz_Zubi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TRP_Xanti_Gaurra={
+		name="Xanti Gaurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Xanti_Gaurra
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TRP_Unai_Berri={
+		name="Unai Berri"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Unai_Berri
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TRP_Unaitz_Etxeko={
+		name="Unaitz Etxeko"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Unaitz_Etxeko
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TRP_Ibanti_Balmugazkina={
+		name="Ibanti Balmugazkina"
+
+		advisor={
+			slot = army_chief
+			idea_token = TRP_Ibanti_Balmugazkina
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TRP_Harkaizka_Etxeko={
+		name="Harkaizka Etxeko"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Harkaizka_Etxeko
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TRP_Amaiur_Zubi={
+		name="Amaiur Zubi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TRP_Amaiur_Zubi
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	TRP_Unaitz_Semena={
+		name="Unaitz Semena"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Unaitz_Semena
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TRP_Unaitz_Kantu={
+		name="Unaitz Kantu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TRP_Unaitz_Kantu
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	TRP_Ikel_Etxeko={
+		name="Ikel Etxeko"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Ikel_Etxeko
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	TRP_Benaitz_Hitza={
+		name="Benaitz Hitza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Benaitz_Hitza
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TRP_Aitorkaizka_Semena={
+		name="Aitorkaizka Semena"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Aitorkaizka_Semena
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TRP_Benai_Bizea={
+		name="Benai Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Benai_Bizea
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TRP_Ikel_Berri={
+		name="Ikel Berri"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Ikel_Berri
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TRP_Unai_Hitza={
+		name="Unai Hitza"
+
+		advisor={
+			slot = high_command
+			idea_token = TRP_Unai_Hitza
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TRP_Asier_Gaurra={
+		name="Asier Gaurra"
+
+		advisor={
+			slot = theorist
+			idea_token = TRP_Asier_Gaurra
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TRP_Amaitz_Balmugazkina={
+		name="Amaitz Balmugazkina"
+
+		advisor={
+			slot = theorist
+			idea_token = TRP_Amaitz_Balmugazkina
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TRP_Amaiur_Kantu={
+		name="Amaiur Kantu"
+
+		advisor={
+			slot = theorist
+			idea_token = TRP_Amaiur_Kantu
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

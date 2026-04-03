@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Shoghabbati Fleet"			
+		naval_base = 14590
+		task_force = {
+			name = "Shoghabbati Fleet"
+			location = 14590
+			
+						ship = { name = "Giah" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GLE version_name = "Shiroofan Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

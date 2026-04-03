@@ -1,0 +1,880 @@
+characters = {
+	CHO_Quin_Ceach={
+		name="Quin Ceach"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Ulrich_Maigh={
+		name="Ulrich Maigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ulrich_Maigh
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CHO_Taraig_Eolamh={
+		name="Taraig Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Taraig_Eolamh
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CHO_Tareth_Ceach={
+		name="Tareth Ceach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Tareth_Ceach
+				traits = {	headstrong 	}
+		}
+
+	}
+	CHO_Nialcolm_Bunach={
+		name="Nialcolm Bunach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Nialcolm_Bunach
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CHO_Ciareth_Tailt={
+		name="Ciareth Tailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ciareth_Tailt
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	CHO_Ulrich_Scatha={
+		name="Ulrich Scatha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ulrich_Scatha
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CHO_Eoin_Croin={
+		name="Eoin Croin"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Eoin_Croin
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	CHO_Keiraig_Talteancha={
+		name="Keiraig Talteancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Keiraig_Talteancha
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CHO_Padran_Tailt={
+		name="Padran Tailt"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Padran_Tailt
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CHO_Taraig_Talteancha={
+		name="Taraig Talteancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Taraig_Talteancha
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	CHO_Iwan_Rata={
+		name="Iwan Rata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Iwan_Rata
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	CHO_Mall_Croin={
+		name="Mall Croin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Mall_Croin
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	CHO_Aidan_Tailt={
+		name="Aidan Tailt"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Aidan_Tailt
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CHO_Ciaran_Talteancha={
+		name="Ciaran Talteancha"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Ciaran_Talteancha
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CHO_Fergus_Talteancha={
+		name="Fergus Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Fergus_Talteancha
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CHO_Owen_Bunach={
+		name="Owen Bunach"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Owen_Bunach
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	CHO_Seam_Bunach={
+		name="Seam Bunach"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Seam_Bunach
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	CHO_Niam_Failis={
+		name="Niam Failis"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Niam_Failis
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	CHO_Eoin_Maigh={
+		name="Eoin Maigh"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Eoin_Maigh
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	CHO_Ulrich_Ceach={
+		name="Ulrich Ceach"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Ulrich_Ceach
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	CHO_Ciaran_Scatha={
+		name="Ciaran Scatha"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Taraig_Rata={
+		name="Taraig Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Taraig_Rata
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CHO_Rhys_Talteancha={
+		name="Rhys Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Rhys_Talteancha
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	CHO_Keiran_Rata={
+		name="Keiran Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Keiran_Rata
+				traits = {	autokrator 	}
+		}
+
+	}
+	CHO_Nialcolm_Ceach={
+		name="Nialcolm Ceach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Nialcolm_Ceach
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	CHO_Ciareth_Talteancha={
+		name="Ciareth Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ciareth_Talteancha
+				traits = {	basileus 	}
+		}
+
+	}
+	CHO_Liall_Tailt={
+		name="Liall Tailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Liall_Tailt
+				traits = {	generallissimo 	}
+		}
+
+	}
+	CHO_Padran_Croin={
+		name="Padran Croin"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Padran_Croin
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	CHO_Taraig_Scatha={
+		name="Taraig Scatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Taraig_Scatha
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CHO_Eoinn_Bunach={
+		name="Eoinn Bunach"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Eoinn_Bunach
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CHO_Ciaran_Tailt={
+		name="Ciaran Tailt"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Ciaran_Tailt
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CHO_Lialcolm_Bunach={
+		name="Lialcolm Bunach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Lialcolm_Bunach
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	CHO_Keiran_Eolamh={
+		name="Keiran Eolamh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Keiran_Eolamh
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CHO_Lialcolm_Failis={
+		name="Lialcolm Failis"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Lialcolm_Failis
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CHO_Eoin_Failis={
+		name="Eoin Failis"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Eoin_Failis
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	CHO_Liareth_Eolamh={
+		name="Liareth Eolamh"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Liareth_Eolamh
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	CHO_Hugh_Talteancha={
+		name="Hugh Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Hugh_Talteancha
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	CHO_Liall_Maigh={
+		name="Liall Maigh"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Liall_Maigh
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CHO_Aidan_Eolamh={
+		name="Aidan Eolamh"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Aidan_Eolamh
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	CHO_Nialcolm_Talteancha={
+		name="Nialcolm Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Nialcolm_Talteancha
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	CHO_Fergus_Tailt={
+		name="Fergus Tailt"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Fergus_Tailt
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CHO_Owen_Ceach={
+		name="Owen Ceach"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Tareth_Rata={
+		name="Tareth Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Tareth_Rata
+				traits = {	political_dancer 	}
+		}
+
+	}
+	CHO_Eoin_Talteancha={
+		name="Eoin Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Eoin_Talteancha
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CHO_Mall_Maigh={
+		name="Mall Maigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Mall_Maigh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CHO_Iwan_Croin={
+		name="Iwan Croin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Iwan_Croin
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	CHO_Bran_Eolamh={
+		name="Bran Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Bran_Eolamh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CHO_Mall_Eolamh={
+		name="Mall Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Mall_Eolamh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CHO_Liareth_Maigh={
+		name="Liareth Maigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Liareth_Maigh
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CHO_Eoinn_Croin={
+		name="Eoinn Croin"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Eoinn_Croin
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CHO_Seamus_Talteancha={
+		name="Seamus Talteancha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Seamus_Talteancha
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	CHO_Aidan_Failis={
+		name="Aidan Failis"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Aidan_Failis
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	CHO_Padran_Bunach={
+		name="Padran Bunach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Padran_Bunach
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CHO_Liall_Rata={
+		name="Liall Rata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Liall_Rata
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CHO_Lialcolm_Talteancha={
+		name="Lialcolm Talteancha"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Lialcolm_Talteancha
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	CHO_Quin_Failis={
+		name="Quin Failis"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Quin_Failis
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	CHO_Seamus_Failis={
+		name="Seamus Failis"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Seamus_Failis
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	CHO_Bran_Talteancha={
+		name="Bran Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Bran_Talteancha
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	CHO_Nialcolm_Maigh={
+		name="Nialcolm Maigh"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Nialcolm_Maigh
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	CHO_Padraig_Talteancha={
+		name="Padraig Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Padraig_Talteancha
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	CHO_Seam_Talteancha={
+		name="Seam Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Seam_Talteancha
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	CHO_Mall_Scatha={
+		name="Mall Scatha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Mall_Scatha
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	CHO_Niaraig_Bunach={
+		name="Niaraig Bunach"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Padran_Talteancha={
+		name="Padran Talteancha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Padran_Talteancha
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CHO_Bran_Rata={
+		name="Bran Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Bran_Rata
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CHO_Aidan_Scatha={
+		name="Aidan Scatha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Aidan_Scatha
+				traits = {	rearmer 	}
+		}
+
+	}
+	CHO_Lialcolm_Eolamh={
+		name="Lialcolm Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Lialcolm_Eolamh
+				traits = {	infirm 	}
+		}
+
+	}
+	CHO_Ulrich_Tailt={
+		name="Ulrich Tailt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ulrich_Tailt
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	CHO_Malcolm_Eolamh={
+		name="Malcolm Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Malcolm_Eolamh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CHO_Iwan_Eolamh={
+		name="Iwan Eolamh"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Iwan_Eolamh
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	CHO_Liall_Ceach={
+		name="Liall Ceach"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Liall_Ceach
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	CHO_Ulrich_Rata={
+		name="Ulrich Rata"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Ulrich_Rata
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CHO_Niam_Scatha={
+		name="Niam Scatha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Niam_Scatha
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CHO_Rhys_Failis={
+		name="Rhys Failis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Rhys_Failis
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	CHO_Iwan_Failis={
+		name="Iwan Failis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Iwan_Failis
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	CHO_Seam_Ceach={
+		name="Seam Ceach"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Seam_Ceach
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	CHO_Seamus_Ceach={
+		name="Seamus Ceach"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Seamus_Ceach
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	CHO_Declan_Croin={
+		name="Declan Croin"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Declan_Croin
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	CHO_Gareth_Rata={
+		name="Gareth Rata"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Gareth_Rata
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	CHO_Niaraig_Scatha={
+		name="Niaraig Scatha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Niaraig_Scatha
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	CHO_Rhys_Eolamh={
+		name="Rhys Eolamh"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Rhys_Eolamh
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	CHO_Quinn_Talteancha={
+		name="Quinn Talteancha"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Quinn_Talteancha
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	CHO_Niam_Bunach={
+		name="Niam Bunach"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Niam_Bunach
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	CHO_Seam_Eolamh={
+		name="Seam Eolamh"
+
+		advisor={
+			slot = theorist
+			idea_token = CHO_Seam_Eolamh
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CHO_Eoinn_Rata={
+		name="Eoinn Rata"
+
+		advisor={
+			slot = theorist
+			idea_token = CHO_Eoinn_Rata
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CHO_Quinn_Eolamh={
+		name="Quinn Eolamh"
+
+		advisor={
+			slot = theorist
+			idea_token = CHO_Quinn_Eolamh
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
