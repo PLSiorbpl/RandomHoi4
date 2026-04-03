@@ -1,0 +1,100 @@
+add_namespace = CHS.war
+
+country_event = {
+	id = CHS.war.1
+	title = "Intensified chaos in the Wielgus region."
+	desc = "Military has failed to contain the situation. Protestoers are demanding voting rights and fair treatment. They are even starting to attack the local military garrisons."
+	picture = GFX_report_event_war
+
+	   is_triggered_only = yes
+	option = {
+		name = "What is going on?!"
+		add_political_power = -50
+		add_stability = -0.10
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = CHS.war.2
+	title = "The situation in the Wielgus region is getting worse."
+	desc = "The protests have turned into riots. The military is losing control of the situation. The government is considering declaring martial law in the region."
+	picture = GFX_report_event_czech_soldiers_01
+
+	   is_triggered_only = yes
+	option = {
+		name = "We need to do something!"
+
+	}
+	fire_only_once = yes
+
+}
+country_event = {
+	id = CHS.war.3
+	title = "Military has seized control of the government.."
+	desc = "We cannot to let this madman destory our country anymore. We need to take control of the situation before it's too late."
+	picture = GFX_report_event_czech_soldiers_01
+
+	   is_triggered_only = yes
+	option = {
+		name = "We need to do something!"
+		add_political_power = -100
+		add_stability = -0.20
+		set_politics = {
+
+ruling_party = neutrality
+
+elections_allowed = no
+
+}
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = CHS.war.4
+	title = "Meeting with the protesters."
+	desc = "We cannot attack protestors with guns. We need to talk to them. And most importantly there's a need to revers Tocks policies agaist Wielgusans."
+    option = {
+		name = "Meet with thier leaders."
+	}
+}
+country_event = {
+	id = CHS.war.5
+	title = "Ninja Rises."
+	desc = "Stopy."
+	picture = GFX_report_event_czech_soldiers_01
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Send reinforcements!"
+
+		release = KAA
+
+		615 = { add_core_of = KAA }
+		678 = { add_core_of = KAA }
+
+		615 = { transfer_state_to = KAA }
+        319 = { transfer_state_to = KAA }
+
+	}
+}
+
+	country_event = {
+		id = CHS.war.6
+		title = "Ninja Rises2."
+		desc = "Stopy."
+		picture = GFX_report_event_czech_soldiers_01
+
+		is_triggered_only = yes
+
+		option = {
+			name = "Crush them!"
+			declare_war_on = {
+				type = annex_everything
+				target = KAA
+			}
+		}
+	}
+
+	fire_only_once = yes
+}

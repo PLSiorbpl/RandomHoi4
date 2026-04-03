@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ajtzna Fleet"			
+		naval_base = 12270
+		task_force = {
+			name = "Ajtzna Fleet"
+			location = 12270
+			
+						ship = { name = "Nohil" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KRY version_name = "Nohil Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

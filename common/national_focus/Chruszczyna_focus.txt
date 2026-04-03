@@ -8,12 +8,12 @@
         base = 0
         modifier = {
             add = 10
-            tag = ZAP
+            tag = CHS
         }
       }
 
  focus = {
-    id = ZAP_focus_1
+    id = CHS_focus_1
     icon = GFX_focus_generic_workers_and_farmers_rise
 
     x = 1
@@ -24,18 +24,18 @@
        add_political_power = -50
 
             country_event = {
-               id = zap.war.1
+               id = CHS.war.1
             }
     }
  } 
  focus = {
-   id = ZAP_focus_2
+   id = CHS_focus_2
    icon = GFX_SOV_barrier_troops_ccp_2d_sov_compatibility
    cost = 3
    x = 1   
    y = 1
    prerequisite = {
-      focus = ZAP_focus_1
+      focus = CHS_focus_1
    }
    completion_reward = {
       add_equipment_to_stockpile = {
@@ -49,11 +49,11 @@
    }
  }
  focus = {
-    id = ZAP_focus_3
+    id = CHS_focus_3
     icon = GFX_SOV_annex_tannu_tuva_ccp_2d_sov_compatibility
 
     prerequisite = {
-         focus = ZAP_focus_2  
+         focus = CHS_focus_2  
     }
     x = 1
     y = 2
@@ -64,11 +64,11 @@
           ideology = democratic
           amount = -0.20
        }
-       country_event = { id = zap.war.2 }
+       country_event = { id = CHS.war.2 }
     }
  }
  focus = {
-   id = ZAP_focus_4
+   id = CHS_focus_4
    icon = GFX_focus_GER_loyalty_to_the_fuhrer
    cost = 3
    x = 0
@@ -78,18 +78,18 @@
    }
    
    prerequisite = {
-      focus = ZAP_focus_8 
+      focus = CHS_focus_8 
    }
    
    mutually_exclusive = {
-      focus = ZAP_focus_5
+      focus = CHS_focus_5
    }
    
    completion_reward = { 
    }
 }
  focus = {
-   id = ZAP_focus_5
+   id = CHS_focus_5
    icon = GFX_focus_generic_full_social_mobilization
    cost = 3
    x = 2
@@ -97,94 +97,94 @@
    completion_reward = {
       white_peace = KAA
       country_event = {
-         id = zap.war.3 days = 15
+         id = CHS.war.3 days = 15
       }
    }
    mutually_exclusive = {
-      focus = ZAP_focus_4
+      focus = CHS_focus_4
    }
    prerequisite = {
-      focus = ZAP_focus_8  
+      focus = CHS_focus_8  
    }
  }
  focus = {
-   id = ZAP_focus_6
+   id = CHS_focus_6
    icon = GFX_focus_PER_proclaim_greater_iran
    cost = 3
    x = 1
    y = 4
    prerequisite = {
-      focus = ZAP_focus_7
+      focus = CHS_focus_7
    }
      completion_reward = {
       country_event = {
-         id = zap.war.5
+         id = CHS.war.5
       }
    }
 }
    
    focus = {
-      id = ZAP_focus_7
+      id = CHS_focus_7
    icon = GFX_focus_ARG_women_in_industry
    cost = 3
    x = 1
    y = 3
-   completion_reward = { country_event = { id = zap.war.5 } }
+   completion_reward = { country_event = { id = CHS.war.5 } }
    prerequisite = {
-      focus = ZAP_focus_3
+      focus = CHS_focus_3
    }
  }
  focus = {
-   id = ZAP_focus_8
+   id = CHS_focus_8
    icon = GFX_SOV_claims_on_poland_ccp_2d_sov_compatibility
    cost = 3
    x = 1
    y = 5
    prerequisite = {
-      focus = ZAP_focus_6
+      focus = CHS_focus_6
    }
    completion_reward = {
       country_event = {
-         id = zap.war.6
+         id = CHS.war.6
       }
    }
    }
 focus = {
-    id = ZAP_focus_9
+    id = CHS_focus_9
     icon = GFX_focus_SWE_neither_death_nor_dishonor
     cost = 3
-    relative_position_id = ZAP_focus_5
+    relative_position_id = CHS_focus_5
    y = 1
    x = 1
     prerequisite = {
-       focus = ZAP_focus_5
+       focus = CHS_focus_5
     }
     completion_reward = {
 
     }
  }
  focus = {
-    id = ZAP_focus_10
+    id = CHS_focus_10
     icon = GFX_focus_NOR_vote_of_no_confidence
     cost = 3
-    relative_position_id = ZAP_focus_9
+    relative_position_id = CHS_focus_9
    y = 1
     prerequisite = {
-       focus = ZAP_focus_9
+       focus = CHS_focus_9
     }
     completion_reward = {
 
     }
  }
  focus = {
-    id = ZAP_focus_11
+    id = CHS_focus_11
     icon = GFX_SOV_barrier_troops_ccp_2d_sov_compatibility
     cost = 3
-    relative_position_id = ZAP_focus_10
+    relative_position_id = CHS_focus_10
    y = 1
    x = -1
     prerequisite = {
-       focus = ZAP_focus_10
+       focus = CHS_focus_10
     }
     completion_reward = {
 
@@ -192,108 +192,108 @@ focus = {
  
  }
  focus = {
-   id = ZAP_focus_12
+   id = CHS_focus_12
    icon = GFX_focus_PER_subserviant_to_noone
    cost = 3
    y = 1
    x = 1
-       relative_position_id = ZAP_focus_11
-prerequisite = { focus = ZAP_focus_11 }
-prerequisite = { focus = ZAP_focus_20 }
+       relative_position_id = CHS_focus_11
+prerequisite = { focus = CHS_focus_11 }
+prerequisite = { focus = CHS_focus_20 }
    completion_reward = { }
  }
   focus = {
-   id = ZAP_focus_13
+   id = CHS_focus_13
    icon = GFX_focus_PER_strengthen_the_tudeh
    cost = 3
    y = 1
    x = 1
-       relative_position_id = ZAP_focus_12
+       relative_position_id = CHS_focus_12
        prerequisite = {
-            focus = ZAP_focus_12
+            focus = CHS_focus_12
        }
    completion_reward = { }
  }
   focus = {
-   id = ZAP_focus_14
+   id = CHS_focus_14
    icon = GFX_focus_ARG_defense_and_democracy
    cost = 3
    y = 1
-       relative_position_id = ZAP_focus_13
+       relative_position_id = CHS_focus_13
        prerequisite = {
-            focus = ZAP_focus_13
+            focus = CHS_focus_13
        }
    completion_reward = { }
  }
   focus = {
-   id = ZAP_focus_15
+   id = CHS_focus_15
    icon = GFX_focus_GER_the_swiss_gold
    cost = 3
    y = 1
-       relative_position_id = ZAP_focus_14
+       relative_position_id = CHS_focus_14
        prerequisite = {
-            focus = ZAP_focus_14
+            focus = CHS_focus_14
        }
    completion_reward = { }
  }
    focus = {
-   id = ZAP_focus_16
+   id = CHS_focus_16
    icon = GFX_focus_BRA_the_polaca
    cost = 3
    y = 1
    x = -1
-       relative_position_id = ZAP_focus_12
+       relative_position_id = CHS_focus_12
        prerequisite = {
-            focus = ZAP_focus_12
+            focus = CHS_focus_12
        }
    completion_reward = { }
  }
   focus = {
-   id = ZAP_focus_17
+   id = CHS_focus_17
    icon = GFX_focus_FIN_parmis_devils
    cost = 3
    y = 1
    x = -2
-       relative_position_id = ZAP_focus_13
+       relative_position_id = CHS_focus_13
        prerequisite = {
-            focus = ZAP_focus_16
+            focus = CHS_focus_16
        }
    completion_reward = { }
  }
   focus = {
-   id = ZAP_focus_18
+   id = CHS_focus_18
    icon = GFX_focus_generic_court
    cost = 3
    y = 1
    x = -2
-       relative_position_id = ZAP_focus_14
+       relative_position_id = CHS_focus_14
        prerequisite = {
-            focus = ZAP_focus_17
+            focus = CHS_focus_17
        }
    completion_reward = { }
  }
    focus = {
-   id = ZAP_focus_19
+   id = CHS_focus_19
    icon = GFX_focus_CONGO_belgian_congo
    cost = 3
    y = 2
    x = -1
-       relative_position_id = ZAP_focus_14
+       relative_position_id = CHS_focus_14
        prerequisite = {
-            focus = ZAP_focus_18
-            focus = ZAP_focus_15
+            focus = CHS_focus_18
+            focus = CHS_focus_15
        }
    completion_reward = { }
  }
   focus = {
-    id = ZAP_focus_20
+    id = CHS_focus_20
     icon = GFX_focus_ETH_freedom_at_gunpoint
     cost = 3
-    relative_position_id = ZAP_focus_10
+    relative_position_id = CHS_focus_10
    y = 1
    x = 1
     prerequisite = {
-       focus = ZAP_focus_10
+       focus = CHS_focus_10
     }
     completion_reward = {
 
@@ -301,11 +301,11 @@ prerequisite = { focus = ZAP_focus_20 }
  
  }
   focus = {
-    id = ZAP_focus_21
+    id = CHS_focus_21
     icon = GFX_focus_CHL_a_joint_application_to_the_allies
 
     prerequisite = {
-         focus = ZAP_focus_3  
+         focus = CHS_focus_3  
     }
     x = 3
     y = 3
@@ -316,15 +316,15 @@ prerequisite = { focus = ZAP_focus_20 }
           ideology = democratic
           amount = -0.20
        }
-       country_event = { id = zap.war.2 }
+       country_event = { id = CHS.war.2 }
     }
  }
   focus = {
-    id = ZAP_focus_22
+    id = CHS_focus_22
     icon =  GFX_focus_FIN_sissi
 
     prerequisite = {
-         focus = ZAP_focus_6  
+         focus = CHS_focus_6  
     }
     x = -1
     y = 5
@@ -335,7 +335,7 @@ prerequisite = { focus = ZAP_focus_20 }
           ideology = democratic
           amount = -0.20
        }
-       country_event = { id = zap.war.2 }
+       country_event = { id = CHS.war.2 }
     }
  }
 

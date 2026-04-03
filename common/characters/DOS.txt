@@ -1,0 +1,880 @@
+characters = {
+	DOS_Mikel_Izeantzumena={
+		name="Mikel Izeantzumena"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOS_Ibanti_Zelak={
+		name="Ibanti Zelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Ibanti_Zelak
+				traits = {	headstrong 	}
+		}
+
+	}
+	DOS_Eder_Ikarrioa={
+		name="Eder Ikarrioa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Eder_Ikarrioa
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	DOS_Unat_Badei={
+		name="Unat Badei"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Unat_Badei
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	DOS_Mikel_Eskasuna={
+		name="Mikel Eskasuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Mikel_Eskasuna
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	DOS_Gaitz_Izeantzumena={
+		name="Gaitz Izeantzumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Gaitz_Izeantzumena
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	DOS_Ibaiur_Izeantzumena={
+		name="Ibaiur Izeantzumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Ibaiur_Izeantzumena
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	DOS_Iban_Eskasuna={
+		name="Iban Eskasuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Iban_Eskasuna
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	DOS_Ibaiur_Ikarrioa={
+		name="Ibaiur Ikarrioa"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Ibaiur_Ikarrioa
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	DOS_Eneko_Zelak={
+		name="Eneko Zelak"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Eneko_Zelak
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	DOS_Ibaizkaitor_Herebesti={
+		name="Ibaizkaitor Herebesti"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Ibaizkaitor_Herebesti
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DOS_Harka_Mena={
+		name="Harka Mena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Harka_Mena
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	DOS_Harkaitz_Izeantzumena={
+		name="Harkaitz Izeantzumena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Harkaitz_Izeantzumena
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	DOS_Koldo_Herebesti={
+		name="Koldo Herebesti"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Koldo_Herebesti
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	DOS_Koldo_Ikarrioa={
+		name="Koldo Ikarrioa"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Koldo_Ikarrioa
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	DOS_Harka_Eskasuna={
+		name="Harka Eskasuna"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Harka_Eskasuna
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	DOS_Ibanti_Mena={
+		name="Ibanti Mena"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Ibanti_Mena
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	DOS_Harka_Badei={
+		name="Harka Badei"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Harka_Badei
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DOS_Unaitz_Badei={
+		name="Unaitz Badei"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Unaitz_Badei
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	DOS_Ibaiur_Zelak={
+		name="Ibaiur Zelak"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Ibaiur_Zelak
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	DOS_Ibanti_Badei={
+		name="Ibanti Badei"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Ibanti_Badei
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	DOS_Aitz_Mena={
+		name="Aitz Mena"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOS_Benai_Izar={
+		name="Benai Izar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Benai_Izar
+				traits = {	polemarch 	}
+		}
+
+	}
+	DOS_Xanti_Izar={
+		name="Xanti Izar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Xanti_Izar
+				traits = {	basileus 	}
+		}
+
+	}
+	DOS_Unat_Herekarratas={
+		name="Unat Herekarratas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Unat_Herekarratas
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	DOS_Gorkaizka_Eskasuna={
+		name="Gorkaizka Eskasuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Gorkaizka_Eskasuna
+				traits = {	warmonger 	}
+		}
+
+	}
+	DOS_Iker_Zelak={
+		name="Iker Zelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Iker_Zelak
+				traits = {	basileus 	}
+		}
+
+	}
+	DOS_Harka_Izeantzumena={
+		name="Harka Izeantzumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Harka_Izeantzumena
+				traits = {	autokrator 	}
+		}
+
+	}
+	DOS_Benaitz_Izar={
+		name="Benaitz Izar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Benaitz_Izar
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	DOS_Koldo_Izar={
+		name="Koldo Izar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Koldo_Izar
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	DOS_Ander_Eskasuna={
+		name="Ander Eskasuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Ander_Eskasuna
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	DOS_Benat_Zelak={
+		name="Benat Zelak"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Benat_Zelak
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DOS_Gorka_Ikarrioa={
+		name="Gorka Ikarrioa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Gorka_Ikarrioa
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	DOS_Aitor_Hereko={
+		name="Aitor Hereko"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Aitor_Hereko
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	DOS_Mikel_Izar={
+		name="Mikel Izar"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Mikel_Izar
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	DOS_Iker_Ikarrioa={
+		name="Iker Ikarrioa"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Iker_Ikarrioa
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	DOS_Gaiur_Hereko={
+		name="Gaiur Hereko"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Gaiur_Hereko
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	DOS_Benaitz_Ikarrioa={
+		name="Benaitz Ikarrioa"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Benaitz_Ikarrioa
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	DOS_Harkai_Badei={
+		name="Harkai Badei"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Harkai_Badei
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	DOS_Xanti_Herekarratas={
+		name="Xanti Herekarratas"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Xanti_Herekarratas
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	DOS_Amaizka_Badei={
+		name="Amaizka Badei"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Amaizka_Badei
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	DOS_Harkaitz_Eskasuna={
+		name="Harkaitz Eskasuna"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Harkaitz_Eskasuna
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	DOS_Aitz_Hereko={
+		name="Aitz Hereko"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOS_Ibaizkaiur_Zelak={
+		name="Ibaizkaiur Zelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Ibaizkaiur_Zelak
+				traits = {	infirm 	}
+		}
+
+	}
+	DOS_Iker_Izar={
+		name="Iker Izar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Iker_Izar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DOS_Harkaitz_Herekarratas={
+		name="Harkaitz Herekarratas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Harkaitz_Herekarratas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DOS_Gaitorka_Herekarratas={
+		name="Gaitorka Herekarratas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Gaitorka_Herekarratas
+				traits = {	polemarch 	}
+		}
+
+	}
+	DOS_Aitorka_Herebesti={
+		name="Aitorka Herebesti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Aitorka_Herebesti
+				traits = {	infirm 	}
+		}
+
+	}
+	DOS_Mikel_Mena={
+		name="Mikel Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Mikel_Mena
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	DOS_Eneko_Izar={
+		name="Eneko Izar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Eneko_Izar
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	DOS_Iban_Herebesti={
+		name="Iban Herebesti"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Iban_Herebesti
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DOS_Benaitz_Hereko={
+		name="Benaitz Hereko"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Benaitz_Hereko
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DOS_Xanti_Badei={
+		name="Xanti Badei"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Xanti_Badei
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DOS_Aitor_Herebesti={
+		name="Aitor Herebesti"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Aitor_Herebesti
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	DOS_Benaitz_Herekarratas={
+		name="Benaitz Herekarratas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Benaitz_Herekarratas
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	DOS_Aitorka_Badei={
+		name="Aitorka Badei"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Aitorka_Badei
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	DOS_Ekaitorka_Izeantzumena={
+		name="Ekaitorka Izeantzumena"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Ekaitorka_Izeantzumena
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	DOS_Gorkaizka_Ikarrioa={
+		name="Gorkaizka Ikarrioa"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Gorkaizka_Ikarrioa
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	DOS_Gorka_Eskasuna={
+		name="Gorka Eskasuna"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Gorka_Eskasuna
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	DOS_Harkai_Zelak={
+		name="Harkai Zelak"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Harkai_Zelak
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	DOS_Gaitorka_Izeantzumena={
+		name="Gaitorka Izeantzumena"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Gaitorka_Izeantzumena
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	DOS_Ibaitz_Badei={
+		name="Ibaitz Badei"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Ibaitz_Badei
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	DOS_Asier_Herebesti={
+		name="Asier Herebesti"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Asier_Herebesti
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	DOS_Gaitor_Hereko={
+		name="Gaitor Hereko"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOS_Asier_Zelak={
+		name="Asier Zelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Asier_Zelak
+				traits = {	first_lady 	}
+		}
+
+	}
+	DOS_Harkaitor_Izeantzumena={
+		name="Harkaitor Izeantzumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Harkaitor_Izeantzumena
+				traits = {	the_banker 	}
+		}
+
+	}
+	DOS_Eder_Herekarratas={
+		name="Eder Herekarratas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Eder_Herekarratas
+				traits = {	rearmer 	}
+		}
+
+	}
+	DOS_Harkai_Eskasuna={
+		name="Harkai Eskasuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Harkai_Eskasuna
+				traits = {	first_lady 	}
+		}
+
+	}
+	DOS_Ekai_Izeantzumena={
+		name="Ekai Izeantzumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Ekai_Izeantzumena
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	DOS_Aitor_Eskasuna={
+		name="Aitor Eskasuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOS_Aitor_Eskasuna
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DOS_Benat_Hereko={
+		name="Benat Hereko"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Benat_Hereko
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DOS_Aitor_Mena={
+		name="Aitor Mena"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Aitor_Mena
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	DOS_Xanti_Mena={
+		name="Xanti Mena"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Xanti_Mena
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DOS_Ander_Izeantzumena={
+		name="Ander Izeantzumena"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOS_Ander_Izeantzumena
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DOS_Gaitorka_Zelak={
+		name="Gaitorka Zelak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Gaitorka_Zelak
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DOS_Gaitorka_Hereko={
+		name="Gaitorka Hereko"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOS_Gaitorka_Hereko
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	DOS_Koldo_Badei={
+		name="Koldo Badei"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Koldo_Badei
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	DOS_Unai_Eskasuna={
+		name="Unai Eskasuna"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOS_Unai_Eskasuna
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	DOS_Unai_Badei={
+		name="Unai Badei"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Unai_Badei
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	DOS_Ibaitz_Zelak={
+		name="Ibaitz Zelak"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Ibaitz_Zelak
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	DOS_Gaitor_Ikarrioa={
+		name="Gaitor Ikarrioa"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Gaitor_Ikarrioa
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	DOS_Ibaitz_Ikarrioa={
+		name="Ibaitz Ikarrioa"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Ibaitz_Ikarrioa
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	DOS_Iban_Izeantzumena={
+		name="Iban Izeantzumena"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Iban_Izeantzumena
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	DOS_Amaizka_Eskasuna={
+		name="Amaizka Eskasuna"
+
+		advisor={
+			slot = high_command
+			idea_token = DOS_Amaizka_Eskasuna
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	DOS_Gaitz_Herebesti={
+		name="Gaitz Herebesti"
+
+		advisor={
+			slot = theorist
+			idea_token = DOS_Gaitz_Herebesti
+				traits = {	military_theorist 	}
+		}
+
+	}
+	DOS_Xabier_Hereko={
+		name="Xabier Hereko"
+
+		advisor={
+			slot = theorist
+			idea_token = DOS_Xabier_Hereko
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	DOS_Eneko_Badei={
+		name="Eneko Badei"
+
+		advisor={
+			slot = theorist
+			idea_token = DOS_Eneko_Badei
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

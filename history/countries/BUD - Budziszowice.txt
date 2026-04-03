@@ -1,0 +1,512 @@
+capital = 110
+
+oob = "BUD_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "BUD_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "BUD_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	fuel_refining= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Hunam Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mahad Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Beheshtabat Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Dosh Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Miveh Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Miveh Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BUD_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			armor_piercing_bombs = 1
+			aa_lmg = 1
+			basic_small_airframe = 1
+			basic_large_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Hunar Mk 2"
+			type = small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Beheshtabat Mk 1"
+			type = small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Dosh Mk 2"
+			type = large_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Pole Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Hunam Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Dosh Mk 0"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tamad Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "BUD_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "BUD_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Hunar Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "BUD_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Hunar Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = BUD_Farhahraman_Mahad
+recruit_character = BUD_Rezad_Giahveh
+recruit_character = BUD_Ebram_Mahad
+recruit_character = BUD_Peyma_Hunarangoz
+recruit_character = BUD_Parhamid_Hunarangoz
+recruit_character = BUD_Shahiman_Hunar
+recruit_character = BUD_Hassan_Beheshtabat
+recruit_character = BUD_Ebrahram_Tamad
+recruit_character = BUD_Majid_Dosh
+recruit_character = BUD_Kamin_Hunam
+recruit_character = BUD_Farhahraman_Hunam
+recruit_character = BUD_Kavehdi_Mahad
+recruit_character = BUD_Shahiman_Tamad
+recruit_character = BUD_Behdi_Hunarangoz
+recruit_character = BUD_Amid_Mahad
+recruit_character = BUD_Hassan_Hunam
+recruit_character = BUD_Mossein_Dosh
+recruit_character = BUD_Navid_Mahad
+recruit_character = BUD_Ahman_Dosh
+recruit_character = BUD_Farhahiman_Dosh
+recruit_character = BUD_Farhahiman_Pole
+recruit_character = BUD_Ebramin_Giahveh
+recruit_character = BUD_Rezad_Dosh
+recruit_character = BUD_Rama_Dosh
+recruit_character = BUD_Farhad_Miveh
+recruit_character = BUD_Peyma_Mahad
+recruit_character = BUD_Majid_Mahad
+recruit_character = BUD_Behdi_Pole
+recruit_character = BUD_Saeed_Hunarangoz
+recruit_character = BUD_Farhahiman_Mahad
+recruit_character = BUD_Kavehdi_Miveh
+recruit_character = BUD_Ahman_Giahveh
+recruit_character = BUD_Mehdi_Hunarangoz
+recruit_character = BUD_Ahmal_Beheshtabat
+recruit_character = BUD_Parhaman_Hunar
+recruit_character = BUD_Farhahiman_Giahveh
+recruit_character = BUD_Sham_Mahad
+recruit_character = BUD_Ahmal_Giahveh
+recruit_character = BUD_Farhahraman_Giahveh
+recruit_character = BUD_Omir_Mahad
+recruit_character = BUD_Milad_Hunar
+recruit_character = BUD_Hassein_Giahveh
+recruit_character = BUD_Mostafa_Giahveh
+recruit_character = BUD_Shahiman_Pole
+recruit_character = BUD_Ahman_Beheshtabat
+recruit_character = BUD_Armad_Hunar
+recruit_character = BUD_Peymad_Giahveh
+recruit_character = BUD_Parhaman_Mahad
+recruit_character = BUD_Milad_Pole
+recruit_character = BUD_Kaveh_Hunarangoz
+recruit_character = BUD_Armad_Hunam
+recruit_character = BUD_Naveh_Beheshtabat
+recruit_character = BUD_Parhad_Mahad
+recruit_character = BUD_Ahma_Giahveh
+recruit_character = BUD_Amin_Giahveh
+recruit_character = BUD_Mossan_Pole
+recruit_character = BUD_Saeed_Beheshtabat
+recruit_character = BUD_Mehzad_Hunar
+recruit_character = BUD_Kamid_Giahveh
+recruit_character = BUD_Ahma_Miveh
+recruit_character = BUD_Mossan_Mahad
+recruit_character = BUD_Navid_Dosh
+recruit_character = BUD_Behdi_Tamad
+recruit_character = BUD_Mehzad_Pole
+recruit_character = BUD_Omid_Pole
+recruit_character = BUD_Farhahraman_Miveh
+recruit_character = BUD_Ahma_Hunarangoz
+recruit_character = BUD_Behdi_Dosh
+recruit_character = BUD_Sham_Hunarangoz
+recruit_character = BUD_Rezad_Hunam
+recruit_character = BUD_Majid_Hunam
+recruit_character = BUD_Ebram_Hunam
+recruit_character = BUD_Naveh_Miveh
+recruit_character = BUD_Ebramin_Tamad
+recruit_character = BUD_Amid_Beheshtabat
+recruit_character = BUD_Babak_Tamad
+recruit_character = BUD_Shahiman_Giahveh
+recruit_character = BUD_Babak_Miveh
+recruit_character = BUD_Omir_Pole
+recruit_character = BUD_Milad_Miveh
+recruit_character = BUD_Kaveh_Dosh
+recruit_character = BUD_Amid_Pole
+recruit_character = BUD_Omid_Beheshtabat
+recruit_character = BUD_Peymad_Miveh
+recruit_character = BUD_Mostafa_Hunar
+recruit_character = BUD_Parhaman_Giahveh
+recruit_character = BUD_Kamid_Tamad
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 11
+set_war_support = 55
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1900.1.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 2
+	fascism = 38
+	communism = 22
+	neutrality = 38
+}
+
+
+
+
+

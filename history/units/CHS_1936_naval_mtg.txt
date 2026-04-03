@@ -1,0 +1,28 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Zapora Fleet"			
+		naval_base = 9950
+		task_force = {
+			name = "Zapora Fleet"
+			location = 9950
+			
+						ship = { name = "Hautza" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHS version_name = "Neura Class" } }	}
+			ship = { name = "Hautza 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHS version_name = "Hautza Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

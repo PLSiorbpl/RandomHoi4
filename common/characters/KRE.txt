@@ -1,0 +1,880 @@
+characters = {
+	KRE_Liareth_Leath={
+		name="Liareth Leath"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRE_Quinn_Beill={
+		name="Quinn Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Quinn_Beill
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KRE_Bran_Trodailin={
+		name="Bran Trodailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Bran_Trodailin
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KRE_Seamus_Crodanch={
+		name="Seamus Crodanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Seamus_Crodanch
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	KRE_Nialcolm_Ceith={
+		name="Nialcolm Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Nialcolm_Ceith
+				traits = {	humble 	}
+		}
+
+	}
+	KRE_Padran_Brochais={
+		name="Padran Brochais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Padran_Brochais
+				traits = {	headstrong 	}
+		}
+
+	}
+	KRE_Quinn_Tigh={
+		name="Quinn Tigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Quinn_Tigh
+				traits = {	headstrong 	}
+		}
+
+	}
+	KRE_Owen_Lioch={
+		name="Owen Lioch"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Owen_Lioch
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KRE_Padran_Lioch={
+		name="Padran Lioch"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Padran_Lioch
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KRE_Keiran_Geart={
+		name="Keiran Geart"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Keiran_Geart
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KRE_Garaig_Beill={
+		name="Garaig Beill"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Garaig_Beill
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KRE_Padraig_Brochais={
+		name="Padraig Brochais"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Padraig_Brochais
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KRE_Bran_Ceith={
+		name="Bran Ceith"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Bran_Ceith
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KRE_Aidan_Tigh={
+		name="Aidan Tigh"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Aidan_Tigh
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KRE_Fergus_Leath={
+		name="Fergus Leath"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Fergus_Leath
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	KRE_Iwan_Trodailin={
+		name="Iwan Trodailin"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Iwan_Trodailin
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	KRE_Owen_Trodailin={
+		name="Owen Trodailin"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Owen_Trodailin
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KRE_Niaraig_Crodanch={
+		name="Niaraig Crodanch"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Niaraig_Crodanch
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	KRE_Padraig_Ceith={
+		name="Padraig Ceith"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Padraig_Ceith
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	KRE_Niareth_Tigh={
+		name="Niareth Tigh"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Niareth_Tigh
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	KRE_Nialcolm_Geart={
+		name="Nialcolm Geart"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Nialcolm_Geart
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	KRE_Liamus_Tigh={
+		name="Liamus Tigh"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRE_Ciamus_Ceith={
+		name="Ciamus Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Ciamus_Ceith
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	KRE_Keiran_Beill={
+		name="Keiran Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Keiran_Beill
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	KRE_Owen_Beill={
+		name="Owen Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Owen_Beill
+				traits = {	autokrator 	}
+		}
+
+	}
+	KRE_Liareth_Crodanch={
+		name="Liareth Crodanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Liareth_Crodanch
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KRE_Niaraig_Leath={
+		name="Niaraig Leath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Niaraig_Leath
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	KRE_Fergus_Lucht={
+		name="Fergus Lucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Fergus_Lucht
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	KRE_Ciamus_Tigh={
+		name="Ciamus Tigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Ciamus_Tigh
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KRE_Niaraig_Lioch={
+		name="Niaraig Lioch"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Niaraig_Lioch
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KRE_Keiraig_Brochais={
+		name="Keiraig Brochais"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Keiraig_Brochais
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KRE_Fergus_Tigh={
+		name="Fergus Tigh"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Fergus_Tigh
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	KRE_Ciall_Ceith={
+		name="Ciall Ceith"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Ciall_Ceith
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KRE_Bran_Tigh={
+		name="Bran Tigh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Bran_Tigh
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KRE_Liam_Leath={
+		name="Liam Leath"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Liam_Leath
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KRE_Seam_Beill={
+		name="Seam Beill"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Seam_Beill
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	KRE_Eoinn_Geart={
+		name="Eoinn Geart"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Eoinn_Geart
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	KRE_Seamus_Lioch={
+		name="Seamus Lioch"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Seamus_Lioch
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	KRE_Seamus_Brochais={
+		name="Seamus Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Seamus_Brochais
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	KRE_Gareth_Tigh={
+		name="Gareth Tigh"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Gareth_Tigh
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	KRE_Quinn_Ceith={
+		name="Quinn Ceith"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Quinn_Ceith
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	KRE_Aidan_Leath={
+		name="Aidan Leath"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Aidan_Leath
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KRE_Taran_Lioch={
+		name="Taran Lioch"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRE_Liaran_Leath={
+		name="Liaran Leath"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Liaran_Leath
+				traits = {	polemarch 	}
+		}
+
+	}
+	KRE_Gareth_Trodailin={
+		name="Gareth Trodailin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Gareth_Trodailin
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KRE_Ciaran_Crodanch={
+		name="Ciaran Crodanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Ciaran_Crodanch
+				traits = {	polemarch 	}
+		}
+
+	}
+	KRE_Declan_Geart={
+		name="Declan Geart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Declan_Geart
+				traits = {	infirm 	}
+		}
+
+	}
+	KRE_Quinn_Lioch={
+		name="Quinn Lioch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Quinn_Lioch
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KRE_Hugh_Geart={
+		name="Hugh Geart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Hugh_Geart
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KRE_Iwan_Beill={
+		name="Iwan Beill"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Iwan_Beill
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KRE_Hugh_Crodanch={
+		name="Hugh Crodanch"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Hugh_Crodanch
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KRE_Niaraig_Ceith={
+		name="Niaraig Ceith"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Niaraig_Ceith
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KRE_Garan_Crodanch={
+		name="Garan Crodanch"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Garan_Crodanch
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KRE_Ulrich_Trodailin={
+		name="Ulrich Trodailin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Ulrich_Trodailin
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	KRE_Padran_Crodanch={
+		name="Padran Crodanch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Padran_Crodanch
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KRE_Declan_Beill={
+		name="Declan Beill"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Declan_Beill
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	KRE_Liaran_Geart={
+		name="Liaran Geart"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Liaran_Geart
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	KRE_Ciaran_Trodailin={
+		name="Ciaran Trodailin"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Ciaran_Trodailin
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	KRE_Rhys_Beill={
+		name="Rhys Beill"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Rhys_Beill
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	KRE_Malcolm_Lioch={
+		name="Malcolm Lioch"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Malcolm_Lioch
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	KRE_Garaig_Tigh={
+		name="Garaig Tigh"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Garaig_Tigh
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KRE_Malcolm_Ceith={
+		name="Malcolm Ceith"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Malcolm_Ceith
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	KRE_Niareth_Geart={
+		name="Niareth Geart"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Niareth_Geart
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	KRE_Liareth_Beill={
+		name="Liareth Beill"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRE_Aidan_Crodanch={
+		name="Aidan Crodanch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Aidan_Crodanch
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KRE_Niaraig_Beill={
+		name="Niaraig Beill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Niaraig_Beill
+				traits = {	the_banker 	}
+		}
+
+	}
+	KRE_Taran_Ceith={
+		name="Taran Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Taran_Ceith
+				traits = {	the_banker 	}
+		}
+
+	}
+	KRE_Liam_Geart={
+		name="Liam Geart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Liam_Geart
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KRE_Ulrich_Ceith={
+		name="Ulrich Ceith"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Ulrich_Ceith
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KRE_Padraig_Tigh={
+		name="Padraig Tigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRE_Padraig_Tigh
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KRE_Liamus_Beill={
+		name="Liamus Beill"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Liamus_Beill
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KRE_Bran_Lucht={
+		name="Bran Lucht"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Bran_Lucht
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KRE_Mall_Leath={
+		name="Mall Leath"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Mall_Leath
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KRE_Nialcolm_Trodailin={
+		name="Nialcolm Trodailin"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRE_Nialcolm_Trodailin
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KRE_Hugh_Lioch={
+		name="Hugh Lioch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Hugh_Lioch
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KRE_Padran_Lucht={
+		name="Padran Lucht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRE_Padran_Lucht
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KRE_Hugh_Tigh={
+		name="Hugh Tigh"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Hugh_Tigh
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	KRE_Ciamus_Brochais={
+		name="Ciamus Brochais"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRE_Ciamus_Brochais
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	KRE_Ciall_Brochais={
+		name="Ciall Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Ciall_Brochais
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	KRE_Keiran_Leath={
+		name="Keiran Leath"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Keiran_Leath
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KRE_Seam_Lioch={
+		name="Seam Lioch"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Seam_Lioch
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	KRE_Fergus_Geart={
+		name="Fergus Geart"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Fergus_Geart
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	KRE_Liareth_Brochais={
+		name="Liareth Brochais"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Liareth_Brochais
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	KRE_Aidan_Beill={
+		name="Aidan Beill"
+
+		advisor={
+			slot = high_command
+			idea_token = KRE_Aidan_Beill
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KRE_Liaran_Trodailin={
+		name="Liaran Trodailin"
+
+		advisor={
+			slot = theorist
+			idea_token = KRE_Liaran_Trodailin
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KRE_Keiraig_Geart={
+		name="Keiraig Geart"
+
+		advisor={
+			slot = theorist
+			idea_token = KRE_Keiraig_Geart
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KRE_Keiran_Trodailin={
+		name="Keiran Trodailin"
+
+		advisor={
+			slot = theorist
+			idea_token = KRE_Keiran_Trodailin
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

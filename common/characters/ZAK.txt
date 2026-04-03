@@ -1,0 +1,880 @@
+characters = {
+	ZAK_Vijay_Nool={
+		name="Vijay Nool"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAK_Ajay_Kudran={
+		name="Ajay Kudran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Ajay_Kudran
+				traits = {	humble 	}
+		}
+
+	}
+	ZAK_Kiranod_Kadam={
+		name="Kiranod Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Kiranod_Kadam
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	ZAK_Vineshna_Kizhir={
+		name="Vineshna Kizhir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Vineshna_Kizhir
+				traits = {	humble 	}
+		}
+
+	}
+	ZAK_Vineshna_Vazhar={
+		name="Vineshna Vazhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Vineshna_Vazhar
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	ZAK_Chan_Nadal={
+		name="Chan Nadal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Chan_Nadal
+				traits = {	headstrong 	}
+		}
+
+	}
+	ZAK_Vari_Then={
+		name="Vari Then"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Vari_Then
+				traits = {	headstrong 	}
+		}
+
+	}
+	ZAK_Chandrakash_Thogu={
+		name="Chandrakash Thogu"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Chandrakash_Thogu
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	ZAK_Rajesh_Kuru={
+		name="Rajesh Kuru"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Rajesh_Kuru
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	ZAK_Vari_Kadam={
+		name="Vari Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Vari_Kadam
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	ZAK_Surem_Vazhar={
+		name="Surem Vazhar"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Surem_Vazhar
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	ZAK_Arun_Kudran={
+		name="Arun Kudran"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Arun_Kudran
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	ZAK_Ravi_Kadam={
+		name="Ravi Kadam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Ravi_Kadam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	ZAK_Senth_Nool={
+		name="Senth Nool"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Senth_Nool
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	ZAK_Ganoj_Nadal={
+		name="Ganoj Nadal"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Ganoj_Nadal
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	ZAK_Karthik_Nool={
+		name="Karthik Nool"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Karthik_Nool
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	ZAK_Kumar_Pesu={
+		name="Kumar Pesu"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Kumar_Pesu
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	ZAK_Rajesh_Nadal={
+		name="Rajesh Nadal"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Rajesh_Nadal
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	ZAK_Siddhanod_Thogu={
+		name="Siddhanod Thogu"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Siddhanod_Thogu
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	ZAK_Rajesh_Kizhir={
+		name="Rajesh Kizhir"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Rajesh_Kizhir
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	ZAK_Varish_Nool={
+		name="Varish Nool"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Varish_Nool
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	ZAK_Vinoj_Kuru={
+		name="Vinoj Kuru"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAK_Raghan_Kizhir={
+		name="Raghan Kizhir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Raghan_Kizhir
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	ZAK_Kiran_Kadam={
+		name="Kiran Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Kiran_Kadam
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	ZAK_Ajay_Pesu={
+		name="Ajay Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Ajay_Pesu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	ZAK_Ganoj_Pesu={
+		name="Ganoj Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Ganoj_Pesu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	ZAK_Karthik_Kizhir={
+		name="Karthik Kizhir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Karthik_Kizhir
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	ZAK_Gandrakash_Kuru={
+		name="Gandrakash Kuru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Gandrakash_Kuru
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	ZAK_Prem_Kadam={
+		name="Prem Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Prem_Kadam
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	ZAK_Vineshna_Kudran={
+		name="Vineshna Kudran"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Vineshna_Kudran
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	ZAK_Arun_Nadal={
+		name="Arun Nadal"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Arun_Nadal
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	ZAK_Rajesh_Then={
+		name="Rajesh Then"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Rajesh_Then
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	ZAK_Senthik_Kuru={
+		name="Senthik Kuru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Senthik_Kuru
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	ZAK_Senth_Kudran={
+		name="Senth Kudran"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Senth_Kudran
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	ZAK_Kumar_Then={
+		name="Kumar Then"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Kumar_Then
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	ZAK_Dinoj_Pesu={
+		name="Dinoj Pesu"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Dinoj_Pesu
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	ZAK_Varth_Kadam={
+		name="Varth Kadam"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Varth_Kadam
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	ZAK_Jagharun_Thogu={
+		name="Jagharun Thogu"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Jagharun_Thogu
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	ZAK_Kirakash_Nool={
+		name="Kirakash Nool"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Kirakash_Nool
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	ZAK_Kiranod_Vazhar={
+		name="Kiranod Vazhar"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Kiranod_Vazhar
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	ZAK_Kirandran_Vazhar={
+		name="Kirandran Vazhar"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Kirandran_Vazhar
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	ZAK_Dinesh_Nadal={
+		name="Dinesh Nadal"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Dinesh_Nadal
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	ZAK_Mohan_Nadal={
+		name="Mohan Nadal"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAK_Kirakash_Thogu={
+		name="Kirakash Thogu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Kirakash_Thogu
+				traits = {	political_dancer 	}
+		}
+
+	}
+	ZAK_Siddhanod_Nadal={
+		name="Siddhanod Nadal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Siddhanod_Nadal
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	ZAK_Senthik_Kizhir={
+		name="Senthik Kizhir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Senthik_Kizhir
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	ZAK_Navi_Kuru={
+		name="Navi Kuru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Navi_Kuru
+				traits = {	political_dancer 	}
+		}
+
+	}
+	ZAK_Karthik_Nadal={
+		name="Karthik Nadal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Karthik_Nadal
+				traits = {	polemarch 	}
+		}
+
+	}
+	ZAK_Satish_Pesu={
+		name="Satish Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Satish_Pesu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	ZAK_Kirakash_Kadam={
+		name="Kirakash Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Kirakash_Kadam
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	ZAK_Jaghan_Vazhar={
+		name="Jaghan Vazhar"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Jaghan_Vazhar
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	ZAK_Ajay_Then={
+		name="Ajay Then"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Ajay_Then
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	ZAK_Ganoj_Nool={
+		name="Ganoj Nool"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Ganoj_Nool
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	ZAK_Gandrakash_Nadal={
+		name="Gandrakash Nadal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Gandrakash_Nadal
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	ZAK_Vinod_Thogu={
+		name="Vinod Thogu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Vinod_Thogu
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	ZAK_Ragharishna_Kudran={
+		name="Ragharishna Kudran"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Ragharishna_Kudran
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	ZAK_Kirandrakash_Kadam={
+		name="Kirandrakash Kadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Kirandrakash_Kadam
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	ZAK_Chandrakash_Kizhir={
+		name="Chandrakash Kizhir"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Chandrakash_Kizhir
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	ZAK_Ragharishna_Thogu={
+		name="Ragharishna Thogu"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Ragharishna_Thogu
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	ZAK_Jagharun_Nool={
+		name="Jagharun Nool"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Jagharun_Nool
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	ZAK_Rajiv_Vazhar={
+		name="Rajiv Vazhar"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Rajiv_Vazhar
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	ZAK_Ragadeesh_Kizhir={
+		name="Ragadeesh Kizhir"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Ragadeesh_Kizhir
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	ZAK_Kirandran_Kizhir={
+		name="Kirandran Kizhir"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Kirandran_Kizhir
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	ZAK_Anil_Kizhir={
+		name="Anil Kizhir"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAK_Prem_Kizhir={
+		name="Prem Kizhir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Prem_Kizhir
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	ZAK_Ragharishna_Nadal={
+		name="Ragharishna Nadal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Ragharishna_Nadal
+				traits = {	first_lady 	}
+		}
+
+	}
+	ZAK_Chav_Nadal={
+		name="Chav Nadal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Chav_Nadal
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	ZAK_Ragharthil_Then={
+		name="Ragharthil Then"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Ragharthil_Then
+				traits = {	infirm 	}
+		}
+
+	}
+	ZAK_Vinoj_Pesu={
+		name="Vinoj Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Vinoj_Pesu
+				traits = {	first_lady 	}
+		}
+
+	}
+	ZAK_Ragharthil_Thogu={
+		name="Ragharthil Thogu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAK_Ragharthil_Thogu
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	ZAK_Dinoj_Kuru={
+		name="Dinoj Kuru"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Dinoj_Kuru
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	ZAK_Kumarth_Kadam={
+		name="Kumarth Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Kumarth_Kadam
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	ZAK_Kumar_Kizhir={
+		name="Kumar Kizhir"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Kumar_Kizhir
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	ZAK_Ragharishna_Vazhar={
+		name="Ragharishna Vazhar"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAK_Ragharishna_Vazhar
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	ZAK_Ragharthil_Pesu={
+		name="Ragharthil Pesu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Ragharthil_Pesu
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	ZAK_Bala_Nool={
+		name="Bala Nool"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAK_Bala_Nool
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	ZAK_Ragharthil_Kuru={
+		name="Ragharthil Kuru"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Ragharthil_Kuru
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	ZAK_Jaghan_Nool={
+		name="Jaghan Nool"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAK_Jaghan_Nool
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	ZAK_Prak_Kudran={
+		name="Prak Kudran"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Prak_Kudran
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	ZAK_Siddhanod_Kadam={
+		name="Siddhanod Kadam"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Siddhanod_Kadam
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	ZAK_Prakashna_Kizhir={
+		name="Prakashna Kizhir"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Prakashna_Kizhir
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	ZAK_Kiran_Kudran={
+		name="Kiran Kudran"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Kiran_Kudran
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	ZAK_Chaveepak_Kuru={
+		name="Chaveepak Kuru"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Chaveepak_Kuru
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	ZAK_Prem_Thogu={
+		name="Prem Thogu"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAK_Prem_Thogu
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	ZAK_Mohanesh_Thogu={
+		name="Mohanesh Thogu"
+
+		advisor={
+			slot = theorist
+			idea_token = ZAK_Mohanesh_Thogu
+				traits = {	military_theorist 	}
+		}
+
+	}
+	ZAK_Mohanesh_Pesu={
+		name="Mohanesh Pesu"
+
+		advisor={
+			slot = theorist
+			idea_token = ZAK_Mohanesh_Pesu
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	ZAK_Varthil_Nadal={
+		name="Varthil Nadal"
+
+		advisor={
+			slot = theorist
+			idea_token = ZAK_Varthil_Nadal
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

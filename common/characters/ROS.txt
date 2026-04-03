@@ -1,0 +1,880 @@
+characters = {
+	ROS_Putfi_Suci={
+		name="Putfi Suci"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ROS_Putfi_Pohabah={
+		name="Putfi Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Putfi_Pohabah
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ROS_Suryan_Ratani={
+		name="Suryan Ratani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Suryan_Ratani
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ROS_Ketut_Suci={
+		name="Ketut Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Ketut_Suci
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	ROS_Fajar_Pohabah={
+		name="Fajar Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Fajar_Pohabah
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ROS_Rama_Taragai={
+		name="Rama Taragai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Rama_Taragai
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ROS_Hario_Rimbahayah={
+		name="Hario Rimbahayah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Hario_Rimbahayah
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	ROS_Waya_Ratani={
+		name="Waya Ratani"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Waya_Ratani
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	ROS_Waya_Rimbahayah={
+		name="Waya Rimbahayah"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Waya_Rimbahayah
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	ROS_Wayang_Padik={
+		name="Wayang Padik"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Wayang_Padik
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	ROS_Andi_Padik={
+		name="Andi Padik"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Andi_Padik
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	ROS_Budi_Mudalain={
+		name="Budi Mudalain"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Budi_Mudalain
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	ROS_Ramban_Padik={
+		name="Ramban Padik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Ramban_Padik
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	ROS_Bamban_Ratani={
+		name="Bamban Ratani"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Bamban_Ratani
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	ROS_Lutra_Bung={
+		name="Lutra Bung"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Lutra_Bung
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	ROS_Lutra_Taragai={
+		name="Lutra Taragai"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Lutra_Taragai
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	ROS_Arjuna_Ratani={
+		name="Arjuna Ratani"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Arjuna_Ratani
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	ROS_Agus_Suci={
+		name="Agus Suci"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Agus_Suci
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	ROS_Wayan_Taragai={
+		name="Wayan Taragai"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Wayan_Taragai
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	ROS_Ketutra_Kerjarama={
+		name="Ketutra Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Ketutra_Kerjarama
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	ROS_Rama_Rimbahayah={
+		name="Rama Rimbahayah"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Rama_Rimbahayah
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	ROS_Arjuna_Rimbahayah={
+		name="Arjuna Rimbahayah"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ROS_Bambang_Taragai={
+		name="Bambang Taragai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Bambang_Taragai
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	ROS_Fajario_Pohabah={
+		name="Fajario Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Fajario_Pohabah
+				traits = {	autokrator 	}
+		}
+
+	}
+	ROS_Bamban_Bung={
+		name="Bamban Bung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Bamban_Bung
+				traits = {	basileus 	}
+		}
+
+	}
+	ROS_Agus_Rimbahayah={
+		name="Agus Rimbahayah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Agus_Rimbahayah
+				traits = {	infirm 	}
+		}
+
+	}
+	ROS_Wayang_Pohabah={
+		name="Wayang Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Wayang_Pohabah
+				traits = {	generallissimo 	}
+		}
+
+	}
+	ROS_Lutra_Trahargai={
+		name="Lutra Trahargai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Lutra_Trahargai
+				traits = {	basileus 	}
+		}
+
+	}
+	ROS_Wayang_Mudalain={
+		name="Wayang Mudalain"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Wayang_Mudalain
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	ROS_Fajar_Rimbahayah={
+		name="Fajar Rimbahayah"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Fajar_Rimbahayah
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	ROS_Hario_Suci={
+		name="Hario Suci"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Hario_Suci
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	ROS_Rizal_Padik={
+		name="Rizal Padik"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Rizal_Padik
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	ROS_Rizal_Pohabah={
+		name="Rizal Pohabah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Rizal_Pohabah
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	ROS_Rizal_Ratani={
+		name="Rizal Ratani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Rizal_Ratani
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	ROS_Budi_Kerjarama={
+		name="Budi Kerjarama"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Budi_Kerjarama
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	ROS_Joko_Mudalain={
+		name="Joko Mudalain"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Joko_Mudalain
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	ROS_Putra_Trahargai={
+		name="Putra Trahargai"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Putra_Trahargai
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	ROS_Waya_Kerjarama={
+		name="Waya Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Waya_Kerjarama
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	ROS_Putfi_Mudalain={
+		name="Putfi Mudalain"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Putfi_Mudalain
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	ROS_Arjuna_Padik={
+		name="Arjuna Padik"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Arjuna_Padik
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	ROS_Dewa_Pohabah={
+		name="Dewa Pohabah"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Dewa_Pohabah
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	ROS_Bama_Kerjarama={
+		name="Bama Kerjarama"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Bama_Kerjarama
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	ROS_Putfi_Taragai={
+		name="Putfi Taragai"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ROS_Bamban_Taragai={
+		name="Bamban Taragai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Bamban_Taragai
+				traits = {	infirm 	}
+		}
+
+	}
+	ROS_Surya_Kerjarama={
+		name="Surya Kerjarama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Surya_Kerjarama
+				traits = {	polemarch 	}
+		}
+
+	}
+	ROS_Rambang_Rimbahayah={
+		name="Rambang Rimbahayah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Rambang_Rimbahayah
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	ROS_Bama_Pohabah={
+		name="Bama Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Bama_Pohabah
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	ROS_Suryan_Taragai={
+		name="Suryan Taragai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Suryan_Taragai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	ROS_Putra_Suci={
+		name="Putra Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Putra_Suci
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	ROS_Joko_Bung={
+		name="Joko Bung"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Joko_Bung
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	ROS_Hario_Kerjarama={
+		name="Hario Kerjarama"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Hario_Kerjarama
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	ROS_Budi_Padik={
+		name="Budi Padik"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Budi_Padik
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	ROS_Dewa_Suci={
+		name="Dewa Suci"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Dewa_Suci
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	ROS_Fajario_Mudalain={
+		name="Fajario Mudalain"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Fajario_Mudalain
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	ROS_Mario_Trahargai={
+		name="Mario Trahargai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Mario_Trahargai
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	ROS_Wayang_Rimbahayah={
+		name="Wayang Rimbahayah"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Wayang_Rimbahayah
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	ROS_Fajario_Kerjarama={
+		name="Fajario Kerjarama"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Fajario_Kerjarama
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	ROS_Rama_Ratani={
+		name="Rama Ratani"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Rama_Ratani
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	ROS_Ketutra_Suci={
+		name="Ketutra Suci"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Ketutra_Suci
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	ROS_Rambang_Trahargai={
+		name="Rambang Trahargai"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Rambang_Trahargai
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	ROS_Dewa_Rimbahayah={
+		name="Dewa Rimbahayah"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Dewa_Rimbahayah
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	ROS_Surya_Ratani={
+		name="Surya Ratani"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Surya_Ratani
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	ROS_Bamban_Pohabah={
+		name="Bamban Pohabah"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Bamban_Pohabah
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	ROS_Arjuna_Trahargai={
+		name="Arjuna Trahargai"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ROS_Rambang_Suci={
+		name="Rambang Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Rambang_Suci
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	ROS_Mari_Pohabah={
+		name="Mari Pohabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Mari_Pohabah
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	ROS_Rambang_Padik={
+		name="Rambang Padik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Rambang_Padik
+				traits = {	infirm 	}
+		}
+
+	}
+	ROS_Sakti_Taragai={
+		name="Sakti Taragai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Sakti_Taragai
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	ROS_Rama_Mudalain={
+		name="Rama Mudalain"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Rama_Mudalain
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	ROS_Putra_Bung={
+		name="Putra Bung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ROS_Putra_Bung
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	ROS_Sakti_Rimbahayah={
+		name="Sakti Rimbahayah"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Sakti_Rimbahayah
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	ROS_Arjuna_Taragai={
+		name="Arjuna Taragai"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Arjuna_Taragai
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	ROS_Bambang_Bung={
+		name="Bambang Bung"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Bambang_Bung
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	ROS_Putfi_Rimbahayah={
+		name="Putfi Rimbahayah"
+
+		advisor={
+			slot = army_chief
+			idea_token = ROS_Putfi_Rimbahayah
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	ROS_Mari_Trahargai={
+		name="Mari Trahargai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Mari_Trahargai
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	ROS_Wayang_Kerjarama={
+		name="Wayang Kerjarama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ROS_Wayang_Kerjarama
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	ROS_Mari_Bung={
+		name="Mari Bung"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Mari_Bung
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	ROS_Budi_Suci={
+		name="Budi Suci"
+
+		advisor={
+			slot = air_chief
+			idea_token = ROS_Budi_Suci
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	ROS_Ketutra_Rimbahayah={
+		name="Ketutra Rimbahayah"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Ketutra_Rimbahayah
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	ROS_Bamban_Padik={
+		name="Bamban Padik"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Bamban_Padik
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	ROS_Bama_Suci={
+		name="Bama Suci"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Bama_Suci
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	ROS_Hario_Mudalain={
+		name="Hario Mudalain"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Hario_Mudalain
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	ROS_Ketutra_Trahargai={
+		name="Ketutra Trahargai"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Ketutra_Trahargai
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	ROS_Wayan_Suci={
+		name="Wayan Suci"
+
+		advisor={
+			slot = high_command
+			idea_token = ROS_Wayan_Suci
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	ROS_Joko_Taragai={
+		name="Joko Taragai"
+
+		advisor={
+			slot = theorist
+			idea_token = ROS_Joko_Taragai
+				traits = {	military_theorist 	}
+		}
+
+	}
+	ROS_Agus_Taragai={
+		name="Agus Taragai"
+
+		advisor={
+			slot = theorist
+			idea_token = ROS_Agus_Taragai
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	ROS_Rambang_Taragai={
+		name="Rambang Taragai"
+
+		advisor={
+			slot = theorist
+			idea_token = ROS_Rambang_Taragai
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
