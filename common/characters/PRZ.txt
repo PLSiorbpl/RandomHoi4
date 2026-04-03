@@ -1,0 +1,880 @@
+characters = {
+	PRZ_Nielm_Wolk={
+		name="Nielm Wolk"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PRZ_Kars_Stele={
+		name="Kars Stele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Kars_Stele
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PRZ_Larl_Beit={
+		name="Larl Beit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Larl_Beit
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	PRZ_Georg_Goteung={
+		name="Georg Goteung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Georg_Goteung
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	PRZ_Kasparan_Hilfe={
+		name="Kasparan Hilfe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Kasparan_Hilfe
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PRZ_Arne_Stele={
+		name="Arne Stele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Arne_Stele
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PRZ_Wilhelm_Beild={
+		name="Wilhelm Beild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Wilhelm_Beild
+				traits = {	headstrong 	}
+		}
+
+	}
+	PRZ_Eirk_Goteung={
+		name="Eirk Goteung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Eirk_Goteung
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PRZ_Sigurd_Beit={
+		name="Sigurd Beit"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Sigurd_Beit
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	PRZ_Ulrich_Beild={
+		name="Ulrich Beild"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Ulrich_Beild
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PRZ_Ericharan_Koen={
+		name="Ericharan Koen"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Ericharan_Koen
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	PRZ_Kasparald_Gerkelle={
+		name="Kasparald Gerkelle"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Kasparald_Gerkelle
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PRZ_Hans_Beild={
+		name="Hans Beild"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Hans_Beild
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PRZ_Rolfren_Beit={
+		name="Rolfren Beit"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Rolfren_Beit
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	PRZ_Sorn_Wille={
+		name="Sorn Wille"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Sorn_Wille
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	PRZ_Karl_Koen={
+		name="Karl Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Karl_Koen
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	PRZ_Oskaranz_Beild={
+		name="Oskaranz Beild"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Oskaranz_Beild
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	PRZ_Kaspars_Goteung={
+		name="Kaspars Goteung"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Kaspars_Goteung
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PRZ_Rich_Wolk={
+		name="Rich Wolk"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Rich_Wolk
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	PRZ_Rolfren_Gerkelle={
+		name="Rolfren Gerkelle"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Rolfren_Gerkelle
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	PRZ_Thias_Gerkelle={
+		name="Thias Gerkelle"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Thias_Gerkelle
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	PRZ_Kasparald_Stele={
+		name="Kasparald Stele"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PRZ_Niels_Koen={
+		name="Niels Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Niels_Koen
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PRZ_Reinrich_Koen={
+		name="Reinrich Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Reinrich_Koen
+				traits = {	warmonger 	}
+		}
+
+	}
+	PRZ_Hakon_Wille={
+		name="Hakon Wille"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Hakon_Wille
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PRZ_Hens_Hilfe={
+		name="Hens Hilfe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Hens_Hilfe
+				traits = {	autokrator 	}
+		}
+
+	}
+	PRZ_Anselmut_Beit={
+		name="Anselmut Beit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Anselmut_Beit
+				traits = {	polemarch 	}
+		}
+
+	}
+	PRZ_Jenrik_Stele={
+		name="Jenrik Stele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Jenrik_Stele
+				traits = {	generallissimo 	}
+		}
+
+	}
+	PRZ_Georenselm_Gerkelle={
+		name="Georenselm Gerkelle"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Georenselm_Gerkelle
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	PRZ_Bjored_Hilfe={
+		name="Bjored Hilfe"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Bjored_Hilfe
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	PRZ_Thias_Stele={
+		name="Thias Stele"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Thias_Stele
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PRZ_Hend_Gerkelle={
+		name="Hend Gerkelle"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Hend_Gerkelle
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	PRZ_Leinholfred_Beit={
+		name="Leinholfred Beit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Leinholfred_Beit
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	PRZ_Ander_Wille={
+		name="Ander Wille"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Ander_Wille
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PRZ_Emillem_Wille={
+		name="Emillem Wille"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Emillem_Wille
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	PRZ_Rolfren_Hilfe={
+		name="Rolfren Hilfe"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Rolfren_Hilfe
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PRZ_Georn_Beild={
+		name="Georn Beild"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Georn_Beild
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	PRZ_Leinholfred_Koen={
+		name="Leinholfred Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Leinholfred_Koen
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	PRZ_Nielm_Koen={
+		name="Nielm Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Nielm_Koen
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	PRZ_Otthiaspar_Wille={
+		name="Otthiaspar Wille"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Otthiaspar_Wille
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	PRZ_Arne_Beild={
+		name="Arne Beild"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Arne_Beild
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	PRZ_Oskaranz_Koen={
+		name="Oskaranz Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Oskaranz_Koen
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	PRZ_Emillem_Stele={
+		name="Emillem Stele"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PRZ_Heif_Gerkelle={
+		name="Heif Gerkelle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Heif_Gerkelle
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PRZ_Ulrik_Wolk={
+		name="Ulrik Wolk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Ulrik_Wolk
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PRZ_Rolfren_Wolk={
+		name="Rolfren Wolk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Rolfren_Wolk
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PRZ_Karl_Stele={
+		name="Karl Stele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Karl_Stele
+				traits = {	infirm 	}
+		}
+
+	}
+	PRZ_Sten_Wille={
+		name="Sten Wille"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Sten_Wille
+				traits = {	infirm 	}
+		}
+
+	}
+	PRZ_Rich_Goteung={
+		name="Rich Goteung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Rich_Goteung
+				traits = {	infirm 	}
+		}
+
+	}
+	PRZ_Knut_Beild={
+		name="Knut Beild"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Knut_Beild
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PRZ_Eirk_Beit={
+		name="Eirk Beit"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Eirk_Beit
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PRZ_Janz_Gerkelle={
+		name="Janz Gerkelle"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Janz_Gerkelle
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PRZ_Hans_Beit={
+		name="Hans Beit"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Hans_Beit
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	PRZ_Arne_Gerkelle={
+		name="Arne Gerkelle"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Arne_Gerkelle
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PRZ_Ericharan_Wolk={
+		name="Ericharan Wolk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Ericharan_Wolk
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PRZ_Eirk_Stele={
+		name="Eirk Stele"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Eirk_Stele
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PRZ_Hakon_Hilfe={
+		name="Hakon Hilfe"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Hakon_Hilfe
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PRZ_Rolf_Wolk={
+		name="Rolf Wolk"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Rolf_Wolk
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	PRZ_Niels_Wille={
+		name="Niels Wille"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Niels_Wille
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	PRZ_Sorn_Goteung={
+		name="Sorn Goteung"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Sorn_Goteung
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	PRZ_Jenselm_Stele={
+		name="Jenselm Stele"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Jenselm_Stele
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	PRZ_Kasparald_Goteung={
+		name="Kasparald Goteung"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Kasparald_Goteung
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	PRZ_Nielmut_Wolk={
+		name="Nielmut Wolk"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Nielmut_Wolk
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	PRZ_Lars_Koen={
+		name="Lars Koen"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PRZ_Hans_Stele={
+		name="Hans Stele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Hans_Stele
+				traits = {	rearmer 	}
+		}
+
+	}
+	PRZ_Jans_Hilfe={
+		name="Jans Hilfe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Jans_Hilfe
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	PRZ_Oskaranz_Goteung={
+		name="Oskaranz Goteung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Oskaranz_Goteung
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	PRZ_Emillem_Beild={
+		name="Emillem Beild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Emillem_Beild
+				traits = {	infirm 	}
+		}
+
+	}
+	PRZ_Hend_Koen={
+		name="Hend Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Hend_Koen
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	PRZ_Jenselmut_Hilfe={
+		name="Jenselmut Hilfe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PRZ_Jenselmut_Hilfe
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	PRZ_Ericharan_Goteung={
+		name="Ericharan Goteung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Ericharan_Goteung
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	PRZ_Anselmut_Wolk={
+		name="Anselmut Wolk"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Anselmut_Wolk
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	PRZ_Reinrich_Goteung={
+		name="Reinrich Goteung"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Reinrich_Goteung
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	PRZ_Kasparald_Koen={
+		name="Kasparald Koen"
+
+		advisor={
+			slot = army_chief
+			idea_token = PRZ_Kasparald_Koen
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PRZ_Kaspar_Stele={
+		name="Kaspar Stele"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Kaspar_Stele
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	PRZ_Kasparan_Beild={
+		name="Kasparan Beild"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PRZ_Kasparan_Beild
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PRZ_Oskaranz_Gerkelle={
+		name="Oskaranz Gerkelle"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Oskaranz_Gerkelle
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PRZ_Helm_Gerkelle={
+		name="Helm Gerkelle"
+
+		advisor={
+			slot = air_chief
+			idea_token = PRZ_Helm_Gerkelle
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	PRZ_Lard_Wolk={
+		name="Lard Wolk"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Lard_Wolk
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	PRZ_Jenrichans_Wille={
+		name="Jenrichans Wille"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Jenrichans_Wille
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	PRZ_Sorg_Wille={
+		name="Sorg Wille"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Sorg_Wille
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	PRZ_Oskarl_Hilfe={
+		name="Oskarl Hilfe"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Oskarl_Hilfe
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PRZ_Ander_Beit={
+		name="Ander Beit"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Ander_Beit
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	PRZ_Eirk_Wolk={
+		name="Eirk Wolk"
+
+		advisor={
+			slot = high_command
+			idea_token = PRZ_Eirk_Wolk
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	PRZ_Reinrik_Gerkelle={
+		name="Reinrik Gerkelle"
+
+		advisor={
+			slot = theorist
+			idea_token = PRZ_Reinrik_Gerkelle
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PRZ_Reinholf_Beild={
+		name="Reinholf Beild"
+
+		advisor={
+			slot = theorist
+			idea_token = PRZ_Reinholf_Beild
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PRZ_Eirk_Koen={
+		name="Eirk Koen"
+
+		advisor={
+			slot = theorist
+			idea_token = PRZ_Eirk_Koen
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
