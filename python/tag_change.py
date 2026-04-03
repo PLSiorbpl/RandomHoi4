@@ -59,7 +59,7 @@ if not os.path.exists(history_countries):
     print(f"Nie ma ścieżki: {history_countries}")
     exit(0)
 
-folder = "history/states"
+folder_states = "history/states"
 if not os.path.exists(folder):
     print(f"Nie ma ścieżki: {folder}")
     exit(0)
@@ -234,13 +234,13 @@ for lan in laguages:
 
 # history/states
 pattern = re.compile(rf"(?<=\=\s){old_tag}\b")
-for state in os.listdir(folder):
+for state in os.listdir(folder_states):
     if not state.endswith(".txt"):
         continue
     if not os.path.isfile(path):
         continue
 
-    path = os.path.join(folder, state)
+    path = os.path.join(folder_states, state)
 
     with open(path, "r", encoding="utf-8") as f:
         text = f.read()
@@ -249,4 +249,4 @@ for state in os.listdir(folder):
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(text)
-print(f"Zakończono: {folder}")
+print(f"Zakończono: {folder_states}")
