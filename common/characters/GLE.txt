@@ -1,0 +1,880 @@
+characters = {
+	GLE_Nimad_Baryaman={
+		name="Nimad Baryaman"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLE_Mehza_Sazm={
+		name="Mehza Sazm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Mehza_Sazm
+				traits = {	humble 	}
+		}
+
+	}
+	GLE_Navehza_Shoghabbati={
+		name="Navehza Shoghabbati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Navehza_Shoghabbati
+				traits = {	headstrong 	}
+		}
+
+	}
+	GLE_Parhamad_Baryaman={
+		name="Parhamad Baryaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Parhamad_Baryaman
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GLE_Ahman_Shiroofan={
+		name="Ahman Shiroofan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Ahman_Shiroofan
+				traits = {	headstrong 	}
+		}
+
+	}
+	GLE_Ebrahim_Gamalani={
+		name="Ebrahim Gamalani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Ebrahim_Gamalani
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GLE_Kaveh_Shiroofan={
+		name="Kaveh Shiroofan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Kaveh_Shiroofan
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	GLE_Peyman_Sepid={
+		name="Peyman Sepid"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Peyman_Sepid
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GLE_Reza_Rooz={
+		name="Reza Rooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Reza_Rooz
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	GLE_Nima_Sazm={
+		name="Nima Sazm"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Nima_Sazm
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GLE_Peyma_Payamidard={
+		name="Peyma Payamidard"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Peyma_Payamidard
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	GLE_Saeed_Sazm={
+		name="Saeed Sazm"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Saeed_Sazm
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	GLE_Ahmad_Payamidard={
+		name="Ahmad Payamidard"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Ahmad_Payamidard
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	GLE_Amin_Payamidard={
+		name="Amin Payamidard"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Amin_Payamidard
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GLE_Mossan_Rooz={
+		name="Mossan Rooz"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Mossan_Rooz
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	GLE_Kaveh_Gamalani={
+		name="Kaveh Gamalani"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Kaveh_Gamalani
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	GLE_Kavehdi_Sepid={
+		name="Kavehdi Sepid"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Kavehdi_Sepid
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	GLE_Ramir_Sazm={
+		name="Ramir Sazm"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Ramir_Sazm
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	GLE_Saeed_Shoghabbati={
+		name="Saeed Shoghabbati"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Saeed_Shoghabbati
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	GLE_Arma_Sepid={
+		name="Arma Sepid"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Arma_Sepid
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	GLE_Hostafa_Baryaman={
+		name="Hostafa Baryaman"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Hostafa_Baryaman
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	GLE_Omin_Shoghabbati={
+		name="Omin Shoghabbati"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLE_Kavid_Sazm={
+		name="Kavid Sazm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Kavid_Sazm
+				traits = {	autokrator 	}
+		}
+
+	}
+	GLE_Milad_Shoghabbati={
+		name="Milad Shoghabbati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Milad_Shoghabbati
+				traits = {	infirm 	}
+		}
+
+	}
+	GLE_Kaveh_Rooz={
+		name="Kaveh Rooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Kaveh_Rooz
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	GLE_Peyman_Shoghabbati={
+		name="Peyman Shoghabbati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Peyman_Shoghabbati
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	GLE_Ahman_Giah={
+		name="Ahman Giah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Ahman_Giah
+				traits = {	basileus 	}
+		}
+
+	}
+	GLE_Ramir_Gamalani={
+		name="Ramir Gamalani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Ramir_Gamalani
+				traits = {	basileus 	}
+		}
+
+	}
+	GLE_Kavehdi_Gamalani={
+		name="Kavehdi Gamalani"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Kavehdi_Gamalani
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	GLE_Majid_Sazm={
+		name="Majid Sazm"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Majid_Sazm
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	GLE_Omid_Rooz={
+		name="Omid Rooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Omid_Rooz
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GLE_Hassein_Rooz={
+		name="Hassein Rooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Hassein_Rooz
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GLE_Omir_Shoghabbati={
+		name="Omir Shoghabbati"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Omir_Shoghabbati
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	GLE_Arma_Gamrang={
+		name="Arma Gamrang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Arma_Gamrang
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	GLE_Shamir_Shoghabbati={
+		name="Shamir Shoghabbati"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Shamir_Shoghabbati
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	GLE_Shahim_Sepid={
+		name="Shahim Sepid"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Shahim_Sepid
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	GLE_Kavehdi_Rooz={
+		name="Kavehdi Rooz"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Kavehdi_Rooz
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	GLE_Reza_Sepid={
+		name="Reza Sepid"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Reza_Sepid
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	GLE_Reza_Giah={
+		name="Reza Giah"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Reza_Giah
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	GLE_Mossan_Payamidard={
+		name="Mossan Payamidard"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Mossan_Payamidard
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	GLE_Parhad_Payamidard={
+		name="Parhad Payamidard"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Parhad_Payamidard
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	GLE_Nimad_Rooz={
+		name="Nimad Rooz"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Nimad_Rooz
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	GLE_Arman_Payamidard={
+		name="Arman Payamidard"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLE_Milad_Sazm={
+		name="Milad Sazm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Milad_Sazm
+				traits = {	political_dancer 	}
+		}
+
+	}
+	GLE_Navid_Gamrang={
+		name="Navid Gamrang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Navid_Gamrang
+				traits = {	polemarch 	}
+		}
+
+	}
+	GLE_Shahim_Giah={
+		name="Shahim Giah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Shahim_Giah
+				traits = {	polemarch 	}
+		}
+
+	}
+	GLE_Milad_Sepid={
+		name="Milad Sepid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Milad_Sepid
+				traits = {	infirm 	}
+		}
+
+	}
+	GLE_Navehdi_Gamrang={
+		name="Navehdi Gamrang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Navehdi_Gamrang
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	GLE_Arma_Giah={
+		name="Arma Giah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Arma_Giah
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GLE_Ebrahramin_Gamalani={
+		name="Ebrahramin Gamalani"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Ebrahramin_Gamalani
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	GLE_Farham_Baryaman={
+		name="Farham Baryaman"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Farham_Baryaman
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GLE_Peymad_Shiroofan={
+		name="Peymad Shiroofan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Peymad_Shiroofan
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	GLE_Nimad_Giah={
+		name="Nimad Giah"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Nimad_Giah
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	GLE_Nima_Giah={
+		name="Nima Giah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Nima_Giah
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	GLE_Majid_Baryaman={
+		name="Majid Baryaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Majid_Baryaman
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	GLE_Shamir_Sazm={
+		name="Shamir Sazm"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Shamir_Sazm
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	GLE_Sham_Sazm={
+		name="Sham Sazm"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Sham_Sazm
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	GLE_Peymad_Giah={
+		name="Peymad Giah"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Peymad_Giah
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	GLE_Shahiman_Sazm={
+		name="Shahiman Sazm"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Shahiman_Sazm
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	GLE_Rezad_Shiroofan={
+		name="Rezad Shiroofan"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Rezad_Shiroofan
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	GLE_Kavehdi_Sazm={
+		name="Kavehdi Sazm"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Kavehdi_Sazm
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	GLE_Navehza_Shiroofan={
+		name="Navehza Shiroofan"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Navehza_Shiroofan
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	GLE_Reza_Baryaman={
+		name="Reza Baryaman"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Reza_Baryaman
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	GLE_Ahman_Gamrang={
+		name="Ahman Gamrang"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLE_Nimad_Shoghabbati={
+		name="Nimad Shoghabbati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Nimad_Shoghabbati
+				traits = {	first_lady 	}
+		}
+
+	}
+	GLE_Behdi_Sepid={
+		name="Behdi Sepid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Behdi_Sepid
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	GLE_Ahmad_Shiroofan={
+		name="Ahmad Shiroofan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Ahmad_Shiroofan
+				traits = {	infirm 	}
+		}
+
+	}
+	GLE_Shamir_Sepid={
+		name="Shamir Sepid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Shamir_Sepid
+				traits = {	first_lady 	}
+		}
+
+	}
+	GLE_Ebrahramin_Shoghabbati={
+		name="Ebrahramin Shoghabbati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Ebrahramin_Shoghabbati
+				traits = {	the_banker 	}
+		}
+
+	}
+	GLE_Amin_Shoghabbati={
+		name="Amin Shoghabbati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GLE_Amin_Shoghabbati
+				traits = {	rearmer 	}
+		}
+
+	}
+	GLE_Hassan_Gamalani={
+		name="Hassan Gamalani"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Hassan_Gamalani
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GLE_Omid_Sepid={
+		name="Omid Sepid"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Omid_Sepid
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	GLE_Navehza_Giah={
+		name="Navehza Giah"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Navehza_Giah
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GLE_Kavid_Gamalani={
+		name="Kavid Gamalani"
+
+		advisor={
+			slot = army_chief
+			idea_token = GLE_Kavid_Gamalani
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	GLE_Mehzad_Sazm={
+		name="Mehzad Sazm"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Mehzad_Sazm
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	GLE_Ebrahim_Baryaman={
+		name="Ebrahim Baryaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GLE_Ebrahim_Baryaman
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	GLE_Ramid_Baryaman={
+		name="Ramid Baryaman"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Ramid_Baryaman
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	GLE_Behdi_Shiroofan={
+		name="Behdi Shiroofan"
+
+		advisor={
+			slot = air_chief
+			idea_token = GLE_Behdi_Shiroofan
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	GLE_Navehza_Payamidard={
+		name="Navehza Payamidard"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Navehza_Payamidard
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	GLE_Ramid_Rooz={
+		name="Ramid Rooz"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Ramid_Rooz
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	GLE_Hostafa_Giah={
+		name="Hostafa Giah"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Hostafa_Giah
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	GLE_Arman_Gamrang={
+		name="Arman Gamrang"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Arman_Gamrang
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	GLE_Armal_Gamrang={
+		name="Armal Gamrang"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Armal_Gamrang
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	GLE_Arman_Baryaman={
+		name="Arman Baryaman"
+
+		advisor={
+			slot = high_command
+			idea_token = GLE_Arman_Baryaman
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	GLE_Behdi_Baryaman={
+		name="Behdi Baryaman"
+
+		advisor={
+			slot = theorist
+			idea_token = GLE_Behdi_Baryaman
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GLE_Armal_Sazm={
+		name="Armal Sazm"
+
+		advisor={
+			slot = theorist
+			idea_token = GLE_Armal_Sazm
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GLE_Mehzad_Rooz={
+		name="Mehzad Rooz"
+
+		advisor={
+			slot = theorist
+			idea_token = GLE_Mehzad_Rooz
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,880 @@
+characters = {
+	CZU_Rama_Kuil={
+		name="Rama Kuil"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CZU_Bama_Tulajaramata={
+		name="Bama Tulajaramata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Bama_Tulajaramata
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CZU_Bambang_Mimpi={
+		name="Bambang Mimpi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Bambang_Mimpi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CZU_Ketutra_Trak={
+		name="Ketutra Trak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Ketutra_Trak
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	CZU_Suryang_Panak={
+		name="Suryang Panak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Suryang_Panak
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CZU_Putra_Panak={
+		name="Putra Panak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Putra_Panak
+				traits = {	headstrong 	}
+		}
+
+	}
+	CZU_Rizal_Sensilan={
+		name="Rizal Sensilan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Rizal_Sensilan
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	CZU_Arjuna_Buahayaremu={
+		name="Arjuna Buahayaremu"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Arjuna_Buahayaremu
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CZU_Budi_Mimpi={
+		name="Budi Mimpi"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Budi_Mimpi
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CZU_Surya_Bayarempal={
+		name="Surya Bayarempal"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Surya_Bayarempal
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CZU_Sakti_Trak={
+		name="Sakti Trak"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Sakti_Trak
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CZU_Rama_Trak={
+		name="Rama Trak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Rama_Trak
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	CZU_Ketutfi_Pasai={
+		name="Ketutfi Pasai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Ketutfi_Pasai
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	CZU_Hario_Trak={
+		name="Hario Trak"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Hario_Trak
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CZU_Joko_Mimpi={
+		name="Joko Mimpi"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Joko_Mimpi
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	CZU_Wayang_Panak={
+		name="Wayang Panak"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Wayang_Panak
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CZU_Budi_Sensilan={
+		name="Budi Sensilan"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Budi_Sensilan
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	CZU_Rizal_Kuil={
+		name="Rizal Kuil"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Rizal_Kuil
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	CZU_Lutfi_Tulajaramata={
+		name="Lutfi Tulajaramata"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Lutfi_Tulajaramata
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	CZU_Hari_Trak={
+		name="Hari Trak"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Hari_Trak
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	CZU_Lutra_Trak={
+		name="Lutra Trak"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Lutra_Trak
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	CZU_Surya_Pasai={
+		name="Surya Pasai"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CZU_Suryang_Bayarempal={
+		name="Suryang Bayarempal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Suryang_Bayarempal
+				traits = {	warmonger 	}
+		}
+
+	}
+	CZU_Rambang_Pasai={
+		name="Rambang Pasai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Rambang_Pasai
+				traits = {	polemarch 	}
+		}
+
+	}
+	CZU_Wayang_Kerjat={
+		name="Wayang Kerjat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Wayang_Kerjat
+				traits = {	warmonger 	}
+		}
+
+	}
+	CZU_Bamban_Kuil={
+		name="Bamban Kuil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Bamban_Kuil
+				traits = {	autokrator 	}
+		}
+
+	}
+	CZU_Suryan_Pasai={
+		name="Suryan Pasai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Suryan_Pasai
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	CZU_Wayan_Sensilan={
+		name="Wayan Sensilan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Wayan_Sensilan
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	CZU_Mario_Tulajaramata={
+		name="Mario Tulajaramata"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Mario_Tulajaramata
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	CZU_Bama_Sensilan={
+		name="Bama Sensilan"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Bama_Sensilan
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CZU_Arjuna_Trak={
+		name="Arjuna Trak"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Arjuna_Trak
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CZU_Sakti_Kerjat={
+		name="Sakti Kerjat"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Sakti_Kerjat
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CZU_Mario_Trak={
+		name="Mario Trak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Mario_Trak
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	CZU_Dewa_Mimpi={
+		name="Dewa Mimpi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Dewa_Mimpi
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	CZU_Arjuna_Pasai={
+		name="Arjuna Pasai"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Arjuna_Pasai
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	CZU_Lutra_Kerjat={
+		name="Lutra Kerjat"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Lutra_Kerjat
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	CZU_Suryan_Mimpi={
+		name="Suryan Mimpi"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Suryan_Mimpi
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	CZU_Mari_Sensilan={
+		name="Mari Sensilan"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Mari_Sensilan
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	CZU_Rama_Kerjat={
+		name="Rama Kerjat"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Rama_Kerjat
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CZU_Hari_Bayarempal={
+		name="Hari Bayarempal"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Hari_Bayarempal
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	CZU_Fajario_Buahayaremu={
+		name="Fajario Buahayaremu"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Fajario_Buahayaremu
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	CZU_Budi_Bayarempal={
+		name="Budi Bayarempal"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Budi_Bayarempal
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	CZU_Bambang_Trak={
+		name="Bambang Trak"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CZU_Bambang_Bayarempal={
+		name="Bambang Bayarempal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Bambang_Bayarempal
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	CZU_Sakti_Tulajaramata={
+		name="Sakti Tulajaramata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Sakti_Tulajaramata
+				traits = {	polemarch 	}
+		}
+
+	}
+	CZU_Andi_Sensilan={
+		name="Andi Sensilan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Andi_Sensilan
+				traits = {	political_dancer 	}
+		}
+
+	}
+	CZU_Suryang_Pasai={
+		name="Suryang Pasai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Suryang_Pasai
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CZU_Wayang_Kuil={
+		name="Wayang Kuil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Wayang_Kuil
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CZU_Wayang_Trak={
+		name="Wayang Trak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Wayang_Trak
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	CZU_Fajario_Mimpi={
+		name="Fajario Mimpi"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Fajario_Mimpi
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	CZU_Wayan_Kerjat={
+		name="Wayan Kerjat"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Wayan_Kerjat
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	CZU_Arjuna_Bayarempal={
+		name="Arjuna Bayarempal"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Arjuna_Bayarempal
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	CZU_Bamban_Sensilan={
+		name="Bamban Sensilan"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Bamban_Sensilan
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	CZU_Rambang_Tulajaramata={
+		name="Rambang Tulajaramata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Rambang_Tulajaramata
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	CZU_Putra_Kuil={
+		name="Putra Kuil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Putra_Kuil
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CZU_Waya_Mimpi={
+		name="Waya Mimpi"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Waya_Mimpi
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	CZU_Suryan_Tulajaramata={
+		name="Suryan Tulajaramata"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Suryan_Tulajaramata
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	CZU_Putra_Tulajaramata={
+		name="Putra Tulajaramata"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Putra_Tulajaramata
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	CZU_Dewa_Tulajaramata={
+		name="Dewa Tulajaramata"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Dewa_Tulajaramata
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	CZU_Hario_Sensilan={
+		name="Hario Sensilan"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Hario_Sensilan
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	CZU_Fajar_Pasai={
+		name="Fajar Pasai"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Fajar_Pasai
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	CZU_Fajar_Trak={
+		name="Fajar Trak"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Fajar_Trak
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	CZU_Waya_Pasai={
+		name="Waya Pasai"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Waya_Pasai
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	CZU_Bambang_Kerjat={
+		name="Bambang Kerjat"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CZU_Rama_Buahayaremu={
+		name="Rama Buahayaremu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Rama_Buahayaremu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CZU_Waya_Tulajaramata={
+		name="Waya Tulajaramata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Waya_Tulajaramata
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CZU_Lutra_Panak={
+		name="Lutra Panak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Lutra_Panak
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CZU_Fajario_Kuil={
+		name="Fajario Kuil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Fajario_Kuil
+				traits = {	rearmer 	}
+		}
+
+	}
+	CZU_Putra_Buahayaremu={
+		name="Putra Buahayaremu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Putra_Buahayaremu
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CZU_Lutra_Buahayaremu={
+		name="Lutra Buahayaremu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CZU_Lutra_Buahayaremu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	CZU_Joko_Bayarempal={
+		name="Joko Bayarempal"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Joko_Bayarempal
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CZU_Ketutfi_Sensilan={
+		name="Ketutfi Sensilan"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Ketutfi_Sensilan
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	CZU_Arjuna_Mimpi={
+		name="Arjuna Mimpi"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Arjuna_Mimpi
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	CZU_Fajario_Sensilan={
+		name="Fajario Sensilan"
+
+		advisor={
+			slot = army_chief
+			idea_token = CZU_Fajario_Sensilan
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	CZU_Agus_Panak={
+		name="Agus Panak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Agus_Panak
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CZU_Joko_Sensilan={
+		name="Joko Sensilan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CZU_Joko_Sensilan
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	CZU_Rama_Panak={
+		name="Rama Panak"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Rama_Panak
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	CZU_Suryan_Kerjat={
+		name="Suryan Kerjat"
+
+		advisor={
+			slot = air_chief
+			idea_token = CZU_Suryan_Kerjat
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	CZU_Lutra_Sensilan={
+		name="Lutra Sensilan"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Lutra_Sensilan
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	CZU_Wayan_Mimpi={
+		name="Wayan Mimpi"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Wayan_Mimpi
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	CZU_Ketutra_Kerjat={
+		name="Ketutra Kerjat"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Ketutra_Kerjat
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	CZU_Suryan_Bayarempal={
+		name="Suryan Bayarempal"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Suryan_Bayarempal
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	CZU_Rambang_Bayarempal={
+		name="Rambang Bayarempal"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Rambang_Bayarempal
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	CZU_Wayan_Tulajaramata={
+		name="Wayan Tulajaramata"
+
+		advisor={
+			slot = high_command
+			idea_token = CZU_Wayan_Tulajaramata
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	CZU_Surya_Buahayaremu={
+		name="Surya Buahayaremu"
+
+		advisor={
+			slot = theorist
+			idea_token = CZU_Surya_Buahayaremu
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CZU_Lutra_Kuil={
+		name="Lutra Kuil"
+
+		advisor={
+			slot = theorist
+			idea_token = CZU_Lutra_Kuil
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CZU_Mario_Mimpi={
+		name="Mario Mimpi"
+
+		advisor={
+			slot = theorist
+			idea_token = CZU_Mario_Mimpi
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
