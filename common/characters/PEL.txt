@@ -1,0 +1,880 @@
+characters = {
+	PEL_Liall_Ceach={
+		name="Liall Ceach"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PEL_Hugh_Aite={
+		name="Hugh Aite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Hugh_Aite
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PEL_Quinn_Bais={
+		name="Quinn Bais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Quinn_Bais
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PEL_Ciaraig_Guth={
+		name="Ciaraig Guth"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Ciaraig_Guth
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	PEL_Ciall_Ceach={
+		name="Ciall Ceach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Ciall_Ceach
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PEL_Braig_Ceach={
+		name="Braig Ceach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Braig_Ceach
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PEL_Declan_Cill={
+		name="Declan Cill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Declan_Cill
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PEL_Niall_Aite={
+		name="Niall Aite"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Niall_Aite
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PEL_Iwan_Ceach={
+		name="Iwan Ceach"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Iwan_Ceach
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PEL_Mall_Bais={
+		name="Mall Bais"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Mall_Bais
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PEL_Seam_Faidhai={
+		name="Seam Faidhai"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Seam_Faidhai
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	PEL_Taran_Faidhai={
+		name="Taran Faidhai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Taran_Faidhai
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PEL_Keiraig_Cill={
+		name="Keiraig Cill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Keiraig_Cill
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	PEL_Padraig_Geal={
+		name="Padraig Geal"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Padraig_Geal
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	PEL_Seamus_Bais={
+		name="Seamus Bais"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Seamus_Bais
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PEL_Braig_Cill={
+		name="Braig Cill"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Braig_Cill
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	PEL_Owen_Coile={
+		name="Owen Coile"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Owen_Coile
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	PEL_Iwan_Coile={
+		name="Iwan Coile"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Iwan_Coile
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	PEL_Ciareth_Faidhai={
+		name="Ciareth Faidhai"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Ciareth_Faidhai
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	PEL_Seamus_Ceach={
+		name="Seamus Ceach"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Seamus_Ceach
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	PEL_Aidan_Guth={
+		name="Aidan Guth"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Aidan_Guth
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	PEL_Hugh_Coile={
+		name="Hugh Coile"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PEL_Padraig_Coile={
+		name="Padraig Coile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Padraig_Coile
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PEL_Quinn_Fonn={
+		name="Quinn Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Quinn_Fonn
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	PEL_Garan_Coile={
+		name="Garan Coile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Garan_Coile
+				traits = {	generallissimo 	}
+		}
+
+	}
+	PEL_Seam_Croithasam={
+		name="Seam Croithasam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Seam_Croithasam
+				traits = {	warmonger 	}
+		}
+
+	}
+	PEL_Gareth_Croithasam={
+		name="Gareth Croithasam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Gareth_Croithasam
+				traits = {	infirm 	}
+		}
+
+	}
+	PEL_Declan_Geal={
+		name="Declan Geal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Declan_Geal
+				traits = {	warmonger 	}
+		}
+
+	}
+	PEL_Padraig_Ceach={
+		name="Padraig Ceach"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Padraig_Ceach
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PEL_Nialcolm_Croithasam={
+		name="Nialcolm Croithasam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Nialcolm_Croithasam
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PEL_Keiraig_Faidhai={
+		name="Keiraig Faidhai"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Keiraig_Faidhai
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	PEL_Fergus_Aite={
+		name="Fergus Aite"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Fergus_Aite
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PEL_Braig_Bais={
+		name="Braig Bais"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Braig_Bais
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	PEL_Malcolm_Aite={
+		name="Malcolm Aite"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Malcolm_Aite
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PEL_Gareth_Cill={
+		name="Gareth Cill"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Gareth_Cill
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PEL_Seamus_Coile={
+		name="Seamus Coile"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Seamus_Coile
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PEL_Niall_Cill={
+		name="Niall Cill"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Niall_Cill
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	PEL_Malcolm_Bais={
+		name="Malcolm Bais"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Malcolm_Bais
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	PEL_Hugh_Fonn={
+		name="Hugh Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Hugh_Fonn
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	PEL_Taran_Fonn={
+		name="Taran Fonn"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Taran_Fonn
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	PEL_Hugh_Cill={
+		name="Hugh Cill"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Hugh_Cill
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	PEL_Taran_Ceach={
+		name="Taran Ceach"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Taran_Ceach
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	PEL_Garan_Faidhai={
+		name="Garan Faidhai"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PEL_Owen_Croithasam={
+		name="Owen Croithasam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Owen_Croithasam
+				traits = {	infirm 	}
+		}
+
+	}
+	PEL_Mall_Aite={
+		name="Mall Aite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Mall_Aite
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	PEL_Owen_Guth={
+		name="Owen Guth"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Owen_Guth
+				traits = {	polemarch 	}
+		}
+
+	}
+	PEL_Eoinn_Faidhai={
+		name="Eoinn Faidhai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Eoinn_Faidhai
+				traits = {	infirm 	}
+		}
+
+	}
+	PEL_Quin_Bais={
+		name="Quin Bais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Quin_Bais
+				traits = {	political_dancer 	}
+		}
+
+	}
+	PEL_Niamus_Fonn={
+		name="Niamus Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Niamus_Fonn
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PEL_Quinn_Aite={
+		name="Quinn Aite"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Quinn_Aite
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	PEL_Ciareth_Cill={
+		name="Ciareth Cill"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Ciareth_Cill
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	PEL_Niam_Guth={
+		name="Niam Guth"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Niam_Guth
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	PEL_Keiran_Croithasam={
+		name="Keiran Croithasam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Keiran_Croithasam
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PEL_Seam_Ceach={
+		name="Seam Ceach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Seam_Ceach
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PEL_Liall_Cill={
+		name="Liall Cill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Liall_Cill
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	PEL_Taran_Bais={
+		name="Taran Bais"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Taran_Bais
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	PEL_Ulrich_Fonn={
+		name="Ulrich Fonn"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Ulrich_Fonn
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	PEL_Quinn_Faidhai={
+		name="Quinn Faidhai"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Quinn_Faidhai
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	PEL_Mall_Faidhai={
+		name="Mall Faidhai"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Mall_Faidhai
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	PEL_Taran_Geal={
+		name="Taran Geal"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Taran_Geal
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	PEL_Padran_Geal={
+		name="Padran Geal"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Padran_Geal
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	PEL_Padran_Guth={
+		name="Padran Guth"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Padran_Guth
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	PEL_Owen_Aite={
+		name="Owen Aite"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Owen_Aite
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	PEL_Liall_Aite={
+		name="Liall Aite"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PEL_Seam_Guth={
+		name="Seam Guth"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Seam_Guth
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PEL_Rhys_Aite={
+		name="Rhys Aite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Rhys_Aite
+				traits = {	first_lady 	}
+		}
+
+	}
+	PEL_Owen_Bais={
+		name="Owen Bais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Owen_Bais
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PEL_Quin_Ceach={
+		name="Quin Ceach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Quin_Ceach
+				traits = {	infirm 	}
+		}
+
+	}
+	PEL_Declan_Fonn={
+		name="Declan Fonn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Declan_Fonn
+				traits = {	rearmer 	}
+		}
+
+	}
+	PEL_Keiran_Faidhai={
+		name="Keiran Faidhai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PEL_Keiran_Faidhai
+				traits = {	rearmer 	}
+		}
+
+	}
+	PEL_Seamus_Faidhai={
+		name="Seamus Faidhai"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Seamus_Faidhai
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PEL_Eoinn_Bais={
+		name="Eoinn Bais"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Eoinn_Bais
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PEL_Ciam_Aite={
+		name="Ciam Aite"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Ciam_Aite
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PEL_Keiraig_Aite={
+		name="Keiraig Aite"
+
+		advisor={
+			slot = army_chief
+			idea_token = PEL_Keiraig_Aite
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PEL_Aidan_Croithasam={
+		name="Aidan Croithasam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Aidan_Croithasam
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	PEL_Tareth_Geal={
+		name="Tareth Geal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PEL_Tareth_Geal
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	PEL_Rhys_Fonn={
+		name="Rhys Fonn"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Rhys_Fonn
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	PEL_Eoinn_Ceach={
+		name="Eoinn Ceach"
+
+		advisor={
+			slot = air_chief
+			idea_token = PEL_Eoinn_Ceach
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	PEL_Quin_Aite={
+		name="Quin Aite"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Quin_Aite
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	PEL_Liam_Coile={
+		name="Liam Coile"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Liam_Coile
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	PEL_Liam_Guth={
+		name="Liam Guth"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Liam_Guth
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	PEL_Malcolm_Cill={
+		name="Malcolm Cill"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Malcolm_Cill
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	PEL_Rhys_Guth={
+		name="Rhys Guth"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Rhys_Guth
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	PEL_Tareth_Coile={
+		name="Tareth Coile"
+
+		advisor={
+			slot = high_command
+			idea_token = PEL_Tareth_Coile
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	PEL_Quinn_Cill={
+		name="Quinn Cill"
+
+		advisor={
+			slot = theorist
+			idea_token = PEL_Quinn_Cill
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PEL_Hugh_Bais={
+		name="Hugh Bais"
+
+		advisor={
+			slot = theorist
+			idea_token = PEL_Hugh_Bais
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PEL_Niamus_Guth={
+		name="Niamus Guth"
+
+		advisor={
+			slot = theorist
+			idea_token = PEL_Niamus_Guth
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,6 +1,6 @@
 characters = {
-	KOB_Ekchak_Sotzik={
-		name="Ekchak Sotzik"
+	KOB_Stanislaw_P={
+		name="Stanislaw P"
 
 		
 		country_leader={
@@ -329,7 +329,7 @@ characters = {
 		advisor={
 			slot = navy_chief
 			idea_token = KOB_Nacatl_Sayil
-				traits = {	navy_chief_old_guard_1 	}
+				traits = {	navy_chief_old_guard  }
 		}
 
 	}
@@ -349,7 +349,7 @@ characters = {
 		advisor={
 			slot = air_chief
 			idea_token = KOB_Chakalam_Witzikalanik
-				traits = {	air_chief_old_guard_1 	}
+				traits = {	air_chief_old_guard 	}
 		}
 
 	}
@@ -359,7 +359,7 @@ characters = {
 		advisor={
 			slot = air_chief
 			idea_token = KOB_Yaxkin_Kanil
-				traits = {	air_chief_old_guard_1 	}
+				traits = {	air_chief_old_guard 	}
 		}
 
 	}
@@ -551,7 +551,7 @@ characters = {
 		advisor={
 			slot = navy_chief
 			idea_token = KOB_Itzam_Bahpu
-				traits = {	navy_chief_old_guard_2 	}
+				traits = {	navy_chief_old_guard 	}
 		}
 
 	}

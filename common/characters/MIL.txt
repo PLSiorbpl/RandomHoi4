@@ -1,0 +1,880 @@
+characters = {
+	MIL_Hugh_Sabh={
+		name="Hugh Sabh"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIL_Garaig_Croc={
+		name="Garaig Croc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Garaig_Croc
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MIL_Keiran_Laochair={
+		name="Keiran Laochair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Keiran_Laochair
+				traits = {	humble 	}
+		}
+
+	}
+	MIL_Seamus_Luaidh={
+		name="Seamus Luaidh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Seamus_Luaidh
+				traits = {	headstrong 	}
+		}
+
+	}
+	MIL_Garaig_Beal={
+		name="Garaig Beal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Garaig_Beal
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MIL_Quin_Tigheanbha={
+		name="Quin Tigheanbha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Quin_Tigheanbha
+				traits = {	headstrong 	}
+		}
+
+	}
+	MIL_Padraig_Breanta={
+		name="Padraig Breanta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Padraig_Breanta
+				traits = {	headstrong 	}
+		}
+
+	}
+	MIL_Seamus_Leanchai={
+		name="Seamus Leanchai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Seamus_Leanchai
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MIL_Declan_Buach={
+		name="Declan Buach"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Declan_Buach
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MIL_Ciamus_Beal={
+		name="Ciamus Beal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Ciamus_Beal
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MIL_Ciaran_Leanchai={
+		name="Ciaran Leanchai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Ciaran_Leanchai
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MIL_Malcolm_Laochair={
+		name="Malcolm Laochair"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Malcolm_Laochair
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MIL_Seam_Croc={
+		name="Seam Croc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Seam_Croc
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MIL_Keiran_Breanta={
+		name="Keiran Breanta"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Keiran_Breanta
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	MIL_Declan_Magh={
+		name="Declan Magh"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Declan_Magh
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MIL_Garaig_Sabh={
+		name="Garaig Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Garaig_Sabh
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MIL_Owen_Laochair={
+		name="Owen Laochair"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Owen_Laochair
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	MIL_Malcolm_Tigheanbha={
+		name="Malcolm Tigheanbha"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Malcolm_Tigheanbha
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MIL_Ciaraig_Sabh={
+		name="Ciaraig Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Ciaraig_Sabh
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	MIL_Keiraig_Tigheanbha={
+		name="Keiraig Tigheanbha"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Keiraig_Tigheanbha
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	MIL_Ciaraig_Tigheanbha={
+		name="Ciaraig Tigheanbha"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Ciaraig_Tigheanbha
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MIL_Padraig_Beal={
+		name="Padraig Beal"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIL_Hugh_Beal={
+		name="Hugh Beal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Hugh_Beal
+				traits = {	warmonger 	}
+		}
+
+	}
+	MIL_Gareth_Luaidh={
+		name="Gareth Luaidh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Gareth_Luaidh
+				traits = {	polemarch 	}
+		}
+
+	}
+	MIL_Bran_Sabh={
+		name="Bran Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Bran_Sabh
+				traits = {	generallissimo 	}
+		}
+
+	}
+	MIL_Fergus_Luaidh={
+		name="Fergus Luaidh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Fergus_Luaidh
+				traits = {	autokrator 	}
+		}
+
+	}
+	MIL_Seamus_Tigheanbha={
+		name="Seamus Tigheanbha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Seamus_Tigheanbha
+				traits = {	generallissimo 	}
+		}
+
+	}
+	MIL_Fergus_Croc={
+		name="Fergus Croc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Fergus_Croc
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	MIL_Keiraig_Croc={
+		name="Keiraig Croc"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Keiraig_Croc
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MIL_Niaran_Magh={
+		name="Niaran Magh"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Niaran_Magh
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MIL_Ciareth_Beal={
+		name="Ciareth Beal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Ciareth_Beal
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MIL_Keiraig_Buach={
+		name="Keiraig Buach"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Keiraig_Buach
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MIL_Quinn_Magh={
+		name="Quinn Magh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Quinn_Magh
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	MIL_Ciareth_Sabh={
+		name="Ciareth Sabh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Ciareth_Sabh
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	MIL_Owen_Luaidh={
+		name="Owen Luaidh"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Owen_Luaidh
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MIL_Garaig_Tigheanbha={
+		name="Garaig Tigheanbha"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Garaig_Tigheanbha
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MIL_Eoinn_Tigheanbha={
+		name="Eoinn Tigheanbha"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Eoinn_Tigheanbha
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	MIL_Keiran_Sabh={
+		name="Keiran Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Keiran_Sabh
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	MIL_Ulrich_Sabh={
+		name="Ulrich Sabh"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Ulrich_Sabh
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MIL_Quin_Beal={
+		name="Quin Beal"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Quin_Beal
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MIL_Taran_Beal={
+		name="Taran Beal"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Taran_Beal
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	MIL_Eoin_Tigheanbha={
+		name="Eoin Tigheanbha"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Eoin_Tigheanbha
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MIL_Padraig_Magh={
+		name="Padraig Magh"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIL_Gareth_Laochair={
+		name="Gareth Laochair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Gareth_Laochair
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MIL_Mall_Luaidh={
+		name="Mall Luaidh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Mall_Luaidh
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MIL_Padran_Beal={
+		name="Padran Beal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Padran_Beal
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MIL_Keiraig_Magh={
+		name="Keiraig Magh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Keiraig_Magh
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MIL_Ciaran_Croc={
+		name="Ciaran Croc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Ciaran_Croc
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MIL_Ciareth_Croc={
+		name="Ciareth Croc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Ciareth_Croc
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MIL_Eoinn_Croc={
+		name="Eoinn Croc"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Eoinn_Croc
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MIL_Declan_Croc={
+		name="Declan Croc"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Declan_Croc
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MIL_Fergus_Tigheanbha={
+		name="Fergus Tigheanbha"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Fergus_Tigheanbha
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MIL_Lialcolm_Sabh={
+		name="Lialcolm Sabh"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Lialcolm_Sabh
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MIL_Taran_Buach={
+		name="Taran Buach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Taran_Buach
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	MIL_Niaran_Tigheanbha={
+		name="Niaran Tigheanbha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Niaran_Tigheanbha
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	MIL_Hugh_Croc={
+		name="Hugh Croc"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Hugh_Croc
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	MIL_Lialcolm_Luaidh={
+		name="Lialcolm Luaidh"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Lialcolm_Luaidh
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	MIL_Mall_Beal={
+		name="Mall Beal"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Mall_Beal
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MIL_Niaran_Laochair={
+		name="Niaran Laochair"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Niaran_Laochair
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	MIL_Niam_Croc={
+		name="Niam Croc"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Niam_Croc
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	MIL_Quinn_Leanchai={
+		name="Quinn Leanchai"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Quinn_Leanchai
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	MIL_Eoin_Beal={
+		name="Eoin Beal"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Eoin_Beal
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	MIL_Eoin_Croc={
+		name="Eoin Croc"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Eoin_Croc
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MIL_Rhys_Sabh={
+		name="Rhys Sabh"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIL_Quin_Sabh={
+		name="Quin Sabh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Quin_Sabh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MIL_Rhys_Luaidh={
+		name="Rhys Luaidh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Rhys_Luaidh
+				traits = {	infirm 	}
+		}
+
+	}
+	MIL_Ciamus_Leanchai={
+		name="Ciamus Leanchai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Ciamus_Leanchai
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	MIL_Bran_Beal={
+		name="Bran Beal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Bran_Beal
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MIL_Mall_Buach={
+		name="Mall Buach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Mall_Buach
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MIL_Niam_Breanta={
+		name="Niam Breanta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIL_Niam_Breanta
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MIL_Eoin_Sabh={
+		name="Eoin Sabh"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Eoin_Sabh
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MIL_Niam_Laochair={
+		name="Niam Laochair"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Niam_Laochair
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MIL_Rhys_Beal={
+		name="Rhys Beal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Rhys_Beal
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MIL_Keiran_Magh={
+		name="Keiran Magh"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIL_Keiran_Magh
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MIL_Malcolm_Breanta={
+		name="Malcolm Breanta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Malcolm_Breanta
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	MIL_Ulrich_Breanta={
+		name="Ulrich Breanta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIL_Ulrich_Breanta
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MIL_Iwan_Tigheanbha={
+		name="Iwan Tigheanbha"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Iwan_Tigheanbha
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	MIL_Gareth_Tigheanbha={
+		name="Gareth Tigheanbha"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIL_Gareth_Tigheanbha
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	MIL_Garan_Leanchai={
+		name="Garan Leanchai"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Garan_Leanchai
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	MIL_Hugh_Laochair={
+		name="Hugh Laochair"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Hugh_Laochair
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	MIL_Bran_Buach={
+		name="Bran Buach"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Bran_Buach
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MIL_Owen_Beal={
+		name="Owen Beal"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Owen_Beal
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MIL_Niam_Luaidh={
+		name="Niam Luaidh"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Niam_Luaidh
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	MIL_Keiran_Beal={
+		name="Keiran Beal"
+
+		advisor={
+			slot = high_command
+			idea_token = MIL_Keiran_Beal
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	MIL_Iwan_Magh={
+		name="Iwan Magh"
+
+		advisor={
+			slot = theorist
+			idea_token = MIL_Iwan_Magh
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MIL_Keiraig_Beal={
+		name="Keiraig Beal"
+
+		advisor={
+			slot = theorist
+			idea_token = MIL_Keiraig_Beal
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MIL_Seam_Leanchai={
+		name="Seam Leanchai"
+
+		advisor={
+			slot = theorist
+			idea_token = MIL_Seam_Leanchai
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

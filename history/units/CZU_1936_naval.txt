@@ -1,0 +1,36 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Pasai Fleet"			
+		naval_base = 10628
+		task_force = {
+			name = "Pasai Fleet"
+			location = 10628
+			
+						ship = { name = "Sensilan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CZU version_name = "Sensilan Class" } }	}
+			ship = { name = "Sensilan 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Panak" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Mimpi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Tulajaramata" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Tulajaramata 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Sensilan 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Sensilan 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Tulajaramata 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+			ship = { name = "Panak 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CZU version_name = "Panak Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

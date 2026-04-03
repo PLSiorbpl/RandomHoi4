@@ -31,7 +31,7 @@ default = {
 }
 
 #all the continent visuals
-ICE = {
+MOD = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -71,7 +71,7 @@ ICE = {
 		}
 	}
 }
-AJT = {
+KRY = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -218,7 +218,7 @@ LEK = {
 		}
 	}
 }
-BON = {
+CUD = {
 	army = {
 		male = {
 			"GFX_Portrait_Asia_Generic_land_1"
@@ -520,7 +520,7 @@ CAH = {
 		}
 	}
 }
-CAI = {
+GRO = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -560,7 +560,7 @@ CAI = {
 		}
 	}
 }
-CDA = {
+PEL = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -810,7 +810,7 @@ MLK = {
 	}	
 
 }
-FRO = {
+BUD = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -862,7 +862,7 @@ FRO = {
 		}
 	}
 }
-GAA = {
+ZAK = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -957,56 +957,47 @@ GIZ = {
 PRO = {
 	army = {
 		male = {
-			"GFX_Portrait_Africa_Generic_land_1"
-			"GFX_Portrait_Africa_Generic_land_2"
-			"GFX_Portrait_Africa_Generic_land_3"
-			"GFX_Portrait_South_Africa_Army_Generic"
-			"GFX_Portrait_South_Africa_Army_Generic_2"
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
 		}
 	}
 	
 	navy = {
 		male = {
-			"GFX_Portrait_Africa_Generic_navy_1"
-			"GFX_Portrait_Africa_Generic_navy_2"
-			"GFX_Portrait_Africa_Generic_navy_3"
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
 		}
 	}
 	
 	political = {
 		communism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_1"	
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_Europe_Generic_1"
 			}
 		}
 		democratic = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_2" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+				"GFX_Portrait_Europe_Generic_2" 
 			}
 		}
 		fascism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Army_Generic"
-				"GFX_Portrait_South_Africa_Army_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 		neutrality = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 	}
 }
-HEI = {
+TUA = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -1048,7 +1039,7 @@ HEI = {
 		}
 	}
 }
-HTN = {
+PRZ = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -1142,7 +1133,7 @@ IDU = {
 		}
 	}
 }
-IKA = {
+DOS = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -1194,7 +1185,7 @@ IKA = {
 		}
 	}
 }
-IMI = {
+SOB = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -1234,7 +1225,7 @@ IMI = {
 		}
 	}
 }
-JAX = {
+WIN = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -1412,7 +1403,7 @@ BOR = {
 		}
 	}
 }
-KER = {
+ROS = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -1535,7 +1526,7 @@ GOR = {
 		}
 	}
 }
-LCA = {
+KRE = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -1620,7 +1611,7 @@ LIM = {
 	}	
 
 }
-LIZ = {
+MAR = {
 	army = {
 		male = {
 			"GFX_Portrait_Asia_Generic_land_1"
@@ -1663,7 +1654,7 @@ LIZ = {
 	}	
 
 }
-LUA = {
+MIL = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -1748,7 +1739,7 @@ KRZ = {
 		}
 	}
 }
-PAS = {
+CZU = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -1830,7 +1821,7 @@ PBL = {
 		}
 	}
 }
-QER = {
+SED = {
 	army = {
 		male = {
 			"GFX_Portrait_Asia_Generic_land_1"
@@ -1913,7 +1904,7 @@ KIJ = {
 		}
 	}
 }
-RPM = {
+PDS = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -1956,7 +1947,7 @@ RPM = {
 		}
 	}
 }
-RQF = {
+MAK = {
 	army = {
 		male = {
 			"GFX_Portrait_Asia_Generic_land_1"
@@ -1999,7 +1990,7 @@ RQF = {
 	}	
 
 }
-RSM = {
+GOS = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -2054,56 +2045,47 @@ RSM = {
 KAW = {
 	army = {
 		male = {
-			"GFX_Portrait_Africa_Generic_land_1"
-			"GFX_Portrait_Africa_Generic_land_2"
-			"GFX_Portrait_Africa_Generic_land_3"
-			"GFX_Portrait_South_Africa_Army_Generic"
-			"GFX_Portrait_South_Africa_Army_Generic_2"
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
 		}
 	}
 	
 	navy = {
 		male = {
-			"GFX_Portrait_Africa_Generic_navy_1"
-			"GFX_Portrait_Africa_Generic_navy_2"
-			"GFX_Portrait_Africa_Generic_navy_3"
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
 		}
 	}
 	
 	political = {
 		communism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_1"	
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_Europe_Generic_1"
 			}
 		}
 		democratic = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_2" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+				"GFX_Portrait_Europe_Generic_2" 
 			}
 		}
 		fascism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Army_Generic"
-				"GFX_Portrait_South_Africa_Army_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 		neutrality = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 	}
 }
-SCA = {
+CHO = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2195,7 +2177,7 @@ NAG = {
 		}
 	}
 }
-SQO = {
+GLE = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2235,7 +2217,7 @@ SQO = {
 		}
 	}
 }
-SUM = {
+TRP = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -2287,7 +2269,7 @@ SUM = {
 		}
 	}
 }
-THE = {
+JUR = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2327,7 +2309,7 @@ THE = {
 		}
 	}
 }
-TIK = {
+JAK = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -2379,7 +2361,7 @@ TIK = {
 		}
 	}
 }
-TNN = {
+DRO = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2419,7 +2401,7 @@ TNN = {
 		}
 	}
 }
-TOL = {
+SZR = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2459,7 +2441,7 @@ TOL = {
 		}
 	}
 }
-TOT = {
+SKA = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2499,7 +2481,7 @@ TOT = {
 		}
 	}
 }
-TPM = {
+WRO = {
 	army = {
 		male = {
 			"GFX_Portrait_Asia_Generic_land_1"
@@ -2584,7 +2566,7 @@ TRO = {
 		}
 	}
 }
-UFU = {
+PAS = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -2627,7 +2609,7 @@ UFU = {
 		}
 	}
 }
-UXM = {
+KWA = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2670,56 +2652,51 @@ UXM = {
 KOB = {
 	army = {
 		male = {
-			"GFX_Portrait_Africa_Generic_land_1"
-			"GFX_Portrait_Africa_Generic_land_2"
-			"GFX_Portrait_Africa_Generic_land_3"
-			"GFX_Portrait_South_Africa_Army_Generic"
-			"GFX_Portrait_South_Africa_Army_Generic_2"
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_Portrait_Europe_Generic_land_6"
+			"GFX_Portrait_Europe_Generic_land_7"
+			"GFX_Portrait_Europe_Generic_land_8"
+			"GFX_Portrait_Europe_Generic_land_9"
+			"GFX_Portrait_Europe_Generic_land_10"
 		}
 	}
 	
 	navy = {
 		male = {
-			"GFX_Portrait_Africa_Generic_navy_1"
-			"GFX_Portrait_Africa_Generic_navy_2"
-			"GFX_Portrait_Africa_Generic_navy_3"
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
 		}
 	}
 	
 	political = {
 		communism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_1"	
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_Europe_Generic_1"
 			}
 		}
 		democratic = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_2" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+				"GFX_Portrait_Europe_Generic_2" 
 			}
 		}
 		fascism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Army_Generic"
-				"GFX_Portrait_South_Africa_Army_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 		neutrality = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 	}
 }
-VAN = {
+GLU = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -2949,7 +2926,7 @@ YIT = {
 	}	
 
 }
-YUA = {
+KON = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -2991,59 +2968,50 @@ YUA = {
 		}
 	}
 }
-ZAP = {
+CHS = {
 	army = {
 		male = {
-			"GFX_Portrait_Africa_Generic_land_1"
-			"GFX_Portrait_Africa_Generic_land_2"
-			"GFX_Portrait_Africa_Generic_land_3"
-			"GFX_Portrait_South_Africa_Army_Generic"
-			"GFX_Portrait_South_Africa_Army_Generic_2"
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
 		}
 	}
 	
 	navy = {
 		male = {
-			"GFX_Portrait_Africa_Generic_navy_1"
-			"GFX_Portrait_Africa_Generic_navy_2"
-			"GFX_Portrait_Africa_Generic_navy_3"
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
 		}
 	}
 	
 	political = {
 		communism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_1"	
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_Europe_Generic_1"
 			}
 		}
 		democratic = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_2" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+				"GFX_Portrait_Europe_Generic_2" 
 			}
 		}
 		fascism = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
-				"GFX_Portrait_South_Africa_Army_Generic"
-				"GFX_Portrait_South_Africa_Army_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 		neutrality = {
 			male = { 
-				"GFX_Portrait_Africa_Generic_3" 
-				"GFX_Portrait_South_Africa_Political_Leader_Generic"
-				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
 	}
 }
-ZER = {
+MER = {
 	army = {
 		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
@@ -3085,7 +3053,7 @@ ZER = {
 		}
 	}
 }
-ZGT = {
+EKW = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"

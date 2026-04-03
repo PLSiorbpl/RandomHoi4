@@ -1,0 +1,880 @@
+characters = {
+	WIN_Braig_Faiscean={
+		name="Braig Faiscean"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WIN_Taran_Lealas={
+		name="Taran Lealas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Taran_Lealas
+				traits = {	humble 	}
+		}
+
+	}
+	WIN_Lialcolm_Each={
+		name="Lialcolm Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Lialcolm_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	WIN_Ciam_Trodaing={
+		name="Ciam Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Ciam_Trodaing
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	WIN_Seam_Buna={
+		name="Seam Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Seam_Buna
+				traits = {	humble 	}
+		}
+
+	}
+	WIN_Liamus_Each={
+		name="Liamus Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Liamus_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	WIN_Owen_Trodaing={
+		name="Owen Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Owen_Trodaing
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	WIN_Keiraig_Faiscean={
+		name="Keiraig Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Keiraig_Faiscean
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	WIN_Ciaran_Trodaing={
+		name="Ciaran Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Ciaran_Trodaing
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	WIN_Ciam_Millearg={
+		name="Ciam Millearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Ciam_Millearg
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	WIN_Cialcolm_Faiscean={
+		name="Cialcolm Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Cialcolm_Faiscean
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	WIN_Quin_Each={
+		name="Quin Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Quin_Each
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	WIN_Tareth_Snamhtirsear={
+		name="Tareth Snamhtirsear"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Tareth_Snamhtirsear
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	WIN_Iwan_Tuas={
+		name="Iwan Tuas"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Iwan_Tuas
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	WIN_Liall_Geach={
+		name="Liall Geach"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Liall_Geach
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	WIN_Hugh_Buna={
+		name="Hugh Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Hugh_Buna
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	WIN_Niall_Faiscean={
+		name="Niall Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Niall_Faiscean
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	WIN_Seam_Tuas={
+		name="Seam Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Seam_Tuas
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	WIN_Seamus_Faiscean={
+		name="Seamus Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Seamus_Faiscean
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	WIN_Ciamus_Trodaing={
+		name="Ciamus Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Ciamus_Trodaing
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	WIN_Liamus_Buna={
+		name="Liamus Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Liamus_Buna
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	WIN_Ciaran_Geach={
+		name="Ciaran Geach"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WIN_Niam_Geach={
+		name="Niam Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Niam_Geach
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	WIN_Iwan_Each={
+		name="Iwan Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Iwan_Each
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	WIN_Liam_Tuas={
+		name="Liam Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Liam_Tuas
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	WIN_Padraig_Each={
+		name="Padraig Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Padraig_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	WIN_Niaran_Each={
+		name="Niaran Each"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Niaran_Each
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	WIN_Quinn_Faiscean={
+		name="Quinn Faiscean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Quinn_Faiscean
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	WIN_Liamus_Geach={
+		name="Liamus Geach"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Liamus_Geach
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	WIN_Ciareth_Faiscean={
+		name="Ciareth Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Ciareth_Faiscean
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	WIN_Rhys_Each={
+		name="Rhys Each"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Rhys_Each
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	WIN_Ulrich_Faiscean={
+		name="Ulrich Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Ulrich_Faiscean
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	WIN_Eoinn_Breim={
+		name="Eoinn Breim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Eoinn_Breim
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	WIN_Padraig_Faiscean={
+		name="Padraig Faiscean"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Padraig_Faiscean
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	WIN_Ciam_Buna={
+		name="Ciam Buna"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Ciam_Buna
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	WIN_Lialcolm_Geach={
+		name="Lialcolm Geach"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Lialcolm_Geach
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	WIN_Braig_Millearg={
+		name="Braig Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Braig_Millearg
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	WIN_Fergus_Buna={
+		name="Fergus Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Fergus_Buna
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	WIN_Rhys_Geach={
+		name="Rhys Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Rhys_Geach
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	WIN_Tareth_Faiscean={
+		name="Tareth Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Tareth_Faiscean
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	WIN_Padraig_Trodaing={
+		name="Padraig Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Padraig_Trodaing
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	WIN_Taran_Buna={
+		name="Taran Buna"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Taran_Buna
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	WIN_Eoin_Tuas={
+		name="Eoin Tuas"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WIN_Garan_Millearg={
+		name="Garan Millearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Garan_Millearg
+				traits = {	polemarch 	}
+		}
+
+	}
+	WIN_Eoinn_Geach={
+		name="Eoinn Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Eoinn_Geach
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	WIN_Braig_Buna={
+		name="Braig Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Braig_Buna
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	WIN_Niam_Trodaing={
+		name="Niam Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Niam_Trodaing
+				traits = {	polemarch 	}
+		}
+
+	}
+	WIN_Ciaran_Faiscean={
+		name="Ciaran Faiscean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Ciaran_Faiscean
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	WIN_Tareth_Breim={
+		name="Tareth Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Tareth_Breim
+				traits = {	infirm 	}
+		}
+
+	}
+	WIN_Nialcolm_Buna={
+		name="Nialcolm Buna"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Nialcolm_Buna
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	WIN_Owen_Lealas={
+		name="Owen Lealas"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Owen_Lealas
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	WIN_Ciaran_Buna={
+		name="Ciaran Buna"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Ciaran_Buna
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	WIN_Keiraig_Geach={
+		name="Keiraig Geach"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Keiraig_Geach
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	WIN_Seamus_Buna={
+		name="Seamus Buna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Seamus_Buna
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	WIN_Aidan_Geach={
+		name="Aidan Geach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Aidan_Geach
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	WIN_Declan_Faiscean={
+		name="Declan Faiscean"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Declan_Faiscean
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	WIN_Liam_Buna={
+		name="Liam Buna"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Liam_Buna
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	WIN_Liall_Millearg={
+		name="Liall Millearg"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Liall_Millearg
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	WIN_Bran_Each={
+		name="Bran Each"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Bran_Each
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	WIN_Garan_Breim={
+		name="Garan Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Garan_Breim
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	WIN_Niam_Tuas={
+		name="Niam Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Niam_Tuas
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	WIN_Fergus_Breim={
+		name="Fergus Breim"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Fergus_Breim
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	WIN_Ciareth_Geach={
+		name="Ciareth Geach"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Ciareth_Geach
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	WIN_Seam_Lealas={
+		name="Seam Lealas"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WIN_Liamus_Tuas={
+		name="Liamus Tuas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Liamus_Tuas
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	WIN_Quinn_Breim={
+		name="Quinn Breim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Quinn_Breim
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	WIN_Malcolm_Geach={
+		name="Malcolm Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Malcolm_Geach
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	WIN_Malcolm_Buna={
+		name="Malcolm Buna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Malcolm_Buna
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	WIN_Keiran_Trodaing={
+		name="Keiran Trodaing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Keiran_Trodaing
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	WIN_Braig_Geach={
+		name="Braig Geach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WIN_Braig_Geach
+				traits = {	first_lady 	}
+		}
+
+	}
+	WIN_Lialcolm_Snamhtirsear={
+		name="Lialcolm Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Lialcolm_Snamhtirsear
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	WIN_Rhys_Faiscean={
+		name="Rhys Faiscean"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Rhys_Faiscean
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	WIN_Rhys_Snamhtirsear={
+		name="Rhys Snamhtirsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Rhys_Snamhtirsear
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	WIN_Cialcolm_Trodaing={
+		name="Cialcolm Trodaing"
+
+		advisor={
+			slot = army_chief
+			idea_token = WIN_Cialcolm_Trodaing
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	WIN_Eoinn_Each={
+		name="Eoinn Each"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Eoinn_Each
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	WIN_Cialcolm_Millearg={
+		name="Cialcolm Millearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WIN_Cialcolm_Millearg
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	WIN_Aidan_Trodaing={
+		name="Aidan Trodaing"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Aidan_Trodaing
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	WIN_Cialcolm_Each={
+		name="Cialcolm Each"
+
+		advisor={
+			slot = air_chief
+			idea_token = WIN_Cialcolm_Each
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	WIN_Ulrich_Trodaing={
+		name="Ulrich Trodaing"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Ulrich_Trodaing
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	WIN_Liall_Tuas={
+		name="Liall Tuas"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Liall_Tuas
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	WIN_Liam_Faiscean={
+		name="Liam Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Liam_Faiscean
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	WIN_Malcolm_Each={
+		name="Malcolm Each"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Malcolm_Each
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	WIN_Liamus_Faiscean={
+		name="Liamus Faiscean"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Liamus_Faiscean
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	WIN_Aidan_Snamhtirsear={
+		name="Aidan Snamhtirsear"
+
+		advisor={
+			slot = high_command
+			idea_token = WIN_Aidan_Snamhtirsear
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	WIN_Seamus_Trodaing={
+		name="Seamus Trodaing"
+
+		advisor={
+			slot = theorist
+			idea_token = WIN_Seamus_Trodaing
+				traits = {	military_theorist 	}
+		}
+
+	}
+	WIN_Tareth_Each={
+		name="Tareth Each"
+
+		advisor={
+			slot = theorist
+			idea_token = WIN_Tareth_Each
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	WIN_Padran_Buna={
+		name="Padran Buna"
+
+		advisor={
+			slot = theorist
+			idea_token = WIN_Padran_Buna
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

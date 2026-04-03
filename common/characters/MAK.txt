@@ -1,0 +1,880 @@
+characters = {
+	MAK_Meziane_Tamurt={
+		name="Meziane Tamurt"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Tariq_Tamdin={
+		name="Tariq Tamdin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Tariq_Tamdin
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MAK_Tariq_Tafsou={
+		name="Tariq Tafsou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Tariq_Tafsou
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MAK_Sifan_Talt={
+		name="Sifan Talt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Sifan_Talt
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MAK_Mezian_Talt={
+		name="Mezian Talt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mezian_Talt
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	MAK_Yane_Tafsou={
+		name="Yane Tafsou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Yane_Tafsou
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MAK_Aselmariq_Tamazrart={
+		name="Aselmariq Tamazrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Aselmariq_Tamazrart
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	MAK_Iderfane_Tamazrart={
+		name="Iderfane Tamazrart"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Iderfane_Tamazrart
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MAK_Amarim_Tazrast={
+		name="Amarim Tazrast"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Amarim_Tazrast
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MAK_Meziz_Tamazrart={
+		name="Meziz Tamazrart"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Meziz_Tamazrart
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MAK_Iderfane_Takilalut={
+		name="Iderfane Takilalut"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Iderfane_Takilalut
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MAK_Ziriq_Tafsou={
+		name="Ziriq Tafsou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Ziriq_Tafsou
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MAK_Sifan_Tamazrart={
+		name="Sifan Tamazrart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Sifan_Tamazrart
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	MAK_Amokrane_Tazrast={
+		name="Amokrane Tazrast"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Amokrane_Tazrast
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	MAK_Karen_Tamurt={
+		name="Karen Tamurt"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Karen_Tamurt
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MAK_Iskar_Tamdin={
+		name="Iskar Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Iskar_Tamdin
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	MAK_Mokrannis_Takilalut={
+		name="Mokrannis Takilalut"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mokrannis_Takilalut
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	MAK_Aselmad_Izert={
+		name="Aselmad Izert"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Aselmad_Izert
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MAK_Tariq_Tamurt={
+		name="Tariq Tamurt"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Tariq_Tamurt
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MAK_Zirimokran_Takilalut={
+		name="Zirimokran Takilalut"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Zirimokran_Takilalut
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	MAK_Amokran_Tazrast={
+		name="Amokran Tazrast"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Amokran_Tazrast
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	MAK_Iderfan_Izert={
+		name="Iderfan Izert"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Meziane_Tafsou={
+		name="Meziane Tafsou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Meziane_Tafsou
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MAK_Massa_Tiwinayen={
+		name="Massa Tiwinayen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Massa_Tiwinayen
+				traits = {	autokrator 	}
+		}
+
+	}
+	MAK_Massinis_Tiwin={
+		name="Massinis Tiwin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Massinis_Tiwin
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MAK_Saidi_Tiwinayen={
+		name="Saidi Tiwinayen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Saidi_Tiwinayen
+				traits = {	infirm 	}
+		}
+
+	}
+	MAK_Yuba_Tamurt={
+		name="Yuba Tamurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Yuba_Tamurt
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	MAK_Amokrane_Tamdin={
+		name="Amokrane Tamdin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Amokrane_Tamdin
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	MAK_Azian_Takilalut={
+		name="Azian Takilalut"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Azian_Takilalut
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MAK_Zirimokran_Tafsou={
+		name="Zirimokran Tafsou"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Zirimokran_Tafsou
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MAK_Sifan_Tiwin={
+		name="Sifan Tiwin"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Sifan_Tiwin
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MAK_Karen_Izert={
+		name="Karen Izert"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Karen_Izert
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MAK_Aziannis_Tiwinayen={
+		name="Aziannis Tiwinayen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Aziannis_Tiwinayen
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	MAK_Massa_Tafsou={
+		name="Massa Tafsou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Massa_Tafsou
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	MAK_Azian_Tamazrart={
+		name="Azian Tamazrart"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Azian_Tamazrart
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MAK_Tahari_Talt={
+		name="Tahari Talt"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Tahari_Talt
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MAK_Mokrannis_Tamdin={
+		name="Mokrannis Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mokrannis_Tamdin
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	MAK_Lyes_Tiwin={
+		name="Lyes Tiwin"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Lyes_Tiwin
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MAK_Mokran_Tiwin={
+		name="Mokran Tiwin"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mokran_Tiwin
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	MAK_Tahari_Tamurt={
+		name="Tahari Tamurt"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Tahari_Tamurt
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	MAK_Iskaren_Tazrast={
+		name="Iskaren Tazrast"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Iskaren_Tazrast
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	MAK_Azian_Tazrast={
+		name="Azian Tazrast"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Azian_Tazrast
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	MAK_Yuba_Tazrast={
+		name="Yuba Tazrast"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Iderfan_Tazrast={
+		name="Iderfan Tazrast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Iderfan_Tazrast
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MAK_Tafsut_Takilalut={
+		name="Tafsut Takilalut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Tafsut_Takilalut
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MAK_Meziane_Tiwinayen={
+		name="Meziane Tiwinayen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Meziane_Tiwinayen
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MAK_Aselmariq_Tafsou={
+		name="Aselmariq Tafsou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Aselmariq_Tafsou
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MAK_Mimoun_Tamazrart={
+		name="Mimoun Tamazrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mimoun_Tamazrart
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MAK_Mimoun_Tiwin={
+		name="Mimoun Tiwin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mimoun_Tiwin
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MAK_Amokrane_Talt={
+		name="Amokrane Talt"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Amokrane_Talt
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MAK_Mezian_Takilalut={
+		name="Mezian Takilalut"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Mezian_Takilalut
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MAK_Karen_Tafsou={
+		name="Karen Tafsou"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Karen_Tafsou
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	MAK_Aselmariq_Tazrast={
+		name="Aselmariq Tazrast"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Aselmariq_Tazrast
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MAK_Yuba_Tiwinayen={
+		name="Yuba Tiwinayen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Yuba_Tiwinayen
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	MAK_Kari_Izert={
+		name="Kari Izert"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Kari_Izert
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	MAK_Azian_Talt={
+		name="Azian Talt"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Azian_Talt
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MAK_Iskari_Tamazrart={
+		name="Iskari Tamazrart"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Iskari_Tamazrart
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	MAK_Aziannis_Tazrast={
+		name="Aziannis Tazrast"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Aziannis_Tazrast
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MAK_Mimokran_Tiwinayen={
+		name="Mimokran Tiwinayen"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mimokran_Tiwinayen
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	MAK_Zirimokran_Tamurt={
+		name="Zirimokran Tamurt"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Zirimokran_Tamurt
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MAK_Amoun_Takilalut={
+		name="Amoun Takilalut"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Amoun_Takilalut
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	MAK_Aselmad_Tamdin={
+		name="Aselmad Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Aselmad_Tamdin
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	MAK_Mezian_Tamurt={
+		name="Mezian Tamurt"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mezian_Tamurt
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	MAK_Mimokran_Tamurt={
+		name="Mimokran Tamurt"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Tari_Tamdin={
+		name="Tari Tamdin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Tari_Tamdin
+				traits = {	first_lady 	}
+		}
+
+	}
+	MAK_Meziz_Tazrast={
+		name="Meziz Tazrast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Meziz_Tazrast
+				traits = {	the_banker 	}
+		}
+
+	}
+	MAK_Iskaren_Tamurt={
+		name="Iskaren Tamurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Iskaren_Tamurt
+				traits = {	first_lady 	}
+		}
+
+	}
+	MAK_Meziz_Tamurt={
+		name="Meziz Tamurt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Meziz_Tamurt
+				traits = {	infirm 	}
+		}
+
+	}
+	MAK_Tafsut_Tamazrart={
+		name="Tafsut Tamazrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Tafsut_Tamazrart
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MAK_Mokrane_Tamazrart={
+		name="Mokrane Tamazrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mokrane_Tamazrart
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MAK_Mokrane_Tafsou={
+		name="Mokrane Tafsou"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Mokrane_Tafsou
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MAK_Sifane_Tamdin={
+		name="Sifane Tamdin"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Sifane_Tamdin
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MAK_Iderfane_Izert={
+		name="Iderfane Izert"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Iderfane_Izert
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MAK_Yane_Izert={
+		name="Yane Izert"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Yane_Izert
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MAK_Mezian_Tiwin={
+		name="Mezian Tiwin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Mezian_Tiwin
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	MAK_Karen_Tazrast={
+		name="Karen Tazrast"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Karen_Tazrast
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MAK_Taren_Tazrast={
+		name="Taren Tazrast"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Taren_Tazrast
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	MAK_Tafsut_Talt={
+		name="Tafsut Talt"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Tafsut_Talt
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	MAK_Mezian_Tamazrart={
+		name="Mezian Tamazrart"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mezian_Tamazrart
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MAK_Lyes_Tiwinayen={
+		name="Lyes Tiwinayen"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Lyes_Tiwinayen
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	MAK_Tahari_Takilalut={
+		name="Tahari Takilalut"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Tahari_Takilalut
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	MAK_Kari_Talt={
+		name="Kari Talt"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Kari_Talt
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	MAK_Amarim_Tamdin={
+		name="Amarim Tamdin"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Amarim_Tamdin
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	MAK_Sifax_Takilalut={
+		name="Sifax Takilalut"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Sifax_Takilalut
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MAK_Amokrane_Tamurt={
+		name="Amokrane Tamurt"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Amokrane_Tamurt
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MAK_Tahar_Tazrast={
+		name="Tahar Tazrast"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Tahar_Tazrast
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MAK_Mimokran_Tamdin={
+		name="Mimokran Tamdin"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Mimokran_Tamdin
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

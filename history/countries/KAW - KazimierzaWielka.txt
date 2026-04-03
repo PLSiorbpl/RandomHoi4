@@ -1,5 +1,14 @@
 capital = 668
 
+set_autonomy = {
+    target = BUS
+    autonomy_state = autonomy_puppet
+}
+set_autonomy = {
+    target = BRO
+    autonomy_state = autonomy_puppet
+}
+
 oob = "KAW_1936"
 if = {
 	limit = {

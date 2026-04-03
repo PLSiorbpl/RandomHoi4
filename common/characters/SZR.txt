@@ -1,0 +1,880 @@
+characters = {
+	SZR_Navid_Bolan={
+		name="Navid Bolan"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SZR_Majid_Pish={
+		name="Majid Pish"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Majid_Pish
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	SZR_Mehdi_Ashghosh={
+		name="Mehdi Ashghosh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Mehdi_Ashghosh
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SZR_Ahma_Dard={
+		name="Ahma Dard"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Ahma_Dard
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SZR_Shad_Abada={
+		name="Shad Abada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Shad_Abada
+				traits = {	headstrong 	}
+		}
+
+	}
+	SZR_Niman_Polandaryama={
+		name="Niman Polandaryama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Niman_Polandaryama
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SZR_Peyma_Polandaryama={
+		name="Peyma Polandaryama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Peyma_Polandaryama
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SZR_Parhad_Pish={
+		name="Parhad Pish"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Parhad_Pish
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SZR_Omid_Hunar={
+		name="Omid Hunar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Omid_Hunar
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SZR_Amid_Pish={
+		name="Amid Pish"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Amid_Pish
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SZR_Omid_Giahakhtang={
+		name="Omid Giahakhtang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Omid_Giahakhtang
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SZR_Shaman_Ashghosh={
+		name="Shaman Ashghosh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Shaman_Ashghosh
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	SZR_Farhad_Shaht={
+		name="Farhad Shaht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Farhad_Shaht
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SZR_Ebramin_Shaht={
+		name="Ebramin Shaht"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Ebramin_Shaht
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SZR_Mossan_Shaht={
+		name="Mossan Shaht"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Mossan_Shaht
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SZR_Amir_Abada={
+		name="Amir Abada"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Amir_Abada
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SZR_Ahmal_Pish={
+		name="Ahmal Pish"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Ahmal_Pish
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SZR_Kavehza_Hunar={
+		name="Kavehza Hunar"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Kavehza_Hunar
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SZR_Navehzad_Pish={
+		name="Navehzad Pish"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Navehzad_Pish
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	SZR_Kavehza_Shaht={
+		name="Kavehza Shaht"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Kavehza_Shaht
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	SZR_Shahim_Giahakhtang={
+		name="Shahim Giahakhtang"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Shahim_Giahakhtang
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SZR_Peyma_Hunar={
+		name="Peyma Hunar"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SZR_Rama_Ashghosh={
+		name="Rama Ashghosh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Rama_Ashghosh
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	SZR_Sham_Shaht={
+		name="Sham Shaht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Sham_Shaht
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SZR_Mehdi_Shaht={
+		name="Mehdi Shaht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Mehdi_Shaht
+				traits = {	infirm 	}
+		}
+
+	}
+	SZR_Amid_Bolan={
+		name="Amid Bolan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Amid_Bolan
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SZR_Ebraman_Polandaryama={
+		name="Ebraman Polandaryama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Ebraman_Polandaryama
+				traits = {	warmonger 	}
+		}
+
+	}
+	SZR_Milad_Hunar={
+		name="Milad Hunar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Milad_Hunar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SZR_Hassein_Dard={
+		name="Hassein Dard"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Hassein_Dard
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SZR_Ebramin_Bolan={
+		name="Ebramin Bolan"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Ebramin_Bolan
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SZR_Ebram_Sandoghoshra={
+		name="Ebram Sandoghoshra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Ebram_Sandoghoshra
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SZR_Parhahim_Ashghosh={
+		name="Parhahim Ashghosh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Parhahim_Ashghosh
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SZR_Omid_Shaht={
+		name="Omid Shaht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Omid_Shaht
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SZR_Niman_Ashghosh={
+		name="Niman Ashghosh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Niman_Ashghosh
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SZR_Mehdi_Giahakhtang={
+		name="Mehdi Giahakhtang"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Mehdi_Giahakhtang
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	SZR_Ahman_Pish={
+		name="Ahman Pish"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Ahman_Pish
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SZR_Sham_Abada={
+		name="Sham Abada"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Sham_Abada
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	SZR_Mossein_Polandaryama={
+		name="Mossein Polandaryama"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Mossein_Polandaryama
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SZR_Ahman_Polandaryama={
+		name="Ahman Polandaryama"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Ahman_Polandaryama
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	SZR_Shaman_Polandaryama={
+		name="Shaman Polandaryama"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Shaman_Polandaryama
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	SZR_Behdi_Abada={
+		name="Behdi Abada"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Behdi_Abada
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SZR_Hassan_Hunar={
+		name="Hassan Hunar"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Hassan_Hunar
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	SZR_Ebraman_Pish={
+		name="Ebraman Pish"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SZR_Amin_Shaht={
+		name="Amin Shaht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Amin_Shaht
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SZR_Armad_Ashghosh={
+		name="Armad Ashghosh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Armad_Ashghosh
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SZR_Kama_Dard={
+		name="Kama Dard"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Kama_Dard
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SZR_Mossein_Dard={
+		name="Mossein Dard"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Mossein_Dard
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SZR_Omin_Hunar={
+		name="Omin Hunar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Omin_Hunar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SZR_Babak_Sandoghoshra={
+		name="Babak Sandoghoshra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Babak_Sandoghoshra
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SZR_Farhad_Giahakhtang={
+		name="Farhad Giahakhtang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Farhad_Giahakhtang
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SZR_Niman_Abada={
+		name="Niman Abada"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Niman_Abada
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SZR_Armal_Polandaryama={
+		name="Armal Polandaryama"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Armal_Polandaryama
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SZR_Behzad_Sandoghoshra={
+		name="Behzad Sandoghoshra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Behzad_Sandoghoshra
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SZR_Armal_Ashghosh={
+		name="Armal Ashghosh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Armal_Ashghosh
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SZR_Mehdi_Dard={
+		name="Mehdi Dard"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Mehdi_Dard
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SZR_Majid_Abada={
+		name="Majid Abada"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Majid_Abada
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SZR_Omin_Pish={
+		name="Omin Pish"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Omin_Pish
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SZR_Farhaman_Hunar={
+		name="Farhaman Hunar"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Farhaman_Hunar
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SZR_Kaveh_Abada={
+		name="Kaveh Abada"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Kaveh_Abada
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	SZR_Amir_Shaht={
+		name="Amir Shaht"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Amir_Shaht
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SZR_Armad_Abada={
+		name="Armad Abada"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Armad_Abada
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	SZR_Omid_Bolan={
+		name="Omid Bolan"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Omid_Bolan
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SZR_Navid_Pish={
+		name="Navid Pish"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Navid_Pish
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	SZR_Babak_Abada={
+		name="Babak Abada"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SZR_Babak_Polandaryama={
+		name="Babak Polandaryama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Babak_Polandaryama
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SZR_Ahman_Abada={
+		name="Ahman Abada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Ahman_Abada
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SZR_Arman_Pish={
+		name="Arman Pish"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Arman_Pish
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SZR_Shahim_Bolan={
+		name="Shahim Bolan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Shahim_Bolan
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SZR_Kavehza_Sandoghoshra={
+		name="Kavehza Sandoghoshra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Kavehza_Sandoghoshra
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	SZR_Farham_Giahakhtang={
+		name="Farham Giahakhtang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SZR_Farham_Giahakhtang
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	SZR_Kavehdi_Bolan={
+		name="Kavehdi Bolan"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Kavehdi_Bolan
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SZR_Saeed_Bolan={
+		name="Saeed Bolan"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Saeed_Bolan
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SZR_Mossan_Hunar={
+		name="Mossan Hunar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Mossan_Hunar
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SZR_Rezad_Polandaryama={
+		name="Rezad Polandaryama"
+
+		advisor={
+			slot = army_chief
+			idea_token = SZR_Rezad_Polandaryama
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	SZR_Amid_Giahakhtang={
+		name="Amid Giahakhtang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Amid_Giahakhtang
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SZR_Ahmal_Sandoghoshra={
+		name="Ahmal Sandoghoshra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SZR_Ahmal_Sandoghoshra
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SZR_Mossan_Bolan={
+		name="Mossan Bolan"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Mossan_Bolan
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SZR_Behdi_Polandaryama={
+		name="Behdi Polandaryama"
+
+		advisor={
+			slot = air_chief
+			idea_token = SZR_Behdi_Polandaryama
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SZR_Mossan_Giahakhtang={
+		name="Mossan Giahakhtang"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Mossan_Giahakhtang
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	SZR_Parhahim_Polandaryama={
+		name="Parhahim Polandaryama"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Parhahim_Polandaryama
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SZR_Navehdi_Bolan={
+		name="Navehdi Bolan"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Navehdi_Bolan
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	SZR_Mostafa_Giahakhtang={
+		name="Mostafa Giahakhtang"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Mostafa_Giahakhtang
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SZR_Babak_Hunar={
+		name="Babak Hunar"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Babak_Hunar
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SZR_Parhahim_Giahakhtang={
+		name="Parhahim Giahakhtang"
+
+		advisor={
+			slot = high_command
+			idea_token = SZR_Parhahim_Giahakhtang
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SZR_Kavehza_Pish={
+		name="Kavehza Pish"
+
+		advisor={
+			slot = theorist
+			idea_token = SZR_Kavehza_Pish
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SZR_Babak_Pish={
+		name="Babak Pish"
+
+		advisor={
+			slot = theorist
+			idea_token = SZR_Babak_Pish
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SZR_Omid_Pish={
+		name="Omid Pish"
+
+		advisor={
+			slot = theorist
+			idea_token = SZR_Omid_Pish
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

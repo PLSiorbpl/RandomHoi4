@@ -1,0 +1,880 @@
+characters = {
+	CUD_Varcus_Codus={
+		name="Varcus Codus"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUD_Nonginus_Mentus={
+		name="Nonginus Mentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Nonginus_Mentus
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	CUD_Spuriustus_Auctorus={
+		name="Spuriustus Auctorus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Spuriustus_Auctorus
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CUD_Lucius_Legina={
+		name="Lucius Legina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Lucius_Legina
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	CUD_Remitellius_Avia={
+		name="Remitellius Avia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Remitellius_Avia
+				traits = {	humble 	}
+		}
+
+	}
+	CUD_Hornellius_Mena={
+		name="Hornellius Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Hornellius_Mena
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	CUD_Servius_Fidus={
+		name="Servius Fidus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Servius_Fidus
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	CUD_Remus_Domentus={
+		name="Remus Domentus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Remus_Domentus
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	CUD_Graticus_Auctorus={
+		name="Graticus Auctorus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Graticus_Auctorus
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	CUD_Flaulius_Codus={
+		name="Flaulius Codus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Flaulius_Codus
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	CUD_Vitellius_Legina={
+		name="Vitellius Legina"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Vitellius_Legina
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	CUD_Faudius_Codes={
+		name="Faudius Codes"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Faudius_Codes
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	CUD_Maximus_Codes={
+		name="Maximus Codes"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Maximus_Codes
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	CUD_Faudius_Mena={
+		name="Faudius Mena"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Faudius_Mena
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	CUD_Atticus_Codus={
+		name="Atticus Codus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Atticus_Codus
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	CUD_Hornelius_Mena={
+		name="Hornelius Mena"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Hornelius_Mena
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	CUD_Maximus_Mentus={
+		name="Maximus Mentus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Maximus_Mentus
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	CUD_Servius_Domentus={
+		name="Servius Domentus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Servius_Domentus
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	CUD_Marro_Auctorus={
+		name="Marro Auctorus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Marro_Auctorus
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	CUD_Caius_Fidus={
+		name="Caius Fidus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Caius_Fidus
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	CUD_Nero_Bontudo={
+		name="Nero Bontudo"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Nero_Bontudo
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	CUD_Gemitus_Codes={
+		name="Gemitus Codes"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUD_Vitelianus_Domentus={
+		name="Vitelianus Domentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Vitelianus_Domentus
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	CUD_Antus_Avia={
+		name="Antus Avia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Antus_Avia
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	CUD_Gracchus_Legina={
+		name="Gracchus Legina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Gracchus_Legina
+				traits = {	infirm 	}
+		}
+
+	}
+	CUD_Drus_Bontudo={
+		name="Drus Bontudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Drus_Bontudo
+				traits = {	basileus 	}
+		}
+
+	}
+	CUD_Tracchus_Mena={
+		name="Tracchus Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Tracchus_Mena
+				traits = {	basileus 	}
+		}
+
+	}
+	CUD_Brus_Domentus={
+		name="Brus Domentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Brus_Domentus
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	CUD_Vitelianus_Codes={
+		name="Vitelianus Codes"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Vitelianus_Codes
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CUD_Marcellus_Mentus={
+		name="Marcellus Mentus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Marcellus_Mentus
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	CUD_Vibero_Legina={
+		name="Vibero Legina"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Vibero_Legina
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CUD_Horaticus_Avia={
+		name="Horaticus Avia"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Horaticus_Avia
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	CUD_Vitellius_Auctorus={
+		name="Vitellius Auctorus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Vitellius_Auctorus
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	CUD_Gaiustus_Auctorus={
+		name="Gaiustus Auctorus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Gaiustus_Auctorus
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CUD_Spuriustus_Codus={
+		name="Spuriustus Codus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Spuriustus_Codus
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	CUD_Gemus_Legina={
+		name="Gemus Legina"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Gemus_Legina
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	CUD_Decius_Bontudo={
+		name="Decius Bontudo"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Decius_Bontudo
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	CUD_Paulustus_Auctorus={
+		name="Paulustus Auctorus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Paulustus_Auctorus
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	CUD_Reminus_Avia={
+		name="Reminus Avia"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Reminus_Avia
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CUD_Valervius_Codes={
+		name="Valervius Codes"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Valervius_Codes
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	CUD_Gemitus_Fidus={
+		name="Gemitus Fidus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Gemitus_Fidus
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	CUD_Brus_Legina={
+		name="Brus Legina"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Brus_Legina
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	CUD_Flaulius_Mena={
+		name="Flaulius Mena"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUD_Silvanus_Codus={
+		name="Silvanus Codus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Silvanus_Codus
+				traits = {	polemarch 	}
+		}
+
+	}
+	CUD_Varcus_Auctorus={
+		name="Varcus Auctorus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Varcus_Auctorus
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	CUD_Corneliustus_Fidus={
+		name="Corneliustus Fidus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Corneliustus_Fidus
+				traits = {	polemarch 	}
+		}
+
+	}
+	CUD_Gaius_Mentus={
+		name="Gaius Mentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Gaius_Mentus
+				traits = {	infirm 	}
+		}
+
+	}
+	CUD_Gemus_Auctorus={
+		name="Gemus Auctorus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Gemus_Auctorus
+				traits = {	infirm 	}
+		}
+
+	}
+	CUD_Gemus_Codus={
+		name="Gemus Codus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Gemus_Codus
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	CUD_Remus_Bontudo={
+		name="Remus Bontudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Remus_Bontudo
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	CUD_Domitusus_Codes={
+		name="Domitusus Codes"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Domitusus_Codes
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	CUD_Silvanlianus_Bontudo={
+		name="Silvanlianus Bontudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Silvanlianus_Bontudo
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	CUD_Drus_Avia={
+		name="Drus Avia"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Drus_Avia
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	CUD_Gaiustus_Codus={
+		name="Gaiustus Codus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Gaiustus_Codus
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	CUD_Flaulius_Domentus={
+		name="Flaulius Domentus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Flaulius_Domentus
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	CUD_Paus_Auctorus={
+		name="Paus Auctorus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Paus_Auctorus
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	CUD_Maximus_Auctorus={
+		name="Maximus Auctorus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Maximus_Auctorus
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	CUD_Julus_Bontudo={
+		name="Julus Bontudo"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Julus_Bontudo
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	CUD_Horacchustus_Mentus={
+		name="Horacchustus Mentus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Horacchustus_Mentus
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CUD_Vitellius_Codes={
+		name="Vitellius Codes"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Vitellius_Codes
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	CUD_Vitellius_Avia={
+		name="Vitellius Avia"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Vitellius_Avia
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	CUD_Domintus_Codus={
+		name="Domintus Codus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Domintus_Codus
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	CUD_Gaius_Codes={
+		name="Gaius Codes"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Gaius_Codes
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	CUD_Gemitus_Mentus={
+		name="Gemitus Mentus"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUD_Seriscus_Legina={
+		name="Seriscus Legina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Seriscus_Legina
+				traits = {	the_banker 	}
+		}
+
+	}
+	CUD_Antonius_Codus={
+		name="Antonius Codus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Antonius_Codus
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	CUD_Vibervius_Mena={
+		name="Vibervius Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Vibervius_Mena
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	CUD_Viberius_Bontudo={
+		name="Viberius Bontudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Viberius_Bontudo
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	CUD_Lonius_Avia={
+		name="Lonius Avia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Lonius_Avia
+				traits = {	the_banker 	}
+		}
+
+	}
+	CUD_Brus_Mentus={
+		name="Brus Mentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUD_Brus_Mentus
+				traits = {	the_banker 	}
+		}
+
+	}
+	CUD_Attiusus_Mena={
+		name="Attiusus Mena"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Attiusus_Mena
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	CUD_Silvanus_Auctorus={
+		name="Silvanus Auctorus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Silvanus_Auctorus
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	CUD_Domitusus_Codus={
+		name="Domitusus Codus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Domitusus_Codus
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	CUD_Nero_Fidus={
+		name="Nero Fidus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUD_Nero_Fidus
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	CUD_Lucius_Fidus={
+		name="Lucius Fidus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Lucius_Fidus
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	CUD_Spurius_Mentus={
+		name="Spurius Mentus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUD_Spurius_Mentus
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	CUD_Marro_Fidus={
+		name="Marro Fidus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Marro_Fidus
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	CUD_Atticus_Auctorus={
+		name="Atticus Auctorus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUD_Atticus_Auctorus
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	CUD_Silvanus_Domentus={
+		name="Silvanus Domentus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Silvanus_Domentus
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	CUD_Drus_Codus={
+		name="Drus Codus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Drus_Codus
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	CUD_Atticus_Fidus={
+		name="Atticus Fidus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Atticus_Fidus
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	CUD_Lucius_Mena={
+		name="Lucius Mena"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Lucius_Mena
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	CUD_Varro_Avia={
+		name="Varro Avia"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Varro_Avia
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	CUD_Valervius_Domentus={
+		name="Valervius Domentus"
+
+		advisor={
+			slot = high_command
+			idea_token = CUD_Valervius_Domentus
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	CUD_Silvanus_Mentus={
+		name="Silvanus Mentus"
+
+		advisor={
+			slot = theorist
+			idea_token = CUD_Silvanus_Mentus
+				traits = {	military_theorist 	}
+		}
+
+	}
+	CUD_Brutus_Auctorus={
+		name="Brutus Auctorus"
+
+		advisor={
+			slot = theorist
+			idea_token = CUD_Brutus_Auctorus
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	CUD_Viberius_Codus={
+		name="Viberius Codus"
+
+		advisor={
+			slot = theorist
+			idea_token = CUD_Viberius_Codus
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

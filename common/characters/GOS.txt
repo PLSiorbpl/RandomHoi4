@@ -1,0 +1,880 @@
+characters = {
+	GOS_Amari_Motaba={
+		name="Amari Motaba"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOS_Baka_Soko={
+		name="Baka Soko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Baka_Soko
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GOS_Omari_Motaba={
+		name="Omari Motaba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Omari_Motaba
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GOS_Omari_Pigao={
+		name="Omari Pigao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Omari_Pigao
+				traits = {	headstrong 	}
+		}
+
+	}
+	GOS_Sefu_Rafiku={
+		name="Sefu Rafiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Sefu_Rafiku
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	GOS_Mbwame_Rambaria={
+		name="Mbwame Rambaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Mbwame_Rambaria
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	GOS_Kame_Siria={
+		name="Kame Siria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Kame_Siria
+				traits = {	headstrong 	}
+		}
+
+	}
+	GOS_Omari_Damui={
+		name="Omari Damui"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Omari_Damui
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	GOS_Baraka_Rambaria={
+		name="Baraka Rambaria"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Baraka_Rambaria
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	GOS_Tana_Rambaria={
+		name="Tana Rambaria"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Tana_Rambaria
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GOS_Luba_Akia={
+		name="Luba Akia"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Luba_Akia
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GOS_Kamari_Pigao={
+		name="Kamari Pigao"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Kamari_Pigao
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	GOS_Kwamari_Rambaria={
+		name="Kwamari Rambaria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Kwamari_Rambaria
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	GOS_Shaka_Hati={
+		name="Shaka Hati"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Shaka_Hati
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	GOS_Omari_Mwito={
+		name="Omari Mwito"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Omari_Mwito
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	GOS_Temba_Rambaria={
+		name="Temba Rambaria"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Temba_Rambaria
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	GOS_Amari_Akia={
+		name="Amari Akia"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Amari_Akia
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	GOS_Tanga_Rambaria={
+		name="Tanga Rambaria"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Tanga_Rambaria
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	GOS_Bari_Pigao={
+		name="Bari Pigao"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Bari_Pigao
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	GOS_Omau_Soko={
+		name="Omau Soko"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Omau_Soko
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	GOS_Baka_Rafiku={
+		name="Baka Rafiku"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Baka_Rafiku
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	GOS_Luba_Siria={
+		name="Luba Siria"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOS_Baka_Hati={
+		name="Baka Hati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Baka_Hati
+				traits = {	infirm 	}
+		}
+
+	}
+	GOS_Musa_Damui={
+		name="Musa Damui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Musa_Damui
+				traits = {	generallissimo 	}
+		}
+
+	}
+	GOS_Tano_Damui={
+		name="Tano Damui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Tano_Damui
+				traits = {	infirm 	}
+		}
+
+	}
+	GOS_Lubanga_Rambaria={
+		name="Lubanga Rambaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Lubanga_Rambaria
+				traits = {	infirm 	}
+		}
+
+	}
+	GOS_Sefu_Hati={
+		name="Sefu Hati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Sefu_Hati
+				traits = {	autokrator 	}
+		}
+
+	}
+	GOS_Jumau_Mwito={
+		name="Jumau Mwito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Jumau_Mwito
+				traits = {	warmonger 	}
+		}
+
+	}
+	GOS_Kwano_Siria={
+		name="Kwano Siria"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Kwano_Siria
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GOS_Lubana_Siria={
+		name="Lubana Siria"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Lubana_Siria
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	GOS_Simba_Rafiku={
+		name="Simba Rafiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Simba_Rafiku
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	GOS_Juma_Soko={
+		name="Juma Soko"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Juma_Soko
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	GOS_Bakaraka_Rafiku={
+		name="Bakaraka Rafiku"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Bakaraka_Rafiku
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	GOS_Mbwame_Mwito={
+		name="Mbwame Mwito"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Mbwame_Mwito
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	GOS_Shakari_Rambaria={
+		name="Shakari Rambaria"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Shakari_Rambaria
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	GOS_Jumau_Pigao={
+		name="Jumau Pigao"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Jumau_Pigao
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	GOS_Temba_Siria={
+		name="Temba Siria"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Temba_Siria
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	GOS_Mbwana_Damui={
+		name="Mbwana Damui"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Mbwana_Damui
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	GOS_Amau_Rambaria={
+		name="Amau Rambaria"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Amau_Rambaria
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	GOS_Sefu_Damui={
+		name="Sefu Damui"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Sefu_Damui
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	GOS_Kamari_Siria={
+		name="Kamari Siria"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Kamari_Siria
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	GOS_Shaka_Motaba={
+		name="Shaka Motaba"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Shaka_Motaba
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	GOS_Sefu_Motaba={
+		name="Sefu Motaba"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOS_Barakaraka_Mwito={
+		name="Barakaraka Mwito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Barakaraka_Mwito
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	GOS_Kwame_Damui={
+		name="Kwame Damui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Kwame_Damui
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	GOS_Mbwano_Motaba={
+		name="Mbwano Motaba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Mbwano_Motaba
+				traits = {	polemarch 	}
+		}
+
+	}
+	GOS_Jumau_Hati={
+		name="Jumau Hati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Jumau_Hati
+				traits = {	polemarch 	}
+		}
+
+	}
+	GOS_Musa_Akia={
+		name="Musa Akia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Musa_Akia
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	GOS_Shaka_Siria={
+		name="Shaka Siria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Shaka_Siria
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	GOS_Tanga_Pigao={
+		name="Tanga Pigao"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Tanga_Pigao
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GOS_Tanga_Rafiku={
+		name="Tanga Rafiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Tanga_Rafiku
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GOS_Tano_Rafiku={
+		name="Tano Rafiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Tano_Rafiku
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	GOS_Tano_Pigao={
+		name="Tano Pigao"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Tano_Pigao
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	GOS_Jumau_Rambaria={
+		name="Jumau Rambaria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Jumau_Rambaria
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	GOS_Sefu_Mwito={
+		name="Sefu Mwito"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Sefu_Mwito
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	GOS_Barakaraka_Akia={
+		name="Barakaraka Akia"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Barakaraka_Akia
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	GOS_Tanga_Damui={
+		name="Tanga Damui"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Tanga_Damui
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	GOS_Mbwana_Akia={
+		name="Mbwana Akia"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Mbwana_Akia
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	GOS_Luba_Hati={
+		name="Luba Hati"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Luba_Hati
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	GOS_Baraka_Damui={
+		name="Baraka Damui"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Baraka_Damui
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	GOS_Tana_Soko={
+		name="Tana Soko"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Tana_Soko
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	GOS_Baka_Mwito={
+		name="Baka Mwito"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Baka_Mwito
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	GOS_Mbwana_Rafiku={
+		name="Mbwana Rafiku"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Mbwana_Rafiku
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	GOS_Chidi_Akia={
+		name="Chidi Akia"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GOS_Shaka_Soko={
+		name="Shaka Soko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Shaka_Soko
+				traits = {	infirm 	}
+		}
+
+	}
+	GOS_Barakaraka_Rafiku={
+		name="Barakaraka Rafiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Barakaraka_Rafiku
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	GOS_Kame_Akia={
+		name="Kame Akia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Kame_Akia
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	GOS_Taji_Siria={
+		name="Taji Siria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Taji_Siria
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	GOS_Musa_Rambaria={
+		name="Musa Rambaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Musa_Rambaria
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	GOS_Amari_Rambaria={
+		name="Amari Rambaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GOS_Amari_Rambaria
+				traits = {	rearmer 	}
+		}
+
+	}
+	GOS_Nuru_Hati={
+		name="Nuru Hati"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Nuru_Hati
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	GOS_Musa_Soko={
+		name="Musa Soko"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Musa_Soko
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	GOS_Amari_Damui={
+		name="Amari Damui"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Amari_Damui
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	GOS_Mbwano_Rambaria={
+		name="Mbwano Rambaria"
+
+		advisor={
+			slot = army_chief
+			idea_token = GOS_Mbwano_Rambaria
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	GOS_Mbwamari_Hati={
+		name="Mbwamari Hati"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Mbwamari_Hati
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	GOS_Mbwamari_Motaba={
+		name="Mbwamari Motaba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GOS_Mbwamari_Motaba
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	GOS_Mbwana_Siria={
+		name="Mbwana Siria"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Mbwana_Siria
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	GOS_Kato_Motaba={
+		name="Kato Motaba"
+
+		advisor={
+			slot = air_chief
+			idea_token = GOS_Kato_Motaba
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	GOS_Tana_Mwito={
+		name="Tana Mwito"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Tana_Mwito
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	GOS_Amau_Soko={
+		name="Amau Soko"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Amau_Soko
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	GOS_Tanga_Akia={
+		name="Tanga Akia"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Tanga_Akia
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	GOS_Kame_Rafiku={
+		name="Kame Rafiku"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Kame_Rafiku
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	GOS_Kwano_Rambaria={
+		name="Kwano Rambaria"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Kwano_Rambaria
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	GOS_Tano_Soko={
+		name="Tano Soko"
+
+		advisor={
+			slot = high_command
+			idea_token = GOS_Tano_Soko
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	GOS_Barakaraka_Siria={
+		name="Barakaraka Siria"
+
+		advisor={
+			slot = theorist
+			idea_token = GOS_Barakaraka_Siria
+				traits = {	military_theorist 	}
+		}
+
+	}
+	GOS_Luba_Pigao={
+		name="Luba Pigao"
+
+		advisor={
+			slot = theorist
+			idea_token = GOS_Luba_Pigao
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	GOS_Mbwano_Pigao={
+		name="Mbwano Pigao"
+
+		advisor={
+			slot = theorist
+			idea_token = GOS_Mbwano_Pigao
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

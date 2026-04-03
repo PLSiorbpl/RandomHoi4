@@ -1,0 +1,880 @@
+characters = {
+	MLK_Publius_Aniverbis={
+		name="Publius Aniverbis"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MLK_Graius_Arbor={
+		name="Graius Arbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Graius_Arbor
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MLK_Silvanus_Aniverbis={
+		name="Silvanus Aniverbis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Silvanus_Aniverbis
+				traits = {	headstrong 	}
+		}
+
+	}
+	MLK_Otho_Equa={
+		name="Otho Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Otho_Equa
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MLK_Viberiscus_Celerrus={
+		name="Viberiscus Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Viberiscus_Celerrus
+				traits = {	headstrong 	}
+		}
+
+	}
+	MLK_Priscus_Insum={
+		name="Priscus Insum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Priscus_Insum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MLK_Silvanus_Otium={
+		name="Silvanus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Silvanus_Otium
+				traits = {	headstrong 	}
+		}
+
+	}
+	MLK_Aulus_Strum={
+		name="Aulus Strum"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Aulus_Strum
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MLK_Gaianus_Arbor={
+		name="Gaianus Arbor"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Gaianus_Arbor
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MLK_Paulus_Poetorum={
+		name="Paulus Poetorum"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Paulus_Poetorum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MLK_Cornellius_Equa={
+		name="Cornellius Equa"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Cornellius_Equa
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MLK_Maximus_Poetorum={
+		name="Maximus Poetorum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Maximus_Poetorum
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MLK_Servius_Strum={
+		name="Servius Strum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Servius_Strum
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MLK_Brus_Feris={
+		name="Brus Feris"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Brus_Feris
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MLK_Paudius_Insum={
+		name="Paudius Insum"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Paudius_Insum
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MLK_Nervius_Aniverbis={
+		name="Nervius Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = _Nervius_Aniverbis
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	MLK_Severiscus_Aniverbis={
+		name="Severiscus Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = _Severiscus_Aniverbis
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	MLK_Vibervius_Celerrus={
+		name="Vibervius Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = _Vibervius_Celerrus
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	MLK_Otho_Feris={
+		name="Otho Feris"
+
+		advisor={
+			slot = high_command
+			idea_token = _Otho_Feris
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	MLK_Noniustus_Insum={
+		name="Noniustus Insum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Noniustus_Insum
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	MLK_Serius_Arbor={
+		name="Serius Arbor"
+
+		advisor={
+			slot = high_command
+			idea_token = _Serius_Arbor
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	MLK_Marcellianus_Celerrus={
+		name="Marcellianus Celerrus"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MLK_Horacchustus_Arbor={
+		name="Horacchustus Arbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Horacchustus_Arbor
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	MLK_Valerutus_Poetorum={
+		name="Valerutus Poetorum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Valerutus_Poetorum
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	MLK_Tracchus_Insum={
+		name="Tracchus Insum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Tracchus_Insum
+				traits = {	basileus 	}
+		}
+
+	}
+	MLK_Augulius_Aniverbis={
+		name="Augulius Aniverbis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Augulius_Aniverbis
+				traits = {	warmonger 	}
+		}
+
+	}
+	MLK_Paus_Celerrus={
+		name="Paus Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Paus_Celerrus
+				traits = {	warmonger 	}
+		}
+
+	}
+	MLK_Remitius_Otium={
+		name="Remitius Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Remitius_Otium
+				traits = {	warmonger 	}
+		}
+
+	}
+	MLK_Remitellianl_Malus={
+		name="Remitellianl Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Remitellianl_Malus
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MLK_Caianustus_Otium={
+		name="Caianustus Otium"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Caianustus_Otium
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MLK_Servius_Otium={
+		name="Servius Otium"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Servius_Otium
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MLK_Scaevolaudiu_Equa={
+		name="Scaevolaudiu Equa"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Scaevolaudiu_Equa
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MLK_Priscustus_Strum={
+		name="Priscustus Strum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Priscustus_Strum
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	MLK_Priscus_Otium={
+		name="Priscus Otium"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Priscus_Otium
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	MLK_Vibervius_Poetorum={
+		name="Vibervius Poetorum"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Vibervius_Poetorum
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	MLK_Titius_Aniverbis={
+		name="Titius Aniverbis"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Titius_Aniverbis
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MLK_Antonius_Strum={
+		name="Antonius Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Antonius_Strum
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	MLK_Valerutus_Celerrus={
+		name="Valerutus Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = _Valerutus_Celerrus
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	MLK_Brus_Poetorum={
+		name="Brus Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Brus_Poetorum
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MLK_Antonius_Otium={
+		name="Antonius Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = _Antonius_Otium
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MLK_Brus_Celerrus={
+		name="Brus Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = _Brus_Celerrus
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MLK_Clavius_Aniverbis={
+		name="Clavius Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = _Clavius_Aniverbis
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MLK_Coracchus_Insum={
+		name="Coracchus Insum"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MLK_Caianustus_Equa={
+		name="Caianustus Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Caianustus_Equa
+				traits = {	polemarch 	}
+		}
+
+	}
+	MLK_Augulius_Celerrus={
+		name="Augulius Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Augulius_Celerrus
+				traits = {	infirm 	}
+		}
+
+	}
+	MLK_Varcus_Malus={
+		name="Varcus Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Varcus_Malus
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MLK_Clavius_Arbor={
+		name="Clavius Arbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Clavius_Arbor
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MLK_Tracchus_Malus={
+		name="Tracchus Malus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Tracchus_Malus
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MLK_Scaevolavius_Celerrus={
+		name="Scaevolavius Celerrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Scaevolavius_Celerrus
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MLK_Fabiusus_Insum={
+		name="Fabiusus Insum"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Fabiusus_Insum
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MLK_Caianustus_Malus={
+		name="Caianustus Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Caianustus_Malus
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MLK_Clavius_Malus={
+		name="Clavius Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Clavius_Malus
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	MLK_Urbanlius_Otium={
+		name="Urbanlius Otium"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Urbanlius_Otium
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MLK_Lucius_Strum={
+		name="Lucius Strum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Lucius_Strum
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MLK_Graius_Feris={
+		name="Graius Feris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Graius_Feris
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	MLK_Lonius_Feris={
+		name="Lonius Feris"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Lonius_Feris
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	MLK_Lucius_Equa={
+		name="Lucius Equa"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Lucius_Equa
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MLK_Cassius_Poetorum={
+		name="Cassius Poetorum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Cassius_Poetorum
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	MLK_Traius_Aniverbis={
+		name="Traius Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = _Traius_Aniverbis
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	MLK_Horacchustus_Strum={
+		name="Horacchustus Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Horacchustus_Strum
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	MLK_Remitellianl_Otium={
+		name="Remitellianl Otium"
+
+		advisor={
+			slot = high_command
+			idea_token = _Remitellianl_Otium
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MLK_Gaianus_Aniverbis={
+		name="Gaianus Aniverbis"
+
+		advisor={
+			slot = high_command
+			idea_token = _Gaianus_Aniverbis
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	MLK_Aulus_Celerrus={
+		name="Aulus Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = _Aulus_Celerrus
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	MLK_Silvanus_Strum={
+		name="Silvanus Strum"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MLK_Valerus_Otium={
+		name="Valerus Otium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Valerus_Otium
+				traits = {	the_banker 	}
+		}
+
+	}
+	MLK_Scaevolavius_Strum={
+		name="Scaevolavius Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Scaevolavius_Strum
+				traits = {	rearmer 	}
+		}
+
+	}
+	MLK_Nervius_Feris={
+		name="Nervius Feris"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Nervius_Feris
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MLK_Priscustus_Arbor={
+		name="Priscustus Arbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Priscustus_Arbor
+				traits = {	first_lady 	}
+		}
+
+	}
+	MLK_Lonius_Equa={
+		name="Lonius Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Lonius_Equa
+				traits = {	rearmer 	}
+		}
+
+	}
+	MLK_Aulus_Equa={
+		name="Aulus Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = _Aulus_Equa
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	MLK_Maximus_Strum={
+		name="Maximus Strum"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Maximus_Strum
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	MLK_Remus_Insum={
+		name="Remus Insum"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Remus_Insum
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MLK_Brus_Malus={
+		name="Brus Malus"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Brus_Malus
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MLK_Coracchus_Feris={
+		name="Coracchus Feris"
+
+		advisor={
+			slot = army_chief
+			idea_token = _Coracchus_Feris
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MLK_Priscus_Aniverbis={
+		name="Priscus Aniverbis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Priscus_Aniverbis
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	MLK_Domitellus_Equa={
+		name="Domitellus Equa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = _Domitellus_Equa
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MLK_Valerus_Strum={
+		name="Valerus Strum"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Valerus_Strum
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	MLK_Livius_Celerrus={
+		name="Livius Celerrus"
+
+		advisor={
+			slot = air_chief
+			idea_token = _Livius_Celerrus
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MLK_Livius_Equa={
+		name="Livius Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = _Livius_Equa
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	MLK_Attius_Celerrus={
+		name="Attius Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = _Attius_Celerrus
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MLK_Coracchus_Celerrus={
+		name="Coracchus Celerrus"
+
+		advisor={
+			slot = high_command
+			idea_token = _Coracchus_Celerrus
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	MLK_Fabius_Insum={
+		name="Fabius Insum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Fabius_Insum
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	MLK_Maximustus_Strum={
+		name="Maximustus Strum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Maximustus_Strum
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	MLK_Lonius_Insum={
+		name="Lonius Insum"
+
+		advisor={
+			slot = high_command
+			idea_token = _Lonius_Insum
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	MLK_Quinus_Equa={
+		name="Quinus Equa"
+
+		advisor={
+			slot = theorist
+			idea_token = _Quinus_Equa
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MLK_Prius_Equa={
+		name="Prius Equa"
+
+		advisor={
+			slot = theorist
+			idea_token = _Prius_Equa
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MLK_Vibervius_Malus={
+		name="Vibervius Malus"
+
+		advisor={
+			slot = theorist
+			idea_token = _Vibervius_Malus
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

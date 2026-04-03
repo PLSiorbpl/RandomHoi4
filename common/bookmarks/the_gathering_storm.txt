@@ -5,17 +5,26 @@ bookmarks = {
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default = yes
+		default_country = KAW
 		
 		
-		IKA={
-			history = "Donosy_GATHERING_STORM_DESC"
+		PRZ={
+			history = "Proszowice_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		ZAP={
+		KAW={
+			history = "KW_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		CHS={
 			history = "Chruszczyna_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -25,7 +34,7 @@ bookmarks = {
 		}
 		KOB={
 			history = "Kobylniki_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
@@ -34,6 +43,22 @@ bookmarks = {
 		PRO={
 			history = "Probolowice_GATHERING_STORM_DESC"
 			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MLK={
+			history = "Malkowice_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		IKA = {
+			history = "Donosy_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {

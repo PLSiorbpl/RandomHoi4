@@ -1,4 +1,4 @@
-capital = 63
+capital = 23
 
 oob = "KOB_1936"
 if = {
@@ -734,7 +734,7 @@ if = {
 	}
 
 
-recruit_character = KOB_Ekchak_Sotzik
+recruit_character = KOB_Stanislaw_P
 recruit_character = KOB_Nacab_Imox
 recruit_character = KOB_Pakal_Xbahlampakbe
 recruit_character = KOB_Ekchua_Imox
@@ -843,10 +843,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 40
-	fascism = 10
-	communism = 30
-	neutrality = 20
+	democratic = 85
+	fascism = 0
+	communism = 5
+	neutrality = 10
 }
 
 

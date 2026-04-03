@@ -1,0 +1,153 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			maintenance_company = {  x = 1 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+		
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Insariberba' Militia Division"
+		location = 9192
+		division_template = "Militia Division"
+		start_experience_factor = 0.127000
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Daraji' Militia Division"
+		location = 9215
+		division_template = "Militia Division"
+		start_experience_factor = 0.308245
+		start_equipment_factor = 0.991500
+	}
+	division= {
+		name = "2rd 'Poetorum' Militia Division"
+		location = 4907
+		division_template = "Militia Division"
+		start_experience_factor = 0.228546
+		start_equipment_factor = 0.979861
+	}
+	division= {
+		name = "3th 'Poetorum' Militia Division"
+		location = 7431
+		division_template = "Militia Division"
+		start_experience_factor = 0.076197
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Lacus' Infantry Division"
+		location = 6247
+		division_template = "Infantry Division"
+		start_experience_factor = 0.520933
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1nd 'Malus' Infantry Division"
+		location = 5098
+		division_template = "Infantry Division"
+		start_experience_factor = 0.611228
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2rd 'Poetorum' Infantry Division"
+		location = 7428
+		division_template = "Infantry Division"
+		start_experience_factor = 0.889188
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Kishi' Supported Infantry Division"
+		location = 10431
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.695570
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "0st 'Poetorum' Cavalry Division"
+		location = 6468
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.093706
+		start_equipment_factor = 0.983988
+	}
+	division= {
+		name = "1nd 'Daraji' Cavalry Division"
+		location = 9221
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.714790
+		start_equipment_factor = 1.000000
+	}
+
+}

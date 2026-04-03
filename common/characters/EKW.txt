@@ -1,0 +1,880 @@
+characters = {
+	EKW_Cialcolm_Lorg={
+		name="Cialcolm Lorg"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKW_Niam_Buac={
+		name="Niam Buac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Niam_Buac
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	EKW_Nialcolm_Buac={
+		name="Nialcolm Buac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Nialcolm_Buac
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	EKW_Ciall_Lorg={
+		name="Ciall Lorg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Ciall_Lorg
+				traits = {	headstrong 	}
+		}
+
+	}
+	EKW_Rhys_Buathas={
+		name="Rhys Buathas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Rhys_Buathas
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	EKW_Iwan_Clamhas={
+		name="Iwan Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Iwan_Clamhas
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	EKW_Owen_Buathas={
+		name="Owen Buathas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Owen_Buathas
+				traits = {	humble 	}
+		}
+
+	}
+	EKW_Ciaran_Seart={
+		name="Ciaran Seart"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Ciaran_Seart
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	EKW_Hugh_Buathas={
+		name="Hugh Buathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Hugh_Buathas
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	EKW_Quinn_Greac={
+		name="Quinn Greac"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Quinn_Greac
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	EKW_Owen_Gean={
+		name="Owen Gean"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Owen_Gean
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	EKW_Declan_Seart={
+		name="Declan Seart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Declan_Seart
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	EKW_Padraig_Clamhas={
+		name="Padraig Clamhas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Padraig_Clamhas
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	EKW_Ciaran_Breilinas={
+		name="Ciaran Breilinas"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Ciaran_Breilinas
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	EKW_Niam_Greac={
+		name="Niam Greac"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Niam_Greac
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	EKW_Keiran_Lorg={
+		name="Keiran Lorg"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Keiran_Lorg
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	EKW_Bran_Buac={
+		name="Bran Buac"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Bran_Buac
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	EKW_Malcolm_Lorg={
+		name="Malcolm Lorg"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Malcolm_Lorg
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	EKW_Mall_Lorg={
+		name="Mall Lorg"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Mall_Lorg
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	EKW_Ciaran_Clamhas={
+		name="Ciaran Clamhas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Ciaran_Clamhas
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	EKW_Fergus_Seart={
+		name="Fergus Seart"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Fergus_Seart
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	EKW_Quinn_Clamhas={
+		name="Quinn Clamhas"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKW_Aidan_Buac={
+		name="Aidan Buac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Aidan_Buac
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EKW_Niam_Athas={
+		name="Niam Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Niam_Athas
+				traits = {	generallissimo 	}
+		}
+
+	}
+	EKW_Owen_Tuarnadhaill={
+		name="Owen Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Owen_Tuarnadhaill
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	EKW_Ulrich_Athas={
+		name="Ulrich Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Ulrich_Athas
+				traits = {	warmonger 	}
+		}
+
+	}
+	EKW_Niam_Tuarnadhaill={
+		name="Niam Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Niam_Tuarnadhaill
+				traits = {	polemarch 	}
+		}
+
+	}
+	EKW_Quinn_Seart={
+		name="Quinn Seart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Quinn_Seart
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	EKW_Eoin_Tuarnadhaill={
+		name="Eoin Tuarnadhaill"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Eoin_Tuarnadhaill
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	EKW_Niam_Breilinas={
+		name="Niam Breilinas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Niam_Breilinas
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	EKW_Rhys_Gean={
+		name="Rhys Gean"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Rhys_Gean
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	EKW_Niareth_Buathas={
+		name="Niareth Buathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Niareth_Buathas
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	EKW_Eoin_Athas={
+		name="Eoin Athas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Eoin_Athas
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	EKW_Ulrich_Greac={
+		name="Ulrich Greac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Ulrich_Greac
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	EKW_Malcolm_Tuarnadhaill={
+		name="Malcolm Tuarnadhaill"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Malcolm_Tuarnadhaill
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	EKW_Mall_Greac={
+		name="Mall Greac"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Mall_Greac
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	EKW_Cialcolm_Buathas={
+		name="Cialcolm Buathas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Cialcolm_Buathas
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	EKW_Braig_Lorg={
+		name="Braig Lorg"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Braig_Lorg
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	EKW_Malcolm_Breilinas={
+		name="Malcolm Breilinas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Malcolm_Breilinas
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	EKW_Declan_Athas={
+		name="Declan Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Declan_Athas
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	EKW_Owen_Breilinas={
+		name="Owen Breilinas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Owen_Breilinas
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	EKW_Ulrich_Gean={
+		name="Ulrich Gean"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Ulrich_Gean
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	EKW_Fergus_Tuarnadhaill={
+		name="Fergus Tuarnadhaill"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKW_Niareth_Tuarnadhaill={
+		name="Niareth Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Niareth_Tuarnadhaill
+				traits = {	infirm 	}
+		}
+
+	}
+	EKW_Braig_Athas={
+		name="Braig Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Braig_Athas
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EKW_Padraig_Tuarnadhaill={
+		name="Padraig Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Padraig_Tuarnadhaill
+				traits = {	polemarch 	}
+		}
+
+	}
+	EKW_Quinn_Athas={
+		name="Quinn Athas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Quinn_Athas
+				traits = {	polemarch 	}
+		}
+
+	}
+	EKW_Eoin_Breilinas={
+		name="Eoin Breilinas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Eoin_Breilinas
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	EKW_Seam_Clamhas={
+		name="Seam Clamhas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Seam_Clamhas
+				traits = {	polemarch 	}
+		}
+
+	}
+	EKW_Eoinn_Lorg={
+		name="Eoinn Lorg"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Eoinn_Lorg
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	EKW_Ciam_Lorg={
+		name="Ciam Lorg"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Ciam_Lorg
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	EKW_Seam_Lorg={
+		name="Seam Lorg"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Seam_Lorg
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	EKW_Eoinn_Breilinas={
+		name="Eoinn Breilinas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Eoinn_Breilinas
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	EKW_Eoin_Lorg={
+		name="Eoin Lorg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Eoin_Lorg
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	EKW_Nialcolm_Buathas={
+		name="Nialcolm Buathas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Nialcolm_Buathas
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	EKW_Eoin_Clamhas={
+		name="Eoin Clamhas"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Eoin_Clamhas
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	EKW_Quinn_Gean={
+		name="Quinn Gean"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Quinn_Gean
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	EKW_Cialcolm_Greac={
+		name="Cialcolm Greac"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Cialcolm_Greac
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	EKW_Rhys_Clamhas={
+		name="Rhys Clamhas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Rhys_Clamhas
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	EKW_Seamus_Tuarnadhaill={
+		name="Seamus Tuarnadhaill"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Seamus_Tuarnadhaill
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	EKW_Aidan_Breilinas={
+		name="Aidan Breilinas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Aidan_Breilinas
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	EKW_Seamus_Gean={
+		name="Seamus Gean"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Seamus_Gean
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	EKW_Seamus_Buathas={
+		name="Seamus Buathas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Seamus_Buathas
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	EKW_Owen_Lorg={
+		name="Owen Lorg"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	EKW_Liamus_Greac={
+		name="Liamus Greac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Liamus_Greac
+				traits = {	first_lady 	}
+		}
+
+	}
+	EKW_Aidan_Tuarnadhaill={
+		name="Aidan Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Aidan_Tuarnadhaill
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	EKW_Garan_Tuarnadhaill={
+		name="Garan Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Garan_Tuarnadhaill
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	EKW_Mall_Buathas={
+		name="Mall Buathas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Mall_Buathas
+				traits = {	rearmer 	}
+		}
+
+	}
+	EKW_Padran_Tuarnadhaill={
+		name="Padran Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Padran_Tuarnadhaill
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	EKW_Quin_Tuarnadhaill={
+		name="Quin Tuarnadhaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = EKW_Quin_Tuarnadhaill
+				traits = {	the_banker 	}
+		}
+
+	}
+	EKW_Aidan_Athas={
+		name="Aidan Athas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Aidan_Athas
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	EKW_Keiran_Buathas={
+		name="Keiran Buathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Keiran_Buathas
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	EKW_Cialcolm_Athas={
+		name="Cialcolm Athas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Cialcolm_Athas
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	EKW_Iwan_Buathas={
+		name="Iwan Buathas"
+
+		advisor={
+			slot = army_chief
+			idea_token = EKW_Iwan_Buathas
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	EKW_Liall_Buathas={
+		name="Liall Buathas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Liall_Buathas
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	EKW_Mall_Buac={
+		name="Mall Buac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = EKW_Mall_Buac
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	EKW_Garan_Greac={
+		name="Garan Greac"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Garan_Greac
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	EKW_Malcolm_Athas={
+		name="Malcolm Athas"
+
+		advisor={
+			slot = air_chief
+			idea_token = EKW_Malcolm_Athas
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	EKW_Niareth_Gean={
+		name="Niareth Gean"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Niareth_Gean
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	EKW_Owen_Athas={
+		name="Owen Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Owen_Athas
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	EKW_Keiran_Clamhas={
+		name="Keiran Clamhas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Keiran_Clamhas
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	EKW_Ciam_Athas={
+		name="Ciam Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Ciam_Athas
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	EKW_Liamus_Athas={
+		name="Liamus Athas"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Liamus_Athas
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	EKW_Quinn_Tuarnadhaill={
+		name="Quinn Tuarnadhaill"
+
+		advisor={
+			slot = high_command
+			idea_token = EKW_Quinn_Tuarnadhaill
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	EKW_Niareth_Breilinas={
+		name="Niareth Breilinas"
+
+		advisor={
+			slot = theorist
+			idea_token = EKW_Niareth_Breilinas
+				traits = {	military_theorist 	}
+		}
+
+	}
+	EKW_Nialcolm_Seart={
+		name="Nialcolm Seart"
+
+		advisor={
+			slot = theorist
+			idea_token = EKW_Nialcolm_Seart
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	EKW_Declan_Greac={
+		name="Declan Greac"
+
+		advisor={
+			slot = theorist
+			idea_token = EKW_Declan_Greac
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

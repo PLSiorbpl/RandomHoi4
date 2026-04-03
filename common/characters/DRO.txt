@@ -1,0 +1,880 @@
+characters = {
+	DRO_Hassan_Tangoz={
+		name="Hassan Tangoz"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRO_Shahimal_Zarfang={
+		name="Shahimal Zarfang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Shahimal_Zarfang
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	DRO_Behdi_Gamrak={
+		name="Behdi Gamrak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Behdi_Gamrak
+				traits = {	humble 	}
+		}
+
+	}
+	DRO_Kaveh_Gamrak={
+		name="Kaveh Gamrak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Kaveh_Gamrak
+				traits = {	headstrong 	}
+		}
+
+	}
+	DRO_Omir_Gamrak={
+		name="Omir Gamrak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Omir_Gamrak
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	DRO_Babak_Atargar={
+		name="Babak Atargar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Babak_Atargar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	DRO_Peymal_Hunargoofaq={
+		name="Peymal Hunargoofaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Peymal_Hunargoofaq
+				traits = {	humble 	}
+		}
+
+	}
+	DRO_Farhaman_Tangoz={
+		name="Farhaman Tangoz"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Farhaman_Tangoz
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	DRO_Kavehdi_Setar={
+		name="Kavehdi Setar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Kavehdi_Setar
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DRO_Kavehza_Tangoz={
+		name="Kavehza Tangoz"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Kavehza_Tangoz
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DRO_Hossein_Atargar={
+		name="Hossein Atargar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Hossein_Atargar
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	DRO_Hossein_Hunargoofaq={
+		name="Hossein Hunargoofaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Hossein_Hunargoofaq
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	DRO_Kavehza_Hunargoofaq={
+		name="Kavehza Hunargoofaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Kavehza_Hunargoofaq
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	DRO_Omir_Rood={
+		name="Omir Rood"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Omir_Rood
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	DRO_Kavid_Setar={
+		name="Kavid Setar"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Kavid_Setar
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	DRO_Hassein_Neshghalab={
+		name="Hassein Neshghalab"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Hassein_Neshghalab
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	DRO_Parhaman_Atargar={
+		name="Parhaman Atargar"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Parhaman_Atargar
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	DRO_Parham_Nash={
+		name="Parham Nash"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Parham_Nash
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	DRO_Amin_Gamrak={
+		name="Amin Gamrak"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Amin_Gamrak
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	DRO_Shamal_Tangoz={
+		name="Shamal Tangoz"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Shamal_Tangoz
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	DRO_Navid_Nash={
+		name="Navid Nash"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Navid_Nash
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	DRO_Rezad_Tangoz={
+		name="Rezad Tangoz"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRO_Mehza_Setar={
+		name="Mehza Setar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Mehza_Setar
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	DRO_Kamir_Tangoz={
+		name="Kamir Tangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Kamir_Tangoz
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DRO_Shahim_Hunargoofaq={
+		name="Shahim Hunargoofaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Shahim_Hunargoofaq
+				traits = {	generallissimo 	}
+		}
+
+	}
+	DRO_Ebrahim_Shil={
+		name="Ebrahim Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Ebrahim_Shil
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	DRO_Rezad_Nash={
+		name="Rezad Nash"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Rezad_Nash
+				traits = {	autokrator 	}
+		}
+
+	}
+	DRO_Majid_Shil={
+		name="Majid Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Majid_Shil
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	DRO_Saeed_Zarfang={
+		name="Saeed Zarfang"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Saeed_Zarfang
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	DRO_Shad_Zarfang={
+		name="Shad Zarfang"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Shad_Zarfang
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	DRO_Parham_Setar={
+		name="Parham Setar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Parham_Setar
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	DRO_Peymad_Gamrak={
+		name="Peymad Gamrak"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Peymad_Gamrak
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DRO_Hossein_Tangoz={
+		name="Hossein Tangoz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Hossein_Tangoz
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	DRO_Ebrahim_Atargar={
+		name="Ebrahim Atargar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Ebrahim_Atargar
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	DRO_Omir_Zarfang={
+		name="Omir Zarfang"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Omir_Zarfang
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DRO_Rezad_Neshghalab={
+		name="Rezad Neshghalab"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Rezad_Neshghalab
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	DRO_Mehza_Neshghalab={
+		name="Mehza Neshghalab"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Mehza_Neshghalab
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	DRO_Arman_Shil={
+		name="Arman Shil"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Arman_Shil
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	DRO_Mossein_Nash={
+		name="Mossein Nash"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Mossein_Nash
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	DRO_Mehdi_Gamrak={
+		name="Mehdi Gamrak"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Mehdi_Gamrak
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	DRO_Peyman_Gamrak={
+		name="Peyman Gamrak"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Peyman_Gamrak
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	DRO_Parham_Neshghalab={
+		name="Parham Neshghalab"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Parham_Neshghalab
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	DRO_Milad_Gamrak={
+		name="Milad Gamrak"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRO_Hassein_Atargar={
+		name="Hassein Atargar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Hassein_Atargar
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DRO_Kaveh_Shil={
+		name="Kaveh Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Kaveh_Shil
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DRO_Rezad_Zarfang={
+		name="Rezad Zarfang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Rezad_Zarfang
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DRO_Shad_Tangoz={
+		name="Shad Tangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Shad_Tangoz
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DRO_Mehdi_Tangoz={
+		name="Mehdi Tangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Mehdi_Tangoz
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DRO_Shad_Setar={
+		name="Shad Setar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Shad_Setar
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DRO_Hassein_Hunargoofaq={
+		name="Hassein Hunargoofaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Hassein_Hunargoofaq
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	DRO_Majid_Nash={
+		name="Majid Nash"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Majid_Nash
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	DRO_Saeed_Shil={
+		name="Saeed Shil"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Saeed_Shil
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DRO_Ebramir_Nash={
+		name="Ebramir Nash"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Ebramir_Nash
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	DRO_Farhahima_Shil={
+		name="Farhahima Shil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Farhahima_Shil
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	DRO_Rezad_Gamrak={
+		name="Rezad Gamrak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Rezad_Gamrak
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	DRO_Mostafa_Setar={
+		name="Mostafa Setar"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Mostafa_Setar
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	DRO_Amin_Zarfang={
+		name="Amin Zarfang"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Amin_Zarfang
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	DRO_Ebrahim_Gamrak={
+		name="Ebrahim Gamrak"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Ebrahim_Gamrak
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	DRO_Hossein_Shil={
+		name="Hossein Shil"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Hossein_Shil
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DRO_Shahimal_Atargar={
+		name="Shahimal Atargar"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Shahimal_Atargar
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	DRO_Mossein_Hunargoofaq={
+		name="Mossein Hunargoofaq"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Mossein_Hunargoofaq
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DRO_Armad_Atargar={
+		name="Armad Atargar"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Armad_Atargar
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	DRO_Saeed_Hunargoofaq={
+		name="Saeed Hunargoofaq"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Saeed_Hunargoofaq
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	DRO_Naveh_Nash={
+		name="Naveh Nash"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DRO_Hostafa_Tangoz={
+		name="Hostafa Tangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Hostafa_Tangoz
+				traits = {	rearmer 	}
+		}
+
+	}
+	DRO_Peymal_Neshghalab={
+		name="Peymal Neshghalab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Peymal_Neshghalab
+				traits = {	rearmer 	}
+		}
+
+	}
+	DRO_Farhahima_Rood={
+		name="Farhahima Rood"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Farhahima_Rood
+				traits = {	the_banker 	}
+		}
+
+	}
+	DRO_Kamir_Shil={
+		name="Kamir Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Kamir_Shil
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	DRO_Hostafa_Nash={
+		name="Hostafa Nash"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Hostafa_Nash
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	DRO_Omid_Nash={
+		name="Omid Nash"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DRO_Omid_Nash
+				traits = {	the_banker 	}
+		}
+
+	}
+	DRO_Parhaman_Zarfang={
+		name="Parhaman Zarfang"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Parhaman_Zarfang
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DRO_Ebramir_Rood={
+		name="Ebramir Rood"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Ebramir_Rood
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	DRO_Peymad_Neshghalab={
+		name="Peymad Neshghalab"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Peymad_Neshghalab
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	DRO_Kamid_Gamrak={
+		name="Kamid Gamrak"
+
+		advisor={
+			slot = army_chief
+			idea_token = DRO_Kamid_Gamrak
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	DRO_Kamid_Hunargoofaq={
+		name="Kamid Hunargoofaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Kamid_Hunargoofaq
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	DRO_Hassan_Nash={
+		name="Hassan Nash"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DRO_Hassan_Nash
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	DRO_Parhamid_Setar={
+		name="Parhamid Setar"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Parhamid_Setar
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DRO_Ebramir_Neshghalab={
+		name="Ebramir Neshghalab"
+
+		advisor={
+			slot = air_chief
+			idea_token = DRO_Ebramir_Neshghalab
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	DRO_Hassan_Gamrak={
+		name="Hassan Gamrak"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Hassan_Gamrak
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	DRO_Kavehza_Zarfang={
+		name="Kavehza Zarfang"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Kavehza_Zarfang
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	DRO_Hossan_Atargar={
+		name="Hossan Atargar"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Hossan_Atargar
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	DRO_Parhad_Atargar={
+		name="Parhad Atargar"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Parhad_Atargar
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	DRO_Arman_Atargar={
+		name="Arman Atargar"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Arman_Atargar
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	DRO_Naveh_Hunargoofaq={
+		name="Naveh Hunargoofaq"
+
+		advisor={
+			slot = high_command
+			idea_token = DRO_Naveh_Hunargoofaq
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	DRO_Omir_Tangoz={
+		name="Omir Tangoz"
+
+		advisor={
+			slot = theorist
+			idea_token = DRO_Omir_Tangoz
+				traits = {	military_theorist 	}
+		}
+
+	}
+	DRO_Shahimal_Gamrak={
+		name="Shahimal Gamrak"
+
+		advisor={
+			slot = theorist
+			idea_token = DRO_Shahimal_Gamrak
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	DRO_Mehdi_Shil={
+		name="Mehdi Shil"
+
+		advisor={
+			slot = theorist
+			idea_token = DRO_Mehdi_Shil
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

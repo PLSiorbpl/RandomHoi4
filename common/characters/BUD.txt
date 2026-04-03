@@ -1,0 +1,880 @@
+characters = {
+	BUD_Farhahraman_Mahad={
+		name="Farhahraman Mahad"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUD_Rezad_Giahveh={
+		name="Rezad Giahveh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Rezad_Giahveh
+				traits = {	headstrong 	}
+		}
+
+	}
+	BUD_Ebram_Mahad={
+		name="Ebram Mahad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Ebram_Mahad
+				traits = {	humble 	}
+		}
+
+	}
+	BUD_Peyma_Hunarangoz={
+		name="Peyma Hunarangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Peyma_Hunarangoz
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	BUD_Parhamid_Hunarangoz={
+		name="Parhamid Hunarangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Parhamid_Hunarangoz
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	BUD_Shahiman_Hunar={
+		name="Shahiman Hunar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Shahiman_Hunar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	BUD_Hassan_Beheshtabat={
+		name="Hassan Beheshtabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Hassan_Beheshtabat
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BUD_Ebrahram_Tamad={
+		name="Ebrahram Tamad"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Ebrahram_Tamad
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	BUD_Majid_Dosh={
+		name="Majid Dosh"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Majid_Dosh
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	BUD_Kamin_Hunam={
+		name="Kamin Hunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Kamin_Hunam
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	BUD_Farhahraman_Hunam={
+		name="Farhahraman Hunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Farhahraman_Hunam
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	BUD_Kavehdi_Mahad={
+		name="Kavehdi Mahad"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Kavehdi_Mahad
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	BUD_Shahiman_Tamad={
+		name="Shahiman Tamad"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Shahiman_Tamad
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	BUD_Behdi_Hunarangoz={
+		name="Behdi Hunarangoz"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Behdi_Hunarangoz
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	BUD_Amid_Mahad={
+		name="Amid Mahad"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Amid_Mahad
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	BUD_Hassan_Hunam={
+		name="Hassan Hunam"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Hassan_Hunam
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	BUD_Mossein_Dosh={
+		name="Mossein Dosh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Mossein_Dosh
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	BUD_Navid_Mahad={
+		name="Navid Mahad"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Navid_Mahad
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	BUD_Ahman_Dosh={
+		name="Ahman Dosh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Ahman_Dosh
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	BUD_Farhahiman_Dosh={
+		name="Farhahiman Dosh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Farhahiman_Dosh
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	BUD_Farhahiman_Pole={
+		name="Farhahiman Pole"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Farhahiman_Pole
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	BUD_Ebramin_Giahveh={
+		name="Ebramin Giahveh"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUD_Rezad_Dosh={
+		name="Rezad Dosh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Rezad_Dosh
+				traits = {	polemarch 	}
+		}
+
+	}
+	BUD_Rama_Dosh={
+		name="Rama Dosh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Rama_Dosh
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BUD_Farhad_Miveh={
+		name="Farhad Miveh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Farhad_Miveh
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	BUD_Peyma_Mahad={
+		name="Peyma Mahad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Peyma_Mahad
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	BUD_Majid_Mahad={
+		name="Majid Mahad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Majid_Mahad
+				traits = {	generallissimo 	}
+		}
+
+	}
+	BUD_Behdi_Pole={
+		name="Behdi Pole"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Behdi_Pole
+				traits = {	generallissimo 	}
+		}
+
+	}
+	BUD_Saeed_Hunarangoz={
+		name="Saeed Hunarangoz"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Saeed_Hunarangoz
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BUD_Farhahiman_Mahad={
+		name="Farhahiman Mahad"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Farhahiman_Mahad
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	BUD_Kavehdi_Miveh={
+		name="Kavehdi Miveh"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Kavehdi_Miveh
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	BUD_Ahman_Giahveh={
+		name="Ahman Giahveh"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Ahman_Giahveh
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	BUD_Mehdi_Hunarangoz={
+		name="Mehdi Hunarangoz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Mehdi_Hunarangoz
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	BUD_Ahmal_Beheshtabat={
+		name="Ahmal Beheshtabat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Ahmal_Beheshtabat
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	BUD_Parhaman_Hunar={
+		name="Parhaman Hunar"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Parhaman_Hunar
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	BUD_Farhahiman_Giahveh={
+		name="Farhahiman Giahveh"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Farhahiman_Giahveh
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	BUD_Sham_Mahad={
+		name="Sham Mahad"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Sham_Mahad
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	BUD_Ahmal_Giahveh={
+		name="Ahmal Giahveh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Ahmal_Giahveh
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	BUD_Farhahraman_Giahveh={
+		name="Farhahraman Giahveh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Farhahraman_Giahveh
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	BUD_Omir_Mahad={
+		name="Omir Mahad"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Omir_Mahad
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	BUD_Milad_Hunar={
+		name="Milad Hunar"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Milad_Hunar
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	BUD_Hassein_Giahveh={
+		name="Hassein Giahveh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Hassein_Giahveh
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BUD_Mostafa_Giahveh={
+		name="Mostafa Giahveh"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUD_Shahiman_Pole={
+		name="Shahiman Pole"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Shahiman_Pole
+				traits = {	polemarch 	}
+		}
+
+	}
+	BUD_Ahman_Beheshtabat={
+		name="Ahman Beheshtabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Ahman_Beheshtabat
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	BUD_Armad_Hunar={
+		name="Armad Hunar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Armad_Hunar
+				traits = {	infirm 	}
+		}
+
+	}
+	BUD_Peymad_Giahveh={
+		name="Peymad Giahveh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Peymad_Giahveh
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	BUD_Parhaman_Mahad={
+		name="Parhaman Mahad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Parhaman_Mahad
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	BUD_Milad_Pole={
+		name="Milad Pole"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Milad_Pole
+				traits = {	infirm 	}
+		}
+
+	}
+	BUD_Kaveh_Hunarangoz={
+		name="Kaveh Hunarangoz"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Kaveh_Hunarangoz
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	BUD_Armad_Hunam={
+		name="Armad Hunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Armad_Hunam
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	BUD_Naveh_Beheshtabat={
+		name="Naveh Beheshtabat"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Naveh_Beheshtabat
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	BUD_Parhad_Mahad={
+		name="Parhad Mahad"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Parhad_Mahad
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	BUD_Ahma_Giahveh={
+		name="Ahma Giahveh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Ahma_Giahveh
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	BUD_Amin_Giahveh={
+		name="Amin Giahveh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Amin_Giahveh
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	BUD_Mossan_Pole={
+		name="Mossan Pole"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Mossan_Pole
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	BUD_Saeed_Beheshtabat={
+		name="Saeed Beheshtabat"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Saeed_Beheshtabat
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	BUD_Mehzad_Hunar={
+		name="Mehzad Hunar"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Mehzad_Hunar
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	BUD_Kamid_Giahveh={
+		name="Kamid Giahveh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Kamid_Giahveh
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	BUD_Ahma_Miveh={
+		name="Ahma Miveh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Ahma_Miveh
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	BUD_Mossan_Mahad={
+		name="Mossan Mahad"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Mossan_Mahad
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	BUD_Navid_Dosh={
+		name="Navid Dosh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Navid_Dosh
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	BUD_Behdi_Tamad={
+		name="Behdi Tamad"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Behdi_Tamad
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	BUD_Mehzad_Pole={
+		name="Mehzad Pole"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUD_Omid_Pole={
+		name="Omid Pole"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Omid_Pole
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	BUD_Farhahraman_Miveh={
+		name="Farhahraman Miveh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Farhahraman_Miveh
+				traits = {	the_banker 	}
+		}
+
+	}
+	BUD_Ahma_Hunarangoz={
+		name="Ahma Hunarangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Ahma_Hunarangoz
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	BUD_Behdi_Dosh={
+		name="Behdi Dosh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Behdi_Dosh
+				traits = {	rearmer 	}
+		}
+
+	}
+	BUD_Sham_Hunarangoz={
+		name="Sham Hunarangoz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Sham_Hunarangoz
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	BUD_Rezad_Hunam={
+		name="Rezad Hunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUD_Rezad_Hunam
+				traits = {	infirm 	}
+		}
+
+	}
+	BUD_Majid_Hunam={
+		name="Majid Hunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Majid_Hunam
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BUD_Ebram_Hunam={
+		name="Ebram Hunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Ebram_Hunam
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	BUD_Naveh_Miveh={
+		name="Naveh Miveh"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Naveh_Miveh
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	BUD_Ebramin_Tamad={
+		name="Ebramin Tamad"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUD_Ebramin_Tamad
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	BUD_Amid_Beheshtabat={
+		name="Amid Beheshtabat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Amid_Beheshtabat
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	BUD_Babak_Tamad={
+		name="Babak Tamad"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUD_Babak_Tamad
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	BUD_Shahiman_Giahveh={
+		name="Shahiman Giahveh"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Shahiman_Giahveh
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	BUD_Babak_Miveh={
+		name="Babak Miveh"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUD_Babak_Miveh
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	BUD_Omir_Pole={
+		name="Omir Pole"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Omir_Pole
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	BUD_Milad_Miveh={
+		name="Milad Miveh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Milad_Miveh
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	BUD_Kaveh_Dosh={
+		name="Kaveh Dosh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Kaveh_Dosh
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	BUD_Amid_Pole={
+		name="Amid Pole"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Amid_Pole
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	BUD_Omid_Beheshtabat={
+		name="Omid Beheshtabat"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Omid_Beheshtabat
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	BUD_Peymad_Miveh={
+		name="Peymad Miveh"
+
+		advisor={
+			slot = high_command
+			idea_token = BUD_Peymad_Miveh
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	BUD_Mostafa_Hunar={
+		name="Mostafa Hunar"
+
+		advisor={
+			slot = theorist
+			idea_token = BUD_Mostafa_Hunar
+				traits = {	military_theorist 	}
+		}
+
+	}
+	BUD_Parhaman_Giahveh={
+		name="Parhaman Giahveh"
+
+		advisor={
+			slot = theorist
+			idea_token = BUD_Parhaman_Giahveh
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	BUD_Kamid_Tamad={
+		name="Kamid Tamad"
+
+		advisor={
+			slot = theorist
+			idea_token = BUD_Kamid_Tamad
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
