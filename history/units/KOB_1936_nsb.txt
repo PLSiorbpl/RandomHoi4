@@ -11,7 +11,6 @@ division_template = {
 	}
 	
 	support = {
-
 	}
 }
 division_template = {
@@ -72,7 +71,7 @@ division_template = {
 	
 	support = {
 			artillery = {  x = 0 y = 0 }
-			maintenance_company = {  x = 1 y = 0 }
+			maintenance_company = {  x = 0 y = 1 }
 
 	}
 }
@@ -128,7 +127,7 @@ division_template = {
 	
 	support = {
 			maintenance_company = {  x = 0 y = 0 }
-			engineer = {  x = 1 y = 0 }
+			engineer = {  x = 0 y = 1 }
 
 	}
 }
@@ -147,7 +146,7 @@ division_template = {
 	
 	support = {
 			artillery = {  x = 0 y = 0 }
-			engineer = {  x = 1 y = 0 }
+			engineer = {  x = 0 y = 1 }
 
 	}
 }
