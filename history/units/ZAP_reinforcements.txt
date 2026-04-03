@@ -1,0 +1,20 @@
+division_template = {
+    name = "Chruszczyna Template"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+    }
+}
+
+units = {
+    division = {
+        name = "1st Chruszczyna Division"
+        location = 501
+        division_template = "Chruszczyna Template"
+        start_equipment_factor = 1.0
+    }
+}

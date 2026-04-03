@@ -3,12 +3,12 @@ add_namespace = zap.war
 country_event = {
 	id = zap.war.1
 	title = "Intensified chaos in the Wielgus region."
-	desc = "Military has failed to contain the situation. Protestoers are demanding voting rights and fair treatment. They are even starting to attack the local military garrisons."
-	picture = GFX_report_event_war
+	desc = "Military has failed to contain the situation. Wielgusans are demanding the president to steps down, they are even starting to attack the local military garrisons."
+	picture = GFX_report_event_generic_peaceful_annexation
 
 	   is_triggered_only = yes
 	option = {
-		name = "What is going on?!"
+		name = "This will blow over... eventually."
 		add_political_power = -50
 		add_stability = -0.10
 	}
@@ -17,7 +17,7 @@ country_event = {
 country_event = {
 	id = zap.war.2
 	title = "The situation in the Wielgus region is getting worse."
-	desc = "The protests have turned into riots. The military is losing control of the situation. The government is considering declaring martial law in the region."
+	desc = "Protestors has unified under new banner, in the chaos and anarchy witch swept the region they became the group called the Wielgus Liberation Front (WLF)."
 	picture = GFX_report_event_czech_soldiers_01
 
 	   is_triggered_only = yes
@@ -31,12 +31,12 @@ country_event = {
 country_event = {
 	id = zap.war.3
 	title = "Military has seized control of the government.."
-	desc = "We cannot to let this madman destory our country anymore. We need to take control of the situation before it's too late."
+	desc = "General Tadek cannot to let this madman destory our country anymore. We need to take control of the situation before it's too late."
 	picture = GFX_report_event_czech_soldiers_01
 
 	   is_triggered_only = yes
 	option = {
-		name = "We need to do something!"
+		name = "Maybe it's for the best.."
 		add_political_power = -100
 		add_stability = -0.20
 		set_politics = {
@@ -51,39 +51,90 @@ elections_allowed = no
 }
 country_event = {
 	id = zap.war.4
-	title = "Meeting with the protesters."
-	desc = "We cannot attack protestors with guns. We need to talk to them. And most importantly there's a need to revers Tocks policies agaist Wielgusans."
-    option = {
-		name = "Meet with thier leaders."
+	title = "Police shootout at Buleczka house."
+	desc = "In the morning hours, police attempted to arrest a known leader of the WLF "Bulczeka". A crowd qucily formed outside his house. As the tensions escalated, a gunshot was heard witch killed unarmed civilian. Testimony from the officer stated it was a mistake but ,this is a major escalation now with a dead on our hands can only led in the favor of the WLF. "
+    picture = GFX_report_event_carol_meeting
+	option = {
+		name = "This is unacceptable."
 	}
 }
 country_event = {
 	id = zap.war.5
-	title = "Ninja Rises."
-	desc = "Stopy."
-	picture = GFX_report_event_czech_soldiers_01
+	title = "WLF gains momentum."
+	desc = "We are unable to contact the stations. Phones are down. We have no idea what is going on in the region. General Tadek with only a partial support he is worried he way need to act sooner then expected to save the federation."
+	picture = GFX_report_event_degaulle_inspect_troops
 
 	is_triggered_only = yes
 
 	option = {
-		name = "Send reinforcements!"
+		name = "We need to act now!"
 
 		release = KAA
+		
+615 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+}
 
-		615 = { add_core_of = KAA }
-		678 = { add_core_of = KAA }
+678 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
 
-		615 = { transfer_state_to = KAA }
-        319 = { transfer_state_to = KAA }
+	}
+	509 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
 
+	}
+	779 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+
+	}
+	770 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+
+	}
+		390 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+
+	}
+		546 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+
+	}
+		638 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+
+	}
+		820 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+
+	}
+		477 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+		
+
+	}
+		889 = { 
+        add_core_of = KAA 
+        transfer_state_to = KAA
+
+	}
 	}
 }
 
 	country_event = {
 		id = zap.war.6
-		title = "Ninja Rises2."
-		desc = "Stopy."
-		picture = GFX_report_event_czech_soldiers_01
+		title = "This is too far gone."
+		desc = "Move in with our forces disband them and let the ChSP (Chruszczynskie secret police) do the rest of the dirty work."
+		picture = GFX_report_event_soviet_soldiers_tank
 
 		is_triggered_only = yes
 
@@ -94,7 +145,5 @@ country_event = {
 				target = KAA
 			}
 		}
+			fire_only_once = yes
 	}
-
-	fire_only_once = yes
-}
