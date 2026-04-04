@@ -60,9 +60,11 @@
     cost = 3
 
     completion_reward = {
+       add_ideas = Martial_law
        add_party_popularity = {
           ideology = democratic
           amount = -0.20
+          
        }
        country_event = { id = CHS.war.2 }
     }
@@ -129,7 +131,7 @@
    cost = 3
    x = 1
    y = 3
-   completion_reward = { country_event = { id = CHS.war.5 } }
+   completion_reward = { country_event = { id = CHS.war.4} }
    prerequisite = {
       focus = CHS_focus_3
    }
@@ -160,7 +162,7 @@ focus = {
        focus = CHS_focus_5
     }
     completion_reward = {
-
+       
     }
  }
  focus = {
@@ -316,7 +318,7 @@ prerequisite = { focus = CHS_focus_20 }
           ideology = democratic
           amount = -0.20
        }
-       country_event = { id = CHS.war.2 }
+       country_event = { id = CHS.war.7 }
     }
  }
   focus = {
@@ -331,12 +333,25 @@ prerequisite = { focus = CHS_focus_20 }
     cost = 3
 
     completion_reward = {
-       add_party_popularity = {
-          ideology = democratic
-          amount = -0.20
+          division_template = {
+            name = "Infantry Division"
+            regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+            }
+        }
+        create_division = {
+            division_template = "Infantry Division" 
+            name = "1st Chruszczyna Division"
+            location = 4324
+            capital_fallback = yes
+        }
        }
-       country_event = { id = CHS.war.2 }
+    }
+    prerequisite = {
+      focus = CHS_focus_6
     }
  }
-
-}
