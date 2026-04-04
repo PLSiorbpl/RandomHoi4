@@ -31,7 +31,7 @@ country_event = {
 country_event = {
 	id = CHS.war.3
 	title = "Military has seized control of the government.."
-	desc = "General Tadek cannot to let this madman destory our country anymore. We need to take control of the situation before it's too late."
+	desc = "General Sahur cannot to let this madman destory our country anymore. We need to take control of the situation before it's too late."
 	picture = GFX_report_event_czech_soldiers_01
 
 	is_triggered_only = yes
@@ -63,7 +63,7 @@ country_event = {
 country_event = {
 	id = CHS.war.5
 	title = "WLF gains momentum."
-	desc = "We are unable to contact the stations. Phones are down. We have no idea what is going on in the region. General Tadek with only a partial support he is worried he way need to act sooner then expected to save the federation."
+	desc = "We are unable to contact the stations. Phones are down. We have no idea what is going on in the region. General Sahur with only a partial support he is worried he way need to act sooner then expected to save the federation."
 	picture = GFX_report_event_degaulle_inspect_troops
 
 	is_triggered_only = yes
@@ -155,4 +155,33 @@ country_event = {
 	}
 	fire_only_once = yes
 }
+country_event = {
+	id = CHS.war.8
+	title = "Return of the democracy "
+	desc = "General Sahur has paved the path to a bright future now he can step down."
+	picture = 
 
+	is_triggered_only = yes
+	option = {
+		name = "Maybe it's for the best.."
+		add_political_power = -100
+		set_politics = {
+			ruling_party = democratic 
+			elections_allowed = true
+			set_country_leader = {
+        character = PRZ_my_leader_name
+        promote_existing = yes
+    }
+			
+		}
+	}
+}
+country_event = {
+	id = CHS.war.9
+	title = "Adpoting the civil rights act"
+	desc = "On July 2, 1938, after decades of struggle, the 1st Chruszczynian Congress passed the Civil Rights Act. President BrymmBrympatapim signed it into law in a nationally televised ceremony, with."
+	is_triggered_only = yes
+	option = {
+		name = "True freedom"
+	}
+}

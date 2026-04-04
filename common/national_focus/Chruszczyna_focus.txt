@@ -101,7 +101,7 @@
    completion_reward = {
       white_peace = KAA
       country_event = {
-         id = CHS.war.3 days = 15
+         id = CHS.war.3
       }
    }
    mutually_exclusive = {
@@ -207,7 +207,10 @@ focus = {
        relative_position_id = CHS_focus_11
 prerequisite = { focus = CHS_focus_11 }
 prerequisite = { focus = CHS_focus_20 }
-   completion_reward = { }
+   completion_reward = {
+      country_event = { id = CHS.war.8 }
+      remove_ideas = Headless_government
+    }
  }
   focus = {
    id = CHS_focus_13
@@ -220,9 +223,7 @@ prerequisite = { focus = CHS_focus_20 }
             focus = CHS_focus_12
        }
    completion_reward = { 
-      		set_politics = {
-			ruling_party = democratic
-			elections_allowed = yes}
+      remove_ideas = WLF_3
     }
  }
   focus = {
@@ -234,7 +235,9 @@ prerequisite = { focus = CHS_focus_20 }
        prerequisite = {
             focus = CHS_focus_13
        }
-   completion_reward = { }
+   completion_reward = { 
+      remove_ideas = Martial_law
+    }
  }
   focus = {
    id = CHS_focus_15
@@ -245,7 +248,9 @@ prerequisite = { focus = CHS_focus_20 }
        prerequisite = {
             focus = CHS_focus_14
        }
-   completion_reward = { }
+   completion_reward = { 
+      
+   }
  }
    focus = {
    id = CHS_focus_16
@@ -257,7 +262,7 @@ prerequisite = { focus = CHS_focus_20 }
        prerequisite = {
             focus = CHS_focus_12
        }
-   completion_reward = { remove_ideas = Mild_corrupted_administration_and_military }
+   completion_reward = { remove_ideas = Mild_corrupted_administration }
  }
   focus = {
    id = CHS_focus_17
@@ -269,7 +274,10 @@ prerequisite = { focus = CHS_focus_20 }
        prerequisite = {
             focus = CHS_focus_16
        }
-   completion_reward = { }
+   completion_reward = { 
+       add_stability = 0.05
+      add_political_power = 50
+   }
  }
   focus = {
    id = CHS_focus_18
@@ -281,7 +289,12 @@ prerequisite = { focus = CHS_focus_20 }
        prerequisite = {
             focus = CHS_focus_17
        }
-   completion_reward = { }
+   completion_reward = { 
+      add_research_slot = 1
+      country_event = {
+         id = CHS.war.9
+      }
+   }
  }
    focus = {
    id = CHS_focus_19
@@ -333,36 +346,4 @@ prerequisite = { focus = CHS_focus_20 }
        country_event = { id = CHS.war.7 }
     }
  }
-  focus = {
-    id = CHS_focus_22
-    icon =  GFX_focus_FIN_sissi
-
-    prerequisite = {
-         focus = CHS_focus_6
-    }
-    x = -1
-    y = 5
-    cost = 3
-
-    completion_reward = {
-    create_unit = {
-        division = "Militia Division"
-        owner = ROOT
-        province = ROOT.capital
-        name = "1st Chruszczyna Division"
-    }
-    create_unit = {
-        division = "Militia Division"
-        owner = ROOT
-        province = ROOT.capital
-        name = "1st Chruszczyna Division"
-    }
-    create_unit = {
-        division = "Militia Division"
-        owner = ROOT
-        province = ROOT.capital
-        name = "1st Chruszczyna Division"
-    }
 }
-}
- }
