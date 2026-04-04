@@ -1,0 +1,21 @@
+ideas = {
+    country = {
+        PRZ_comunism_rising = {
+            picture = HUN_resurgent_communist_party_idea
+            modifier = {
+        		add_stability = -0.20
+				add_war_support = -0.10
+				political_power_gain = -0.10
+				communism_drift = 0.1667
+            }
+        }
+		PRZ_Empire_Propaganda = {
+			picture = ITA_new_roman_empire_ns
+			modifier = {
+				political_power_gain = -0.10
+				stability_weekly = -0.001
+				fascism_drift = 0.1
+			}
+		}
+	}
+}
