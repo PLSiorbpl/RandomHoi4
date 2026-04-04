@@ -8,7 +8,6 @@ ideas = {
 				consumer_goods_factor = 0.50
 				war_support_factor = -0.20
 				recruitable_population_factor = -0.15
-				war_support_factor = -0.10
 				stability_factor = -0.60
 			}
 		}
@@ -23,9 +22,9 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.30
-				factory_output_factor = -0.20
-				production_factory_max_efficiency_factor = -0.20
-				production_factory_efficiency_gain_factor = -0.20
+				factory_output_factor = -0.60
+				production_factory_max_efficiency_factor = -0.40
+				production_factory_efficiency_gain_factor = -0.40
 			}
 		}
 	}
@@ -68,7 +67,7 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.10
 				supply_factor = -0.5
-				army_org_factor = 0.07
+				army_org_factor = -0.07
 			}
 		}
 	}
@@ -92,7 +91,7 @@ ideas = {
 
 ideas = {
 	country = {
-		Corrupted_administration_and_military = {
+		Corrupted_administration= {
 			picture = ARG_political_corruption_modifier
 
 			modifier = {
@@ -108,7 +107,7 @@ ideas = {
 
 ideas = {
 	country = {
-		Mild_corrupted_administration_and_military = {
+		Mild_corrupted_administration = {
 			picture = ARG_political_corruption_modifier
 
 			modifier = {
@@ -119,4 +118,48 @@ ideas = {
 		}
 	}
 }
+
+ideas = {
+	country = {
+		Outdated_military = {
+			picture = GFX_goal_generic_army_artillery
+
+			modifier = {
+				division_army_attack_factor = 0.30
+				supply_consumption_factor = 0.50
+				army_defence_factor = -0.30
+				army_experience_daily = -0.10
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+		Modernised_military = {
+			picture = GFX_focus_GER_army
+
+			modifier = {
+				division_army_attack_factor = -0.50
+				supply_consumption_factor = 0.50
+				army_defence_factor = -0.30
+			}
+		}
+	}
+}
+
+ideas = {
+    country = {
+        Headless_government = {
+            picture = generic_disrupted_lines
+            modifier = {
+                political_power_gain = -0.40
+                stability_factor = -0.20
+                consumer_goods_factor = 0.10
+                command_power_gain = -0.30
+            }
+        }
+    }
+}
+
 

@@ -76,8 +76,10 @@
    x = 0
    y = 6
    available = {
-      KAA = { has_capitulated = yes }
-   }
+        NOT = {
+            KAA = { exists = yes }
+        }
+    }
    
    prerequisite = {
       focus = CHS_focus_8 
@@ -164,7 +166,7 @@ focus = {
     }
     completion_reward = {
       remove_ideas = President_Guard
-      swap_ideas = { remove_idea = Corrupted_administration_and_military add_idea = Mild_corrupted_administration_and_military }
+      swap_ideas = { remove_idea = Corrupted_administration add_idea = Mild_corrupted_administration}
 
     }
  }
@@ -178,7 +180,7 @@ focus = {
        focus = CHS_focus_9
     }
     completion_reward = {
-         
+         add_ideas = Headless_government
     }
  }
  focus = {
@@ -192,7 +194,7 @@ focus = {
        focus = CHS_focus_10
     }
     completion_reward = {
-
+      add_stability = 0.20
     }
  
  }
@@ -217,7 +219,11 @@ prerequisite = { focus = CHS_focus_20 }
        prerequisite = {
             focus = CHS_focus_12
        }
-   completion_reward = { }
+   completion_reward = { 
+      		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes}
+    }
  }
   focus = {
    id = CHS_focus_14
@@ -301,7 +307,10 @@ prerequisite = { focus = CHS_focus_20 }
        focus = CHS_focus_10
     }
     completion_reward = {
-
+      add_equipment_to_stockpile = {
+         type = infantry_equipment
+         amount = 1500
+      }
     }
  
  }
