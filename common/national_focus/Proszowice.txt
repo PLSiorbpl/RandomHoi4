@@ -1,0 +1,45 @@
+focus_tree = {
+	id = Proszowice
+	
+	country = {
+		base = 0
+		modifier = {
+			add = 10
+			tag = PRZ
+		}
+	}
+
+	continuous_focus_position = {
+		x = 2000
+		y = 0
+	}
+focus = {
+	id = PRZ_start
+	icon = GFX_SOV_annex_tannu_tuva_ccp_2d_sov_compatibility
+	cost = 1
+	x = 10
+	y = x
+	completion_reward = { 
+		every_country = {
+			news_event = { id = PRZ_cos.1 days = 1}
+		}
+	}
+}
+
+focus = {
+	id = PRZ_focus_drugi_2
+	icon = GFX_SOV_call_for_aid_ccp_2d_sov_compatibility
+	cost = x
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_start
+	} 
+	completion_reward = {
+		country_event  = {
+			id = PRZ_cos.2 days = 2
+		}
+	}
+	relative_position_id = PRZ_start
+}
+}
