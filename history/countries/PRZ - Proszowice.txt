@@ -41,6 +41,8 @@ set_technology = {
 	
 }
 
+add_ideas = { PRZ_Destroyed_Economy_1 }
+add_ideas = { PRZ_United_Empire }
 ### ARMOR ###
 ### Vanilla Techs ###
 if = {
@@ -454,22 +456,22 @@ if = {
 		armored_car1 = 1
 	}
 }
-set_research_slots = 5
-set_convoys = 200
-set_stability = 14
-set_war_support = 78
+set_research_slots = 3
+set_convoys = 21
+set_stability = 0.43
+set_war_support = 0.32
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1925.7.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 19
-	fascism = 32
-	communism = 21
-	neutrality = 28
+	democratic = 8
+	fascism = 50
+	communism = 31
+	neutrality = 11
 }
 
 

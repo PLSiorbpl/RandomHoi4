@@ -1,0 +1,18 @@
+KOB_TEST_cat = {
+	KOB_add_stability = {
+		icon = GFX_decision_faction_tur_kurdish
+		allowed = {
+			has_political_power < 100
+		}
+		visible = {
+			always = yes
+		}
+		cost = 5
+		days_remove = 15
+		days_re_enable = 60
+	
+		complete_effect = {
+			add_political_power = 20
+		}
+	}
+}
