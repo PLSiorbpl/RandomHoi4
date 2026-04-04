@@ -1,26 +1,22 @@
-add_namespace = PRZ_cos
-news_event = {
-	id = PRZ_cos.1
-	title = "PRZ_cos.1.t"
-	desc =  "PRZ_cos.1.d"
-	picture = GFX_report_event_albanian_king_zog
+add_namespace = PRZ_economy_situation
+country_event = {
+	id = PRZ_economy_situation.1
+	title = "PRZ_economy_situation.1.t"
+	desc = "PRZ_economy_situation.1.d"
+	picture = GFX_report_event_FIN_petsamo_melting_plant
 	option = {
-		name = "PRZ_cos.1.a"
+		name = "PRZ_economy_situation.1.a"
 	}
 	is_triggered_only = yes
 }
+add_namespace = PRZ_Shining_economy
 country_event = {
-	id = PRZ_cos.2
-	title = "PRZ_cos.2.t"
-	desc = "PRZ_cos.2.d"
-	picture = GFX_report_event_british_artillery
+	id = PRZ_Shining_economy
+	title = "PRZ_Shining_economy.t"
+	desc =  "PRZ_Shining_economy.d"
+	picture = GFX_report_event_tank_factory
 	option = {
-		name = "PRZ_cos.2.a"
-		add_stability = 0.10
-	}
-	option = {
-		name = "PRZ_cos.2.b"
-		add_political_power = 100
+		name = "PRZ_Shining_economy.a"
 	}
 	is_triggered_only = yes
 }

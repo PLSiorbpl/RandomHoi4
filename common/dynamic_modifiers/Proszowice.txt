@@ -1,0 +1,12 @@
+PRZ_Empire_Propaganda = {
+	icon = ITA_new_roman_empire_ns
+
+	enable = {
+		always = yes
+	}
+
+	political_power_gain = -0.10
+	stability_weekly = -0.001
+	fascism_drift = 0.1
+
+}

@@ -10,14 +10,14 @@ focus_tree = {
 	}
 
 	continuous_focus_position = {
-		x = 2000
-		y = 0
+		x = 0
+		y = 2000
 	}
 focus = {
 	id = PRZ_Shatered_Empire
 	icon = GFX_focus_YUG_zmaj
 	cost = 3
-	x = 10
+	x = 13
 	y = x
 	completion_reward = { 
 		add_stability = 0.10
@@ -27,7 +27,7 @@ focus = {
 focus = {
 	id = PRZ_Look_at_the_people
 	icon = GFX_focus_generic_secret_service_agency
-	cost = 5
+	cost = 1
 	x = 0
 	y = 1
 	prerequisite = {
@@ -42,14 +42,17 @@ focus = {
 focus = {
 	id = PRZ_Empire_Propaganda
 	icon = GFX_goal_generic_propaganda
-	cost = 5
+	cost = 1
 	x = -1.3
 	y = 1
 	prerequisite = {
 		focus = PRZ_Look_at_the_people
 	}
 	completion_reward = {
-		add_ideas = PRZ_Empire_Propaganda
+		add_dynamic_modifier = {
+			days = 180
+			modifier = PRZ_Empire_Propaganda
+		}
 		add_command_power = -20
 	}
 	relative_position_id = PRZ_Look_at_the_people
@@ -65,15 +68,15 @@ focus = {
 	}
 	completion_reward = {
 		add_manpower = -10000
-		add_stability = -0.05
-		army_experience = 5
+		add_stability = -0.01
+		army_experience = 1
 	}
 	relative_position_id = PRZ_Look_at_the_people
 }
 focus = {
 	id = PRZ_Prepare_for_Reunification
 	icon = GFX_SOV_desperate_measures_ccp_2d_sov_compatibility
-	cost = 5
+	cost = 1
 	x = 1.3
 	y = 1
 	prerequisite = {
@@ -90,14 +93,14 @@ focus = {
 focus = {
 	id = PRZ_Repair_Infrastructur
 	icon = GFX_focus_generic_improve_roads
-	cost = 5
-	x = 3
+	cost = 1
+	x = 2
 	y = x
 	completion_reward = { 
 		every_owned_state = {
         add_building_construction = {
             type = infrastructure
-            level = 2
+            level = 1
             instant_build = yes
         }
     }
@@ -106,7 +109,7 @@ focus = {
 focus = {
 	id = PRZ_Develop_Capital
 	icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
-	cost = 5
+	cost = 70
 	relative_position_id = PRZ_Repair_Infrastructur
 	x = 0
 	y = 1
@@ -131,6 +134,409 @@ focus = {
 			instant_build = yes
 		}
     }
+    }
+    }
+	focus = {
+	id = PRZ_Expand_air_and_navy_basses
+	icon = GFX_SOV_expand_the_morskaya_aviatsiya_ccp_2d_sov_compatibility
+	cost = 1
+	relative_position_id = PRZ_Repair_Infrastructur
+	x = -4.1
+	y = 1.1
+	prerequisite = {
+		focus = PRZ_Repair_Infrastructur
+	}
+	completion_reward = {
+		1231 = {
+			add_building_construction = {
+				type = air_base
+				level = 2 
+				instant_build = yes
+			}
+		}
+		1230 = {
+			add_building_construction = {
+				type = air_base
+				level = 2 
+				instant_build = yes
+			}
+		}
+		1237 = {
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		1232 = {
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = PRZ_Further_expansion_of_air_basses
+	icon = GFX_goal_generic_air_fighter2
+	cost = 1
+	relative_position_id = PRZ_Expand_air_and_navy_basses
+	x = -1.3
+	y = 1
+	 available = {
+        has_idea = PRZ_United_Empire
+    }
+	prerequisite = {
+		focus = PRZ_Expand_air_and_navy_basses
+	}
+	completion_reward = {
+		1173 = {
+			add_building_construction = {
+				type = air_base
+				level = 2 
+				instant_build = yes
+			}
+		}
+		1216 = {
+			add_building_construction = {
+				type = air_base
+				level = 2 
+				instant_build = yes
+			}
+		}
+		1241 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+		}
+		1290 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = PRZ_Further_expansion_of_naval_basses
+	icon = GFX_goal_generic_construct_naval_dockyard
+	cost = 1
+	relative_position_id = PRZ_Expand_air_and_navy_basses
+	x = 1.3
+	y = 1
+	 available = {
+        has_idea = PRZ_United_Empire
+    }
+	prerequisite = {
+		focus = PRZ_Expand_air_and_navy_basses
+	}
+	completion_reward = {
+		1161 = {
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		1216 = {
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		1290 = {
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		1303 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = PRZ_Finalazing_air_and_navy_basses_expansion
+	icon = GFX_focus_generic_air_carrier
+	cost = 10
+	relative_position_id = PRZ_Further_expansion_of_air_basses
+	x = 1.3
+	y = 1
+	prerequisite = {
+		focus = PRZ_Further_expansion_of_air_basses
+	}
+	prerequisite = {
+		focus = PRZ_Further_expansion_of_naval_basses
+	}
+	completion_reward = {
+		1292 = {
+        add_building_construction = {
+			type = air_base
+			level = 2
+			instant_build = yes
+		}
+		}
+		1170 = {
+        add_building_construction = {
+			type = air_base
+			level = 2
+			instant_build = yes
+		}
+		}
+		1170 = {
+        add_building_construction = {
+			type = air_base
+			level = 2
+			instant_build = yes
+		}
+		}	
+		1302 = {
+        add_building_construction = {
+			type = naval_base
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+}
+	focus = {
+	id = PRZ_Develop_Minor_Cities
+	icon = GFX_SOV_development_aid_for_eastern_allies_ccp_2d_sov_compatibility
+	cost = 1
+	relative_position_id = PRZ_Develop_Capital
+	x = -1
+	y = 1
+	mutually_exclusive = {
+		focus = PRZ_Develop_Major_Cities
+	}
+	prerequisite = {
+		focus = PRZ_Develop_Capital
+	}
+	completion_reward = {
+		1217 = {
+        add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+    }
+}
+focus = {
+	id = PRZ_Expand_Agriculture
+	icon = GFX_focus_generic_agricultural_subsidies
+	cost = 1
+	relative_position_id = PRZ_Develop_Minor_Cities
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_Develop_Minor_Cities
+	}
+	completion_reward = { 
+		1216 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		1219 = {
+			add = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+    }
+
+}
+focus = {
+	id = PRZ_Develop_Major_Cities
+	icon = GFX_SOV_eastern_development_ccp_2d_sov_compatibility
+	cost = 1
+	relative_position_id = PRZ_Develop_Capital
+	x = 1
+	y = 1
+	mutually_exclusive = {
+		focus = PRZ_Develop_Minor_Cities
+	}
+	prerequisite = {
+		focus = PRZ_Develop_Capital
+	}
+		1218 = {
+        add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
         }
     }
+focus = {
+	id = PRZ_Expand_Arms_Facilities
+	icon = GFX_focus_generic_military_industry
+	cost = 1
+	relative_position_id = PRZ_Develop_Major_Cities
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_Develop_Major_Cities
+	}
+		1218 = {
+        add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+        }
+		1238 = {
+        add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+        }
+    }
+focus = {
+	id = PRZ_Imperial_Factories
+	icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+	relative_position_id = PRZ_Expand_Agriculture
+	x = 1
+	y = 1
+	 available = {
+        has_idea = PRZ_United_Empire
+    }
+	prerequisite = {
+		focus = PRZ_Expand_Agriculture
+		focus = PRZ_Expand_Arms_Facilities
+	}
+	completion_reward = {
+		add_ideas = PRZ_Imperial_Economy_1
+	}
+}
+focus = {
+	id = PRZ_Imperial_Efficency
+	icon = GFX_focus_AFG_sugar_factory
+	cost = 10
+	relative_position_id= PRZ_Imperial_Factories
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_Imperial_Factories
+	}
+	completion_reward = {
+		hidden_effect = {
+			remove_ideas = PRZ_Imperial_Economy_1
+		}
+		add_ideas = PRZ_Imperial_Economy_2
+	}
+}
+focus = {
+	id = PRZ_Imperial_Quality
+	icon = GFX_goal_continuous_non_factory_construct
+	cost = 10
+	relative_position_id= PRZ_Imperial_Efficency
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_Imperial_Efficency
+	}
+	completion_reward = {
+		hidden_effect = {
+			remove_ideas = PRZ_Imperial_Economy_2
+		}
+		add_ideas = PRZ_Imperial_Economy_3
+	}
+}
+focus = {
+	id = PRZ_Shining_Economy
+	icon = GFX_focus_RAJ_special_economic_zones
+	cost = 10
+	relative_position_id= PRZ_Imperial_Quality
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_Imperial_Quality
+	}
+	prerequisite = {
+		focus = PRZ_Buy_new_tools
+	}
+	prerequisite = {
+		focus = PRZ_Finalazing_air_and_navy_basses_expansion
+	}
+	completion_reward = {
+		hidden_effect = {
+			remove_ideas = PRZ_Imperial_Economy_3
+		}
+		hidden_effect = {
+			remove_ideas = PRZ_Destroyed_Economy_3
+		}
+		country_event = {
+			id = PRZ_Shining_Economy
+			days = 1
+		}
+		add_ideas = PRZ_Shining_Economy
+	}
+}
+focus = {
+	id = PRZ_Destroyed_Economy
+	icon = GFX_focus_RAJ_trickle_down_economics
+	cost = 1
+	relative_position_id= PRZ_Repair_Infrastructur
+	x = 4
+	y = 1.1
+	prerequisite = {
+		focus = PRZ_Repair_Infrastructur
+	}
+	completion_reward = {
+		country_event = {
+			id = PRZ_economy_situation
+			days = 1
+		}
+	}
+}
+focus = {
+	id = PRZ_Rally_Workers_to_job
+	icon = GFX_goal_generic_propaganda
+	cost = 1
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_Destroyed_Economy
+	}
+	completion_reward = {
+		hidden_effect = {
+			remove_ideas = PRZ_Destroyed_Economy_1
+		}
+		add_ideas = PRZ_Destroyed_Economy_2
+	}
+	relative_position_id = PRZ_Destroyed_Economy
+}
+focus = {
+	id = PRZ_Buy_new_tools
+	icon = GFX_SOV_reorganize_the_pc_of_heavy_industry_ccp_2d_sov_compatibility
+	cost = 1
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = PRZ_Rally_Workers_to_job
+	}
+	completion_reward = {
+		hidden_effect = {
+			remove_ideas = PRZ_Destroyed_Economy_2
+		}
+		add_ideas = PRZ_Destroyed_Economy_3
+	}
+	relative_position_id = PRZ_Rally_Workers_to_job
+}
 }
