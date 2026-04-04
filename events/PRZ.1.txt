@@ -11,12 +11,12 @@ country_event = {
 }
 add_namespace = PRZ_Shining_economy
 country_event = {
-	id = PRZ_Shining_economy
-	title = "PRZ_Shining_economy.t"
-	desc =  "PRZ_Shining_economy.d"
+	id = PRZ_Shining_economy.1
+	title = "PRZ_Shining_economy.1.t"
+	desc =  "PRZ_Shining_economy.1.d"
 	picture = GFX_report_event_tank_factory
 	option = {
-		name = "PRZ_Shining_economy.a"
+		name = "PRZ_Shining_economy.1.a"
 	}
 	is_triggered_only = yes
 }
