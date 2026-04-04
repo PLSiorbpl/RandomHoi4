@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		Martial_law = {
+			picture = FRA_factory_strikes
+
+
+			modifier = {
+				consumer_goods_factor = 0.20
+				war_support_factor = -0.20
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+		Terrible_economy = {
+			picture = FRA_factory_strikes
+
+
+			modifier = {
+				consumer_goods_factor = 0.40
+				factory_output_factor = -0.20
+
+			}
+		}
+	}
+}
