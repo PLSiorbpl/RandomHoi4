@@ -131,7 +131,8 @@
    cost = 3
    x = 1
    y = 3
-   completion_reward = { country_event = { id = CHS.war.4} }
+   completion_reward = { country_event = { id = CHS.war.4} 
+                swap_ideas = { remove_idea = WLF_1 add_idea = WLF_2 }       }
    prerequisite = {
       focus = CHS_focus_3
    }
@@ -145,7 +146,7 @@
    prerequisite = {
       focus = CHS_focus_6
    }
-   completion_reward = {
+   completion_reward = { swap_ideas = { remove_idea = WLF_2 add_idea = WLF_3 }
       country_event = {
          id = CHS.war.6
       }
@@ -162,7 +163,9 @@ focus = {
        focus = CHS_focus_5
     }
     completion_reward = {
-       
+      remove_ideas = President_Guard
+      swap_ideas = { remove_idea = Corrupted_administration_and_military add_idea = Mild_corrupted_administration_and_military }
+
     }
  }
  focus = {
@@ -175,7 +178,7 @@ focus = {
        focus = CHS_focus_9
     }
     completion_reward = {
-
+         
     }
  }
  focus = {
@@ -248,7 +251,7 @@ prerequisite = { focus = CHS_focus_20 }
        prerequisite = {
             focus = CHS_focus_12
        }
-   completion_reward = { }
+   completion_reward = { remove_ideas = Mild_corrupted_administration_and_military }
  }
   focus = {
    id = CHS_focus_17
@@ -326,32 +329,31 @@ prerequisite = { focus = CHS_focus_20 }
     icon =  GFX_focus_FIN_sissi
 
     prerequisite = {
-         focus = CHS_focus_6  
+         focus = CHS_focus_6
     }
     x = -1
     y = 5
     cost = 3
 
     completion_reward = {
-          division_template = {
-            name = "Infantry Division"
-            regiments = {
-                infantry = { x = 0 y = 0 }
-                infantry = { x = 0 y = 1 }
-                infantry = { x = 0 y = 2 }
-                infantry = { x = 1 y = 0 }
-                infantry = { x = 1 y = 1 }
-            }
-        }
-        create_division = {
-            division_template = "Infantry Division" 
-            name = "1st Chruszczyna Division"
-            location = 4324
-            capital_fallback = yes
-        }
-       }
+    create_unit = {
+        division = "Militia Division"
+        owner = ROOT
+        province = ROOT.capital
+        name = "1st Chruszczyna Division"
     }
-    prerequisite = {
-      focus = CHS_focus_6
+    create_unit = {
+        division = "Militia Division"
+        owner = ROOT
+        province = ROOT.capital
+        name = "1st Chruszczyna Division"
     }
+    create_unit = {
+        division = "Militia Division"
+        owner = ROOT
+        province = ROOT.capital
+        name = "1st Chruszczyna Division"
+    }
+}
+}
  }

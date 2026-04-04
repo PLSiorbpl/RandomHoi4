@@ -5,8 +5,11 @@ ideas = {
 
 
 			modifier = {
-				consumer_goods_factor = 0.20
+				consumer_goods_factor = 0.50
 				war_support_factor = -0.20
+				recruitable_population_factor = -0.15
+				war_support_factor = -0.10
+				stability_factor = -0.60
 			}
 		}
 	}
@@ -19,10 +22,101 @@ ideas = {
 
 
 			modifier = {
-				consumer_goods_factor = 0.40
+				consumer_goods_factor = 0.30
 				factory_output_factor = -0.20
-
+				production_factory_max_efficiency_factor = -0.20
+				production_factory_efficiency_gain_factor = -0.20
 			}
 		}
 	}
 }
+
+ideas = {
+	country = {
+		President_Guard = {
+			picture = ROM_iron_guard
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_attack_speed_factor = 0.05
+				army_defence_factor = 0.03
+				political_power_gain = -0.10
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+		WLF_1 = {
+			picture = SPR_anarchist_society
+
+			modifier = {
+				political_power_gain = -0.05
+				supply_factor = -0.3
+				army_org_factor = -0.05
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+		WLF_2 = {
+			picture = SPR_anarchist_society
+
+			modifier = {
+				political_power_gain = -0.10
+				supply_factor = -0.5
+				army_org_factor = 0.07
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+		WLF_3 = {
+			picture = SPR_anarchist_society
+
+			modifier = {
+				political_power_gain = -0.05
+				supply_factor = -0.3
+				army_org_factor = -0.05
+				attrition = 0.3
+				unit_upkeep_attrition_factor = 0.3
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+		Corrupted_administration_and_military = {
+			picture = ARG_political_corruption_modifier
+
+			modifier = {
+				political_power_gain = -0.50
+				stability_factor = -0.1
+				construction_speed_factor = -0.15
+				efficiency_cap = -0.5
+				supply_consumption_factor = 0.05
+			}
+		}
+	}
+}
+
+ideas = {
+	country = {
+		Mild_corrupted_administration_and_military = {
+			picture = ARG_political_corruption_modifier
+
+			modifier = {
+				political_power_gain = -0.25
+				construction_speed_factor = -0.5
+				efficiency_cap = -0.1
+			}
+		}
+	}
+}
+
