@@ -71,18 +71,64 @@
 
  KOB_Wielkie_Wybory:0 "Massive Elections"
  KOB_Wielkie_Wybory_desc:0 "You need to chose and guarantee win for your party. Choose from KOP, SPAW, CPP"
- KOB_Wielkie_Wybory_tt:0 "Its your future"
+ KOB_Wielkie_Wybory_tt:0 "Massive like what?"
 
- KOB_Komunizm:0 "Komunistyczny Okrong Polityczny"
- KOB_Komunizm_desc:0 "KOP - Komunistyczny Okrong Polityczny is cummunist party which goal is to unite all potato rich soils"
+# Komunistyczne Drzewko
+ KOB_Komunizm:0 "Communism Political Circle"
+ KOB_Komunizm_desc:0 "KOP - Communism Political Circle is cummunist party which goal is to unite all potato rich soils"
  KOB_Komunizm_tt:0 "Communism"
 
- KOB_Demokracja:0 "Spolecza Partia Aktywnej Wolnosci"
- KOB_Demokracja_desc:0 "SPAW - Spolecza Partia Aktywnej Wolnosci is democratic party that wants to replace Sotys and solve problems with diplomacy"
+ KOB_Make_Promises:0 "Make promises"
+ KOB_Make_Promises_desc:0 "Make promises to people, or dont."
+ KOB_Make_Promises_tt:0 "Promisses are really good short term"
+
+ KOB_Problemy_Wewnetrzne:0 "The Internal Problems"
+ KOB_Problemy_Wewnetrzne_desc:0 "Problems in your country have been rising for a while. Its time to do something with them"
+ KOB_Problemy_Wewnetrzne_tt:0 "That should help a little"
+
+ KOB_Sytuacja_Proboszcza:0 "The Proboszcz problem"
+ KOB_Sytuacja_Proboszcza_desc:0 "People aren't happy of new Proboszcz."
+ KOB_Sytuacja_Proboszcza_tt:0 "Old was always better"
+
+ KOB_Problemy_Kosciola:0 "Problems of the Church"
+ KOB_Problemy_Kosciola_desc:0 "Church is losing people decide if you want to promote church or be against it"
+ KOB_Problemy_Kosciola_tt:0 "Thers no time left!"
+
+ KOB_Sytuacja_Ziemniakow:0 "Potato Tragedy"
+ KOB_Sytuacja_Ziemniakow_desc:0 "People still dont have anything to eat."
+ KOB_Sytuacja_Ziemniakow_tt:0 "Our country is losing lots of money"
+
+ KOB_Pytanie_O_Sklep:0 "New Store?"
+ KOB_Pytanie_O_Sklep_desc:0 "Decide if you want to open new store. It can be risky in this years"
+ KOB_Pytanie_O_Sklep_tt:0 "New Store?"
+
+ KOB_Kontrola_Ludu:0 "Government Control of People"
+ KOB_Kontrola_Ludu_desc:0 "People need to be controled else they will kill us!"
+ KOB_Kontrola_Ludu_tt:0 "Dangerous situation"
+
+ KOB_Lagodna_Milicja:0 "Tightening of the Militia"
+ KOB_Lagodna_Milicja_desc:0 "Militia will observe people all day"
+ KOB_Lagodna_Milicja_tt:0 "Good old technicues"
+
+ KOB_Przemuwienia:0 "Speeches Speeches Speeches..."
+ KOB_Przemuwienia_desc:0 "Speeches Speeches Speeches..."
+ KOB_Przemuwienia_tt:0 "Speeches Speeches Speeches..."
+
+ KOB_Kontrola_Gazet:0 "Newspaper control"
+ KOB_Kontrola_Gazet_desc:0 "Thats the most powerfull tool"
+ KOB_Kontrola_Gazet_tt:0 "Daily Newspaper with a bit of propaganda"
+
+ KOB_Manipulacja_Dziennikarzami:0 "Bribing journalists"
+ KOB_Manipulacja_Dziennikarzami_desc:0 "Thay are as corrupted as you"
+ KOB_Manipulacja_Dziennikarzami_tt:0 "Money changes everyone"
+
+# Demokratyczne Drzewko
+ KOB_Demokracja:0 "Social Party of Active Freedom"
+ KOB_Demokracja_desc:0 "SPAW - Social Party of Active Freedom is democratic party that wants to replace Sotys and solve problems with diplomacy"
  KOB_Demokracja_tt:0 "Good old democracy"
 
- KOB_Non_Aligned:0 "Centralna Partia Panstwowa"
- KOB_Non_Aligned_desc:0 "CPP - Centralna Partia Panstwowa is neutral party thats goal is to farm potatoes in peace and strenghten the economy"
+ KOB_Non_Aligned:0 "Central National Party"
+ KOB_Non_Aligned_desc:0 "CPP - Central National Party is neutral party thats goal is to farm potatoes in peace and strenghten the economy"
  KOB_Non_Aligned_tt:0 "Always neutral side!"
 
  #-----------------------------------------------------------------------------------------------------------------
@@ -99,6 +145,11 @@
  kob_Soltys.1.b:0 "Organize day off from work"
  kob_Soltys.1.c:0 "He was really good Soltys"
  kob_Soltys.1.e:0 "We didnt like him really"
+
+ kob_Ziemniaki.1.t:0 "A Catastrophic Potato Harvest in Kobylniki"
+ kob_Ziemniaki.1.d:0 "This year's potato harvest in Kobylniki has proven to be one of the worst in living memory. Fields lie barren, yields have plummeted, and concern is spreading rapidly among both officials and the population.\n\nExperts warn that without immediate action, the potato market may collapse entirely, risking economic instability and widespread shortages."
+ kob_Ziemniaki.1.a:0 "This is a disaster"
+ kob_Ziemniaki.1.b:0 "We will monitor the situation"
 
  #-----------------------------------------------------------------------------------------------------------------
  # Kobylniki Idee
