@@ -8,5 +8,12 @@ PRZ_Empire_Propaganda = {
 	political_power_gain = -0.10
 	stability_weekly = -0.001
 	fascism_drift = 0.1
+}
+PRZ_test = {
+	icon = AFG_pashtunwali
 
+	enable = {
+		always = yes
+	}
+	political_power_gain = political_power_gain_1
 }

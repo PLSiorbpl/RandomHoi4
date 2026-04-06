@@ -42,7 +42,12 @@ set_technology = {
 }
 
 add_ideas = { PRZ_Destroyed_Economy_1 }
-add_ideas = { PRZ_United_Empire }
+add_dynamic_modfier = {
+	modifer = PRZ_test 
+}
+set_variable = {
+	political_power_gain_1 = 0.1
+}
 ### ARMOR ###
 ### Vanilla Techs ###
 if = {
