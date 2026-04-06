@@ -43,7 +43,7 @@ set_technology = {
 
 add_ideas = { PRZ_Destroyed_Economy_1 }
 set_variable = { political_power_gain_1 = 0.1 }
-set_varioable = { war_support = 0.1}
+set_variable = { war_support = 0.1}
 add_dynamic_modifier = { modifier = PRZ_test }
 
 ### ARMOR ###
