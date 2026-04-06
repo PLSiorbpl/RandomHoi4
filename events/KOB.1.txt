@@ -1,3 +1,19 @@
+add_namespace = kob_historia
+ country_event = {
+	id = kob_historia.1
+
+	title = "kob_historia.1.t"
+	desc = "kob_historia.1.d"
+
+	picture = GFX_report_event_generic_read_write # Zdjęcie ziemniaka kiedyś
+
+	option = {
+		name = "kob_historia.1.a"
+	}
+
+	is_triggered_only = yes
+	fire_only_once = yes
+ }
 add_namespace = kob_proboszcz
  country_event = {
 	id = kob_proboszcz.1
