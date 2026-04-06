@@ -36,9 +36,7 @@ focus = {
 	completion_reward = {
 		add_political_power = -20
 		add_ideas = PRZ_comunism_rising
-		add_to_variable = {
-			political_power_1 = 0.1
-		}
+		add_to_variable = { war_support = 0.1 }
 	}
 	relative_position_id = PRZ_Shatered_Empire
 }
