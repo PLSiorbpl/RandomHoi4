@@ -516,8 +516,9 @@ focus = {
 	}
 	completion_reward = {
 		add_to_variable = {
-			consumer_goods_1 = -0.2 
+			PRZ_consumer_goods_1 = -0.2
 		}
+		custom_effect_tooltip = PRZ_Rally_Workers_to_job_tt
 	}
 	relative_position_id = PRZ_Destroyed_Economy
 }

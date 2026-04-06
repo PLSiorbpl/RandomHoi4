@@ -10,13 +10,13 @@ PRZ_Empire_Propaganda = {
 	fascism_drift = 0.1
 }
 PRZ_Destroyed_Economy = {
-	icon = GER_economy_of_conquest
+	icon = GFX_GER_economy_of_conquest
 
 	enable = {
 		always = yes
 	}
 	consumer_goods_factor = PRZ_consumer_goods_1
-	construction_speed = PRZ_construction_speed
-	factory_output = PRZ_factory_output_1
+	cic_construction_boost = PRZ_construction_speed
+	industrial_capacity_factory = PRZ_factory_output_1
 	
 }
