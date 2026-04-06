@@ -19,7 +19,11 @@ focus_tree = {
         cost = 10
         x = 10
         y = 0
+        complete_tooltip = {
+            custom_effect_tooltip = KOB_Przygotowania_Swiento_ziemniaka_0_tt
+        }
         completion_reward = {
+            custom_effect_tooltip = KOB_Przygotowania_Swiento_ziemniaka_0_tt
             add_political_power = 100
             add_war_support = 0.05
             add_dynamic_modifier = {
@@ -109,12 +113,12 @@ focus_tree = {
         x = -2
         y = 1
         completion_reward = {
-            every_country = {
-                news_event = {
-                    id = kob_Ziemniaki.1
-                    days = 1
+            hidden_effect = {     
+                every_other_country = {
+                    news_event = { id = kob_Ziemniaki.1 days = 1 }
                 }
             }
+            news_event = { id = kob_Ziemniaki.1 days = 1 }
 
             add_stability = -0.05
             add_war_support = -0.05
@@ -138,10 +142,10 @@ focus_tree = {
         completion_reward = {
             add_stability = -0.05
             add_war_support = -0.1
-            hidden_effect = {
-                remove_ideas = Nieudane_Zbiory_Ziemniakow_1
+            swap_ideas = {
+                remove_idea = Nieudane_Zbiory_Ziemniakow_1
+                add_idea = Nieudane_Zbiory_Ziemniakow_2
             }
-            add_ideas = Nieudane_Zbiory_Ziemniakow_2
         }
     }
 
@@ -158,10 +162,10 @@ focus_tree = {
         completion_reward = {
             add_political_power = -50
             add_ideas = civilian_economy
-            hidden_effect = {
-                remove_ideas = Nieudane_Zbiory_Ziemniakow_2
+            swap_ideas = {
+                remove_idea = Nieudane_Zbiory_Ziemniakow_2
+                add_idea = Nieudane_Zbiory_Ziemniakow_3
             }
-            add_ideas = Nieudane_Zbiory_Ziemniakow_3
         }
     }
 
@@ -303,12 +307,12 @@ focus_tree = {
         y = 3
         completion_reward = {
             add_ideas = Brak_Wladzy
-            every_country = {
-                news_event = {
-                    id = kob_Soltys.1
-                    days = 1
+            hidden_effect = {
+                every_other_country = {
+                    news_event = { id = kob_Soltys.1 days = 1 }
                 }
             }
+            news_event = { id = kob_Soltys.1 days = 1 }
         }
     }
 
@@ -450,7 +454,12 @@ focus_tree = {
         x = -7
         y = 1
         completion_reward = {
-            
+            hidden_effect = {     
+                every_other_country = {
+                    news_event = { id = kob_Komunizm.1 days = 1 }
+                }
+            }
+            news_event = { id = kob_Komunizm.1 days = 1 }
         }
     }
 
@@ -492,7 +501,7 @@ focus_tree = {
             focus = KOB_Problemy_Wewnetrzne
         }
         relative_position_id = KOB_Problemy_Wewnetrzne
-        cost = x
+        cost = 5
         x = 1
         y = 1
         completion_reward = {
@@ -507,7 +516,7 @@ focus_tree = {
             focus = KOB_Sytuacja_Proboszcza
         }
         relative_position_id = KOB_Sytuacja_Proboszcza
-        cost = x
+        cost = 5
         x = 0
         y = 1
         completion_reward = {

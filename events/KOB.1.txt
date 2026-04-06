@@ -94,7 +94,6 @@ add_namespace = kob_Soltys
 	}
 
 	is_triggered_only = yes
-	#fire_only_once = yes
  }
 add_namespace = kob_Ziemniaki
  news_event = {
@@ -113,5 +112,38 @@ add_namespace = kob_Ziemniaki
 	}
 
 	is_triggered_only = yes
-	#fire_only_once = yes
+ }
+add_namespace = kob_Komunizm
+ news_event = {
+	id = kob_Komunizm.1
+
+	title = "kob_Komunizm.1.t"
+	desc = "kob_Komunizm.1.d"
+
+	picture = GFX_report_event_communist_leader
+
+	option = {
+		trigger = { tag = KOB }
+		name = "kob_Komunizm.1.a"
+		add_political_power = 25
+		add_stability = 0.01
+	}
+	option = {
+		trigger = { NOT = { tag = KOB } }
+		name = "kob_Komunizm.1.b"
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+	}
+	option = {
+		trigger = { NOT = { tag = KOB } }
+		name = "kob_Komunizm.1.c"
+		add_popularity = {
+			ideology = communism
+			popularity = -0.02
+		}
+	}
+
+	is_triggered_only = yes
  }
