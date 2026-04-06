@@ -129,6 +129,7 @@ ideas = {
 				supply_consumption_factor = 0.50
 				army_defence_factor = -0.30
 				army_experience_daily = -0.10
+				command_power_gain_mult = -0.15
 			}
 		}
 	}
@@ -140,9 +141,11 @@ ideas = {
 			picture = GFX_focus_GER_army
 
 			modifier = {
-				division_army_attack_factor = -0.50
-				supply_consumption_factor = 0.50
+				division_army_attack_factor = +0.40
+				supply_consumption_factor = -0.60
 				army_defence_factor = -0.30
+				command_power_gain_mult = 0.20
+				
 			}
 		}
 	}
@@ -150,7 +153,7 @@ ideas = {
 
 ideas = {
     country = {
-        Headless_government = {
+        Army_cabinet = {
             picture = generic_disrupted_lines
             modifier = {
                 political_power_gain = -0.40
