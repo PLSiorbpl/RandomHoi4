@@ -36,7 +36,6 @@ focus = {
 	completion_reward = {
 		add_political_power = -20
 		add_ideas = PRZ_comunism_rising
-		add_to_variable = { war_support = 0.1 }
 	}
 	relative_position_id = PRZ_Shatered_Empire
 }
@@ -516,10 +515,9 @@ focus = {
 		focus = PRZ_Destroyed_Economy
 	}
 	completion_reward = {
-		hidden_effect = {
-			remove_ideas = PRZ_Destroyed_Economy_1
+		add_to_variable = {
+			consumer_goods_1 = -0.2 
 		}
-		add_ideas = PRZ_Destroyed_Economy_2
 	}
 	relative_position_id = PRZ_Destroyed_Economy
 }
@@ -533,10 +531,7 @@ focus = {
 		focus = PRZ_Rally_Workers_to_job
 	}
 	completion_reward = {
-		hidden_effect = {
-			remove_ideas = PRZ_Destroyed_Economy_2
-		}
-		add_ideas = PRZ_Destroyed_Economy_3
+		add_to_variable = { PRZ_consumer_goods_1 = -0.5 }
 	}
 	relative_position_id = PRZ_Rally_Workers_to_job
 }

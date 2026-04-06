@@ -41,10 +41,10 @@ set_technology = {
 	
 }
 
-add_ideas = { PRZ_Destroyed_Economy_1 }
-set_variable = { political_power_gain_1 = 0.1 }
-set_variable = { war_support = 0.1}
-add_dynamic_modifier = { modifier = PRZ_test }
+add_dynamic_modifier = { modifier = PRZ_Destroyed_Economy }
+set_variable = { PRZ_consumer_goods_1 = 0.2}
+set_variable = { PRZ_construction_speed = 0.5 }
+set_variable = { PRZ_factory_output_1 = 0.7 }
 
 ### ARMOR ###
 ### Vanilla Techs ###

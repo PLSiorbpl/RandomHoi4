@@ -48,27 +48,6 @@ ideas = {
 				air_ace_chance = -0.5
 			}
 		}
-		PRZ_Destroyed_Economy_1 = {
-			picture = AFG_economic_regionalism
-			modifier ={
-				consumer_goods_factor = 0.3
-				construction_speed_factor = -0.3
-				industrial_capacity_factory = -0.3
-			}
-		}
-		PRZ_Destroyed_Economy_2 = {
-			picture = AFG_economic_regionalism
-			modifier ={
-				consumer_goods_factor = 0.3
-				industrial_capacity_factory = -0.3
-			}
-		}
-		PRZ_Destroyed_Economy_3 = {
-			picture = AFG_economic_regionalism
-			modifier ={
-				consumer_goods_factor = 0.3
-			}
-		}
 		PRZ_Shining_Economy = {
 			picture = GER_recovering_economy
 			modifier = {

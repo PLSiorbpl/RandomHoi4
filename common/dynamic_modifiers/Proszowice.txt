@@ -9,11 +9,14 @@ PRZ_Empire_Propaganda = {
 	stability_weekly = -0.001
 	fascism_drift = 0.1
 }
-PRZ_test = {
-	icon = AFG_pashtunwali
+PRZ_Destroyed_Economy = {
+	icon = GER_economy_of_conquest
 
 	enable = {
 		always = yes
 	}
-	political_power_gain = political_power_gain_1
+	consumer_goods_factor = PRZ_consumer_goods_1
+	construction_speed = PRZ_construction_speed
+	factory_output = PRZ_factory_output_1
+	
 }
