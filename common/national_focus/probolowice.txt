@@ -80,6 +80,21 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = kgw2
+		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
+		relative_position_id = kgw1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = kgw1
+		}
+		cost = 1
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.1
+		}
+	}
 	
 	focus = {
 		id = daniel1
@@ -138,12 +153,198 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = kgwkorupcja1
+		#GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility infra
+		#GFX_SOV_eastern_development_ccp_2d_sov_compatibility cywilka
+		icon = GFX_focus_ARG_anti_corruption_policies
+		x = 6
+		y = 0
+		cost = 1
+		completion_reward = {
+			swap_ideas = {
+                remove_idea = Korupcja_kgw
+                add_idea = Mniejsza_korupcja_kgw
+            }
+		}
+	}
+	focus = {
+		id = kgwkorupcja2
+		#GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility infra
+		#GFX_SOV_eastern_development_ccp_2d_sov_compatibility cywilka
+		icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+		relative_position_id = kgwkorupcja1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = kgwkorupcja1
+		}
+		completion_reward = {
+			add_manpower = -100
+			add_stability = -0.05
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = kgwkorupcja3
+		#GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility infra
+		#GFX_SOV_eastern_development_ccp_2d_sov_compatibility cywilka
+		icon = GFX_SOV_claims_in_baltic_ccp_2d_sov_compatibility
+		relative_position_id = kgwkorupcja1
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = kgwkorupcja1
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgwkorupcja4
+		#GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility infra
+		#GFX_SOV_eastern_development_ccp_2d_sov_compatibility cywilka
+		icon = GFX_SOV_a_global_class_struggle_ccp_2d_sov_compatibility
+		relative_position_id = kgwkorupcja1
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = kgwkorupcja3
+		}
+		prerequisite = {
+			focus = kgwkorupcja2
+		}
+		completion_reward = {
+			swap_ideas = {
+                remove_idea = Mniejsza_korupcja_kgw
+                add_idea = Ogarniete_kgw
+            }
+		}
+	}
+	focus = {
+		id = ekonomia1
+		icon = GFX_focus_ARG_economic_reactivation_act
+		x = 11
+		y = 0
+		cost = 1
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = ekonomia2
+		icon = GFX_focus_AFG_fruit_processing
+		relative_position_id = ekonomia1
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ekonomia1
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ekonomia3
+		icon = GFX_focus_NORDIC_com_civilian
+		relative_position_id = ekonomia1
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ekonomia1
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ekonomia4
+		icon = GFX_focus_generic_the_council_of_europe
+		relative_position_id = ekonomia1
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ekonomia1
+		}
+		completion_reward = {
+			add_timed_idea = { idea = Porzyczka_z_unii days = 120 }
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = ekonomia5
+		icon = GFX_SOV_paced_industrialization_ccp_2d_sov_compatibility
+		relative_position_id = ekonomia1
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = { focus = ekonomia2 }
+		prerequisite = { focus = ekonomia3 }
+		prerequisite = { focus = ekonomia4 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Farmerska_wioska_1
+				add_idea = Farmerska_wioska_2
+			}
+		}
+	}
+	focus = {
+		id = ekonomia6
+		icon = GFX_goal_tripartite_pact
+		relative_position_id = ekonomia1
+		x = -1
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ekonomia5
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = ekonomia7
+		icon = GFX_goal_tripartite_pact
+		relative_position_id = ekonomia1
+		x = 1
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ekonomia5
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ekonomia8
+		icon = GFX_goal_tripartite_pact
+		relative_position_id = ekonomia1
+		x = 0
+		y = 4
+		cost = 1
+		prerequisite = { focus = ekonomia6 }
+		prerequisite = { focus = ekonomia7 }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Farmerska_wioska_2
+				add_idea = Farmerska_wioska_3
+			}
+		}
+			
+	}
+	focus = {
 		id = industry1
 		#GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility infra
 		#GFX_SOV_eastern_development_ccp_2d_sov_compatibility cywilka
 		icon = GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility
 		x = 12
-		y = 0
+		y = 5
 		cost = 1
 		completion_reward = {
 			random_owned_state = {
@@ -226,6 +427,20 @@ focus_tree = {
 		cost = 1
 		prerequisite = {
 			focus = industry3
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = industry7
+		icon = GFX_focus_mex_privatisation
+		relative_position_id = industry5
+		y = 1
+		x = 0
+		cost = 1
+		prerequisite = {
+			focus = industry5
 		}
 		completion_reward = {
 			
