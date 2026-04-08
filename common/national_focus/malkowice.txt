@@ -8,9 +8,12 @@ focus_tree = {
         } 
 } 
 continuous_focus_position = { x = 1500 y = 1500 }
+#---------------------------------------------------------------------------------
+#Polityka
 focus = {
         id = MLK_Wielkie_Zebranie_u_Soltysa
         icon = GFX_SOV_capital_of_the_tsars_ccp_2d_sov_compatibility
+        cost = 10
 
         
         completion_reward = {
@@ -19,12 +22,12 @@ focus = {
             }
         }
 focus = {
-        id = MLK_Marsz_Czarnych_Gumiakow
+        id = MLK_Malkowicki_Imperializm
         icon = GFX_SOV_muster_the_old_guard_ccp_2d_sov_compatibility
         prerequisite = {
             focus = MLK_Wielkie_Zebranie_u_Soltysa
         }
-        relative_position_id = MLK_Marsz_Czarnych_Gumiakow
+        relative_position_id = MLK_Malkowicki_Imperializm
         cost = 3
         x = 0
         y = 1
@@ -39,19 +42,93 @@ focus = {
     }
     focus = {
         id = MLK_Kult_Wodza_Gminy
-        icon = GFX_SOV_capital_of_the_tsars_ccp_2d_sov_compatibility
+        icon = GFX_SOV_depoliticize_the_military_ccp_2d_sov_compatibility
         prerequisite = {
             focus = MLK_Wielkie_Zebranie_u_Soltysa
         }
         relative_position_id = MLK_Kult_Wodza_Gminy
-        cost = 2
+        cost = 5
         x = 2
         y = 1
         completion_reward = {
             # chyba dodaje nie wiem
+            add_ideas = organizacja_armi
+        }
+    }
+focus = {
+        id = MLK_Marsz_Czarnych_Gumiakow
+        icon = GFX_SOV_an_adaptable_army_ccp_2d_sov_compatibility
+        prerequisite = {
+            focus = MLK_Wielkie_Zebranie_u_Soltysa
+        }
+        relative_position_id = MLK_Marsz_Czarnych_Gumiakow
+        cost = 4
+        x = 4
+        y = 1
+        completion_reward = {
+            # chyba dodaje nie wiem
+            add_popularity = {
+                ideology = fascism
+                popularity = 0.1 # 20%
+            }
+            add_stability = 0.1 # 10%
+        }
+    }
+focus = {
+        id = MLK_Malkowicka_Samowystarczalnosc
+        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        prerequisite = {
+            focus = MLK_Malkowicki_Imperializm
+        }
+        relative_position_id = MLK_Malkowicka_Samowystarczalnosc
+        cost = 13
+        x = 0
+        y = 2
+        completion_reward = {
+            # chyba dodaje nie wiem
+            add_ideas = bonus_do_produkcji
+            }
+        }
+focus = {
+        id = MLK_Nadwislanski_Wal_Obronny
+        icon = GFX_SOV_far_east_fortification_ccp_2d_sov_compatibility
+        prerequisite = {
+            focus = MLK_Kult_Wodza_Gminy
+        }
+        relative_position_id = MLK_Nadwislanski_Wal_Obronny
+        cost = 17
+        x = 2
+        y = 2
+        completion_reward = {
+            # chyba dodaje nie wiem
+            add_popularity = {
+                ideology = democratic
+                popularity = 0.2 # 20%
+            }
             add_political_power = 50
             add_stability = 0.1 # 10%
             add_war_support = -0.1 # -10%
         }
-    }      
     }
+focus = {
+        id = MLK_Panstwo_Jednosci_Narodowej
+        icon = GFX_SOV_control_scandinavia_ccp_2d_sov_compatibility
+        prerequisite = {
+            focus = MLK_Marsz_Czarnych_Gumiakow
+        }
+        relative_position_id = MLK_Panstwo_Jednosci_Narodowej
+        cost = 2
+        x = 4
+        y = 2
+        completion_reward = {
+            # chyba dodaje nie wiem
+            add_popularity = {
+                ideology = fascism
+                popularity = 0.2 # 20%
+            }
+            add_political_power = 25
+            add_stability = 0.2 # 20%
+            add_war_support = 0.1 # +10%
+        }
+    }
+    }          
