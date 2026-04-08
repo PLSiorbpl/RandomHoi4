@@ -1,0 +1,11 @@
+PRO_5_year_plan = {
+	icon = man_five_year_plan_industry
+
+	enable = {
+		always = yes
+	}
+	consumer_goods_factor = PRO_consumer_goods_1
+	cic_construction_boost = PRO_construction_speed_1
+	industrial_capacity_factory = PRO_factory_output_1
+	
+}

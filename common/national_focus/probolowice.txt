@@ -56,7 +56,7 @@ focus_tree = {
 		id = kgw1
 		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
 		relative_position_id = polityka3
-		x = -3
+		x = -5
 		y = 1
 
 		available = {
@@ -82,7 +82,9 @@ focus_tree = {
 	}
 	focus = {
 		id = kgw2
-		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
+		#reżim kgw
+		icon = GFX_focus_AFG_integrate_tajik_and_uzbek_republics
+		
 		relative_position_id = kgw1
 		x = 0
 		y = 1
@@ -95,7 +97,192 @@ focus_tree = {
 			add_stability = 0.1
 		}
 	}
-	
+	focus = {
+		id = kgw3
+		# centralny komitet gospodyń
+		icon = GFX_focus_SWE_socialist_reforms
+		relative_position_id = kgw1
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = kgw1
+		}
+		cost = 1
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = kgw4
+		#plan 5 letni
+		icon = GFX_SOV_finish_the_five_year_plan_ccp_2d_sov_compatibility
+		relative_position_id = kgw1
+		x = 1
+		y = 2
+		prerequisite = { focus = kgw2 }
+		prerequisite = { focus = kgw3}
+		
+		cost = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				
+			}
+			add_dynamic_modifier = {
+				modifier = PRO_5_year_plan
+			}
+			add_to_variable = {
+				PRO_consumer_goods_1 = -0.05
+				PRO_construction_speed_1 = 0.1
+			}
+    	}
+	}
+	focus= {
+		id = kgw5
+		#kolektywizacja wsi
+		icon = GFX_focus_GER_proletarian_solidarity
+		relative_position_id = kgw1
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = kgw4
+		}
+		cost = 1
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.1
+			add_to_variable = {
+				PRO_consumer_goods_1 = -0.05
+				PRO_construction_speed = 0.1
+		}
+		}
+	}
+	focus = {
+		id = kgw6
+		#reforma chłopów
+		icon = GFX_focus_prc_agrarian_socialism
+		relative_position_id = kgw1
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = kgw4
+		}
+		cost = 1
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.1
+			add_to_variable = {
+				PRO_factory_output_1 = 0.1
+			}
+			add_stability = -0.1
+		}
+	}
+	focus = {
+		id = kgw7
+		#dożynki uspokajające lud
+		icon = GFX_focus_ITA_the_italian_republic
+		relative_position_id = kgw1
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = kgw5
+		}
+		prerequisite = {
+			focus = kgw6
+		}
+		cost = 1
+		completion_reward = {
+			add_war_support = 0.1
+			add_political_power = 50
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = kgw8
+		#wspolne magazyny żarcia
+		icon = GFX_focus_ARG_unify_south_america
+		relative_position_id = kgw1
+		x = -1
+		y = 5
+		prerequisite = {
+			focus = kgw7
+		}
+		cost = 1
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgw10
+		#przemowa dla ludu
+		icon = GFX_focus_AUS_union_of_danubian_socialist_republics
+		relative_position_id = kgw1
+		x = 3
+		y = 5
+		prerequisite = {
+			focus = kgw7
+		}
+		cost = 1
+		completion_reward = {
+			add_war_support = 0.1
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgw9
+		icon = GFX_focus_GER_proletarian_dictatorship
+		#ludowa kontrola produkcji
+		relative_position_id = kgw1
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = kgw7
+		}
+		cost = 1
+		completion_reward = {
+			add_to_variable = {
+				PRO_consumer_goods_1 = -0.05
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgw11
+		#czerwone dożynki
+		icon = GFX_focus_fra_loyalty_stalin
+		relative_position_id = kgw1
+		x = 1
+		y = 6
+		prerequisite = { focus = kgw10 }
+		prerequisite = { focus = kgw9 }
+		prerequisite = { focus = kgw8 }
+		cost = 1
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.15
+			add_war_support = 0.15
+			add_to_variable = {
+				PRO_consumer_goods_1 = -0.1
+				PRO_factory_output_1 = 0.1
+		}
+		}
+	}
 	focus = {
 		id = daniel1
 		icon = GFX_SOV_autonomous_soviet_republics_ccp_2d_sov_compatibility
@@ -249,7 +436,8 @@ focus_tree = {
 	}
 	focus = {
 		id = ekonomia3
-		icon = GFX_focus_NORDIC_com_civilian
+		icon = GFX_focus_ARG_capitalize_the_beef_industry
+		#rozwoj krow na mieso
 		relative_position_id = ekonomia1
 		x = 0
 		y = 1
@@ -447,6 +635,18 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = industry8
+		#Mechanizacja rolnictwa
+		icon = GFX_focus_mex_privatisation
+		relative_position_id = industry7
+		y = 1
+		x = -2
+		cost = 1
+		prerequisite = {
+			focus = industry7
+		}
+	}
+	focus = {
 		id = industry6
 		icon = GFX_SOV_foreign_experts_ccp_2d_sov_compatibility
 		relative_position_id = industry3
@@ -471,7 +671,7 @@ focus_tree = {
 			focus = industry6
 		}
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 	}
 	focus = {
