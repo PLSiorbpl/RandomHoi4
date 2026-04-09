@@ -150,6 +150,7 @@ focus_tree = {
 				PRO_consumer_goods_1 = -0.05
 				PRO_construction_speed_1 = 0.1
 			}
+			custom_effect_tooltip = kgw4_tt
     	}
 	}
 	focus= {
@@ -165,11 +166,12 @@ focus_tree = {
 		cost = 1
 		completion_reward = {
 			add_political_power = 75
-			add_stability = 0.1
+			add_stability = -0.25
 			add_to_variable = {
 				PRO_consumer_goods_1 = -0.05
 				PRO_construction_speed = 0.1
-		}
+		    }
+			custom_effect_tooltip = kgw5_tt
 		}
 	}
 	focus = {
@@ -185,11 +187,11 @@ focus_tree = {
 		cost = 1
 		completion_reward = {
 			add_political_power = 75
-			add_stability = 0.1
 			add_to_variable = {
 				PRO_factory_output_1 = 0.1
 			}
-			add_stability = -0.1
+			custom_effect_tooltip = kgw6_tt
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -259,7 +261,8 @@ focus_tree = {
 			add_to_variable = {
 				PRO_consumer_goods_1 = -0.05
 			}
-			add_stability = 0.05
+			custom_effect_tooltip = kgw9_tt
+			add_stability = -0.05
 		}
 	}
 	focus = {
@@ -644,6 +647,9 @@ focus_tree = {
 		cost = 1
 		prerequisite = {
 			focus = industry7
+		}
+		completion_reward = {
+			
 		}
 	}
 	focus = {

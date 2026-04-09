@@ -74,7 +74,7 @@ ideas = {
 ideas = {
 	country = {
 		Korupcja_kgw = {
-			picture = SPR_disbanded_army
+			picture = ARG_political_corruption_modifier
 
 			modifier = {
 				consumer_goods_factor = 0.2
@@ -111,7 +111,7 @@ ideas = {
 ideas = {
 	country = {
 		Porzyczka_z_unii = {
-			picture = ARG_political_corruption_modifier
+			picture = ARG_public_works_investment
 
 			modifier = {
 				consumer_goods_factor = 0.1
